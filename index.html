@@ -50,13 +50,14 @@
         font-family: "Manrope", "Space Grotesk", "Helvetica Neue", Arial,
           sans-serif;
         color: var(--text);
-        display: grid;
-        place-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
         padding: 32px 18px;
       }
 
       .shell {
-        width: min(1180px, 100%);
+        width: min(1080px, 96vw);
         position: relative;
         overflow: hidden;
       }
@@ -2198,6 +2199,7 @@
       cards.forEach((card) => {
         card.addEventListener("click", () => {
           const subjectId = card.dataset.id;
+          card.scrollIntoView({ behavior: "smooth", block: "center" });
           openDetail(subjectId);
         });
       });
@@ -2737,6 +2739,7 @@
               if (willExpand) {
                 deckList.classList.add("expanded");
                 setChevron(btn, true);
+                scrollIntoModalView(deckList, 64);
               } else {
                 deckList.classList.remove("expanded");
                 setChevron(btn, false);
@@ -3170,6 +3173,15 @@
         chev.style.transform = expanded ? "rotate(180deg)" : "rotate(0deg)";
       }
 
+      function scrollIntoModalView(target, offset = 0) {
+        const modal = detailOverlay.querySelector(".modal");
+        if (!modal || !target) return;
+        const rect = target.getBoundingClientRect();
+        const mRect = modal.getBoundingClientRect();
+        const top = modal.scrollTop + (rect.top - mRect.top) - offset;
+        modal.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
+      }
+
       function barStyleFor(subjectId) {
         const style = subjectBars[subjectId] || subjectBars.fph;
         return `--bar-base:${style.base}; --bar-glow:${style.glow};`;
@@ -3312,7 +3324,9 @@
           subject.topics = (window.PHED_QUIZ || []).map((q) => ({
             id: q.id,
             title: q.title,
+            // păstrează primul item pentru compatibilitate, dar expune și lista completă
             question: q.questions?.[0] || null,
+            questions: q.questions || [],
           }));
         }
       }
@@ -3455,6 +3469,7 @@
             `;
           })
           .join('<hr class="quiz-sep">');
+        wireTooltips(quizPanelContent);
         quizPanelContent.scrollTop = 0;
         const modalEl = detailOverlay.querySelector(".modal");
         if (modalEl) modalEl.scrollTo({ top: 0, behavior: "auto" });
