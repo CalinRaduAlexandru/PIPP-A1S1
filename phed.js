@@ -78,7 +78,6 @@ window.PHED_CONTENT = {
             "phed-u5-q10", // Q1. Conceptul de sine la diferite vârste
             "phed-u5-q11", // Q2. Stima de sine (categorii de elevi – Woolfolk)
             "phed-u5-q12", // Q3. Feedbackul ca suport pentru stima de sine
-            "phed-u5-q13", // Q4. Strategii și metode în sala de clasă
           ],
         },
       ],
@@ -87,91 +86,259 @@ window.PHED_CONTENT = {
       id: "phed-u6",
       titlu: "U6. Teoriile învățării",
       subcapitole: [
-        { id: "phed-u6-s1", titlu: "Behaviorism", quizuri: ["phed-u6-q1"] },
+        {
+          id: "phed-u6-s1",
+          titlu: "Teorii ale învățării",
+          quizuri: [
+            "phed-u6-q1", // Q0. Recunoașterea teoriilor (mapping pe autori + idei cheie)
+            "phed-u6-q2", // Q1. Condiționarea operantă – B. F. Skinner
+            "phed-u6-q3", // Q2. Constructivismul cognitiv – Jean Piaget vs. Constructivismul social – Lev Vîgotski
+            "phed-u6-q4", // Q3. Învățarea transformatoare – Jack Mezirow
+          ],
+        },
         {
           id: "phed-u6-s2",
-          titlu: "Constructivism și socio-constructivism",
-          quizuri: ["phed-u6-q2"],
+          titlu: "Modele și aplicații în educație",
+          quizuri: [
+            "phed-u6-q5", // Q0. Învățarea integrată
+            "phed-u6-q6", // Q1. Stilurile de învățare – Kolb
+            "phed-u6-q7", // Q2. Cele patru stiluri (Divergent, Asimilator, Convergent, Acomodator)
+            "phed-u6-q8", // Q3. Învățarea personalizată
+          ],
         },
       ],
     },
+    ,
     {
       id: "phed-u7",
       titlu: "U7. Rolul factorilor non-cognitivi în învățare",
       subcapitole: [
         {
           id: "phed-u7-s1",
-          titlu: "Motivație și mindset",
-          quizuri: ["phed-u7-q1"],
+          titlu: "Factori non-cognitivi",
+          quizuri: [
+            "phed-u7-q1", // Q0. Ce sunt factorii non-cognitivi și de ce contează în învățare
+          ],
         },
         {
           id: "phed-u7-s2",
-          titlu: "Emoții și autoreglare afectivă",
-          quizuri: ["phed-u7-q2"],
+          titlu: "Motivația în învățare",
+          quizuri: [
+            "phed-u7-q2", // Q0. Ce este motivația și de ce este esențială în învățare (introducere)
+            "phed-u7-q3", // Q1. Teoria Expectanță–Valoare
+            "phed-u7-q4", // Q2. Teoria Auto-Determinării (SDT)
+            "phed-u7-q5", // Q3. Motivația prin joc și gamification
+            "phed-u7-q6", // Q4. Piramida Nevoilor – Maslow
+          ],
+        },
+        {
+          id: "phed-u7-s3",
+          titlu: "Teorii cognitive ale motivației",
+          quizuri: [
+            "phed-u7-q7", // Q0. Introducere în teoriile cognitive ale motivației
+            "phed-u7-q8", // Q1. Teoria atribuirii
+            "phed-u7-q9", // Q2. Teoria neajutorării învățate
+          ],
+        },
+        {
+          id: "phed-u7-s4",
+          titlu: "Fazele procesului motivațional",
+          quizuri: [
+            "phed-u7-q10", // Q0. Fazele procesului motivațional (Mih, 2010)
+          ],
+        },
+        {
+          id: "phed-u7-s5",
+          titlu: "Atitudini, afectivitatea și metacogniția",
+          quizuri: [
+            "phed-u7-q11", // Q0. Relația dintre atitudini și motivația pentru învățare
+            "phed-u7-q12", // Q1. Metacogniția ca factor de autoreglare
+            "phed-u7-q13", // Q2. Interacțiunea dintre motivație și metacogniție în performanță
+          ],
         },
       ],
     },
+
     {
       id: "phed-u8",
       titlu: "U8. Autoreglarea procesului de învățare",
       subcapitole: [
         {
           id: "phed-u8-s1",
-          titlu: "Metacogniție și strategie",
+          titlu:
+            "Introducere în autoreglarea învățării (perspectivă generală: Pintrich, Zimmerman)",
+          scop: "Clarificarea ideii de învățare autoreglată și a rolului activ al elevului.",
           quizuri: ["phed-u8-q1"],
+          // Fundament conceptual comun ambilor autori
         },
+
         {
           id: "phed-u8-s2",
-          titlu: "Monitorizare și feedback",
-          quizuri: ["phed-u8-q2"],
+          titlu: "Modele de autoreglare în învățare",
+          scop: "Înțelegerea definițiilor și modelelor teoretice majore ale autoreglării.",
+          quizuri: [
+            "phed-u8-q2", // Modelul autoreglării la Pintrich (2000)
+            "phed-u8-q3", // Modelul ciclic al autoreglării la Zimmerman (2000)
+            "phed-u8-q4", // Asemănări și diferențe Pintrich – Zimmerman
+          ],
         },
-      ],
-    },
-    {
-      id: "phed-u9",
-      titlu: "U9. Ergonomia activității școlare",
-      subcapitole: [
+
         {
-          id: "phed-u9-s1",
-          titlu: "Climat și spațiu de învățare",
-          quizuri: ["phed-u9-q1"],
+          id: "phed-u8-s3",
+          titlu: "Autoreglarea cogniției (Pintrich, 2000)",
+          scop: "Înțelegerea proceselor cognitive și metacognitive implicate în autoreglare.",
+          quizuri: [
+            "phed-u8-q5", // Planificare și activare cognitivă
+            "phed-u8-q6", // Monitorizarea cogniției și metacogniția
+            "phed-u8-q7", // Controlul și reflecția cognitivă
+          ],
+          // Structură în 4 faze: planificare – monitorizare – control – reflecție
         },
+
         {
-          id: "phed-u9-s2",
-          titlu: "Factori de oboseală și prevenție",
-          quizuri: ["phed-u9-q2"],
+          id: "phed-u8-s4",
+          titlu:
+            "Autoreglarea motivației și a stărilor afective (Pintrich + aport Zimmerman)",
+          scop: "Analiza modului în care elevii își reglează motivația, emoțiile și convingerile.",
+          quizuri: [
+            "phed-u8-q8", // Autoeficacitate, EOL, credințe motivaționale
+            "phed-u8-q9", // Valoarea sarcinii, modelul expectanță–valoare
+            "phed-u8-q10", // Emoții și atribuirea în contextul autoreglării
+          ],
+          // Pintrich: reglarea motivației în sarcină
+          // Zimmerman: rolul autoeficacității și feedbackului
+        },
+
+        {
+          id: "phed-u8-s5",
+          titlu: "Autoreglarea comportamentului (Pintrich, 2000)",
+          scop: "Înțelegerea modului în care elevii își gestionează timpul, efortul și strategiile.",
+          quizuri: [
+            "phed-u8-q11", // Planificarea și monitorizarea comportamentului
+            "phed-u8-q12", // Controlul și reflecția comportamentală
+          ],
+          // Clar derivat din modelul lui Pintrich
+        },
+
+        {
+          id: "phed-u8-s6",
+          titlu: "Reglarea contextului de învățare (Pintrich, 2000)",
+          scop: "Conștientizarea rolului contextului și a percepției acestuia în autoreglare.",
+          quizuri: ["phed-u8-q13"],
+          // Componentă specifică Pintrich: contextul ca obiect al autoreglării
+        },
+
+        {
+          id: "phed-u8-s7",
+          titlu:
+            "Dezvoltarea și importanța autoreglării (Zimmerman, Cleary & Zimmerman)",
+          scop: "Înțelegerea modalităților de formare a autoreglării și a impactului ei educațional.",
+          quizuri: [
+            "phed-u8-q14", // Programul de împuternicire (Cleary & Zimmerman)
+            // "phed-u8-q15", Importanța autoreglării pentru performanță și adaptare
+          ],
+          // Accent pe ciclu, feedback, speranță, împuternicire
         },
       ],
     },
     {
       id: "phed-u10",
-      titlu: "U10. Gestionarea grupului de elevi",
+      titlu: "U10. Grupul și dinamica grupurilor educaționale",
       subcapitole: [
         {
           id: "phed-u10-s1",
-          titlu: "Dinamici de grup și roluri",
-          quizuri: ["phed-u10-q1"],
+          titlu: "Fundamente psihologice ale existenței grupurilor",
+          quizuri: [
+            "phed-u10-q1", // Q2. Definiția grupului (de Visscher)
+            "phed-u10-q2", // Q3. Categorii de grupuri
+          ],
         },
+
         {
           id: "phed-u10-s2",
-          titlu: "Disciplină și managementul clasei",
-          quizuri: ["phed-u10-q2"],
+          titlu: "Caracteristicile grupurilor eficiente",
+          quizuri: [
+            "phed-u10-q3", // Q1. Grupul eficient (Zlate, McGregor)
+            "phed-u10-q4", // Q2. Dinamica grupurilor (Kurt Lewin, 1947)
+          ],
+        },
+
+        {
+          id: "phed-u10-s3",
+          titlu: "De la grupul școlar eficient la comunitatea de învățare",
+          quizuri: [
+            "phed-u10-q5", // Q1. Grupul școlar / clasa de elevi și Caracteristicile clasei (Sălăvăstru)
+            "phed-u10-q6", // Q2. Comunitatea de învățare
+          ],
+        },
+
+        {
+          id: "phed-u10-s4",
+          titlu: "Grupurile cu minți creative și distrate",
+          quizuri: [
+            "phed-u10-q7", // Q1. Vechi în cunoaștere – instinctul social (Peter Gray)
+            "phed-u10-q8", // Q2. Nou în cunoaștere – impactul avansului tehnologic
+          ],
+        },
+
+        {
+          id: "phed-u10-s5",
+          titlu: "Metode de cunoaștere și analiză a grupului",
+          quizuri: [
+            "phed-u10-q9", // Q1. Metoda sociometrică
+            "phed-u10-q10", // Q2. Coeziunea grupului
+            "phed-u10-q11", // Q3. Indici sociometrici individuali
+          ],
         },
       ],
     },
     {
       id: "phed-u11",
-      titlu: "U11. Succes și eșec școlar",
+      titlu: "U11. Succesul și eșecul școlar",
       subcapitole: [
         {
           id: "phed-u11-s1",
-          titlu: "Factori care susțin succesul",
-          quizuri: ["phed-u11-q1"],
+          titlu: "Succesul în învățare: concept și perspective",
+          quizuri: [
+            "phed-u11-q1", // Succesul în învățare: definiții și perspective
+            "phed-u11-q2", // Indicatori și concepte asociate succesului
+          ],
         },
+
         {
           id: "phed-u11-s2",
-          titlu: "Intervenții pentru prevenirea eșecului",
-          quizuri: ["phed-u11-q2"],
+          titlu: "Factorii determinanți ai succesului școlar",
+          quizuri: [
+            "phed-u11-q3", // Motivația și factorii interni ai elevului
+            "phed-u11-q4", // Factorii externi ai succesului școlar
+          ],
+        },
+
+        {
+          id: "phed-u11-s3",
+          titlu: "Manifestări ale succesului și insuccesului școlar",
+          quizuri: [
+            "phed-u11-q5", // Forme de manifestare și criterii de apreciere
+            "phed-u11-q6", // Tipuri și dimensiuni ale insuccesului școlar
+          ],
+        },
+
+        {
+          id: "phed-u11-s4",
+          titlu: "Dificultăți de învățare și eșec școlar",
+          quizuri: [
+            "phed-u11-q7", // Dificultăți de învățare: clasificări
+            "phed-u11-q8", // Factorii determinanți ai eșecului școlar
+          ],
+        },
+
+        {
+          id: "phed-u11-s5",
+          titlu: "Prevenirea și diminuarea eșecului școlar",
+          quizuri: [
+            "phed-u11-q9", // Strategii de prevenire a eșecului școlar
+            "phed-u11-q10", // Rolul profesorului și resurse educaționale
+          ],
         },
       ],
     },
@@ -181,13 +348,46 @@ window.PHED_CONTENT = {
       subcapitole: [
         {
           id: "phed-u13-s1",
-          titlu: "Caracteristici ale creativității",
-          quizuri: ["phed-u13-q1"],
+          titlu: "Definirea creativității",
+          quizuri: [
+            "phed-u13-q1", // Noutate și valoare: condiții necesare + dezbateri
+            "phed-u13-q2", // Big C și little c: nivelul creativității și implicații
+            "phed-u13-q3", // Definiții ale creativității: Plucker & Beghetto, Runco, Sternberg, Torrance
+            "phed-u13-q4", // Modele sistemice: persoană, domeniu, context socio-cultural
+          ],
         },
+
         {
           id: "phed-u13-s2",
-          titlu: "Stimularea creativității la clasă",
-          quizuri: ["phed-u13-q2"],
+          titlu: "Fațetele creativității: cele patru perspective (4P)",
+          quizuri: [
+            "phed-u13-q5", // Creativitatea ca produs: tipuri, evaluare, productivitate totală vs efectivă
+            "phed-u13-q6", // Creativitatea ca proces: etape Wallace + caracterul ciclic
+            "phed-u13-q7", // Gândirea divergentă și criteriile Guilford + logica TTCT
+            "phed-u13-q8", // Creativitatea ca persoană: trăsături cognitive, personalitate, motivație
+            "phed-u13-q9", // Creativitatea ca presiune a mediului: teoria sistemică a lui Csikszentmihalyi
+          ],
+        },
+
+        {
+          id: "phed-u13-s3",
+          titlu: "Dezvoltarea creativității în copilărie și adolescență",
+          quizuri: [
+            "phed-u13-q10", // Dezbaterea creativității la copii: pro și contra + little c
+            "phed-u13-q11", // Manifestări timpurii: joc simbolic, desen, profiluri de interes
+            "phed-u13-q12", // Prieten imaginar și lumi imaginare: rol, indicatori, exemple
+          ],
+        },
+
+        {
+          id: "phed-u13-s4",
+          titlu:
+            "Creativitatea în școală: elevul creativ și profesorul creativ",
+          quizuri: [
+            "phed-u13-q13", // Agenți implicați: elevi, profesori, management, decidenți, părinți
+            "phed-u13-q14", // Obstacole și mecanisme de blocare: elev, profesor, școală
+            "phed-u13-q15", // Condiții și metode de stimulare: condițiile Starko + tehnici și exemple
+          ],
         },
       ],
     },
@@ -607,8 +807,8 @@ window.PHED_QUIZ = [
       {
         text: "Care variantă reprezintă corect ordinea sistemelor din teoria ecologică a dezvoltării (Bronfenbrenner)?",
         options: [
-          "<span class='tip'><span class='tooltip-box'>Mediile cu interacțiune directă: copil, familie, școală, prieteni. Exemplu: relația zilnică cu părinții.</span><strong>Microsistem</strong></span> (contact direct) → <span class='tip'><span class='tooltip-box'>Relațiile dintre microsisteme. Exemplu: colaborarea dintre familie și școală.</span><strong>Mezosistem</strong></span> (legături) → <span class='tip'><span class='tooltip-box'>Influențe indirecte prin contexte în care copilul nu participă direct. Exemplu: programul de lucru al părintelui.</span><strong>Exosistem</strong></span> (influențe indirecte) → <span class='tip'><span class='tooltip-box'>Valori norme credințe legi culturale. Exemplu: așteptările culturale despre educație și disciplină.</span><strong>Macrosistem</strong></span> (valori) → <span class='tip'><span class='tooltip-box'>Dimensiunea timpului și schimbările de viață sau istorice. Exemplu: divorțul părinților sau mutarea într o altă țară.</span><strong>Cronosistem</strong></span> (timp)",
-          "<span class='tip'><span class='tooltip-box'>Mediile cu interacțiune directă: copil, familie, școală, prieteni. Exemplu: relația zilnică cu părinții.</span><strong>Microsistem</strong></span> (contact direct) → <span class='tip'><span class='tooltip-box'>Influențe indirecte prin contexte în care copilul nu participă direct. Exemplu: programul de lucru al părintelui.</span><strong>Exosistem</strong></span> (influențe indirecte) → <span class='tip'><span class='tooltip-box'>Relațiile dintre microsisteme. Exemplu: colaborarea dintre familie și școală.</span><strong>Mezosistem</strong></span> (legături) → <span class='tip'><span class='tooltip-box'>Valori norme credințe legi culturale. Exemplu: așteptările culturale despre educație și disciplină.</span><strong>Macrosistem</strong></span> (valori) → <span class='tip'><span class='tooltip-box'>Dimensiunea timpului și schimbările de viață sau istorice. Exemplu: divorțul părinților sau mutarea într o altă țară.</span><strong>Cronosistem</strong></span> (timp)",
+          "<span class='tip'><span class='tooltip-box'>Mediile cu interacțiune directă: copil, familie, școală, prieteni. Exemplu: relația zilnică cu părinții.</span><strong>Microsistem</strong></span> (contact direct) → <span class='tip'><span class='tooltip-box'>Relațiile dintre microsisteme. Exemplu: colaborarea dintre familie și școală.</span><strong>Mezosistem</strong></span> (legături) → <span class='tip'><span class='tooltip-box'>Influențe indirecte prin contexte în care copilul nu participă direct. Exemplu: programul de lucru al părintelui.</span><strong>Exosistem</strong></span> (influențe indirecte) → <span class='tip'><span class='tooltip-box'>Valori norme credințe legi culturale. Exemplu: așteptările culturale despre educație și disciplină.</span><strong>Macrosistem</strong></span> (valori) → <span class='tip'><span class='tooltip-box'>Dimensiunea timpului și schimbările de viață sau istorice. Exemplu: divorțul părinților sau mutarea într-o altă țară.</span><strong>Cronosistem</strong></span> (timp)",
+          "<span class='tip'><span class='tooltip-box'>Mediile cu interacțiune directă: copil, familie, școală, prieteni. Exemplu: relația zilnică cu părinții.</span><strong>Microsistem</strong></span> (contact direct) → <span class='tip'><span class='tooltip-box'>Influențe indirecte prin contexte în care copilul nu participă direct. Exemplu: programul de lucru al părintelui.</span><strong>Exosistem</strong></span> (influențe indirecte) → <span class='tip'><span class='tooltip-box'>Relațiile dintre microsisteme. Exemplu: colaborarea dintre familie și școală.</span><strong>Mezosistem</strong></span> (legături) → <span class='tip'><span class='tooltip-box'>Valori norme credințe legi culturale. Exemplu: așteptările culturale despre educație și disciplină.</span><strong>Macrosistem</strong></span> (valori) → <span class='tip'><span class='tooltip-box'>Dimensiunea timpului și schimbările de viață sau istorice. Exemplu: divorțul părinților sau mutarea într-o altă țară.</span><strong>Cronosistem</strong></span> (timp)",
         ],
         answer: 0,
       },
@@ -1065,7 +1265,7 @@ window.PHED_QUIZ = [
       {
         text: "Ce idee comună susțin teoriile personalității în ciuda diferențelor dintre ele?",
         options: [
-          "<span class='tip'>Personalitatea este un sistem relativ stabil de invarianți interni, constant în timp și transsituațional, dar totodată modelabil<span class='tooltip-box'>Personalitatea explică de ce o persoană reacționează similar în situații diferite sau în momente diferite ale vieții, dar permite și ajustarea exprimării trăsăturilor în funcție de cerințele mediului. Exemplu: o persoană introvertă poate manifesta comportamente mai sociale într un context profesional.</span></span>",
+          "<span class='tip'>Personalitatea este un sistem relativ stabil de invarianți interni, constant în timp și transsituațional, dar totodată modelabil<span class='tooltip-box'>Personalitatea explică de ce o persoană reacționează similar în situații diferite sau în momente diferite ale vieții, dar permite și ajustarea exprimării trăsăturilor în funcție de cerințele mediului. Exemplu: o persoană introvertă poate manifesta comportamente mai sociale într-un context profesional.</span></span>",
           "<span class='tip'>Personalitatea este complet determinată de contextul situațional imediat<span class='tooltip-box'>Această afirmație ignoră caracterul stabil și transsituațional al personalității.</span></span>",
           "<span class='tip'>Personalitatea este rigidă și nu se modifică după copilărie<span class='tooltip-box'>Teoriile subliniază explicit caracterul modelabil al personalității.</span></span>",
         ],
@@ -1144,7 +1344,7 @@ window.PHED_QUIZ = [
         options: [
           "<span class='tip'>Ca rezultat al interacțiunii continue dintre trăsături interne și interpretarea situațiilor<span class='tooltip-box'>Personalitatea include invarianți relativ stabili, dar comportamentul apare din interacțiunea dintre predispozițiile persoanei și modul în care aceasta interpretează cognitiv și afectiv situațiile de viață.</span></span>",
           "<span class='tip'>Ca structură fixă de trăsături care determină direct comportamentul<span class='tooltip-box'>Această perspectivă ignoră rolul situației și al proceselor de interpretare.</span></span>",
-          "<span class='tip'>Ca sumă a reacțiilor automate la stimuli externi<span class='tooltip-box'>Aceasta reduce personalitatea la mecanisme simple de tip stimul răspuns.</span></span>",
+          "<span class='tip'>Ca sumă a reacțiilor automate la stimuli externi<span class='tooltip-box'>Aceasta reduce personalitatea la mecanisme simple de tip stimul-răspuns.</span></span>",
         ],
         answer: 0,
       },
@@ -1172,7 +1372,7 @@ window.PHED_QUIZ = [
         options: [
           "<span class='tip'>Propune o viziune dinamică, în care comportamentul rezultă din interacțiunea dintre trăsături și procese cognitive-afective<span class='tooltip-box'>Teoria CAPS a fost introdusă de Mischel și Shoda pentru a depăși limitele teoriilor strict centrate pe trăsături. Autorii arată că personalitatea nu acționează direct asupra comportamentului, ci prin unități cognitive și afective (coduri, așteptări, emoții, scopuri, autoreglare) care interacționează cu situațiile. Exemplu: aceeași persoană poate reacționa diferit la o critică, în funcție de modul în care o interpretează și de experiențele anterioare.</span></span>",
           "<span class='tip'>Susține că trăsăturile sunt suficiente pentru a prezice comportamentul în orice situație<span class='tooltip-box'>Aceasta este exact poziția criticată de Mischel și Shoda.</span></span>",
-          "<span class='tip'>Reduce personalitatea la reacții automate de tip stimul răspuns<span class='tooltip-box'>CAPS respinge explicațiile simpliste și introduce procese cognitive și afective.</span></span>",
+          "<span class='tip'>Reduce personalitatea la reacții automate de tip stimul-răspuns<span class='tooltip-box'>CAPS respinge explicațiile simpliste și introduce procese cognitive și afective.</span></span>",
         ],
         answer: 0,
       },
@@ -1686,7 +1886,7 @@ window.PHED_QUIZ = [
         text: "Ce strategii pot folosi cadrele didactice pentru dezvoltarea încrederii în sine și a unui concept de sine robust? (selectează toate variantele corecte)",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Oportunitatea de a alege</strong> (autonomie)<span class='tooltip-box'>Exemplu: elevul alege între două teme sau între roluri diferite într un proiect.</span></span>",
+          "<span class='tip'><strong>Oportunitatea de a alege</strong> (autonomie)<span class='tooltip-box'>Exemplu: elevul alege între două teme sau între roluri diferite într-un proiect.</span></span>",
           "<span class='tip'><strong>Activități cu reușită + complexitate graduală</strong> (scaffold)<span class='tooltip-box'>Exemplu: sarcini ușoare la început, apoi creșterea treptată a dificultății după ce apare competența.</span></span>",
           "<span class='tip'><strong>Monitorizarea progresului</strong> (progres)<span class='tooltip-box'>Exemplu: puncte pentru îmbunătățire, nu doar pentru nota finală.</span></span>",
           "<span class='tip'><strong>Obiective realiste și individualizate</strong> (personalizare)<span class='tooltip-box'>Exemplu: obiective diferențiate pentru elevi aflați la niveluri diferite, formulate concret și realizabil.</span></span>",
@@ -1702,6 +1902,4325 @@ window.PHED_QUIZ = [
           "<span class='tip'>Prin reîncadrare, exemple relevante și normalizarea dificultăților<span class='tooltip-box'>Exemplele istorice sau personale introduc flexibilitate cognitivă și reduc autocritica excesivă.</span></span>",
           "<span class='tip'>Prin ignorarea eșecului pentru a evita emoțiile negative<span class='tooltip-box'>Evitarea nu sprijină autoreglarea.</span></span>",
           "<span class='tip'>Prin sancționarea eșecului pentru creșterea motivației<span class='tooltip-box'>Aceasta favorizează anxietatea și evitarea.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  }, // U6
+  {
+    id: "phed-u6-q1",
+    title: "Recunoașterea teoriilor învățării pe categorii",
+    questions: [
+      {
+        text: "Selectează toate teoriile behavioriste din listă.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Condiționarea și decondiționarea emoțiilor</strong> (J. Watson)<span class='tooltip-box'>Explică formarea emoțiilor prin asociere între stimuli, reacțiile emoționale pot fi învățate și apoi diminuate prin experiențe noi.<br><br><strong>Exemplu:</strong> frica apare după asocierea repetată a unui sunet cu un eveniment neplăcut.</span></span>",
+          "<span class='tip'><strong>Conexionsimul în învățare</strong> (E. L. Thorndike)<span class='tooltip-box'>Învățarea înseamnă formarea legăturilor stimul-răspuns, legea efectului spune că răspunsurile urmate de consecințe plăcute se consolidează.<br><br><strong>Exemplu:</strong> elevul repetă o strategie care a dus la rezolvare corectă.</span></span>",
+          "<span class='tip'><strong>Teoria reducerii impulsului</strong> (C. Hull)<span class='tooltip-box'>Comportamentul este motivat de reducerea tensiunii interne, învățarea se întărește când un răspuns reduce un impuls sau o nevoie.<br><br><strong>Exemplu:</strong> efortul crește când rezolvarea sarcinii reduce disconfortul.</span></span>",
+          "<span class='tip'><strong>Condiționarea operantă</strong> (B. F. Skinner)<span class='tooltip-box'>Comportamentul este modelat de consecințe, întărirea crește frecvența, pedeapsa o scade, lipsa întăririi duce la stingere.<br><br><strong>Exemplu:</strong> elevul își menține efortul când primește feedback pe proces.</span></span>",
+          "<span class='tip'><strong>Comportamentalismul intențional</strong> (E. C. Tolman)<span class='tooltip-box'>Introduce scopuri și hărți cognitive în analiza comportamentului observabil.<br><br><strong>Exemplu:</strong> elevul își construiește o hartă mentală a sarcinii.</span></span>",
+          "<span class='tip'><strong>Teoria constructivismului cognitiv</strong> (J. Piaget)<span class='tooltip-box'>Aparține constructivismului, nu behaviorismului.<br><br><strong>Exemplu:</strong> restructurarea schemelor cognitive.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+
+      {
+        text: "Selectează toate teoriile constructiviste din listă.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Constructivism cognitiv</strong> (J. Piaget)<span class='tooltip-box'>Învățarea este construcție activă prin asimilare și acomodare, dezvoltarea are stadii.<br><br><strong>Exemplu:</strong> trecerea de la gândire concretă la abstractă.</span></span>",
+          "<span class='tip'><strong>Constructivism social</strong> (L. S. Vîgotski)<span class='tooltip-box'>Învățarea este mediată social prin limbaj și sprijin ghidat în zona dezvoltării proxime.<br><br><strong>Exemplu:</strong> rezolvare cu ajutorul adultului.</span></span>",
+          "<span class='tip'><strong>Constructivism sociocultural</strong> (J. S. Bruner)<span class='tooltip-box'>Accent pe descoperire, ghidaj și curriculum spirală.<br><br><strong>Exemplu:</strong> revenirea ciclică la aceleași concepte.</span></span>",
+          "<span class='tip'><strong>Condiționarea operantă</strong> (B. F. Skinner)<span class='tooltip-box'>Aparține behaviorismului.<br><br><strong>Exemplu:</strong> întărire pozitivă.</span></span>",
+          "<span class='tip'><strong>Teoria umanistă</strong> (C. Rogers)<span class='tooltip-box'>Aparține umanismului.<br><br><strong>Exemplu:</strong> climat educațional suportiv.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Selectează toate teoriile cognitive din listă.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Teoriile gestaltiste</strong> (Köhler, Wertheimer, Koffka)<span class='tooltip-box'>Învățarea apare prin insight și reorganizarea câmpului perceptiv.<br><br><strong>Exemplu:</strong> soluția apare brusc.</span></span>",
+          "<span class='tip'><strong>Teoria cognitivă tradițională</strong> (TCT)<span class='tooltip-box'>Accent pe procese mentale și reprezentări interne.</span></span>",
+          "<span class='tip'><strong>Teoria procesării informației</strong> (TPI)<span class='tooltip-box'>Învățarea implică atenție, memorie și strategii cognitive.<br><br><strong>Exemplu:</strong> organizarea informației.</span></span>",
+          "<span class='tip'><strong>Teoria cognitivă socială</strong> (TCS - A. Bandura)<span class='tooltip-box'>Învățare prin observație, modele și autoeficacitate.</span></span>",
+          "<span class='tip'><strong>Teoria evaluării cognitive</strong> (TEC)<span class='tooltip-box'>Reacțiile emoționale depind de evaluarea situației.</span></span>",
+          "<span class='tip'><strong>Teoria cognitivă a învățării multimedia</strong> (TCM - R. Mayer)<span class='tooltip-box'>Integrarea canalelor verbal și vizual, gestionarea încărcării cognitive.</span></span>",
+          "<span class='tip'><strong>Teoria umanistă</strong> (A. Maslow)<span class='tooltip-box'>Aparține umanismului.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5],
+      },
+
+      {
+        text: "Selectează toate teoriile umaniste din listă.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Teoria umanistă</strong> (C. Rogers)<span class='tooltip-box'>Învățare centrată pe persoană, autonomie și acceptare.</span></span>",
+          "<span class='tip'><strong>Teoria umanistă</strong> (A. Maslow)<span class='tooltip-box'>Învățarea depinde de satisfacerea nevoilor.</span></span>",
+          "<span class='tip'><strong>Condiționarea operantă</strong> (B. F. Skinner)<span class='tooltip-box'>Behaviorism.</span></span>",
+          "<span class='tip'><strong>Teoria procesării informației</strong> (TPI)<span class='tooltip-box'>Cognitivism.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Selectează toate teoriile contemporane din listă.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Învățarea transformativă</strong> (R. Kegan)<span class='tooltip-box'>Schimbarea modului de construire a sensului.</span></span>",
+          "<span class='tip'><strong>Învățarea prin expansiune</strong> (Yrjö Engeström)<span class='tooltip-box'>Învățare colectivă prin rezolvarea contradicțiilor.</span></span>",
+          "<span class='tip'><strong>Pragmatismul și învățarea pentru viitor</strong> (Bente Elkjaer)<span class='tooltip-box'>Învățare prin acțiune și experiență.</span></span>",
+          "<span class='tip'><strong>Învățarea transformatoare</strong> (J. Mezirow)<span class='tooltip-box'>Reflecție critică și schimbarea cadrului de interpretare.</span></span>",
+          "<span class='tip'><strong>Constructivism social</strong> (L. S. Vîgotski)<span class='tooltip-box'>Aparține constructivismului.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q2",
+    title: "Behaviorism - Condiționarea operantă (B. F. Skinner)",
+    questions: [
+      {
+        text: "De la ce bază teoretică a pornit teoria behavioristă a lui <span class='tip'><strong>B. F. Skinner</strong><span class='tooltip-box'>B. F. Skinner este asociat cu behaviorismul și cu formularea condiționării operante, accentuând rolul consecințelor asupra comportamentului.<br><br><strong>Exemplu:</strong> un comportament urmat de o consecință favorabilă tinde să se repete.</span></span> pentru a formula teoria condiționării operante?",
+        options: [
+          "<span class='tip'><strong>Teoria constructivismului cognitiv</strong> (J. Piaget)<span class='tooltip-box'>Constructivismul descrie învățarea ca restructurare a schemelor prin asimilare și acomodare, nu ca modelare prin consecințe.</span></span>",
+          "<span class='tip'><strong>Condiționarea clasică</strong> (I. Pavlov)<span class='tooltip-box'>Condiționarea clasică explică învățarea prin asocierea dintre stimuli și apariția unui răspuns reflex, fiind un punct de plecare pentru dezvoltarea ulterioară a behaviorismului.<br><br><strong>Exemplu:</strong> un stimul neutru ajunge să provoace salivare după ce este asociat repetat cu hrana.</span></span>",
+          "<span class='tip'><strong>Teoria reducerii impulsului</strong> (C. Hull)<span class='tooltip-box'>Hull explică învățarea prin reducerea tensiunii interne și satisfacerea nevoilor, nu prin analiza sistematică a consecințelor educaționale.</span></span>",
+          "<span class='tip'><strong>Comportamentalism intențional</strong> (E. C. Tolman)<span class='tooltip-box'>Tolman introduce scopuri și hărți cognitive, fiind o punte către cognitivism, nu baza directă a condiționării operante.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "Care este diferența esențială dintre abordarea lui <span class='tip'><strong>I. Pavlov</strong><span class='tooltip-box'>Pavlov studiază <strong>comportamentul respondent</strong>, adică reacții reflexe declanșate de stimuli.<br><br><strong>Exemplu:</strong> salivarea apare ca răspuns automat la un stimul asociat hranei.</span></span> și cea a lui <span class='tip'><strong>B. F. Skinner</strong><span class='tooltip-box'>Skinner studiază <strong>comportamentul operant</strong>, adică acțiuni ale organismului care produc consecințe și sunt modelate de acestea.<br><br><strong>Exemplu:</strong> elevul ridică mâna și primește atenție, ceea ce crește probabilitatea să repete comportamentul.</span></span>?",
+        options: [
+          "<span class='tip'>Pavlov a studiat relația stimul răspuns, iar Skinner s a concentrat pe rolul limbajului în învățare<span class='tooltip-box'>Skinner nu își centrează teoria pe limbaj, ci pe consecințe și pe modularea comportamentului prin întăriri și pedepse.</span></span>",
+          "<span class='tip'>Pavlov a studiat <strong>comportamentul respondent</strong>, iar B. F. Skinner a descris <strong>comportamentul operant</strong>, acțiunea care produce consecințe și este modificată prin întărire<span class='tooltip-box'><strong>Comportament respondent</strong> = reacție reflexă declanșată automat de un stimul specific, fără control voluntar.<br><strong>Comportament operant</strong> = comportament emis activ de organism, care acționează asupra mediului și este întărit sau slăbit de consecințe.<br><br><strong>Exemplu:</strong> clipitul la un jet de aer <em>(respondent)</em> versus alegerea de a rezolva o sarcină pentru a primi un punct bonus <em>(operant)</em>.</span></span>",
+          "<span class='tip'>Pavlov s a concentrat pe întărirea pozitivă, iar Skinner pe întărirea negativă<span class='tooltip-box'>Pavlov nu lucrează cu întăriri în sensul operant, iar Skinner folosește atât întăriri pozitive cât și negative.</span></span>",
+          "<span class='tip'>Teoria lui Skinner se concentrează pe asocierea stimul răspuns, spre deosebire de Pavlov<span class='tooltip-box'>În condiționarea operantă, accentul este pe consecințe, nu pe asocierea dintre doi stimuli ca în condiționarea clasică.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "În condiționarea operantă a lui <span class='tip'><strong>B. F. Skinner</strong><span class='tooltip-box'>B. F. Skinner a formulat teoria condiționării operante, conform căreia comportamentele sunt menținute sau eliminate în funcție de consecințele care le urmează.</span></span>, un comportament emis de elev este urmat de o consecință. Ce rol are această consecință atunci când este o <span class='tip'><strong>întărire</strong><span class='tooltip-box'><strong>Întărirea</strong> este o consecință care urmează comportamentului și îi crește probabilitatea de repetare.</span></span>?",
+        options: [
+          "<span class='tip'>Modifică schemele cognitive prin acomodare<span class='tooltip-box'>Acomodarea este un concept din constructivismul cognitiv (Piaget), nu din behaviorismul operant.</span></span>",
+          "<span class='tip'>Este relevant doar operantul, nu și consecințele lui<span class='tooltip-box'>În condiționarea operantă, consecințele sunt esențiale pentru menținerea sau dispariția comportamentului.</span></span>",
+          "<span class='tip'>Crește probabilitatea ca acel comportament să fie <strong>selectat</strong> și repetat în viitor<span class='tooltip-box'><strong>Selectat</strong> înseamnă că, dintre mai multe comportamente posibile, cel care este urmat de întărire este păstrat și apare mai frecvent în situații similare. Întărirea nu produce comportamentul, ci îl <em>consolidează</em> după ce a apărut.<br><br><strong>Exemplu:</strong> elevul alege să rezolve tema deoarece acest comportament operant (emis voluntar și producător de consecințe) a fost urmat anterior de întărire feedback pozitiv și puncte suplimentare.</span></span>",
+          "<span class='tip'>Produce direct un comportament nou prin asociere stimul răspuns<span class='tooltip-box'>Aceasta descrie condiționarea clasică (Pavlov), nu condiționarea operantă.</span></span>",
+        ],
+        answer: 2,
+      },
+      {
+        text: "În condiționarea operantă, întăririle pot fi <span class='tip'><strong>primare</strong><span class='tooltip-box'>Au valoare biologică directă și nu trebuie învățate social. Exemple tipice: hrană, apă, confort, plăceri senzoriale.</span></span> sau <span class='tip'><strong>secundare</strong><span class='tooltip-box'>Își capătă valoarea prin învățare și asociere cu alte recompense. Pot fi sociale, de activitate sau simbolice și funcționează în multe contexte.</span></span>. Selectează toate exemplele de <strong>întăriri secundare</strong>.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Sociale:</strong> atenția, aprobarea, afecțiunea<span class='tooltip-box'>Întăriri secundare pentru că valoarea lor se formează prin relații și învățare socială.<br><br><strong>Exemplu:</strong> elevul participă mai des când primește aprobare verbală sau atenție din partea profesorului.</span></span>",
+          "<span class='tip'><strong>Verbale:</strong> laudele, cuvintele de încurajare<span class='tooltip-box'>Întăriri secundare deoarece „bine făcut” devine valoros prin asociere repetată cu succesul și recunoașterea.<br><br><strong>Exemplu:</strong> „Ai explicat clar pașii” crește probabilitatea să repete strategia.</span></span>",
+          "<span class='tip'><strong>Simbolice:</strong> premii, puncte, note, jetoane<span class='tooltip-box'>Întăriri secundare, adesea generalizate, fiindcă pot fi convertite în mai multe beneficii și funcționează în multe situații.<br><br><strong>Exemplu:</strong> punctele bonus întăresc finalizarea temei, participarea sau cooperarea.</span></span>",
+          "<span class='tip'><strong>De activitate:</strong> mersul la dansuri, înot, timp extra la o activitate preferată<span class='tooltip-box'>Întăriri secundare deoarece valoarea lor depinde de preferințe, experiențe și context.<br><br><strong>Exemplu:</strong> „5 minute în plus la laborator” întărește comportamentul de lucru consecvent.</span></span>",
+          "<span class='tip'><strong>Primare:</strong> hrană, apă, plăceri senzoriale, dulciuri<span class='tooltip-box'>Nu se selectează aici: sunt întăriri primare, pentru că satisfac nevoi biologice sau oferă satisfacție senzorială imediată.<br><br><strong>Exemplu:</strong> o gustare după efort poate crește repetarea comportamentului.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+
+      {
+        text: "Care este o contribuție majoră a lui <span class='tip'><strong>B. F. Skinner</strong><span class='tooltip-box'>Skinner a studiat modul în care comportamentele pot fi formate, menținute sau eliminate prin consecințele care le urmează.</span></span> în educație, legată de modul în care este oferită recompensa?",
+        options: [
+          "<span class='tip'>Stadiile dezvoltării inteligenței umane<span class='tooltip-box'>Aceasta este contribuția lui J. Piaget și se referă la evoluția gândirii, nu la întărire.</span></span>",
+          "<span class='tip'>Legitimizarea învățării prin cooperare<span class='tooltip-box'>Această idee aparține în principal teoriilor constructiviste sociale.</span></span>",
+          "<span class='tip'>Programele de întărire<span class='tooltip-box'><strong>Programul de întărire</strong> înseamnă regula după care este oferită întărirea: <em>când</em> și <em>cât de des</em> este urmat un comportament de o consecință.<br><br>Skinner a arătat că nu doar existența unei recompense contează, ci și distribuirea ei în timp, pentru menținerea comportamentului.<br><br><strong>Exemplu:</strong> dacă elevul primește feedback sau puncte la fiecare rezolvare corectă, comportamentul apare rapid, dar poate dispărea repede. Dacă întărirea apare din când în când, comportamentul se menține mai stabil în timp.</span></span>",
+          "<span class='tip'>Zona dezvoltării proxime<span class='tooltip-box'>Este conceptul central al lui L. S. Vîgotski, legat de sprijinul social, nu de întărire.</span></span>",
+        ],
+        answer: 2,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q3",
+    title:
+      "Constructivismul cognitiv (Jean Piaget) vs. constructivismul social (Lev Vîgotski)",
+    questions: [
+      {
+        text: "Care este ideea centrală comună constructivismului cognitiv și celui social?",
+        options: [
+          "<span class='tip'>Învățarea este un proces activ de construcție a cunoașterii de către elev<span class='tooltip-box'>Ambele perspective resping ideea elevului ca receptor pasiv. Cunoașterea nu este transmisă direct, ci construită activ.</span></span>",
+          "<span class='tip'>Învățarea apare exclusiv prin recompense și pedepse<span class='tooltip-box'>Aceasta aparține behaviorismului, nu constructivismului.</span></span>",
+          "<span class='tip'>Învățarea este determinată strict de maturizarea biologică<span class='tooltip-box'>Deși Piaget acordă importanță dezvoltării cognitive, învățarea nu este redusă doar la maturizare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracterizează <span class='tip'><strong>constructivismul cognitiv</strong><span class='tooltip-box'>Asociat cu Jean Piaget, accent pe dezvoltarea structurilor cognitive individuale.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Cunoașterea se construiește prin asimilare și acomodare<span class='tooltip-box'>Elevul integrează informații noi în scheme existente sau își modifică schemele când acestea nu mai sunt suficiente.</span></span>",
+          "<span class='tip'>Dezvoltarea cognitivă precede învățarea<span class='tooltip-box'>Pentru Piaget, copilul poate învăța anumite lucruri doar când a atins un anumit nivel de dezvoltare cognitivă.</span></span>",
+          "<span class='tip'>Interacțiunea socială este factorul principal al dezvoltării cognitive<span class='tooltip-box'>Aceasta este o idee centrală la Vîgotski, nu la Piaget.</span></span>",
+          "<span class='tip'>Există stadii ale dezvoltării cognitive<span class='tooltip-box'>Piaget descrie stadii succesive, calitativ diferite, ale gândirii.</span></span>",
+        ],
+        answer: [0, 1, 3],
+      },
+
+      {
+        text: "Ce definește <span class='tip'><strong>constructivismul social</strong><span class='tooltip-box'>Asociat cu Lev Vîgotski, accent pe rolul social și cultural al învățării.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Învățarea este mediată social prin limbaj și interacțiune<span class='tooltip-box'>Limbajul și cooperarea cu alții sunt instrumente centrale ale dezvoltării cognitive.</span></span>",
+          "<span class='tip'>Învățarea poate precede dezvoltarea<span class='tooltip-box'>Prin sprijin ghidat, copilul poate realiza sarcini peste nivelul său actual.</span></span>",
+          "<span class='tip'>Zona dezvoltării proxime (ZDP)<span class='tooltip-box'>Diferența dintre ce poate face elevul singur și ce poate face cu ajutor.</span></span>",
+          "<span class='tip'>Stadii universale de dezvoltare cognitivă strict determinate biologic<span class='tooltip-box'>Aceasta este caracteristică teoriei lui Piaget.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Care este diferența esențială dintre Piaget și Vîgotski în raportul dintre învățare și dezvoltare?",
+        options: [
+          "<span class='tip'>La Piaget, dezvoltarea precede învățarea, iar la Vîgotski învățarea poate stimula dezvoltarea<span class='tooltip-box'>Piaget vede învățarea ca dependentă de nivelul cognitiv atins, Vîgotski vede învățarea ca motor al dezvoltării.</span></span>",
+          "<span class='tip'>Ambii consideră că dezvoltarea este exclusiv biologică<span class='tooltip-box'>Această afirmație ignoră rolul mediului și al interacțiunii sociale.</span></span>",
+          "<span class='tip'>Ambii susțin că învățarea este determinată de întăriri externe<span class='tooltip-box'>Aceasta este o poziție behavioristă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este înțeles rolul profesorului în cele două perspective?",
+        options: [
+          "<span class='tip'>La Piaget: creează contexte de explorare individuală; la Vîgotski: mediază și ghidează activ învățarea<span class='tooltip-box'>În perspectiva lui Piaget, profesorul propune sarcini care provoacă gândirea și lasă elevul să descopere singur soluțiile. În perspectiva lui Vîgotski, profesorul intervine activ prin explicații, întrebări și sprijin, pentru ca elevul să poată realiza ceea ce nu ar reuși singur.</span></span>",
+          "<span class='tip'>La ambii: sursă principală de informații transmise frontal<span class='tooltip-box'>Aceasta contrazice principiile constructiviste.</span></span>",
+          "<span class='tip'>La ambii: evaluator exclusiv al performanței finale<span class='tooltip-box'>Accentul este pe proces, nu doar pe rezultat.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q4",
+    title: "Teorie contemporană – Învățarea transformatoare (Jack Mezirow)",
+    questions: [
+      {
+        text: "Ce este învățarea transformatoare, conform teoriei lui Jack Mezirow?",
+        options: [
+          "<span class='tip'>Un proces prin care se transformă cadrele de referință problematice<span class='tooltip-box'>Învățarea transformatoare presupune schimbarea mentalităților, a habitudinilor mentale și a perspectivelor de semnificație care limitează modul de a interpreta experiența.</span></span>",
+          "<span class='tip'>Un proces de acumulare graduală de informații și competențe<span class='tooltip-box'>Aceasta descrie mai degrabă învățarea cumulativă sau instrucțională.</span></span>",
+          "<span class='tip'>Formarea de asocieri stabile între stimuli și răspunsuri<span class='tooltip-box'>Aceasta este specifică behaviorismului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este scopul transformării cadrelor de referință în învățarea transformatoare?",
+        options: [
+          "<span class='tip'>De a deveni mai cuprinzătoare, mai deschise, mai reflexive și mai capabile de schimbare<span class='tooltip-box'>Transformarea urmărește ca persoana să își construiască perspective mai flexibile, mai conștiente de sine și mai adaptabile afectiv și cognitiv.</span></span>",
+          "<span class='tip'>De a consolida convingerile existente și de a reduce incertitudinea<span class='tooltip-box'>Învățarea transformatoare presupune tocmai punerea sub semnul întrebării a convingerilor existente.</span></span>",
+          "<span class='tip'>De a elimina emoțiile din procesul de învățare<span class='tooltip-box'>Dimensiunea afectivă este esențială în procesul transformator.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce sunt cadrele de referință în teoria lui Mezirow?",
+        options: [
+          "<span class='tip'>Structuri culturale și de limbaj prin care construim sensul experienței<span class='tooltip-box'>Cadrele de referință modelează și selectează percepția, cogniția și sentimentele, preformând intențiile, credințele și așteptările unei persoane.</span></span>",
+          "<span class='tip'>Strategii didactice utilizate de profesor pentru predare eficientă<span class='tooltip-box'>Aceasta ține de metodologia instruirii, nu de structurile de sens.</span></span>",
+          "<span class='tip'>Scheme cognitive universale, identice pentru toți indivizii<span class='tooltip-box'>Cadrele de referință sunt construite cultural și biografic, nu universale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "În teoria învățării transformatoare (Jack Mezirow), schimbarea reală nu înseamnă acumulare de informații, ci o modificare profundă a modului în care persoana își interpretează experiențele și ia decizii. Care dintre următoarele descriu corect pașii acestui proces, așa cum sunt formulați de autor?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Reflecția critică asupra presupunerilor importante, inclusiv asupra originii și consecințelor lor<span class='tooltip-box'>Procesul începe când persoana își pune sub semnul întrebării convingeri considerate anterior evidente sau „normale”.</span></span>",
+          "<span class='tip'>Determinarea adevărului prin cercetare și verificare, mai ales în situații de tip instrumental<span class='tooltip-box'>În învățarea instrumentală, afirmațiile sunt testate prin dovezi, date și experiență, nu acceptate automat.</span></span>",
+          "<span class='tip'>Utilizarea de credințe bine întemeiate prin participarea voluntară la discursuri informate<span class='tooltip-box'>Transformarea presupune dialog liber, argumentat, fără constrângeri, în care perspectivele sunt analizate critic.</span></span>",
+          "<span class='tip'>Acționarea dintr-o perspectivă personală transformată<span class='tooltip-box'>Noua înțelegere se reflectă în decizii și comportamente concrete, nu rămâne doar la nivel teoretic.</span></span>",
+          "<span class='tip'>Validarea noii perspective prin participare activă și voluntară în situații reale<span class='tooltip-box'>Perspectiva transformată este confirmată prin practică și experiență, până când devine necesară o nouă reevaluare.</span></span>",
+          "<span class='tip'>Memorizarea și repetarea informațiilor transmise de expert<span class='tooltip-box'>Aceasta descrie învățarea reproductivă, nu procesul transformator.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "În teoria învățării transformatoare a lui Mezirow, schimbarea cadrelor de referință are loc prin <strong>reflecție critică și dialog rațional</strong>. Care sunt condițiile discursului ideal (Habermas) care fac posibil acest tip de învățare transformatoare?",
+        options: [
+          "<span class='tip'>Acces la informații precise și complete<span class='tooltip-box'>Participanții trebuie să dispună de informații relevante pentru a putea evalua critic situația.</span></span>",
+          "<span class='tip'>Lipsa constrângerilor și a temerilor<span class='tooltip-box'>Discuția trebuie să se desfășoare fără presiuni, frică sau sancțiuni.</span></span>",
+          "<span class='tip'>Flexibilitate față de puncte de vedere alternative<span class='tooltip-box'>Deschiderea către perspective diferite este esențială pentru transformare.</span></span>",
+          "<span class='tip'>Evaluarea critică a dovezilor și argumentelor<span class='tooltip-box'>Argumentele sunt analizate logic și rațional.</span></span>",
+          "<span class='tip'>Oportunități egale de participare la discurs<span class='tooltip-box'>Toți participanții au drept egal de a contribui.</span></span>",
+          "<span class='tip'>Respectarea autorității profesorului fără contestare<span class='tooltip-box'>Aceasta contrazice principiile discursului ideal.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "Care este rolul profesorului în procesul învățării transformatoare?",
+        options: [
+          "<span class='tip'>Oferirea de asistență pentru dezvoltarea capacității de reflecție critică și participare la discurs<span class='tooltip-box'>Profesorul sprijină cursanții să se angajeze conștient în reflecție, dialog și autoreglare, nu să accepte pasiv conținutul.</span></span>",
+          "<span class='tip'>Transmiterea autoritară a interpretărilor corecte<span class='tooltip-box'>Aceasta contrazice principiile transformării.</span></span>",
+          "<span class='tip'>Controlul strict al comportamentului prin recompense și sancțiuni<span class='tooltip-box'>Aceasta aparține behaviorismului.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q5",
+    title: "Învățarea integrată – statut, definiție și dimensiuni",
+    questions: [
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>învățarea integrată</strong><span class='tooltip-box'>Concept educațional contemporan care descrie învățarea ca proces complex, ancorat în experiență și în interacțiunea individului cu mediul social.</span></span> și de ce este considerată o premisă în formarea competențelor?",
+        options: [
+          "<span class='tip'>Ca un tip de învățare axat exclusiv pe acumularea de cunoștințe teoretice, evaluate prin teste standardizate<span class='tooltip-box'>Această perspectivă limitează învățarea la dimensiunea cognitivă și nu explică formarea competențelor.</span></span>",
+
+          "<span class='tip'>Ca un proces susținut de cercetare, care combină diferite tipuri de solicitări și conduce la rezultate educaționale complexe<span class='tooltip-box'>Studiul realizat în cadrul proiectului <strong>Expedition Inside Culture</strong> a arătat că învățarea integrată îmbină solicitările emoționale, cognitive, sociale și acționale și conduce la rezultate exprimate prin valori, atitudini, cunoștințe, competențe și comportamente.</span></span>",
+          "<span class='tip'>Ca o metodă de predare alternativă, utilizată doar în contexte nonformale<span class='tooltip-box'>Învățarea integrată nu este limitată la un context educațional anume.</span></span>",
+
+          "<span class='tip'>Ca un proces centrat exclusiv pe experiența emoțională a celui care învață<span class='tooltip-box'>Dimensiunea emoțională este importantă, dar nu funcționează izolat.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "Ce înseamnă faptul că <span class='tip'><strong>învățarea integrată și autentică</strong><span class='tooltip-box'>Învățarea autentică este legată de experiențe reale și de implicarea efectivă a persoanei în situații de învățare semnificative.</span></span> cuprinde patru dimensiuni esențiale?",
+        options: [
+          "<span class='tip'>Învățarea se produce doar la nivel intelectual, iar celelalte aspecte sunt secundare<span class='tooltip-box'>Aceasta contrazice modelul integrat.</span></span>",
+
+          "<span class='tip'>Învățarea este rezultatul interacțiunii dintre dimensiunea cognitivă, emoțională, socială și acțională<span class='tooltip-box'>Învățarea este strâns legată de experiențele trăite, de relațiile sociale și de acțiunile concrete ale individului, nu doar de procesarea informației.<br><br><strong>Exemplu:</strong> un elev învață mai eficient când înțelege conținutul (cognitiv), este implicat afectiv (emoțional), colaborează cu alții (social) și aplică ceea ce învață (acțional).</span></span>",
+
+          "<span class='tip'>Dimensiunile sunt independente și pot fi activate separat<span class='tooltip-box'>Modelul subliniază interdependența lor.</span></span>",
+
+          "<span class='tip'>Dimensiunea socială este suficientă pentru formarea competențelor<span class='tooltip-box'>Este doar una dintre dimensiuni.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "Cum este explicată legătura dintre <span class='tip'><strong>învățare și experiență</strong><span class='tooltip-box'>Experiența se referă la implicarea efectivă a individului în situații concrete dintr-un mediu social.</span></span> în perspectiva învățării integrate?",
+        options: [
+          "<span class='tip'>Învățarea apare independent de mediul social și de acțiunile individului<span class='tooltip-box'>Această viziune este depășită.</span></span>",
+
+          "<span class='tip'>Învățarea este un rezultat al interacțiunii subiect–mediu, la nivel cognitiv și comportamental<span class='tooltip-box'>Autori precum <strong>William James</strong> și <strong>John Dewey</strong> au susținut că procesele mentale servesc adaptării la mediu și că învățarea apare prin interacțiune, nu doar prin procesare internă.</span></span>",
+
+          "<span class='tip'>Învățarea este determinată exclusiv de predispoziții interne stabile<span class='tooltip-box'>Aceasta ignoră rolul experienței.</span></span>",
+
+          "<span class='tip'>Învățarea este explicată doar prin mecanisme reflexe și automatisme<span class='tooltip-box'>Aceasta aparține altor perspective teoretice.</span></span>",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q6",
+    title: "Învățarea prin experiență – bazele teoretice (David Kolb)",
+    questions: [
+      {
+        text: "Cum este definită <span class='tip'><strong>învățarea prin experiență</strong><span class='tooltip-box'>Concept care descrie învățarea ca proces activ, legat de trăirea directă a experiențelor și de transformarea acestora în cunoaștere.</span></span> în teoria lui David Kolb?",
+        options: [
+          "<span class='tip'>Ca acumulare de informații transmise de profesor, urmată de memorare<span class='tooltip-box'>Această definiție este specifică modelelor tradiționale de predare.</span></span>",
+
+          "<span class='tip'>Ca proces prin care cunoștințele sunt create prin transformarea experienței<span class='tooltip-box'>Kolb definește învățarea ca proces continuu în care experiența este analizată, conceptualizată și aplicată.<br><br><strong>Idee centrală:</strong> nu experiența în sine produce învățare, ci modul în care este prelucrată.</span></span>",
+
+          "<span class='tip'>Ca rezultat al condiționării prin întăriri și pedepse<span class='tooltip-box'>Aceasta descrie behaviorismul, nu învățarea experiențială.</span></span>",
+
+          "<span class='tip'>Ca dezvoltare exclusiv cognitivă, independentă de acțiune<span class='tooltip-box'>Teoria experiențială include și dimensiunea acțională.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>originea teoretică</strong><span class='tooltip-box'>Fundamentele conceptuale pe care se construiește teoria.</span></span> a teoriei învățării prin experiență?",
+        options: [
+          "<span class='tip'>Doar cercetările lui David Kolb din psihologia educației<span class='tooltip-box'>Kolb integrează idei anterioare.</span></span>",
+
+          "<span class='tip'>Principiul experienței la John Dewey și modelul dinamic al învățării la Kurt Lewin<span class='tooltip-box'>Dewey a subliniat rolul experienței anterioare în învățare, iar Lewin a propus un model ciclic al învățării, preluat și dezvoltat ulterior de Kolb.</span></span>",
+
+          "<span class='tip'>Constructivismul social al lui Vîgotski<span class='tooltip-box'>Deși compatibile, teoriile sunt diferite.</span></span>",
+
+          "<span class='tip'>Teoria condiționării operante<span class='tooltip-box'>Aceasta aparține behaviorismului.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      {
+        text: "Ce idee importantă adaugă Kolb față de modelele anterioare ale învățării prin experiență?",
+        options: [
+          "<span class='tip'>Că o singură formă de experiență este suficientă pentru a învăța<span class='tooltip-box'>Învățarea este un proces complex.</span></span>",
+
+          "<span class='tip'>Că învățarea este un proces ciclic, cu etape interdependente<span class='tooltip-box'>Kolb propune un ciclu al învățării care include trăire, reflecție, conceptualizare și aplicare.</span></span>",
+
+          "<span class='tip'>Că stilul de învățare este fix și stabil pe viață<span class='tooltip-box'>Această ipoteză a fost ulterior abandonată chiar de Kolb.</span></span>",
+
+          "<span class='tip'>Că experiența nu are nevoie de reflecție<span class='tooltip-box'>Reflecția este esențială.</span></span>",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q7",
+    title: "Stilurile de învățare în teoria lui David Kolb",
+    questions: [
+      {
+        text: "De ce <span class='tip'><strong>învățarea prin experiență</strong><span class='tooltip-box'>Teorie care descrie învățarea ca proces de transformare a experienței trăite în cunoaștere, prin reflecție, conceptualizare și aplicare.</span></span> este compatibilă cu perspectiva <span class='tip'><strong>învățării integrate</strong><span class='tooltip-box'>Învățarea este considerată integrată atunci când antrenează simultan dimensiunea cognitivă, emoțională, socială și acțională.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru că ambele înțeleg învățarea ca rezultat al implicării active a persoanei în experiențe reale<span class='tooltip-box'>Învățarea integrată și cea experiențială pornesc de la ideea că sensul se construiește prin interacțiunea dintre gândire, emoție, acțiune și context social.</span></span>",
+
+          "<span class='tip'>Pentru că exclud dimensiunea emoțională din procesul de învățare<span class='tooltip-box'>Dimensiunea emoțională este esențială în ambele perspective.</span></span>",
+
+          "<span class='tip'>Pentru că se bazează exclusiv pe condiționare și întărire<span class='tooltip-box'>Aceasta este o caracteristică a behaviorismului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum apar <span class='tip'><strong>stilurile de învățare</strong><span class='tooltip-box'>Preferințe în modul în care oamenii se implică în experiențe și le prelucrează.</span></span> în teoria lui Kolb?",
+        options: [
+          "<span class='tip'>Din adaptarea treptată la cerințele mediului educațional, metodele profesorului și tipurile de sarcini frecvent întâlnite<span class='tooltip-box'>Această perspectivă explică stilurile prin influențe externe și contexte de predare, nu prin structura internă a experienței și a prelucrării ei, așa cum propune Kolb.</span></span>",
+
+          "<span class='tip'>Din combinarea surselor experienței <strong>(experiență concretă sau conceptualizare abstractă)</strong> cu modurile de transformare <strong>(reflecție sau experimentare)</strong><span class='tooltip-box'>În teoria lui Kolb, stilurile apar din intersectarea a două axe: <br>• cum este trăită experiența (concret vs. abstract) <br>• cum este prelucrată experiența (reflecție vs. acțiune). <br><br>Această combinare generează stiluri diferite de învățare.</span></span>",
+        ],
+        answer: 1,
+      },
+      {
+        text: "Care este asocierea corectă între <span class='tip'><strong>stilurile de învățare</strong><span class='tooltip-box'>În teoria lui Kolb, stilurile rezultă din combinarea modului în care este trăită experiența (concret sau abstract) cu modul în care este transformată (reflecție sau acțiune).</span></span> și componentele lor dominante?",
+        options: [
+          "<span class='tip'>Stil divergent – experiență concretă și reflecție<span class='tooltip-box'>Persoanele cu stil divergent pornesc de la experiențe concrete și preferă să le analizeze din mai multe perspective, prin reflecție.<br><br><strong>Exemplu:</strong> elevul ascultă o situație reală, o discută în grup și propune interpretări diferite fără a se grăbi spre o soluție.</span></span>",
+
+          "<span class='tip'>Stil asimilator – conceptualizare abstractă și reflecție<span class='tooltip-box'>Stilul asimilator este orientat spre idei, concepte și explicații teoretice, cu accent pe organizare logică și reflecție.<br><br><strong>Exemplu:</strong> studentul preferă scheme, modele teoretice și explicații coerente, chiar dacă nu aplică imediat informația.</span></span>",
+
+          "<span class='tip'>Stil convergent – conceptualizare abstractă și experimentare activă<span class='tooltip-box'>Persoanele cu stil convergent folosesc conceptele teoretice pentru a rezolva probleme practice și a testa soluții concrete.<br><br><strong>Exemplu:</strong> elevul aplică o formulă sau un principiu în rezolvarea unei sarcini tehnice sau a unui exercițiu practic.</span></span>",
+
+          "<span class='tip'>Stil acomodator – experiență concretă și experimentare activă<span class='tooltip-box'>Stilul acomodator se bazează pe acțiune directă, încercare și ajustare, cu mai puțină analiză teoretică prealabilă.<br><br><strong>Exemplu:</strong> elevul învață făcând, încercând soluții diferite și ajustându-se pe parcurs.</span></span>",
+          "<span class='tip'>Stil sabotor – experiență concretă și conceptualizare abstractă<span class='tooltip-box'>Această asociere este incoerentă în teoria lui Kolb: experiența concretă nu se combină direct cu conceptualizarea abstractă fără o etapă de reflecție sau acțiune care să transforme experiența.<br><br><strong>De ce este greșit:</strong> în modelul lui Kolb, stilurile apar doar din combinarea unei surse a experienței cu un mod de transformare, nu din combinarea a două surse diferite.</span></span>",
+        ],
+        multiple: true,
+        answer: [0, 1, 2, 3],
+      },
+
+      // Stilul divergent
+      {
+        text: "Ce descriere surprinde cel mai bine <span class='tip'><strong>stilul de învățare divergent</strong></span>, stil observativ și emoțional, orientat spre explorarea mai multor perspective?",
+        options: [
+          "<span class='tip'>Este specific persoanelor care caută utilitatea practică imediată și soluții tehnice rapide<span class='tooltip-box'>Această descriere corespunde mai degrabă stilului convergent.</span></span>",
+
+          "<span class='tip'>Este specific persoanelor imaginative, orientate spre oameni, care analizează situații concrete din perspective multiple și preferă lucrul în echipă<span class='tooltip-box'>Stilul divergent combină experiența concretă cu reflecția. Persoanele cu acest stil preferă brainstorming-ul, nu se grăbesc în luarea deciziilor și sunt sensibile la nevoile celorlalți.<br><br><strong>Avantaje:</strong> creativitate, empatie, lucru eficient în grup.<br><strong>Limite:</strong> pot analiza excesiv și pot rata oportunități.<br><br><strong>Exemple:</strong> domenii artistice, design, activități sociale, resurse umane, consultanță.</span></span>",
+
+          "<span class='tip'>Este specific persoanelor orientate exclusiv spre modele teoretice și concepte abstracte<span class='tooltip-box'>Aceasta descrie stilul asimilator.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      // Stilul asimilator
+      {
+        text: "Ce caracterizează cel mai bine <span class='tip'><strong>stilul de învățare asimilator</strong></span>, stil observativ și rațional, centrat pe înțelegerea și organizarea logică a informațiilor?",
+        options: [
+          "<span class='tip'>Preferința pentru acțiune rapidă și decizii bazate pe intuiție și relații sociale<span class='tooltip-box'>Aceasta este caracteristică stilului acomodator.</span></span>",
+
+          "<span class='tip'>Capacitatea de a organiza informația în modele coerente, cu accent pe idei și concepte abstracte<span class='tooltip-box'>Stilul asimilator combină conceptualizarea abstractă cu reflecția. Pentru aceste persoane, coerența logică a unei teorii este mai importantă decât aplicabilitatea imediată.<br><br><strong>Avantaje:</strong> construire de teorii, planificare, gândire sistematică.<br><strong>Limite:</strong> pot fi prea teoretici și mai puțin practici.<br><br><strong>Exemple:</strong> educație, cercetare, științe, informatică, scriere academică.</span></span>",
+
+          "<span class='tip'>Orientarea prioritară spre rezolvarea problemelor practice și aplicații tehnice<span class='tooltip-box'>Aceasta descrie stilul convergent.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      // Stilul convergent
+      {
+        text: "Cum poate fi descris <span class='tip'><strong>stilul de învățare convergent</strong></span>, stil rațional și acțional, orientat spre aplicarea practică a ideilor?",
+        options: [
+          "<span class='tip'>Interes major pentru relații interpersonale și explorarea emoțiilor<span class='tooltip-box'>Aceasta este mai specifică stilului divergent.</span></span>",
+
+          "<span class='tip'>Orientarea spre găsirea de soluții concrete, testarea ideilor și rezolvarea de probleme practice<span class='tooltip-box'>Stilul convergent combină conceptualizarea abstractă cu experimentarea activă. Persoanele cu acest stil caută utilitatea ideilor și preferă sarcini tehnice și aplicații practice.<br><br><strong>Avantaje:</strong> raționament deductiv, decizie eficientă, rezolvare de probleme.<br><strong>Limite:</strong> pot lua decizii pripite și pot ignora alternative.<br><br><strong>Exemple:</strong> inginerie, IT, management tehnic, producție.</span></span>",
+
+          "<span class='tip'>Preferința pentru reflecție îndelungată fără aplicare imediată<span class='tooltip-box'>Aceasta este mai apropiată de stilul asimilator.</span></span>",
+        ],
+        answer: 1,
+      },
+
+      // Stilul acomodator
+      {
+        text: "Ce definește cel mai bine <span class='tip'><strong>stilul de învățare acomodator</strong></span>, stil acțional și emoțional, bazat pe experiență directă și relații interpersonale?",
+        options: [
+          "<span class='tip'>Preferința pentru analiză teoretică și planificare abstractă<span class='tooltip-box'>Aceasta descrie stilul asimilator.</span></span>",
+
+          "<span class='tip'>Învățarea prin acțiune directă, asumarea riscurilor și orientarea spre experiențe noi și provocatoare<span class='tooltip-box'>Stilul acomodator combină experiența concretă cu experimentarea activă. Deciziile sunt adesea influențate de emoții și de oameni, nu doar de analiză logică.<br><br><strong>Avantaje:</strong> leadership, inițiativă, capacitate de finalizare.<br><strong>Limite:</strong> lipsa planificării clare, risipă de energie.<br><br><strong>Exemple:</strong> marketing, vânzări, politică, relații publice, management.</span></span>",
+
+          "<span class='tip'>Analizarea situațiilor din multiple perspective fără acțiune rapidă<span class='tooltip-box'>Aceasta este specifică stilului divergent.</span></span>",
+        ],
+        answer: 1,
+      },
+      {
+        text: "Cum a fost <span class='tip'><strong>revizuită ulterior</strong><span class='tooltip-box'>După primele formulări ale teoriei, Kolb și-a nuanțat poziția asupra modului în care funcționează stilurile de învățare.</span></span> perspectiva lui Kolb asupra stilurilor de învățare?",
+        options: [
+          "<span class='tip'>Un individ este caracterizat rigid de un singur stil de învățare dominant<span class='tooltip-box'>Aceasta a fost ipoteza inițială a teoriei, conform căreia fiecare persoană ar avea un stil stabil și predominant.</span></span>",
+
+          "<span class='tip'>Învățarea este <strong>integrată</strong> și poate activa <strong>toate stilurile</strong>, în funcție de context și sarcină<span class='tooltip-box'>Ulterior, Kolb a concluzionat că stilurile nu funcționează izolat sau rigid. O persoană poate trece prin toate modurile de învățare pe parcursul unui proces complet, folosind stiluri diferite în funcție de situație, scop și experiență.<br><br><strong>Exemplu:</strong> aceeași persoană poate începe prin a observa o situație (reflecție), apoi să formuleze o explicație teoretică (conceptualizare), să aplice soluția (experimentare) și să evalueze rezultatul trăit (experiență concretă).</span></span>",
+
+          "<span class='tip'>Stilurile de învățare se aplică doar în contexte nonformale sau extracurriculare<span class='tooltip-box'>Învățarea prin experiență este valabilă în contexte formale, nonformale și informale.</span></span>",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: "phed-u6-q8",
+    title: "Învățarea personalizată",
+    questions: [
+      {
+        text: "Cum este definită <span class='tip'><strong>învățarea personalizată</strong><span class='tooltip-box'>Formă de organizare a demersului educațional în care obiectivele, metodele, conținuturile și ritmul sunt adaptate fiecărui elev, în funcție de nevoi și potențial.</span></span> și de ce este considerată eficientă?",
+        options: [
+          "<span class='tip'>Ca adaptare a obiectivelor, metodelor și conținuturilor la ritmul și nevoile fiecărui elev<span class='tooltip-box'>Învățarea personalizată plasează elevul în centrul procesului educativ și permite activarea potențialului individual, inclusiv în <strong>zona proximei dezvoltări</strong>.<br><br><strong>Legătură:</strong> continuă perspectiva învățării integrate și experiențiale, unde elevul este activ și autoreglat.</span></span>",
+
+          "<span class='tip'>Ca metodă aplicabilă doar elevilor cu dificultăți de învățare<span class='tooltip-box'>Învățarea personalizată vizează toți elevii.</span></span>",
+
+          "<span class='tip'>Ca formă de învățare exclusiv individuală, fără activități de grup<span class='tooltip-box'>Personalizarea poate include activități frontale, pe grupe sau individuale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care secvență descrie corect <span class='tip'><strong>etapele învățării personalizate</strong><span class='tooltip-box'>Proces gradual de adaptare, evaluare și reevaluare a experiențelor de învățare pentru fiecare elev.</span></span>?",
+        options: [
+          "<span class='tip'>Predare standard → test final → notare comparativă<span class='tooltip-box'>Model tradițional, nepersonalizat.</span></span>",
+
+          "<span class='tip'>Implicare în experiențe variate → evaluarea performanței → adaptarea experiențelor → reevaluare<span class='tooltip-box'>Învățarea personalizată presupune antrenarea tuturor elevilor, măsurarea performanțelor raportate la standarde, adaptarea situațiilor de învățare la interese și nevoi reale și reevaluarea progresului.<br><br><strong>Legătură:</strong> feedbackul frecvent susține autoreglarea și învățarea vizibilă.</span></span>",
+
+          "<span class='tip'>Stabilirea unui stil de învățare fix → menținerea lui constantă<span class='tooltip-box'>Învățarea nu este rigidă, ci adaptivă.</span></span>",
+        ],
+        answer: 1,
+      },
+      {
+        text: "De ce învățarea personalizată susține <span class='tip'><strong>atingerea reală a potențialului elevului</strong><span class='tooltip-box'>Nu doar prin adaptare formală, ci prin implicare activă și autoreglare.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru că elevul urmează aceleași obiective ca toți ceilalți, dar într-un ritm mai lent<span class='tooltip-box'>Aceasta descrie diferențiere minimală, nu personalizare.</span></span>",
+
+          "<span class='tip'>Pentru că elevul este sprijinit să își gestioneze propriul proces de învățare<span class='tooltip-box'>Învățarea personalizată pune accent pe strategii proprii, autonomie și autoreglare, permițând activarea potențialului în zona proximei dezvoltări.</span></span>",
+
+          "<span class='tip'>Pentru că profesorul controlează strict fiecare pas al învățării<span class='tooltip-box'>Controlul rigid inhibă autonomia.</span></span>",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+
+  // U7
+
+  {
+    id: "phed-u7-q1",
+    title: "Introducere factori non-cognitivi în învățare",
+    questions: [
+      {
+        text: "În procesul de învățare, performanța școlară nu este determinată exclusiv de capacitățile cognitive. Cum pot fi înțeleși <strong>factorii non-cognitivi</strong> în raport cu <strong>factorii cognitivi</strong>?",
+        options: [
+          "<span class='tip'>Factori care nu țin direct de procesele de gândire dar influențează decisiv succesul sau eșecul învățării<span class='tooltip-box'><strong>Factorii cognitivi</strong> vizează procese precum memoria, atenția, raționamentul.<br><br><strong>Factorii non-cognitivi</strong> includ motivația, emoțiile, atitudinile și pot înclina balanța succesului școlar chiar mai mult decât cei cognitivi.</span></span>",
+          "<span class='tip'>Procesele prin care informația este analizată, stocată și utilizată în activitatea intelectuală<span class='tooltip-box'>Această formulare descrie <strong>factorii cognitivi</strong>.<br><br>Întrebarea se referă la influențe care nu țin direct de aceste procese.</span></span>",
+          "<span class='tip'>Capacități generale legate de nivelul intelectual și de potențialul cognitiv al elevului<span class='tooltip-box'>Inteligența este un <strong>factor cognitiv</strong>.<br><br>Factorii non-cognitivi nu se reduc la acest tip de capacități.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Diferențele dintre elevi în ceea ce privește rezultatele învățării sunt explicate printr-un ansamblu de influențe numite <strong>variabile interindividuale</strong>. Ce sunt variabilele interindividuale?",
+        options: [
+          "<span class='tip'>Factori care determină diferențele dintre elevi în modul de învățare și performanță<span class='tooltip-box'>Aceste variabile explică de ce elevii reacționează diferit la aceleași cerințe educaționale.</span></span>",
+          "<span class='tip'>Elemente comune tuturor elevilor stabilite prin programele și planurile de învățământ<span class='tooltip-box'>Curriculumul este comun.<br><br>Variabilele interindividuale explică <strong>diferențele</strong> dintre elevi.</span></span>",
+          "<span class='tip'>Modalități de predare și evaluare utilizate de cadrul didactic în activitatea școlară<span class='tooltip-box'>Metodele de predare țin de profesor.<br><br>Variabilele interindividuale țin de elev.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care dintre următoarele grupări reflectă corect principalele categorii de variabile interindividuale implicate în învățare?",
+        options: [
+          "<span class='tip'>Factori cognitivi, afectivi, metacognitivi și demografici<span class='tooltip-box'><strong>Conform lui Olivares Cuhat</strong>, aceste categorii surprind dimensiunile majore care influențează activitatea de învățare.</span></span>",
+          "<span class='tip'>Factori biologici, ereditari și neurofiziologici care determină dezvoltarea elevului<span class='tooltip-box'>Influențele biologice există dar <strong>nu epuizează</strong> explicația diferențelor în învățare.</span></span>",
+          "<span class='tip'>Factori sociali, culturali și instituționali care acționează asupra tuturor elevilor<span class='tooltip-box'>Factorii sociali sunt importanți dar <strong>nu sunt singurii</strong> luați în considerare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce includ <strong>factorii cognitivi</strong> ca variabile interindividuale ale învățării?",
+        options: [
+          "<span class='tip'>Inteligența, memoria, aptitudinile și strategiile de învățare<span class='tooltip-box'>Acești factori descriu modul în care elevul procesează și utilizează informația.</span></span>",
+          "<span class='tip'>Motivația pentru învățare și atitudinile dezvoltate față de activitatea școlară<span class='tooltip-box'>Acestea sunt <strong>factori afectivi</strong>, nu cognitivi.</span></span>",
+          "<span class='tip'>Contextul familial, nivelul de educație al părinților și mediul socio-economic<span class='tooltip-box'>Aceștia sunt <strong>factori demografici</strong>.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce rol au <strong>factorii afectivi</strong> în activitatea de învățare?",
+        options: [
+          "<span class='tip'>Influențează nivelul de implicare, perseverență și raportarea elevului la sarcina de învățare<span class='tooltip-box'><strong>Exemple:</strong> motivația, atitudinile față de școală, trăirile emoționale pot facilita sau bloca învățarea.</span></span>",
+          "<span class='tip'>Determină exclusiv capacitatea de reținere și reproducere a informațiilor<span class='tooltip-box'>Memorarea ține în principal de <strong>procese cognitive</strong>.</span></span>",
+          "<span class='tip'>Asigură structurarea logică și organizarea conceptuală a cunoștințelor<span class='tooltip-box'>Organizarea logică este o funcție cognitivă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este <strong>rolul metacogniției</strong> în procesul de învățare?",
+        options: [
+          "<span class='tip'>Permite elevului să își monitorizeze și să își regleze propriile procese de învățare<span class='tooltip-box'><strong>Exemple:</strong> planificarea studiului, verificarea înțelegerii, ajustarea strategiilor când apar dificultăți.</span></span>",
+          "<span class='tip'>Constă în acumularea progresivă de informații și concepte noi<span class='tooltip-box'>Aceasta descrie conținutul cognitiv, nu metacogniția.</span></span>",
+          "<span class='tip'>Se referă la nivelul de interes și implicare emoțională în sarcină<span class='tooltip-box'>Motivația este un factor afectiv.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce includ <strong>factorii demografici</strong> ca variabile interindividuale ale învățării?",
+        options: [
+          "<span class='tip'>Caracteristici precum mediul socio-economic, nivelul de educație al familiei sau contextul cultural<span class='tooltip-box'>Acești factori influențează accesul la resurse și oportunitățile de învățare.</span></span>",
+          "<span class='tip'>Capacitatea de analiză logică și de rezolvare a problemelor<span class='tooltip-box'>Raționamentul este un factor cognitiv.</span></span>",
+          "<span class='tip'>Strategii personale de planificare și control al activității de învățare<span class='tooltip-box'>Strategiile țin de metacogniție.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Pe lângă categoriile majore de factori, ce alt element contribuie la originalitatea modului în care elevul învață?",
+        options: [
+          "<span class='tip'>Trăsăturile de personalitate<span class='tooltip-box'>Personalitatea influențează modul specific în care factorii cognitivi și non-cognitivi se combină în activitatea de învățare.</span></span>",
+          "<span class='tip'>Structura uniformă a programei școlare și a manualelor utilizate<span class='tooltip-box'>Programa este comună și <strong>nu explică</strong> diferențele individuale.</span></span>",
+          "<span class='tip'>Cantitatea totală de informații predate într-un anumit interval de timp<span class='tooltip-box'>Volumul de informație nu explică stilul personal de învățare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q2",
+    title: "Definirea conceptului de motivație",
+    questions: [
+      {
+        text: "Angajarea elevului într-o sarcină și finalizarea ei prin atingerea obiectivelor depinde de mai mulți factori care acționează împreună. Ce tipuri de factori sunt implicați în acest proces?",
+        options: [
+          "<span class='tip'>Factori de personalitate, abilitățile elevului și factori sociali și culturali<span class='tooltip-box'><strong>Exemple:</strong> convingerile, emoțiile, atribuirea succesului sau eșecului, competențele elevului, climatul clasei și interacțiunile sociale influențează angajarea în sarcină.</span></span>",
+          "<span class='tip'>Nivelul de inteligență și capacitatea de memorare considerate ca elemente centrale ale performanței<span class='tooltip-box'>Inteligența și memoria sunt importante dar <strong>nu explică singure</strong> implicarea, perseverența și finalizarea sarcinilor.</span></span>",
+          "<span class='tip'>Metodele de predare și strategiile didactice utilizate în mod constant de cadrul didactic<span class='tooltip-box'>Metodele influențează învățarea dar ele <strong>nu acționează izolat</strong> de caracteristicile personale ale elevului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum este înțeleasă <strong>motivația umană</strong> din perspectiva educațională contemporană?",
+        options: [
+          "<span class='tip'>Ca un proces complex, multideterminat, care facilitează anumite tipare de dorințe<span class='tooltip-box'>Motivația nu funcționează mecanic.<br><br>Este rezultatul interacțiunii dintre factori personali, cognitivi, emoționali și contextuali.</span></span>",
+          "<span class='tip'>Ca un mecanism declanșat automat de recompense și sancțiuni externe<span class='tooltip-box'>Aceasta descrie o viziune <strong>mecanicistă</strong>, insuficientă pentru a explica comportamentul educațional real.</span></span>",
+          "<span class='tip'>Ca o trăsătură relativ stabilă a personalității care se manifestă identic în toate situațiile<span class='tooltip-box'>Motivația variază în funcție de sarcină, context și experiențe anterioare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum este definită motivația în literatura recentă de specialitate?",
+        options: [
+          "<span class='tip'>Motivația reprezintă atât dorința de a obține ceva cât și energia necesară pentru a acționa în direcția acelui scop<span class='tooltip-box'>Motivația include inițierea acțiunii și <strong>menținerea efortului</strong> în timp.</span></span>",
+          "<span class='tip'>Motivația constă în formularea unui scop personal clar și conștient<span class='tooltip-box'>Existența scopului nu explică de la sine nivelul de energie și perseverență.</span></span>",
+          "<span class='tip'>Motivația este reflectată prin rapiditatea cu care o sarcină este dusă la bun sfârșit<span class='tooltip-box'>Viteza de execuție nu este un criteriu definitoriu al motivației.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "De ce nu este corectă afirmația „clasa nu este motivată”?",
+        options: [
+          "<span class='tip'>Pentru că motivația are întotdeauna un obiect specific legat de o sarcină sau un domeniu<span class='tooltip-box'>Corect ar fi să se precizeze obiectul motivației sau tipul ei.<br><br><strong>Exemplu:</strong> nu este motivată pentru realizarea temelor la matematică.</span></span>",
+          "<span class='tip'>Pentru că nivelul motivației este identic la toți elevii dintr-o clasă<span class='tooltip-box'>În realitate, motivația diferă de la un elev la altul și de la o sarcină la alta.</span></span>",
+          "<span class='tip'>Pentru că motivația este o caracteristică globală și permanentă a grupului școlar<span class='tooltip-box'>Motivația nu este stabilă și nu poate fi atribuită global unei clase.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum definește Dicționarul de psihologie conceptul de <strong>motivație</strong>?",
+        options: [
+          "<span class='tip'>Ansamblul proceselor fiziologice și psihologice care declanșează, mențin și opresc un comportament<span class='tooltip-box'>Include și valoarea apetitivă sau aversivă atribuită elementelor din mediu asupra cărora se exercită comportamentul.</span></span>",
+          "<span class='tip'>Totalitatea recompenselor și stimulilor primiți după realizarea unui comportament<span class='tooltip-box'>Recompensele reprezintă doar o componentă a procesului motivațional.</span></span>",
+          "<span class='tip'>Nivelul de interes manifestat față de o activitate într-un anumit moment<span class='tooltip-box'>Interesul este o parte a motivației dar nu o definește complet.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este elementul comun al principalelor teorii despre motivația elevilor?",
+        options: [
+          "<span class='tip'>Motivația susține implicarea în învățare și efortul constant pentru creșterea performanțelor<span class='tooltip-box'>Fără motivație, implicarea și perseverența necesare învățării sunt dificil de menținut.</span></span>",
+          "<span class='tip'>Motivația asigură în mod automat succesul școlar indiferent de context<span class='tooltip-box'>Motivația este necesară dar <strong>nu suficientă</strong> pentru performanță.</span></span>",
+          "<span class='tip'>Motivația poate substitui lipsa competențelor cognitive de bază<span class='tooltip-box'>Motivația și competențele acționează împreună.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce diferență există între <strong>motivație</strong> și <strong>motivare</strong>?",
+        options: [
+          "<span class='tip'>Motivația aparține individului, iar motivarea reprezintă acțiunea externă de stimulare a acesteia<span class='tooltip-box'>Motivarea este realizată conștient de profesori sau părinți pentru a sprijini motivația elevului.</span></span>",
+          "<span class='tip'>Motivația și motivarea desemnează același proces psihologic<span class='tooltip-box'>În literatura de specialitate, cei doi termeni au <strong>semnificații diferite</strong>.</span></span>",
+          "<span class='tip'>Motivarea este o trăsătură stabilă de personalitate a elevului<span class='tooltip-box'>Motivarea este o intervenție externă, nu o trăsătură.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q3",
+    title: "Teoria expectanță – valoare (Eccles, 1983)",
+    questions: [
+      {
+        text: "Conform <strong>Teoriei expectanță – valoare</strong> formulată de Eccles, de ce factori depinde motivația pentru o activitate?",
+        options: [
+          "<span class='tip'>De așteptarea de succes sau eșec și de valoarea atribuită sarcinii<span class='tooltip-box'>Motivația rezultă din combinarea a două evaluări: cât de probabil este succesul și cât de importantă sau atractivă este sarcina.</span></span>",
+          "<span class='tip'>De nivelul general de inteligență și de dificultatea obiectivă a sarcinii<span class='tooltip-box'>Acești factori pot influența performanța dar <strong>nu definesc direct</strong> motivația în această teorie.</span></span>",
+          "<span class='tip'>De recompensele externe și de sancțiunile asociate activității<span class='tooltip-box'>Aceasta este o explicație mai apropiată de <strong>teoriile behavioriste</strong>.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce rol are <strong>așteptarea de succes</strong> în motivația elevilor, conform acestei teorii?",
+        options: [
+          "<span class='tip'>Determină nivelul de implicare în funcție de probabilitatea percepută de a reuși<span class='tooltip-box'>Dacă elevul crede că poate reuși, este mai dispus să se implice și să depună efort.</span></span>",
+          "<span class='tip'>Reprezintă evaluarea dificultății reale a sarcinii făcută de profesor<span class='tooltip-box'>Teoria se referă la <strong>percepția elevului</strong>, nu la evaluarea obiectivă.</span></span>",
+          "<span class='tip'>Este un rezultat al motivației deja existente<span class='tooltip-box'>În această teorie, așteptarea de succes este <strong>o cauză</strong> a motivației.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce se întâmplă cu motivația elevului dacă probabilitatea percepută de succes este zero?",
+        options: [
+          "<span class='tip'>Motivația pentru activitate devine egală cu zero<span class='tooltip-box'>Dacă elevul este convins că va eșua, nu mai există motive să investească efort.</span></span>",
+          "<span class='tip'>Motivația rămâne neschimbată dacă sarcina este importantă<span class='tooltip-box'>Valoarea sarcinii nu este suficientă dacă <strong>așteptarea de succes lipsește complet</strong>.</span></span>",
+          "<span class='tip'>Motivația crește datorită provocării ridicate<span class='tooltip-box'>Provocarea poate motiva doar dacă există o <strong>șansă percepută de reușită</strong>.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce implicație educațională importantă derivă din Teoria expectanță – valoare?",
+        options: [
+          "<span class='tip'>Elevii trebuie să perceapă o probabilitate rezonabilă de succes pentru a rămâne motivați<span class='tooltip-box'>Profesorul poate susține motivația prin ajustarea cerințelor și feedbackului astfel încât succesul să pară posibil.</span></span>",
+          "<span class='tip'>Sarcinile trebuie să fie cât mai dificile pentru a stimula motivația<span class='tooltip-box'>Dificultatea excesivă poate reduce drastic așteptarea de succes.</span></span>",
+          "<span class='tip'>Motivația este independentă de percepțiile elevilor<span class='tooltip-box'>Teoria subliniază exact rolul central al percepțiilor subiective.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q4",
+    title: "Teoria auto-determinării (Ryan și Deci, 2000)",
+    questions: [
+      {
+        text: "Conform <strong>Teoriei auto-determinării</strong> (Ryan și Deci), care este premisa de bază despre natura motivației umane?",
+        options: [
+          "<span class='tip'>Oamenii sunt predispuși în mod inerent spre creștere psihologică, învățare și dezvoltare<span class='tooltip-box'>Această predispoziție nu este automată.<br><br>Ea trebuie susținută prin satisfacerea nevoilor psihologice de bază.</span></span>",
+          "<span class='tip'>Motivația apare doar ca reacție la recompense și sancțiuni externe<span class='tooltip-box'>Aceasta este o perspectivă <strong>mecanicistă</strong>, criticată de teoria auto-determinării.</span></span>",
+          "<span class='tip'>Motivația este o trăsătură stabilă care diferă între indivizi<span class='tooltip-box'>Teoria pune accent pe <strong>context</strong> și pe modul în care acesta susține sau blochează motivația.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care sunt <strong>nevoile psihologice de bază</strong> identificate de teoria auto-determinării?",
+        options: [
+          "<span class='tip'>Autonomia, competența și relaționarea cu ceilalți<span class='tooltip-box'>Satisfacerea lor susține motivația, performanța și starea de bine.</span></span>",
+          "<span class='tip'>Inteligența, memoria și atenția<span class='tooltip-box'>Acestea sunt procese <strong>cognitive</strong>, nu nevoi psihologice de bază.</span></span>",
+          "<span class='tip'>Recompensa, pedeapsa și evaluarea<span class='tooltip-box'>Acestea sunt <strong>mijloace externe de control</strong>.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum este definită <strong>autonomia</strong> în cadrul Teoriei auto-determinării?",
+        options: [
+          "<span class='tip'>Sentimentul de inițiativă și de control asupra propriilor acțiuni<span class='tooltip-box'>Autonomia este susținută de interes și valoare și este afectată negativ de control extern excesiv.</span></span>",
+          "<span class='tip'>Capacitatea de a lucra singur fără sprijinul altora<span class='tooltip-box'>Autonomia nu înseamnă izolare sau lipsa relaționării.</span></span>",
+          "<span class='tip'>Libertatea totală de a evita regulile și cerințele<span class='tooltip-box'>Autonomia poate exista și în contexte structurate.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "În ce tip de medii este cel mai bine satisfăcută <strong>nevoia de competență</strong>?",
+        options: [
+          "<span class='tip'>În medii bine structurate, cu provocări adecvate și feedback pozitiv<span class='tooltip-box'>Astfel de medii oferă oportunități reale de creștere și progres.</span></span>",
+          "<span class='tip'>În medii foarte permisive, fără cerințe clare<span class='tooltip-box'>Lipsa structurii poate submina sentimentul de competență.</span></span>",
+          "<span class='tip'>În medii extrem de competitive și punitive<span class='tooltip-box'>Presiunea excesivă poate afecta negativ motivația și starea de bine.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este înțeleasă relația dintre <span class='tip'><strong>motivația intrinsecă</strong><span class='tooltip-box'>Motivația intrinsecă se referă la activități realizate pentru interesul, plăcerea și satisfacția inerentă pe care le oferă activitatea în sine.<br><br><strong>Exemplu:</strong> elevul rezolvă probleme pentru că îi place să gândească, este curios și se bucură de proces, nu pentru note sau recompense.</span></span> și <span class='tip'><strong>motivația extrinsecă</strong><span class='tooltip-box'>Motivația extrinsecă include toate formele de motivație în care acțiunea este realizată pentru un motiv diferit de plăcerea activității în sine.<br><br>În teoria auto-determinării, motivația extrinsecă este organizată pe un continuum al <strong>internalizării</strong>: de la reglarea externă bazată pe pedepse și recompense, la introiecție bazată pe presiuni interne și stimă de sine, apoi la identificare unde valoarea activității este conștient acceptată și la integrare unde aceasta devine congruentă cu valorile personale.<br><br>Pe măsură ce internalizarea crește, localizarea cauzală este percepută tot mai intern, iar motivația extrinsecă se apropie funcțional de motivația intrinsecă, fără a deveni identică cu aceasta.</span></span> în teoria auto-determinării?",
+        options: [
+          "<span class='tip'>Ca un continuum între forme controlate și auto-determinate ale motivației<span class='tooltip-box'>Motivația extrinsecă nu este opusul celei intrinseci, ci poate fi mai mult sau mai puțin internalizată.<br><br><strong>Exemplu:</strong> un elev începe să învețe pentru note sau pentru a evita sancțiuni, apoi învață pentru că vede importanța personală a sarcinii, ajungând în final să se implice din interes și plăcere.</span></span>",
+          "<span class='tip'>Ca două tipuri complet opuse și incompatibile<span class='tooltip-box'>Aceasta este o interpretare tradițională, care nu reflectă logica continuumului motivațional.<br><br><strong>Exemplu:</strong> a considera că motivația pentru note exclude definitiv apariția interesului pentru activitate.</span></span>",
+          "<span class='tip'>Ca procese independente care nu interacționează<span class='tooltip-box'>Teoria arată că formele de motivație se influențează și se pot transforma în timp.<br><br><strong>Exemplu:</strong> a presupune că modul în care un elev este evaluat nu afectează deloc interesul său pentru învățare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt organizate formele motivației în <strong>Teoria auto-determinării</strong>, de la <span class='tip'><strong>amotivație</strong><span class='tooltip-box'>Amotivația se caracterizează prin percepția lipsei de competență, lipsa valorii și lipsa relevanței activității.<br><br><strong>Exemplu:</strong> elevul nu se implică în sarcină pentru că simte că nu este capabil, nu vede rostul activității și nu o consideră importantă.</span></span> la <span class='tip'><strong>motivație intrinsecă</strong><span class='tooltip-box'>Motivația intrinsecă este definită de interes, plăcere și satisfacția inerentă activității în sine.<br><br><strong>Exemplu:</strong> elevul se implică în activitate pentru că îi place, este curios și găsește activitatea atractivă în sine.</span></span>, și ce rol are <strong>internalizarea</strong> în acest parcurs?",
+        options: [
+          "<span class='tip'>Ca un continuum care pornește de la lipsa motivației și avansează prin forme tot mai internalizate de reglare<span class='tooltip-box'><strong>Internalizarea</strong> reprezintă procesul prin care regulile și valorile inițial externe sunt asumate progresiv ca fiind proprii.<br><br><strong>Exemplu:</strong> elevul trece de la neimplicare, la a învăța pentru a evita sancțiuni, apoi pentru importanța personală a sarcinii, ajungând în final să învețe din interes și plăcere.</span></span>",
+          "<span class='tip'>Ca etape fixe și independente care nu permit tranziții între ele<span class='tooltip-box'>Teoria subliniază caracterul dinamic și gradual al motivației.</span></span>",
+          "<span class='tip'>Ca o opoziție directă între lipsa motivației și motivația bazată pe recompense<span class='tooltip-box'>Modelul nu este construit pe opoziții rigide.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care dintre următoarele reprezintă <strong>forme controlate ale motivației</strong>?",
+        options: [
+          "<span class='tip'>Reglarea externă și reglarea introiectată<span class='tooltip-box'>Comportamentul este determinat de recompense, pedepse sau presiuni interne legate de stimă de sine.<br><br><strong>Introiecția</strong> înseamnă că regula nu mai este impusă direct din exterior, dar este „preluată” intern sub formă de presiune: individul acționează pentru a evita vinovăția, rușinea sau anxietatea ori pentru a se simți valoros.<br><br><strong>Exemplu:</strong> elevul învață nu pentru că îi place sau vede sensul, ci pentru că „așa trebuie”, ca să nu se simtă un eșec sau să nu își dezamăgească profesorii, ori părinții.</span></span>",
+          "<span class='tip'>Identificarea și reglarea integrată<span class='tooltip-box'>Aceste forme presupun asumarea valorii activității.<br><br><strong>Exemplu:</strong> elevul învață pentru că înțelege importanța materiei pentru obiectivele sale personale.</span></span>",
+          "<span class='tip'>Motivația intrinsecă bazată pe interes și plăcere<span class='tooltip-box'>Activitatea este realizată pentru satisfacția pe care o oferă în sine.<br><br><strong>Exemplu:</strong> elevul rezolvă probleme pentru că îi face plăcere.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce efect are, în general, <strong>controlul extern excesiv</strong> prin recompense și sancțiuni asupra motivației?",
+        options: [
+          "<span class='tip'>Tinde să reducă motivația autonomă și performanța pe termen lung<span class='tooltip-box'>Paradoxal, controlul direct subminează internalizarea și starea de bine.</span></span>",
+          "<span class='tip'>Crește constant motivația și performanța tuturor elevilor<span class='tooltip-box'>Efectele pozitive sunt adesea limitate și pe termen scurt.</span></span>",
+          "<span class='tip'>Nu are niciun impact asupra motivației<span class='tooltip-box'>Contextul motivațional influențează profund implicarea.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este rolul profesorului în drumul de la <strong>amotivație</strong> la <strong>motivație intrinsecă</strong>?",
+        options: [
+          "<span class='tip'>Să susțină autonomia, competența și relaționarea, adaptând obiectivele la nevoile reale ale elevilor<span class='tooltip-box'>Accentul cade pe dezvoltarea generală și starea de bine, nu doar pe rezultate academice.</span></span>",
+          "<span class='tip'>Să urmărească exclusiv obținerea performanțelor maxime<span class='tooltip-box'>Nu toți elevii pot atinge performanțe excepționale.</span></span>",
+          "<span class='tip'>Să aplice recompense și sancțiuni standardizate<span class='tooltip-box'>Aceasta favorizează motivația controlată.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q5",
+    title: "Teoria jocurilor (gamification)",
+    questions: [
+      {
+        text: "În context educațional, ce înseamnă <strong>teoria jocurilor</strong> numită și <strong>gamification</strong>?",
+        options: [
+          "<span class='tip'>Folosirea elementelor motivaționale ale jocurilor în contexte care nu sunt jocuri<span class='tooltip-box'>Ideea este transferul mecanismelor din jocuri în activități de învățare.<br><br><strong>Exemplu:</strong> puncte, niveluri, misiuni și feedback imediat pentru progres la o temă.</span></span>",
+          "<span class='tip'>Înlocuirea lecțiilor cu jocuri de relaxare fără obiective de învățare<span class='tooltip-box'>Gamification păstrează scopul educațional și îl susține prin elemente de joc.</span></span>",
+          "<span class='tip'>Predarea exclusiv prin competiție cu premii materiale pentru cei mai buni<span class='tooltip-box'>Premiile pot exista dar nu definesc gamification și nu sunt esențiale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "De ce este asociată teoria jocurilor cu principiile behavioriste ale învățării?",
+        options: [
+          "<span class='tip'>Pentru că folosește recompense și întărirea comportamentelor dezirabile<span class='tooltip-box'>Elementele de joc pot funcționa ca întăriri și feedback pentru progres.<br><br><strong>Exemplu:</strong> primești o insignă după ce finalizezi o etapă.</span></span>",
+          "<span class='tip'>Pentru că se bazează pe interpretarea viselor și a simbolurilor din jocuri<span class='tooltip-box'>Aceasta nu are legătură cu behaviorismul sau cu gamification.</span></span>",
+          "<span class='tip'>Pentru că elimină complet feedbackul și evaluarea ca să nu afecteze motivația<span class='tooltip-box'>În jocuri feedbackul este central, tocmai pentru reglarea comportamentului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum pot sistemele gamificate să susțină <strong>motivația autonomă</strong> a elevilor?",
+        options: [
+          "<span class='tip'>Prin susținerea sentimentelor de autonomie și competență în sarcină<span class='tooltip-box'>Elevul simte că are inițiativă și că poate progresa.<br><br><strong>Exemplu:</strong> alege ordinea misiunilor și vede clar că devine mai bun.</span></span>",
+          "<span class='tip'>Prin control extern constant și penalizări frecvente pentru greșeli mici<span class='tooltip-box'>Controlul excesiv tinde să reducă autonomia.</span></span>",
+          "<span class='tip'>Prin reducerea cerințelor astfel încât toți să ia maxim fără efort real<span class='tooltip-box'>Lipsa provocării subminează competența și interesul.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este regula principală de proiectare a unei activități gamificate eficiente?",
+        options: [
+          "<span class='tip'>Obiective provocatoare dar gestionabile pentru nivelul elevilor<span class='tooltip-box'><strong>Exemplu:</strong> sarcina cere efort dar este realizabilă cu sprijin și practică.</span></span>",
+          "<span class='tip'>Obiective foarte ușoare pentru a evita orice frustrare<span class='tooltip-box'>Prea ușor duce la plictiseală sau dezangajare.</span></span>",
+          "<span class='tip'>Obiective extrem de greu de atins ca să crească presiunea competitivă<span class='tooltip-box'>Prea greu duce la apatie și renunțare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce se întâmplă când jocul este <strong>prea complex</strong> iar abilitățile jucătorului sunt insuficiente?",
+        options: [
+          "<span class='tip'>Tinde să apară apatie sau retragere din activitate<span class='tooltip-box'><strong>Exemplu:</strong> elevul renunță pentru că simte că nu poate face față.</span></span>",
+          "<span class='tip'>Apare automat starea de flux deoarece dificultatea este ridicată<span class='tooltip-box'>Fluxul cere echilibru între provocare și abilități, nu doar dificultate mare.</span></span>",
+          "<span class='tip'>Crește interesul în mod garantat datorită noutății<span class='tooltip-box'>Noutatea ajută uneori dar nu compensează lipsa abilităților necesare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce se întâmplă când jocul este <strong>prea ușor</strong> pentru abilitățile jucătorului?",
+        options: [
+          "<span class='tip'>Poate apărea apatie sau plictiseală pentru că nu mai există provocare<span class='tooltip-box'><strong>Exemplu:</strong> elevul termină repede și nu mai este absorbit de sarcină.</span></span>",
+          "<span class='tip'>Apare anxietate intensă pentru că sarcina este neclară și greu de controlat<span class='tooltip-box'>Anxietatea apare mai des când provocarea depășește abilitățile.</span></span>",
+          "<span class='tip'>Se dezvoltă automat competențe noi pentru că sarcina este simplă de repetat<span class='tooltip-box'>Repetiția fără provocare limitează progresul.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "În teoria jocurilor, ce este <strong>starea de flux</strong>?",
+        options: [
+          "<span class='tip'>O stare de absorbție profundă într-o activitate intrinsec plăcută<span class='tooltip-box'><strong>Exemplu:</strong> elevul este atât de prins de rezolvare încât pierde noțiunea timpului.</span></span>",
+          "<span class='tip'>O stare de oboseală produsă de repetarea mecanică a sarcinilor<span class='tooltip-box'>Fluxul nu este oboseală, ci implicare intensă și satisfăcătoare.</span></span>",
+          "<span class='tip'>O stare de tensiune generată exclusiv de evaluare și note<span class='tooltip-box'>Fluxul nu depinde de presiuni externe, ci de echilibru și implicare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "De ce starea de flux poate crește implicarea elevilor în activități gamificate?",
+        options: [
+          "<span class='tip'>Pentru că este satisfăcătoare în sine, iar elevii revin ca să își dezvolte abilități și să atingă obiective<span class='tooltip-box'><strong>Exemplu:</strong> elevul așteaptă să continue jocul ca să treacă nivelul și să devină mai bun.</span></span>",
+          "<span class='tip'>Pentru că elevii primesc obligatoriu recompense materiale la fiecare pas<span class='tooltip-box'>Recompensele materiale nu sunt necesare pentru flux și pot chiar distrage.</span></span>",
+          "<span class='tip'>Pentru că elimină complet provocarea astfel încât participarea devine automată<span class='tooltip-box'>Fluxul apare tocmai când provocarea este adecvată, nu eliminată.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q6",
+    title: "Piramida nevoilor (Maslow)",
+    questions: [
+      {
+        text: "Cum este înțeleasă <strong>motivația</strong> în cadrul <strong>Piramidei nevoilor</strong> propuse de Maslow?",
+        options: [
+          "<span class='tip'>Ca fiind strâns legată de satisfacerea unui sistem ierarhizat de trebuințe<span class='tooltip-box'>Maslow explică motivația prin activarea unor nevoi dispuse ierarhic, de la bază spre vârf.<br><br>O nevoie devine motivantă atunci când cele inferioare ei sunt satisfăcute într-o anumită măsură.<br><br><strong>Exemplu:</strong> un elev flămând sau obosit nu va fi motivat pentru învățare.</span></span>",
+          "<span class='tip'>Ca rezultat exclusiv al recompenselor și sancțiunilor externe<span class='tooltip-box'>Această perspectivă explică motivația prin mecanisme de control extern.<br><br>Este specifică behaviorismului și nu surprinde rolul nevoilor descrise de Maslow.</span></span>",
+          "<span class='tip'>Ca o trăsătură stabilă de personalitate independentă de context<span class='tooltip-box'>Această viziune presupune că motivația nu variază situațional.<br><br>Maslow subliniază exact contrariul: dependența de starea nevoilor și de context.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <strong>ordinea corectă</strong> a principalelor categorii de trebuințe în piramida lui Maslow?",
+        options: [
+          "<span class='tip'>Trebuințe fiziologice, de securitate, de afiliere, de stimă și de actualizare a sinelui<span class='tooltip-box'>Nevoile superioare se activează pe măsură ce cele inferioare sunt satisfăcute.</span></span>",
+          "<span class='tip'>Trebuințe de stimă, de afiliere, fiziologice, de securitate și cognitive<span class='tooltip-box'>Această ordine inversează structura piramidei.<br><br>Maslow plasează nevoile fiziologice la bază.</span></span>",
+          "<span class='tip'>Trebuințe cognitive urmate de cele fiziologice și de securitate<span class='tooltip-box'>Nevoile cognitive nu pot fi activate înaintea celor de bază.<br><br>Modelul ierarhic exclude această succesiune.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce diferență există între <strong>trebuințele inferioare</strong> și <strong>trebuințele superioare</strong> din piramida lui Maslow?",
+        options: [
+          "<span class='tip'>Cele inferioare sunt înnăscute și urgente, iar cele superioare sunt influențate de mediul social<span class='tooltip-box'>Cu cât o nevoie este mai sus în piramidă, cu atât este mai dependentă de experiență și context.</span></span>",
+          "<span class='tip'>Cele superioare sunt mai importante pentru supraviețuire decât cele inferioare<span class='tooltip-box'>Supraviețuirea este legată de satisfacerea nevoilor fiziologice și de securitate.</span></span>",
+          "<span class='tip'>Cele inferioare apar doar în copilărie, iar cele superioare doar la maturitate<span class='tooltip-box'>Maslow nu leagă nevoile strict de vârstă, ci de starea lor de satisfacere.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce un elev înfometat nu își poate activa eficient <strong>nevoile cognitive</strong>?",
+        options: [
+          "<span class='tip'>Pentru că trebuințele fiziologice nesatisfăcute blochează activarea celor superioare<span class='tooltip-box'><strong>Exemplu:</strong> lipsa hranei sau a odihnei reduce capacitatea de concentrare și implicare.</span></span>",
+          "<span class='tip'>Pentru că nevoile cognitive sunt independente de starea fizică<span class='tooltip-box'>Maslow subliniază interdependența nivelurilor piramidei.</span></span>",
+          "<span class='tip'>Pentru că nevoile cognitive apar doar după adolescență<span class='tooltip-box'>Nevoile cognitive pot fi active la orice vârstă dacă nevoile de bază sunt satisfăcute.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt diferențiate <strong>trebuințele de deficit</strong> față de <strong>trebuințele de dezvoltare</strong>?",
+        options: [
+          "<span class='tip'>Trebuințele de deficit se sting când sunt satisfăcute, iar cele de dezvoltare nu pot fi complet satisfăcute<span class='tooltip-box'>Nevoile de cunoaștere și autorealizare susțin motivația pe termen lung.</span></span>",
+          "<span class='tip'>Trebuințele de dezvoltare sunt mai urgente decât cele de deficit<span class='tooltip-box'>Urgența este specifică nevoilor de bază, nu celor de dezvoltare.</span></span>",
+          "<span class='tip'>Trebuințele de deficit apar doar în contexte școlare<span class='tooltip-box'>Ele apar în toate domeniile vieții, nu doar în educație.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <strong>profesorul</strong> în raport cu nevoile elevilor, conform perspectivei lui Maslow?",
+        options: [
+          "<span class='tip'>Să identifice nevoile active ale elevilor și să adapteze programul de formare pentru a susține implicarea<span class='tooltip-box'>Profesorul trebuie să țină cont de nivelul nevoilor active.<br><br><strong>Exemplu:</strong> susținerea securității și apartenenței înainte de cerințe cognitive ridicate.</span></span>",
+          "<span class='tip'>Să ignore nevoile de bază și să se concentreze exclusiv pe conținuturi<span class='tooltip-box'>Ignorarea nevoilor reduce motivația și implicarea.</span></span>",
+          "<span class='tip'>Să aplice aceleași strategii indiferent de context<span class='tooltip-box'>Maslow subliniază importanța adaptării la contextul elevului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce este <strong>frustrarea</strong> și ce rol poate avea în procesul educațional?",
+        options: [
+          "<span class='tip'>O stare de tensiune apărută când nevoile nu sunt satisfăcute, benefică în doze moderate<span class='tooltip-box'>În doze moderate, frustrarea dezvoltă toleranța și poate crește motivația.<br><br><strong>Exemplu:</strong> dificultatea unei sarcini îl poate motiva pe elev să insiste.</span></span>",
+          "<span class='tip'>O reacție exclusiv negativă care trebuie eliminată complet<span class='tooltip-box'>Eliminarea totală a frustrării nu este realistă sau educativă.</span></span>",
+          "<span class='tip'>Un semn al lipsei definitive de motivație<span class='tooltip-box'>Frustrarea poate stimula motivația în anumite condiții.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care dintre următoarele reprezintă <strong>reacții posibile la frustrare</strong> în rândul elevilor?",
+        options: [
+          "<span class='tip'>Agresivitate, fantezie sau regresie la un stadiu anterior de dezvoltare<span class='tooltip-box'>Reacțiile pot fi orientate spre exterior, interior sau spre evitarea realității.</span></span>",
+          "<span class='tip'>Creșterea automată a performanței academice<span class='tooltip-box'>Frustrarea nu garantează performanță.</span></span>",
+          "<span class='tip'>Activarea imediată a autorealizării<span class='tooltip-box'>Autorealizarea presupune satisfacerea nivelurilor inferioare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q7",
+    title: "Introducere în teoriile cognitive ale motivației",
+    questions: [
+      {
+        text: "Cum este înțeleasă <strong>motivația</strong> în cadrul <strong>teoriilor cognitive ale motivației</strong>?",
+        options: [
+          "<span class='tip'>Ca o funcție a gândirii și a credințelor despre propriile capacități<span class='tooltip-box'>În aceste teorii, motivația nu este o nevoie sau o stare, ci rezultatul modului în care individul interpretează informația și o transformă în credințe despre ce poate sau nu poate face.<br><br><strong>Exemplu:</strong> un elev care crede că poate reuși va aborda sarcina diferit față de unul care crede că eșecul este inevitabil.</span></span>",
+          "<span class='tip'>Ca o reacție automată la recompense și pedepse<span class='tooltip-box'>Aceasta este o explicație specifică teoriilor behavioriste, nu celor cognitive.</span></span>",
+          "<span class='tip'>Ca o nevoie biologică ce apare spontan în situații de învățare<span class='tooltip-box'>Teoriile cognitive pun accent pe interpretare și credințe, nu pe nevoi biologice.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Pe ce aspect al experienței de învățare pun accent <strong>teoriile cognitive ale motivației</strong>?",
+        options: [
+          "<span class='tip'>Pe ceea ce elevul crede despre succes, eșec și propriile capacități<span class='tooltip-box'>Credințele despre control, competență și posibilitatea de reușită influențează direct implicarea în sarcină.</span></span>",
+          "<span class='tip'>Pe structura obiectivă a sarcinilor școlare<span class='tooltip-box'>Structura sarcinii contează, dar nu este centrul explicației cognitive.</span></span>",
+          "<span class='tip'>Pe nivelul general de inteligență al elevului<span class='tooltip-box'>Inteligența nu explică singură motivația din perspectivă cognitivă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum clasifică <strong>Weiner</strong> teoriile cognitive ale motivației?",
+        options: [
+          "<span class='tip'>În sisteme conceptuale precum teoriile atribuirii și teoriile neajutorării învățate<span class='tooltip-box'>Aceste teorii explică motivația prin modul în care elevii interpretează cauzele succesului sau eșecului și prin percepția controlului asupra rezultatelor.<br><br><strong>Notă:</strong> fiecare dintre aceste teorii va fi abordată separat în quizurile următoare.</span></span>",
+          "<span class='tip'>În teorii bazate exclusiv pe recompense externe<span class='tooltip-box'>Aceasta nu este clasificarea propusă de Weiner.</span></span>",
+          "<span class='tip'>În teorii ale nevoilor și trebuințelor biologice<span class='tooltip-box'>Această perspectivă aparține mai degrabă lui Maslow.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q8",
+    title: "Teoria atribuirii",
+    questions: [
+      {
+        text: "Ce studiază <strong>teoria atribuirii</strong> formulată de Weiner în contextul motivației pentru învățare?",
+        options: [
+          "<span class='tip'>Modul în care elevii explică succesul și eșecul prin atribuirea unor cauze<span class='tooltip-box'>Teoria atribuirii analizează explicațiile pe care elevii le dau rezultatelor lor și efectele acestora asupra motivației viitoare.</span></span>",
+          "<span class='tip'>Nivelul general de inteligență al elevilor<span class='tooltip-box'>Inteligența nu este obiectul central al teoriei atribuirii.</span></span>",
+          "<span class='tip'>Structura recompenselor și sancțiunilor din clasă<span class='tooltip-box'>Aceasta este o perspectivă behavioristă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum pot fi clasificate <strong>cauzele succesului sau eșecului</strong> din perspectiva <strong>teoriei atribuirii</strong>? (răspunsuri multiple)",
+        options: [
+          "<span class='tip'>Interne vs externe<span class='tooltip-box'>Această dimensiune se referă la <strong>locul cauzei</strong>.<br><br><strong>Interne</strong> sunt cauzele care țin de elev (efort, abilități).<br><strong>Externe</strong> sunt cauzele din afara lui (noroc, dificultatea sarcinii, profesorul).<br><br><strong>Exemplu:</strong> „Am luat notă mică pentru că nu am învățat suficient” (intern) vs „pentru că testul a fost prea greu” (extern).</span></span>",
+          "<span class='tip'>Stabile vs instabile<span class='tooltip-box'>Această dimensiune se referă la <strong>durata cauzei în timp</strong>.<br><br><strong>Stabile</strong> sunt cauze percepute ca permanente (talent, inteligență).<br><strong>Instabile</strong> sunt cauze schimbătoare (efortul, starea de moment).<br><br><strong>Exemplu:</strong> „Nu sunt bun la matematică” (stabil) vs „nu m-am concentrat azi” (instabil).</span></span>",
+          "<span class='tip'>Controlabile vs incontrolabile<span class='tooltip-box'>Această dimensiune se referă la <strong>posibilitatea de control personal</strong> asupra cauzei.<br><br><strong>Controlabile</strong> sunt cauzele asupra cărora elevul poate acționa (efort, strategii).<br><strong>Incontrolabile</strong> sunt cele percepute ca independente de voință (noroc, boală).<br><br><strong>Exemplu:</strong> „Pot învăța mai mult data viitoare” (controlabil) vs „nu am ce face, nu ține de mine” (incontrolabil).</span></span>",
+          "<span class='tip'>Pozitive vs negative<span class='tooltip-box'>Această clasificare se referă la evaluarea emoțională a rezultatului, dar <strong>nu face parte din modelul explicativ al teoriei atribuirii</strong>.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "De ce este importantă <strong>localizarea controlului</strong> în teoria atribuirii?",
+        options: [
+          "<span class='tip'>Pentru că influențează nivelul de efort și expectanțele de succes viitor<span class='tooltip-box'>Cu cât elevul percepe controlul ca fiind mai intern, cu atât este mai dispus să depună efort.</span></span>",
+          "<span class='tip'>Pentru că determină dificultatea obiectivă a sarcinii<span class='tooltip-box'>Dificultatea sarcinii nu este stabilită de atribuiri.</span></span>",
+          "<span class='tip'>Pentru că elimină complet influența emoțiilor<span class='tooltip-box'>Atribuirile au și consecințe emoționale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce tip de feedback din partea profesorului este considerat <strong>motivant</strong> din perspectiva teoriei atribuirii?",
+        options: [
+          "<span class='tip'>Feedback care pune accent pe efort și strategie<span class='tooltip-box'><strong>Exemplu:</strong> „Ai reușit pentru că ai muncit constant și ai încercat mai multe soluții.”</span></span>",
+          "<span class='tip'>Feedback care pune accent exclusiv pe talentul înnăscut<span class='tooltip-box'>Accentul pe trăsături fixe poate reduce perseverența.</span></span>",
+          "<span class='tip'>Feedback vag, fără referire la cauzele rezultatului<span class='tooltip-box'>Lipsa explicațiilor nu susține formarea unor atribuiri funcționale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce înseamnă conceptul de <strong>grit</strong> în contextul motivației și performanței?",
+        options: [
+          "<span class='tip'>Combinația dintre pasiune și perseverență pe termen lung<span class='tooltip-box'><strong>Grit</strong> se referă la capacitatea de a menține interesul și efortul susținut pentru obiective pe termen lung, în ciuda obstacolelor și eșecurilor.<br><br><strong>Exemplu:</strong> un elev continuă să lucreze constant la o materie dificilă, chiar dacă progresul este lent și apar dificultăți.</span></span>",
+          "<span class='tip'>Nivelul ridicat de inteligență înnăscută<span class='tooltip-box'>Grit nu este echivalent cu inteligența sau talentul nativ.</span></span>",
+          "<span class='tip'>Motivația intensă de moment pentru o sarcină ușoară<span class='tooltip-box'>Grit presupune angajament pe termen lung, nu entuziasm de scurtă durată.</span></span>",
+          "<span class='tip'>Capacitatea de a evita complet eșecul<span class='tooltip-box'>Grit implică confruntarea și depășirea eșecurilor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se leagă <strong>teoria atribuirii</strong> de conceptul de <strong>perseverență</strong> sau <strong>grit</strong>?",
+        options: [
+          "<span class='tip'>Prin ideea că efortul susținut este mai important decât talentul pentru performanță<span class='tooltip-box'>Conform lui Duckworth, combinația dintre pasiune și perseverență susține performanța pe termen lung.</span></span>",
+          "<span class='tip'>Prin ideea că succesul depinde în principal de noroc<span class='tooltip-box'>Norocul este o cauză externă și incontrolabilă.</span></span>",
+          "<span class='tip'>Prin eliminarea completă a rolului motivației<span class='tooltip-box'>Motivația rămâne centrală în explicația performanței.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care dintre următoarele afirmații reflectă <strong>o atribuire funcțională</strong> pentru învățare?",
+        options: [
+          "<span class='tip'>„Nu am reușit încă, dar pot progresa dacă depun mai mult efort.”<span class='tooltip-box'>Această atribuire este internă, instabilă și controlabilă.</span></span>",
+          "<span class='tip'>„Nu am reușit pentru că nu sunt inteligent.”<span class='tooltip-box'>Aceasta este o atribuire internă, stabilă și incontrolabilă.</span></span>",
+          "<span class='tip'>„Nu am reușit din cauza profesorului.”<span class='tooltip-box'>Aceasta este o atribuire externă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q9",
+    title: "Teoria neajutorării învățate",
+    questions: [
+      {
+        text: "Ce descrie <strong>teoria neajutorării învățate</strong> (Maier și Seligman) în context educațional?",
+        options: [
+          "<span class='tip'>Starea de resemnare apărută când elevul percepe succesul ca fiind imposibil<span class='tooltip-box'>Neajutorarea învățată apare atunci când elevul crede că rezultatele nu depind de acțiunile sale.</span></span>",
+          "<span class='tip'>Lipsa temporară a interesului pentru o sarcină dificilă<span class='tooltip-box'>Această explicație este mai restrânsă și nu surprinde sentimentul de lipsă a controlului asupra rezultatelor, care este central în neajutorarea învățată.</span></span>",
+          "<span class='tip'>Scăderea performanței cauzată exclusiv de oboseală<span class='tooltip-box'>Oboseala poate influența performanța, dar nu explică mecanismul cognitiv și motivațional al neajutorării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se formează <strong>neajutorarea învățată</strong>?",
+        options: [
+          "<span class='tip'>Prin experiențe repetate de eșec percepute ca inevitabile și incontrolabile<span class='tooltip-box'><strong>Exemplu:</strong> elevul depune efort constant, dar rezultatele nu se îmbunătățesc și ajunge să creadă că orice ar face nu va reuși.</span></span>",
+          "<span class='tip'>Prin lipsa totală a feedbackului din partea profesorului<span class='tooltip-box'>Lipsa feedbackului poate contribui la confuzie sau demotivare, dar nu este suficientă pentru apariția neajutorării învățate.</span></span>",
+          "<span class='tip'>Prin stabilirea unor obiective prea ușoare<span class='tooltip-box'>Obiectivele prea ușoare pot duce la plictiseală, nu la convingerea că succesul este imposibil.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este efectul principal al <strong>neajutorării învățate</strong> asupra motivației?",
+        options: [
+          "<span class='tip'>Scăderea inițiativei și a efortului<span class='tooltip-box'>Elevul anticipează eșecul indiferent de acțiune și nu mai încearcă, chiar și atunci când apar șanse reale de reușită.</span></span>",
+          "<span class='tip'>Creșterea competitivității între elevi<span class='tooltip-box'>Competiția presupune implicare activă, ceea ce contrazice pasivitatea specifică neajutorării.</span></span>",
+          "<span class='tip'>Activarea automată a motivației intrinseci<span class='tooltip-box'>Motivația intrinsecă este asociată cu interes și plăcere, nu cu resemnare și evitare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se manifestă <strong>neajutorarea învățată</strong> în comportamentul elevilor?",
+        options: [
+          "<span class='tip'>Evitarea sarcinilor și renunțare rapidă<span class='tooltip-box'><strong>Exemplu:</strong> elevul spune „oricum nu are rost să încerc” și nu mai depune efort.</span></span>",
+          "<span class='tip'>Căutarea constantă a provocărilor și a situațiilor dificile<span class='tooltip-box'>Această reacție este caracteristică elevilor cu mentalitate de creștere.</span></span>",
+          "<span class='tip'>Creșterea interesului pentru feedback constructiv<span class='tooltip-box'>Neajutorarea este asociată mai degrabă cu retragere și respingerea feedbackului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce poate face <strong>profesorul</strong> pentru a preveni sau reduce neajutorarea învățată?",
+        options: [
+          "<span class='tip'>Să ofere experiențe de succes controlabile și feedback pe efort<span class='tooltip-box'>Astfel, elevul reconstruiește legătura dintre acțiunile sale și rezultate și recâștigă sentimentul de control.</span></span>",
+          "<span class='tip'>Să reducă nivelul de dificultate la minimum pentru toți elevii<span class='tooltip-box'>Simplificarea excesivă poate transmite mesajul că elevul nu este capabil de sarcini mai complexe.</span></span>",
+          "<span class='tip'>Să evite complet evaluarea performanței școlare<span class='tooltip-box'>Evaluarea este utilă dacă este formativă și orientată spre progres.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q10",
+    title: "Fazele procesului motivațional",
+    questions: [
+      {
+        text: "Cum este descris <strong>procesul motivațional</strong> din perspectivă generală, indiferent de teoria explicativă?",
+        options: [
+          "<span class='tip'>Ca un proces dinamic structurat în mai multe faze<span class='tooltip-box'>Motivația se desfășoară în timp, de la inițiere până la finalizare sau abandon.</span></span>",
+          "<span class='tip'>Ca o reacție instantanee la stimuli externi<span class='tooltip-box'>Această perspectivă presupune un răspuns rapid și mecanic la stimulii din mediu, fără etape intermediare sau autoreglare.</span></span>",
+          "<span class='tip'>Ca o trăsătură stabilă a personalității<span class='tooltip-box'>Această viziune consideră motivația relativ fixă, ignorând caracterul ei procesual și dinamic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce presupune <strong>faza de orientare a comportamentului</strong> în procesul motivațional?",
+        options: [
+          "<span class='tip'>Luarea deciziei de a iniția un comportament<span class='tooltip-box'><strong>Exemplu:</strong> elevul decide să înceapă pregătirea pentru un test.</span></span>",
+          "<span class='tip'>Menținerea efortului pe termen lung<span class='tooltip-box'>Aceasta implică perseverență, monitorizarea progresului și reglarea strategiilor, caracteristice unei faze ulterioare.</span></span>",
+          "<span class='tip'>Renunțarea la sarcină din cauza eșecului<span class='tooltip-box'>Aceasta apare atunci când obiectivul este abandonat sau nu mai este considerat realizabil.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracterizează <strong>faza de declanșare a comportamentului</strong>?",
+        options: [
+          "<span class='tip'>Mobilizarea resurselor cognitive, emoționale și comportamentale<span class='tooltip-box'><strong>Exemplu:</strong> elevul își organizează materialele, își gestionează emoțiile și începe activitatea.</span></span>",
+          "<span class='tip'>Defocalizarea de pe sarcină<span class='tooltip-box'>Aceasta presupune pierderea interesului sau orientarea atenției spre alte activități, caracteristică fazei de dezangajare.</span></span>",
+          "<span class='tip'>Evaluarea finală a rezultatelor<span class='tooltip-box'>Aceasta ar presupune analiza performanței obținute, dar nu reprezintă o fază distinctă în modelul procesului motivațional.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce definește <strong>faza de susținere a comportamentului</strong>?",
+        options: [
+          "<span class='tip'>Perseverența și monitorizarea propriei activități<span class='tooltip-box'><strong>Exemplu:</strong> elevul continuă să lucreze, își verifică progresul și ajustează strategiile.</span></span>",
+          "<span class='tip'>Inițierea deciziei de a acționa<span class='tooltip-box'>Aceasta se referă la momentul decizional inițial, nu la menținerea comportamentului.</span></span>",
+          "<span class='tip'>Abandonarea rapidă a sarcinii<span class='tooltip-box'>Aceasta indică lipsa perseverenței și aparține fazei de dezangajare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Când apare <strong>faza de dezangajare din sarcină</strong>?",
+        options: [
+          "<span class='tip'>La atingerea obiectivului sau în cazul unui blocaj major<span class='tooltip-box'><strong>Exemplu:</strong> elevul se oprește după finalizarea temei sau renunță când apare un obstacol semnificativ.</span></span>",
+          "<span class='tip'>Imediat după luarea deciziei de a acționa<span class='tooltip-box'>Aceasta ar întrerupe procesul înainte de declanșare și susținere.</span></span>",
+          "<span class='tip'>Pe toată durata activității<span class='tooltip-box'>Dezangajarea este un moment distinct, nu o stare permanentă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q11",
+    title: "Atitudinile ca factori ai comportamentului de învățare",
+    questions: [
+      {
+        text: "Cum sunt definite <strong>atitudinile</strong> în psihologie, în raport cu comportamentul?",
+        options: [
+          "<span class='tip'>Dispoziții interne stabile care orientează răspunsurile față de obiecte sau situații<span class='tooltip-box'>Atitudinile reflectă o orientare relativ stabilă a individului față de un obiect sau o activitate.<br><br><strong>Exemplu:</strong> un elev poate avea o atitudine pozitivă sau negativă față de matematică, care îi influențează implicarea.</span></span>",
+          "<span class='tip'>Reacții emoționale trecătoare declanșate de situații izolate<span class='tooltip-box'>Emoțiile sunt de scurtă durată, pot varia rapid și nu presupun o structură stabilă de evaluare a obiectului.</span></span>",
+          "<span class='tip'>Comportamente observabile repetate în timp<span class='tooltip-box'>Comportamentele pot fi observate direct, dar atitudinile sunt structuri interne care le susțin.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt considerate <strong>atitudinile</strong> factori puternici ai comportamentului, conform lui Allport?",
+        options: [
+          "<span class='tip'>Pentru că orientează constant reacțiile individului<span class='tooltip-box'>Atitudinile funcționează ca filtre de interpretare și evaluare a situațiilor sociale.</span></span>",
+          "<span class='tip'>Pentru că determină automat nivelul de inteligență<span class='tooltip-box'>Această afirmație presupune o relație cauzală greșită și simplificată între atitudini și inteligență.</span></span>",
+          "<span class='tip'>Pentru că elimină influența contextului social<span class='tooltip-box'>Contextul social joacă un rol major atât în formarea, cât și în activarea atitudinilor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se formează <strong>atitudinile</strong> față de o sarcină nouă?",
+        options: [
+          "<span class='tip'>Prin reacții inițiale pozitive sau negative la situații noi<span class='tooltip-box'>Primele experiențe sunt decisive în conturarea atitudinii față de o sarcină.<br><br><strong>Exemplu:</strong> un prim contact frustrant cu o materie poate genera o atitudine negativă.</span></span>",
+          "<span class='tip'>Prin transmitere genetică directă<span class='tooltip-box'>Atitudinile nu sunt înnăscute și nu se transmit biologic, ci se construiesc prin experiență.</span></span>",
+          "<span class='tip'>Prin maturizare biologică automată<span class='tooltip-box'>Maturizarea poate influența capacitățile, dar nu explică formarea evaluărilor afective și cognitive.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracteristică esențială au <strong>atitudinile</strong> din perspectiva educațională?",
+        options: [
+          "<span class='tip'>Sunt învățate și pot fi modelate educațional<span class='tooltip-box'>Atitudinile pot fi cultivate prin experiențe didactice și influențează motivația pentru învățare.</span></span>",
+          "<span class='tip'>Sunt complet rigide și imposibil de schimbat<span class='tooltip-box'>Această perspectivă ignoră rolul experienței, al contextului și al intervenției educaționale.</span></span>",
+          "<span class='tip'>Sunt identice în toate situațiile de viață<span class='tooltip-box'>Atitudinile sunt sensibile la context și pot varia în funcție de situație și obiect.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum pot fi <strong>transferate atitudinile</strong> dintr-un context educațional în altul?",
+        options: [
+          "<span class='tip'>Prin asocierea cu situații și contexte similare<span class='tooltip-box'>O atitudine formată într-un context poate influența reacția față de situații asemănătoare.<br><br><strong>Exemplu:</strong> o atitudine pozitivă față de o disciplină poate facilita deschiderea față de altele.</span></span>",
+          "<span class='tip'>Prin repetarea mecanică a informațiilor<span class='tooltip-box'>Repetiția poate consolida conținuturi, dar nu garantează formarea sau transferul atitudinilor.</span></span>",
+          "<span class='tip'>Prin evaluări standardizate frecvente<span class='tooltip-box'>Evaluarea poate influența comportamentele, dar nu este un mecanism direct de transfer atitudinal.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q12",
+    title: "Afectivitatea în procesul de învățare",
+    questions: [
+      {
+        text: "Cum este definită <strong>afectivitatea</strong> în psihologie?",
+        options: [
+          "<span class='tip'>Ansamblul reacțiilor psihice ale individului față de lumea exterioară<span class='tooltip-box'>Afectivitatea include emoțiile, dispozițiile și trăirile care însoțesc experiențele individului.<br><br><strong>Exemplu:</strong> bucuria, teama sau plictiseala resimțite de elev în raport cu o sarcină școlară.</span></span>",
+          "<span class='tip'>Totalitatea proceselor de gândire logică și raționament implicate în rezolvarea sarcinilor<span class='tooltip-box'>Procesele logice și raționamentul aparțin sferei cognitive și nu descriu reacțiile afective.</span></span>",
+          "<span class='tip'>Un set de comportamente observabile în situații sociale<span class='tooltip-box'>Comportamentele pot exprima stări afective, dar nu sunt echivalente cu afectivitatea însăși.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum influențează <strong>emoțiile pozitive</strong> performanța școlară?",
+        options: [
+          "<span class='tip'>Cresc motivația și implicarea în activitate<span class='tooltip-box'>Emoțiile pozitive îi determină pe elevi să caute repetarea experiențelor plăcute.<br><br><strong>Exemplu:</strong> un elev care simte plăcere în învățare va investi mai mult efort și timp.</span></span>",
+          "<span class='tip'>Reduc interesul pentru activitate pe termen lung prin supraîncărcare emoțională<span class='tooltip-box'>Această afirmație contrazice datele empirice privind relația dintre emoții pozitive și motivație.</span></span>",
+          "<span class='tip'>Nu au legătură cu motivația pentru învățare<span class='tooltip-box'>Numeroase cercetări arată că emoțiile și motivația sunt strâns corelate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce efect au <strong>emoțiile negative</strong> asupra motivației elevilor?",
+        options: [
+          "<span class='tip'>Pot declanșa pe termen scurt comportamente motivate extrinsec, dar duc în timp la evitarea activității<span class='tooltip-box'>Emoțiile negative precum teama sau anxietatea pot determina elevul să acționeze pentru a evita consecințe neplăcute.<br><br>Acest tip de implicare este controlat și instabil și, pe termen lung, favorizează evitarea sarcinii și scăderea performanței.<br><br><strong>Exemplu:</strong> elevul învață pentru a nu fi pedepsit, dar ajunge să evite materia și să învețe superficial.</span></span>",
+          "<span class='tip'>Conduc automat la performanțe ridicate și implicare constantă<span class='tooltip-box'>Presiunea emoțională poate produce conformare temporară, dar nu susține performanța pe termen lung.</span></span>",
+          "<span class='tip'>Cresc motivația intrinsecă pentru activitate<span class='tooltip-box'>Motivația intrinsecă este asociată cu interes, plăcere și sens, nu cu emoții negative.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt importante <strong>emoțiile academice</strong> în procesul de învățare?",
+        options: [
+          "<span class='tip'>Pentru că sunt legate de autoevaluare, valori și climatul clasei<span class='tooltip-box'>Emoțiile academice reflectă modul în care elevii se raportează la sine, la sarcini și la mediul educațional.</span></span>",
+          "<span class='tip'>Pentru că înlocuiesc complet procesele cognitive implicate în învățare<span class='tooltip-box'>Cognitivul și afectivul interacționează, dar nu se substituie unul altuia.</span></span>",
+          "<span class='tip'>Pentru că apar doar în afara mediului școlar și nu au legătură cu activitatea academică<span class='tooltip-box'>Emoțiile academice sunt specifice mediului educațional.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum poate fi susținută <strong>starea de bine</strong> a elevilor în mediul academic?",
+        options: [
+          "<span class='tip'>Prin cultivarea emoțiilor pozitive în clasă<span class='tooltip-box'>Plăcerea de a învăța, speranța și sentimentul de apartenență susțin motivația și performanța.<br><br><strong>Exemplu:</strong> un climat de clasă suportiv și respectuos favorizează emoții pozitive.</span></span>",
+          "<span class='tip'>Prin accent exclusiv pe competiție, evaluare și comparație constantă între elevi<span class='tooltip-box'>Presiunea excesivă crește anxietatea și afectează starea de bine.</span></span>",
+          "<span class='tip'>Prin ignorarea dimensiunii emoționale a procesului de învățare<span class='tooltip-box'>Dimensiunea afectivă este esențială pentru implicare și adaptare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u7-q13",
+    title: "Metacogniția în învățare",
+    questions: [
+      {
+        text: "Cum este definită <strong>metacogniția</strong> în literatura de specialitate?",
+        options: [
+          "<span class='tip'>Cunoașterea despre propriile procese cognitive<span class='tooltip-box'>Flavell definește metacogniția ca reflecție asupra gândirii: ce gândim, cum gândim și de ce.<br><br><strong>Exemplu:</strong> elevul își dă seama că nu a înțeles un concept și decide să recitească sau să schimbe strategia.</span></span>",
+          "<span class='tip'>Capacitatea generală de memorare și stocare eficientă a informațiilor pe termen lung<span class='tooltip-box'>Memorarea este un proces cognitiv, nu metacognitiv.</span></span>",
+          "<span class='tip'>Aplicarea automată și repetitivă a unor strategii de învățare fără reflecție conștientă<span class='tooltip-box'>Metacogniția presupune control și conștientizare, nu automatism.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care sunt <strong>componentele principale</strong> ale metacogniției, conform lui Flavell?",
+        options: [
+          "<span class='tip'>Experiențe, cunoștințe, obiective și strategii metacognitive<span class='tooltip-box'>Aceste componente descriu ce știe elevul despre propria gândire, ce simte în timpul activității și cum își reglează învățarea.</span></span>",
+          "<span class='tip'>Inteligență, atenție și memorie de lucru, considerate procese cognitive fundamentale<span class='tooltip-box'>Acestea sunt procese cognitive de bază, nu componente metacognitive.</span></span>",
+          "<span class='tip'>Motivație, emoție și voință în raport cu sarcina de învățare<span class='tooltip-box'>Acestea țin de sfera afectiv motivațională.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce sunt <strong>experiențele metacognitive</strong>?",
+        options: [
+          "<span class='tip'>Trăiri conștiente legate de propria înțelegere<span class='tooltip-box'><strong>Exemplu:</strong> sentimentul că o problemă este neclară sau că o strategie nu funcționează.</span></span>",
+          "<span class='tip'>Rezultatele finale obținute la evaluări standardizate sau teste de performanță<span class='tooltip-box'>Rezultatele nu sunt experiențe metacognitive.</span></span>",
+          "<span class='tip'>Strategii automate aplicate fără monitorizarea procesului de gândire<span class='tooltip-box'>Experiențele sunt conștientizări, nu strategii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este diferența dintre <strong>cunoștințele declarative</strong>, <strong>procedurale</strong> și <strong>condiționale</strong>?",
+        options: [
+          "<span class='tip'>A ști ce, cum și când să folosești o strategie<span class='tooltip-box'>Declarative înseamnă a ști ce, procedurale a ști cum, iar condiționale a ști când și de ce.</span></span>",
+          "<span class='tip'>Cunoștințe emoționale, motivaționale și comportamentale asociate învățării<span class='tooltip-box'>Aceasta nu este clasificarea metacognitivă.</span></span>",
+          "<span class='tip'>Diferențe de vârstă între tipurile de cunoștințe cognitive<span class='tooltip-box'>Toate tipurile pot apărea la orice vârstă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce presupune <strong>reglarea cogniției</strong>?",
+        options: [
+          "<span class='tip'>Planificarea, monitorizarea și evaluarea învățării<span class='tooltip-box'><strong>Exemplu:</strong> elevul își stabilește un plan de studiu, verifică dacă a înțeles și își ajustează strategiile.</span></span>",
+          "<span class='tip'>Aplicarea rigidă a aceleiași strategii indiferent de dificultatea sarcinii<span class='tooltip-box'>Reglarea presupune flexibilitate și adaptare.</span></span>",
+          "<span class='tip'>Renunțarea la sarcină atunci când apar primele dificultăți cognitive<span class='tooltip-box'>Aceasta contrazice ideea de autoreglare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt <strong>strategiile metacognitive</strong> importante pentru performanța în învățare?",
+        options: [
+          "<span class='tip'>Pentru că susțin învățarea profundă<span class='tooltip-box'>Strategiile metacognitive permit adaptarea modului de învățare la cerințele sarcinii și îmbunătățesc performanța, mai ales la elevii care se străduiesc.</span></span>",
+          "<span class='tip'>Pentru că înlocuiesc complet procesele cognitive implicate în rezolvarea sarcinilor<span class='tooltip-box'>Metacogniția reglează procesele cognitive, nu le substituie.</span></span>",
+          "<span class='tip'>Pentru că elimină nevoia de efort și concentrare în activitatea de învățare<span class='tooltip-box'>Metacogniția presupune efort conștient.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  //U8
+
+  {
+    id: "phed-u8-q1",
+    title: "Învățarea autoreglată",
+    questions: [
+      {
+        text: "Cum este înțeleasă <strong>învățarea autoreglată</strong> din perspectiva susținătorilor acestui concept?",
+        options: [
+          "<span class='tip'>Ca un proces activ prin care elevul își construiește propria învățare<span class='tooltip-box'>Învățarea autoreglată pornește de la ideea că elevul nu este un receptor pasiv, ci participă activ la învățare, stabilindu-și obiective și folosind strategii personale pentru a da sens informațiilor.<br><br><strong>Exemplu:</strong> elevul își propune să înțeleagă o lecție, selectează informațiile relevante și le leagă de ceea ce știe deja.</span></span>",
+          "<span class='tip'>Ca un proces de acumulare automată a informațiilor din mediu<span class='tooltip-box'>Învățarea autoreglată presupune intenționalitate și control, nu automatism.</span></span>",
+          "<span class='tip'>Ca un proces dirijat exclusiv de profesor<span class='tooltip-box'>Rolul profesorului este important, dar elevul rămâne agentul principal al învățării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol au <strong>obiectivele</strong> și <strong>strategiile personale</strong> în învățarea autoreglată?",
+        options: [
+          "<span class='tip'>Ghidează modul în care elevul preia și organizează informațiile<span class='tooltip-box'>În învățarea autoreglată, elevul își stabilește obiective și alege strategii adecvate pentru a construi sensuri proprii pe parcursul învățării.<br><br><strong>Exemplu:</strong> elevul decide să facă scheme sau să caute exemple suplimentare pentru a înțelege mai bine un concept.</span></span>",
+          "<span class='tip'>Înlocuiesc complet rolul evaluării<span class='tooltip-box'>Evaluarea rămâne un element esențial al procesului.</span></span>",
+          "<span class='tip'>Sunt stabilite exclusiv de cerințele curriculare<span class='tooltip-box'>În autoreglare, elevul are un rol activ în stabilirea lor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce pot <strong>monitoriza și regla</strong> elevii în cadrul învățării autoreglate?",
+        options: [
+          "<span class='tip'>Comportamentul de învățare, procesele interne și mediul de învățare<span class='tooltip-box'>Modelele autoreglării presupun că elevii pot controla modul în care învață, cum gândesc și chiar anumite aspecte ale mediului, în limitele caracteristicilor individuale și contextuale.<br><br><strong>Exemplu:</strong> elevul își schimbă strategia de învățare sau își reorganizează spațiul de studiu.</span></span>",
+          "<span class='tip'>Doar ritmul de parcurgere a materiei<span class='tooltip-box'>Autoreglarea este mai complexă decât gestionarea timpului.</span></span>",
+          "<span class='tip'>Exclusiv emoțiile resimțite în timpul învățării<span class='tooltip-box'>Emoțiile sunt importante, dar nu singurele elemente reglate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este necesar un <strong>standard sau criteriu de evaluare</strong> în învățarea autoreglată?",
+        options: [
+          "<span class='tip'>Pentru a aprecia eficiența activității de învățare<span class='tooltip-box'>Autoreglarea presupune raportarea la un criteriu care permite evaluarea progresului și ajustarea strategiilor.<br><br><strong>Exemplu:</strong> elevul verifică dacă a atins obiectivul propus sau dacă mai are lacune de clarificat.</span></span>",
+          "<span class='tip'>Pentru a compara elevii între ei<span class='tooltip-box'>Comparația socială nu este scopul central al autoreglării.</span></span>",
+          "<span class='tip'>Pentru a elimina nevoia de feedback<span class='tooltip-box'>Feedbackul este esențial în procesul de autoreglare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt văzute <strong>activitățile de autoreglare</strong> în relație cu performanța în sarcina de învățare?",
+        options: [
+          "<span class='tip'>Ca mediatori între caracteristicile individuale, context și performanță<span class='tooltip-box'>Conform lui Pintrich, activitățile de autoreglare explică modul în care diferențele individuale și contextuale se traduc în performanță.<br><br><strong>Exemplu:</strong> doi elevi cu abilități diferite pot obține rezultate similare dacă folosesc eficient autoreglarea.</span></span>",
+          "<span class='tip'>Ca factori independenți de contextul educațional<span class='tooltip-box'>Contextul influențează puternic autoreglarea.</span></span>",
+          "<span class='tip'>Ca efecte secundare ale performanței<span class='tooltip-box'>Autoreglarea susține performanța, nu apare doar ca rezultat al ei.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q2",
+    title: "Modelul învățării autoreglate la Pintrich (2000)",
+    questions: [
+      {
+        text: "Cum definește <strong>Pintrich</strong> învățarea autoreglată?",
+        options: [
+          "<span class='tip'>Proces activ cu obiective și autoreglare a cunoașterii, motivației și comportamentului<span class='tooltip-box'>Învățarea autoreglată este procesul activ prin care elevii își stabilesc obiective pentru învățare și apoi încearcă să își monitorizeze, să își regleze și să își controleze cunoașterea, motivația și comportamentul, în funcție de aceste obiective și de caracteristicile mediului lor.<br><br><strong>Exemplu:</strong> elevul își propune să înțeleagă un capitol, observă că se pierde, își schimbă strategia și își gestionează motivația ca să continue.</span></span>",
+          "<span class='tip'>Proces automat de învățare care apare fără obiective clare<span class='tooltip-box'>În definiția lui Pintrich, obiectivele sunt punctul de plecare al autoreglării.</span></span>",
+          "<span class='tip'>Proces condus exclusiv de control extern și evaluări<span class='tooltip-box'>Modelul pune accent pe controlul elevului asupra propriei învățări, nu pe controlul extern.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce anume încearcă elevii să își <strong>monitorizeze</strong> și să își <strong>controleze</strong> în învățarea autoreglată, conform lui Pintrich?",
+        options: [
+          "<span class='tip'>Cunoașterea, motivația și comportamentul<span class='tooltip-box'>Autoreglarea vizează simultan ce știe elevul, cât și felul în care își menține implicarea și cum acționează efectiv, în funcție de obiective și de mediu.<br><br><strong>Exemplu:</strong> elevul observă că nu a înțeles, își crește efortul și își schimbă modul de studiu.</span></span>",
+          "<span class='tip'>Doar cunoașterea și memoria de lucru<span class='tooltip-box'>Modelul include explicit și motivația și comportamentul.</span></span>",
+          "<span class='tip'>Numai comportamentul observabil în clasă<span class='tooltip-box'>Pintrich include procese interne precum monitorizarea și controlul motivației.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum funcționează <strong>activitățile de autoreglare</strong> în raport cu elevul, mediul și performanțele obținute?",
+        options: [
+          "<span class='tip'>Mediază relațiile dintre indivizi, mediu și performanțe<span class='tooltip-box'>Activitățile de autoreglare fac legătura dintre caracteristicile elevului, cerințele mediului și rezultatele obținute.<br><br><strong>Exemplu:</strong> în același context, un elev obține performanțe mai bune fiindcă își monitorizează înțelegerea și își ajustează strategiile.</span></span>",
+          "<span class='tip'>Elimină influența mediului asupra rezultatelor<span class='tooltip-box'>Mediul rămâne relevant, iar autoreglarea lucrează în raport cu caracteristicile mediului.</span></span>",
+          "<span class='tip'>Înlocuiesc complet rolul abilităților elevului<span class='tooltip-box'>Autoreglarea nu substituie abilitățile, ci lucrează împreună cu ele.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum descrie Pintrich <strong>structura</strong> procesului de autoreglare a învățării?",
+        options: [
+          "<span class='tip'>În patru faze, fără delimitări mereu clare<span class='tooltip-box'>Procesul este descris în patru faze, dar nu întotdeauna le putem delimita clar, apărând și moduri tacite sau implicite de învățare.<br><br><strong>Exemplu:</strong> elevul își dă seama din mers că nu merge o strategie și o schimbă fără să își spună explicit „acum sunt în faza a treia”.</span></span>",
+          "<span class='tip'>Într-o singură fază de execuție a sarcinii<span class='tooltip-box'>Modelul include planificare, monitorizare, control și reflecție.</span></span>",
+          "<span class='tip'>În etape fixe, clare și mereu separate<span class='tooltip-box'>Pintrich subliniază că fazele nu sunt mereu clar delimitabile.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt organizate fazele autoreglării la Pintrich, din punct de vedere al succesiunii?",
+        options: [
+          "<span class='tip'>Nu sunt ierarhice sau liniare, se pliază pe necesități<span class='tooltip-box'>Fazele nu sunt structurate ierarhic sau liniar, ci se pliază pe necesitățile de moment.<br><br><strong>Exemplu:</strong> elevul poate reveni la planificare după ce monitorizează și vede că obiectivul inițial a fost prea ambițios.</span></span>",
+          "<span class='tip'>Sunt ierarhice și nu pot fi reluate după ce sunt parcurse<span class='tooltip-box'>Modelul permite reveniri și ajustări.</span></span>",
+          "<span class='tip'>Sunt strict ordonate și identice în orice sarcină<span class='tooltip-box'>Necesitățile de moment pot schimba ordinea sau accentul.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce include <span class='tip'><strong>prima fază</strong><span class='tooltip-box'>În această fază apare planificarea și stabilirea obiectivelor, dar și activarea percepțiilor și cunoștințelor anterioare despre sarcină și context, plus experiențele anterioare cu sarcini similare.</span></span> a autoreglării, conform lui Pintrich?",
+        options: [
+          "<span class='tip'>Planificare, obiective și activarea cunoștințelor anterioare<span class='tooltip-box'>Prima fază presupune planificarea și stabilirea obiectivelor precum și activarea percepțiilor și cunoștințelor anterioare privind sarcina și contextul și a propriilor experiențe anterioare cu sarcini similare.<br><br><strong>Exemplu:</strong> elevul își amintește cum a învățat data trecută pentru un test asemănător și își fixează un obiectiv realist.</span></span>",
+          "<span class='tip'>Doar reacții și reflecții asupra sinelui<span class='tooltip-box'>Reacțiile și reflecțiile apar în faza a patra.</span></span>",
+          "<span class='tip'>Controlul direct al emoțiilor în timpul sarcinii<span class='tooltip-box'>Controlul și reglarea sunt accentuate în faza a treia.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "La ce se referă <span class='tip'><strong>faza a doua</strong><span class='tooltip-box'>Faza a doua se referă la procese de monitorizare și la conștientizarea metacognitivă a sinelui sau a sarcinii și contextului.</span></span> în modelul lui Pintrich?",
+        options: [
+          "<span class='tip'>Monitorizare și conștientizare metacognitivă<span class='tooltip-box'>Faza a doua se referă la procese de monitorizare care reprezintă conștientizarea metacognitivă a diferitelor aspecte ale sinelui sau ale sarcinii și contextului.<br><br><strong>Exemplu:</strong> elevul își dă seama că nu poate explica ideea cu propriile cuvinte și notează ce nu a înțeles.</span></span>",
+          "<span class='tip'>Planificare și activarea experiențelor anterioare<span class='tooltip-box'>Aceasta descrie prima fază.</span></span>",
+          "<span class='tip'>Reflecții finale asupra rezultatului obținut<span class='tooltip-box'>Aceasta descrie faza a patra.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce vizează <span class='tip'><strong>faza a treia</strong><span class='tooltip-box'>Faza a treia vizează eforturile de control și reglare a diferitelor aspecte ale sinelui sau ale sarcinii și contextului.</span></span> în autoreglare, conform lui Pintrich?",
+        options: [
+          "<span class='tip'>Control și reglare a sinelui, sarcinii și contextului<span class='tooltip-box'>Faza a treia vizează eforturile de control și reglare a diferitelor aspecte ale sinelui sau sarcinii și contextului.<br><br><strong>Exemplu:</strong> elevul își schimbă strategia, își reduce distragerile și își ajustează ritmul ca să rămână pe obiectiv.</span></span>",
+          "<span class='tip'>Activarea cunoștințelor anterioare despre sarcină<span class='tooltip-box'>Aceasta este specifică primei faze.</span></span>",
+          "<span class='tip'>Conștientizarea metacognitivă a dificultății<span class='tooltip-box'>Aceasta este specifică fazei a doua.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce reprezintă <span class='tip'><strong>faza a patra</strong><span class='tooltip-box'>Faza a patra reprezintă diferite tipuri de reacții și reflecții asupra sinelui și asupra sarcinii sau contextului.</span></span> în modelul lui Pintrich?",
+        options: [
+          "<span class='tip'>Reacții și reflecții despre sine, sarcină și context<span class='tooltip-box'>Faza a patra reprezintă diferite tipuri de reacții și reflecții asupra sinelui și asupra sarcinii sau contextului.<br><br><strong>Exemplu:</strong> elevul își evaluează rezultatul, își explică ce a mers și decide ce schimbă data viitoare.</span></span>",
+          "<span class='tip'>Monitorizare metacognitivă în timpul activității<span class='tooltip-box'>Monitorizarea este accentuată în faza a doua.</span></span>",
+          "<span class='tip'>Stabilirea obiectivelor înainte de începerea învățării<span class='tooltip-box'>Aceasta aparține fazei întâi.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q3",
+    title: "Modelul ciclic al autoreglării la Zimmerman (2000)",
+    questions: [
+      {
+        text: "Cum este definită <strong>învățarea autoreglată</strong> în modelul propus de Zimmerman?",
+        options: [
+          "<span class='tip'>Gânduri, sentimente și comportamente auto-generate adaptate pe baza feedback-ului<span class='tooltip-box'>Zimmerman definește autoreglarea ca ansamblul gândurilor, sentimentelor și comportamentelor auto-generate care sunt planificate și adaptate ciclic pe baza feedback-ului privind performanța de moment, pentru atingerea obiectivelor stabilite de individ.<br><br><strong>Exemplu:</strong> elevul observă că metoda folosită nu dă rezultate, își ajustează strategia și își modifică așteptările pentru următoarea încercare.</span></span>",
+          "<span class='tip'>Un proces de învățare controlat exclusiv de profesor<span class='tooltip-box'>Modelul lui Zimmerman pune accent pe controlul personal al elevului.</span></span>",
+          "<span class='tip'>O reacție automată la feedback extern<span class='tooltip-box'>Autoreglarea presupune planificare și adaptare conștientă, nu reacții automate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt descriși <strong>cursanții autoreglați</strong> în perspectiva lui Zimmerman?",
+        options: [
+          "<span class='tip'>Cursanți proactivi care folosesc procese de autoreglare<span class='tooltip-box'>Cursanții autoreglați sunt proactivi și fac apel la procese precum stabilirea obiectivelor, auto-observarea și autoevaluarea.<br><br><strong>Exemplu:</strong> elevul își stabilește singur un plan de studiu și verifică constant dacă funcționează.</span></span>",
+          "<span class='tip'>Cursanți care reacționează doar la cerințe externe<span class='tooltip-box'>Reactivitatea nu caracterizează cursanții autoreglați.</span></span>",
+          "<span class='tip'>Cursanți care se bazează exclusiv pe memorie<span class='tooltip-box'>Autoreglarea include mult mai mult decât procese cognitive de bază.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce tipuri de <strong>strategii</strong> sunt implicate în comportamentul de autoreglare?",
+        options: [
+          "<span class='tip'>Strategii privind sarcina și credințe auto-motivaționale<span class='tooltip-box'>Autoreglarea implică strategii legate de sarcină, precum gestionarea timpului și organizarea eficientă, dar și credințe auto-motivaționale precum autoeficacitatea și motivația intrinsecă.<br><br><strong>Exemplu:</strong> elevul își organizează timpul și își menține încrederea că poate reuși.</span></span>",
+          "<span class='tip'>Doar strategii de memorare mecanică<span class='tooltip-box'>Memorarea nu este suficientă pentru autoreglare.</span></span>",
+          "<span class='tip'>Exclusiv strategii emoționale de reducere a stresului<span class='tooltip-box'>Strategiile emoționale pot apărea, dar nu definesc autoreglarea.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "În câte <strong>faze ciclice</strong> se realizează comportamentul de autoreglare, conform lui Zimmerman?",
+        options: [
+          "<span class='tip'>În trei faze ciclice<span class='tooltip-box'>Comportamentul de autoreglare se realizează în trei faze ciclice: gândirea anticipatoare, monitorizarea performanței și auto-reflecția.</span></span>",
+          "<span class='tip'>În patru faze distincte și liniare<span class='tooltip-box'>Modelul cu patru faze aparține lui Pintrich.</span></span>",
+          "<span class='tip'>Într-o singură fază continuă<span class='tooltip-box'>Zimmerman descrie un ciclu, nu o fază unică.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracterizează <span class='tip'><strong>gândirea anticipatoare</strong><span class='tooltip-box'>Această fază are loc înainte de începerea muncii efective și include planificarea și convingerile motivaționale.</span></span>?",
+        options: [
+          "<span class='tip'>Stabilirea obiectivelor și activarea convingerilor motivaționale<span class='tooltip-box'>Anticiparea include stabilirea obiectivelor, identificarea strategiilor potrivite sarcinii și activarea credințelor motivaționale precum eficacitatea de sine și motivația intrinsecă.<br><br><strong>Exemplu:</strong> elevul decide ce vrea să obțină și își spune că poate reuși.</span></span>",
+          "<span class='tip'>Evaluarea finală a performanței<span class='tooltip-box'>Aceasta apare în faza de auto-reflecție.</span></span>",
+          "<span class='tip'>Controlul emoțiilor după finalizarea sarcinii<span class='tooltip-box'>Reglarea post-sarcină este specifică reflecției.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "La ce se referă <span class='tip'><strong>monitorizarea performanței</strong><span class='tooltip-box'>Această fază se desfășoară în timpul eforturilor de învățare.</span></span>?",
+        options: [
+          "<span class='tip'>Auto-observare și autocontrol în timpul sarcinii<span class='tooltip-box'>Monitorizarea performanței presupune procese de auto-observare și autocontrol, bazate pe strategii metacognitive de monitorizare a activității.<br><br><strong>Exemplu:</strong> elevul verifică dacă a înțeles și dacă respectă planul stabilit.</span></span>",
+          "<span class='tip'>Stabilirea obiectivelor inițiale<span class='tooltip-box'>Aceasta este caracteristică anticipării.</span></span>",
+          "<span class='tip'>Reflecții asupra eșecului după învățare<span class='tooltip-box'>Aceasta este specifică auto-reflecției.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce presupune <span class='tip'><strong>auto-reflecția</strong><span class='tooltip-box'>Procesele care apar după învățare sau finalizarea sarcinii.</span></span>?",
+        options: [
+          "<span class='tip'>Evaluarea eficienței și ajustarea pentru viitor<span class='tooltip-box'>Auto-reflecția implică evaluarea eficienței planului strategic și utilizarea informațiilor pentru a îmbunătăți încercările de învățare viitoare.<br><br><strong>Exemplu:</strong> elevul decide ce păstrează și ce schimbă data viitoare.</span></span>",
+          "<span class='tip'>Aplicarea strategiilor de memorare<span class='tooltip-box'>Memorarea nu definește această fază.</span></span>",
+          "<span class='tip'>Activarea convingerilor motivaționale inițiale<span class='tooltip-box'>Acestea apar în anticipare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt considerate <strong>fazele autoreglării</strong> ca fiind ciclice în modelul lui Zimmerman?",
+        options: [
+          "<span class='tip'>Pentru că feedback-ul influențează învățarea viitoare<span class='tooltip-box'>Feedback-ul de la performanțele anterioare este folosit pentru a face ajustări în timpul eforturilor de învățare viitoare, închizând ciclul autoreglării.<br><br><strong>Exemplu:</strong> un rezultat slab determină schimbarea obiectivelor și strategiilor data viitoare.</span></span>",
+          "<span class='tip'>Pentru că fazele nu pot fi separate<span class='tooltip-box'>Ele pot fi distinse conceptual, chiar dacă se influențează reciproc.</span></span>",
+          "<span class='tip'>Pentru că apar doar o singură dată<span class='tooltip-box'>Ciclul se repetă la fiecare experiență de învățare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q4",
+    title: "Autoreglarea la Pintrich și Zimmerman: asemănări și diferențe",
+    questions: [
+      {
+        text: "Ce <strong>idee comună</strong> stă la baza modelelor de autoreglare propuse de Pintrich și Zimmerman?",
+        options: [
+          "<span class='tip'>Elevul este agent activ<span class='tooltip-box'>Ambele modele pornesc de la supoziția că elevul <strong>participă activ</strong> la procesul de învățare și <strong>își construiește propria învățare</strong>, prin stabilirea de obiective și utilizarea unor strategii personale.<br><br><strong>Exemplu:</strong> elevul decide ce urmărește să învețe, observă că nu înțelege și își schimbă strategia de studiu.</span></span>",
+          "<span class='tip'>Învățarea este controlată doar din exterior<span class='tooltip-box'>Ambele modele resping ideea controlului exclusiv extern și pun accent pe procese auto-generate.</span></span>",
+          "<span class='tip'>Performanța depinde doar de procese cognitive<span class='tooltip-box'>Atât Pintrich, cât și Zimmerman includ motivația, comportamentul și relația cu mediul în explicația performanței.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ambele modele pornesc de la ideea că <strong>obiectivele</strong> ghidează autoreglarea și influențează performanța în învățare. <strong>Care este diferența</strong> de formulare între Pintrich și Zimmerman?",
+        options: [
+          "<span class='tip'>Pintrich: activități care mediază, Zimmerman: ciclu pe feedback<span class='tooltip-box'><strong>Pintrich</strong> descrie autoreglarea ca un set de activități de monitorizare, control și reglare ale cunoașterii, motivației și comportamentului, care <strong>mediază</strong> relația dintre individ, context și performanță.<br><br><strong>Exemplu Pintrich:</strong> elevul își verifică înțelegerea, își ajustează efortul și strategiile în funcție de cerințele sarcinii și de condițiile de lucru.<br><br><strong>Zimmerman</strong> descrie autoreglarea ca procese auto generate planificate și ajustate <strong>ciclic</strong> pe baza feedbackului din performanță, pentru atingerea obiectivelor stabilite de individ.<br><br><strong>Exemplu Zimmerman:</strong> după ce evaluează rezultatul unei sarcini, elevul își schimbă obiectivele și strategiile pentru următoarea încercare.</span></span>",
+          "<span class='tip'>Ambele susțin că obiectivele nu contează în reglare<span class='tooltip-box'>În ambele perspective, obiectivele sunt un reper pentru reglare și sunt legate de performanță, nu sunt ignorate.</span></span>",
+          "<span class='tip'>Ambele promit performanță ridicată în orice context, fără limite individuale<span class='tooltip-box'>Niciunul dintre modele nu garantează performanța indiferent de context sau diferențe individuale, iar Pintrich menționează explicit limitele individuale și contextuale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Unde cade <strong>accentul principal al autoreglării</strong> în fiecare dintre cele două modele?",
+        options: [
+          "<span class='tip'>Pintrich: pe reglarea din timpul activității, Zimmerman: pe legătura dintre final și încercările viitoare<span class='tooltip-box'><strong>Pintrich</strong> descrie autoreglarea ca activități de monitorizare, control și reglare care apar pe parcursul realizării sarcinii, în relație directă cu cerințele și contextul de moment.<br><br><strong>Exemplu Pintrich:</strong> elevul observă că nu înțelege suficient în timpul studiului și își ajustează imediat efortul sau strategia.<br><br><strong>Zimmerman</strong> pune un accent explicit pe modul în care evaluarea performanței și feedbackul de la finalul unei sarcini influențează anticiparea, obiectivele și strategiile pentru următoarea încercare.<br><br><strong>Exemplu Zimmerman:</strong> după ce vede rezultatul unei sarcini, elevul își modifică planul și obiectivele pentru activitățile viitoare.</span></span>",
+          "<span class='tip'>Ambele modele se concentrează exclusiv pe reglarea de la finalul sarcinii<span class='tooltip-box'>Pintrich accentuează reglarea situată și adaptarea în timp real, nu doar reacțiile de după finalizare.</span></span>",
+          "<span class='tip'>Ambele modele descriu autoreglarea doar înainte de începerea activității<span class='tooltip-box'>Planificarea este importantă, dar autoreglarea continuă și după inițierea activității în ambele modele.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce <strong>accent specific</strong> aduce modelul lui Zimmerman, <strong>spre deosebire</strong> de Pintrich?",
+        options: [
+          "<span class='tip'>Ciclul bazat pe feedback<span class='tooltip-box'><strong>Zimmerman</strong> subliniază explicit că feedbackul din performanța de moment și anterioară este folosit pentru ajustări în încercările viitoare.<br><br><strong>Spre deosebire de Pintrich</strong>, care descrie faze ale autoreglării ce se pot suprapune și nu sunt ierarhice sau strict liniare, Zimmerman pune în centru ideea de <strong>ciclu</strong> care se reia și se ajustează.<br><br><strong>Exemplu:</strong> după un rezultat slab, elevul își schimbă planul pentru data viitoare și verifică în timpul studiului dacă noua strategie funcționează.</span></span>",
+          "<span class='tip'>Doar rolul mediului de învățare<span class='tooltip-box'>Mediul este relevant și la Pintrich, unde relația individ context performanță este mediată de activități de autoreglare.</span></span>",
+          "<span class='tip'>Doar controlul comportamentului<span class='tooltip-box'>Controlul și reglarea apar și la Pintrich, iar la Zimmerman apar procese de autocontrol în faza de monitorizare a performanței.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum diferă <strong>organizarea fazelor</strong> în cele două modele?",
+        options: [
+          "<span class='tip'>Pintrich are <strong>4 faze</strong>, Zimmerman are <strong>3 faze</strong><span class='tooltip-box'><strong>Pintrich</strong>: (1) planificare și stabilirea obiectivelor, plus activarea percepțiilor și cunoștințelor anterioare despre sarcină și context, (2) monitorizare, adică conștientizare metacognitivă a sinelui, sarcinii și contextului, (3) control și reglare a sinelui, sarcinii și contextului, (4) reacții și reflecții asupra sinelui și asupra sarcinii sau contextului.<br><br><strong>Zimmerman</strong>: (1) gândire anticipatoare, (2) monitorizarea performanței, (3) auto-reflecție.<br><br><strong>Exemplu:</strong> la Pintrich apare clar separat momentul de control și reglare, iar la Zimmerman ciclul leagă fazele prin feedback care revine în anticipare.</span></span>",
+          "<span class='tip'>Ambele au exact aceleași faze, doar denumirile diferă<span class='tooltip-box'>Există suprapuneri, dar Pintrich operează cu patru faze, iar Zimmerman cu trei faze ciclice, cu accent explicit pe feedback și ajustări.</span></span>",
+          "<span class='tip'>Zimmerman are patru faze, Pintrich are trei<span class='tooltip-box'>Este invers: Pintrich descrie patru faze, Zimmerman descrie trei faze.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce la Pintrich fazele nu sunt strict <strong>liniare</strong>, iar la Zimmerman sunt explicit <strong>ciclice</strong>?",
+        options: [
+          "<span class='tip'>Pintrich: adaptare contextuală, Zimmerman: ciclu bazat pe feedback<span class='tooltip-box'><strong>Pintrich</strong> susține că fazele autoreglării nu sunt ierarhice sau strict liniare, deoarece procesul se adaptează nevoilor de moment și poate include forme tacite sau implicite de reglare.<br><br><strong>Exemplu Pintrich:</strong> elevul observă în timpul rezolvării unei sarcini că nu înțelege și schimbă strategia pe loc, fără a fi trecut conștient printr-o secvență clară de planificare → monitorizare → reflecție.<br><br><strong>Zimmerman</strong> descrie autoreglarea ca un proces explicit <strong>ciclic</strong>, în care feedbackul din performanțele anterioare leagă cele trei faze între ele.<br><br><strong>Exemplu Zimmerman:</strong> după ce finalizează o sarcină și evaluează rezultatul, elevul își ajustează obiectivele și strategiile înainte de următoarea încercare, reluând ciclul de la anticipare.</span></span>",
+          "<span class='tip'>Pintrich: etape fixe, Zimmerman: etape întâmplătoare<span class='tooltip-box'>Niciunul dintre modele nu propune rigiditate sau întâmplare; diferența este între flexibilitate contextuală și ciclicitate explicită.</span></span>",
+          "<span class='tip'>Pintrich exclude feedbackul, Zimmerman îl include<span class='tooltip-box'>Feedbackul este central la Zimmerman, iar la Pintrich apare implicit prin monitorizare și reflecție, chiar dacă nu este organizat într-un ciclu explicit.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ambele modele recunosc faptul că <strong>autoreglarea nu funcționează nelimitat</strong> și nu este la fel de eficientă pentru toți elevii sau în orice situație. <strong>Care este o diferență</strong> în modul în care această limită este formulată?",
+        options: [
+          "<span class='tip'>Pintrich o leagă explicit de individ și context, Zimmerman de procesele activate<span class='tooltip-box'><strong>Pintrich</strong> afirmă direct că autoreglarea este posibilă doar în anumite limite impuse de caracteristici individuale (biologice, de dezvoltare) și de contextul în care are loc învățarea, chiar dacă elevii pot monitoriza și regla diferite aspecte ale activității.<br><br><strong>Exemplu Pintrich:</strong> un elev poate cunoaște strategii de autoreglare, dar oboseala, stresul sau un mediu dezorganizat pot reduce capacitatea de a le aplica eficient.<br><br><strong>Zimmerman</strong> formulează limita mai implicit, prin faptul că eficiența autoreglării depinde de cât de bine elevul reușește să activeze, să monitorizeze și să ajusteze procesele de autoreglare pe baza feedbackului din performanță.<br><br><strong>Exemplu Zimmerman:</strong> un elev care primește feedback, dar nu îl poate interpreta corect sau nu știe cum să își ajusteze strategiile, va avea dificultăți în autoreglare, chiar dacă are obiective clare.</span></span>",
+          "<span class='tip'>Pintrich consideră autoreglarea nelimitată, Zimmerman o vede ca variabilă<span class='tooltip-box'>Pintrich subliniază explicit existența limitelor individuale și contextuale, deci nu susține funcționarea nelimitată a autoreglării.</span></span>",
+          "<span class='tip'>Ambele modele reduc limitele autoreglării la lipsa de efort<span class='tooltip-box'>Niciunul dintre modele nu explică limitele autoreglării doar prin voință sau efort, ci includ strategii, feedback și context.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q5",
+    title: "Planificarea și activarea cogniției în autoreglare",
+    questions: [
+      {
+        text: "Ce presupune <strong>planificarea</strong> în autoreglarea cogniției?",
+        options: [
+          "<span class='tip'>Stabilirea obiectivelor și activarea cunoștințelor relevante<span class='tooltip-box'><strong>Planificarea</strong> implică stabilirea obiectivelor țintă și activarea cunoștințelor anterioare cognitive și metacognitive relevante pentru sarcină, care vor ghida ulterior monitorizarea și evaluarea activității.<br><br><strong>Exemplu:</strong> înainte de a începe să învețe, elevul își clarifică ce vrea să obțină și își amintește ce știe deja despre subiect.</span></span>",
+          "<span class='tip'>Aplicarea strategiilor fără obiective clare<span class='tooltip-box'>Fără obiective, activitatea nu poate fi monitorizată sau evaluată eficient.</span></span>",
+          "<span class='tip'>Evaluarea performanței după finalizarea sarcinii<span class='tooltip-box'>Evaluarea apare ulterior, nu definește planificarea.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este rolul <strong>obiectivului țintă</strong> în autoreglarea cogniției?",
+        options: [
+          "<span class='tip'>Ghidează activarea și evaluarea învățării<span class='tooltip-box'>Obiectivul țintă determină ce cunoștințe sunt activate și servește drept <strong>criteriu de monitorizare și evaluare</strong> a activității desfășurate.<br><br><strong>Exemplu:</strong> dacă obiectivul este înțelegerea profundă, elevul va verifica sensul ideilor, nu doar memorarea lor.</span></span>",
+          "<span class='tip'>Este stabilit doar de profesor<span class='tooltip-box'>În autoreglare, obiectivele pot fi stabilite și ajustate de elev.</span></span>",
+          "<span class='tip'>Are rol doar motivațional, nu cognitiv<span class='tooltip-box'>Obiectivul influențează direct procesele cognitive și metacognitive.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum pot evolua <strong>obiectivele</strong> pe parcursul activității de învățare?",
+        options: [
+          "<span class='tip'>Pot fi ajustate sau reformulate<span class='tooltip-box'>Deși obiectivele sunt stabilite inițial, ele pot fi modificate în timpul activității pentru ajustarea performanței sau pentru inițierea unor noi activități.<br><br><strong>Exemplu:</strong> elevul își propune inițial să termine tema, dar apoi își ajustează obiectivul spre clarificarea unui concept dificil.</span></span>",
+          "<span class='tip'>Rămân fixe până la finalizarea sarcinii<span class='tooltip-box'>Această viziune contrazice caracterul adaptativ al autoreglării.</span></span>",
+          "<span class='tip'>Sunt eliminate dacă apar dificultăți<span class='tooltip-box'>Dificultățile duc la reglare, nu la abandon automat al obiectivelor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este diferența dintre <strong>obiectivele țintă</strong> și <strong>obiectivele de direcție</strong>?",
+        options: [
+          "<span class='tip'>Țintă: rezultat concret, direcție: motivul urmăririi<span class='tooltip-box'><strong>Obiectivele țintă</strong> vizează rezultatul concret al unei sarcini, iar <strong>obiectivele de direcție</strong> indică motivele generale pentru care persoana urmărește acea sarcină.<br><br><strong>Exemplu:</strong> să rezolv corect exercițiile este un obiectiv țintă, iar dorința de a înțelege mai bine materia este un obiectiv de direcție.</span></span>",
+          "<span class='tip'>Țintă: emoțional, direcție: cognitiv<span class='tooltip-box'>Distincția nu este afectiv cognitiv, ci rezultat versus sens general.</span></span>",
+          "<span class='tip'>Direcția este stabilită doar după evaluare<span class='tooltip-box'>Direcția poate ghida activitatea încă de la început.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se diferențiază <strong>orientarea spre măiestrie</strong> de <strong>orientarea spre performanță</strong>?",
+        options: [
+          "<span class='tip'>Măiestrie: înțelegere, performanță: comparație<span class='tooltip-box'><strong>Orientarea spre măiestrie</strong> presupune concentrarea pe sarcină, învățare și progres personal, folosind standarde de auto îmbunătățire.<br><br><strong>Orientarea spre performanță</strong> presupune centrarea pe a fi superior celorlalți și pe evitarea inferiorității, folosind standarde normative.<br><br><strong>Exemplu:</strong> un elev învață pentru a înțelege mai bine versus învață pentru a lua notă mai mare decât colegii.</span></span>",
+          "<span class='tip'>Măiestrie: memorare, performanță: creativitate<span class='tooltip-box'>Diferența nu este de tip memorare creativitate.</span></span>",
+          "<span class='tip'>Nu există diferențe relevante între ele<span class='tooltip-box'>Diferențele au efecte clare asupra tipului de învățare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce aduce în plus <strong>modelul 2x2 al obiectivelor</strong> (Elliot și McGregor)?",
+        options: [
+          "<span class='tip'>Combină tipul de competență cu valența<span class='tooltip-box'>Modelul 2x2 combină modul de definire a competenței (măiestrie absolută sau performanță normativă) cu valența pozitivă (apropiere de succes) sau negativă (evitare a eșecului), rezultând patru tipuri de obiective.<br><br><strong>Exemplu:</strong> măiestrie prin aprofundare versus performanță prin evitarea eșecului.</span></span>",
+          "<span class='tip'>Reduce obiectivele la două categorii simple<span class='tooltip-box'>Modelul extinde, nu reduce, tipurile de obiective.</span></span>",
+          "<span class='tip'>Elimină rolul valenței emoționale<span class='tooltip-box'>Valența este centrală în acest model.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Când <strong>activarea cunoștințelor anterioare</strong> devine un proces de autoreglare?",
+        options: [
+          "<span class='tip'>Când este realizată intenționat și conștient<span class='tooltip-box'>Activarea automată nu implică autoreglare, dar <strong>căutarea activă</strong> a informațiilor relevante, cognitive sau metacognitive, înainte de sarcină este un act de autoreglare.<br><br><strong>Exemplu:</strong> elevul recitește noțiuni vechi sau se gândește la strategii potrivite înainte de a începe o temă.</span></span>",
+          "<span class='tip'>Când apare spontan, fără control conștient<span class='tooltip-box'>Aceasta nu este autoreglare.</span></span>",
+          "<span class='tip'>Când are loc doar după evaluare<span class='tooltip-box'>Activarea apare înainte și în timpul sarcinii.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q6",
+    title: "Monitorizarea cogniției și metacogniția",
+    questions: [
+      {
+        text: "Ce presupune <strong>monitorizarea cogniției</strong> în autoreglare?",
+        options: [
+          "<span class='tip'>Conștientizarea propriei cunoașteri<span class='tooltip-box'>Monitorizarea cogniției implică conștientizarea și urmărirea diferitelor aspecte ale cunoașterii și reprezintă o componentă centrală a <strong>metacogniției</strong>.<br><br><strong>Exemplu:</strong> elevul își dă seama în timpul învățării că nu a înțeles un concept.</span></span>",
+          "<span class='tip'>Aplicarea automată a strategiilor<span class='tooltip-box'>Aplicarea automată nu presupune conștientizare și nu definește monitorizarea.</span></span>",
+          "<span class='tip'>Evaluarea finală a performanței<span class='tooltip-box'>Evaluarea finală ține de reflecție, nu de monitorizare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce tip de <strong>cunoștințe metacognitive</strong> reflectă faptul că o persoană știe <em>dacă</em> stăpânește un conținut?",
+        options: [
+          "<span class='tip'>Cunoștințe declarative<span class='tooltip-box'>Cunoștințele metacognitive <strong>declarative</strong> se referă la faptul că individul poate spune dacă știe sau nu ceva.<br><br><strong>Exemplu:</strong> elevul afirmă că știe sau nu știe o definiție.</span></span>",
+          "<span class='tip'>Cunoștințe procedurale<span class='tooltip-box'>Proceduralele se referă la cum se folosește o strategie.</span></span>",
+          "<span class='tip'>Cunoștințe condiționale<span class='tooltip-box'>Condiționalele se referă la când și de ce se aplică o strategie.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "La ce se referă <strong>cunoștințele metacognitive procedurale</strong>?",
+        options: [
+          "<span class='tip'>Știu cum să folosesc ceea ce știu<span class='tooltip-box'>Cunoștințele procedurale vizează abilitatea de a utiliza informațiile sau strategiile disponibile.<br><br><strong>Exemplu:</strong> elevul știe cum să aplice o formulă sau o strategie de rezolvare.</span></span>",
+          "<span class='tip'>Știu dacă îmi amintesc ceva<span class='tooltip-box'>Aceasta ține de monitorizare, nu de proceduri.</span></span>",
+          "<span class='tip'>Știu când să evaluez rezultatul final<span class='tooltip-box'>Evaluarea finală ține de reflecție.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă <strong>cunoștințele metacognitive condiționale</strong>?",
+        options: [
+          "<span class='tip'>Când și de ce folosesc o strategie<span class='tooltip-box'>Cunoștințele condiționale indică momentul și rațiunea utilizării unei strategii sau informații.<br><br><strong>Exemplu:</strong> elevul știe când este mai eficient să recitească și când să rezolve exerciții.</span></span>",
+          "<span class='tip'>Cât de bine am performat la final<span class='tooltip-box'>Aceasta ține de reflecție, nu de condiționalitate.</span></span>",
+          "<span class='tip'>Dacă informația este corectă sau nu<span class='tooltip-box'>Aceasta ține de evaluarea conținutului, nu de strategii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce sunt <strong>judecățile privind învățarea</strong> (JOL)?",
+        options: [
+          "<span class='tip'>Estimări ale reamintirii viitoare<span class='tooltip-box'>Judecățile privind învățarea apar în timpul sau imediat după studiu și se referă la credința individului că va reaminti corect informația la un test viitor.<br><br><strong>Exemplu:</strong> elevul apreciază că va ști răspunsul la un test după ce a studiat lecția.</span></span>",
+          "<span class='tip'>Evaluări făcute după test<span class='tooltip-box'>JOL apar înainte de test, nu după.</span></span>",
+          "<span class='tip'>Strategii de memorare<span class='tooltip-box'>JOL sunt judecăți, nu strategii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt caracterizate <strong>judecățile privind învățarea</strong> (JOL)?",
+        options: [
+          "<span class='tip'>Relativ corecte<span class='tooltip-box'>JOL sunt considerate destul de corecte și reflectă nivelul de conștientizare al individului asupra gradului de înțelegere sau memorare a informației recent studiate.<br><br><strong>Exemplu:</strong> elevul anticipează corect ce știe și ce nu știe pentru test.</span></span>",
+          "<span class='tip'>Complet eronate<span class='tooltip-box'>Deși nu sunt perfecte, nu sunt complet eronate.</span></span>",
+          "<span class='tip'>Strict emoționale<span class='tooltip-box'>JOL sunt judecăți cognitive, nu emoționale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce descrie <strong>sentimentul cunoașterii</strong> (FOK)?",
+        options: [
+          "<span class='tip'>Convingerea că voi ști mai târziu<span class='tooltip-box'>FOK apare atunci când individul nu își poate aminti o informație, dar are un sentiment puternic că o va putea recupera ulterior din memorie.<br><br><strong>Exemplu:</strong> elevul spune „știu că știu asta, dar nu-mi vine acum”.</span></span>",
+          "<span class='tip'>Certitudinea reamintirii imediate<span class='tooltip-box'>FOK apare tocmai când informația nu este accesibilă imediat.</span></span>",
+          "<span class='tip'>O strategie de memorare<span class='tooltip-box'>FOK este o judecată metacognitivă, nu o strategie.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce <strong>limită</strong> este asociată frecvent cu <strong>FOK</strong>?",
+        options: [
+          "<span class='tip'>Supraevaluarea propriilor abilități<span class='tooltip-box'>Există tendința ca indivizii să își supraestimeze capacitatea de a-și aminti ulterior informații pe baza FOK.<br><br><strong>Exemplu:</strong> elevul crede că va ști răspunsul la test, dar nu reușește să îl recupereze.</span></span>",
+          "<span class='tip'>Subevaluarea constantă a memoriei<span class='tooltip-box'>Textul menționează mai degrabă supraevaluarea.</span></span>",
+          "<span class='tip'>Eliminarea nevoii de monitorizare<span class='tooltip-box'>FOK face parte din monitorizare, nu o elimină.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q7",
+    title: "Controlul și reflecția cognitivă",
+    questions: [
+      {
+        text: "Ce presupune <strong>controlul și reglarea cognitivă</strong> în învățarea autoreglată?",
+        options: [
+          "<span class='tip'>Adaptarea strategiilor la sarcină<span class='tooltip-box'>Controlul și reglarea cognitivă vizează abilitatea celui care învață de a se adapta la cerințele sarcinii pentru a-și atinge obiectivele.<br><br><strong>Exemplu:</strong> elevul schimbă modul de învățare când observă că strategia inițială nu funcționează.</span></span>",
+          "<span class='tip'>Stabilirea inițială a obiectivelor<span class='tooltip-box'>Stabilirea obiectivelor ține de planificare.</span></span>",
+          "<span class='tip'>Evaluarea finală a notei<span class='tooltip-box'>Aceasta ține de reacție și reflecție, nu de control.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce tip de <strong>strategii</strong> sunt utilizate în controlul și reglarea cognitivă?",
+        options: [
+          "<span class='tip'>Cognitive și metacognitive<span class='tooltip-box'><strong>Strategii cognitive</strong>: memorare, raționament, rezolvarea de probleme.<br><br><strong>Strategii metacognitive</strong>: decizia de a folosi sau schimba o strategie cognitivă.<br><br><strong>Exemplu:</strong> elevul decide să treacă de la citit la realizarea de scheme.</span></span>",
+          "<span class='tip'>Doar strategii emoționale<span class='tooltip-box'>Emoțiile țin de autoreglarea afectivă.</span></span>",
+          "<span class='tip'>Doar strategii de evaluare<span class='tooltip-box'>Evaluarea apare ulterior, în reflecție.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracterizează <strong>strategiile cognitive</strong>?",
+        options: [
+          "<span class='tip'>Prelucrarea directă a informației<span class='tooltip-box'>Strategiile cognitive implică memorarea, raționamentul și rezolvarea de probleme.<br><br><strong>Exemplu:</strong> repetarea informației sau aplicarea unei formule.</span></span>",
+          "<span class='tip'>Monitorizarea propriei înțelegeri<span class='tooltip-box'>Monitorizarea ține de metacogniție.</span></span>",
+          "<span class='tip'>Atribuirea succesului sau eșecului<span class='tooltip-box'>Aceasta apare în reflecție.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol au <strong>strategiile metacognitive</strong> în controlul cognitiv?",
+        options: [
+          "<span class='tip'>Decid ce strategie cognitivă folosesc<span class='tooltip-box'>Strategiile metacognitive implică luarea deciziilor privind utilizarea, schimbarea sau combinarea strategiilor cognitive.<br><br><strong>Exemplu:</strong> elevul decide că memorarea nu este suficientă și începe să rezolve exerciții.</span></span>",
+          "<span class='tip'>Asigură automat succesul<span class='tooltip-box'>Ele cresc eficiența, dar nu garantează succesul.</span></span>",
+          "<span class='tip'>Înlocuiesc strategiile cognitive<span class='tooltip-box'>Metacogniția reglează, nu înlocuiește cogniția.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce implică <strong>reacția și reflecția cognitivă</strong>?",
+        options: [
+          "<span class='tip'>Judecăți și evaluări ale performanței<span class='tooltip-box'>Procesele de reacție și reflecție cognitivă implică evaluarea performanței și formularea de judecăți asupra modului în care a fost realizată sarcina.<br><br><strong>Exemplu:</strong> elevul analizează dacă a învățat eficient pentru test.</span></span>",
+          "<span class='tip'>Activarea cunoștințelor anterioare<span class='tooltip-box'>Aceasta apare în planificare.</span></span>",
+          "<span class='tip'>Aplicarea strategiilor în timp real<span class='tooltip-box'>Aceasta ține de control.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este <strong>autoreglarea eficientă</strong> din perspectiva reflecției?",
+        options: [
+          "<span class='tip'>Succesul este atribuit strategiilor<span class='tooltip-box'>Autoreglarea este eficientă atunci când succesul sau eșecul este atribuit modului de utilizare a strategiilor cognitive, nu abilităților înnăscute.<br><br><strong>Exemplu:</strong> elevul spune „strategia nu a fost bună” și nu „nu sunt capabil”.</span></span>",
+          "<span class='tip'>Succesul este atribuit talentului<span class='tooltip-box'>Atribuirea succesului exclusiv talentului limitează autoreglarea.</span></span>",
+          "<span class='tip'>Eșecul este ignorat<span class='tooltip-box'>Reflecția presupune analiză, nu ignorare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este importantă <strong>evaluarea permanentă a performanței</strong>?",
+        options: [
+          "<span class='tip'>Susține ajustarea strategiilor<span class='tooltip-box'>Evaluarea constantă permite reglarea strategiilor cognitive și metacognitive pentru îmbunătățirea performanței.<br><br><strong>Exemplu:</strong> elevul își dă seama rapid că metoda folosită nu funcționează și o schimbă.</span></span>",
+          "<span class='tip'>Elimină necesitatea planificării<span class='tooltip-box'>Planificarea rămâne esențială.</span></span>",
+          "<span class='tip'>Înlocuiește motivația<span class='tooltip-box'>Motivația rămâne un factor distinct.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q8",
+    title: "Planificarea și activarea motivațională în autoreglare",
+    questions: [
+      {
+        text: "Ce vizează <strong>autoreglarea motivației și a stărilor afective</strong> în procesul de învățare?",
+        options: [
+          "<span class='tip'>Convingeri, scopuri și emoții legate de sarcină<span class='tooltip-box'><strong>Autoreglarea motivației și afectului</strong> se referă la formularea convingerilor motivaționale, orientarea spre anumite scopuri și evaluările privind eficacitatea de sine, valoarea sarcinii și interesul personal.<br><br><strong>Exemplu:</strong> elevul evaluează dacă este capabil să rezolve sarcina, dacă merită efortul și ce emoții anticipează în legătură cu ea.</span></span>",
+          "<span class='tip'>Doar emoțiile trăite după evaluare<span class='tooltip-box'>Emoțiile de după performanță apar în faza de reacție și reflecție, nu în planificare.</span></span>",
+          "<span class='tip'>Strategii cognitive de memorare și rezolvare<span class='tooltip-box'>Acestea țin de autoreglarea cogniției, nu de cea motivațională.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <strong>autoeficacitatea</strong> în planificarea motivațională?",
+        options: [
+          "<span class='tip'>Influențează alegerea, efortul și persistența<span class='tooltip-box'><strong>Eficacitatea de sine</strong> este convingerea persoanei că poate duce la bun sfârșit o sarcină la un anumit standard de performanță și este un predictor puternic al alegerii activităților, efortului și persistenței.<br><br><strong>Exemplu:</strong> un elev care crede că poate învăța un capitol dificil va depune mai mult efort și va persevera.</span></span>",
+          "<span class='tip'>Reflectă nivelul real al abilităților cognitive<span class='tooltip-box'>Autoeficacitatea este o convingere, nu o măsură obiectivă a abilităților.</span></span>",
+          "<span class='tip'>Apare doar după obținerea performanței<span class='tooltip-box'>Autoeficacitatea este activată înainte de sarcină și influențează implicarea inițială.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce sunt <strong>judecățile de tip EOL</strong> (Ease of Learning)?",
+        options: [
+          "<span class='tip'>Estimări privind cât de ușor va fi să înveți<span class='tooltip-box'><strong>EOL</strong> reprezintă evaluări făcute înainte de activitate despre cât de ușor sau dificil va fi să fie învățată o sarcină, bazate pe cunoștințe metacognitive.<br><br><strong>Exemplu:</strong> elevul anticipează că va învăța mai ușor definiția motivației decât pe cea a gândirii.</span></span>",
+          "<span class='tip'>Judecăți despre performanța obținută la final<span class='tooltip-box'>Acestea apar în faza de reacție și reflecție.</span></span>",
+          "<span class='tip'>Evaluări exacte ale rezultatelor viitoare<span class='tooltip-box'>EOL corelează doar moderat cu performanța reală.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum influențează <strong>valoarea sarcinii</strong> implicarea în învățare?",
+        options: [
+          "<span class='tip'>Crește probabilitatea de angajare în sarcină<span class='tooltip-box'>Dacă elevii percep sarcina ca fiind importantă, utilă sau relevantă pentru obiectivele lor, este mai probabil să se implice în realizarea ei.<br><br><strong>Exemplu:</strong> un elev se implică mai mult într o temă pe care o consideră utilă pentru viitor.</span></span>",
+          "<span class='tip'>Influențează doar emoțiile trăite după eșec<span class='tooltip-box'>Valoarea sarcinii acționează anticipativ, înainte de implicare.</span></span>",
+          "<span class='tip'>Este independentă de motivație<span class='tooltip-box'>Modelul expectanță–valoare leagă direct valoarea de motivație.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <strong>interesul personal</strong> în activarea motivației?",
+        options: [
+          "<span class='tip'>Poate facilita sau îngreuna implicarea<span class='tooltip-box'>Interesul poate avea un efect anticipativ pozitiv asupra implicării, dar poate fi asociat și cu emoții negative precum anxietatea sau frica, care interferează cu performanța.<br><br><strong>Exemplu:</strong> interesul pentru o disciplină poate crește implicarea, dar teama de evaluare poate reduce eficiența.</span></span>",
+          "<span class='tip'>Asigură automat performanță ridicată<span class='tooltip-box'>Interesul nu garantează performanța.</span></span>",
+          "<span class='tip'>Apare doar după succes repetat<span class='tooltip-box'>Interesul poate exista și înainte de orice performanță.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  {
+    id: "phed-u8-q9",
+    title: "Valoarea sarcinii și modelul expectanță–valoare",
+    questions: [
+      {
+        text: "Cum explică <strong>modelul expectanță–valoare</strong> implicarea elevilor în sarcinile de învățare?",
+        options: [
+          "<span class='tip'>Prin combinația dintre șansele percepute de succes și valoarea sarcinii<span class='tooltip-box'>Modelul expectanță–valoare susține că elevii se implică atunci când cred că pot reuși și când consideră sarcina importantă, utilă sau relevantă.<br><br><strong>Exemplu:</strong> un elev se implică mai mult într o sarcină pe care o consideră utilă pentru viitor și la care crede că poate obține rezultate bune.</span></span>",
+          "<span class='tip'>Doar prin recompense și sancțiuni externe<span class='tooltip-box'>Aceasta este o perspectivă behavioristă, nu specifică modelului expectanță–valoare.</span></span>",
+          "<span class='tip'>Prin emoțiile trăite după evaluare<span class='tooltip-box'>Emoțiile post performanță apar ulterior și nu explică anticiparea implicării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce include <strong>valoarea sarcinii</strong> în acest model?",
+        options: [
+          "<span class='tip'>Relevanța, utilitatea și importanța sarcinii<span class='tooltip-box'>Valoarea sarcinii reflectă cât de importantă, utilă sau relevantă este o activitate pentru obiectivele personale ale elevului.<br><br><strong>Exemplu:</strong> o temă este percepută ca valoroasă dacă ajută la atingerea unui scop viitor.</span></span>",
+          "<span class='tip'>Doar dificultatea sarcinii<span class='tooltip-box'>Dificultatea nu definește valoarea.</span></span>",
+          "<span class='tip'>Numai interesul emoțional de moment<span class='tooltip-box'>Interesul este o componentă, dar nu epuizează valoarea sarcinii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum influențează <strong>credințele despre valoare</strong> decizia de a începe o sarcină?",
+        options: [
+          "<span class='tip'>Cresc probabilitatea de angajare<span class='tooltip-box'>Dacă elevii cred că o sarcină este importantă sau utilă pentru ei, este mai probabil să se implice activ în realizarea ei.<br><br><strong>Exemplu:</strong> un elev se apucă mai ușor de învățat când vede legătura cu obiectivele sale viitoare.</span></span>",
+          "<span class='tip'>Influențează doar persistența după eșec<span class='tooltip-box'>Valoarea acționează anticipativ, nu doar după performanță.</span></span>",
+          "<span class='tip'>Nu au legătură cu implicarea reală<span class='tooltip-box'>Numeroase cercetări arată contrariul.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce relație există între <strong>interes</strong> și valoarea sarcinii?",
+        options: [
+          "<span class='tip'>Interesul poate spori valoarea percepută<span class='tooltip-box'>Interesul personal pentru conținut poate crește valoarea sarcinii și poate avea un efect anticipativ pozitiv asupra implicării.<br><br><strong>Exemplu:</strong> un elev interesat de psihologie va percepe sarcinile din domeniu ca fiind mai valoroase.</span></span>",
+          "<span class='tip'>Interesul este independent de valoare<span class='tooltip-box'>În modelul expectanță–valoare, interesul este legat de valoare.</span></span>",
+          "<span class='tip'>Interesul apare doar după succes repetat<span class='tooltip-box'>Interesul poate exista înainte de performanță.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce <strong>efect negativ</strong> poate apărea chiar dacă valoarea sarcinii este ridicată?",
+        options: [
+          "<span class='tip'>Anxietatea sau frica pot interfera cu performanța<span class='tooltip-box'>Chiar dacă o sarcină este percepută ca importantă, anticiparea eșecului sau frica de evaluare pot genera cogniții dezadaptative.<br><br><strong>Exemplu:</strong> elevul consideră examenul foarte important, dar anxietatea îi afectează performanța.</span></span>",
+          "<span class='tip'>Implicarea devine automată și fără efort<span class='tooltip-box'>Valoarea nu elimină necesitatea reglării emoționale.</span></span>",
+          "<span class='tip'>Motivația intrinsecă este garantată<span class='tooltip-box'>Valoarea ridicată nu garantează motivație intrinsecă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q10",
+    title: "Planificarea și monitorizarea comportamentului",
+    questions: [
+      {
+        text: "Ce presupune <strong>planificarea și activarea comportamentală</strong> în autoreglarea învățării?",
+        options: [
+          "<span class='tip'>Managementul activității proprii<span class='tooltip-box'><strong>Pintrich</strong> descrie această etapă ca implicând gestionarea timpului și identificarea celor mai adecvate strategii de studiu pentru realizarea sarcinii.<br><br><strong>Exemplu:</strong> elevul își stabilește când va învăța și ce metode va folosi.</span></span>",
+          "<span class='tip'>Evaluarea rezultatelor obținute<span class='tooltip-box'>Evaluarea apare în reacția și reflecția comportamentală.</span></span>",
+          "<span class='tip'>Controlul emoțiilor din timpul sarcinii<span class='tooltip-box'>Aceasta ține de autoreglarea afectivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce înseamnă <strong>monitorizarea comportamentului</strong> în timpul învățării?",
+        options: [
+          "<span class='tip'>Urmărirea gestionării timpului și a efortului<span class='tooltip-box'><strong>Pintrich</strong> arată că elevii își monitorizează modul în care își gestionează timpul și își dozează efortul în funcție de cerințele sarcinii.<br><br><strong>Exemplu:</strong> elevul observă că a pierdut prea mult timp și își accelerează ritmul.</span></span>",
+          "<span class='tip'>Stabilirea inițială a obiectivelor<span class='tooltip-box'>Obiectivele sunt stabilite în planificare.</span></span>",
+          "<span class='tip'>Atribuirea succesului sau eșecului<span class='tooltip-box'>Atribuirile apar în reflecția comportamentală.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q11",
+    title: "Controlul și reflecția comportamentală",
+    questions: [
+      {
+        text: "Cum se realizează <strong>controlul și reglarea comportamentului</strong> în timpul sarcinii?",
+        options: [
+          "<span class='tip'>Prin ajustarea timpului și efortului<span class='tooltip-box'><strong>Pintrich</strong> precizează că elevii își ajustează timpul și efortul pe măsură ce sarcina este reevaluată ca fiind mai ușoară sau mai dificilă.<br><br><strong>Exemplu:</strong> elevul decide să aloce mai mult timp unei părți dificile.</span></span>",
+          "<span class='tip'>Prin menținerea rigidă a planului inițial<span class='tooltip-box'>Rigiditatea contrazice ideea de reglare.</span></span>",
+          "<span class='tip'>Prin renunțarea imediată la sarcină<span class='tooltip-box'>Renunțarea nu reflectă control autoreglat.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este una dintre cele mai <strong>eficiente strategii comportamentale</strong> de reglare?",
+        options: [
+          "<span class='tip'>Căutarea ajutorului<span class='tooltip-box'><strong>Pintrich</strong> menționează explicit că solicitarea ajutorului este o strategie eficientă pentru depășirea aspectelor dificile ale sarcinii.<br><br><strong>Exemplu:</strong> elevul cere explicații profesorului sau unui coleg.</span></span>",
+          "<span class='tip'>Evitarea sarcinii dificile<span class='tooltip-box'>Evitarea reduce implicarea.</span></span>",
+          "<span class='tip'>Creșterea presiunii emoționale<span class='tooltip-box'>Presiunea nu este strategie comportamentală eficientă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce presupune <strong>reacția și reflecția comportamentală</strong>?",
+        options: [
+          "<span class='tip'>Judecăți asupra propriilor comportamente<span class='tooltip-box'><strong>Pintrich</strong> descrie reflecția comportamentală ca implicând evaluări ale modului în care elevii au acționat și ale motivației cognitive care a susținut aceste comportamente.<br><br><strong>Exemplu:</strong> elevul constată că a amânat prea mult și decide să își schimbe rutina.</span></span>",
+          "<span class='tip'>Activarea cunoștințelor anterioare<span class='tooltip-box'>Aceasta ține de planificarea cognitivă.</span></span>",
+          "<span class='tip'>Monitorizarea emoțiilor academice<span class='tooltip-box'>Aceasta ține de autoreglarea afectivă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q12",
+    title: "Planificarea și monitorizarea contextului de învățare",
+    questions: [
+      {
+        text: "Ce presupune <strong>planificarea și activarea contextuală</strong> în autoreglarea învățării?",
+        options: [
+          "<span class='tip'>Perceperea sarcinii și a contextului<span class='tooltip-box'><strong>Pintrich</strong> arată că această etapă ține de modul în care elevii percep sarcinile și contextul general de învățare, nu neapărat de schimbarea efectivă a contextului.<br><br>Schimbarea modului de percepere a contextului poate conduce la rezultate diferite, chiar dacă situația obiectivă rămâne aceeași.<br><br><strong>Exemplu:</strong> elevul interpretează o sarcină dificilă ca oportunitate de învățare, nu ca amenințare.</span></span>",
+          "<span class='tip'>Controlul direct al regulilor clasei<span class='tooltip-box'>Controlul direct al regulilor nu este întotdeauna posibil.</span></span>",
+          "<span class='tip'>Monitorizarea emoțiilor personale<span class='tooltip-box'>Aceasta ține de autoreglarea afectivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol au <strong>percepțiile despre normele și climatul clasei</strong> în autoreglarea contextului?",
+        options: [
+          "<span class='tip'>Pot influența modul de implicare<span class='tooltip-box'><strong>Pintrich</strong> subliniază că percepțiile despre normele clasei, climatul clasei și caracteristicile sarcinilor pot fi reale sau pot fi distorsionate de stereotipuri activate.<br><br><strong>Exemplu:</strong> elevul crede că profesorul apreciază doar competiția, deși accentul este pus pe progres.</span></span>",
+          "<span class='tip'>Determină automat performanța academică<span class='tooltip-box'>Percepțiile influențează implicarea, nu garantează performanța.</span></span>",
+          "<span class='tip'>Nu pot fi modificate prin autoreglare<span class='tooltip-box'>Modul de percepere poate fi reglat.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce presupune <strong>monitorizarea contextuală</strong>?",
+        options: [
+          "<span class='tip'>Conștientizarea oportunităților și constrângerilor<span class='tooltip-box'><strong>Pintrich</strong> definește monitorizarea contextuală ca urmărirea regulilor clasei, practicilor de notare, cerințelor sarcinilor și modalităților de recompensare.<br><br><strong>Exemplu:</strong> elevul observă ce tip de răspunsuri sunt apreciate și își ajustează modul de lucru.</span></span>",
+          "<span class='tip'>Evaluarea performanței finale<span class='tooltip-box'>Evaluarea apare în reacție și reflecție.</span></span>",
+          "<span class='tip'>Stabilirea inițială a obiectivelor personale<span class='tooltip-box'>Obiectivele sunt stabilite în planificare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "De ce este <strong>controlul contextului</strong> mai dificil decât alte forme de autoreglare?",
+        options: [
+          "<span class='tip'>Contextul nu este complet sub controlul elevului<span class='tooltip-box'><strong>Pintrich</strong> precizează că sarcinile și contextul nu pot fi întotdeauna controlate direct de cursantul individual, spre deosebire de cogniție sau comportament.</span></span>",
+          "<span class='tip'>Pentru că elevii nu pot monitoriza contextul<span class='tooltip-box'>Monitorizarea contextuală este posibilă.</span></span>",
+          "<span class='tip'>Pentru că autoreglarea exclude mediul extern<span class='tooltip-box'>Contextul este o componentă explicită.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce strategie pot folosi elevii pentru <strong>controlul sarcinilor sau al contextului</strong>?",
+        options: [
+          "<span class='tip'>Negocierea cerințelor sarcinii<span class='tooltip-box'><strong>Pintrich</strong> menționează negocierea cerințelor ca strategie de autoreglare contextuală, mai ales în contexte flexibile, precum instruirea bazată pe proiecte.<br><br><strong>Exemplu:</strong> elevul discută cu profesorul termenul de predare sau forma produsului final.</span></span>",
+          "<span class='tip'>Ignorarea cerințelor externe<span class='tooltip-box'>Ignorarea reduce șansele de succes.</span></span>",
+          "<span class='tip'>Reducerea efortului personal<span class='tooltip-box'>Aceasta nu reprezintă control contextual.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce implică <strong>reacția și reflecția contextuală</strong>?",
+        options: [
+          "<span class='tip'>Evaluări ale sarcinii și mediului<span class='tooltip-box'><strong>Pintrich</strong> descrie reacția și reflecția contextuală ca evaluări ale sarcinii și mediului clasei, bazate pe criterii cognitive (învățare, obiective) și criterii de confort sau plăcere.<br><br><strong>Exemplu:</strong> elevul apreciază dacă mediul de lucru l-a ajutat să se concentreze.</span></span>",
+          "<span class='tip'>Activarea automată a cunoștințelor anterioare<span class='tooltip-box'>Aceasta ține de cogniție.</span></span>",
+          "<span class='tip'>Atribuirea succesului exclusiv abilităților<span class='tooltip-box'>Atribuirile apar într-o dimensiune mai largă a autoreglării.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q13",
+    title: "Îmbunătățirea abilităților autoreglatorii",
+    questions: [
+      {
+        text: "Care este <strong>ideea de bază</strong> a programului de „împuternicire” propus de Cleary și Zimmerman?",
+        options: [
+          "<span class='tip'>Succesul este sub controlul elevului<span class='tooltip-box'><strong>Cleary și Zimmerman</strong> pornesc de la cultivarea convingerii că succesul academic depinde în mare măsură de capacitatea elevilor de a-și folosi strategiile de învățare.<br><br><strong>Exemplu:</strong> elevul ajunge să creadă că poate obține rezultate mai bune dacă își ajustează strategiile, nu că succesul depinde doar de noroc sau abilitate.</span></span>",
+          "<span class='tip'>Succesul depinde exclusiv de profesor<span class='tooltip-box'>Programul mută responsabilitatea spre elev, nu spre control extern.</span></span>",
+          "<span class='tip'>Autoreglarea apare spontan<span class='tooltip-box'>Programul presupune instruire directă și ghidată.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care sunt cele <strong>două componente principale</strong> ale programului de împuternicire?",
+        options: [
+          "<span class='tip'>Evaluare inițială și formare autoreglată<span class='tooltip-box'><strong>Evaluarea inițială</strong> vizează strategiile de studiu, motivația și capacitatea de ajustare a strategiilor.<br><br><strong>Formarea</strong> urmărește transformarea strategiilor ineficiente în strategii eficiente și dezvoltarea independenței în învățare.</span></span>",
+          "<span class='tip'>Evaluare finală și notare standardizată<span class='tooltip-box'>Accentul nu este pe evaluare sumativă.</span></span>",
+          "<span class='tip'>Motivare externă și recompense<span class='tooltip-box'>Motivația este cultivată prin control personal și speranță.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt <strong>învățate strategiile</strong> de autoreglare în acest program?",
+        options: [
+          "<span class='tip'>De la modelare socială la utilizare independentă<span class='tooltip-box'><strong>Modelul social-cognitiv</strong> presupune că elevii învață inițial strategiile din surse sociale (modelare, imitație), apoi le aplică în practică ghidată și ulterior independent.<br><br><strong>Exemplu:</strong> elevul observă o strategie de planificare, o exersează cu sprijin și apoi o folosește singur.</span></span>",
+          "<span class='tip'>Prin memorare teoretică<span class='tooltip-box'>Accentul este pe aplicare, nu pe memorare.</span></span>",
+          "<span class='tip'>Prin încercări întâmplătoare<span class='tooltip-box'>Strategiile sunt predate și exersate sistematic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <strong>ciclul de feedback</strong> în formarea autoreglării?",
+        options: [
+          "<span class='tip'>Susține ajustările strategice<span class='tooltip-box'>Elevii sunt învățați să stabilească obiective, să monitorizeze procesele și rezultatele, să evalueze performanța și să facă ajustări pentru îmbunătățire.<br><br><strong>Exemplu:</strong> după un rezultat slab, elevul își schimbă strategia pentru următoarea sarcină.</span></span>",
+          "<span class='tip'>Înlocuiește planificarea<span class='tooltip-box'>Planificarea rămâne esențială.</span></span>",
+          "<span class='tip'>Este utilizat doar la finalul învățării<span class='tooltip-box'>Feedbackul este folosit ciclic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este important mesajul de <strong>„speranță” și împuternicire</strong> al programului?",
+        options: [
+          "<span class='tip'>Crește motivația și rezultatele școlare<span class='tooltip-box'><strong>Cleary și Zimmerman</strong> arată că sentimentul de control și speranță susține implicarea și performanța elevilor.<br><br><strong>Exemplu:</strong> elevul persevereză mai mult deoarece crede că poate influența rezultatul.</span></span>",
+          "<span class='tip'>Reduce nevoia de feedback<span class='tooltip-box'>Feedbackul rămâne central.</span></span>",
+          "<span class='tip'>Elimină rolul efortului<span class='tooltip-box'>Efortul este direcționat, nu eliminat.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u8-q14",
+    title: "Îmbunătățirea abilităților autoreglatorii",
+    questions: [
+      {
+        text: "Care este <strong>ideea de bază</strong> a programului de „împuternicire” propus de Cleary și Zimmerman?",
+        options: [
+          "<span class='tip'>Succesul este sub controlul elevului<span class='tooltip-box'><strong>Cleary și Zimmerman</strong> pornesc de la cultivarea convingerii că succesul academic depinde în mare măsură de capacitatea elevilor de a-și folosi strategiile de învățare.<br><br><strong>Exemplu:</strong> elevul ajunge să creadă că poate obține rezultate mai bune dacă își ajustează strategiile, nu că succesul depinde doar de noroc sau abilitate.</span></span>",
+          "<span class='tip'>Succesul depinde exclusiv de profesor<span class='tooltip-box'>Programul mută responsabilitatea spre elev, nu spre control extern.</span></span>",
+          "<span class='tip'>Autoreglarea apare spontan<span class='tooltip-box'>Programul presupune instruire directă și ghidată.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care sunt cele <strong>două componente principale</strong> ale programului de împuternicire?",
+        options: [
+          "<span class='tip'>Evaluare inițială și formare autoreglată<span class='tooltip-box'><strong>Evaluarea inițială</strong> vizează strategiile de studiu, motivația și capacitatea de ajustare a strategiilor.<br><br><strong>Formarea</strong> urmărește transformarea strategiilor ineficiente în strategii eficiente și dezvoltarea independenței în învățare.</span></span>",
+          "<span class='tip'>Evaluare finală și notare standardizată<span class='tooltip-box'>Accentul nu este pe evaluare sumativă.</span></span>",
+          "<span class='tip'>Motivare externă și recompense<span class='tooltip-box'>Motivația este cultivată prin control personal și speranță.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt <strong>învățate strategiile</strong> de autoreglare în acest program?",
+        options: [
+          "<span class='tip'>De la modelare socială la utilizare independentă<span class='tooltip-box'><strong>Modelul social-cognitiv</strong> presupune că elevii învață inițial strategiile din surse sociale (modelare, imitație), apoi le aplică în practică ghidată și ulterior independent.<br><br><strong>Exemplu:</strong> elevul observă o strategie de planificare, o exersează cu sprijin și apoi o folosește singur.</span></span>",
+          "<span class='tip'>Prin memorare teoretică<span class='tooltip-box'>Accentul este pe aplicare, nu pe memorare.</span></span>",
+          "<span class='tip'>Prin încercări întâmplătoare<span class='tooltip-box'>Strategiile sunt predate și exersate sistematic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <strong>ciclul de feedback</strong> în formarea autoreglării?",
+        options: [
+          "<span class='tip'>Susține ajustările strategice<span class='tooltip-box'>Elevii sunt învățați să stabilească obiective, să monitorizeze procesele și rezultatele, să evalueze performanța și să facă ajustări pentru îmbunătățire.<br><br><strong>Exemplu:</strong> după un rezultat slab, elevul își schimbă strategia pentru următoarea sarcină.</span></span>",
+          "<span class='tip'>Înlocuiește planificarea<span class='tooltip-box'>Planificarea rămâne esențială.</span></span>",
+          "<span class='tip'>Este utilizat doar la finalul învățării<span class='tooltip-box'>Feedbackul este folosit ciclic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este important mesajul de <strong>„speranță” și împuternicire</strong> al programului?",
+        options: [
+          "<span class='tip'>Crește motivația și rezultatele școlare<span class='tooltip-box'><strong>Cleary și Zimmerman</strong> arată că sentimentul de control și speranță susține implicarea și performanța elevilor.<br><br><strong>Exemplu:</strong> elevul persevereză mai mult deoarece crede că poate influența rezultatul.</span></span>",
+          "<span class='tip'>Reduce nevoia de feedback<span class='tooltip-box'>Feedbackul rămâne central.</span></span>",
+          "<span class='tip'>Elimină rolul efortului<span class='tooltip-box'>Efortul este direcționat, nu eliminat.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q1",
+    title: "Definiția grupului (de Visscher)",
+    questions: [
+      {
+        text: "Ce definește, în esență, <span class='tip'><strong>grupul restrâns</strong><span class='tooltip-box'>Definiția este formulată de De Visscher și se referă la condițiile minime necesare pentru ca un ansamblu de persoane să devină grup.</span></span>?",
+        options: [
+          "<span class='tip'>Un ansamblu de minimum cinci persoane aflate împreună, care se percep, comunică și interacționează direct<span class='tooltip-box'>Aceasta este ideea centrală a definiției grupului restrâns la De Visscher.</span></span>",
+          "<span class='tip'>O categorie socială stabilită formal, definită prin statute oficiale, roluri prescrise și apartenență instituțională<span class='tooltip-box'>Statuturile și rolurile formale pot apărea ulterior, dar nu definesc în sine grupul restrâns.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce înseamnă <span class='tip'><strong>prezența efectivă și concomitentă</strong><span class='tooltip-box'>Condiție de bază a existenței grupului restrâns, conform lui De Visscher.</span></span> și de ce este necesară unui grup restrâns?",
+        options: [
+          "<span class='tip'>Aflarea persoanelor împreună, în același timp și loc, pentru a permite perceperea și interacțiunea directă<span class='tooltip-box'>Prezența simultană face posibilă recunoașterea reciprocă și comunicarea nemijlocită.</span></span>",
+          "<span class='tip'>Apartenența formală la aceeași instituție, care oferă un cadru organizatoric stabil și reguli comune<span class='tooltip-box'>Cadrul instituțional nu garantează perceperea și interacțiunea directă între membri.</span></span>",
+          "<span class='tip'>Participarea simbolică sau mediată la o activitate comună desfășurată la distanță<span class='tooltip-box'>Interacțiunea mediată nu îndeplinește condiția prezenței efective și concomitente.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă <span class='tip'><strong>durabilitatea</strong><span class='tooltip-box'>Dimensiunea temporală a existenței grupului.</span></span> unui grup restrâns?",
+        options: [
+          "<span class='tip'>Întâlnirea ocazională a persoanelor pentru activități punctuale, fără continuitate în timp<span class='tooltip-box'>Ocazionalitatea nu permite formarea structurilor stabile de grup.</span></span>",
+          "<span class='tip'>Persistența grupului suficient de mult pentru apariția relațiilor, rolurilor și regulilor<span class='tooltip-box'>Durabilitatea permite instituționalizarea grupului.</span></span>",
+          "<span class='tip'>Stabilitatea emoțională și trăsăturile de personalitate ale indivizilor care compun grupul<span class='tooltip-box'>Este o caracteristică individuală, nu o condiție definitorie a grupului.</span></span>",
+          "<span class='tip'>Dimensiunea numerică mare a colectivului, care favorizează diversitatea relațiilor<span class='tooltip-box'>Durabilitatea nu depinde de mărimea grupului.</span></span>",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q2",
+    title: "Categorii de grupuri și clasificări relevante",
+    questions: [
+      {
+        text: "Alege categoriile de <span class='tip'><strong>grupuri umane</strong><span class='tooltip-box'>Clasificate de psihologii francezi Anzieu și Martin.</span></span>.",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Mulțimea</strong> – organizare foarte scăzută<span class='tooltip-box'>Număr foarte mare de participanți care se întâlnesc de obicei întâmplător<br><br>Exemplu: spectacole, competiții sportive</span></span>",
+          "<span class='tip'><strong>Banda</strong> – organizare scăzută<span class='tooltip-box'>Număr mic de participanți cu preocupări similare<br><br>Întâlniri intenționate pentru plăcerea de a fi împreună</span></span>",
+          "<span class='tip'><strong>Gruparea</strong> – organizare medie<span class='tooltip-box'>Număr variabil de persoane<br><br>Întâlniri periodice cu o oarecare permanență a scopurilor și relații superficiale</span></span>",
+          "<span class='tip'><strong>Grupul primar</strong> – organizare ridicată<span class='tooltip-box'>Număr mic de membri<br><br>Scopuri asumate și relații foarte puternice<br><br>Echivalent cu grupul restrâns</span></span>",
+          "<span class='tip'><strong>Grupul secundar</strong> – organizare foarte ridicată<span class='tooltip-box'>Număr mare de membri<br><br>Organizare formală, instituționalizată<br><br>Scopuri și acțiuni bine definite și planificate</span></span>",
+          "<span class='tip'><strong>Grupul accidental</strong> – organizare spontană<span class='tooltip-box'>Nu face parte din clasificarea lui Anzieu și Martin</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+
+      {
+        text: "Grupurile primare au un număr restrâns de persoane, având relații apropiate bazate pe cunoașterea reciprocă și împărțirea sentimentelor printr o comunicare directă. Care sunt aceste grupuri?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Familia<span class='tooltip-box'>Relații directe și apropiate bazate pe cunoaștere reciprocă</span></span>",
+          "<span class='tip'>Grupul de prieteni<span class='tooltip-box'>Împărtășirea sentimentelor și comunicare directă</span></span>",
+          "<span class='tip'>Clasa de elevi<span class='tooltip-box'>Interacțiune constantă și relații apropiate</span></span>",
+          "<span class='tip'>Școala<span class='tooltip-box'>Instituție cu organizare formală și număr mare de membri</span></span>",
+          "<span class='tip'>Colectivele profesionale mari<span class='tooltip-box'>Relații formale și distanțate</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Grupurile secundare au un număr mare sau foarte mare de persoane, având relații formalizate și indirecte. Care sunt aceste grupuri?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Școala<span class='tooltip-box'>Organizare instituționalizată și relații oficiale</span></span>",
+          "<span class='tip'>Universitatea<span class='tooltip-box'>Structură formală cu reguli și ierarhii</span></span>",
+          "<span class='tip'>Colectivele profesionale mari<span class='tooltip-box'>Număr mare de membri și relații indirecte</span></span>",
+          "<span class='tip'>Familia<span class='tooltip-box'>Este un grup primar, nu secundar</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Pe lângă grupurile primare și secundare, în literatura de specialitate au fost identificate alte două clasificări esențiale pentru gestionarea grupului de elevi:",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Grup de apartenență și grup de referință</strong><span class='tooltip-box'>Grupul de apartenență reprezintă grupul primar căruia îi aparține o persoană și la viața căruia participă nemijlocit<br><br>Exemple: familia, clasa de elevi, grupul profesional<br><br>Grupul de referință furnizează valori, așteptări, modele și comportamente dezirabile. Persoana alege/ dorește să se identifice cu acesta<br><br>Cele două se pot suprapune sau nu</span></span>",
+          "<span class='tip'><strong>Grup formal și grup informal</strong><span class='tooltip-box'>Grupul formal are organizare explicită, instituționalizată, reguli și ierarhii<br><br>Grupul informal este constituit spontan și are o structură bazată pe popularitate, atracție și conflict<br><br>Un grup eficient presupune suprapunerea structurii formale cu organizarea informală</span></span>",
+          "<span class='tip'><strong>Grup deschis și grup închis</strong><span class='tooltip-box'>Această clasificare nu este relevantă pentru analiza prezentată</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q3",
+    title: "Caracteristicile grupurilor eficiente (Zlate, McGregor)",
+    questions: [
+      {
+        text: "De ce consideră <span class='tip'><strong>Mielu Zlate</strong><span class='tooltip-box'>Reper al psihologiei organizaționale românești.</span></span> că studiul relațiilor din interiorul grupurilor este esențial în cercetarea educațională?",
+        options: [
+          "<span class='tip'>Pentru că lipsa preocupării pentru evoluția relațiilor din grup reprezintă o limită majoră<span class='tooltip-box'>Zlate subliniază nevoia de a studia sistematic consolidarea, menținerea și gestionarea relațiilor din grupuri.</span></span>",
+          "<span class='tip'>Pentru că relațiile din grup sunt secundare față de sarcina educațională<span class='tooltip-box'>Această perspectivă contrazice poziția lui Zlate.</span></span>",
+          "<span class='tip'>Pentru că doar performanța individuală contează în educație<span class='tooltip-box'>Zlate acordă importanță fenomenelor psihologice de grup.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce legitimează interesul pentru <span class='tip'><strong>caracteristicile grupurilor eficiente</strong><span class='tooltip-box'>Din perspectiva psihologiei organizaționale.</span></span>?",
+        options: [
+          "<span class='tip'>Apariția unor fenomene psihologice calitative noi la nivel de grup<span class='tooltip-box'>Grupul nu este doar suma indivizilor, ci generează dinamici specifice.</span></span>",
+          "<span class='tip'>Creșterea automată a performanței prin simpla reunire a indivizilor<span class='tooltip-box'>Eficiența nu este garantată de existența grupului.</span></span>",
+          "<span class='tip'>Aplicarea strictă a regulilor formale<span class='tooltip-box'>Regulile nu explică singure eficiența grupului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Eficiența grupului depinde de caracteristici și particularități ale grupurilor și sarcinilor acestora. Selectează exemple de <span class='tip'><strong>caracteristici ale unui grup eficient</strong></span>:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Atmosferă confortabilă, destinsă<span class='tooltip-box'>Fără rigiditate și fără tensiuni vizibile între membri.</span></span>",
+          "<span class='tip'>Discuții numeroase între toți participanții<span class='tooltip-box'>Interacțiuni active, fără a se pierde focalizarea pe sarcina grupului.</span></span>",
+          "<span class='tip'>Sarcina și obiectivul grupului sunt bine înțelese și acceptate<span class='tooltip-box'>Acceptare prin consens, nu impunere formală.</span></span>",
+          "<span class='tip'>Membrii evită exprimarea ideilor extreme<span class='tooltip-box'>Contrar grupurilor eficiente, creativitatea este inhibată.</span></span>",
+          "<span class='tip'>Libertatea de a exprima sentimente și idei<span class='tooltip-box'>Fiecare știe ce gândește și simte celălalt, favorizând încrederea.</span></span>",
+        ],
+        answer: [0, 1, 2, 4],
+      },
+
+      {
+        text: "Eficiența grupului depinde de caracteristici și particularități ale grupurilor și sarcinilor acestora. Selectează exemple de <span class='tip'><strong>caracteristici ale unui grup ineficient</strong></span>:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Sarcinile și obiectivele nu sunt bine înțelese<span class='tooltip-box'>Membrii au obiective diferite, personale, adesea în conflict.</span></span>",
+          "<span class='tip'>Oamenii nu se ascultă reciproc<span class='tooltip-box'>Discuțiile sunt incoerente și sar de la o idee la alta.</span></span>",
+          "<span class='tip'>Dezacordurile sunt prost gestionate<span class='tooltip-box'>Soluționarea se face prin votul unei mici majorități.</span></span>",
+          "<span class='tip'>Sentimentele personale sunt exprimate deschis<span class='tooltip-box'>Aceasta este o caracteristică a grupurilor eficiente.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q4",
+    title: "Dinamica grupurilor (Kurt Lewin, 1947)",
+    questions: [
+      {
+        text: "Ce aduce nou <span class='tip'><strong>Kurt Lewin</strong><span class='tooltip-box'>Autor al articolului „Frontiers in group dynamics”, 1947.</span></span> în înțelegerea grupului?",
+        options: [
+          "<span class='tip'>Ideea că grupul este un tot unitar, mai mult decât suma indivizilor<span class='tooltip-box'>Valoarea segmentelor crește prin interacțiunea dintre ele și cu întregul.</span></span>",
+          "<span class='tip'>Concepția că grupul este doar un cadru formal pentru atingerea unui scop comun<span class='tooltip-box'>Această viziune reduce grupul la coexistență, nu la interacțiune.</span></span>",
+          "<span class='tip'>Afirmația că dinamica grupului nu influențează individul<span class='tooltip-box'>Contrar poziției lui Lewin, individul resimte intens schimbările din grup.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce afirmă Kurt Lewin că grupul are un <span class='tip'><strong>caracter dinamic și transformator</strong><span class='tooltip-box'>Caracteristică centrală a dinamicii grupurilor.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru că interacțiunea dintre membri generează consecințe și schimbări<span class='tooltip-box'>Grupul produce efecte psihologice care nu apar la nivel individual.</span></span>",
+          "<span class='tip'>Pentru că membrii grupului au întotdeauna același nivel de implicare<span class='tooltip-box'>Implicarea este variabilă și influențată de dinamica grupului.</span></span>",
+          "<span class='tip'>Pentru că scopul grupului rămâne neschimbat în timp<span class='tooltip-box'>Dinamica presupune tocmai transformare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Selectează <span class='tip'><strong>ipotezele formulate de Kurt Lewin</strong><span class='tooltip-box'>Privind grupurile și dinamica acestora.</span></span>:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Grupul reprezintă terenul ocupat de individ, spațiul său vital<span class='tooltip-box'>Grupul este mediul psihosocial imediat al individului.</span></span>",
+          "<span class='tip'>Grupul este un instrument de satisfacere a trebuințelor psihice și aspirațiilor sociale<span class='tooltip-box'>Prin grup, individul își împlinește nevoi de apartenență, recunoaștere și afirmare.</span></span>",
+          "<span class='tip'>Modificările din structura și dinamica grupului sunt resimțite de individ<span class='tooltip-box'>Individul face parte din grup și este afectat direct de schimbările acestuia.</span></span>",
+          "<span class='tip'>Grupul este o realitate independentă de individ<span class='tooltip-box'>Această afirmație contrazice perspectiva lui Lewin.</span></span>",
+          "<span class='tip'>Grupul face parte din universul social al individului și îi permite dezvoltarea<span class='tooltip-box'>Grupul susține evoluția și integrarea socială a individului.</span></span>",
+        ],
+        answer: [0, 1, 2, 4],
+      },
+
+      {
+        text: "Cum este definit <span class='tip'><strong>raportul dintre individ și grup</strong><span class='tooltip-box'>Din perspectiva dinamicii grupurilor.</span></span> la Kurt Lewin?",
+        options: [
+          "<span class='tip'>Individul și grupul se influențează reciproc<span class='tooltip-box'>Schimbările la nivelul grupului produc efecte asupra individului și invers.</span></span>",
+          "<span class='tip'>Individul este complet autonom față de grup<span class='tooltip-box'>Această viziune este incompatibilă cu dinamica grupurilor.</span></span>",
+          "<span class='tip'>Grupul există doar ca sumă de indivizi izolați<span class='tooltip-box'>Lewin respinge această perspectivă atomistă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q5",
+    title:
+      "Grupul școlar / clasa de elevi și Caracteristicile clasei (Sălăvăstru)",
+    questions: [
+      {
+        text: "De ce este <span class='tip'><strong>grupul școlar</strong><span class='tooltip-box'>Clasa de elevi, asociată educației formale.</span></span> un reper important în evoluția individului?",
+        options: [
+          "<span class='tip'>Pentru că satisface nevoi fundamentale și influențează dezvoltarea pe termen lung<span class='tooltip-box'>Răspunde nevoilor de afiliere, securitate și protecție, mai ales în perioade de criză precum adolescența.</span></span>",
+          "<span class='tip'>Pentru că înlocuiește complet influența familiei<span class='tooltip-box'>Grupul școlar nu anulează rolul altor grupuri primare.</span></span>",
+          "<span class='tip'>Pentru că se limitează strict la transmiterea informațiilor academice<span class='tooltip-box'>Influența grupului școlar depășește dimensiunea cognitivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este definită <span class='tip'><strong>clasa de elevi</strong><span class='tooltip-box'>Din perspectiva organizării și tipului de grup.</span></span>?",
+        options: [
+          "<span class='tip'>Grup formal, restrâns, primar, cu scop educațional<span class='tooltip-box'>Ia naștere pe baza unor metodologii clare și presupune roluri specifice profesorilor și elevilor.</span></span>",
+          "<span class='tip'>Grup informal, secundar, constituit spontan<span class='tooltip-box'>Clasa de elevi este instituționalizată.</span></span>",
+          "<span class='tip'>Grup secundar, cu relații exclusiv formale<span class='tooltip-box'>Relațiile din clasă includ și dimensiuni relaționale apropiate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Selectează <span class='tip'><strong>caracteristicile clasei de elevi</strong><span class='tooltip-box'>Analizate de Dorina Sălăvăstru.</span></span>:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Interacțiunea directă<span class='tooltip-box'>Relaționare nemijlocită între membrii clasei.</span></span>",
+          "<span class='tip'>Prezența scopurilor și a motivelor<span class='tooltip-box'>Scopuri educaționale care susțin acțiunea comună.</span></span>",
+          "<span class='tip'>Structura grupului prin statute și roluri<span class='tooltip-box'>Roluri diferențiate și asumate.</span></span>",
+          "<span class='tip'>Absența normelor explicite<span class='tooltip-box'>Clasa funcționează pe baza unui sistem de norme.</span></span>",
+          "<span class='tip'>Coeziunea grupului<span class='tooltip-box'>Unitate și solidaritate între membri.</span></span>",
+        ],
+        answer: [0, 1, 2, 4],
+      },
+
+      {
+        text: "Ce permite <span class='tip'><strong>gestionarea eficientă</strong><span class='tooltip-box'>De către profesor.</span></span> a acestor caracteristici ale clasei de elevi?",
+        options: [
+          "<span class='tip'>Construirea unor situații veritabile de învățare<span class='tooltip-box'>Permite cunoașterea reciprocă, dezvoltarea competențelor relaționale și performanțe academice.</span></span>",
+          "<span class='tip'>Controlul strict al comportamentului individual<span class='tooltip-box'>Controlul nu generează învățare autentică.</span></span>",
+          "<span class='tip'>Reducerea interacțiunilor dintre elevi<span class='tooltip-box'>Interacțiunea este esențială clasei de elevi.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q6",
+    title: "Comunitatea de învățare",
+    questions: [
+      {
+        text: "Gestionarea eficientă a interacțiunii, scopurilor, rolurilor, normelor și coeziunii clasei permite profesorului să creeze premisele pentru:",
+        options: [
+          "<span class='tip'>Constituirea unei adevărate comunități de învățare<span class='tooltip-box'>Clasa devine un spațiu al învățării autentice, nu doar al predării.</span></span>",
+          "<span class='tip'>Standardizarea comportamentelor elevilor<span class='tooltip-box'>Standardizarea nu este scopul comunității de învățare.</span></span>",
+          "<span class='tip'>Reducerea dimensiunii relaționale a clasei<span class='tooltip-box'>Comunitatea de învățare se bazează pe relații.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă conceptul de <span class='tip'><strong>comunitate de învățare</strong><span class='tooltip-box'>Concept pedagogic contemporan.</span></span>?",
+        options: [
+          "<span class='tip'>Un cadru care susține achiziții durabile și învățarea pe tot parcursul vieții<span class='tooltip-box'>Învățarea este individuală, dar facilitată de beneficiile activităților educaționale de grup.</span></span>",
+          "<span class='tip'>Un sistem care înlocuiește învățarea individuală<span class='tooltip-box'>Învățarea rămâne un proces individual.</span></span>",
+          "<span class='tip'>O formă exclusiv informală de educație<span class='tooltip-box'>Poate funcționa și în contexte formale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>învățarea</strong><span class='tooltip-box'>În cadrul comunității de învățare.</span></span>?",
+        options: [
+          "<span class='tip'>Ca proces individual facilitat de medierea socială<span class='tooltip-box'>Experiența este personală, dar se instalează mai ușor în context de grup.</span></span>",
+          "<span class='tip'>Ca rezultat exclusiv al muncii individuale<span class='tooltip-box'>Este ignorat rolul grupului.</span></span>",
+          "<span class='tip'>Ca proces determinat doar de curriculum<span class='tooltip-box'>Curriculumul nu este suficient.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce permite comunitatea de învățare în contextul educației contemporane?",
+        options: [
+          "<span class='tip'>Reponderarea competențelor academice, profesionale și personale<span class='tooltip-box'>Flexibilitatea și adaptabilitatea devin esențiale pentru perfecționare și reconversie.</span></span>",
+          "<span class='tip'>Accent exclusiv pe performanța academică<span class='tooltip-box'>Comunitatea de învățare integrează mai multe tipuri de competențe.</span></span>",
+          "<span class='tip'>Stabilitate profesională fără adaptare<span class='tooltip-box'>Contrar cerințelor actuale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce susține ideea că <span class='tip'><strong>munca în echipă</strong><span class='tooltip-box'>Conform lui Ciolan.</span></span> este sursă de învățare?",
+        options: [
+          "<span class='tip'>Învățarea integrată și medierea socială a învățării<span class='tooltip-box'>În „Învățarea integrată. Fundamente pentru un curriculum transdisciplinar”, Ciolan arată că munca în echipă produce achiziții durabile prin cooperare și integrarea experiențelor individuale.</span></span>",
+          "<span class='tip'>Reducerea rolului experienței personale<span class='tooltip-box'>Experiența personală rămâne centrală.</span></span>",
+          "<span class='tip'>Excluderea competențelor sociale<span class='tooltip-box'>Comunitatea de învățare le valorizează.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q7",
+    title:
+      "Vechi în cunoaștere. Instinctul social, curiozitatea și jocul. Peter Gray",
+    questions: [
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>curiozitatea</strong><span class='tooltip-box'>Analizată de Peter Gray pe baza cercetărilor asupra bebelușilor, copiilor mici și preșcolarilor.</span></span> în dezvoltarea umană?",
+        options: [
+          "<span class='tip'>Curiozitatea nu scade odată cu vârsta, ci susține explorări tot mai complexe<span class='tooltip-box'>Pe măsură ce copilul crește, formele de explorare devin mai rafinate și mai elaborate.</span></span>",
+          "<span class='tip'>Curiozitatea este specifică doar copilăriei timpurii<span class='tooltip-box'>Gray arată continuitatea curiozității, nu dispariția ei.</span></span>",
+          "<span class='tip'>Curiozitatea este inhibată natural de socializare<span class='tooltip-box'>Socializarea este prezentată ca sprijin al explorării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>spiritul ludic</strong><span class='tooltip-box'>Instinctul de a se juca.</span></span> în relație cu curiozitatea, conform lui Peter Gray?",
+        options: [
+          "<span class='tip'>Completează curiozitatea și permite folosirea creativă a aptitudinilor nou descoperite<span class='tooltip-box'>Prin joc, copiii exersează și aplică aptitudinile dobândite prin explorare.</span></span>",
+          "<span class='tip'>Înlocuiește curiozitatea și reduce explorarea<span class='tooltip-box'>Gray descrie jocul ca extensie a explorării.</span></span>",
+          "<span class='tip'>Este o activitate recreativă fără rol formativ<span class='tooltip-box'>Textul subliniază funcția dezvoltativă a jocului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Dintr o perspectivă <span class='tip'><strong>biologică evoluționistă</strong><span class='tooltip-box'>Menționată explicit de Peter Gray.</span></span>, ce funcție are jocul?",
+        options: [
+          "<span class='tip'>Asigură exersarea și îmbunătățirea aptitudinilor necesare pentru adaptare și supraviețuire<span class='tooltip-box'>Jocul este mecanismul prin care natura susține dezvoltarea competențelor esențiale.</span></span>",
+          "<span class='tip'>Este un comportament apărut accidental<span class='tooltip-box'>Textul explică funcția adaptativă a jocului.</span></span>",
+          "<span class='tip'>Este specific exclusiv ființelor umane adulte<span class='tooltip-box'>Gray discută despre mamifere tinere, inclusiv copii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este descrisă <span class='tip'><strong>sociabilitatea</strong><span class='tooltip-box'>Instinctul de a împărtăși informații și idei.</span></span> în relație cu învățarea copiilor?",
+        options: [
+          "<span class='tip'>Prin sociabilitate, mințile copiilor se interconectează cu ale partenerilor de vârste apropiate<span class='tooltip-box'>Învățarea este susținută de comunicare și schimb de idei.</span></span>",
+          "<span class='tip'>Sociabilitatea interferează cu dezvoltarea cognitivă<span class='tooltip-box'>Textul susține contrariul.</span></span>",
+          "<span class='tip'>Sociabilitatea apare doar în adolescență<span class='tooltip-box'>Gray vorbește despre copii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce perspectivă generală oferă Peter Gray asupra <span class='tip'><strong>învățării și educației</strong><span class='tooltip-box'>Din prisma curiozității, jocului și sociabilității.</span></span>?",
+        options: [
+          "<span class='tip'>Învățarea este susținută natural de explorare, joc și interacțiune socială<span class='tooltip-box'>Aceste instincte legitimează rolul grupului în educație.</span></span>",
+          "<span class='tip'>Învățarea eficientă presupune control și limitarea jocului<span class='tooltip-box'>Textul pune accent pe libertate și explorare.</span></span>",
+          "<span class='tip'>Învățarea este exclusiv individuală și independentă de grup<span class='tooltip-box'>Gray subliniază rolul interacțiunii.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q8",
+    title:
+      "Nou în cunoaștere. Avansul tehnologic și cercetarea creierului uman",
+    questions: [
+      {
+        text: "Ce aduce <span class='tip'><strong>noutate</strong><span class='tooltip-box'>În raport cu explicațiile clasice despre dezvoltare.</span></span> cercetarea contemporană asupra creierului uman?",
+        options: [
+          "<span class='tip'>Posibilitatea de a cartografia detaliat circuitele și conexiunile neuronale<span class='tooltip-box'>Programele de cercetare urmăresc o hartă a rețelelor creierului.</span></span>",
+          "<span class='tip'>Negarea rolului experienței în dezvoltare<span class='tooltip-box'>Textul subliniază legătura dintre utilizare și dezvoltare.</span></span>",
+          "<span class='tip'>Reducerea interesului pentru educație<span class='tooltip-box'>Dimpotrivă, cercetarea susține demersuri educaționale mai bine fundamentate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este scopul principal al <span class='tip'><strong>programelor de cercetare</strong><span class='tooltip-box'>Inițiate de cercetători de la Harvard.</span></span> descrise de Sir Ken Robinson?",
+        options: [
+          "<span class='tip'>Crearea unei hărți detaliate a circuitelor creierului uman<span class='tooltip-box'>Analiza conexiunilor neuronale oferă date despre funcționarea creierului.</span></span>",
+          "<span class='tip'>Standardizarea proceselor educaționale<span class='tooltip-box'>Nu este un obiectiv al acestor cercetări.</span></span>",
+          "<span class='tip'>Înlocuirea teoriilor psihologice clasice<span class='tooltip-box'>Cercetarea completează, nu elimină teoriile existente.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are aparatul numit <span class='tip'><strong>automatic tape collecting lathe ultra microtome</strong><span class='tooltip-box'>ATLUM.</span></span> în aceste cercetări?",
+        options: [
+          "<span class='tip'>Permite recoltarea și secționarea extrem de fină a țesutului cerebral<span class='tooltip-box'>Ulterior, feliile sunt analizate cu microscop electronic.</span></span>",
+          "<span class='tip'>Evaluează performanțele școlare ale elevilor<span class='tooltip-box'>Este un instrument de laborator, nu educațional.</span></span>",
+          "<span class='tip'>Stimulează direct dezvoltarea cognitivă<span class='tooltip-box'>Aparatul este utilizat pentru cercetare, nu intervenție.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce idee este subliniată prin referirea la numărul mare de neuroni și conexiuni la naștere?",
+        options: [
+          "<span class='tip'>Conexiunile neuronale se modifică în funcție de dezvoltare și utilizare<span class='tooltip-box'>Experiența și mediul influențează organizarea creierului.</span></span>",
+          "<span class='tip'>Structura creierului rămâne neschimbată după naștere<span class='tooltip-box'>Textul afirmă contrariul.</span></span>",
+          "<span class='tip'>Toate creierele se dezvoltă identic<span class='tooltip-box'>Dezvoltarea este dependentă de utilizare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>educația creierului uman</strong><span class='tooltip-box'>În concluziile programului connectomics.</span></span>?",
+        options: [
+          "<span class='tip'>Ca un proces profund și îndelungat, care se desfășoară până în jurul vârstei de 20 de ani<span class='tooltip-box'>Dezvoltarea creierului este strâns legată de experiență și educație.</span></span>",
+          "<span class='tip'>Ca un proces încheiat în primii ani de viață<span class='tooltip-box'>Textul indică o durată mult mai mare.</span></span>",
+          "<span class='tip'>Ca un proces independent de mediu<span class='tooltip-box'>Mediul și utilizarea sunt esențiale.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este semnificația educațională a <span class='tip'><strong>avansului tehnologic</strong><span class='tooltip-box'>În contextul științelor sociale.</span></span>?",
+        options: [
+          "<span class='tip'>Permite fundamentarea unor demersuri educaționale în beneficiul dezvoltării personalității umane<span class='tooltip-box'>Cunoașterea despre creier este corelată cu intervenții educaționale relevante.</span></span>",
+          "<span class='tip'>Reduce rolul educației formale<span class='tooltip-box'>Textul vorbește despre revalorizarea educației.</span></span>",
+          "<span class='tip'>Înlocuiește complet explicațiile psihologice clasice<span class='tooltip-box'>Este vorba despre completare și integrare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q9",
+    title: "Metoda sociometrică. Cunoașterea relațiilor din grupul de elevi",
+    questions: [
+      {
+        text: "De ce este necesară <span class='tip'><strong>cunoașterea relațiilor din interiorul grupului de elevi</strong><span class='tooltip-box'>În orice grup apar preferințe, antipatii și procese de stratificare.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru a înțelege dinamica relațiilor și a putea interveni educațional adecvat<span class='tooltip-box'>Profesorul poate identifica tensiuni, izolare sau potențial de cooperare și poate lua decizii informate.</span></span>",
+          "<span class='tip'>Pentru a clasifica elevii după performanță școlară<span class='tooltip-box'>Metoda sociometrică nu evaluează rezultatele academice.</span></span>",
+          "<span class='tip'>Pentru a controla comportamentul individual<span class='tooltip-box'>Scopul nu este controlul, ci înțelegerea relațiilor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce este <span class='tip'><strong>metoda sociometrică</strong><span class='tooltip-box'>Utilizată în cercetarea educațională.</span></span>?",
+        options: [
+          "<span class='tip'>O metodă de cunoaștere a relațiilor dintre membrii unui grup<span class='tooltip-box'>Prin câteva întrebări simple se pot obține informații relevante despre atracții și respingeri.</span></span>",
+          "<span class='tip'>O tehnică de evaluare a nivelului de cunoștințe<span class='tooltip-box'>Nu vizează achizițiile cognitive.</span></span>",
+          "<span class='tip'>Un instrument de sancționare a conflictelor<span class='tooltip-box'>Nu are rol punitiv.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce tip de informații poate oferi metoda sociometrică despre <span class='tip'><strong>grupul de elevi</strong></span>?",
+        options: [
+          "<span class='tip'>Preferințe, respingeri și tipul relațiilor dintre elevi<span class='tooltip-box'>Aceste informații sunt esențiale pentru înțelegerea climatului relațional.</span></span>",
+          "<span class='tip'>Nivelul de inteligență al fiecărui elev<span class='tooltip-box'>Metoda nu măsoară inteligența.</span></span>",
+          "<span class='tip'>Gradul de dificultate al sarcinilor școlare<span class='tooltip-box'>Aceasta ține de proiectarea didactică.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este utilizată <span class='tip'><strong>sociograma</strong><span class='tooltip-box'>Reprezentare grafică a relațiilor.</span></span> în analiza grupului?",
+        options: [
+          "<span class='tip'>Pentru a vizualiza relațiile de atracție și respingere dintre membri<span class='tooltip-box'>Profesorul poate observa pozițiile centrale, periferice sau izolate din grup.</span></span>",
+          "<span class='tip'>Pentru a ordona elevii după note<span class='tooltip-box'>Sociograma nu reprezintă performanța academică.</span></span>",
+          "<span class='tip'>Pentru a stabili ierarhii formale<span class='tooltip-box'>Ierarhiile formale sunt deja stabilite instituțional.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>utilitatea educațională</strong><span class='tooltip-box'>În raport cu disciplina și rolul profesorului.</span></span> a metodei sociometrice?",
+        options: [
+          "<span class='tip'>Sprijină luarea unor decizii pedagogice privind organizarea activităților de grup<span class='tooltip-box'>Profesorul poate forma echipe, preveni conflicte și susține incluziunea.</span></span>",
+          "<span class='tip'>Înlocuiește evaluarea didactică tradițională<span class='tooltip-box'>Este o metodă complementară, nu substitutivă.</span></span>",
+          "<span class='tip'>Este utilă doar în cercetarea teoretică<span class='tooltip-box'>Are aplicabilitate practică directă în clasă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q10",
+    title: "Coeziunea grupului. Ce este, de ce contează, cum o recunoști",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>coeziunea</strong><span class='tooltip-box'>Proprietate a grupului social.</span></span>?",
+        options: [
+          "<span class='tip'>Măsura solidarității și a cooperării pentru sarcini comune<span class='tooltip-box'>Arată cât de mult acționează membrii împreună și cât de strâns se susțin în activitatea comună.</span></span>",
+          "<span class='tip'>Numărul de elevi din clasă<span class='tooltip-box'>Mărimea grupului nu este același lucru cu coeziunea.</span></span>",
+          "<span class='tip'>Nivelul de dificultate al sarcinilor școlare<span class='tooltip-box'>Coeziunea ține de relații și cooperare, nu de dificultatea conținutului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Coeziunea grupului este cu atât mai mare cu cât:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Valorile sunt împărtășite<span class='tooltip-box'>Membrii au repere comune despre ce este important și de dorit.</span></span>",
+          "<span class='tip'>Interesele sunt similare<span class='tooltip-box'>Apare o direcție comună și crește disponibilitatea de colaborare.</span></span>",
+          "<span class='tip'>Există comunicare directă și echilibrată<span class='tooltip-box'>Schimbul este relativ egal și reduce tensiunile ascunse.</span></span>",
+          "<span class='tip'>Comunicarea este evitată pentru a preveni conflictele<span class='tooltip-box'>Evitarea comunicării scade cooperarea și amplifică fragmentarea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>relevanța</strong><span class='tooltip-box'>În raport cu disciplina și gestionarea clasei.</span></span> coeziunii pentru profesor?",
+        options: [
+          "<span class='tip'>Ajută la organizarea activităților și la susținerea cooperării în sarcini comune<span class='tooltip-box'>Profesorul poate proiecta activități de grup mai funcționale și poate preveni excluderea sau polarizarea.</span></span>",
+          "<span class='tip'>Înlocuiește nevoia de reguli și norme în clasă<span class='tooltip-box'>Normele rămân importante, iar coeziunea se construiește împreună cu ele.</span></span>",
+          "<span class='tip'>Este utilă doar pentru activități extracurriculare<span class='tooltip-box'>Are impact și asupra învățării, climatului clasei și performanței în sarcini.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "În contextul metodei sociometrice, ce arată că relațiile din grup pot susține sau slăbi coeziunea?",
+        options: [
+          "<span class='tip'>Existența relațiilor de atracție și de respingere între membri<span class='tooltip-box'>Ambele influențează solidaritatea și cooperarea, mai ales când sunt reciproce sau concentrate în jurul unor persoane.</span></span>",
+          "<span class='tip'>Faptul că toți elevii au aceleași note<span class='tooltip-box'>Notele nu descriu relațiile sociale.</span></span>",
+          "<span class='tip'>Faptul că toți elevii au același rol formal<span class='tooltip-box'>Rolurile formale nu surprind preferințele și respingerile.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este util să urmărești coeziunea ca <span class='tip'><strong>indicator de stare a grupului</strong><span class='tooltip-box'>Fără formule, doar logică.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru că sintetizează cât de bine funcționează cooperarea și solidaritatea în jurul sarcinilor comune<span class='tooltip-box'>Un grup cu coeziune mai bună tinde să susțină participarea și colaborarea, iar unul cu coeziune mai slabă tinde spre fragmentare și dificultăți relaționale.</span></span>",
+          "<span class='tip'>Pentru că indică automat cine are dreptate în conflicte<span class='tooltip-box'>Coeziunea nu stabilește adevărul, ci descrie funcționarea relațională.</span></span>",
+          "<span class='tip'>Pentru că elimină diferențele individuale dintre elevi<span class='tooltip-box'>Diferențele rămân, coeziunea descrie felul în care lucrează împreună.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u10-q11",
+    title: "Indici sociometrici individuali. Poziția elevului în grup",
+    questions: [
+      {
+        text: "De ce este important să analizăm <span class='tip'><strong>poziția fiecărui elev în grup</strong><span class='tooltip-box'>Dincolo de funcționarea globală a grupului.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru a înțelege cum este integrat fiecare elev în relațiile de grup<span class='tooltip-box'>Profesorul poate observa elevi populari, acceptați, indiferenți sau respinși și poate interveni educațional.</span></span>",
+          "<span class='tip'>Pentru a stabili ierarhii oficiale între elevi<span class='tooltip-box'>Indicele sociometric nu creează ierarhii formale.</span></span>",
+          "<span class='tip'>Pentru a evalua nivelul de cunoștințe individuale<span class='tooltip-box'>Nu este o evaluare cognitivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă, în mod general, <span class='tip'><strong>indicii sociometrici individuali</strong><span class='tooltip-box'>Fără a intra în formule.</span></span>?",
+        options: [
+          "<span class='tip'>Felul în care un elev este ales, respins sau ignorat de ceilalți membri ai grupului<span class='tooltip-box'>Indicii sintetizează relațiile primite și oferite în cadrul grupului.</span></span>",
+          "<span class='tip'>Gradul de disciplină al elevului<span class='tooltip-box'>Disciplina nu este criteriu sociometric.</span></span>",
+          "<span class='tip'>Nivelul de motivație pentru învățare<span class='tooltip-box'>Motivația nu este măsurată direct.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce tipuri de <span class='tip'><strong>poziții sociometrice</strong><span class='tooltip-box'>Rezultate din interpretarea indicilor.</span></span> pot apărea într un grup de elevi?",
+        options: [
+          "<span class='tip'>Foarte populari, populari, acceptați, indiferenți sau respinși<span class='tooltip-box'>Aceste poziții reflectă gradul de integrare relațională.</span></span>",
+          "<span class='tip'>Lideri formali și subordonați<span class='tooltip-box'>Liderii formali sunt stabiliți instituțional.</span></span>",
+          "<span class='tip'>Elevi buni și elevi slabi<span class='tooltip-box'>Este o clasificare academică, nu sociometrică.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum poate folosi profesorul informațiile despre <span class='tip'><strong>indicii sociometrici individuali</strong><span class='tooltip-box'>În practica educațională.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru a sprijini integrarea, a preveni izolarea și a echilibra relațiile din grup<span class='tooltip-box'>Datele pot ghida formarea echipelor, intervențiile relaționale și activitățile de cooperare.</span></span>",
+          "<span class='tip'>Pentru a sancționa elevii respinși<span class='tooltip-box'>Scopul este sprijinul, nu etichetarea.</span></span>",
+          "<span class='tip'>Pentru a face publice pozițiile elevilor<span class='tooltip-box'>Rezultatele se folosesc responsabil și confidențial.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se leagă <span class='tip'><strong>indicii sociometrici individuali</strong><span class='tooltip-box'>De celelalte două niveluri studiate.</span></span>?",
+        options: [
+          "<span class='tip'>Completează imaginea oferită de metoda sociometrică și de analiza coeziunii grupului<span class='tooltip-box'>Dacă metoda descrie relațiile și coeziunea starea grupului, indicii arată poziția fiecărui elev în acest context.</span></span>",
+          "<span class='tip'>Înlocuiesc analiza grupului ca întreg<span class='tooltip-box'>Sunt complementari, nu substitutivi.</span></span>",
+          "<span class='tip'>Sunt relevanți doar pentru cercetare teoretică<span class='tooltip-box'>Au aplicabilitate practică directă în clasă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u11-q1",
+    title: "Succesul în învățare: definiții și perspective",
+    questions: [
+      {
+        text: "Cum este definit <span class='tip'><strong>succesul în învățare?</strong><span class='tooltip-box'>Concept central în psihologia educației.</span></span>",
+        options: [
+          "<span class='tip'>Rezultanta activității de învățare<span class='tooltip-box'>Succesul este privit ca efect direct al procesului de învățare și al efortului depus de elev.<br><br><strong>Exemplu:</strong> progresul constant al elevului în raport cu obiectivele propuse.</span></span>",
+          "<span class='tip'>O stare permanentă de performanță maximă obținută indiferent de context<span class='tooltip-box'>Succesul nu este constant și nu apare independent de condițiile educaționale sau personale.</span></span>",
+          "<span class='tip'>Obținerea automată a unor rezultate superioare fără raportare la procesul de învățare și la cerințele școlare<span class='tooltip-box'>Această formulare ignoră rolul activității de învățare și al contextului educațional.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Conform <span class='tip'><strong>Radu (1983),</strong><span class='tooltip-box'>Abordare centrată pe echilibru.</span></span> succesul școlar apare atunci când:",
+        options: [
+          "<span class='tip'>Există un echilibru între capacitățile și aspirațiile elevului și solicitările școlare<span class='tooltip-box'>Succesul se instalează când cerințele școlare sunt adaptate nivelului elevului, iar așteptările acestuia sunt realiste.<br><br><strong>Exemplu:</strong> un elev cu nivel mediu de competență își fixează obiective accesibile și le atinge.</span></span>",
+          "<span class='tip'>Aspirațiile elevului sunt întotdeauna mai ridicate decât cerințele școlare, indiferent de nivelul său real de pregătire<span class='tooltip-box'>Dezechilibrul între aspirații și cerințe poate conduce la frustrare sau eșec.</span></span>",
+          "<span class='tip'>Solicitările școlare sunt crescute constant pentru a forța performanța, fără raportare la capacitățile elevului<span class='tooltip-box'>Suprasolicitarea nu garantează succesul în învățare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este descris succesul școlar din <span class='tip'><strong>perspectiva experiențială?</strong><span class='tooltip-box'>Analizată de Cristina Marina Ghiță în Pânișoară coord. (2019).</span></span>",
+        options: [
+          "<span class='tip'>Ca experiență motivatoare și stimulatoare care susține autodepășirea<span class='tooltip-box'>Succesul contribuie la creșterea motivației și la ajustarea nivelului așteptărilor elevului.<br><br><strong>Exemplu:</strong> reușita într-o sarcină determină elevul să își asume provocări ușor mai dificile.</span></span>",
+          "<span class='tip'>Ca rezultat exclusiv al recompenselor externe și al sancțiunilor aplicate de profesor<span class='tooltip-box'>Motivația internă este esențială în instalarea succesului.</span></span>",
+          "<span class='tip'>Ca stare emoțională independentă de procesul de învățare și de cerințele școlare<span class='tooltip-box'>Succesul este legat direct de experiența învățării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Din perspectiva <span class='tip'><strong>echilibrului aspirații–cerințe?</strong><span class='tooltip-box'>A doua perspectivă analizată de Ghiță în Pânișoară coord. (2019).</span></span>",
+        options: [
+          "<span class='tip'>Așteptările elevului sunt fixate în funcție de cerințele școlare<span class='tooltip-box'>Elevul își adaptează obiectivele la nivelul solicitărilor și la propriile resurse.<br><br><strong>Exemplu:</strong> alegerea unei strategii de învățare adecvate nivelului de dificultate al sarcinii.</span></span>",
+          "<span class='tip'>Cerințele școlare sunt eliminate pentru a evita presiunea asupra elevului<span class='tooltip-box'>Absența cerințelor nu susține dezvoltarea.</span></span>",
+          "<span class='tip'>Succesul este determinat exclusiv de aspirațiile personale, fără legătură cu școala<span class='tooltip-box'>Contextul școlar rămâne relevant.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este considerat succesul școlar un <span class='tip'><strong>concept cu impact extins?</strong><span class='tooltip-box'>Dincolo de mediul educațional.</span></span>",
+        options: [
+          "<span class='tip'>Pentru că influențează și alte tipuri de succes<span class='tooltip-box'>Succesul școlar are efect asupra succesului profesional, managerial și social.<br><br><strong>Exemplu:</strong> încrederea dobândită prin reușite școlare susține integrarea profesională.</span></span>",
+          "<span class='tip'>Pentru că garantează automat succesul în toate domeniile vieții, indiferent de context<span class='tooltip-box'>Succesul școlar nu funcționează ca garanție absolută.</span></span>",
+          "<span class='tip'>Pentru că se limitează exclusiv la obținerea de note mari<span class='tooltip-box'>Succesul este mai larg decât evaluarea numerică.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u11-q2",
+    title: "Indicatori și concepte asociate succesului",
+    questions: [
+      {
+        text: "Factorii care influențează <span class='tip'><strong>succesul școlar</strong><span class='tooltip-box'>Simon & Peter (2000) propun o împărțire în două categorii mari.</span></span> sunt divizați în:",
+        options: [
+          "<span class='tip'>Factori interni și factori externi<span class='tooltip-box'><strong>Factori interni</strong> raportați la persoana elevului.<br><strong>Factori externi</strong> legați de mediu, familie și școală.<br><br><strong>Exemplu:</strong> motivația elevului și relațiile educaționale pot acționa simultan asupra reușitei.</span></span>",
+          "<span class='tip'>Factori genetici și factori întâmplători<span class='tooltip-box'>Această împărțire nu este cea folosită aici.</span></span>",
+          "<span class='tip'>Factori cognitivi și factori pedagogici, fără legătură cu mediul socio cultural și familia<span class='tooltip-box'>Textul include explicit influențe socio culturale și valori promovate în familie.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Selectează exemple de <span class='tip'><strong>factori interni</strong><span class='tooltip-box'>Raportați la persoana elevului, Simon & Peter (2000).</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Echilibrul psihosocial<span class='tooltip-box'>Felul în care elevul își gestionează stările și relațiile, influențând adaptarea la cerințe.<br><br><strong>Exemplu:</strong> un elev echilibrat emoțional tolerează mai bine evaluările și presiunea.</span></span>",
+          "<span class='tip'>Capacitatea cognitivă<span class='tooltip-box'>Susține înțelegerea, organizarea și aplicarea informațiilor.<br><br><strong>Exemplu:</strong> elevul reușește să lege noile conținuturi de ce știe deja.</span></span>",
+          "<span class='tip'>Motivația intrinsecă<span class='tooltip-box'>Învățare pentru sens și interes, nu doar pentru recompense.<br><br><strong>Exemplu:</strong> elevul citește suplimentar pentru că subiectul îl interesează.</span></span>",
+          "<span class='tip'>Cultura organizațională<span class='tooltip-box'>Aparține factorilor externi, ține de modul în care funcționează instituția.</span></span>",
+          "<span class='tip'>Grupul de prieteni<span class='tooltip-box'>Aparține factorilor externi, poate susține sau bloca învățarea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Selectează exemple de <span class='tip'><strong>factori externi</strong><span class='tooltip-box'>Legați de mediu, familie și școală, Simon & Peter (2000).</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Influențele mediului socio cultural<span class='tooltip-box'>Norme, oportunități și resurse care modelează traseul educațional.<br><br><strong>Exemplu:</strong> accesul la bibliotecă, sprijinul comunității, modele culturale.</span></span>",
+          "<span class='tip'>Valorile promovate în familie<span class='tooltip-box'>Pot susține perseverența și munca constantă.<br><br><strong>Exemplu:</strong> părinții valorizează învățarea și rutina de studiu.</span></span>",
+          "<span class='tip'>Relațiile educaționale<span class='tooltip-box'>Calitatea relației elev profesor influențează implicarea și încrederea.<br><br><strong>Exemplu:</strong> feedback clar și respectuos crește angajarea elevului.</span></span>",
+          "<span class='tip'>Nivelul aspirațiilor<span class='tooltip-box'>Este factor intern, ține de elev.</span></span>",
+          "<span class='tip'>Aptitudinile personale<span class='tooltip-box'>Sunt factori interni, raportați la persoana elevului.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce afirmă specialiștii despre <span class='tip'><strong>inteligența academică</strong><span class='tooltip-box'>IQ.</span></span> ca predictor al succesului școlar?",
+        options: [
+          "<span class='tip'>Rămâne un predictor important<span class='tooltip-box'>Este încă luată în calcul ca predictor al succesului școlar.<br><br><strong>Exemplu:</strong> un elev cu resurse cognitive bune poate progresa mai rapid la sarcini complexe.</span></span>",
+          "<span class='tip'>Nu are nicio legătură cu succesul școlar în modelele actuale<span class='tooltip-box'>Textul spune contrariul.</span></span>",
+          "<span class='tip'>Este singurul predictor relevant, iar factorii noncognitivi nu contează în niciun fel în explicarea succesului academic<span class='tooltip-box'>Textul precizează că factorii noncognitivi ocupă locuri tot mai importante.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce idee este subliniată despre rolul <span class='tip'><strong>factorilor noncognitivi</strong><span class='tooltip-box'>Cianciolo & Sternberg (2012).</span></span> în succesul academic?",
+        options: [
+          "<span class='tip'>Au devenit tot mai importanți în modelele actuale<span class='tooltip-box'>Explicarea succesului academic include tot mai mult dimensiuni precum motivația, perseveranța și eficacitatea personală.<br><br><strong>Exemplu:</strong> doi elevi cu nivel cognitiv similar pot avea rezultate diferite din cauza perseverenței.</span></span>",
+          "<span class='tip'>Se referă doar la factori biologici și genetici<span class='tooltip-box'>Noncognitiv nu înseamnă exclusiv biologic.</span></span>",
+          "<span class='tip'>Sunt irelevanți pentru comportamentul inteligent, dar sunt folosiți doar ca termeni populari în discursul educațional contemporan<span class='tooltip-box'>Textul îi include în modelele actuale explicative.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u11-q3",
+    title: "Motivația și factorii interni ai elevului",
+    questions: [
+      {
+        text: "Selectează exemple de <span class='tip'><strong>factori interni,</strong><span class='tooltip-box'>Simon & Peter (2000) îi raportează la persoana elevului.</span></span> care pot influența succesul școlar:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Echilibrul psihosocial<span class='tooltip-box'>Starea de echilibru la nivel emoțional și relațional susține adaptarea la școală.<br><br><strong>Exemplu:</strong> elevul își gestionează emoțiile la test și își revine după o notă mai mică.</span></span>",
+          "<span class='tip'>Motivația intrinsecă<span class='tooltip-box'>Implicare pentru sens, interes, curiozitate, nu doar pentru recompense.<br><br><strong>Exemplu:</strong> elevul rezolvă exerciții suplimentare pentru că îl atrage subiectul.</span></span>",
+          "<span class='tip'>Influențele mediului socio cultural și valorile promovate în familie<span class='tooltip-box'>Acestea sunt factori externi, țin de mediu, familie și context.</span></span>",
+          "<span class='tip'>Capacitatea cognitivă<span class='tooltip-box'>Susține înțelegerea și aplicarea operațiilor cognitive în sarcini școlare.<br><br><strong>Exemplu:</strong> elevul poate organiza informația și poate face conexiuni între idei.</span></span>",
+        ],
+        answer: [0, 1, 3],
+      },
+
+      {
+        text: "Cum este definită <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Roșca (1943) apud Sălăvăstru (2004).</span></span>?",
+        options: [
+          "<span class='tip'>Totalitatea mobilurilor interne ale conduitei<span class='tooltip-box'>Include mobiluri înnăscute sau dobândite, conștientizate sau neconștientizate, de la trebuințe fiziologice la idealuri abstracte.<br><br><strong>Exemplu:</strong> elevul învață atât din curiozitate, cât și pentru a atinge un obiectiv personal.</span></span>",
+          "<span class='tip'>O stare de bună dispoziție care apare doar când elevul primește recompense externe<span class='tooltip-box'>Motivația nu se reduce la recompense și nu este doar dispoziție.</span></span>",
+          "<span class='tip'>O regulă școlară care obligă elevul să învețe indiferent de interese și nevoi<span class='tooltip-box'>Motivația este internă, nu o regulă impusă din exterior.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Formulare sintetică din text.</span></span> în comportamentul elevului?",
+        options: [
+          "<span class='tip'>Este motorul comportamentului<span class='tooltip-box'>Determină inițierea și susține comportamentul de învățare în timp.<br><br><strong>Exemplu:</strong> elevul continuă să lucreze chiar când apar obstacole.</span></span>",
+          "<span class='tip'>Este doar un rezultat al notelor obținute, fără influență asupra efortului depus în învățare<span class='tooltip-box'>Relația este reciprocă, nu unidirecțională.</span></span>",
+          "<span class='tip'>Este o trăsătură fixă și nu poate fi influențată de stimulări interne sau externe<span class='tooltip-box'>Textul menționează stimulări interne sau externe și dinamica motivelor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Conform <span class='tip'><strong>Sălăvăstru (2004),</strong><span class='tooltip-box'>Psihologia educației.</span></span> ce pot face motivele sub impactul stimulărilor interne sau externe?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Determină acțiunea<span class='tooltip-box'>Motivul declanșează orientarea spre activitate.<br><br><strong>Exemplu:</strong> elevul începe să învețe pentru a atinge un obiectiv.</span></span>",
+          "<span class='tip'>Susțin acțiunea o perioadă, chiar cu obstacole<span class='tooltip-box'>Motivația menține efortul și perseverența.<br><br><strong>Exemplu:</strong> elevul revine la exerciții după o greșeală.</span></span>",
+          "<span class='tip'>Ierarhizează scopurile și stabilește priorități<span class='tooltip-box'>Alegerea între activități se face în funcție de importanța scopurilor.<br><br><strong>Exemplu:</strong> elevul prioritizează proiectul care are termen apropiat.</span></span>",
+          "<span class='tip'>Elimină complet dificultățile de învățare, indiferent de sarcină și context<span class='tooltip-box'>Motivația susține efortul, dar nu anulează automat dificultățile.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce include <span class='tip'><strong>motivația învățării</strong><span class='tooltip-box'>Definiție aplicativă din text.</span></span>?",
+        options: [
+          "<span class='tip'>Factorii care angajează elevul în activități ce produc învățare<span class='tooltip-box'>Se referă la totalitatea factorilor care contribuie la implicarea elevului în activități relevante pentru achiziții.<br><br><strong>Exemplu:</strong> interes, sens, obiective clare, feedback, sprijin relațional.</span></span>",
+          "<span class='tip'>Doar tehnici de memorare rapidă, indiferent de sens și de obiectivele elevului<span class='tooltip-box'>Motivația învățării nu se reduce la tehnici.</span></span>",
+          "<span class='tip'>Numai presiunea din evaluare și teama de sancțiune, fără legătură cu interesele personale<span class='tooltip-box'>Textul include mobiluri interne variate, nu doar frică.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "În ierarhia lui <span class='tip'><strong>Maslow (2014),</strong><span class='tooltip-box'>Teoria organizării ierarhice a trebuințelor.</span></span> care sunt primele patru clase de trebuințe?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Trebuințe fiziologice<span class='tooltip-box'>Hrană, apă, sex, odihnă.<br><br><strong>Exemplu:</strong> oboseala reduce capacitatea de concentrare la lecție.</span></span>",
+          "<span class='tip'>Trebuințe de securitate<span class='tooltip-box'>Apărare, protecție, echilibru emoțional.<br><br><strong>Exemplu:</strong> elevul învață mai bine când se simte în siguranță în clasă.</span></span>",
+          "<span class='tip'>Trebuințe de iubire și apartenență la grup<span class='tooltip-box'>Acceptare, afecțiune, apartenență.<br><br><strong>Exemplu:</strong> elevul participă mai mult când se simte inclus.</span></span>",
+          "<span class='tip'>Trebuințe de stimă de sine<span class='tooltip-box'>Prestigiu, aprobare, prețuire, atingerea obiectivelor.<br><br><strong>Exemplu:</strong> feedbackul pozitiv susține stima de sine și efortul.</span></span>",
+          "<span class='tip'>Trebuințe estetice și autoactualizare<span class='tooltip-box'>Acestea sunt mai sus în ierarhie, nu în primele patru clase.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+
+      {
+        text: "Cum sunt împărțite trebuințele în <span class='tip'><strong>două mari categorii</strong><span class='tooltip-box'>Maslow (2014) după consecințele nesatisfacerii.</span></span>?",
+        options: [
+          "<span class='tip'>Trebuințe de deficiență și trebuințe de creștere<span class='tooltip-box'><strong>Deficiență</strong> include primele patru clase.<br><strong>Creștere</strong> include explorare, cunoaștere, autoactualizare.<br><br><strong>Exemplu:</strong> când lipsesc condiții de bază, elevul se concentrează mai greu pe explorare și dezvoltare.</span></span>",
+          "<span class='tip'>Trebuințe sociale și trebuințe școlare, fără legătură cu satisfacția și dezvoltarea personală<span class='tooltip-box'>Împărțirea corectă este deficiență și creștere.</span></span>",
+          "<span class='tip'>Trebuințe obligatorii și trebuințe opționale, stabilite de profesor în funcție de programă și evaluare<span class='tooltip-box'>Nu este o clasificare maslowiană.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este descrisă relația dintre <span class='tip'><strong>motivație și performanță</strong><span class='tooltip-box'>Legătură reciprocă în text.</span></span>?",
+        options: [
+          "<span class='tip'>Se influențează reciproc<span class='tooltip-box'>Performanța arată rezultate observabile și susține autoevaluarea și stima de sine, iar motivația susține angajarea în sarcini.<br><br><strong>Exemplu:</strong> un succes crește încrederea, iar încrederea susține efortul pentru următoarea sarcină.</span></span>",
+          "<span class='tip'>Performanța depinde doar de notare, motivația fiind irelevantă pentru rezultatele elevului pe termen lung<span class='tooltip-box'>Textul subliniază interdependența motivației și performanței.</span></span>",
+          "<span class='tip'>Motivația apare numai după performanțe mari, fără să conteze înainte de începerea învățării<span class='tooltip-box'>Motivația poate iniția și susține învățarea.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q4",
+    title: "Factorii externi ai succesului școlar",
+    questions: [
+      {
+        text: "Selectează exemple de <span class='tip'><strong>factori externi</strong><span class='tooltip-box'>Simon & Peter (2000) îi leagă de mediu, familie și școală.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Influențele mediului socio cultural<span class='tooltip-box'>Contextul social poate facilita sau bloca accesul la resurse educaționale.<br><br><strong>Exemplu:</strong> acces la materiale, modele culturale și sprijin comunitar.</span></span>",
+          "<span class='tip'>Valorile promovate în familie<span class='tooltip-box'>Felul în care familia valorizează învățarea și perseverența contează.<br><br><strong>Exemplu:</strong> rutina de studiu susținută acasă.</span></span>",
+          "<span class='tip'>Relațiile educaționale<span class='tooltip-box'>Calitatea relației elev profesor influențează implicarea și încrederea.<br><br><strong>Exemplu:</strong> feedback clar și respectuos crește participarea.</span></span>",
+          "<span class='tip'>Nivelul aspirațiilor și aptitudinile personale ale elevului<span class='tooltip-box'>Acestea sunt factori interni, raportați la persoana elevului.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce rol poate avea <span class='tip'><strong>grupul de prieteni</strong><span class='tooltip-box'>Factor extern în Simon & Peter (2000).</span></span> în succesul școlar?",
+        options: [
+          "<span class='tip'>Poate influența implicarea în învățare<span class='tooltip-box'>Poate susține sau descuraja efortul școlar prin norme și modele de comportament.<br><br><strong>Exemplu:</strong> un grup care valorizează proiectele școlare crește șansele de implicare.</span></span>",
+          "<span class='tip'>Determină automat succesul, indiferent de motivație și de capacitatea cognitivă a elevului<span class='tooltip-box'>Grupul contează, dar nu anulează factorii interni.</span></span>",
+          "<span class='tip'>Are efect doar asupra activităților recreative și nu are legătură cu școala și cu performanța academică pe termen lung<span class='tooltip-box'>Poate influența direct atitudinea față de școală.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce înseamnă <span class='tip'><strong>cultura organizațională</strong><span class='tooltip-box'>Factor extern, legat de instituție.</span></span> în raport cu succesul școlar?",
+        options: [
+          "<span class='tip'>Setul de valori și practici ale școlii<span class='tooltip-box'>Climatul instituțional poate susține învățarea și cooperarea.<br><br><strong>Exemplu:</strong> o școală care promovează sprijinul și feedbackul reduce frica de greșeală.</span></span>",
+          "<span class='tip'>O caracteristică exclusiv a elevului, legată de aptitudinile personale și de nivelul aspirațiilor<span class='tooltip-box'>Aptitudinile și aspirațiile sunt interne, cultura organizațională este externă.</span></span>",
+          "<span class='tip'>O regulă fixă ce se aplică identic tuturor, fără să conteze relațiile educaționale sau mediul socio cultural<span class='tooltip-box'>Cultura organizațională se exprimă prin practici și relații, nu doar reguli.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q5",
+    title: "Forme de manifestare și criterii de apreciere",
+    questions: [
+      {
+        text: "Conform <span class='tip'><strong>Sălăvăstru (2004),</strong><span class='tooltip-box'>În practica educațională curentă, insuccesul se raportează la forme observabile și criterii de apreciere.</span></span> care pot fi următoarele:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Rămânerea în urmă la învățătură<span class='tooltip-box'>Elevul nu ține pasul cu ritmul clasei și apar decalaje.<br><br><strong>Exemplu:</strong> nu reușește să finalizeze sarcinile la timp și acumulează lacune.</span></span>",
+          "<span class='tip'>Corijența<span class='tooltip-box'>Formă școlară de sancționare a neatingerii cerințelor la o disciplină.<br><br><strong>Exemplu:</strong> elevul trebuie să susțină evaluare de corijență.</span></span>",
+          "<span class='tip'>Repetenția<span class='tooltip-box'>Neîndeplinirea standardelor minime pe parcursul unui an școlar.<br><br><strong>Exemplu:</strong> elevul repetă anul pentru a reface achizițiile.</span></span>",
+          "<span class='tip'>Abandonul școlar<span class='tooltip-box'>Părăsirea parcursului educațional.<br><br><strong>Exemplu:</strong> elevul nu mai frecventează școala o perioadă lungă și renunță.</span></span>",
+          "<span class='tip'>Creșterea automată a stimei de sine fără legătură cu performanța și cu autoevaluarea<span class='tooltip-box'>Textul leagă stima de sine de autoevaluare și rezultate observabile.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q6",
+    title: "Tipuri și dimensiuni ale insuccesului școlar",
+    questions: [
+      {
+        text: "Care este distincția dintre <span class='tip'><strong>insucces generalizat</strong><span class='tooltip-box'>Dificultăți de adaptare la viața școlară în ansamblu.</span></span> și <span class='tip'><strong>insucces limitat?</strong><span class='tooltip-box'>Dificultăți doar la una sau la câteva materii.</span></span>",
+        options: [
+          "<span class='tip'>Generalizat înseamnă dificultăți în ansamblu, limitat înseamnă dificultăți la unele materii<span class='tooltip-box'><strong>Generalizat</strong> implică neatingerea standardelor minime în general.<br><strong>Limitat</strong> apare când problemele sunt localizate la anumite discipline.<br><br><strong>Exemplu:</strong> elevul are rezultate slabe la majoritatea materiilor versus doar la matematică și fizică.</span></span>",
+          "<span class='tip'>Generalizat apare doar la elevii cu inteligență scăzută, iar limitat doar la elevii cu inteligență ridicată<span class='tooltip-box'>Textul nu definește așa distincția.</span></span>",
+          "<span class='tip'>Insucces limitat înseamnă abandon, iar insucces generalizat înseamnă corijență la o singură disciplină<span class='tooltip-box'>Formele de manifestare nu definesc direct această distincție.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce diferențiază <span class='tip'><strong>eșecul de tip cognitiv</strong><span class='tooltip-box'>Legat de rezultate sub nivelul minim acceptat.</span></span> de <span class='tip'><strong>eșecul de tip noncognitiv?</strong><span class='tooltip-box'>Legat de adaptarea deficitară la climatul școlar.</span></span>",
+        options: [
+          "<span class='tip'>Cognitiv ține de rezultate, noncognitiv ține de adaptare la climatul școlar<span class='tooltip-box'><strong>Cognitiv</strong> se vede în învățătură sub standardul minim.<br><strong>Noncognitiv</strong> se vede în dificultatea de adaptare, chiar dacă uneori pot exista și capacități bune.<br><br><strong>Exemplu:</strong> note foarte mici versus conflict persistent cu școala și regulile ei.</span></span>",
+          "<span class='tip'>Cognitiv înseamnă lipsă de prieteni, noncognitiv înseamnă lipsă de manuale și materiale didactice<span class='tooltip-box'>Acestea nu sunt definițiile din text.</span></span>",
+          "<span class='tip'>Eșecul noncognitiv apare doar în primii ani de școală, iar cel cognitiv doar în liceu, odată cu creșterea dificultății sarcinilor<span class='tooltip-box'>Textul nu limitează așa apariția în timp.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum poate fi descris eșecul școlar ca <span class='tip'><strong>durată?</strong><span class='tooltip-box'>După persistență.</span></span>",
+        options: [
+          "<span class='tip'>Episodic sau de durată<span class='tooltip-box'><strong>Episodic</strong> este limitat la unele sarcini.<br><strong>De durată</strong> persistă perioade mai lungi, precum un semestru sau un an.<br><br><strong>Exemplu:</strong> dificultate la un proiect versus dificultăți constante tot semestrul.</span></span>",
+          "<span class='tip'>Doar episodic, fiind imposibil să existe dificultăți pe termen lung în condițiile în care elevul merge la școală zilnic<span class='tooltip-box'>Textul include explicit fenomen de durată.</span></span>",
+          "<span class='tip'>Doar de durată, fiind imposibil să existe dificultăți limitate la unele sarcini de învățare și activități punctuale<span class='tooltip-box'>Textul include explicit eșec episodic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "În abordarea tehnică a lui <span class='tip'><strong>Sălăvăstru (2004),</strong><span class='tooltip-box'>Dimensiuni după amploare și persistență.</span></span> selectează dimensiunile insuccesului școlar:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Faza premergătoare<span class='tooltip-box'>Apar primele dificultăți și primele decalaje.<br><br><strong>Exemplu:</strong> elevul începe să rămână în urmă și apare insatisfacția școlară.</span></span>",
+          "<span class='tip'>Faza de retrapaj propriu zis<span class='tooltip-box'>Lacune mari, dependență de sprijin, aversiune față de școală, comportamente disruptive.<br><br><strong>Exemplu:</strong> absenteismul și perturbarea orelor se accentuează.</span></span>",
+          "<span class='tip'>Faza eșecului școlar formal<span class='tooltip-box'>Se exprimă prin repetenție sau abandon școlar.<br><br><strong>Exemplu:</strong> elevul repetă anul sau părăsește școala.</span></span>",
+          "<span class='tip'>Faza succesului automat garantat prin creșterea cerințelor școlare<span class='tooltip-box'>Nu este o dimensiune a insuccesului școlar.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q7",
+    title: "Dificultăți de învățare: clasificări",
+    questions: [
+      {
+        text: "Selectează categoriile de dificultăți de învățare din clasificarea <span class='tip'><strong>Coașan (2000),</strong><span class='tooltip-box'>Dificultăți asociate eșecului școlar.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Dificultăți fiziologice<span class='tooltip-box'>Malformații congenitale, boli, afecțiuni, infirmități ce pot afecta învățarea.<br><br><strong>Exemplu:</strong> o afecțiune medicală care reduce capacitatea de concentrare.</span></span>",
+          "<span class='tip'>Deficiențe cognitive<span class='tooltip-box'>Întârzieri în înțelegere și în aplicarea operațiilor cognitive precum analiza și sinteza.<br><br><strong>Exemplu:</strong> elevul înțelege greu instrucțiunile și nu poate organiza informația.</span></span>",
+          "<span class='tip'>Deficiențe emoționale<span class='tooltip-box'>Dezechilibre ale abilităților intra și interpersonale.<br><br><strong>Exemplu:</strong> dificultăți în relaționare ce afectează implicarea la clasă.</span></span>",
+          "<span class='tip'>Deficiențe pedagogice<span class='tooltip-box'>Dezechilibre la nivelul relațiilor educaționale.<br><br><strong>Exemplu:</strong> feedback confuz și climat tensionat care blochează învățarea.</span></span>",
+          "<span class='tip'>Deficiențe estetice și autoactualizare<span class='tooltip-box'>Nu apar în această clasificare a dificultăților de învățare.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+
+      {
+        text: "În clasificarea <span class='tip'><strong>McKinney (1984),</strong><span class='tooltip-box'>Dificultăți de învățare după origine.</span></span> dificultățile de învățare sunt:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Înnăscute<span class='tooltip-box'>Exemple precum deficiențe genetice.<br><br><strong>Exemplu:</strong> dificultăți prezente de la începutul dezvoltării.</span></span>",
+          "<span class='tip'>Dobândite<span class='tooltip-box'>Carențe induse prin suprasolicitare sau organizarea deficitară a timpului de lucru.<br><br><strong>Exemplu:</strong> lipsa somnului și program haotic de studiu duc la rezultate slabe.</span></span>",
+          "<span class='tip'>Doar pedagogice<span class='tooltip-box'>Textul include și înnăscute și dobândite.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Pornind de la raportul dintre moștenire, mediu socio cultural și educațional, selectează tipuri de dificultăți menționate de <span class='tip'><strong>Hamada (2012).</strong><span class='tooltip-box'>Dificultăți în dezvoltare și performanță.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Disfuncții neurologice<span class='tooltip-box'>Prezente de la naștere și influențează direct capacități cognitive.<br><br><strong>Exemplu:</strong> dificultăți stabile de procesare ce îngreunează învățarea.</span></span>",
+          "<span class='tip'>Dificultăți inegale de dezvoltare<span class='tooltip-box'>Diferențe majore între posibilitățile reale și standardele impuse de profesor.<br><br><strong>Exemplu:</strong> cerințe prea sus pentru nivelul actual al elevului.</span></span>",
+          "<span class='tip'>Dificultăți în sarcinile academice<span class='tooltip-box'>Diferențe mari între potențialul real și sarcinile curente la discipline.<br><br><strong>Exemplu:</strong> sarcini prea complexe față de abilitățile curente.</span></span>",
+          "<span class='tip'>Discrepanța dintre potențial și realizare<span class='tooltip-box'>Efort mare și epuizant pentru a atinge nivelul cerut de performanță.<br><br><strong>Exemplu:</strong> elevul muncește mult, dar abia atinge minimul cerut.</span></span>",
+          "<span class='tip'>Eliminarea completă a diferențelor între elevi prin creșterea numărului de teme<span class='tooltip-box'>Nu este un tip de dificultate din această clasificare.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q8",
+    title: "Factorii determinanți ai eșecului școlar",
+    questions: [
+      {
+        text: "Cercetările citate arată că există <span class='tip'><strong>trei categorii</strong><span class='tooltip-box'>Williams et al. (2004).</span></span> de factori care contribuie la eșecul în învățare:",
+        multiple: true,
+        options: [
+          "<span class='tip'>Factori biopsihici<span class='tooltip-box'>Aspecte de personalitate ce pot genera deficiențe care afectează învățarea.<br><br><strong>Exemplu:</strong> dificultăți de autocontrol ce reduc concentrarea la sarcină.</span></span>",
+          "<span class='tip'>Factori școlari<span class='tooltip-box'>Include stilul educațional al profesorului și stilul de învățare al elevului.<br><br><strong>Exemplu:</strong> o strategie didactică nepotrivită poate reduce achizițiile.</span></span>",
+          "<span class='tip'>Factori sociali<span class='tooltip-box'>Climat și influențe sociale ce pot afecta atitudinea față de școală.<br><br><strong>Exemplu:</strong> anturaj care ridiculizează învățarea.</span></span>",
+          "<span class='tip'>Factori exclusiv genetici, fără influență a mediului școlar și social<span class='tooltip-box'>Textul include școlari și sociali.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Selectează cauze ale apariției dificultăților de învățare menționate de <span class='tip'><strong>Gracia & Jenkins (2002).</strong><span class='tooltip-box'>Listă de cauze care pot conduce la eșec.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Anxietatea față de eșec<span class='tooltip-box'>Poate duce la organizarea defectuoasă a propriei învățări.<br><br><strong>Exemplu:</strong> elevul amână studiul și intră în panică înainte de test.</span></span>",
+          "<span class='tip'>Autoeficacitatea scăzută<span class='tooltip-box'>Reduce implicarea, ceea ce generează dificultăți de învățare.<br><br><strong>Exemplu:</strong> elevul evită sarcini fiind convins că nu reușește.</span></span>",
+          "<span class='tip'>Nivelul deficitar al competențelor psihopedagogice ale cadrului didactic<span class='tooltip-box'>Este factor esențial al succesului activității educaționale.<br><br><strong>Exemplu:</strong> explicații neclare și lipsa adaptării la nivelul clasei.</span></span>",
+          "<span class='tip'>Creșterea motivației intrinseci ca premiză a adaptării strategiilor de învățare<span class='tooltip-box'>Textul menționează lipsa motivației intrinseci ca problemă, nu creșterea ei ca problemă.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce exprimă <span class='tip'><strong>inadaptarea școlară?</strong><span class='tooltip-box'>Concept asociat eșecului școlar.</span></span>",
+        options: [
+          "<span class='tip'>Dificultatea de a îndeplini sarcini sau de a se integra în mediul școlar<span class='tooltip-box'>Poate fi sursă de eșec, mai ales ca dificultate de integrare în grup și de conformare la norme.<br><br><strong>Exemplu:</strong> elevul nu se poate adapta la regulile clasei și evită participarea.</span></span>",
+          "<span class='tip'>O etapă normală prin care trece orice elev, fără legătură cu performanța și cu relațiile din școală, indiferent de durata ei<span class='tooltip-box'>Inadaptarea poate conduce la eșec dacă persistă.</span></span>",
+          "<span class='tip'>Un rezultat obligatoriu al cerințelor școlare ridicate, chiar și atunci când există sprijin educațional și relații bune<span class='tooltip-box'>Textul nu o prezintă ca inevitabilă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q9",
+    title: "Strategii de prevenire și diminuare a eșecului școlar",
+    questions: [
+      {
+        text: "Prevenirea eșecului școlar este posibilă printr o <span class='tip'><strong>cunoaștere profundă a elevului.</strong><span class='tooltip-box'>Potențial, nivel al achizițiilor, trăsături de personalitate și alte aspecte relevante.</span></span> Ce presupune această idee în practică?",
+        options: [
+          "<span class='tip'>Înțelegerea nevoilor și a nivelului elevului<span class='tooltip-box'>Profesorul observă potențialul, achizițiile și factorii care influențează învățarea.<br><br><strong>Exemplu:</strong> elevul are lacune la o competență și primește sarcini gradate.</span></span>",
+          "<span class='tip'>Aplicarea aceleiași strategii pentru toți elevii, deoarece este singura abordare echitabilă și eficientă în orice clasă și context școlar<span class='tooltip-box'>Textul susține individualizarea și personalizarea.</span></span>",
+          "<span class='tip'>Concentrarea exclusivă pe notare, deoarece notele reflectă complet potențialul și personalitatea elevului<span class='tooltip-box'>Notele nu surprind complet potențialul și factorii personali.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol au <span class='tip'><strong>individualizarea și personalizarea</strong><span class='tooltip-box'>Strategia de instruire adaptată particularităților fiecărui elev.</span></span> în prevenirea eșecului școlar?",
+        options: [
+          "<span class='tip'>Contribuie decisiv la prevenire<span class='tooltip-box'>Abordarea particularizată oferă premise pentru succes inițial personal și școlar, ulterior social și profesional.<br><br><strong>Exemplu:</strong> elevul primește ritm și sarcini potrivite nivelului său.</span></span>",
+          "<span class='tip'>Este utilă doar pentru elevii cu dificultăți fiziologice, fără să conteze la ceilalți elevi care au rezultate fluctuante și contexte diferite<span class='tooltip-box'>Textul o prezintă ca strategie general valoroasă.</span></span>",
+          "<span class='tip'>Este imposibilă în orice condiții și nu poate fi încercată nici ca principiu de lucru în clasă<span class='tooltip-box'>Textul spune că poate părea irealizabilă în unele condiții, dar rămâne decisivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este importantă <span class='tip'><strong>reconsiderarea rolului central al inteligenței standard</strong><span class='tooltip-box'>În diagnosticarea eșecului școlar.</span></span>?",
+        options: [
+          "<span class='tip'>Pentru a valoriza factorii noncognitivi relevanți azi<span class='tooltip-box'>Reorientarea practicilor pedagogice spre eficacitate personală și perseverență este relevantă pentru secolul 21.<br><br><strong>Exemplu:</strong> elevul este antrenat să își mențină efortul și încrederea în sarcini.</span></span>",
+          "<span class='tip'>Pentru a elimina complet orice evaluare a performanței și pentru a nu mai urmări rezultatele observabile ale învățării în nicio situație școlară<span class='tooltip-box'>Textul nu susține abandonarea evaluării.</span></span>",
+          "<span class='tip'>Pentru a demonstra că inteligența academică nu are niciun rol și trebuie ignorată în explicarea succesului sau eșecului școlar în mod absolut<span class='tooltip-box'>Textul spune că IQ rămâne predictor, dar factorii noncognitivi devin tot mai importanți.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+
+  {
+    id: "phed-u11-q10",
+    title: "Rolul profesorului și resurse educaționale",
+    questions: [
+      {
+        text: "Selectează resurse la îndemâna oricărui profesor pentru orientarea elevilor în direcția <span class='tip'><strong>obținerii succesului.</strong><span class='tooltip-box'>În text sunt enumerate explicit trei resurse educaționale.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Relațiile educaționale<span class='tooltip-box'>Resursă care susține implicarea, încrederea și adaptarea elevului la cerințe.<br><br><strong>Exemplu:</strong> profesorul oferă feedback clar și păstrează un climat respectuos.</span></span>",
+          "<span class='tip'>Strategia didactică<span class='tooltip-box'>Resursă care organizează sarcinile, ritmul și modul de lucru pentru a produce învățare.<br><br><strong>Exemplu:</strong> sarcini gradate, de la ușor la dificil, cu sprijin pe parcurs.</span></span>",
+          "<span class='tip'>Practicile evaluative<span class='tooltip-box'>Resursă care sprijină autoevaluarea elevului și stima de sine prin rezultate observabile.<br><br><strong>Exemplu:</strong> criterii vizibile și șanse de îmbunătățire după evaluare.</span></span>",
+          "<span class='tip'>Creșterea automată a cerințelor fără adaptare la elev<span class='tooltip-box'>Nu este resursă educațională, poate amplifica eșecul prin suprasolicitare.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "De ce sunt <span class='tip'><strong>relațiile educaționale</strong><span class='tooltip-box'>Prima resursă din listă.</span></span> o resursă reală pentru succesul școlar?",
+        options: [
+          "<span class='tip'>Susțin implicarea elevului<span class='tooltip-box'>O relație bună crește disponibilitatea pentru efort și reduce evitarea sarcinilor.<br><br><strong>Exemplu:</strong> elevul cere ajutor la timp în loc să renunțe.</span></span>",
+          "<span class='tip'>Înlocuiesc nevoia de strategie didactică<span class='tooltip-box'>Relația ajută, dar fără organizarea sarcinilor învățarea poate rămâne fragilă.</span></span>",
+          "<span class='tip'>Garantatează performanță indiferent de cerințe și evaluare<span class='tooltip-box'>Succesul depinde de un ansamblu de condiții, nu de un singur factor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă <span class='tip'><strong>strategia didactică</strong><span class='tooltip-box'>A doua resursă din listă.</span></span> ca utilitate în prevenirea eșecului?",
+        options: [
+          "<span class='tip'>Potrivește instruirea cu elevul<span class='tooltip-box'>Este baza individualizării și personalizării strategiei de instruire.<br><br><strong>Exemplu:</strong> același obiectiv, dar sarcini diferite ca dificultate pentru elevi diferiți.</span></span>",
+          "<span class='tip'>Înseamnă doar mai multe teme pentru toți elevii<span class='tooltip-box'>Creșterea volumului nu înseamnă automat învățare sau prevenție.</span></span>",
+          "<span class='tip'>Ține exclusiv de reguli și disciplină<span class='tooltip-box'>Strategia didactică vizează organizarea învățării, nu doar controlul clasei.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum contribuie <span class='tip'><strong>practicile evaluative</strong><span class='tooltip-box'>A treia resursă din listă.</span></span> la succesul în învățare?",
+        options: [
+          "<span class='tip'>Sprijină autoevaluarea<span class='tooltip-box'>Performanța arată rezultate observabile și poate susține stima de sine în cazul succesului.<br><br><strong>Exemplu:</strong> elevul vede progresul și își ajustează efortul.</span></span>",
+          "<span class='tip'>Elimină complet nevoia de motivație<span class='tooltip-box'>Evaluarea poate susține motivația, dar nu o înlocuiește.</span></span>",
+          "<span class='tip'>Este utilă doar pentru notare, fără rol formativ<span class='tooltip-box'>În logica textului, evaluarea poate susține construirea succesului.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care enunț descrie cel mai bine <span class='tip'><strong>logica de ansamblu</strong><span class='tooltip-box'>Cum lucrează împreună cele trei resurse.</span></span> a rolului profesorului?",
+        options: [
+          "<span class='tip'>Resursele se completează<span class='tooltip-box'>Relațiile susțin implicarea, strategia organizează învățarea, evaluarea ghidează progresul.<br><br><strong>Exemplu:</strong> elevul are sprijin, are sarcini potrivite și știe ce îmbunătățește.</span></span>",
+          "<span class='tip'>Doar evaluarea contează, restul sunt secundare<span class='tooltip-box'>Textul le enumeră împreună ca resurse ale profesorului.</span></span>",
+          "<span class='tip'>Doar relațiile contează, strategia și evaluarea nu au impact în succesul școlar<span class='tooltip-box'>Fără strategie și evaluare, succesul rămâne greu de construit și de susținut.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q1",
+    title: "Noutatea și valoarea ca condiții ale creativității",
+    questions: [
+      {
+        text: "De ce este considerată <span class='tip'><strong>originalitatea</strong><span class='tooltip-box'>Atribut unanim acceptat al creativității.</span></span> insuficientă pentru a defini creativitatea?",
+        options: [
+          "<span class='tip'>Pentru că noutatea trebuie dublată de valoare<span class='tooltip-box'>O idee poate fi nouă fără a fi utilă sau relevantă.<br><br><strong>Exemplu:</strong> o soluție bizară, fără aplicabilitate, nu este considerată creativă.</span></span>",
+          "<span class='tip'>Pentru că orice lucru nemaiîntâlnit este automat creativ, indiferent de consecințe și de utilitatea sa reală în raport cu o sarcină sau cu un context social concret<span class='tooltip-box'>Textul arată explicit că acest lucru nu este acceptat.</span></span>",
+          "<span class='tip'>Pentru că originalitatea apare doar în artă și nu poate fi aplicată în alte domenii<span class='tooltip-box'>Creativitatea se manifestă atât în artă, cât și în știință sau viața cotidiană.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce completează <span class='tip'><strong>noutatea</strong><span class='tooltip-box'>Primul criteriu al creativității.</span></span> în definirea creativității?",
+        options: [
+          "<span class='tip'>Valoarea sau utilitatea rezultatului<span class='tooltip-box'>Creativitatea presupune ca produsul să fie relevant pentru o persoană, un grup sau societate.<br><br><strong>Exemplu:</strong> o idee nouă care rezolvă o problemă concretă.</span></span>",
+          "<span class='tip'>Gradul de dificultate al sarcinii indiferent de rezultatul obținut și de modul în care acesta este perceput de ceilalți<span class='tooltip-box'>Dificultatea nu este criteriu definitoriu.</span></span>",
+          "<span class='tip'>Numărul de persoane implicate în realizarea produsului creativ<span class='tooltip-box'>Creativitatea poate fi individuală sau colectivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce problemă apare atunci când <span class='tip'><strong>noutatea este prea mare?</strong><span class='tooltip-box'>Una dintre dezbaterile menționate în text.</span></span>",
+        options: [
+          "<span class='tip'>Produsul poate fi respins<span class='tooltip-box'>Lipsa reperelor face dificilă evaluarea și acceptarea socială.<br><br><strong>Exemplu:</strong> o idee radical diferită de tot ce există poate fi neînțeleasă.</span></span>",
+          "<span class='tip'>Produsul este automat acceptat pentru că este complet diferit de orice altceva cunoscut până în acel moment<span class='tooltip-box'>Textul arată că acest lucru nu se întâmplă.</span></span>",
+          "<span class='tip'>Valoarea devine ușor de stabilit pentru orice evaluator indiferent de contextul cultural sau istoric<span class='tooltip-box'>Evaluarea este influențată de context.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce problemă apare atunci când <span class='tip'><strong>noutatea este prea mică?</strong><span class='tooltip-box'>Cealaltă extremă a dezbaterii.</span></span>",
+        options: [
+          "<span class='tip'>Rezultatul devine copiere cu minime schimbări<span class='tooltip-box'>Produsele foarte similare nu mai sunt considerate creative.<br><br><strong>Exemplu:</strong> versiuni succesive ale aceluiași produs cu modificări minore.</span></span>",
+          "<span class='tip'>Produsul este apreciat pentru stabilitate și este considerat creativ indiferent de gradul de diferențiere față de variantele anterioare<span class='tooltip-box'>Stabilitatea nu este echivalentă cu creativitatea.</span></span>",
+          "<span class='tip'>Valoarea produsului crește automat datorită asemănării cu ceea ce este deja cunoscut și acceptat de societate<span class='tooltip-box'>Asemănarea excesivă reduce creativitatea.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă <span class='tip'><strong>dezbaterea asupra valorii</strong><span class='tooltip-box'>Al doilea criteriu al creativității.</span></span> unui produs creativ?",
+        options: [
+          "<span class='tip'>Dificultatea stabilirii evaluatorului<span class='tooltip-box'>Nu este clar cine decide valoarea și după ce criterii.<br><br><strong>Exemplu:</strong> evaluarea valorii în artă implică subiectivitate.</span></span>",
+          "<span class='tip'>Existența unor criterii universale, fixe și identice pentru toate domeniile și epocile istorice<span class='tooltip-box'>Textul subliniază caracterul discutabil al valorii.</span></span>",
+          "<span class='tip'>Imposibilitatea de a discuta creativitatea în lipsa consensului absolut între specialiști<span class='tooltip-box'>Creativitatea este discutată chiar în lipsa consensului.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q2",
+    title: "Big C și little c: niveluri ale creativității",
+    questions: [
+      {
+        text: "Ce diferențiază <span class='tip'><strong>Big C de little c?</strong><span class='tooltip-box'>Nivelul la care se manifestă creativitatea.</span></span>",
+        options: [
+          "<span class='tip'>Impactul creației<span class='tooltip-box'>Big C presupune impact societal, iar little c vizează creativitatea cotidiană.<br><br><strong>Exemplu:</strong> o teorie științifică majoră versus soluții ingenioase în viața de zi cu zi.</span></span>",
+          "<span class='tip'>Prezența sau absența imaginației<span class='tooltip-box'>Imaginația este prezentă în ambele forme.</span></span>",
+          "<span class='tip'>Gradul de distracție al activității<span class='tooltip-box'>Plăcerea nu este criteriul definitoriu.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce caracterizează <span class='tip'><strong>creativitatea Big C?</strong><span class='tooltip-box'>Numită și creativitate eminentă.</span></span>",
+        options: [
+          "<span class='tip'>Recunoaștere socială și investiție îndelungată<span class='tooltip-box'>Presupune talente excepționale și minimum 10 ani de muncă într-un domeniu (Feist, 2004; Weisberg, 2005).<br><br><strong>Exemplu:</strong> mari inventatori sau artiști consacrați.</span></span>",
+          "<span class='tip'>Rezolvarea rapidă a problemelor zilnice<span class='tooltip-box'>Aceasta descrie mai degrabă little c.</span></span>",
+          "<span class='tip'>Activități spontane fără perseverență<span class='tooltip-box'>Big C implică efort susținut.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce definește <span class='tip'><strong>little c?</strong><span class='tooltip-box'>Creativitatea cotidiană.</span></span>",
+        options: [
+          "<span class='tip'>Potențialul creativ exersat în viața de zi cu zi<span class='tooltip-box'>Se bazează pe curiozitate, flexibilitate și dorință de schimbare (Richards, 2007; Sternberg, 2007).<br><br><strong>Exemplu:</strong> adaptarea unei metode de lucru la o situație nouă.</span></span>",
+          "<span class='tip'>Absența completă a valorii<span class='tooltip-box'>Valoarea există, dar este personală sau locală.</span></span>",
+          "<span class='tip'>Creativitatea rezervată copiilor<span class='tooltip-box'>Little c este prezentă la toate vârstele.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este important conceptul de <span class='tip'><strong>potențial creativ?</strong><span class='tooltip-box'>Asociat cu little c.</span></span>",
+        options: [
+          "<span class='tip'>Pentru că mută accentul de pe talent pe dezvoltare<span class='tooltip-box'>Creativitatea poate fi cultivată prin exercițiu și experiențe diverse (Runco, 2007).<br><br><strong>Exemplu:</strong> antrenarea gândirii divergente la elevi.</span></span>",
+          "<span class='tip'>Pentru că elimină complet rolul aptitudinilor<span class='tooltip-box'>Aptitudinile contează, dar nu sunt suficiente.</span></span>",
+          "<span class='tip'>Pentru că neagă existența creativității eminente<span class='tooltip-box'>Big C și little c coexistă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q3",
+    title: "Definiții ale creativității: perspective complementare",
+    questions: [
+      {
+        text: "Ce elemente comune apar în <span class='tip'><strong>definițiile moderne ale creativității?</strong><span class='tooltip-box'>Indiferent de autor.</span></span>",
+        options: [
+          "<span class='tip'>Noutate și valoare<span class='tooltip-box'>Creativitatea presupune rezultate originale și utile, nu simple ciudățenii.<br><br><strong>Exemplu:</strong> o idee nouă care rezolvă o problemă reală.</span></span>",
+          "<span class='tip'>Doar originalitate fără criterii de evaluare<span class='tooltip-box'>Originalitatea singură nu este suficientă.</span></span>",
+          "<span class='tip'>Exclusiv talent înnăscut<span class='tooltip-box'>Majoritatea definițiilor includ procese și contexte.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este definită creativitatea de <span class='tip'><strong>Plucker și Beghetto (2004)?</strong><span class='tooltip-box'>Accent pe interacțiune.</span></span>",
+        options: [
+          "<span class='tip'>Interacțiune între aptitudine și proces<span class='tooltip-box'>Rezultatul este nou și util într-un context social.<br><br><strong>Exemplu:</strong> un proiect de echipă evaluat pozitiv de comunitate.</span></span>",
+          "<span class='tip'>Simplă manifestare a imaginației individuale<span class='tooltip-box'>Contextul social este esențial în definiție.</span></span>",
+          "<span class='tip'>Capacitate exclusiv cognitivă măsurabilă prin teste<span class='tooltip-box'>Definiția este mai largă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce subliniază definiția lui <span class='tip'><strong>Runco (2004)?</strong><span class='tooltip-box'>Transformarea experienței.</span></span>",
+        options: [
+          "<span class='tip'>Interpretări originale și adecvate<span class='tooltip-box'>Persoana decide când o idee este utilă.<br><br><strong>Exemplu:</strong> reinterpretarea unei experiențe personale într-o soluție practică.</span></span>",
+          "<span class='tip'>Respectarea strictă a regulilor existente<span class='tooltip-box'>Creativitatea presupune depășirea convențiilor.</span></span>",
+          "<span class='tip'>Rezultate recunoscute doar de experți<span class='tooltip-box'>Valoarea poate fi stabilită și personal sau contextual.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum descrie <span class='tip'><strong>Sternberg (2005)</strong><span class='tooltip-box'>Echilibrul dintre cerințe.</span></span> creativitatea?",
+        options: [
+          "<span class='tip'>Creații inovatoare și adecvate<span class='tooltip-box'>Ideile trebuie să fie originale, dar și potrivite cerințelor sarcinii.<br><br><strong>Exemplu:</strong> o soluție ingenioasă care respectă constrângerile problemei.</span></span>",
+          "<span class='tip'>Libertate totală fără raportare la sarcină<span class='tooltip-box'>Adecvarea este esențială.</span></span>",
+          "<span class='tip'>Repetarea eficientă a soluțiilor consacrate<span class='tooltip-box'>Nu implică inovație.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce aduce în plus definiția lui <span class='tip'><strong>Torrance (1966)</strong><span class='tooltip-box'>Creativitatea ca proces.</span></span>?",
+        options: [
+          "<span class='tip'>Secvențialitatea procesului creativ<span class='tooltip-box'>De la sensibilitate față de probleme la testarea și comunicarea soluțiilor.<br><br><strong>Exemplu:</strong> identificarea unei lacune și formularea de ipoteze.</span></span>",
+          "<span class='tip'>Accent exclusiv pe produsul final<span class='tooltip-box'>Procesul este central.</span></span>",
+          "<span class='tip'>Negarea rolului evaluării<span class='tooltip-box'>Evaluarea și retestarea sunt incluse.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q4",
+    title: "Modele sistemice ale creativității: persoană, domeniu, context",
+    questions: [
+      {
+        text: "De ce sunt necesare <span class='tip'><strong>modelele sistemice ale creativității?</strong><span class='tooltip-box'>Depășirea explicațiilor simpliste.</span></span>",
+        options: [
+          "<span class='tip'>Creativitatea nu ține doar de individ<span class='tooltip-box'>Modelele sistemice arată că persoana, domeniul și contextul socio-cultural interacționează.<br><br><strong>Exemplu:</strong> aceeași persoană poate fi creativă într-un context și blocată în altul.</span></span>",
+          "<span class='tip'>Creativitatea este exclusiv genetică și stabilă<span class='tooltip-box'>Această perspectivă este limitativă.</span></span>",
+          "<span class='tip'>Mediul nu influențează performanțele creative reale, ci doar recunoașterea lor publică<span class='tooltip-box'>Mediul influențează atât producerea, cât și validarea creativității.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce include componenta <span class='tip'><strong>persoană</strong><span class='tooltip-box'>Primul element al modelului.</span></span> în explicația creativității?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Aptitudini și capacități cognitive<span class='tooltip-box'>Nivel intelectual, gândire divergentă, flexibilitate.<br><br><strong>Exemplu:</strong> capacitatea de a genera mai multe soluții.</span></span>",
+          "<span class='tip'>Motivația și trăsăturile de personalitate<span class='tooltip-box'>Curiozitate, perseverență, deschidere spre experiență.</span></span>",
+          "<span class='tip'>Structura rigidă a programelor școlare<span class='tooltip-box'>Aceasta ține de context, nu de persoană.</span></span>",
+          "<span class='tip'>Experiența și istoricul de formare<span class='tooltip-box'>Cunoștințele și experiențele acumulate influențează creativitatea.</span></span>",
+        ],
+        answer: [0, 1, 3],
+      },
+
+      {
+        text: "La ce se referă <span class='tip'><strong>domeniul</strong><span class='tooltip-box'>Al doilea element al modelului sistemic.</span></span>?",
+        options: [
+          "<span class='tip'>Ansamblul regulilor și cunoștințelor împărtășite<span class='tooltip-box'>Include standarde, criterii de valoare și tradiții ale unui domeniu.<br><br><strong>Exemplu:</strong> regulile de validare în știință sau artă.</span></span>",
+          "<span class='tip'>Preferințele personale ale individului<span class='tooltip-box'>Acestea nu definesc domeniul.</span></span>",
+          "<span class='tip'>Nivelul general de inteligență al populației<span class='tooltip-box'>Nu este o componentă de domeniu.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>contextul socio-cultural?</strong><span class='tooltip-box'>Al treilea element al modelului.</span></span>",
+        options: [
+          "<span class='tip'>Poate susține sau bloca creativitatea<span class='tooltip-box'>Prin norme, valori, acces la resurse și deschidere culturală.<br><br><strong>Exemplu:</strong> societăți deschise versus societăți restrictive.</span></span>",
+          "<span class='tip'>Are doar rol decorativ, fără impact real<span class='tooltip-box'>Contextul are un rol activ.</span></span>",
+          "<span class='tip'>Influențează doar recunoașterea postumă a creatorilor<span class='tooltip-box'>Influența este prezentă din timpul producției.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>logica de ansamblu</strong><span class='tooltip-box'>A modelelor sistemice.</span></span> în explicarea creativității?",
+        options: [
+          "<span class='tip'>Creativitatea apare din interacțiune<span class='tooltip-box'>Nici persoana, nici mediul nu sunt suficiente singure.<br><br><strong>Exemplu:</strong> potențial ridicat + domeniu permeabil + context favorabil.</span></span>",
+          "<span class='tip'>Persoana genială creează indiferent de condiții<span class='tooltip-box'>Aceasta este o viziune mitizată.</span></span>",
+          "<span class='tip'>Domeniul determină complet nivelul creativității individuale<span class='tooltip-box'>Ignoră diferențele personale.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q5",
+    title: "Creativitatea ca produs: tipuri, evaluare și productivitate",
+    questions: [
+      {
+        text: "De ce este definit <span class='tip'><strong>produsul creativ</strong><span class='tooltip-box'>Fațeta produs a creativității.</span></span> prin două condiții esențiale?",
+        options: [
+          "<span class='tip'>Pentru că trebuie să fie nou și valoros<span class='tooltip-box'>Noutatea fără valoare rămâne bizarerie, iar valoarea fără noutate este copiere.<br><br><strong>Exemplu:</strong> o idee originală, dar inutilă nu este creativă.</span></span>",
+          "<span class='tip'>Pentru că trebuie să fie recunoscut imediat de publicul larg<span class='tooltip-box'>Recunoașterea poate fi întârziată.</span></span>",
+          "<span class='tip'>Pentru că orice produs artistic este automat creativ<span class='tooltip-box'>Produsele sunt evaluate după criterii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "La ce nivel poate avea impact un <span class='tip'><strong>produs creativ?</strong><span class='tooltip-box'>Dimensiunea impactului.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>La nivel personal<span class='tooltip-box'>Rezolvă o problemă sau aduce satisfacție individului.<br><br><strong>Exemplu:</strong> o soluție ingenioasă într-o situație cotidiană.</span></span>",
+          "<span class='tip'>La nivel societal<span class='tooltip-box'>Produce schimbări sau influențează un domeniu larg.<br><br><strong>Exemplu:</strong> o descoperire științifică majoră.</span></span>",
+          "<span class='tip'>Doar la nivel economic<span class='tooltip-box'>Impactul nu este exclusiv economic.</span></span>",
+          "<span class='tip'>Exclusiv la nivel artistic<span class='tooltip-box'>Creativitatea se manifestă și în știință.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Cum sunt <span class='tip'><strong>evaluate produsele creative?</strong><span class='tooltip-box'>Criterii și validare.</span></span>",
+        options: [
+          "<span class='tip'>De un grup de experți ai domeniului<span class='tooltip-box'>Evaluarea este contextuală și dependentă de epocă.<br><br><strong>Exemplu:</strong> critici de artă sau comunități științifice.</span></span>",
+          "<span class='tip'>Doar de creatorul produsului<span class='tooltip-box'>Autoevaluarea nu este suficientă.</span></span>",
+          "<span class='tip'>Prin popularitate imediată<span class='tooltip-box'>Popularitatea nu garantează valoarea.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce diferențiază <span class='tip'><strong>productivitatea totală</strong><span class='tooltip-box'>Cantitate.</span></span> de <span class='tip'><strong>productivitatea efectivă?</strong><span class='tooltip-box'>Valoare.</span></span>",
+        options: [
+          "<span class='tip'>Raportul dintre cantitate și valoare<span class='tooltip-box'>A produce mult crește șansele de a produce ceva valoros, dar nu garantează.<br><br><strong>Exemplu:</strong> multe schițe, puține capodopere.</span></span>",
+          "<span class='tip'>Diferența dintre talent și noroc<span class='tooltip-box'>Nu este o distincție conceptuală corectă.</span></span>",
+          "<span class='tip'>Separarea dintre creație artistică și științifică<span class='tooltip-box'>Conceptul se aplică ambelor domenii.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care afirmație descrie corect <span class='tip'><strong>evoluția productivității?</strong><span class='tooltip-box'>Pe parcursul vieții.</span></span>",
+        options: [
+          "<span class='tip'>Vârful apare frecvent între 30 și 50 de ani<span class='tooltip-box'>Aceasta este o medie generală, indiferent de domeniu.</span></span>",
+          "<span class='tip'>Productivitatea crește constant pe tot parcursul vieții<span class='tooltip-box'>Există variații și declin ulterior.</span></span>",
+          "<span class='tip'>Creativitatea este maximă doar în adolescență<span class='tooltip-box'>Aceasta este o concepție eronată.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q6",
+    title:
+      "Creativitatea ca proces: etapele Wallace (1926) și caracterul ciclic",
+    questions: [
+      {
+        text: "Care sunt etapele propuse de <span class='tip'><strong>Wallace (1926)?</strong><span class='tooltip-box'>Modelul clasic al procesului creativ.</span></span>",
+        options: [
+          "<span class='tip'>Preparare, incubație, iluminare, verificare<span class='tooltip-box'>Etapele descriu parcursul de la căutare de informații până la evaluarea soluției.<br><br><strong>Exemplu:</strong> te documentezi, lași ideea să se așeze, îți vine soluția, apoi o testezi.</span></span>",
+          "<span class='tip'>Imitație, repetiție, memorare, reproducere<span class='tooltip-box'>Acestea descriu mai degrabă învățarea reproductivă, nu procesul creativ.</span></span>",
+          "<span class='tip'>Intuiție, noroc, inspirație, succes garantat<span class='tooltip-box'>Procesul creativ include efort, căutare și evaluare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce implică etapa de <span class='tip'><strong>preparare?</strong><span class='tooltip-box'>Prima etapă din model.</span></span>",
+        options: [
+          "<span class='tip'>Căutare și documentare<span class='tooltip-box'>Include identificarea de probleme, lipsuri și acumulare de informații într-un optim util.<br><br><strong>Exemplu:</strong> citești surse, compari soluții, îți clarifici ce lipsește.</span></span>",
+          "<span class='tip'>Apariția instantanee a soluției fără efort conștient sau implicare deliberată în înțelegerea problemei și a contextului ei<span class='tooltip-box'>Asta ar descrie un mit al inspirației, nu prepararea.</span></span>",
+          "<span class='tip'>Validarea finală a produsului de către experți<span class='tooltip-box'>Validarea ține de verificare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este riscul unei <span class='tip'><strong>specializări prea înalte?</strong><span class='tooltip-box'>Menționat în etapa de preparare.</span></span>",
+        options: [
+          "<span class='tip'>Rigiditate în gândire<span class='tooltip-box'>Poate limita flexibilitatea și disponibilitatea de a recombina idei.<br><br><strong>Exemplu:</strong> aplici aceleași rețete fără să mai cauți alternative.</span></span>",
+          "<span class='tip'>Creșterea garantată a creativității indiferent de context și de deschiderea domeniului sau de felul în care persoana se raportează la problemă<span class='tooltip-box'>Specializarea nu garantează creativitatea.</span></span>",
+          "<span class='tip'>Eliminarea nevoii de verificare a soluțiilor<span class='tooltip-box'>Verificarea rămâne necesară.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce se întâmplă în etapa de <span class='tip'><strong>incubație?</strong><span class='tooltip-box'>A doua etapă din model.</span></span>",
+        options: [
+          "<span class='tip'>Ideile se combină și se filtrează<span class='tooltip-box'>Apare o „dospire” a informațiilor, cu asocieri și recombinări.<br><br><strong>Exemplu:</strong> nu te mai forțezi să găsești soluția, dar mintea lucrează în fundal.</span></span>",
+          "<span class='tip'>Se renunță complet la problemă și dispare orice preocupare pentru ea, până când apare întâmplător o soluție fără legătură cu munca anterioară<span class='tooltip-box'>Incubația păstrează preocuparea, chiar dacă efortul nu este stringent.</span></span>",
+          "<span class='tip'>Se aplică doar reguli fixe și proceduri standard<span class='tooltip-box'>Incubația presupune flexibilitate și asociere.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă etapa de <span class='tip'><strong>iluminare?</strong><span class='tooltip-box'>Momentul „Aha”.</span></span>",
+        options: [
+          "<span class='tip'>Apariția soluției<span class='tooltip-box'>Informația devine conștientă și funcțională pentru problemă.<br><br><strong>Exemplu:</strong> dintr-odată vezi cum se leagă două idei care păreau separate.</span></span>",
+          "<span class='tip'>Finalizarea produsului și evaluarea lui completă cu criterii stabile și rezultate definitive, fără nicio posibilitate de revenire asupra soluției<span class='tooltip-box'>Finalizarea ține de verificare, iar procesul poate relua etape.</span></span>",
+          "<span class='tip'>Copierea unei soluții deja existente<span class='tooltip-box'>Iluminarea presupune restructurare și noutate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce au arătat studiile despre <span class='tip'><strong>momentele „Aha”?</strong><span class='tooltip-box'>Weisberg (1993) și Sawyer (2006).</span></span>",
+        options: [
+          "<span class='tip'>Pot fi multiple și mici<span class='tooltip-box'>Soluția se construiește din mai multe conștientizări succesive.<br><br><strong>Exemplu:</strong> întâi clarifici o parte, apoi o altă parte, până se conturează întregul.</span></span>",
+          "<span class='tip'>Există întotdeauna un singur moment intens și complet, care apare fără legătură cu experiența anterioară și fără să se bazeze pe documentare, cunoștințe sau efort depus înainte<span class='tooltip-box'>Textul subliniază rolul cunoștințelor și al procesării anterioare.</span></span>",
+          "<span class='tip'>Iluminarea este imposibilă fără validare socială prealabilă<span class='tooltip-box'>Validarea apare ulterior, în verificare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce implică etapa de <span class='tip'><strong>verificare?</strong><span class='tooltip-box'>Ultima etapă din model.</span></span>",
+        options: [
+          "<span class='tip'>Elaborare și evaluare<span class='tooltip-box'>Soluția este detaliată, testată și ajustată.<br><br><strong>Exemplu:</strong> încerci varianta propusă, vezi ce nu funcționează și corectezi.</span></span>",
+          "<span class='tip'>Evitarea oricărei evaluări pentru a nu limita creativitatea și pentru a păstra ideea într-o formă liberă, fără criterii, fără feedback și fără verificarea utilității sau a adecvării în context<span class='tooltip-box'>Fără verificare, produsul poate rămâne nefuncțional.</span></span>",
+          "<span class='tip'>Înlocuirea documentării cu spontaneitate totală<span class='tooltip-box'>Documentarea ține de preparare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce se spune că procesul creativ are o <span class='tip'><strong>succesiune ciclică?</strong><span class='tooltip-box'>Nu este linear.</span></span>",
+        options: [
+          "<span class='tip'>Etapele se pot relua<span class='tooltip-box'>Verificarea poate duce la identificarea de probleme și revenirea la preparare sau incubație.<br><br><strong>Exemplu:</strong> testezi soluția, observi o lipsă, revii la documentare.</span></span>",
+          "<span class='tip'>Odată început, procesul curge obligatoriu într-o singură ordine fixă, cu durate identice pentru toți oamenii și fără posibilitatea de întoarcere la etape anterioare indiferent de obstacole sau rezultate intermediare<span class='tooltip-box'>Textul spune că nu e neapărat în ordinea inițială și nu e linear.</span></span>",
+          "<span class='tip'>Ciclul apare doar în artă, nu și în știință<span class='tooltip-box'>Procesualitatea se aplică în multiple domenii.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q7",
+    title: "Gândirea divergentă: criteriile lui Guilford (1967) și logica TTCT",
+    questions: [
+      {
+        text: "Ce rol are <span class='tip'><strong>gândirea divergentă</strong><span class='tooltip-box'>Proces cognitiv central al creativității.</span></span> în explicația creativității?",
+        options: [
+          "<span class='tip'>Generarea de alternative<span class='tooltip-box'>Presupune producerea mai multor răspunsuri și soluții la aceeași problemă.<br><br><strong>Exemplu:</strong> găsirea mai multor utilizări pentru un obiect obișnuit.</span></span>",
+          "<span class='tip'>Identificarea unei singure soluții corecte, stabilite anterior de profesor sau de manual, fără explorarea variantelor sau a posibilităților alternative<span class='tooltip-box'>Aceasta descrie gândirea convergentă.</span></span>",
+          "<span class='tip'>Aplicarea strictă a unor algoritmi fixați<span class='tooltip-box'>Nu surprinde flexibilitatea creativă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care sunt <span class='tip'><strong>criteriile propuse de Guilford (1967)?</strong><span class='tooltip-box'>Criterii utilizate ulterior în testele de creativitate.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Fluiditatea<span class='tooltip-box'>Numărul total de răspunsuri generate.<br><br><strong>Exemplu:</strong> câte idei poți produce într-un timp limitat.</span></span>",
+          "<span class='tip'>Flexibilitatea<span class='tooltip-box'>Diversitatea categoriilor din care provin răspunsurile.<br><br><strong>Exemplu:</strong> idei din domenii diferite, nu variații ale aceleiași idei.</span></span>",
+          "<span class='tip'>Originalitatea<span class='tooltip-box'>Gradul de noutate și raritate al răspunsurilor.<br><br><strong>Exemplu:</strong> idei la care puțini alții s-ar gândi.</span></span>",
+          "<span class='tip'>Elaborarea<span class='tooltip-box'>Nivelul de detaliere și complexitate al răspunsurilor.<br><br><strong>Exemplu:</strong> o idee explicată și dezvoltată, nu doar enunțată.</span></span>",
+          "<span class='tip'>Memorarea exactă a informației<span class='tooltip-box'>Nu este criteriu al gândirii divergente.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+
+      {
+        text: "Ce măsoară <span class='tip'><strong>fluiditatea?</strong><span class='tooltip-box'>Primul criteriu.</span></span>",
+        options: [
+          "<span class='tip'>Numărul de idei<span class='tooltip-box'>Accent pe cantitate, nu pe calitate.<br><br><strong>Exemplu:</strong> 20 de răspunsuri diferite la aceeași cerință.</span></span>",
+          "<span class='tip'>Gradul de corectitudine logică a unei singure soluții, evaluată prin raportare la un standard fix și universal acceptat<span class='tooltip-box'>Aceasta ar descrie evaluarea convergentă.</span></span>",
+          "<span class='tip'>Nivelul de emoție implicat în răspuns<span class='tooltip-box'>Nu este criteriu cognitiv al gândirii divergente.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce exprimă <span class='tip'><strong>flexibilitatea?</strong><span class='tooltip-box'>Al doilea criteriu.</span></span>",
+        options: [
+          "<span class='tip'>Varietatea categoriilor<span class='tooltip-box'>Capacitatea de a schimba perspectiva.<br><br><strong>Exemplu:</strong> soluții tehnice, sociale și simbolice la aceeași problemă.</span></span>",
+          "<span class='tip'>Repetarea aceleiași idei în formulări ușor diferite, dar care aparțin aceleiași categorii conceptuale<span class='tooltip-box'>Aceasta ar crește fluiditatea, nu flexibilitatea.</span></span>",
+          "<span class='tip'>Respectarea unei structuri rigide de răspuns<span class='tooltip-box'>Flexibilitatea presupune tocmai ieșirea din rigiditate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>originalitatea?</strong><span class='tooltip-box'>Al treilea criteriu.</span></span>",
+        options: [
+          "<span class='tip'>Raritatea ideilor<span class='tooltip-box'>Cu cât răspunsul apare mai rar în eșantion, cu atât este mai original.<br><br><strong>Exemplu:</strong> un răspuns oferit de foarte puțini participanți.</span></span>",
+          "<span class='tip'>Lungimea răspunsului exprimată prin număr mare de cuvinte și explicații detaliate, indiferent dacă ideea este nouă sau nu<span class='tooltip-box'>Lungimea ține de elaborare, nu de originalitate.</span></span>",
+          "<span class='tip'>Gradul de conformitate cu normele existente<span class='tooltip-box'>Originalitatea presupune abatere controlată de la norme.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce surprinde criteriul de <span class='tip'><strong>elaborare?</strong><span class='tooltip-box'>Al patrulea criteriu.</span></span>",
+        options: [
+          "<span class='tip'>Complexitatea răspunsului<span class='tooltip-box'>Gradul de detaliere și dezvoltare a ideii.<br><br><strong>Exemplu:</strong> o idee explicată prin pași, exemple și consecințe.</span></span>",
+          "<span class='tip'>Numărul total de idei diferite fără nicio dezvoltare sau explicare suplimentară, enumerate rapid într-un timp limitat<span class='tooltip-box'>Aceasta ar indica fluiditate, nu elaborare.</span></span>",
+          "<span class='tip'>Validarea socială a răspunsului<span class='tooltip-box'>Validarea nu este criteriu al elaborării.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce este <span class='tip'><strong>TTCT</strong><span class='tooltip-box'>Torrance Tests of Creative Thinking.</span></span>?",
+        options: [
+          "<span class='tip'>Un test al creativității<span class='tooltip-box'>Evaluează creativitatea verbală și figurală prin sarcini deschise.<br><br><strong>Exemplu:</strong> utilizări neobișnuite sau interpretarea unor stimuli vizuali.</span></span>",
+          "<span class='tip'>Un test exclusiv de inteligență logic-matematică, bazat pe itemi cu răspuns unic și timp strict controlat, utilizat pentru selecție academică standardizată<span class='tooltip-box'>TTCT este centrat pe creativitate, nu pe IQ.</span></span>",
+          "<span class='tip'>Un chestionar de personalitate<span class='tooltip-box'>Nu evaluează trăsături de personalitate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum sunt <span class='tip'><strong>analizate răspunsurile</strong><span class='tooltip-box'>În cadrul TTCT.</span></span>?",
+        options: [
+          "<span class='tip'>De către specialist<span class='tooltip-box'>Scorarea este realizată de evaluatori instruiți, pe baza criteriilor standardizate.</span></span>",
+          "<span class='tip'>Automat, prin numărarea cuvintelor și a propozițiilor, fără interpretare calitativă sau raportare la criterii precum originalitatea sau flexibilitatea<span class='tooltip-box'>Evaluarea TTCT este calitativ-cantitativă.</span></span>",
+          "<span class='tip'>Prin autoevaluare liberă<span class='tooltip-box'>Nu este procedura de scorare.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q8",
+    title:
+      "Creativitatea ca persoană: trăsături cognitive, personalitate și motivație",
+    questions: [
+      {
+        text: "Ce relație există între <span class='tip'><strong>inteligență și creativitate?</strong><span class='tooltip-box'>Relație discutată în literatura de specialitate.</span></span>",
+        options: [
+          "<span class='tip'>Relație de prag<span class='tooltip-box'>Până la un anumit nivel al IQ există corelație pozitivă, peste prag relația slăbește.<br><br><strong>Exemplu:</strong> o persoană cu IQ foarte ridicat poate avea creativitate medie.</span></span>",
+          "<span class='tip'>Relație direct proporțională perfectă, în care orice creștere a inteligenței determină automat o creștere echivalentă a creativității, indiferent de context sau motivație<span class='tooltip-box'>Aceasta este o suprasimplificare.</span></span>",
+          "<span class='tip'>Absența oricărei relații<span class='tooltip-box'>Există totuși o legătură până la un anumit prag.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este cunoscută această relație dintre creativitate și inteligență în literatura de specialitate?",
+        options: [
+          "<span class='tip'>Teoria pragului<span class='tooltip-box'>Formulată de Sternberg și O’Hara (2005), Runco (2007).</span></span>",
+          "<span class='tip'>Teoria echivalenței totale<span class='tooltip-box'>Nu este un concept validat.</span></span>",
+          "<span class='tip'>Teoria compensării emoționale<span class='tooltip-box'>Nu descrie relația IQ-creativitate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care dintre următoarele sunt <span class='tip'><strong>caracteristici cognitive</strong><span class='tooltip-box'>Asociate persoanei creative.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Flexibilitate ideativă<span class='tooltip-box'>Capacitatea de a genera și conecta idei diferite.</span></span>",
+          "<span class='tip'>Gândire divergentă<span class='tooltip-box'>Căutarea de răspunsuri multiple.</span></span>",
+          "<span class='tip'>Perspicacitate<span class='tooltip-box'>Selectarea informațiilor relevante.</span></span>",
+          "<span class='tip'>Memorare mecanică rigidă a informației fără transfer sau recombinare conceptuală<span class='tooltip-box'>Aceasta nu este caracteristică centrală a creativității.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce trăsături de <span class='tip'><strong>personalitate</strong><span class='tooltip-box'>Dimensiune noncognitivă.</span></span> sunt frecvent asociate persoanelor creative?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Deschidere spre experiență<span class='tooltip-box'>Interes pentru noutate și diversitate.</span></span>",
+          "<span class='tip'>Nonconformism<span class='tooltip-box'>Ieșirea din tipare și asumarea diferenței.</span></span>",
+          "<span class='tip'>Inițiativă și încredere în sine<span class='tooltip-box'>Disponibilitate de a propune și testa idei.</span></span>",
+          "<span class='tip'>Conformism rigid și evitare constantă a riscului pentru a menține aprobarea socială<span class='tooltip-box'>Aceasta tinde să blocheze creativitatea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Cum sunt descrise <span class='tip'><strong>dimensiunile opuse</strong><span class='tooltip-box'>Identificate de Csikszentmihalyi (2007).</span></span> în personalitatea creativă?",
+        options: [
+          "<span class='tip'>Funcționează complementar<span class='tooltip-box'>Trăsături opuse coexistă și se echilibrează.<br><br><strong>Exemplu:</strong> energie intensă alternată cu relaxare.</span></span>",
+          "<span class='tip'>Se exclud reciproc, persoana creativă manifestând doar una dintre ele într-un mod stabil și previzibil, fără fluctuații<span class='tooltip-box'>Creativitatea implică tocmai tensiune și alternanță.</span></span>",
+          "<span class='tip'>Sunt trăsături aleatorii fără legătură între ele<span class='tooltip-box'>Modelul este unul coerent și sistematic.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>motivația intrinsecă</strong><span class='tooltip-box'>Curiozitate, interes, pasiune.</span></span> în creativitate?",
+        options: [
+          "<span class='tip'>Susține incubația și iluminarea<span class='tooltip-box'>Este dominantă în fazele creative profunde.</span></span>",
+          "<span class='tip'>Este irelevantă dacă există recompense externe consistente și control strict al activității<span class='tooltip-box'>Controlul excesiv poate inhiba creativitatea.</span></span>",
+          "<span class='tip'>Are rol doar decorativ<span class='tooltip-box'>Motivația este un factor central.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum intervine <span class='tip'><strong>motivația extrinsecă</strong><span class='tooltip-box'>Recompense, recunoaștere.</span></span> în procesul creativ?",
+        options: [
+          "<span class='tip'>Sprijină prepararea și verificarea<span class='tooltip-box'>Susține eforturile de documentare și evaluare.</span></span>",
+          "<span class='tip'>Înlocuiește complet motivația intrinsecă și devine singurul motor al creativității pe termen lung, indiferent de natura sarcinii<span class='tooltip-box'>Creativitatea pe termen lung necesită motivație intrinsecă.</span></span>",
+          "<span class='tip'>Blochează automat creativitatea<span class='tooltip-box'>Depinde de modul de utilizare.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este reinterpretată <span class='tip'><strong>perseverența</strong><span class='tooltip-box'>În cazul persoanelor creative.</span></span>?",
+        options: [
+          "<span class='tip'>Alternanță între angajare și retragere<span class='tooltip-box'>Renunțarea temporară poate fi strategie, nu abandon.<br><br><strong>Exemplu:</strong> revenirea la un proiect după identificarea unor piste noi.</span></span>",
+          "<span class='tip'>Insistență rigidă pe aceeași soluție, indiferent de blocaje, costuri sau eșecuri repetate, fără pauze sau schimbări de perspectivă<span class='tooltip-box'>Aceasta poate duce la epuizare.</span></span>",
+          "<span class='tip'>Lipsa totală a angajamentului<span class='tooltip-box'>Creativitatea implică efort susținut.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q9",
+    title: "Creativitatea ca presiune a mediului: teoria sistemică",
+    questions: [
+      {
+        text: "Ce explică <span class='tip'><strong>teoria sistemică a creativității</strong><span class='tooltip-box'>Formulată de Csikszentmihalyi (2005).</span></span>?",
+        options: [
+          "<span class='tip'>Creativitatea apare din interacțiunea mai multor sisteme<span class='tooltip-box'>Nu este produsul exclusiv al persoanei, ci rezultatul interdependenței dintre persoană, domeniu și aria de specializare.<br><br><strong>Exemplu:</strong> o idee inovatoare apare când este recunoscută și validată într-un context cultural.</span></span>",
+          "<span class='tip'>Creativitatea este exclusiv o trăsătură înnăscută, stabilă și independentă de mediu, recunoscută automat indiferent de context social sau cultural<span class='tooltip-box'>Modelul sistemic contrazice această viziune.</span></span>",
+          "<span class='tip'>Creativitatea este determinată doar de inteligență<span class='tooltip-box'>Inteligența este doar una dintre componente.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care sunt cele <span class='tip'><strong>trei sisteme interdependente</strong><span class='tooltip-box'>Elemente centrale ale modelului.</span></span> în teoria lui Csikszentmihalyi (2005)?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Persoana<span class='tooltip-box'>Aptitudini, motivație, trăsături de personalitate.</span></span>",
+          "<span class='tip'>Domeniul<span class='tooltip-box'>Reguli, cunoștințe și valori împărtășite într-o cultură.</span></span>",
+          "<span class='tip'>Aria de specializare<span class='tooltip-box'>Organizarea socială, resursele și validarea expertă.</span></span>",
+          "<span class='tip'>Nivelul de fericire individuală permanentă și independentă de orice evaluare socială sau istorică<span class='tooltip-box'>Nu face parte din model.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>domeniul</strong><span class='tooltip-box'>În sens sistemic.</span></span> în susținerea sau blocarea creativității?",
+        options: [
+          "<span class='tip'>Definește ce este valoros la un moment dat<span class='tooltip-box'>Include regulile, limbajul și criteriile unei culturi.</span></span>",
+          "<span class='tip'>Este doar un fundal pasiv, fără influență reală asupra creativității individuale, indiferent de epocă sau context cultural<span class='tooltip-box'>Domeniul influențează decisiv recunoașterea creativității.</span></span>",
+          "<span class='tip'>Este echivalent cu personalitatea individului<span class='tooltip-box'>Sunt componente distincte.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum influențează <span class='tip'><strong>aria de specializare</strong><span class='tooltip-box'>Componenta social-organizațională.</span></span> creativitatea?",
+        options: [
+          "<span class='tip'>Poate accelera sau frâna creativitatea<span class='tooltip-box'>Prin resurse, ierarhii, permeabilitate și mobilitatea cunoașterii.<br><br><strong>Exemplu:</strong> accesul la finanțare și colaborare interdisciplinară.</span></span>",
+          "<span class='tip'>Nu are nicio legătură cu recunoașterea creativității, aceasta fiind strict un act interior și privat, lipsit de validare socială<span class='tooltip-box'>Creativitatea presupune validare.</span></span>",
+          "<span class='tip'>Este identică cu mediul familial<span class='tooltip-box'>Mediul familial este distinct.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce ilustrează exemplele legate de <span class='tip'><strong>societăți democratice și totalitare?</strong><span class='tooltip-box'>Aplicarea teoriei sistemice.</span></span>",
+        options: [
+          "<span class='tip'>Contextul social poate favoriza sau bloca creativitatea<span class='tooltip-box'>Accesul la resurse și libertatea de exprimare sunt esențiale.</span></span>",
+          "<span class='tip'>Creativitatea este identică în orice tip de societate, deoarece depinde doar de talentul individual și nu de structura socială sau politică<span class='tooltip-box'>Contextul contează.</span></span>",
+          "<span class='tip'>Creativitatea este imposibilă în societăți democratice<span class='tooltip-box'>Este contrazis de exemple.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum este interpretat <span class='tip'><strong>rolul familiei</strong><span class='tooltip-box'>Ca mediu proximal.</span></span> în dezvoltarea creativității?",
+        options: [
+          "<span class='tip'>Poate susține sau stimula creativitatea<span class='tooltip-box'>Prin resurse, valori, atmosferă și stil parental.<br><br><strong>Exemplu:</strong> încurajarea independenței și a curiozității.</span></span>",
+          "<span class='tip'>Este irelevantă dacă școala funcționează bine<span class='tooltip-box'>Mediul familial rămâne important.</span></span>",
+          "<span class='tip'>Influențează doar creativitatea artistică, nu și cea științifică<span class='tooltip-box'>Influența este mai largă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce arată situațiile de <span class='tip'><strong>mediu defavorizat</strong><span class='tooltip-box'>Resurse puține, marginalizare.</span></span> în raport cu creativitatea?",
+        options: [
+          "<span class='tip'>Pot deveni stimulative în anumite condiții<span class='tooltip-box'>Constrângerile pot favoriza soluții neobișnuite și perseverența.</span></span>",
+          "<span class='tip'>Anulează complet orice potențial creativ indiferent de motivație, context sau sprijin ulterior<span class='tooltip-box'>Nu este o relație deterministă.</span></span>",
+          "<span class='tip'>Garantatează automat creativitate ridicată<span class='tooltip-box'>Nu este garantată.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q10",
+    title: "Creativitatea la copii: dezbatere, niveluri și implicații",
+    questions: [
+      {
+        text: "De ce există <span class='tip'><strong>controverse privind creativitatea copiilor?</strong><span class='tooltip-box'>Legate de definiția creativității.</span></span>",
+        options: [
+          "<span class='tip'>Pentru că definiția creativității presupune noutate și valoare<span class='tooltip-box'>O parte a specialiștilor consideră că aceste criterii cer timp, experiență și validare socială.</span></span>",
+          "<span class='tip'>Pentru că imaginația copiilor este prea bogată și greu de controlat educațional, fiind considerată un obstacol major în învățare formală pe termen lung<span class='tooltip-box'>Nu acesta este argumentul central.</span></span>",
+          "<span class='tip'>Pentru că toți copiii sunt considerați automat geniali<span class='tooltip-box'>Nu există un astfel de consens.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce argumentează <span class='tip'><strong>opoziția față de recunoașterea creativității la copii</strong><span class='tooltip-box'>Perspectivă restrictivă.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Necesitatea timpului de formare<span class='tooltip-box'>Creativitatea presupune ani de acumulări și exercițiu.</span></span>",
+          "<span class='tip'>Lipsa intenționalității și a discernământului<span class='tooltip-box'>Copiii sunt încă în dezvoltare cognitivă.</span></span>",
+          "<span class='tip'>Regula celor 10 ani<span class='tooltip-box'>Gruber și Wallace (2005), Weisberg (2005).</span></span>",
+          "<span class='tip'>Absența completă a imaginației la copii<span class='tooltip-box'>Afirmație falsă.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Cum redefinește perspectiva <span class='tip'><strong>little c</strong><span class='tooltip-box'>Creativitatea cotidiană.</span></span> statutul creativității la copii?",
+        options: [
+          "<span class='tip'>Ca propensiune spre schimbare și adaptare<span class='tooltip-box'>Creativitatea este parte a dezvoltării și a învățării zilnice.</span></span>",
+          "<span class='tip'>Ca formă inferioară de creativitate, lipsită de valoare educațională și socială pe termen lung<span class='tooltip-box'>Little c are valoare personală și educațională.</span></span>",
+          "<span class='tip'>Ca abilitate rară prezentă doar la copiii supradotați<span class='tooltip-box'>Este o perspectivă restrictivă.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce poate fi considerat <span class='tip'><strong>procesul de dezvoltare al copilului</strong><span class='tooltip-box'>Din perspectivă constructivistă.</span></span> un proces creativ?",
+        options: [
+          "<span class='tip'>Pentru că implică transformarea mediului<span class='tooltip-box'>Copilul explorează, combină și ajustează resurse pentru a progresa.</span></span>",
+          "<span class='tip'>Pentru că este complet lipsit de reguli și structuri<span class='tooltip-box'>Dezvoltarea are structuri și etape.</span></span>",
+          "<span class='tip'>Pentru că exclude învățarea socială<span class='tooltip-box'>Învățarea este mediată social.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce <span class='tip'><strong>caracteristici ale copilăriei</strong><span class='tooltip-box'>Comune cu personalitatea creativă.</span></span> susțin ideea creativității la copii?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Fantezia<span class='tooltip-box'>Capacitatea de a imagina alternative.</span></span>",
+          "<span class='tip'>Spontaneitatea<span class='tooltip-box'>Acțiune fără rigiditate.</span></span>",
+          "<span class='tip'>Disponibilitatea pentru risc<span class='tooltip-box'>Experimentare fără teama de eșec.</span></span>",
+          "<span class='tip'>Rigiditatea cognitivă stabilă<span class='tooltip-box'>Contrazice creativitatea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>implicația educațională majoră</strong><span class='tooltip-box'>Din logica little c.</span></span> a recunoașterii creativității la copii?",
+        options: [
+          "<span class='tip'>Creativitatea poate fi stimulată prin educație<span class='tooltip-box'>Intervențiile educaționale devin relevante și eficiente.</span></span>",
+          "<span class='tip'>Creativitatea nu trebuie evaluată sau încurajată<span class='tooltip-box'>Este contrazis de literatura educațională.</span></span>",
+          "<span class='tip'>Creativitatea apare doar la vârsta adultă<span class='tooltip-box'>Little c contrazice această idee.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q11",
+    title: "Manifestări timpurii ale creativității: joc, interese și profiluri",
+    questions: [
+      {
+        text: "Care sunt <span class='tip'><strong>primele manifestări creative</strong><span class='tooltip-box'>Menționate explicit în text.</span></span> ale copiilor?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Jocul simbolic<span class='tooltip-box'>Copilul folosește simboluri pentru a reprezenta realitatea.<br><br><strong>Exemplu:</strong> un băț devine sabie sau baghetă magică.</span></span>",
+          "<span class='tip'>Desenul<span class='tooltip-box'>Formă de expresie creativă informală, cu valoare personală.</span></span>",
+          "<span class='tip'>Producții cu valoare socială validată<span class='tooltip-box'>Apar mai târziu, nu sunt specifice copilăriei timpurii.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Cum sunt caracterizate <span class='tip'><strong>manifestările creative timpurii?</strong><span class='tooltip-box'>Din perspectiva valorii.</span></span>",
+        options: [
+          "<span class='tip'>Informale și orientate spre plăcere<span class='tooltip-box'>Au valoare personală, nu societală.</span></span>",
+          "<span class='tip'>Orientate spre recunoaștere publică și validare externă complexă, prin criterii sociale stricte<span class='tooltip-box'>Nu acesta este scopul lor.</span></span>",
+          "<span class='tip'>Dependente de evaluare standardizată<span class='tooltip-box'>Nu sunt evaluate formal.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce diferențiază <span class='tip'><strong>copiii cu scoruri ridicate la testele de creativitate?</strong><span class='tooltip-box'>Profiluri de interes.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Independența<span class='tooltip-box'>Tind să ia inițiativă și să exploreze singuri.</span></span>",
+          "<span class='tip'>Limbajul elaborat<span class='tooltip-box'>Mai bogat decât cel specific vârstei.</span></span>",
+          "<span class='tip'>Preferința pentru joc dramatic și exploratoriu<span class='tooltip-box'>Activități care implică imaginație și roluri.</span></span>",
+          "<span class='tip'>Interes exclusiv pentru jocuri sportive competitive<span class='tooltip-box'>Nu este caracteristic principal.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Cum se manifestă <span class='tip'><strong>creativitatea la vârsta școlară?</strong><span class='tooltip-box'>Indicatori comportamentali.</span></span>",
+        options: [
+          "<span class='tip'>Prin interese multiple și curiozitate<span class='tooltip-box'>Copiii sunt atenți la detalii și pun întrebări.</span></span>",
+          "<span class='tip'>Prin conformism și evitarea expresiei personale pentru a respecta strict cerințele formale ale școlii<span class='tooltip-box'>Aceasta poate bloca creativitatea.</span></span>",
+          "<span class='tip'>Prin orientarea exclusivă spre memorare<span class='tooltip-box'>Nu este un indicator al creativității.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce semnificație au <span class='tip'><strong>desenele și notițele marginale</strong><span class='tooltip-box'>În caietele elevilor.</span></span>?",
+        options: [
+          "<span class='tip'>Indicatori ai interesului și explorării<span class='tooltip-box'>Semne ale implicării și ale gândirii asociative.</span></span>",
+          "<span class='tip'>Lipsă de concentrare și dezinteres față de sarcina școlară în orice context posibil<span class='tooltip-box'>Interpretare rigidă.</span></span>",
+          "<span class='tip'>Comportamente deviante fără valoare educațională<span class='tooltip-box'>Nu este susținut de text.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum se modifică <span class='tip'><strong>profilul creativ</strong><span class='tooltip-box'>La adolescență.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Valorizarea originalității<span class='tooltip-box'>Devine criteriu important.</span></span>",
+          "<span class='tip'>Creșterea siguranței de sine<span class='tooltip-box'>Îndrăzneală și asumare.</span></span>",
+          "<span class='tip'>Perseverența<span class='tooltip-box'>Menținerea intereselor pe termen mai lung.</span></span>",
+          "<span class='tip'>Dispariția curiozității<span class='tooltip-box'>Contrazice profilul creativ.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q12",
+    title:
+      "Prietenul imaginar și lumile imaginare: indicatori ai creativității",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>prietenul imaginar?</strong><span class='tooltip-box'>Concept analizat în legătură cu creativitatea copilului.</span></span>",
+        options: [
+          "<span class='tip'>Un personaj căruia copilul îi atribuie gânduri și dorințe proprii<span class='tooltip-box'>Apare frecvent în jurul vârstei de 7 ani și este tratat ca o entitate distinctă.</span></span>",
+          "<span class='tip'>Un mecanism de evitare a relațiilor reale și a socializării normale pe termen lung<span class='tooltip-box'>Nu este definit astfel în literatura citată.</span></span>",
+          "<span class='tip'>Un semn sigur de dificultăți emoționale severe<span class='tooltip-box'>Aceasta este o interpretare eronată.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce au arătat <span class='tip'><strong>studiile despre prietenii imaginari</strong><span class='tooltip-box'>Hoff (2005).</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Scoruri mai mari la creativitate<span class='tooltip-box'>Copiii cu prieteni imaginari sunt mai creativi.</span></span>",
+          "<span class='tip'>Scoruri mai mici la starea de bine și interacțiunea socială<span class='tooltip-box'>Rezultat specific, dar nu patologic.</span></span>",
+          "<span class='tip'>Absența completă a jocului simbolic<span class='tooltip-box'>Contrazice definiția prietenului imaginar.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Ce sunt <span class='tip'><strong>lumile imaginare?</strong><span class='tooltip-box'>Formă elaborată de joc.</span></span>",
+        options: [
+          "<span class='tip'>Construcții fictive complexe<span class='tooltip-box'>Incluzând personaje, locuri, reguli și dovezi materiale precum hărți sau desene.</span></span>",
+          "<span class='tip'>Simple fantezii trecătoare fără structură sau continuitate<span class='tooltip-box'>Nu surprinde complexitatea fenomenului.</span></span>",
+          "<span class='tip'>Produse creative cu evaluare socială formală imediată<span class='tooltip-box'>Au valoare personală, nu instituțională.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt considerate <span class='tip'><strong>lumile imaginare</strong><span class='tooltip-box'>Indicatori ai creativității.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Activează imaginația și rezolvarea de probleme<span class='tooltip-box'>Copilul caută soluții și organizează informația.</span></span>",
+          "<span class='tip'>Implică perseverență și motivație intrinsecă<span class='tooltip-box'>Sunt menținute luni sau ani.</span></span>",
+          "<span class='tip'>Presupun leadership și implicare emoțională<span class='tooltip-box'>Copilul conduce și dezvoltă universul creat.</span></span>",
+          "<span class='tip'>Necesită validare socială constantă pentru a continua<span class='tooltip-box'>Contrar motivației intrinseci.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce ilustrează <span class='tip'><strong>exemplul lui C.S. Lewis</strong><span class='tooltip-box'>Autorul Narniei.</span></span>?",
+        options: [
+          "<span class='tip'>Legătura dintre lumi imaginare și creativitatea adultă<span class='tooltip-box'>Lumea Boxen a precedat creațiile literare mature.</span></span>",
+          "<span class='tip'>Necesitatea talentului înnăscut exclusiv pentru creativitate<span class='tooltip-box'>Textul susține potențialul și exersarea.</span></span>",
+          "<span class='tip'>Caracterul patologic al jocului imaginar<span class='tooltip-box'>Nu este susținut.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>logica de ansamblu</strong><span class='tooltip-box'>A jocului imaginar în dezvoltare.</span></span>?",
+        options: [
+          "<span class='tip'>Susține dezvoltarea creativă personală<span class='tooltip-box'>Are consecințe în plan cognitiv, emoțional și motivațional.<br><br><strong>Exemplu:</strong> copilul învață să creeze, să mențină și să transforme structuri complexe.</span></span>",
+          "<span class='tip'>Întârzie adaptarea socială și trebuie eliminat prin educație formală timpurie<span class='tooltip-box'>Abordare reductivă.</span></span>",
+          "<span class='tip'>Este relevant doar pentru divertisment, fără impact asupra dezvoltării ulterioare<span class='tooltip-box'>Contrazice datele prezentate.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q13",
+    title:
+      "Agenții implicați în stimularea sau blocarea creativității în școală",
+    questions: [
+      {
+        text: "Ce evidențiază analiza <span class='tip'><strong>creativității în școală?</strong><span class='tooltip-box'>Din perspectiva literaturii de specialitate.</span></span>",
+        options: [
+          "<span class='tip'>Interacțiunea mai multor agenți<span class='tooltip-box'>Creativitatea este influențată de elevi, profesori, managementul școlii, părinți și decidenți.<br><br><strong>Exemplu:</strong> chiar dacă elevul este curios, un climat rigid poate bloca manifestarea creativă.</span></span>",
+          "<span class='tip'>Responsabilitatea exclusivă a elevului de a fi creativ indiferent de context<span class='tooltip-box'>Abordare individualistă, neconformă cu modelele actuale.</span></span>",
+          "<span class='tip'>Determinarea exclusiv biologică a creativității<span class='tooltip-box'>Contrazice modelele educaționale și sistemice.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este rolul <span class='tip'><strong>elevului</strong><span class='tooltip-box'>Ca agent al creativității în școală.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Activarea potențialului creativ<span class='tooltip-box'>Prin curiozitate, implicare, adresarea de întrebări și căutarea de alternative.</span></span>",
+          "<span class='tip'>Blocarea creativității prin evitare și conformism<span class='tooltip-box'>Centrarea exclusivă pe răspunsul corect și evitarea riscurilor limitează creativitatea.</span></span>",
+          "<span class='tip'>Neutralitatea completă față de procesul educațional<span class='tooltip-box'>Elevul este agent activ, nu pasiv.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Cum pot <span class='tip'><strong>profesorii</strong><span class='tooltip-box'>Influența creativitatea elevilor.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Prin valorizarea originalității și flexibilității<span class='tooltip-box'>Profesorii pot crea un climat deschis și tolerant.</span></span>",
+          "<span class='tip'>Prin centrarea exclusivă pe răspunsul corect și pe greșeală<span class='tooltip-box'>Această abordare descurajează explorarea.</span></span>",
+          "<span class='tip'>Prin disponibilitate pentru întrebări și explorare<span class='tooltip-box'>Susține inițiativa și exprimarea creativă.</span></span>",
+        ],
+        answer: [0, 2],
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>managementul școlii?</strong><span class='tooltip-box'>Staff-ul managerial.</span></span>",
+        options: [
+          "<span class='tip'>Poate facilita sau bloca creativitatea<span class='tooltip-box'>Prin politici, organizare și priorități instituționale.<br><br><strong>Exemplu:</strong> accent exclusiv pe rezultate standardizate limitează inovația didactică.</span></span>",
+          "<span class='tip'>Are un rol strict administrativ, fără impact educațional<span class='tooltip-box'>Contrazice analiza sistemică.</span></span>",
+          "<span class='tip'>Este responsabil doar de evaluarea profesorilor<span class='tooltip-box'>Rolul său este mai larg.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce sunt relevanți <span class='tip'><strong>părinții și decidenții</strong><span class='tooltip-box'>Agenți indirecți.</span></span> în creativitatea școlară?",
+        options: [
+          "<span class='tip'>Influențează valorile și resursele disponibile<span class='tooltip-box'>Pot susține sau limita inițiativele creative prin așteptări și politici educaționale.</span></span>",
+          "<span class='tip'>Intervin direct în fiecare activitate de la clasă<span class='tooltip-box'>Rolul lor este contextual, nu operațional.</span></span>",
+          "<span class='tip'>Nu au niciun impact asupra mediului educațional<span class='tooltip-box'>Afirmație eronată.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>logica de ansamblu?</strong><span class='tooltip-box'>Creativitatea ca fenomen educațional.</span></span>",
+        options: [
+          "<span class='tip'>Creativitatea este rezultatul unui sistem<span class='tooltip-box'>Ea apare sau este blocată prin interacțiunea dintre elev, profesor, școală și context.<br><br><strong>Exemplu:</strong> inițiativele creative individuale au nevoie de susținere instituțională.</span></span>",
+          "<span class='tip'>Creativitatea depinde doar de talentul elevului<span class='tooltip-box'>Abordare simplistă.</span></span>",
+          "<span class='tip'>Creativitatea este incompatibilă cu școala formală<span class='tooltip-box'>Contrazice demersurile de stimulare prezentate.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q14",
+    title: "Obstacole și mecanisme de blocare a creativității în școală",
+    questions: [
+      {
+        text: "Ce exprimă <span class='tip'><strong>blocarea creativității în școală?</strong><span class='tooltip-box'>În raport cu practicile educaționale curente.</span></span>",
+        options: [
+          "<span class='tip'>Limitarea explorării și a inițiativei<span class='tooltip-box'>Creativitatea este inhibată atunci când sunt descurajate riscul, întrebările și alternativele.<br><br><strong>Exemplu:</strong> elevul evită să propună idei de teamă să nu greșească.</span></span>",
+          "<span class='tip'>Absența completă a capacităților creative la elevi<span class='tooltip-box'>Capacitatea există, dar poate fi inhibată.</span></span>",
+          "<span class='tip'>Un efect inevitabil al dezvoltării cognitive<span class='tooltip-box'>Nu este un fenomen natural inevitabil.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum poate <span class='tip'><strong>elevul</strong><span class='tooltip-box'>Prin propriile conduite.</span></span> să blocheze creativitatea?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Căutând doar răspunsul corect<span class='tooltip-box'>Reduce explorarea și gândirea divergentă.</span></span>",
+          "<span class='tip'>Evitând riscurile și experimentarea<span class='tooltip-box'>Creativitatea presupune încercare și eroare.</span></span>",
+          "<span class='tip'>Extinzându-și interesele și curiozitatea<span class='tooltip-box'>Aceasta favorizează creativitatea.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Care sunt <span class='tip'><strong>convingerile profesorilor</strong><span class='tooltip-box'>Cu efect blocant.</span></span> asupra creativității?",
+        multiple: true,
+        options: [
+          "<span class='tip'>Creativitatea este doar pentru genii<span class='tooltip-box'>Această viziune exclude little c.</span></span>",
+          "<span class='tip'>Metodele creative generează haos și pierdere de control<span class='tooltip-box'>Temere frecvent menționată în text.</span></span>",
+          "<span class='tip'>Creativitatea sprijină învățarea profundă<span class='tooltip-box'>Aceasta este o convingere facilitatoare.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+
+      {
+        text: "Cum poate <span class='tip'><strong>școala</strong><span class='tooltip-box'>Ca instituție.</span></span> să devină un factor de blocaj?",
+        options: [
+          "<span class='tip'>Prin conformism și rutină<span class='tooltip-box'>Uniformitatea și procedeele rigide limitează inovația.</span></span>",
+          "<span class='tip'>Prin susținerea inițiativelor individuale<span class='tooltip-box'>Aceasta este o condiție favorizantă.</span></span>",
+          "<span class='tip'>Prin promovarea colaborării<span class='tooltip-box'>Colaborarea susține creativitatea.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "De ce este <span class='tip'><strong>evaluarea exclusiv cognitivă</strong><span class='tooltip-box'>Bazată pe rezultate standardizate.</span></span> problematică?",
+        options: [
+          "<span class='tip'>Ignoră dimensiunile creative<span class='tooltip-box'>Creativitatea implică proces, explorare și emoție, nu doar rezultate imediate.</span></span>",
+          "<span class='tip'>Încurajează diversitatea soluțiilor<span class='tooltip-box'>Dimpotrivă, favorizează uniformitatea.</span></span>",
+          "<span class='tip'>Sprijină riscul și experimentarea<span class='tooltip-box'>Acestea sunt adesea penalizate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>logica de ansamblu?</strong><span class='tooltip-box'>Blocarea creativității.</span></span>",
+        options: [
+          "<span class='tip'>Creativitatea poate fi inhibată sistemic<span class='tooltip-box'>Atunci când elevii, profesorii și instituția favorizează siguranța și predictibilitatea în detrimentul explorării.<br><br><strong>Exemplu:</strong> predare rigidă, evaluare standardizată, lipsă de autonomie.</span></span>",
+          "<span class='tip'>Creativitatea dispare natural odată cu vârsta<span class='tooltip-box'>Afirmație nefondată.</span></span>",
+          "<span class='tip'>Blocarea creativității este exclusiv responsabilitatea elevului<span class='tooltip-box'>Contrazice abordarea sistemică.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "phed-u13-q15",
+    title: "Condiții și metode de stimulare a creativității în școală",
+    questions: [
+      {
+        text: "Ce evidențiază <span class='tip'><strong>analiza condițiilor de stimulare a creativității?</strong><span class='tooltip-box'>În literatura pedagogică.</span></span>",
+        options: [
+          "<span class='tip'>Creativitatea poate fi susținută intenționat<span class='tooltip-box'>Prin organizarea contextului educațional și a relațiilor de învățare.<br><br><strong>Exemplu:</strong> alternarea sarcinilor structurate cu cele deschise.</span></span>",
+          "<span class='tip'>Creativitatea apare doar spontan și nu poate fi influențată educațional<span class='tooltip-box'>Această idee este contrazisă de cercetări.</span></span>",
+          "<span class='tip'>Creativitatea depinde exclusiv de talentul nativ al elevului<span class='tooltip-box'>Modelele educaționale includ factori contextuali.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Selectează <span class='tip'><strong>condițiile propuse de Starko (2005)</strong><span class='tooltip-box'>Pentru promovarea creativității în școală.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'>Participarea elevilor la stabilirea obiectivelor<span class='tooltip-box'>Crește autonomia și responsabilitatea față de învățare.</span></span>",
+          "<span class='tip'>Încurajarea dezbaterii și a diferențelor de opinie<span class='tooltip-box'>Acceptarea pluralității de perspective.</span></span>",
+          "<span class='tip'>Alternarea sarcinilor structurate și nestructurate<span class='tooltip-box'>Permite atât siguranță, cât și explorare.</span></span>",
+          "<span class='tip'>Eliminarea timpului de reflecție pentru eficiență<span class='tooltip-box'>Reflecția este necesară consolidării.</span></span>",
+          "<span class='tip'>Alternarea sarcinilor individuale și de echipă<span class='tooltip-box'>Susține colaborarea și inițiativa.</span></span>",
+        ],
+        answer: [0, 1, 2, 4],
+      },
+
+      {
+        text: "De ce este important <span class='tip'><strong>timpul de reflecție?</strong><span class='tooltip-box'>După activitatea de învățare.</span></span>",
+        options: [
+          "<span class='tip'>Consolidează experiența creativă<span class='tooltip-box'>Elevul înțelege ce a făcut, ce a funcționat și ce poate fi îmbunătățit.<br><br><strong>Exemplu:</strong> discuție de final despre soluțiile găsite.</span></span>",
+          "<span class='tip'>Încetinește inutil procesul de predare<span class='tooltip-box'>Este o etapă esențială, nu o pierdere de timp.</span></span>",
+          "<span class='tip'>Are rol exclusiv evaluativ<span class='tooltip-box'>Rolul său este formativ.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Cum contribuie <span class='tip'><strong>proiectele complexe</strong><span class='tooltip-box'>Cu componentă socială și emoțională.</span></span> la creativitate?",
+        options: [
+          "<span class='tip'>Integrează mai multe dimensiuni ale învățării<span class='tooltip-box'>Nu doar cognitivă, ci și relațională și emoțională.<br><br><strong>Exemplu:</strong> proiecte cu impact comunitar.</span></span>",
+          "<span class='tip'>Se concentrează exclusiv pe acumularea de informații<span class='tooltip-box'>Contrazice logica proiectelor complexe.</span></span>",
+          "<span class='tip'>Sunt potrivite doar pentru elevi foarte performanți<span class='tooltip-box'>Creativitatea este accesibilă tuturor.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Ce rol are <span class='tip'><strong>modelul profesorului?</strong><span class='tooltip-box'>În stimularea creativității.</span></span>",
+        options: [
+          "<span class='tip'>Transmite atitudini creative<span class='tooltip-box'>Pasiunea, curiozitatea și deschiderea profesorului sunt imitate de elevi.<br><br><strong>Exemplu:</strong> profesorul experimentează metode noi.</span></span>",
+          "<span class='tip'>Este irelevant, deoarece creativitatea este strict individuală<span class='tooltip-box'>Modelarea socială este importantă.</span></span>",
+          "<span class='tip'>Se limitează la respectarea strictă a programei<span class='tooltip-box'>Creativitatea presupune flexibilitate.</span></span>",
+        ],
+        answer: 0,
+      },
+
+      {
+        text: "Care este <span class='tip'><strong>logica de ansamblu?</strong><span class='tooltip-box'>Stimularea creativității în școală.</span></span>",
+        options: [
+          "<span class='tip'>Creativitatea este cultivabilă educațional<span class='tooltip-box'>Prin climat, relații, sarcini și modele oferite elevilor.<br><br><strong>Exemplu:</strong> școala devine un spațiu al explorării și al sensului.</span></span>",
+          "<span class='tip'>Creativitatea este incompatibilă cu evaluarea școlară<span class='tooltip-box'>Evaluarea poate fi adaptată creativ.</span></span>",
+          "<span class='tip'>Creativitatea trebuie lăsată exclusiv în afara școlii<span class='tooltip-box'>Contrazice rolul educației.</span></span>",
         ],
         answer: 0,
       },
@@ -1823,7 +6342,7 @@ window.PHED_FLASHCARDS = {
         {
           front:
             "Menționează tipurile de abordări teoretice ale personalității",
-          back: "• <span class='tip'><strong>abordări psihanalitice și neopsihanalitice</strong> – conflict intrapsihic<span class='tooltip-box'>Explică personalitatea prin conflicte interne dintre pulsiuni, trebuințe și constrângeri sociale, cu accent pe importanța experiențelor timpurii și a dezvoltării stadiale.<br><br><strong>Exemplu:</strong> influența relației cu figurile parentale asupra structurii personalității adulte (Freud, Jung, Adler, Horney, Fromm).</span></span><br>• <span class='tip'><strong>abordări behavioriste și socio cognitive</strong> – învățare și autoreglare<span class='tooltip-box'>Explică personalitatea prin mecanisme de învățare, întăriri, feedback și autoreglare comportamentală, punând accent pe interacțiunea dintre comportament și mediu.<br><br><strong>Exemplu:</strong> comportamente consolidate prin recompensă sau modelare socială (Skinner, Rotter, Bandura).</span></span><br>• <span class='tip'><strong>abordări umaniste</strong> – auto realizare<span class='tooltip-box'>Pun accent pe autenticitate, experiența subiectivă și tendința naturală a individului spre dezvoltare personală și împlinire.<br><br><strong>Exemplu:</strong> orientarea spre sens, congruență și creștere personală (Rogers, Maslow).</span></span><br>• <span class='tip'><strong>abordări cognitive</strong> – interpretare personală<span class='tooltip-box'>Văd individul ca interpret activ al realității, care construiește sens prin scheme și constructe personale.<br><br><strong>Exemplu:</strong> aceeași situație este interpretată diferit de persoane diferite în funcție de constructele lor cognitive (Kelly).</span></span><br>• <span class='tip'><strong>abordări ale trăsăturilor</strong> – regularități comportamentale<span class='tooltip-box'>Descriu personalitatea prin trăsături relativ stabile, organizate factorial, cu valoare predictivă pentru comportamentele viitoare.<br><br><strong>Exemplu:</strong> consistența comportamentală explicată prin factori de personalitate (Allport, Cattell, Eysenck, Costa și McCrae).</span></span>",
+          back: "• <span class='tip'><strong>abordări psihanalitice și neopsihanalitice</strong> – conflict intrapsihic<span class='tooltip-box'>Explică personalitatea prin conflicte interne dintre pulsiuni, trebuințe și constrângeri sociale, cu accent pe importanța experiențelor timpurii și a dezvoltării stadiale.<br><br><strong>Exemplu:</strong> influența relației cu figurile parentale asupra structurii personalității adulte (Freud, Jung, Adler, Horney, Fromm).</span></span><br>• <span class='tip'><strong>abordări behavioriste și socio-cognitive</strong> – învățare și autoreglare<span class='tooltip-box'>Explică personalitatea prin mecanisme de învățare, întăriri, feedback și autoreglare comportamentală, punând accent pe interacțiunea dintre comportament și mediu.<br><br><strong>Exemplu:</strong> comportamente consolidate prin recompensă sau modelare socială (Skinner, Rotter, Bandura).</span></span><br>• <span class='tip'><strong>abordări umaniste</strong> – auto realizare<span class='tooltip-box'>Pun accent pe autenticitate, experiența subiectivă și tendința naturală a individului spre dezvoltare personală și împlinire.<br><br><strong>Exemplu:</strong> orientarea spre sens, congruență și creștere personală (Rogers, Maslow).</span></span><br>• <span class='tip'><strong>abordări cognitive</strong> – interpretare personală<span class='tooltip-box'>Văd individul ca interpret activ al realității, care construiește sens prin scheme și constructe personale.<br><br><strong>Exemplu:</strong> aceeași situație este interpretată diferit de persoane diferite în funcție de constructele lor cognitive (Kelly).</span></span><br>• <span class='tip'><strong>abordări ale trăsăturilor</strong> – regularități comportamentale<span class='tooltip-box'>Descriu personalitatea prin trăsături relativ stabile, organizate factorial, cu valoare predictivă pentru comportamentele viitoare.<br><br><strong>Exemplu:</strong> consistența comportamentală explicată prin factori de personalitate (Allport, Cattell, Eysenck, Costa și McCrae).</span></span>",
         },
         {
           front: "Menționează rolul și organizarea trăsăturilor la Allport",
@@ -1836,7 +6355,7 @@ window.PHED_FLASHCARDS = {
         },
         {
           front: "Definește relația dintre ereditate și mediu în personalitate",
-          back: "<span class='tip'><strong>Relația ereditate–mediu</strong> – ereditatea oferă predispoziții, mediul modelează exprimarea lor. Nici ereditatea, nici mediul nu determină singure personalitatea.<span class='tooltip-box'>Personalitatea se dezvoltă prin interacțiunea continuă dintre predispozițiile biologice moștenite și influențele mediului, care pot amplifica, tempera sau redirecționa aceste predispoziții.<br><br><strong>Exemplu:</strong> un copil cu reactivitate emoțională ridicată poate deveni impulsiv sau, într un mediu structurat, poate învăța autoreglarea.</span></span>",
+          back: "<span class='tip'><strong>Relația ereditate–mediu</strong> – ereditatea oferă predispoziții, mediul modelează exprimarea lor. Nici ereditatea, nici mediul nu determină singure personalitatea.<span class='tooltip-box'>Personalitatea se dezvoltă prin interacțiunea continuă dintre predispozițiile biologice moștenite și influențele mediului, care pot amplifica, tempera sau redirecționa aceste predispoziții.<br><br><strong>Exemplu:</strong> un copil cu reactivitate emoțională ridicată poate deveni impulsiv sau, într-un mediu structurat, poate învăța autoreglarea.</span></span>",
         },
         {
           front:
@@ -1877,6 +6396,151 @@ window.PHED_FLASHCARDS = {
           front:
             "Explică rolul feedbackului, a laudei și strategiile educaționale pentru încrederea în sine",
           back: "Feedbackul are rol de <span class='tip'><strong>reglare a stimei de sine</strong><span class='tooltip-box'>Feedbackul susține formarea și reglarea stimei de sine prin informații despre competență, progres și pași de îmbunătățire. Nu fixează rigid valoarea personală și nu determină inteligența.<br><br><strong>Exemplu:</strong> elevul își ajustează percepția despre sine pe baza progresului observat, nu doar a rezultatului final.</span></span>, fiind cel mai eficient când este <span class='tip'><strong>centrat pe proces</strong><span class='tooltip-box'>Feedbackul centrat pe proces pune accent pe strategie, efort și pașii concreți care pot fi îmbunătățiți, susținând perseverența și motivația.<br><br><strong>Exemplu:</strong> „Ai încercat mai multe variante și ai corectat greșelile pe parcurs.”</span></span>. <br><br>Lauda are un <span class='tip'><strong>efect condiționat de formulare</strong><span class='tooltip-box'>Lauda poate sprijini sau fragiliza stima de sine în funcție de conținut: lauda globală, centrată pe persoană, poate duce la dependență de validare și evitare a eșecului, iar lauda specifică, centrată pe proces, susține dezvoltarea.<br><br><strong>Exemplu:</strong> „Ai perseverat și ai ales o strategie eficientă” versus „Ești foarte inteligent.”</span></span>, iar formularea optimă pune accent pe <span class='tip'><strong>strategie și efort</strong><span class='tooltip-box'>Formulările orientate spre strategie, efort și perseverență susțin cel mai bine încrederea în sine și autoreglarea.<br><br><strong>Exemplu:</strong> „Ai ales o strategie bună și ai continuat chiar când a fost dificil.”</span></span>. <br><br>Profesorul poate construi un <span class='tip'><strong>climat educațional de sprijin</strong><span class='tooltip-box'>Strategii eficiente: oportunitatea de a alege, activități cu reușită și complexitate graduală, monitorizarea progresului, obiective realiste și individualizate, toleranță față de greșeli cu corectare, promovarea punctelor de vedere diferite. Compararea publică este contraindicată.<br><br><strong>Exemplu:</strong> sarcini diferențiate și feedback individualizat pe pași de îmbunătățire.</span></span> și poate gestiona eșecul prin <span class='tip'><strong>reîncadrare și normalizare</strong><span class='tooltip-box'>Sprijinul în eșec se face prin reîncadrare cognitivă, exemple relevante și normalizarea dificultăților, nu prin sancționare sau ignorare.<br><br><strong>Exemplu:</strong> „E normal să fie greu la început, hai să vedem ce pas putem schimba.”</span></span>.",
+        },
+      ],
+    },
+  ],
+  "phed-u6": [
+    {
+      id: "phed-u6-deck1",
+      title: "U6 Flashcards",
+      cards: [
+        {
+          front: "Explică condiționarea operantă la B. F. Skinner",
+          back: "În <span class='tip'><strong>condiționarea operantă</strong><span class='tooltip-box'>La B. F. Skinner, condiționarea operantă este un cadru experimental care studiază comportamentul în funcție de efectele sale. Întrebarea centrală este: „Ce se întâmplă după comportament?”</span></span>, comportamentul este analizat ca <strong>acțiune activă</strong> a organismului asupra mediului. Această acțiune se numește <span class='tip'><strong>operant</strong><span class='tooltip-box'><strong>Operant</strong> înseamnă comportament emis voluntar, nu reflex. De exemplu: rezolvi o sarcină, apeși un buton, ridici mâna.</span></span> și este urmată de <span class='tip'><strong>o consecință</strong><span class='tooltip-box'><strong>Consecința</strong> este orice apare după comportament: feedback, punctaj, recompensă, sancțiune, dispariția unei sarcini neplăcute sau lipsa reacției.</span></span>.<br><br><span class='tip'><strong>Consecințele</strong><span class='tooltip-box'>În condiționarea operantă, comportamentul nu este explicat prin intenții sau motivații interne, ci prin efectele observabile ale consecințelor.</span></span> modifică probabilitatea apariției viitoare a comportamentului. <span class='tip'><strong>Întărirea</strong><span class='tooltip-box'><strong>Întărirea</strong> este o consecință care face comportamentul mai probabil în viitor. Nu contează ce intenție are adultul, ci ce se întâmplă efectiv cu comportamentul.</span></span> este <strong>tipul de consecință</strong> care <span class='tip'><strong>crește</strong><span class='tooltip-box'>Criteriul este frecvența: dacă după consecință comportamentul apare mai des, consecința a funcționat ca întărire.</span></span> frecvența comportamentului. Dacă o consecință <strong>nu</strong> crește comportamentul, atunci <strong>nu</strong> este întărire, chiar dacă este percepută ca „recompensă”.<span class='tip'><strong> Pe scurt</strong><span class='tooltip-box'>Consecință = ce urmează după comportament.<br>Întărire = consecință care crește comportamentul.<br>Pedeapsă = consecință care scade comportamentul.<br>Stingere = comportamentul scade deoarece nu mai este urmat de consecințe relevante.</span></span><br><br><span class='tip'><strong>Programele de întărire</strong><span class='tooltip-box'><strong>Program de întărire</strong> înseamnă regula după care apar consecințele: la fiecare răspuns, după un anumit număr de răspunsuri sau după un interval de timp. <br><br><strong>Exemplu:</strong> la început, feedback după fiecare temă rezolvată. Ulterior, feedback mai rar, dar suficient pentru a menține comportamentul.</span></span> descriu modul în care consecințele sunt organizate pentru a forma și menține comportamentele.",
+        },
+        {
+          front:
+            "Compară constructivismul cognitiv la Jean Piaget cu constructivismul social la Lev Vîgotski",
+          back: "<span class='tip'><strong>Jean Piaget</strong><span class='tooltip-box'>În constructivismul cognitiv, dezvoltarea cognitivă precede învățarea: copilul poate învăța eficient doar ceea ce este compatibil cu nivelul său actual de dezvoltare intelectuală.</span></span> vede învățarea ca <span class='tip'><strong>descoperire și reconstrucție internă</strong><span class='tooltip-box'>Cunoașterea se construiește prin dezechilibru și echilibrare: când realitatea nu mai poate fi explicată cu schemele existente, acestea sunt reorganizate.</span></span>, iar profesorul este mai ales <span class='tip'><strong>creator de contexte de explorare</strong><span class='tooltip-box'>Profesorul propune situații problematice adecvate nivelului de dezvoltare, fără a accelera artificial procesele cognitive.</span></span>.<br><br><span class='tip'><strong>Lev Vîgotski</strong><span class='tooltip-box'>În constructivismul social, învățarea poate preceda și stimula dezvoltarea cognitivă atunci când este sprijinită social.</span></span> pune accent pe <span class='tip'><strong>mediere socială</strong><span class='tooltip-box'>Învățarea are loc prin limbaj, cooperare și ghidaj, fiind internalizată treptat de elev.</span></span>, iar profesorul este <span class='tip'><strong>mediator și ghid</strong><span class='tooltip-box'>Profesorul intervine în <strong>zona proximei dezvoltări</strong>: spațiul dintre ceea ce elevul poate face singur și ceea ce poate face cu ajutor, retrăgând sprijinul progresiv.</span></span>.<br><br><span class='tip'><strong>Diferența cheie</strong><span class='tooltip-box'>La Piaget, dezvoltarea stabilește limitele învățării. La Vîgotski, învățarea ghidată poate antrena și accelera dezvoltarea cognitivă.</span></span> este relația dintre dezvoltare și învățare.",
+        },
+        {
+          front:
+            "Explică învățarea transformatoare la Jack Mezirow, ce se transformă și de ce contează discursul ideal la habermas",
+          back: "<span class='tip'><strong>Învățarea transformatoare</strong><span class='tooltip-box'>La Jack Mezirow, învățarea profundă nu înseamnă doar informație nouă, ci schimbarea felului în care interpretăm lumea și pe noi înșine.</span></span> apare când se schimbă <span class='tip'><strong>cadrele de referință</strong><span class='tooltip-box'><strong>Cadre de referință</strong> înseamnă lentilele culturale și de limbaj prin care dăm sens lucrurilor. Ele filtrează ce observăm, cum gândim și cum simțim și preformează intenții, credințe și așteptări.</span></span>, mai ales cele problematice, rigide sau prea înguste. Scopul este ca aceste cadre să devină <span class='tip'><strong>mai cuprinzătoare, mai deschise și mai reflexive</strong><span class='tooltip-box'>Rezultatul dorit este o perspectivă mai flexibilă și mai realistă, capabilă să se ajusteze când apar dovezi noi sau situații noi.</span></span>.<br><br>Legătura cu <span class='tip'><strong>Habermas</strong><span class='tooltip-box'>Mezirow susține că transformarea are nevoie de discuție rațională și reflecție critică. Ideea de discurs ideal la Habermas explică ce condiții trebuie să existe ca oamenii să poată verifica argumente fără frică și fără presiune, altfel nu își pot pune la îndoială presupunerile în mod real.</span></span> este că transformarea se sprijină pe <span class='tip'><strong>discurs informat</strong><span class='tooltip-box'>Un discurs bun înseamnă informații corecte, libertate de exprimare, șanse egale de participare și evaluarea critică a argumentelor. Fără asta, oamenii rămân blocați în poziții apărate emoțional sau impuse social.</span></span>.<br><br><span class='tip'><strong>Rolul profesorului</strong><span class='tooltip-box'>Profesorul oferă sprijin pentru reflecție și dialog, pune întrebări care scot la suprafață presupuneri și antrenează abilități de argumentare și evaluare critică.</span></span> este să ajute elevul să poată intra în acest tip de reflecție și discuție.",
+        },
+
+        {
+          front:
+            "Definește învățarea integrată, ce dimensiuni combină și de ce e considerată premisă pentru competențe",
+          back: "<span class='tip'><strong>Învățarea integrată</strong><span class='tooltip-box'>Învățarea integrată descrie învățarea ca proces complex, legat de experiență și de implicarea reală a persoanei într-un mediu social, nu doar ca acumulare de informație.</span></span> este o premisă pentru competențe deoarece îmbină simultan <span class='tip'><strong>dimensiunea cognitivă</strong><span class='tooltip-box'>Ce înțeleg și cum organizez ideile.</span></span>, <span class='tip'><strong>dimensiunea emoțională</strong><span class='tooltip-box'>Ce simt și cum influențează asta atenția, motivația și perseverența.</span></span>, <span class='tip'><strong>dimensiunea socială</strong><span class='tooltip-box'>Cum învăț în interacțiune cu alții, prin colaborare, feedback și norme de grup.</span></span> și <span class='tip'><strong>dimensiunea acțională</strong><span class='tooltip-box'>Ce fac efectiv, aplicare, practică, comportamente observabile.</span></span>.<br><br>Acționează atât la nivelul <span class='tip'><strong>solicitărilor</strong><span class='tooltip-box'>Adică felul în care sunt construite sarcinile, ce cer ele simultan, gândire, emoție, cooperare, acțiune.</span></span>, cât și la nivelul <span class='tip'><strong>rezultatelor așteptate</strong><span class='tooltip-box'>Rezultatele nu sunt doar cunoștințe, ci și valori, atitudini, competențe și comportamente.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un proiect de echipă cere înțelegerea ideilor, gestionarea emoțiilor, cooperare și livrarea unui produs concret, iar rezultatul se vede în competențe, nu doar în răspunsuri la test.</span></span>",
+        },
+
+        {
+          front:
+            "Explică teoria învățării prin experiență la David Kolb și stilurile de învățare",
+          back: "<span class='tip'><strong>Învățarea prin experiență</strong><span class='tooltip-box'>Kolb definește învățarea ca proces în care cunoștințele sunt create prin transformarea experienței. Practic, trăiești ceva, te gândești la ce s-a întâmplat, scoți idei mai generale, apoi testezi ideile înapoi în realitate.</span></span> este organizată pe <span class='tip'><strong>două axe fundamentale</strong><span class='tooltip-box'>Kolb descrie învățarea ca rezultatul intersectării dintre modul în care este trăită experiența și modul în care este prelucrată.</span></span>:<br><span class='tip'>Experiență concretă<span class='tooltip-box'>Trăiesc efectiv situația, fac, particip, simt contextul.</span></span> ↔ <span class='tip'>conceptualizare abstractă<span class='tooltip-box'>Formez idei, reguli, explicații, generalizez ca să pot aplica și în alte situații.</span></span><br><span class='tip'>Reflecție<span class='tooltip-box'>Mă uit înapoi, observ consecințe, îmi dau seama ce a mers și ce nu.</span></span> ↔ <span class='tip'>experimentare activă<span class='tooltip-box'>Testez ideile prin acțiune, aplic, verific dacă funcționează.</span></span>.<br><br>Din combinarea acestor axe rezultă <span class='tip'><strong>stiluri de învățare</strong><span class='tooltip-box'>Inițial, Kolb a presupus că fiecare persoană este caracterizată predominant de un singur stil de învățare.</span></span>.<br>Ulterior, Kolb a susținut că <span class='tip'><strong>învățarea este integrată</strong><span class='tooltip-box'>Oamenii pot activa toate stilurile, în funcție de context, sarcină și experiență. Dezvoltarea optimă presupune utilizarea flexibilă a tuturor modurilor de învățare.</span></span> și poate antrena toate stilurile:<br><span class='tip'><strong> divergent</strong><span class='tooltip-box'>Experiență concretă plus reflecție. Bun la brainstorming și la văzut perspective multiple. Exemplu, adună idei dintr o discuție de grup și le leagă creativ.</span></span>, <span class='tip'><strong> asimilator</strong><span class='tooltip-box'>Conceptualizare abstractă plus reflecție. Preferă teorii coerente și modele logice. Exemplu, organizează informația într-o schemă și caută consistență.</span></span>, <span class='tip'><strong> convergent</strong><span class='tooltip-box'>Conceptualizare abstractă plus experimentare activă. Caută soluția practică și testarea ei. Exemplu, folosește o regulă ca să rezolve rapid o problemă.</span></span>, <span class='tip'><strong> acomodator</strong><span class='tooltip-box'>Experiență concretă plus experimentare activă. Învață făcând și ajustând pe parcurs. Exemplu, încearcă direct mai multe variante până găsește ce funcționează.</span></span>",
+        },
+        {
+          front:
+            "Definește învățarea personalizată, ce se adaptează, ce pași are și de ce ajută autoreglarea și potențialul elevului",
+          back: "<span class='tip'><strong>Învățarea personalizată</strong><span class='tooltip-box'>Învățarea personalizată înseamnă că demersul educațional este adaptat fiecărui elev, iar obiectivele, metodele și conținutul variază în funcție de ritm, nevoi și interese.</span></span> pune elevul în centru, cu ritmul lui, interesele lui și strategiile lui de gestionare a învățării.<br><br>Ideea cheie este plasarea potențialului în <span class='tip'><strong>zona proximei dezvoltări</strong><span class='tooltip-box'>Adică acel nivel la care elevul poate reuși cu sprijin potrivit, iar apoi devine autonom. Nu e prea ușor, nu e imposibil.</span></span>.<br><br><span class='tip'><strong>Pași tipici</strong><span class='tooltip-box'>Toți elevii sunt implicați în experiențe personalizate, se măsoară performanța în funcție de situație, se raportează la standarde academice și personale sociale, se personalizează după nevoi reale, apoi se reevaluează pentru ajustare.</span></span> includ participare, măsurare, raportare la standarde, adaptare și reevaluare.<span class='tip'><strong> De ce funcționează?</strong><span class='tooltip-box'>Crește relevanța și sensul, permite alegere și control, susține autoreglarea, iar tehnologia poate oferi feedback imediat și frecvent. Exemplu, elevul alege sarcina potrivită nivelului lui și primește feedback rapid ca să își corecteze strategia.</span></span>",
+        },
+      ],
+    },
+  ],
+  "phed-u7": [
+    {
+      id: "phed-u7-deck1",
+      title: "U7 Flashcards",
+      cards: [
+        {
+          front: "Explică factorii non cognitivi și rolul lor în învățare",
+          back: "Factorii <span class='tip'><strong>non cognitivi</strong><span class='tooltip-box'>Sunt influențe care nu țin direct de procesele de gândire, dar schimbă masiv rezultatele învățării.<br><br><strong>Exemplu:</strong> doi elevi cu nivel cognitiv similar pot avea rezultate diferite din cauza motivației, emoțiilor sau atitudinilor.</span></span> includ <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Dorință plus energie pentru a acționa și a continua.</span></span>, <span class='tip'><strong>emoțiile</strong><span class='tooltip-box'>Stări care pot facilita sau bloca implicarea.</span></span>, <span class='tip'><strong>atitudinile</strong><span class='tooltip-box'>Dispoziții stabile favorabile sau nefavorabile față de sarcini.</span></span> și <span class='tip'><strong>metacogniția</strong><span class='tooltip-box'>Monitorizare și reglare conștientă a învățării.</span></span>. Ei interacționează cu factorii cognitivi și pot susține sau sabota performanța.",
+        },
+
+        {
+          front: "Explică teoria expectanță - valoare la Eccles",
+          back: "În teoria <span class='tip'><strong>expectanță - valoare</strong><span class='tooltip-box'>Motivația depinde de două evaluări: probabilitatea percepută de succes și valoarea atribuită sarcinii.</span></span>, elevul se implică dacă <span class='tip'><strong>se așteaptă să reușească</strong><span class='tooltip-box'>Dacă probabilitatea percepută este zero, motivația devine zero.</span></span> și dacă <span class='tip'><strong>sarcina are valoare</strong><span class='tooltip-box'>Valoarea poate fi interes, importanță personală, utilitate sau atractivitate.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Dacă elevul crede că poate lua o notă decentă și vede sensul lecției, e mult mai probabil să depună efort.</span></span>",
+        },
+        {
+          front: "Rezuma teoria auto-determinării la Ryan și Deci",
+          back: "Teoria <span class='tip'><strong>auto-determinării</strong><span class='tooltip-box'>Spune că oamenii sunt orientați spre creștere psihologică, iar motivația sănătoasă apare când sunt satisfăcute nevoi psihologice de bază.</span></span> cere trei nevoi: <span class='tip'><strong>autonomie</strong><span class='tooltip-box'>Inițiativă și control asupra acțiunilor.<br><br><strong>Exemplu:</strong> elevul are opțiuni reale în cum lucrează.</span></span>, <span class='tip'><strong>competență</strong><span class='tooltip-box'>Sentimentul că poate reuși.<br><br><strong>Exemplu:</strong> provocări potrivite plus feedback pozitiv.</span></span>, <span class='tip'><strong>relaționare</strong><span class='tooltip-box'>Apartenență și conexiune.<br><br><strong>Exemplu:</strong> respect și grijă în clasă.</span></span>.<br><br>Motivația merge de la <span class='tip'><strong>amotivație</strong><span class='tooltip-box'>Lipsă de competență, valoare și relevanță.</span></span> spre forme tot mai <span class='tip'><strong>internalizate</strong><span class='tooltip-box'>Reguli externe sunt asumate ca fiind proprii, treptat.</span></span> până la <span class='tip'><strong>motivație intrinsecă</strong><span class='tooltip-box'>Interes, plăcere, satisfacție inerentă activității.</span></span>.",
+        },
+        {
+          front: "Explică gamification și starea de flux în învățare",
+          back: "<span class='tip'><strong>Gamification</strong><span class='tooltip-box'>Folosirea elementelor motivaționale ale jocurilor în contexte non joc, ca învățarea.</span></span> poate susține <span class='tip'><strong>autonomia</strong><span class='tooltip-box'>Alegere și inițiativă în sarcină.</span></span> și <span class='tip'><strong>competența</strong><span class='tooltip-box'>Progres vizibil și feedback imediat.</span></span> dacă obiectivele sunt <span class='tip'><strong>provocatoare dar gestionabile</strong><span class='tooltip-box'>Dacă e prea greu sau prea ușor apare apatie sau plictiseală.</span></span>.<br><br><span class='tip'><strong>Flux - absorbție în activitate</strong><span class='tooltip-box'>Absorbție profundă într-o activitate intrinsec plăcută, când provocarea și abilitățile sunt în echilibru.<br><br><strong>Exemplu:</strong> elevul uită de timp în timp ce rezolvă un nivel sau o problemă.</span></span>",
+        },
+        {
+          front: "Explică Piramida nevoilor la Maslow și frustrarea",
+          back: "Maslow vede motivația ca activarea unui <span class='tip'><strong>sistem ierarhic de nevoi</strong><span class='tooltip-box'>De la fiziologice și securitate, la afiliere, stimă și actualizare a sinelui.</span></span>. Nevoile de sus se activează după satisfacerea celor de jos într-o anumită măsură.<span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un elev flămând sau obosit nu poate susține nevoi cognitive.</span></span><br><br><span class='tip'><strong>Frustrarea - nevoile sau obiectivele nu sunt îndeplinite.</strong><span class='tooltip-box'>Tensiune când nevoile nu sunt satisfăcute sau obiectivele nu sunt atinse. În doze moderate poate crește toleranța și motivația de a depăși obstacolul.<br><br><strong>Exemplu:</strong> o problemă grea poate motiva insistența dacă există sprijin.</span></span>",
+        },
+        {
+          front: "Introducere în teoriile cognitive ale motivației",
+          back: "Teoriile <span class='tip'><strong>cognitive ale motivației</strong><span class='tooltip-box'>Văd motivația ca rezultat al gândirii și credințelor, nu ca nevoie sau stare. Ce crezi că poți face schimbă cum vezi sarcina și cât efort pui.</span></span> pun accent pe <span class='tip'><strong>interpretare</strong><span class='tooltip-box'>Cum explici succesul și eșecul, cât control crezi că ai.</span></span> și pe <span class='tip'><strong>credințe despre competență</strong><span class='tooltip-box'>Convingeri despre posibilitatea de reușită.</span></span>.<br><br>Weiner grupează aici <span class='tip'><strong>teoria atribuirii</strong><span class='tooltip-box'>Cum explici cauzele succesului și eșecului.</span></span> și <span class='tip'><strong>neajutorarea învățată</strong><span class='tooltip-box'>Resemnare când succesul pare imposibil.</span></span>, dezvoltate separat.",
+        },
+        {
+          front:
+            "Explică teoria atribuirii la Weiner și clasificările cauzelor",
+          back: "<span class='tip'><strong>Atribuirea</strong><span class='tooltip-box'>Este explicația pe care elevul o dă succesului sau eșecului, iar această explicație schimbă așteptările viitoare.</span></span> clasifică cauzele în <span class='tip'><strong>interne vs externe</strong><span class='tooltip-box'><strong>Exemplu:</strong> efort intern, noroc extern.</span></span>, <span class='tip'><strong>stabile vs instabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> abilitate stabilă, efort instabil.</span></span>, <span class='tip'><strong>controlabile vs incontrolabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> strategii controlabile, boală incontrolabilă.</span></span>.<br><br>Cu cât controlul este perceput mai intern și mai controlabil, cu atât crește efortul și perseverența.",
+        },
+        {
+          front: "Ce înseamnă grit și de ce contează pentru performanță",
+          back: "<span class='tip'><strong>Grit</strong><span class='tooltip-box'>Combinație dintre pasiune și perseverență pe termen lung, chiar când apar obstacole și eșecuri.</span></span> spune că performanța depinde mult de efort susținut, nu doar de talent.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul lucrează zilnic, își ajustează strategiile și continuă deși progresul este lent.</span></span>",
+        },
+        {
+          front: "Explică neajutorarea învățată și efectele ei în educație",
+          back: "<span class='tip'><strong>Neajutorarea învățată</strong><span class='tooltip-box'>Stare de resemnare când elevul vrea să reușească dar simte că succesul este imposibil.</span></span> apare după experiențe repetate percepute ca <span class='tip'><strong>inevitabile și incontrolabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> oricât încearcă, rezultatele nu se schimbă, deci concluzionează că nu are control.</span></span> și duce la <span class='tip'><strong>scăderea inițiativei</strong><span class='tooltip-box'>Elevul nu mai încearcă nici când apar oportunități reale de succes.</span></span> și la evitarea sarcinilor.",
+        },
+        {
+          front: "Descrie fazele procesului motivațional la Mih",
+          back: "Procesul motivațional are patru faze: <span class='tip'><strong>orientare</strong><span class='tooltip-box'>Decizia de a începe.<br><br><strong>Exemplu:</strong> aleg să mă apuc de învățat.</span></span>, <span class='tip'><strong>declanșare</strong><span class='tooltip-box'>Mobilizez resurse cognitive, emoționale, comportamentale.<br><br><strong>Exemplu:</strong> îmi organizez materialele și încep.</span></span>, <span class='tip'><strong>susținere</strong><span class='tooltip-box'>Perseverență, focalizare, monitorizare.<br><br><strong>Exemplu:</strong> continui și îmi verific progresul.</span></span>, <span class='tip'><strong>dezangajare</strong><span class='tooltip-box'>Defocalizare după finalizare sau blocaj major.<br><br><strong>Exemplu:</strong> mă opresc după ce am terminat sau renunț la un obstacol mare.</span></span>.",
+        },
+        {
+          front:
+            "Definește atitudinile și cum se formează în contexte educaționale",
+          back: "<span class='tip'><strong>Atitudinile</strong><span class='tooltip-box'>Dispoziții interne stabile care susțin răspunsuri favorabile sau nefavorabile față de un obiect sau o situație.</span></span> sunt puternice predictori ai comportamentului, fiind învățate prin experiențe.<span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un prim contact frustrant cu o materie poate construi o atitudine negativă care reduce implicarea.</span></span><br><br>Atitudinile se pot forma într-un context și se pot transfera către contexte similare.",
+        },
+        {
+          front: "Explică afectivitatea și rolul emoțiilor în învățare",
+          back: "<span class='tip'><strong>Afectivitatea</strong><span class='tooltip-box'>Ansamblul reacțiilor psihice ale individului față de lumea exterioară, incluzând emoții și dispoziții.</span></span> influențează performanța: emoțiile pozitive cresc implicarea, iar emoțiile negative pot declanșa pe termen scurt comportamente motivate extrinsec dar duc în timp la evitarea activității.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul poate învăța de teamă pentru o vreme, apoi începe să evite materia. Un climat suportiv poate cultiva speranța și plăcerea de a învăța.</span></span>",
+        },
+        {
+          front: "Definește metacogniția și principalele ei componente",
+          back: "<span class='tip'><strong>Metacogniția</strong><span class='tooltip-box'>Cunoaștere despre propria gândire și control conștient al învățării. Include întrebări de tipul ce înțeleg, cum învăț, de ce aleg o strategie.</span></span> cuprinde <span class='tip'><strong>experiențe</strong><span class='tooltip-box'>Trăiri conștiente precum nu înțeleg.</span></span>, <span class='tip'><strong>cunoștințe</strong><span class='tooltip-box'>Ce știu despre cum învăț eu și alții.</span></span>, <span class='tip'><strong>obiective</strong><span class='tooltip-box'>Ce vreau să obțin.</span></span> și <span class='tip'><strong>strategii</strong><span class='tooltip-box'>Planificare, monitorizare, evaluare.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul își face plan, verifică dacă a înțeles, schimbă metoda și evaluează rezultatul.</span></span>",
+        },
+      ],
+    },
+  ],
+  "phed-u8": [
+    {
+      id: "phed-u8-deck1",
+      title: "U8 Flashcards – Autoreglarea învățării",
+      cards: [
+        {
+          front: "Definește învățarea autoreglată și rolul elevului",
+          back: "Învățarea autoreglată presupune că elevul este <span class='tip'><strong>agent activ al propriei învățări</strong><span class='tooltip-box'>Atât Pintrich cât și Zimmerman pornesc de la ideea că elevul nu este un simplu receptor de informație, ci își stabilește obiective, își monitorizează progresul și își ajustează strategiile.</span></span>, implicând procese <span class='tip'><strong>cognitive, motivaționale, comportamentale și contextuale</strong><span class='tooltip-box'>Autoreglarea nu se limitează la gândire, ci include motivația, emoțiile, efortul, gestionarea timpului și relația cu mediul de învățare.</span></span> orientate spre atingerea obiectivelor de învățare.",
+        },
+
+        {
+          front:
+            "Compară pe scurt modelele de autoreglare ale lui Pintrich și Zimmerman",
+          back: "<span class='tip'><strong>Pintrich</strong><span class='tooltip-box'>Definește autoreglarea ca un set de procese de planificare, monitorizare, control și reflecție care mediază relația individ–context–performanță. Faze flexibile, neliniare, accent pe sarcină și context.</span></span> versus <span class='tip'><strong>Zimmerman</strong><span class='tooltip-box'>Descrie autoreglarea ca un proces explicit ciclic: anticipare, performanță, auto-reflecție, în care feedbackul din performanță este central pentru ajustările viitoare.</span></span>. Ambele modele subliniază rolul obiectivelor și al feedbackului, dar diferă prin organizarea proceselor.",
+        },
+
+        {
+          front: "Explică autoreglarea cogniției în modelul lui Pintrich",
+          back: "Autoreglarea cogniției include <span class='tip'><strong>planificarea și activarea</strong><span class='tooltip-box'>Stabilirea obiectivelor, activarea cunoștințelor cognitive și metacognitive relevante.</span></span>, <span class='tip'><strong>monitorizarea</strong><span class='tooltip-box'>Conștientizarea nivelului de înțelegere prin judecăți precum JOL și FOK.</span></span>, <span class='tip'><strong>controlul</strong><span class='tooltip-box'>Alegerea și ajustarea strategiilor cognitive și metacognitive.</span></span> și <span class='tip'><strong>reflecția</strong><span class='tooltip-box'>Evaluarea performanței și atribuirea succesului sau eșecului strategiilor, nu abilităților fixe.</span></span>.",
+        },
+
+        {
+          front: "Explică autoreglarea motivației și a stărilor afective",
+          back: "Autoreglarea motivației vizează <span class='tip'><strong>autoeficacitatea</strong><span class='tooltip-box'>Credința în capacitatea proprie de a duce la bun sfârșit o sarcină influențează efortul și persistența.</span></span>, <span class='tip'><strong>valoarea sarcinii</strong><span class='tooltip-box'>Importanța, utilitatea și relevanța percepută a sarcinii conform modelului expectanță–valoare.</span></span> și <span class='tip'><strong>controlul emoțiilor</strong><span class='tooltip-box'>Strategii volitive, vorbire pentru sine, recompense și reîncadrarea atribuțiilor pentru protejarea motivației.</span></span>.",
+        },
+
+        {
+          front: "Explică autoreglarea comportamentului",
+          back: "Autoreglarea comportamentului implică <span class='tip'><strong>gestionarea timpului și efortului</strong><span class='tooltip-box'>Planificarea activității și dozarea resurselor în funcție de cerințele sarcinii.</span></span>, <span class='tip'><strong>monitorizarea comportamentului</strong><span class='tooltip-box'>Conștientizarea modului de lucru și a implicării.</span></span>, <span class='tip'><strong>ajustări în timpul sarcinii</strong><span class='tooltip-box'>Modificarea efortului, căutarea ajutorului, schimbarea strategiilor.</span></span> și <span class='tip'><strong>reflecția comportamentală</strong><span class='tooltip-box'>Evaluarea modului de lucru și a deciziilor comportamentale.</span></span>.",
+        },
+
+        {
+          front: "Explică reglarea contextului de învățare",
+          back: "Reglarea contextului presupune <span class='tip'><strong>perceperea și reinterpretarea contextului</strong><span class='tooltip-box'>Norme ale clasei, cerințe ale sarcinilor și climat educațional pot fi percepute diferit și influențează autoreglarea.</span></span>, <span class='tip'><strong>monitorizarea oportunităților și constrângerilor</strong><span class='tooltip-box'>Reguli, evaluare, recompense.</span></span> și <span class='tip'><strong>control limitat al contextului</strong><span class='tooltip-box'>Negocierea sarcinilor și structurarea mediului, când este posibil.</span></span>.",
+        },
+
+        {
+          front: "Cum se pot dezvolta abilitățile de autoreglare",
+          back: "Conform lui <span class='tip'><strong>Cleary și Zimmerman</strong><span class='tooltip-box'>Autoreglarea se dezvoltă prin instruire directă în strategii de învățare, cultivarea autoeficacității și utilizarea ciclului de feedback.</span></span>, printr un proces de <span class='tip'><strong>împuternicire</strong><span class='tooltip-box'>Elevii învață că succesul depinde în mare măsură de modul în care folosesc strategiile, nu de factori externi fixați.</span></span>, ceea ce crește motivația, speranța și performanța.",
         },
       ],
     },

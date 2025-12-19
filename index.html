@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="favicon.png" />
+    <link rel="preload" href="Assets/trophy.png" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Archivo+Black&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Archivo+Black&display=swap"
+    />
     <title>PIPP A1S1</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap");
-
       :root {
         --bg: #0d1117;
         --card: #111827;
@@ -18,8 +28,8 @@
         --fph-2: #f16c6c;
         --fped: #ffd6a1;
         --fped-2: #f3a742;
-        --pdezv: #d6f5b2;
-        --pdezv-2: #87c148;
+        --pdezv: #d8dfb6;
+        --pdezv-2: #8f9958;
         --phed: #ffc5e6;
         --phed-2: #ef7abf;
         --pedcom: #d4c7ff;
@@ -49,6 +59,7 @@
           var(--bg);
         font-family: "Manrope", "Space Grotesk", "Helvetica Neue", Arial,
           sans-serif;
+        font-synthesis: none;
         color: var(--text);
         display: flex;
         justify-content: center;
@@ -174,6 +185,39 @@
         }
       }
 
+      @keyframes shineSweep {
+        0%,
+        68% {
+          transform: translateX(-140%);
+        }
+        82%,
+        100% {
+          transform: translateX(140%);
+        }
+      }
+
+      @keyframes shineHover {
+        0% {
+          transform: translateX(-140%);
+        }
+        100% {
+          transform: translateX(140%);
+        }
+      }
+
+      @keyframes goldGlow {
+        0%,
+        70%,
+        100% {
+          box-shadow: 0 18px 44px rgba(180, 120, 20, 0.18);
+          filter: brightness(1);
+        }
+        82% {
+          box-shadow: 0 24px 60px rgba(216, 162, 70, 0.4);
+          filter: brightness(1.06);
+        }
+      }
+
       .deck-card.fade-out {
         opacity: 0;
         transform: translateY(6px);
@@ -214,6 +258,120 @@
       @media (max-width: 786px) {
         .grid {
           grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+      }
+
+      .support-box {
+        margin-top: 72px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        text-align: center;
+      }
+
+      .support-hint {
+        color: rgba(230, 237, 243, 0.7);
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+
+      .whatsapp-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 20px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, #25d366, #16a34a);
+        color: #ffffff;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        text-decoration: none;
+        box-shadow: 0 18px 40px rgba(22, 163, 74, 0.3),
+          0 0 0 1px rgba(255, 255, 255, 0.08);
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+
+      .whatsapp-btn::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          120deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.18) 45%,
+          rgba(255, 255, 255, 0) 90%
+        );
+        transform: translateX(-120%);
+        transition: transform 0.5s ease;
+      }
+
+      .whatsapp-btn:hover {
+        transform: translateY(-2px) scale(1.01);
+        box-shadow: 0 20px 44px rgba(22, 163, 74, 0.38),
+          0 0 0 1px rgba(255, 255, 255, 0.08);
+      }
+
+      .whatsapp-btn:hover::after {
+        transform: translateX(120%);
+      }
+
+      .whatsapp-icon {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0 0 6px rgba(12, 21, 15, 0.08);
+        position: relative;
+        overflow: visible;
+      }
+
+      .whatsapp-icon::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45);
+        animation: pulseRing 2.8s ease-out infinite;
+      }
+
+      .whatsapp-icon svg {
+        width: 18px;
+        height: 18px;
+        fill: #25d366;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.9);
+          opacity: 0.7;
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45);
+        }
+        60% {
+          transform: scale(1.25);
+          opacity: 0;
+          box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+        }
+        100% {
+          transform: scale(0.9);
+          opacity: 0.7;
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .support-box {
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+        .whatsapp-btn {
+          width: 100%;
+          justify-content: center;
         }
       }
 
@@ -294,6 +452,25 @@
           inset 0 1px 0 rgba(255, 255, 255, 0.18);
       }
 
+      .card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          120deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.18) 45%,
+          rgba(255, 255, 255, 0) 90%
+        );
+        transform: translateX(-140%);
+        transition: transform 0.5s ease;
+        pointer-events: none;
+      }
+
+      .card:hover::after {
+        transform: translateX(140%);
+      }
+
       .card:hover {
         transform: translateY(-3px) scale(1.02);
         box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
@@ -304,6 +481,7 @@
       }
 
       .card-header {
+        position: relative;
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 12px;
@@ -311,16 +489,225 @@
         margin-bottom: 6px;
       }
 
+      .card.completed {
+        background: linear-gradient(
+          145deg,
+          rgba(255, 235, 190, 0.95),
+          rgba(242, 190, 92, 0.95)
+        );
+        border: 1px solid rgba(224, 165, 72, 0.6);
+        box-shadow: 0 24px 70px rgba(212, 170, 90, 0.4),
+          inset 0 1px 0 rgba(255, 255, 255, 0.28);
+      }
+
+      .card.completed .card-header::before,
+      .card.completed .card-header::after {
+        content: none;
+      }
+
+      .card.completed h3 {
+        color: #6a3f00;
+      }
+
+      .card.completed .abbr {
+        color: rgba(86, 54, 0, 0.7);
+      }
+
+      .card.completed .progress {
+        box-shadow: 0 0 18px rgba(212, 170, 90, 0.45),
+          inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      }
+
+      .progress-bar.trophy {
+        background: linear-gradient(135deg, #f6d365, #f1b24a);
+        box-shadow: 0 0 18px rgba(214, 169, 86, 0.75);
+        background-image: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.28),
+          rgba(255, 255, 255, 0.08)
+        );
+        animation: none;
+        background-size: auto;
+      }
+
+      .screen-confetti {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        overflow: hidden;
+        z-index: 9999;
+      }
+
+      .screen-confetti .confetti-piece {
+        position: absolute;
+        top: -20px;
+        width: 10px;
+        height: 16px;
+        border-radius: 2px;
+        background: var(--confetti-color);
+        left: var(--confetti-left);
+        animation: screenConfettiFall var(--confetti-dur) ease-out forwards;
+        transform: rotate(var(--confetti-rot));
+        opacity: 0.95;
+      }
+
+      @keyframes screenConfettiFall {
+        0% {
+          transform: translateY(0) rotate(var(--confetti-rot));
+        }
+        100% {
+          transform: translateY(120vh) rotate(360deg);
+          opacity: 0;
+        }
+      }
+
+      .congrats-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(8, 12, 18, 0.55);
+        display: grid;
+        place-items: center;
+        z-index: 9998;
+      }
+
+      .congrats-popup {
+        width: min(520px, 92vw);
+        min-height: 360px;
+        border-radius: 22px;
+        padding: 62px 26px;
+        background: radial-gradient(
+            circle at 50% 35%,
+            rgba(255, 255, 255, 0.86),
+            rgba(255, 255, 255, 0.18) 60%
+          ),
+          linear-gradient(145deg, #fbe6ac, #f1b950);
+        color: #3a2500;
+        border: 1px solid rgba(217, 158, 56, 0.6);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        position: relative;
+        animation: popupRise 0.4s ease;
+        user-select: none;
+        cursor: default;
+      }
+
+      .congrats-popup,
+      .congrats-popup * {
+        user-select: none;
+        cursor: default;
+      }
+
+      .congrats-popup.animate {
+        animation: popupRise 0.4s ease, pulseCongrats 0.8s ease-in-out 3 0.4s,
+          fadeOutSmooth 0.6s ease 2.8s forwards;
+      }
+
+      .congrats-popup.animate::after {
+        content: "";
+        position: absolute;
+        inset: -14px;
+        border-radius: inherit;
+        background: radial-gradient(
+          circle,
+          rgba(255, 220, 120, 0.35),
+          rgba(255, 220, 120, 0)
+        );
+        opacity: 0;
+        pointer-events: none;
+        animation: pulseGlow 0.9s ease-in-out 3 0.4s;
+        z-index: -1;
+      }
+
+      .congrats-trophy {
+        width: 216px;
+        height: 216px;
+        flex-shrink: 0;
+        margin: 0 auto 10px;
+        background: url("Assets/trophy.png") center/contain no-repeat;
+        filter: drop-shadow(0 12px 24px rgba(120, 78, 6, 0.45));
+      }
+
+      .congrats-title {
+        font-size: 3.4rem;
+        font-family: "Archivo Black", "Manrope", "Space Grotesk",
+          "Helvetica Neue", Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        display: grid;
+        gap: 4px;
+        color: #ffffff;
+        text-shadow: 0 1px 3px rgba(120, 78, 6, 0.35);
+      }
+
+      .congrats-title span:last-child {
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+
+      @keyframes popupRise {
+        from {
+          transform: translateY(12px) scale(0.96);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0) scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes pulseCongrats {
+        0% {
+          transform: translateY(0) scale(1);
+          filter: brightness(1);
+        }
+        50% {
+          transform: translateY(-2px) scale(1.02);
+          filter: brightness(1.12);
+        }
+        100% {
+          transform: translateY(0) scale(1);
+          filter: brightness(1);
+        }
+      }
+
+      @keyframes fadeOutSmooth {
+        from {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+        to {
+          opacity: 0;
+          transform: translateY(8px) scale(0.98);
+        }
+      }
+
+      @keyframes pulseGlow {
+        0% {
+          opacity: 0.2;
+          transform: scale(0.95);
+        }
+        50% {
+          opacity: 0.48;
+          transform: scale(1.16);
+        }
+        100% {
+          opacity: 0.16;
+          transform: scale(1.22);
+        }
+      }
+
       .card h3 {
-        font-size: 1.764rem;
-        margin-bottom: 4px;
-        font-weight: 800;
-        line-height: 1.2;
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+        font-weight: 700;
+        line-height: 1.4;
         display: -webkit-box;
+        line-clamp: 2;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        opacity: 0.8;
+        opacity: 0.7;
+        margin-left: 10px;
       }
 
       @media (min-width: 900px) {
@@ -333,6 +720,19 @@
         display: grid;
         justify-items: center;
         gap: 6px;
+        position: relative;
+      }
+
+      .card.completed .icon {
+        background-color: #f9edc7;
+        box-shadow: inset 0 6px 12px rgba(255, 255, 255, 0.75),
+          inset 0 -10px 14px rgba(120, 78, 6, 0.18),
+          0 10px 24px rgba(120, 78, 6, 0.18), 0 0 0 2px rgba(255, 255, 255, 0.6);
+        filter: sepia(0.7) saturate(1.5) hue-rotate(-6deg) brightness(1);
+      }
+
+      .card.completed .progress-value {
+        color: #fff6da;
       }
 
       .card .icon {
@@ -470,39 +870,39 @@
         background: linear-gradient(
           145deg,
           rgba(255, 179, 179, 0.95),
-          rgba(241, 108, 108, 0.95)
+          rgba(238, 90, 90, 0.95)
         );
-        border: 1px solid rgba(241, 108, 108, 0.45);
+        border: 1px solid rgba(192, 64, 64, 0.45);
       }
       .card.fped {
         background: linear-gradient(
           145deg,
-          rgba(255, 214, 161, 0.92),
-          rgba(243, 167, 66, 0.94)
+          rgb(246, 205, 169),
+          rgb(247, 143, 39)
         );
-        border: 1px solid rgba(243, 167, 66, 0.4);
+        border: 1px solid rgba(212, 130, 48, 0.65);
       }
       .card.pdezv {
         background: linear-gradient(
           145deg,
-          rgba(214, 245, 178, 0.95),
-          rgba(135, 193, 72, 0.94)
+          rgba(216, 223, 182, 0.95),
+          rgba(130, 142, 64, 0.95)
         );
-        border: 1px solid rgba(135, 193, 72, 0.45);
+        border: 1px solid rgba(143, 153, 88, 0.45);
       }
       .card.phed {
         background: linear-gradient(
           145deg,
           rgba(255, 197, 230, 0.92),
-          rgba(239, 122, 191, 0.94)
+          rgba(245, 105, 186, 0.94)
         );
-        border: 1px solid rgba(239, 122, 191, 0.35);
+        border: 1px solid rgba(193, 67, 140, 0.35);
       }
       .card.pedcom {
         background: linear-gradient(
           145deg,
-          rgba(212, 199, 255, 0.95),
-          rgba(141, 124, 245, 0.96)
+          rgba(231, 205, 253, 0.95),
+          rgba(167, 108, 230, 0.96)
         );
         border: 1px solid rgba(141, 124, 245, 0.4);
       }
@@ -510,9 +910,9 @@
         background: linear-gradient(
           145deg,
           rgba(176, 225, 255, 0.92),
-          rgba(92, 166, 255, 0.96)
+          rgba(61, 134, 223, 0.96)
         );
-        border: 1px solid rgba(92, 166, 255, 0.38);
+        border: 1px solid rgba(54, 121, 203, 0.38);
       }
 
       .card.fph .progress-bar {
@@ -530,11 +930,11 @@
         color: #6b3a00;
       }
       .card.pdezv .progress-bar {
-        --bar-base: #588524;
-        --bar-glow: rgba(152, 208, 79, 1);
+        --bar-base: #8a9152;
+        --bar-glow: rgba(190, 200, 130, 1);
       }
       .card.pdezv h3 {
-        color: #355114;
+        color: #42471c;
       }
       .card.phed .progress-bar {
         --bar-base: #b02672;
@@ -558,17 +958,79 @@
         color: #15417c;
       }
 
+      .card.completed {
+        background: radial-gradient(
+            circle at 35% 25%,
+            rgba(255, 255, 255, 0.78),
+            rgba(255, 255, 255, 0.12) 58%
+          ),
+          linear-gradient(145deg, #eccd6f, #cbab33);
+        border: 1px solid rgba(214, 160, 58, 0.7);
+        box-shadow: 0 26px 70px rgba(210, 160, 68, 0.35),
+          inset 0 1px 0 rgba(255, 255, 255, 0.35);
+        animation: goldGlow 6.8s ease-in-out infinite;
+      }
+
+      .card.completed .progress {
+        background: rgba(88, 56, 12, 0.2);
+        box-shadow: inset 0 2px 6px rgba(36, 24, 4, 0.35),
+          0 0 18px rgba(212, 170, 90, 0.45),
+          inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      }
+
+      .card.completed .progress-bar,
+      .card.completed .progress-bar.trophy {
+        --bar-base: #d4ba46;
+        --bar-glow: rgba(235, 182, 86, 0.95);
+        background: linear-gradient(135deg, #f9d677, #f1b24a);
+        box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.45),
+          inset 0 -6px 10px rgba(120, 78, 6, 0.35),
+          0 0 20px rgba(225, 168, 70, 0.7);
+        animation: stripeMove 2.25s linear infinite,
+          goldGlow 6.8s ease-in-out infinite;
+      }
+
+      .card.completed .progress-bar::before {
+        content: "";
+        position: absolute;
+        inset: 2px 6px auto 6px;
+        height: 38%;
+        border-radius: 999px;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0)
+        );
+        opacity: 0.85;
+        pointer-events: none;
+      }
+
+      .card.completed h3,
+      .card.completed .progress-value {
+        color: #fff6da;
+        text-shadow: none;
+        opacity: 0.9;
+      }
+
+      .card.completed::after {
+        animation: shineSweep 6.8s ease-in-out infinite;
+      }
+
+      .card.completed:hover::after {
+        animation: shineSweep 6.8s ease-in-out infinite, shineHover 0.85s ease;
+      }
+
       /* Subject icons (inline svg as data URI) */
       .icon-brain {
-        --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%23f26a6a' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M52 22c-11 0-20 9-20 20v4c-8 2-14 10-14 18 0 11 9 20 20 20h7v8c0 10 8 18 18 18s18-8 18-18v-8h7c11 0 20-9 20-20 0-8-6-16-14-18v-4c0-11-9-20-20-20-4 0-8 1-12 3-4-2-8-3-12-3z'/><path d='M60 30v60'/><path d='M46 40c-5 3-8 8-8 14s3 11 8 14'/><path d='M74 40c5 3 8 8 8 14s-3 11-8 14'/><path d='M48 54c-3 2-5 5-5 8s2 6 5 8'/><path d='M72 54c3 2 5 5 5 8s-2 6-5 8'/></svg>");
-        background-size: 66% !important;
-        background-position: center center !important;
+        --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128' fill='none' stroke='%23f26a6a' stroke-width='8.4' stroke-linecap='round' stroke-linejoin='round'><g transform='translate(-2.5 0) scale(1.04 1)'><path d='M64 14c-13 0-24 10.8-24 24v3c-11 2.6-19 12.1-19 23.2 0 11.9 9 21.8 20.5 23.4V90c0 12 9.5 22 22 22h0c12.5 0 22-10 22-22v-2.4C96 86 105 76.1 105 64.2c0-11.1-8-20.6-19-23.2v-3C86 24.8 77 14 64 14Z'/><path d='M64 30v68'/><path d='M52 40c-7 4-12 11-12 19s5 15 12 19'/><path d='M76 40c7 4 12 11 12 19s-5 15-12 19'/><path d='M52 56c-4 3-6 7-6 11s2 8 6 11'/><path d='M76 56c4 3 6 7 6 11s-2 8-6 11'/></g></svg>");
+        background-size: 70% !important;
+        background-position: calc(50% + 1px) calc(50% + 0px) !important;
       }
       .icon-cap {
         --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%23d63d8c' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 44l48-16 48 16-48 16-48-16z'/><path d='M36 54v18c0 9 11 16 24 16s24-7 24-16V54' stroke-width='7'/><path d='M96 52v18' stroke-width='7'/><circle cx='96' cy='78' r='6' fill='%23d63d8c'/></svg>");
       }
       .icon-plant {
-        --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%2387c148' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M60 98V54'/><path d='M60 70c-18 0-32-12-32-28 12 0 21 4 32 12 11-8 20-12 32-12 0 16-14 28-32 28z'/><path d='M60 54c-10 0-18-8-18-18 8 0 12 2 18 6 6-4 10-6 18-6 0 10-8 18-18 18z'/></svg>");
+        --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%237b8038' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M60 98V54'/><path d='M60 70c-18 0-32-12-32-28 12 0 21 4 32 12 11-8 20-12 32-12 0 16-14 28-32 28z'/><path d='M60 54c-10 0-18-8-18-18 8 0 12 2 18 6 6-4 10-6 18-6 0 10-8 18-18 18z'/></svg>");
       }
       .icon-stack {
         --icon-bg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%23c58a2a' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M20 34l32-10 48 14-32 10-48-14z'/><path d='M20 54l32-10 48 14-32 10-48-14z'/><path d='M20 74l32-10 48 14-32 10-48-14z'/></svg>");
@@ -681,7 +1143,7 @@
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 20px;
         padding: 22px;
-        width: min(950px, 100%);
+        width: min(1050px, 100%);
         box-shadow: var(--shadow);
         color: var(--text);
         position: relative;
@@ -1287,7 +1749,7 @@
           padding: 18px;
         }
         .modal {
-          padding: 18px;
+          padding: 18px 18px 60px 18px;
         }
         .capitol-header {
           flex-direction: column;
@@ -1395,7 +1857,7 @@
         .deck-cards {
           display: grid;
           gap: 12px;
-          padding: 0;
+          padding: 40px;
         }
 
         .deck-meta {
@@ -1468,6 +1930,12 @@
           color: #e6edf3;
           font-size: 0.98rem;
           line-height: 1.55;
+        }
+
+        .deck-back br {
+          display: block;
+          margin-top: 6px;
+          content: "";
         }
 
         .deck-card.completed {
@@ -1545,7 +2013,7 @@
           height: 100vh;
           max-height: 100vh;
           border-radius: 0;
-          padding: 18px;
+          padding: 18px 18px 60px 18px;
         }
 
         .overlay {
@@ -1555,16 +2023,79 @@
 
       .tip {
         position: relative;
-        cursor: pointer;
+        cursor: default;
         color: #e6f2ff;
         text-decoration: none;
         border-bottom: none;
         padding-bottom: 4px;
+      }
 
+      /* Pointer doar în context de quiz */
+      .quiz .tip,
+      #quizPanelContent .tip {
+        cursor: pointer;
+      }
+
+      .tip:not(.help-tip) {
         background-image: linear-gradient(to right, #315565, #2a3549);
         background-position: 0 100%;
         background-repeat: no-repeat;
-        background-size: 100% 2px;
+        background-size: calc(100% - 28px) 2px;
+      }
+
+      .tip.tip-long:not(.help-tip) {
+      }
+
+      .tooltip-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        margin-left: 6px;
+        margin-right: 6px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.18);
+        background-image: url("Assets/light-bulb.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 72%;
+        filter: saturate(0) brightness(0.8);
+        opacity: 0.65;
+        vertical-align: middle;
+        cursor: default;
+        flex-shrink: 0;
+      }
+
+      .help-tip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.18);
+        background-image: url("Assets/light-bulb.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 72%;
+        color: transparent;
+        font-weight: 800;
+        font-size: 0.8rem;
+        line-height: 1;
+        filter: saturate(0) brightness(0.8);
+        opacity: 0.65;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),
+          0 3px 10px rgba(0, 0, 0, 0.2);
+        vertical-align: middle;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+      }
+
+      .help-tip:hover {
+        transform: translateY(-1px);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+          0 6px 16px rgba(0, 0, 0, 0.24);
       }
 
       /* Desktop / tablet */
@@ -1575,16 +2106,18 @@
         transform: translateX(-50%);
         background: #111;
         color: #fff;
-        padding: 10px 12px;
-        border-radius: 8px;
+        padding: 14px 16px;
+        border-radius: 10px;
         width: 250px;
         max-width: 90vw;
         font-size: 0.9em;
         line-height: 1.45;
-        text-align: left;
+        text-align: justify;
+        text-justify: inter-word;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         opacity: 0;
         pointer-events: none;
+        padding: 32px;
         z-index: 9999;
         display: none !important;
         visibility: hidden !important;
@@ -1594,13 +2127,12 @@
         position: fixed;
         background: #111;
         color: #fff;
-        padding: 10px 12px;
-        border-radius: 8px;
+        padding: 16px 24px;
+        border-radius: 10px;
         width: 400px;
         max-width: 90vw;
         font-size: 0.9em;
         line-height: 1.45;
-        text-align: left;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         z-index: 12000;
         pointer-events: none;
@@ -1625,7 +2157,7 @@
         }
 
         .deck-cards {
-          padding: 0px !important;
+          padding: 0 0 32px !important;
           gap: 14px !important;
         }
 
@@ -1675,7 +2207,41 @@
       -->
 
       <section class="map visible" id="map">
-        <h2>UNIVERSITATEA TRANSILVANIA, PIPP, Anul 1, Semestrul 1</h2>
+        <h2>
+          Proiect personal în cadrul UNIVERSITĂȚII TRANSILVANIA, PIPP, Anul 1,
+          Semestrul 1
+          <span
+            class="tip help-tip"
+            aria-label="Disclaimer"
+            data-tip-id="legal-disclaimer"
+          >
+            ?
+            <span class="tooltip-box">
+              Informațiile prezentate în această aplicație sunt generate automat
+              prin sintetizarea suportului de curs cu ajutorul inteligenței
+              artificiale și pot conține erori, omisiuni sau imprecizii.
+              Conținutul are un
+              <strong>scop exclusiv educațional și orientativ</strong>, iar
+              <strong>acuratețea și completitudinea sa nu sunt garantate</strong
+              >. <br /><br />
+
+              <strong>
+                Aplicația nu înlocuiește materialele oficiale de curs sau
+                evaluările academice.
+              </strong>
+              Dezvoltatorul aplicației
+              <strong>nu își asumă răspunderea</strong> pentru eventuale erori,
+              omisiuni sau interpretări rezultate din utilizarea informațiilor.
+              <br /><br />
+
+              <strong>
+                Accesul la aplicație și progresul utilizatorului pot fi
+                suspendate sau restricționate, parțial sau total, fără
+                notificare prealabilă.
+              </strong>
+            </span>
+          </span>
+        </h2>
         <div class="grid">
           <article class="card fph" data-id="fph">
             <div class="card-header">
@@ -1770,6 +2336,24 @@
             <div class="progress-label">Parcurs 0%</div>
           </article>
         </div>
+        <div class="support-box">
+          <div class="support-hint">Ai întrebări sau sugestii?</div>
+          <a
+            class="whatsapp-btn"
+            href="https://wa.me/40742804731"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="whatsapp-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path
+                  d="M16 3C9.4 3 4 8.4 4 15c0 2.2.6 4.3 1.6 6.1L4 29l8.1-2.1C13 27.6 14.5 28 16 28c6.6 0 12-5.4 12-12S22.6 3 16 3Zm6.6 15.9c-.3.8-1.6 1.5-2.2 1.6-.6.1-1.3.1-2.1-.1-.5-.2-1.1-.4-1.9-.7-3.4-1.5-5.6-4.9-5.8-5.1-.2-.2-1.4-1.8-1.4-3.5 0-1.7.9-2.5 1.2-2.8.3-.3.7-.4.9-.4.2 0 .5 0 .7.1.2 0 .5-.1.8.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.3-.3.5-.2.2-.3.4-.5.6-.2.2-.3.4-.2.7.2.3.8 1.3 1.7 2.1 1.2 1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1.2-.2.8-1 1.1-1.3.2-.4.5-.3.8-.2.3.1 2 .9 2.3 1.1.3.1.5.3.6.4.1.1.1.8-.1 1.6Z"
+                />
+              </svg>
+            </span>
+            <span>Contactează dezvoltatorul aplicației</span>
+          </a>
+        </div>
       </section>
     </div>
 
@@ -1825,6 +2409,7 @@
     </div>
 
     <script src="fph.js"></script>
+    <script src="fped.js"></script>
     <script src="phed.js"></script>
     <script>
       const subjects = [
@@ -1841,34 +2426,8 @@
           name: "FPED (Fundamentele Pedagogiei)",
           symbol: "📚",
           pdf: "docs/fped.pdf",
-          topics: [
-            {
-              id: "fped-t1",
-              title: "Modele de învățare",
-              question: {
-                text: "Învățarea prin descoperire pune accent pe:",
-                options: [
-                  "Memorare mecanică",
-                  "Explorare și experimentare",
-                  "Exerciții repetitive",
-                ],
-                answer: 1,
-              },
-            },
-            {
-              id: "fped-t2",
-              title: "Evaluare formativă",
-              question: {
-                text: "Evaluarea formativă urmărește:",
-                options: [
-                  "Clasarea studenților",
-                  "Îmbunătățirea continuă a învățării",
-                  "Stabilirea unei note finale",
-                ],
-                answer: 1,
-              },
-            },
-          ],
+          capitole: [],
+          topics: [],
         },
         {
           id: "pdezv",
@@ -2089,6 +2648,8 @@
         let decks = [];
         if (subject.id === "fph" && window.FPH_FLASHCARDS) {
           decks = Object.values(window.FPH_FLASHCARDS).flat();
+        } else if (subject.id === "fped" && window.FPED_FLASHCARDS) {
+          decks = Object.values(window.FPED_FLASHCARDS).flat();
         }
         if (subject.id === "phed" && window.PHED_FLASHCARDS) {
           decks = Object.values(window.PHED_FLASHCARDS).flat();
@@ -2119,6 +2680,20 @@
           });
         });
         return { count, sum };
+      }
+
+      function isCapitolDeckComplete(capitolId, subjectId = "fph") {
+        const decks = getDecksForCapitol(capitolId, subjectId);
+        if (!decks.length) return false;
+        return decks.every((deck) => {
+          const cards = getDeckCards(deck);
+          const st = ensureDeckState(deck);
+          if (!cards.length) return false;
+          return (
+            st.statuses.length === cards.length &&
+            st.statuses.every((status) => status === "green")
+          );
+        });
       }
 
       function updateCapitolPill(capitolId, subjectId = "fph") {
@@ -2167,12 +2742,13 @@
       let lastCompletedTopicId = null;
       let barObserver = null;
       let floatingTooltip = null;
+      let tooltipHideBound = false;
 
-      // Gestionează disponibilitatea materiilor: true = accesibil, false = blocat
+      // MMM Gestionează disponibilitatea materiilor: true = accesibil, false = blocat
       const subjectAvailability = {
         fph: true,
-        fped: false,
-        pdezv: false,
+        fped: true,
+        pdezv: true,
         phed: true,
         pedcom: false,
         lr: false,
@@ -2180,12 +2756,13 @@
 
       const subjectBars = {
         fph: { base: "#b32d2d", glow: "rgba(239, 107, 107, 0.8)" },
-        fped: { base: "#a85b00", glow: "rgba(226, 141, 26, 0.8)" },
-        pdezv: { base: "#588524", glow: "rgba(152, 208, 79, 0.8)" },
+        fped: { base: "#BE6911", glow: "rgba(226, 141, 26, 0.8)" },
+        pdezv: { base: "#797428", glow: "rgba(190, 200, 130, 0.8)" },
         phed: { base: "#b02672", glow: "rgba(223, 95, 168, 0.8)" },
-        pedcom: { base: "#4636ad", glow: "rgba(123, 107, 240, 0.8)" },
-        lr: { base: "#1e65c5", glow: "rgba(77, 141, 240, 0.8)" },
+        pedcom: { base: "#643FAA", glow: "rgba(123, 107, 240, 0.8)" },
+        lr: { base: "#165CBA", glow: "rgba(77, 141, 240, 0.8)" },
       };
+      const subjectCompletionState = {};
 
       if (startBtn) {
         startBtn.addEventListener("click", () => {
@@ -2216,6 +2793,8 @@
       backToList.addEventListener("click", goBackToSubcap);
 
       renderCardProgress();
+      initSubjectCompletionState();
+      wireTooltips(document);
 
       function loadProgress() {
         try {
@@ -2336,6 +2915,10 @@
         deckState = {};
         saveProgress();
         saveDeckState();
+        subjects.forEach((subject) => {
+          ensureFpedData(subject);
+          subjectCompletionState[subject.id] = false;
+        });
         renderCardProgress();
         lastCompletedTopicId = null;
         if (currentSubject && detailOverlay.classList.contains("show")) {
@@ -2392,6 +2975,7 @@
       }
 
       function setTopicProgress(topicId, value) {
+        const prevAvg = currentSubject ? subjectAverage(currentSubject) : 0;
         const currentVal = progressStore[topicId] ?? 0;
         progressStore[topicId] = Math.max(currentVal, value);
         saveProgress();
@@ -2412,10 +2996,14 @@
             wireInlineQuizButtons(currentQuizListEl, currentSubject);
           }
         }
+        if (currentSubject) {
+          maybeCelebrateSubject(currentSubject, prevAvg);
+        }
       }
 
       function subjectAverage(subject) {
         ensureFphData(subject);
+        ensureFpedData(subject);
         ensurePhedData(subject);
         const topicCount = subject.topics?.length || 0;
         const topicSum =
@@ -2436,10 +3024,178 @@
         return 0;
       }
 
+      function getSubjectDecks(subject) {
+        if (!subject) return [];
+        if (subject.id === "fph" && window.FPH_FLASHCARDS) {
+          return Object.values(window.FPH_FLASHCARDS).flat();
+        }
+        if (subject.id === "phed" && window.PHED_FLASHCARDS) {
+          return Object.values(window.PHED_FLASHCARDS).flat();
+        }
+        return [];
+      }
+
+      function initSubjectCompletionState() {
+        subjects.forEach((subject) => {
+          subjectCompletionState[subject.id] = subjectAverage(subject) === 100;
+        });
+      }
+
+      function applyCardCompletion(card, percent) {
+        if (!card) return;
+        const completed = percent >= 100;
+        card.classList.toggle("completed", completed);
+        const bar = card.querySelector(".progress-bar");
+        if (bar) bar.classList.toggle("trophy", completed);
+      }
+
+      function launchScreenConfetti() {
+        const existing = document.querySelector(".screen-confetti");
+        if (existing) existing.remove();
+        const colors = [
+          "#f6d365",
+          "#f1b24a",
+          "#6be8f7",
+          "#ffb703",
+          "#22c55e",
+          "#f97373",
+        ];
+        const container = document.createElement("div");
+        container.className = "screen-confetti";
+        for (let i = 0; i < 70; i++) {
+          const piece = document.createElement("div");
+          piece.className = "confetti-piece";
+          piece.style.setProperty(
+            "--confetti-color",
+            colors[i % colors.length]
+          );
+          piece.style.setProperty("--confetti-left", `${Math.random() * 100}%`);
+          piece.style.setProperty(
+            "--confetti-dur",
+            `${1.6 + Math.random() * 1.2}s`
+          );
+          piece.style.setProperty(
+            "--confetti-rot",
+            `${Math.random() * 180}deg`
+          );
+          container.appendChild(piece);
+        }
+        document.body.appendChild(container);
+        setTimeout(() => container.remove(), 2200);
+      }
+
+      function showCongratsPopup(subject) {
+        const existing = document.querySelector(".congrats-backdrop");
+        if (existing) existing.remove();
+        const backdrop = document.createElement("div");
+        backdrop.className = "congrats-backdrop";
+        const popup = document.createElement("div");
+        popup.className = "congrats-popup";
+        popup.innerHTML = `
+          <div class="congrats-trophy" aria-hidden="true"></div>
+          <div class="congrats-title">
+            <span>FELICITĂRI!</span>
+            <span>Materie 100% completată</span>
+          </div>
+        `;
+        popup.classList.add("animate");
+        backdrop.appendChild(popup);
+        document.body.appendChild(backdrop);
+        const close = () => backdrop.remove();
+        backdrop.addEventListener("click", (e) => {
+          if (e.target === backdrop) close();
+        });
+        setTimeout(close, 3600);
+      }
+
+      function maybeCelebrateSubject(subject, prevAvg) {
+        if (!subject) return;
+        const avg = subjectAverage(subject);
+        if (
+          avg === 100 &&
+          prevAvg < 100 &&
+          !subjectCompletionState[subject.id]
+        ) {
+          subjectCompletionState[subject.id] = true;
+          launchScreenConfetti();
+          showCongratsPopup(subject);
+        } else if (avg < 100) {
+          subjectCompletionState[subject.id] = false;
+        }
+      }
+
+      function completeSubject(subject) {
+        if (!subject) return;
+        ensureFphData(subject);
+        ensurePhedData(subject);
+        (subject.topics || []).forEach((t) => {
+          progressStore[t.id] = 100;
+        });
+        const decks = getSubjectDecks(subject);
+        decks.forEach((deck) => {
+          const cards = getDeckCards(deck);
+          deckState[deck.id] = {
+            idx: 0,
+            statuses: Array(cards.length).fill("green"),
+          };
+        });
+        saveProgress();
+        saveDeckState();
+        renderCardProgress();
+        if (detailOverlay.classList.contains("show")) {
+          if (subject.capitole && subject.capitole.length) {
+            renderCapitole(subject);
+            syncDeckHeights(capitoleContainer);
+          } else {
+            renderTopics(subject);
+          }
+          applySubjectBar(subject);
+        }
+        maybeCelebrateSubject(subject, 0);
+      }
+
+      function resetSubject(subject) {
+        if (!subject) return;
+        ensureFphData(subject);
+        ensurePhedData(subject);
+        // curăță orice chei rătăcite legate de materie (ex: id-uri vechi)
+        Object.keys(progressStore || {}).forEach((key) => {
+          if (key.startsWith(`${subject.id}-`)) delete progressStore[key];
+        });
+        (subject.topics || []).forEach((t) => {
+          progressStore[t.id] = 0;
+        });
+        const decks = getSubjectDecks(subject);
+        decks.forEach((deck) => {
+          const cards = getDeckCards(deck);
+          deckState[deck.id] = {
+            idx: 0,
+            statuses: Array(cards.length).fill("red"),
+          };
+        });
+        Object.keys(deckState || {}).forEach((key) => {
+          if (key.startsWith(`${subject.id}-`)) delete deckState[key];
+        });
+        saveProgress();
+        saveDeckState();
+        subjectCompletionState[subject.id] = false;
+        renderCardProgress();
+        if (detailOverlay.classList.contains("show")) {
+          if (subject.capitole && subject.capitole.length) {
+            renderCapitole(subject);
+            syncDeckHeights(capitoleContainer);
+          } else {
+            renderTopics(subject);
+          }
+          applySubjectBar(subject);
+        }
+      }
+
       function renderCardProgress() {
         cards.forEach((card) => {
           const subject = subjects.find((s) => s.id === card.dataset.id);
           ensureFphData(subject);
+          ensureFpedData(subject);
           const percent = subject ? subjectAverage(subject) : 0;
           const bar = card.querySelector(".progress-bar");
           const label = card.querySelector(".progress-label");
@@ -2459,6 +3215,7 @@
             }
           }
           if (label) label.textContent = `Parcurs ${percent}%`;
+          applyCardCompletion(card, percent);
         });
       }
 
@@ -2524,8 +3281,7 @@
             const deckAvg = deckStats.count
               ? deckStats.sum / deckStats.count
               : null;
-            const deckComplete =
-              deckStats.count > 0 && deckStats.sum === deckStats.count * 100;
+            const deckComplete = isCapitolDeckComplete(capitol.id, subject.id);
             let capProgress = 0;
             if (quizAvg != null && deckAvg != null) {
               capProgress = Math.round(0.5 * quizAvg + 0.5 * deckAvg);
@@ -2694,15 +3450,18 @@
                   .querySelectorAll(".deck-toggle-btn .chevron")
                   .forEach((c) => (c.style.transform = "rotate(0deg)"));
               }
+              quizList.innerHTML = renderInlineQuizList(subject, ids);
+              quizList.dataset.quizIds = ids.join(",");
               if (willExpand) {
                 quizList.classList.add("expanded");
                 setChevron(btn, true);
+                requestAnimationFrame(() =>
+                  scrollListIntoViewIfHidden(quizList)
+                );
               } else {
                 quizList.classList.remove("expanded");
                 setChevron(btn, false);
               }
-              quizList.innerHTML = renderInlineQuizList(subject, ids);
-              quizList.dataset.quizIds = ids.join(",");
             }
             topicsContainer.classList.add("hidden");
             wireInlineQuizButtons(quizList, subject);
@@ -2827,6 +3586,11 @@
       }
 
       function getDecksForCapitol(capitolId, subjectId = "fph") {
+        if (subjectId === "fped") {
+          return (
+            (window.FPED_FLASHCARDS && window.FPED_FLASHCARDS[capitolId]) || []
+          );
+        }
         if (subjectId === "phed") {
           return (
             (window.PHED_FLASHCARDS && window.PHED_FLASHCARDS[capitolId]) || []
@@ -2889,9 +3653,9 @@
               const frontStyle =
                 "font-weight:800;font-size:clamp(1.4rem, 3vw, 2rem);color:#f8fafc;line-height:1.6;display:flex;align-items:center;justify-content:center;text-align:center;min-height:180px;padding:18px;max-width:680px;margin:0 auto;";
               const backStyle =
-                "color:#e6edf3;font-size:0.98rem;line-height:1.6;display:grid;gap:24px;max-width:680px; margin:0 auto;";
+                "color:#e6edf3;font-size:0.98rem;line-height:1.6;display:grid;gap:24px;max-width:800px; margin:0 auto;";
               const shellStyle =
-                "position:relative;perspective:1200px;transform-style:preserve-3d;transition:transform 0.6s cubic-bezier(0.22,1,0.36,1);width:100%;min-height:360px;";
+                "position:relative;perspective:1200px;transform-style:preserve-3d;transition:transform 0.6s cubic-bezier(0.22,1,0.36,1);width:100%;min-height:500px;";
               const faceBase =
                 "position:absolute;inset:0;padding:20px;border-radius:14px;backface-visibility:hidden;background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(52,30,66,0.34));display:grid;gap:24px;align-content:center;justify-items:center;box-sizing:border-box;";
               const backFace = "transform:rotateY(180deg);";
@@ -2938,7 +3702,7 @@
                         ? `
                       <div class="deck-card static feature" style="${cardStyle} min-height:auto; gap:18px; padding:28px; max-width:720px;">
                         <div style="${congratsStyle}">
-                          <div style="font-weight:800;font-size:1.08rem;">Felicitări! Cunoști toate conceptele.</div>
+                          <div style="font-weight:800;font-size:1rem;">Felicitări! Cunoști toate conceptele! 🎉</div>
                           <button type="button" class="deck-reset-btn" data-deck-reset="${deck.id}" style="${resetBtnStyle}">Ia-le de la capăt</button>
                         </div>
                       </div>`
@@ -3033,9 +3797,7 @@
       }
 
       function updateDeckCompletion(capitolId, subjectId = "fph") {
-        const deckStats = getCapitolDeckStats(capitolId, subjectId);
-        const done =
-          deckStats.count > 0 && deckStats.sum === deckStats.count * 100;
+        const done = isCapitolDeckComplete(capitolId, subjectId);
         const subcap = capitoleContainer
           .querySelector(`.deck-subcap [data-deck-list='${capitolId}']`)
           ?.closest(".deck-subcap");
@@ -3088,6 +3850,8 @@
               deckBox.dataset.deckCapitol ||
               deckBox.closest(".deck-row")?.dataset.deckCapitol;
             const subj = deckBox.dataset.deckSubject || "fph";
+            const subject = subjects.find((s) => s.id === subj);
+            const prevAvg = subject ? subjectAverage(subject) : 0;
             const decks = getDecksForCapitol(capitolId, subj);
             const deck = decks.find((d) => d.id === deckId);
             if (!deck || !deck.cards || !deck.cards.length) return;
@@ -3121,6 +3885,9 @@
               updateCapitolPill(capitolId, subj);
               updateDeckCompletion(capitolId, subj);
               syncDeckHeights(capitoleContainer);
+              if (subject) {
+                maybeCelebrateSubject(subject, prevAvg);
+              }
             }, 260);
           });
         });
@@ -3134,6 +3901,7 @@
               deckBox.dataset.deckCapitol ||
               deckBox.closest(".deck-row")?.dataset.deckCapitol;
             const subj = deckBox.dataset.deckSubject || "fph";
+            const subject = subjects.find((s) => s.id === subj);
             const decks = getDecksForCapitol(capitolId, subj);
             const deck = decks.find((d) => d.id === deckId);
             if (!deck || !deck.cards || !deck.cards.length) return;
@@ -3151,6 +3919,9 @@
             ) {
               rerenderSubjectCapitolePreserveState(currentSubject);
             }
+            if (subject) {
+              maybeCelebrateSubject(subject, 100);
+            }
           });
         });
       }
@@ -3165,6 +3936,24 @@
           });
         });
         updateBarWidths(container, false);
+      }
+
+      function scrollListIntoViewIfHidden(listEl) {
+        if (!listEl) return;
+        const modal = detailOverlay.querySelector(".modal");
+        if (!modal) return;
+        const modalRect = modal.getBoundingClientRect();
+        const listRect = listEl.getBoundingClientRect();
+        const offset = 72; // 12px padding + ~100px extra to nudge higher
+        const isAboveView = listRect.top < modalRect.top + 12;
+        if (isAboveView) {
+          const targetTop =
+            modal.scrollTop + (listRect.top - modalRect.top) - offset;
+          modal.scrollTo({
+            top: Math.max(targetTop, 0),
+            behavior: "smooth",
+          });
+        }
       }
 
       function setChevron(btn, expanded) {
@@ -3210,7 +3999,7 @@
           if (!box) return;
           let floating = null;
           const show = () => {
-            const rect = tip.getBoundingClientRect();
+            const rect = (icon || tip).getBoundingClientRect();
             if (!floatingTooltip) {
               floatingTooltip = document.createElement("div");
               floatingTooltip.className = "tooltip-floating";
@@ -3218,6 +4007,8 @@
             }
             floating = floatingTooltip;
             floating.innerHTML = box.innerHTML;
+            floating.style.display = "block";
+            floating.style.opacity = "0";
             const bRect = floating.getBoundingClientRect();
             let left = rect.left + rect.width / 2 - bRect.width / 2;
             left = Math.max(
@@ -3226,20 +4017,86 @@
             );
             let top = rect.top - bRect.height - 8;
             if (top < 8) top = rect.bottom + 8;
+            if (top + bRect.height > window.innerHeight - 8) {
+              top = window.innerHeight - bRect.height - 8;
+            }
+            if (top < 8) top = 8;
             floating.style.left = `${left}px`;
             floating.style.top = `${top}px`;
-            floating.style.display = "block";
             floating.style.opacity = "1";
+            floating.dataset.tipId = tip.dataset.tipId || "";
           };
           const hide = () => {
             if (floatingTooltip) {
               floatingTooltip.style.display = "none";
               floatingTooltip.style.opacity = "0";
+              floatingTooltip.dataset.tipId = "";
             }
           };
-          tip.addEventListener("mouseenter", show);
-          tip.addEventListener("mousemove", show);
-          tip.addEventListener("mouseleave", hide);
+          const toggle = (event) => {
+            if (event) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            const activeId = floatingTooltip?.dataset.tipId || "";
+            const currentId = tip.dataset.tipId || "";
+            if (floatingTooltip && floatingTooltip.style.display === "block") {
+              if (activeId && activeId === currentId) {
+                hide();
+                return;
+              }
+            }
+            show();
+          };
+          if (!tip.dataset.tipId) {
+            tip.dataset.tipId = `tip-${Math.random().toString(36).slice(2, 9)}`;
+          }
+          let icon = tip.querySelector(".tooltip-icon");
+          if (!icon && !tip.classList.contains("help-tip")) {
+            icon = document.createElement("span");
+            icon.className = "tooltip-icon";
+            icon.setAttribute("aria-hidden", "true");
+            tip.appendChild(icon);
+          }
+          if (!icon) icon = tip;
+
+          // underline remains regardless of word count
+          icon.addEventListener("mouseenter", show);
+          icon.addEventListener("mousemove", show);
+          icon.addEventListener("mouseleave", hide);
+          icon.addEventListener("touchstart", toggle, { passive: false });
+          icon.addEventListener("click", toggle);
+          if (!tooltipHideBound) {
+            tooltipHideBound = true;
+            document.addEventListener("click", (e) => {
+              const target = e.target;
+              if (
+                target &&
+                target.closest &&
+                target.closest(".tip, .tooltip-floating")
+              ) {
+                return;
+              }
+              hide();
+            });
+            document.addEventListener(
+              "touchstart",
+              (e) => {
+                const target = e.target;
+                if (
+                  target &&
+                  target.closest &&
+                  target.closest(".tip, .tooltip-floating")
+                ) {
+                  return;
+                }
+                hide();
+              },
+              { passive: true }
+            );
+            window.addEventListener("scroll", hide, { passive: true });
+            window.addEventListener("resize", hide);
+          }
         });
       }
 
@@ -3311,6 +4168,22 @@
         }
         if (!subject.topics?.length) {
           subject.topics = data.topics || [];
+        }
+      }
+
+      function ensureFpedData(subject) {
+        if (!subject || subject.id !== "fped") return;
+        const data = window.FPED_CONTENT || {};
+        if (!subject.capitole?.length) {
+          subject.capitole = data.capitole || [];
+        }
+        if (!subject.topics?.length) {
+          subject.topics = (window.FPED_QUIZ || []).map((q) => ({
+            id: q.id,
+            title: q.title,
+            question: q.questions?.[0] || null,
+            questions: q.questions || [],
+          }));
         }
       }
 
@@ -3725,7 +4598,20 @@
       document.addEventListener("keydown", (e) => {
         if (e.shiftKey && (e.key === "q" || e.key === "Q")) {
           e.preventDefault();
-          resetAllProgress();
+          if (detailOverlay.classList.contains("show") && currentSubject) {
+            resetSubject(currentSubject);
+          } else {
+            resetAllProgress();
+          }
+        }
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.shiftKey && (e.key === "p" || e.key === "P")) {
+          e.preventDefault();
+          if (detailOverlay.classList.contains("show") && currentSubject) {
+            completeSubject(currentSubject);
+          }
         }
       });
     </script>
