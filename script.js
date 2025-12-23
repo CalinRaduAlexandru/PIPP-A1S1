@@ -81,34 +81,8 @@
           name: "PHEd (Psihologia Educației)",
           symbol: "🎓",
           pdf: "docs/phed.pdf",
-          topics: [
-            {
-              id: "phed-t1",
-              title: "Motivația în clasă",
-              question: {
-                text: "Un exemplu de motivație extrinsecă la elevi:",
-                options: [
-                  "Curiozitatea pentru subiect",
-                  "Note și recompense",
-                  "Auto-reflecție",
-                ],
-                answer: 1,
-              },
-            },
-            {
-              id: "phed-t2",
-              title: "Clima educațională",
-              question: {
-                text: "O climă educațională pozitivă include:",
-                options: [
-                  "Siguranță psihologică și feedback",
-                  "Pedepse frecvente",
-                  "Concurență rigidă",
-                ],
-                answer: 0,
-              },
-            },
-          ],
+          capitole: [],
+          topics: [],
         },
         {
           id: "pedcom",
@@ -219,7 +193,7 @@
       const subjectBars = {
         fph: { base: "#b32d2d", glow: "rgba(239, 107, 107, 0.8)" },
         fped: { base: "#a85b00", glow: "rgba(226, 141, 26, 0.8)" },
-        pdezv: { base: "#588524", glow: "rgba(152, 208, 79, 0.8)" },
+        pdezv: { base: "#8a9152", glow: "rgba(190, 200, 130, 0.8)" },
         phed: { base: "#b02672", glow: "rgba(223, 95, 168, 0.8)" },
         pedcom: { base: "#4636ad", glow: "rgba(123, 107, 240, 0.8)" },
         lr: { base: "#1e65c5", glow: "rgba(77, 141, 240, 0.8)" },
@@ -569,15 +543,18 @@
                   .querySelectorAll(".subcap .chevron")
                   .forEach((c) => (c.style.transform = "rotate(0deg)"));
               }
+              quizList.innerHTML = renderInlineQuizList(subject, ids);
+              quizList.dataset.quizIds = ids.join(",");
               if (willExpand) {
                 quizList.classList.add("expanded");
                 setChevron(btn, true);
+                requestAnimationFrame(() =>
+                  scrollListIntoViewIfHidden(quizList)
+                );
               } else {
                 quizList.classList.remove("expanded");
                 setChevron(btn, false);
               }
-              quizList.innerHTML = renderInlineQuizList(subject, ids);
-              quizList.dataset.quizIds = ids.join(",");
             }
             topicsContainer.classList.add("hidden");
             wireInlineQuizButtons(quizList, subject);
@@ -873,6 +850,24 @@
           });
         });
         updateBarWidths(container, false);
+      }
+
+      function scrollListIntoViewIfHidden(listEl) {
+        if (!listEl) return;
+        const modal = detailOverlay.querySelector(".modal");
+        if (!modal) return;
+        const modalRect = modal.getBoundingClientRect();
+        const listRect = listEl.getBoundingClientRect();
+        const offset = 112; // 12px padding + ~100px extra to nudge higher
+        const isAboveView = listRect.top < modalRect.top + 12;
+        if (isAboveView) {
+          const targetTop =
+            modal.scrollTop + (listRect.top - modalRect.top) - offset;
+          modal.scrollTo({
+            top: Math.max(targetTop, 0),
+            behavior: "smooth",
+          });
+        }
       }
 
       function setChevron(btn, expanded) {

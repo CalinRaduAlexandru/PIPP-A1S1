@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="favicon.png" />
-    <link rel="preload" href="Assets/trophy.png" as="image" />
+    <link rel="prefetch" href="Assets/trophy.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -252,6 +252,14 @@
 
         .deck-score-pill {
           padding: 6px 12px !important;
+        }
+
+        .lesson-grid {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+
+        .lesson-grid.two {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
         }
       }
 
@@ -629,8 +637,6 @@
 
       .congrats-title {
         font-size: 3.4rem;
-        font-family: "Archivo Black", "Manrope", "Space Grotesk",
-          "Helvetica Neue", Arial, sans-serif;
         font-weight: 900;
         letter-spacing: -0.02em;
         display: grid;
@@ -930,7 +936,7 @@
         color: #6b3a00;
       }
       .card.pdezv .progress-bar {
-        --bar-base: #8a9152;
+        --bar-base: #828a43;
         --bar-glow: rgba(190, 200, 130, 1);
       }
       .card.pdezv h3 {
@@ -1132,10 +1138,18 @@
         justify-content: center;
         padding: 16px;
         z-index: 10;
+        opacity: 0;
+        transition: opacity 0.35s ease;
       }
 
       .overlay.show {
         display: flex;
+        opacity: 1;
+      }
+
+      .overlay.closing {
+        display: flex;
+        opacity: 0;
       }
 
       .modal {
@@ -1187,16 +1201,104 @@
         cursor: pointer;
       }
 
+      .mobile-back {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        margin: 18px 0 0 18px;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: 400;
+        font-size: 1.2rem;
+        cursor: pointer;
+        opacity: 0.5;
+      }
+
       .topic {
         padding: 16px 14px;
         border-radius: 16px;
         background: rgba(255, 255, 255, 0.04);
         margin-bottom: 12px;
         display: grid;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 1fr;
         gap: 10px;
-        align-items: center;
+        align-items: stretch;
         width: 100%;
+        position: relative;
+      }
+
+      .topic-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .topic-info {
+        min-width: 0;
+        flex: 1;
+      }
+
+      .topic-actions {
+        display: inline-flex;
+        align-items: flex-end;
+        gap: 10px;
+        justify-content: flex-end;
+        flex-shrink: 0;
+      }
+
+      .quiz-title-row {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 10px;
+        align-items: center;
+      }
+
+      .quiz-title-text {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .lesson-info-btn {
+        width: 34px;
+        height: 34px;
+        min-width: 34px;
+        min-height: 34px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgb(244 243 255 / 15%);
+        color: rgba(248, 250, 252, 0.6);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.14),
+          inset 0 -2px 6px rgba(0, 0, 0, 0.3);
+        transition: transform 0.18s ease, filter 0.18s ease;
+      }
+
+      .lesson-info-btn:hover {
+        transform: translateY(-1px);
+        filter: brightness(1.2);
+      }
+
+      .lesson-info-btn:active {
+        transform: translateY(0);
+      }
+
+      .lesson-info-btn svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .lesson-info-btn-mobile {
+        display: none;
+      }
+
+      .lesson-info-btn-title {
+        display: inline-flex;
       }
 
       .topic strong {
@@ -1458,8 +1560,7 @@
         overflow: hidden;
         opacity: 0;
         transform: translateY(-6px);
-        transition: max-height 0.35s ease, opacity 0.35s ease,
-          transform 0.35s ease;
+        transition: max-height 0.8s ease, opacity 0.8s ease, transform 0.8s ease;
         pointer-events: none;
       }
 
@@ -1475,7 +1576,7 @@
       #quizPanel {
         transform: scale(0.97);
         opacity: 0;
-        transition: transform 0.35s ease, opacity 0.35s ease;
+        transition: transform 0.55s ease, opacity 0.55s ease;
       }
 
       #quizPanel.show {
@@ -1535,6 +1636,54 @@
         border-radius: 10px;
         font-weight: 700;
         display: none;
+        position: relative;
+        padding-left: 44px;
+      }
+
+      .feedback::before {
+        content: "";
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        width: 22px;
+        height: 22px;
+        transform: translateY(-50%);
+        border-radius: 999px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .feedback.info.is-unanswered::before {
+        display: flex;
+        border-radius: 6px;
+        width: 30px;
+        height: 30px;
+        background: url("Assets/caution.png") center/contain no-repeat;
+        filter: drop-shadow(0 2px 6px rgba(253, 230, 138, 0.45));
+      }
+
+      .feedback.info.is-unanswered::after {
+        content: "";
+      }
+
+      .feedback.info.is-incorrect::before {
+        display: flex;
+        background: rgba(239, 68, 68, 0.18);
+        border: 1px solid rgba(248, 113, 113, 0.6);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0 2px 6px rgba(248, 113, 113, 0.45));
+      }
+
+      .feedback.info.is-incorrect::after {
+        content: "✕";
+        position: absolute;
+        left: 24px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 900;
+        color: #f87171;
+        font-size: 0.9rem;
       }
 
       .feedback.success {
@@ -1542,6 +1691,24 @@
         background: rgba(16, 185, 129, 0.15);
         color: #a7f3d0;
         border: 1px solid rgba(16, 185, 129, 0.3);
+      }
+
+      .feedback.success::before {
+        display: flex;
+        background: #22c55e;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        box-shadow: 0 0 10px rgba(34, 197, 94, 0.35);
+      }
+
+      .feedback.success::after {
+        content: "✓";
+        position: absolute;
+        left: 18px;
+        top: 53%;
+        transform: translateY(-56%);
+        font-weight: 900;
+        color: #ffffff;
+        font-size: 0.95rem;
       }
 
       .feedback.info {
@@ -1580,6 +1747,7 @@
         gap: 8px;
         margin-bottom: 12px;
         flex-wrap: wrap;
+        cursor: pointer;
       }
 
       .capitol-actions {
@@ -1588,6 +1756,10 @@
         flex-wrap: wrap;
         align-items: center;
         flex: 0;
+      }
+
+      .pill-course {
+        cursor: pointer;
       }
 
       .subcap {
@@ -1603,12 +1775,22 @@
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
       }
 
+      .deck-subcap {
+        cursor: default;
+      }
+
+      .deck-subcap .subcap-header,
+      .deck-subcap .subcap-title {
+        cursor: pointer;
+      }
+
       .subcap-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 10px;
         width: 100%;
+        cursor: pointer;
       }
 
       .subcap-title {
@@ -1618,6 +1800,22 @@
         align-items: center;
         gap: 8px;
         margin: 0;
+        cursor: pointer;
+      }
+
+      .subcap-status {
+        cursor: pointer;
+      }
+
+      .deck-collapsible,
+      .deck-collapsible * {
+        cursor: default;
+      }
+
+      .deck-action,
+      .deck-flip-btn,
+      .deck-reset-btn {
+        cursor: pointer;
       }
 
       .subcap-status {
@@ -1648,19 +1846,561 @@
 
       .subcap-quiz-list .topic {
         position: relative;
-        display: block;
+        display: grid;
         padding-right: 16px;
       }
 
-      .subcap-quiz-list .topic button {
-        position: absolute;
-        right: 16px;
-        top: 16px;
+      .subcap-quiz-list .topic .quiz-btn,
+      .subcap-quiz-list .topic .lesson-eye-btn {
+        height: 46px;
       }
 
       .subcap-quiz-list .topic .progress {
         margin-top: 12px;
         width: 100%;
+      }
+
+      .lesson-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 12000;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        padding: 40px;
+        pointer-events: none;
+        opacity: 0;
+        overflow: hidden;
+        border-radius: 0;
+        background: rgba(11, 18, 32, 0);
+        transition: opacity 0.45s ease, background-color 0.45s ease;
+      }
+
+      .lesson-overlay.hidden {
+        display: flex;
+        opacity: 0;
+        visibility: hidden;
+        background: rgba(11, 18, 32, 0);
+      }
+
+      .lesson-overlay.show {
+        pointer-events: auto;
+        opacity: 1;
+        visibility: visible;
+        background: #0b1220;
+      }
+
+      .lesson-overlay.exit {
+        opacity: 0;
+        background: rgba(11, 18, 32, 0);
+        transition-delay: 0.5s;
+        visibility: visible;
+      }
+
+      .lesson-blob {
+        position: absolute;
+        top: var(--lesson-y, 50%);
+        left: var(--lesson-x, 50%);
+        width: 160px;
+        height: 160px;
+        background: radial-gradient(
+          circle at 40% 35%,
+          rgba(16, 26, 44, 0.92),
+          rgba(10, 16, 30, 0.95) 55%,
+          rgba(8, 12, 24, 0.98) 78%
+        );
+        border-radius: 46% 54% 60% 40% / 58% 42% 55% 45%;
+        transform: translate(-50%, -50%) scale(0);
+        filter: blur(2px);
+      }
+
+      .lesson-overlay.show .lesson-blob {
+        animation: lessonBlobIn 0.75s ease-out forwards;
+      }
+
+      .lesson-overlay.exit .lesson-blob {
+        animation: lessonBlobOut 0.55s cubic-bezier(0.32, 0, 0.67, 0) forwards;
+      }
+
+      .lesson-content {
+        position: relative;
+        z-index: 2;
+        width: min(1060px, 100%);
+        margin: 0 auto;
+        color: #f8fafc;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.45s ease, transform 0.45s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        max-height: calc(100vh - 80px);
+        overflow: visible;
+      }
+
+      .lesson-overlay.show .lesson-content {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.6s;
+      }
+
+      .lesson-overlay.exit .lesson-content {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.35s ease, transform 0.35s ease;
+      }
+
+      .lesson-body {
+        overflow-y: auto;
+        padding: 22px 20px;
+        border-radius: 18px;
+        background: rgb(21 30 48 / 96%);
+        border: 1px solid rgba(148, 163, 184, 0.12);
+        box-shadow: 0 12px 28px rgba(3, 10, 25, 0.28);
+      }
+
+      .lesson-title {
+        font-size: 1.6rem;
+        font-weight: 800;
+        margin: 0;
+        min-width: 0;
+      }
+
+      .lesson-close {
+        background: rgba(203, 213, 225, 0.12);
+        border: 1px solid rgba(226, 232, 240, 0.22);
+        color: #f8fafc;
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.18s ease, filter 0.18s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .lesson-close:hover {
+        transform: scale(1.03);
+        filter: brightness(1.08);
+      }
+
+      .lesson-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0 16px;
+      }
+
+      .lesson-text {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: #e2e8f0;
+      }
+
+      .lesson-text h1 {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;
+        color: #fff;
+      }
+
+      .lesson-text h2 {
+        margin: 0 0 16px 0;
+        font-size: 1.3rem;
+        color: #f8fafc;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .lesson-text h3 {
+        margin: 0 0 12px 0;
+        font-size: 1.15rem;
+        color: #e2e8f0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .lesson-text p {
+        margin: 0 0 20px 0;
+      }
+
+      .lesson-text hr {
+        border: none;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.2),
+          rgba(255, 255, 255, 0)
+        );
+        margin: 34px 0;
+      }
+
+      .lesson-highlight {
+        padding: 20px 22px;
+        border-radius: 14px;
+        background: rgba(200, 200, 240, 0.12);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      }
+
+      .lesson-text .tip {
+        color: #f8fafc;
+        font-weight: 700;
+        border-bottom: none;
+      }
+
+      .lesson-figure {
+        margin: 0;
+        display: grid;
+        gap: 10px;
+      }
+
+      .lesson-figure img {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        box-shadow: 0 12px 30px rgba(7, 12, 24, 0.35);
+      }
+
+      .lesson-figure figcaption {
+        font-size: 0.95rem;
+        color: rgba(226, 232, 240, 0.8);
+      }
+
+      .lesson-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(15, 23, 42, 0.45);
+      }
+
+      .lesson-table th,
+      .lesson-table td {
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .lesson-table th {
+        background: rgba(59, 130, 246, 0.12);
+        color: #f8fafc;
+        font-weight: 800;
+      }
+
+      .lesson-grid {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .lesson-grid.two {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .lesson-card {
+        padding: 24px 16px;
+        border-radius: 12px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(30, 41, 59, 0.4);
+      }
+
+      .lesson-card h3 {
+        margin-bottom: 8px;
+      }
+
+      .lesson-card p:last-child {
+        margin-bottom: 0;
+      }
+
+      .lesson-grid:has(.lesson-card:nth-child(4)),
+      .lesson-grid.two:has(.lesson-card:nth-child(4)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .lesson-grid:has(.lesson-card:nth-child(2)):not(
+          :has(.lesson-card:nth-child(3))
+        ),
+      .lesson-grid.two:has(.lesson-card:nth-child(2)):not(
+          :has(.lesson-card:nth-child(3))
+        ) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .lesson-grid:has(.lesson-card:nth-child(4))
+        .lesson-card:last-child:nth-child(odd),
+      .lesson-grid.two:has(.lesson-card:nth-child(4))
+        .lesson-card:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+      }
+
+      .lesson-arrow-row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        row-gap: 12px;
+        gap: 14px;
+        font-weight: 700;
+        color: rgba(248, 250, 252, 0.9);
+      }
+
+      .lesson-arrow {
+        flex: 0 0 36px;
+        height: 2px;
+        background: rgba(226, 232, 240, 0.3);
+        position: relative;
+      }
+
+      .lesson-arrow::after {
+        content: ">";
+        position: absolute;
+        right: -6px;
+        top: -9px;
+        font-weight: 900;
+        color: rgba(226, 232, 240, 0.75);
+      }
+
+      .lesson-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: rgba(148, 163, 184, 0.18);
+        border: 1px solid rgba(226, 232, 240, 0.2);
+        font-weight: 700;
+        color: #f8fafc;
+        margin-right: 8px;
+      }
+
+      .lesson-flow {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 18px;
+        margin: 24px 0 18px;
+        font-weight: 700;
+        color: rgba(248, 250, 252, 0.9);
+      }
+
+      .lesson-flow-sep {
+        font-size: 1rem;
+        color: rgba(226, 232, 240, 0.65);
+      }
+
+      /* Flashcard back layout */
+      .deck-back {
+        color: #e6edf3;
+        font-size: 0.98rem;
+        line-height: 1.55;
+        width: 100%;
+        overflow-wrap: anywhere;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 0;
+      }
+
+      .deck-back-title {
+        font-weight: 800;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+        letter-spacing: 0.01em;
+        font-size: 1.25rem;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 12px;
+        padding: 12px 16px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .deck-back-shell {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        gap: 14px;
+        height: 100%;
+        min-height: 0;
+        flex: 1;
+      }
+
+      .deck-back-body {
+        min-height: 100%;
+        overflow: auto;
+        padding: 0px;
+        flex: 1;
+        height: 100%;
+      }
+
+      .deck-back-panel {
+        display: grid;
+        gap: 14px;
+        align-content: start;
+        background: rgba(15, 23, 42, 0.4);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 14px;
+        padding: 16px 18px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+        max-height: 300px;
+        overflow: auto;
+      }
+
+      .deck-back-content {
+        font-weight: 600;
+        color: #e6edf3;
+        font-size: 1.02rem;
+        display: grid;
+        gap: 10px;
+      }
+
+      .deck-back-actions {
+        padding-top: 12px;
+      }
+
+      @media (max-width: 720px) {
+        .lesson-grid {
+          grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+
+        .lesson-grid.two {
+          grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+
+        .lesson-flow {
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .lesson-flow .lesson-pill {
+          width: 100%;
+          justify-content: center;
+        }
+
+        .lesson-flow-sep {
+          font-size: 0.9rem;
+          padding-left: 0;
+        }
+
+        .lesson-arrow-row {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 12px;
+        }
+
+        .lesson-arrow {
+          width: 100%;
+          height: 1px;
+          flex: 0 0 auto;
+        }
+
+        .lesson-arrow::after {
+          content: "▼";
+          right: 50%;
+          transform: translateX(50%);
+          top: -10px;
+        }
+
+        .lesson-table {
+          display: block;
+          overflow: hidden;
+        }
+
+        .lesson-table thead {
+          display: none;
+        }
+
+        .lesson-table tbody,
+        .lesson-table tr,
+        .lesson-table td {
+          display: block;
+          width: 100%;
+        }
+
+        .lesson-table tr {
+          border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+          padding: 10px 0;
+        }
+
+        .lesson-table td {
+          border-bottom: none;
+          padding: 8px 14px;
+        }
+
+        .lesson-table td::before {
+          display: block;
+          font-size: 0.78rem;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          color: rgba(148, 163, 184, 0.8);
+          margin-bottom: 6px;
+          font-weight: 700;
+        }
+
+        .lesson-table-procesual td:nth-child(1)::before {
+          content: "Etapă";
+        }
+
+        .lesson-table-procesual td:nth-child(2)::before {
+          content: "Indicator";
+        }
+
+        .lesson-table-procesual td:nth-child(3)::before {
+          content: "Exemplu";
+        }
+
+        .lesson-table-organizatoric td:nth-child(1)::before {
+          content: "Formă";
+        }
+
+        .lesson-table-organizatoric td:nth-child(2)::before {
+          content: "Rol didactic";
+        }
+
+        .lesson-table-organizatoric td:nth-child(3)::before {
+          content: "Accent";
+        }
+      }
+
+      @keyframes lessonBlobIn {
+        0% {
+          transform: translate(-50%, -50%) scale(0);
+          border-radius: 54% 46% 62% 38% / 58% 42% 50% 50%;
+          filter: blur(6px);
+        }
+        100% {
+          transform: translate(-50%, -50%) scale(22);
+          border-radius: 50% 50% 45% 55% / 55% 45% 50% 50%;
+          filter: blur(0px);
+        }
+      }
+
+      @keyframes lessonBlobOut {
+        0% {
+          transform: translate(-50%, -50%) scale(22);
+          filter: blur(0px);
+        }
+        55% {
+          transform: translate(-50%, -50%) scale(12);
+          filter: blur(2px);
+        }
+        100% {
+          transform: translate(-50%, -50%) scale(0);
+          filter: blur(6px);
+        }
       }
 
       .hidden {
@@ -1678,8 +2418,8 @@
 
       .emoji-pop {
         position: absolute;
-        font-size: 1.5rem;
-        animation: emojiRise 0.9s ease forwards;
+        font-size: 2rem;
+        animation: emojiRise 1.4s ease forwards;
         pointer-events: none;
       }
 
@@ -1710,6 +2450,24 @@
         justify-content: center;
       }
 
+      @media (max-width: 600px) {
+        .quiz-btn {
+          min-height: 52px;
+          min-width: 0;
+        }
+        .quiz-btn.split.quiz-back-mobile {
+          flex: 0 0 60%;
+          max-width: 60%;
+        }
+        .quiz-btn.split.quiz-restart-mobile {
+          flex: 0 0 40%;
+          max-width: 40%;
+        }
+        .quiz-actions {
+          flex-wrap: nowrap;
+        }
+      }
+
       @keyframes completedPulse {
         0% {
           box-shadow: 0 0 0 0 rgba(107, 232, 247, 0.4);
@@ -1724,15 +2482,15 @@
 
       @keyframes emojiRise {
         0% {
-          transform: translateY(10px) scale(0.85);
+          transform: translateY(6px) scale(0.9);
           opacity: 0;
         }
-        60% {
-          transform: translateY(-10px) scale(1.1);
+        70% {
+          transform: translateY(-6px) scale(1.15);
           opacity: 1;
         }
         100% {
-          transform: translateY(-20px) scale(1);
+          transform: translateY(-12px) scale(1.02);
           opacity: 0;
         }
       }
@@ -1749,13 +2507,38 @@
           padding: 18px;
         }
         .modal {
-          padding: 18px 18px 60px 18px;
+          padding: calc(60px + env(safe-area-inset-top)) 4px 60px 4px;
+        }
+
+        .modal .close {
+          top: calc(12px + 60px + env(safe-area-inset-top));
+          display: none;
+        }
+        .mobile-back {
+          display: inline-flex;
+          padding: 6px 0;
+        }
+        #detailTitle {
+          margin-top: 32px;
+          margin-bottom: 6px;
+        }
+        #quizPanelTitle {
+          margin-bottom: 12px;
+        }
+
+        #detailTitle,
+        #quizPanelTitle {
+          text-align: center;
         }
         .capitol-header {
           flex-direction: column;
           align-items: stretch;
           gap: 10px;
           width: 100%;
+        }
+        .capitol {
+          padding-left: 8px;
+          padding-right: 8px;
         }
         .capitol-actions {
           width: 100%;
@@ -1765,13 +2548,31 @@
           width: 100%;
           justify-content: center;
         }
+        .cap-icon {
+          display: none;
+        }
         .pill-course {
           width: 100%;
           margin-bottom: 4px;
+          padding: 16px 6px;
+          margin-right: -4px;
+          gap: 0px;
+          background: transparent !important;
+          border: none !important;
+          border-color: transparent !important;
+          box-shadow: none !important;
+          grid-template-columns: 1fr auto;
+        }
+        .pill-course .pill-percent {
+          margin-left: 10px;
+          width: fit-content;
+          justify-self: end;
         }
         .subcap-header {
           flex-direction: column;
           align-items: flex-start;
+          gap: 16px;
+          padding: 12px 0px;
         }
         .subcap button {
           width: 100%;
@@ -1780,10 +2581,51 @@
         .subcap-quiz-list .topic {
           padding-right: 16px;
         }
-        .subcap-quiz-list .topic button {
+        .subcap-quiz-list .topic .quiz-btn {
           position: static;
           width: 100%;
-          margin-top: 8px;
+          margin-top: 0px;
+        }
+        .topic-actions {
+          width: 100%;
+          flex-direction: row;
+          align-items: stretch;
+          gap: 12px;
+          justify-content: flex-start;
+        }
+        .topic-head {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .lesson-info-btn-title {
+          display: none;
+        }
+        .lesson-info-btn-mobile {
+          display: inline-flex;
+          width: 52px;
+          height: 54px;
+          min-width: 52px;
+          min-height: 52px;
+          border-radius: 14px;
+          flex: 0 0 25%;
+        }
+        .topic-actions .quiz-btn {
+          width: 100%;
+          height: 52px;
+          flex: 1 1 75%;
+        }
+        .topic-actions .quiz-btn-wrap:only-child {
+          flex: 1 1 100%;
+        }
+        .lesson-close-text {
+          display: none;
+        }
+
+        .lesson-overlay {
+          padding: 72px 12px 40px 12px;
+        }
+        .lesson-content {
+          max-height: calc(100vh - 112px);
         }
 
         /* Deck flashcards */
@@ -1799,6 +2641,7 @@
           flex: 1 1 320px;
           position: relative;
           overflow: hidden;
+          cursor: default;
         }
 
         .deck-box.deck-primary {
@@ -1930,12 +2773,123 @@
           color: #e6edf3;
           font-size: 0.98rem;
           line-height: 1.55;
+          width: 100%;
+          overflow-wrap: anywhere;
         }
 
         .deck-back br {
           display: block;
           margin-top: 6px;
           content: "";
+        }
+
+        .deck-back-title {
+          font-weight: 800;
+          color: #fff;
+          text-align: center;
+          text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+          letter-spacing: 0.01em;
+          font-size: 1.25rem;
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.14);
+          border-radius: 12px;
+          padding: 12px 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 96px;
+          width: 100%;
+        }
+
+        .deck-back-shell {
+          display: grid;
+          grid-template-rows: auto 1fr auto;
+          gap: 14px;
+          height: 100%;
+          min-height: 0;
+        }
+
+        .deck-back-body {
+          min-height: 330px;
+          overflow: auto;
+          padding: 0 6px;
+        }
+
+        .deck-back-panel {
+          display: grid;
+          gap: 14px;
+          align-content: start;
+          background: rgba(15, 23, 42, 0.4);
+          border: 1px solid rgba(148, 163, 184, 0.18);
+          border-radius: 14px;
+          padding: 16px 18px;
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+          max-height: 300px;
+          overflow: auto;
+        }
+
+        .deck-back-content .flash-pill-list {
+          display: grid;
+          gap: 10px;
+        }
+
+        .deck-back-content .flash-pill {
+          width: 100%;
+        }
+
+        .flash-pill-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .flash-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 6px 10px;
+          border-radius: 999px;
+          border: 1px solid rgba(148, 163, 184, 0.2);
+          background: rgba(148, 163, 184, 0.14);
+          color: #e2e8f0;
+          font-weight: 700;
+          font-size: 0.94rem;
+          max-width: 100%;
+          white-space: normal;
+        }
+
+        .flash-pill-list .flash-pill:nth-child(3n + 1) {
+          background: rgba(56, 189, 248, 0.14);
+          border-color: rgba(56, 189, 248, 0.28);
+          color: #e0f2fe;
+        }
+
+        .flash-pill-list .flash-pill:nth-child(3n + 2) {
+          background: rgba(248, 250, 252, 0.12);
+          border-color: rgba(226, 232, 240, 0.2);
+        }
+
+        .flash-pill-list .flash-pill:nth-child(3n + 3) {
+          background: rgba(251, 191, 36, 0.12);
+          border-color: rgba(251, 191, 36, 0.25);
+          color: #fff7ed;
+        }
+
+        .deck-back-content {
+          font-weight: 600;
+          color: #e6edf3;
+          font-size: 1.02rem;
+          display: grid;
+          gap: 10px;
+        }
+
+        .deck-back-actions {
+          padding-top: 12px;
+        }
+
+        .flash-back {
+          display: grid;
+          gap: 12px;
         }
 
         .deck-card.completed {
@@ -1971,6 +2925,130 @@
         .deck-dot.green {
           background: #22c55e;
           color: #0b1a10;
+        }
+        .deck-dot {
+          position: relative;
+          overflow: visible;
+        }
+
+        .deck-dot.reward-pulse {
+          animation: deckRewardPulse 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .deck-dot-plus {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 52px;
+          height: 52px;
+          border-radius: 999px;
+          background: rgba(34, 197, 94, 0.18);
+          border: 2px solid rgba(34, 197, 94, 0.75);
+          color: #eafff0;
+          font-weight: 900;
+          font-size: 1.1rem;
+          display: grid;
+          place-items: center;
+          letter-spacing: 0.02em;
+          transform: translate(-50%, -50%) scale(0.65);
+          opacity: 0;
+          pointer-events: none;
+          box-shadow: 0 16px 34px rgba(34, 197, 94, 0.45),
+            0 0 20px rgba(34, 197, 94, 0.35);
+          animation: deckRewardPlus 0.95s ease forwards;
+          z-index: 5;
+        }
+
+        .deck-dot.number-fade {
+          opacity: 0.2;
+          transform: scale(0.96);
+          transition: opacity 180ms ease, transform 180ms ease;
+        }
+
+        .deck-dot.pulse-hit {
+          animation: deckDotPulse 0.6s ease;
+        }
+
+        @keyframes deckDotPulse {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.18);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        .deck-reward-fly {
+          position: fixed;
+          width: 32px;
+          height: 32px;
+          border-radius: 999px;
+          display: grid;
+          place-items: center;
+          font-weight: 900;
+          font-size: 0.95rem;
+          color: #eafff0;
+          background: rgba(34, 197, 94, 0.22);
+          border: 2px solid rgba(34, 197, 94, 0.65);
+          box-shadow: 0 16px 30px rgba(34, 197, 94, 0.35),
+            0 0 18px rgba(34, 197, 94, 0.4);
+          pointer-events: none;
+          z-index: 9999;
+        }
+
+        @keyframes deckRewardPulse {
+          0% {
+            transform: scale(1);
+            box-shadow: 0 0 0 rgba(34, 197, 94, 0);
+          }
+          35% {
+            transform: scale(1.15);
+            box-shadow: 0 0 18px rgba(34, 197, 94, 0.55);
+          }
+          100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 rgba(34, 197, 94, 0);
+          }
+        }
+
+        @keyframes deckRewardPlus {
+          0% {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0.65);
+          }
+          35% {
+            opacity: 1;
+            transform: translate(-50%, -55%) scale(1.1);
+          }
+          100% {
+            opacity: 0;
+            transform: translate(-50%, -90%) scale(0.85);
+          }
+        }
+
+        @keyframes deckRewardNumber {
+          0% {
+            opacity: 0;
+            transform: translateY(-26px) scale(0.75);
+            filter: blur(2px);
+          }
+          55% {
+            opacity: 1;
+            transform: translateY(2px) scale(1.12, 0.86);
+            filter: blur(0px);
+          }
+          72% {
+            opacity: 1;
+            transform: translateY(-2px) scale(0.98, 1.06);
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(-6px) scale(1);
+            filter: blur(2px);
+          }
         }
 
         /* Flip effect */
@@ -2013,7 +3091,11 @@
           height: 100vh;
           max-height: 100vh;
           border-radius: 0;
-          padding: 18px 18px 60px 18px;
+          padding: calc(60px + env(safe-area-inset-top)) 6px 60px 6px;
+        }
+
+        .modal .close {
+          top: calc(12px + 60px + env(safe-area-inset-top));
         }
 
         .overlay {
@@ -2040,10 +3122,13 @@
         background-image: linear-gradient(to right, #315565, #2a3549);
         background-position: 0 100%;
         background-repeat: no-repeat;
-        background-size: calc(100% - 28px) 2px;
+        background-size: 100% 2px;
       }
 
-      .tip.tip-long:not(.help-tip) {
+      /* In quiz, avoid underlining the tooltip icon */
+      .quiz .tip:not(.help-tip),
+      #quizPanelContent .tip:not(.help-tip) {
+        background-size: calc(100% - 28px) 2px;
       }
 
       .tooltip-icon {
@@ -2165,6 +3250,20 @@
           padding: 12px !important;
           gap: 18px !important;
           min-height: 600px;
+        }
+
+        .deck-back-title {
+          min-height: 140px;
+        }
+
+        .deck-back-panel {
+          height: 380px;
+          max-height: none;
+        }
+
+        .flash-pill-grid {
+          display: flex !important;
+          flex-wrap: wrap !important;
         }
 
         .deck-header {
@@ -2326,7 +3425,7 @@
                 <span class="abbr">LR</span>
               </div>
               <div>
-                <h3>Limba Română</h3>
+                <h3>Limba<br />Română</h3>
                 <p class="desc">
                   Explorări de text, gramatică și analiză literară.
                 </p>
@@ -2361,6 +3460,9 @@
       <div class="modal">
         <button class="close" id="closeDetail">×</button>
         <h3 id="detailTitle"></h3>
+        <button class="mobile-back hidden" id="mobileBackToList" type="button">
+          ← Înapoi la materii
+        </button>
         <p id="detailDesc" class="hidden"></p>
         <div
           class="progress-inline hidden"
@@ -2407,10 +3509,41 @@
         </div>
       </div>
     </div>
+    <div id="lessonOverlay" class="lesson-overlay hidden" aria-hidden="true">
+      <div class="lesson-blob" aria-hidden="true"></div>
+      <div class="lesson-content">
+        <div class="lesson-top">
+          <div class="lesson-title" id="lessonTitle"></div>
+          <button type="button" class="lesson-close" id="lessonCloseBtn">
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M4 3h9a2 2 0 0 1 2 2v3" />
+              <path d="M13 21H6a2 2 0 0 1-2-2V5" />
+              <path d="M11 12h9" />
+              <path d="M17 8l4 4-4 4" />
+            </svg>
+            <span class="lesson-close-text">Ieși din lecție</span>
+          </button>
+        </div>
+        <div class="lesson-body lesson-text" id="lessonText"></div>
+      </div>
+    </div>
 
     <script src="fph.js"></script>
     <script src="fped.js"></script>
     <script src="phed.js"></script>
+    <script src="pdezv.js"></script>
+    <script src="lr.js"></script>
+    <script src="pedcom.js"></script>
     <script>
       const subjects = [
         {
@@ -2434,34 +3567,8 @@
           name: "PDEZV (Psihologia Dezvoltării)",
           symbol: "🌱",
           pdf: "docs/pdezv.pdf",
-          topics: [
-            {
-              id: "pdezv-t1",
-              title: "Etape de dezvoltare",
-              question: {
-                text: "O etapă centrală la Piaget este:",
-                options: [
-                  "Operațiilor formale",
-                  "Motivației extrinseci",
-                  "Învățării sociale",
-                ],
-                answer: 0,
-              },
-            },
-            {
-              id: "pdezv-t2",
-              title: "Atașament",
-              question: {
-                text: "Stilul de atașament securizant se caracterizează prin:",
-                options: [
-                  "Evitarea constantă a adultului",
-                  "Confort la întoarcerea adultului",
-                  "Indiferență totală",
-                ],
-                answer: 1,
-              },
-            },
-          ],
+          capitole: [],
+          topics: [],
         },
         {
           id: "phed",
@@ -2476,68 +3583,16 @@
           name: "PedCom (Pedagogia comunicării)",
           symbol: "💬",
           pdf: "docs/pedcom.pdf",
-          topics: [
-            {
-              id: "pedcom-t1",
-              title: "Ascultare activă",
-              question: {
-                text: "Ascultarea activă presupune:",
-                options: [
-                  "Doar auzirea mesajului",
-                  "Parafrazare și clarificare",
-                  "Intervenții permanente",
-                ],
-                answer: 1,
-              },
-            },
-            {
-              id: "pedcom-t2",
-              title: "Feedback eficient",
-              question: {
-                text: "Feedback-ul constructiv este de obicei:",
-                options: [
-                  "Specific și orientat spre soluție",
-                  "General și ambiguu",
-                  "Întotdeauna negativ",
-                ],
-                answer: 0,
-              },
-            },
-          ],
+          capitole: [],
+          topics: [],
         },
         {
           id: "lr",
           name: "Limba Română",
           symbol: "📖",
           pdf: "docs/lr.pdf",
-          topics: [
-            {
-              id: "lr-t1",
-              title: "Analiză de text",
-              question: {
-                text: "O analiză literară riguroasă include:",
-                options: [
-                  "Doar rezumatul textului",
-                  "Temă, motive, structură și limbaj",
-                  "Ignorarea contextului autorului",
-                ],
-                answer: 1,
-              },
-            },
-            {
-              id: "lr-t2",
-              title: "Gramatică",
-              question: {
-                text: "Alege varianta corectă:",
-                options: [
-                  "Sunt sigur că voi reuși",
-                  "Sunt sigur că voi reuși-voi",
-                  "Sigur sunt că voi reuși",
-                ],
-                answer: 0,
-              },
-            },
-          ],
+          capitole: [],
+          topics: [],
         },
       ];
 
@@ -2555,6 +3610,7 @@
       const subjectProgressLabel = document.getElementById("subjectProgress");
       const subjectProgressBar = document.getElementById("subjectProgressBar");
       const backToList = document.getElementById("backToList");
+      const mobileBackToList = document.getElementById("mobileBackToList");
       const subjectProgressWrap = document.getElementById(
         "subjectProgressWrap"
       );
@@ -2565,6 +3621,10 @@
       const quizPanelSubmit = document.getElementById("quizPanelSubmit");
       const quizPanelRestart = document.getElementById("quizPanelRestart");
       const quizPanelBack = document.getElementById("quizPanelBack");
+      const lessonOverlay = document.getElementById("lessonOverlay");
+      const lessonTitle = document.getElementById("lessonTitle");
+      const lessonText = document.getElementById("lessonText");
+      const lessonCloseBtn = document.getElementById("lessonCloseBtn");
 
       let progressStore = loadProgress();
       let deckState = loadDeckState();
@@ -2650,6 +3710,12 @@
           decks = Object.values(window.FPH_FLASHCARDS).flat();
         } else if (subject.id === "fped" && window.FPED_FLASHCARDS) {
           decks = Object.values(window.FPED_FLASHCARDS).flat();
+        } else if (subject.id === "pdezv" && window.PDEZV_FLASHCARDS) {
+          decks = Object.values(window.PDEZV_FLASHCARDS).flat();
+        } else if (subject.id === "lr" && window.LR_FLASHCARDS) {
+          decks = Object.values(window.LR_FLASHCARDS).flat();
+        } else if (subject.id === "pedcom" && window.PEDCOM_FLASHCARDS) {
+          decks = Object.values(window.PEDCOM_FLASHCARDS).flat();
         }
         if (subject.id === "phed" && window.PHED_FLASHCARDS) {
           decks = Object.values(window.PHED_FLASHCARDS).flat();
@@ -2698,8 +3764,16 @@
 
       function updateCapitolPill(capitolId, subjectId = "fph") {
         const caps =
-          subjectId === "phed"
+          subjectId === "fped"
+            ? window.FPED_CONTENT?.capitole || []
+            : subjectId === "phed"
             ? window.PHED_CONTENT?.capitole || []
+            : subjectId === "pdezv"
+            ? window.PDEZV_CONTENT?.capitole || []
+            : subjectId === "lr"
+            ? window.LR_CONTENT?.capitole || []
+            : subjectId === "pedcom"
+            ? window.PEDCOM_CONTENT?.capitole || []
             : window.FPH_CONTENT?.capitole || [];
         const cap = caps.find((c) => c.id === capitolId);
         if (!cap) return;
@@ -2740,16 +3814,18 @@
       let currentQuestions = [];
       let quizCompleted = false;
       let lastCompletedTopicId = null;
+      let pendingProgressAnimationTopicId = null;
       let barObserver = null;
       let floatingTooltip = null;
       let tooltipHideBound = false;
+      let lessonLastTrigger = null;
 
       // MMM Gestionează disponibilitatea materiilor: true = accesibil, false = blocat
       const subjectAvailability = {
-        fph: true,
+        fph: false,
         fped: true,
         pdezv: true,
-        phed: true,
+        phed: false,
         pedcom: false,
         lr: false,
       };
@@ -2784,6 +3860,9 @@
       applySubjectLocks();
 
       closeDetail.addEventListener("click", () => closeModal(true));
+      if (mobileBackToList) {
+        mobileBackToList.addEventListener("click", () => closeModal(true));
+      }
       detailOverlay.addEventListener("click", (e) => {
         if (e.target === detailOverlay) closeModal(true);
       });
@@ -2791,7 +3870,9 @@
       quizPanelRestart.addEventListener("click", restartQuiz);
       quizPanelBack.addEventListener("click", goBackToSubcap);
       backToList.addEventListener("click", goBackToSubcap);
-
+      if (lessonCloseBtn) {
+        lessonCloseBtn.addEventListener("click", () => closeLesson());
+      }
       renderCardProgress();
       initSubjectCompletionState();
       wireTooltips(document);
@@ -2917,6 +3998,9 @@
         saveDeckState();
         subjects.forEach((subject) => {
           ensureFpedData(subject);
+          ensurePdezvData(subject);
+          ensureLrData(subject);
+          ensurePedcomData(subject);
           subjectCompletionState[subject.id] = false;
         });
         renderCardProgress();
@@ -2932,6 +4016,7 @@
       }
 
       function resetModalContent() {
+        closeLesson(true);
         topicsContainer.innerHTML = "";
         capitoleContainer.innerHTML = "";
         cards.forEach((c) => c.classList.remove("zoomed"));
@@ -2959,11 +4044,13 @@
         const finish = () => {
           saveFphOpenState();
           detailOverlay.classList.remove("show");
+          detailOverlay.classList.remove("closing");
           if (modalEl) modalEl.classList.remove("closing");
           resetModalContent();
         };
         if (animated && modalEl) {
           modalEl.classList.add("closing");
+          detailOverlay.classList.add("closing");
           setTimeout(finish, 320);
         } else {
           finish();
@@ -2982,6 +4069,10 @@
         renderCardProgress();
         if (currentSubject && detailOverlay.classList.contains("show")) {
           applySubjectBar(currentSubject);
+          if (quizPanel && !quizPanel.classList.contains("hidden")) {
+            pendingProgressAnimationTopicId = topicId;
+            return;
+          }
           if (currentSubject.capitole && currentSubject.capitole.length) {
             rerenderSubjectCapitolePreserveState(currentSubject);
             syncDeckHeights(capitoleContainer);
@@ -3005,6 +4096,9 @@
         ensureFphData(subject);
         ensureFpedData(subject);
         ensurePhedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         const topicCount = subject.topics?.length || 0;
         const topicSum =
           subject.topics?.reduce((sum, t) => sum + getTopicProgress(t.id), 0) ||
@@ -3017,10 +4111,10 @@
           : null;
 
         if (topicAvg != null && deckAvg != null) {
-          return Math.round(0.5 * topicAvg + 0.5 * deckAvg);
+          return Math.min(100, Math.floor(0.5 * topicAvg + 0.5 * deckAvg));
         }
-        if (topicAvg != null) return Math.round(topicAvg);
-        if (deckAvg != null) return Math.round(deckAvg);
+        if (topicAvg != null) return Math.min(100, Math.floor(topicAvg));
+        if (deckAvg != null) return Math.min(100, Math.floor(deckAvg));
         return 0;
       }
 
@@ -3028,6 +4122,15 @@
         if (!subject) return [];
         if (subject.id === "fph" && window.FPH_FLASHCARDS) {
           return Object.values(window.FPH_FLASHCARDS).flat();
+        }
+        if (subject.id === "pdezv" && window.PDEZV_FLASHCARDS) {
+          return Object.values(window.PDEZV_FLASHCARDS).flat();
+        }
+        if (subject.id === "lr" && window.LR_FLASHCARDS) {
+          return Object.values(window.LR_FLASHCARDS).flat();
+        }
+        if (subject.id === "pedcom" && window.PEDCOM_FLASHCARDS) {
+          return Object.values(window.PEDCOM_FLASHCARDS).flat();
         }
         if (subject.id === "phed" && window.PHED_FLASHCARDS) {
           return Object.values(window.PHED_FLASHCARDS).flat();
@@ -3092,12 +4195,12 @@
         const popup = document.createElement("div");
         popup.className = "congrats-popup";
         popup.innerHTML = `
-          <div class="congrats-trophy" aria-hidden="true"></div>
-          <div class="congrats-title">
-            <span>FELICITĂRI!</span>
-            <span>Materie 100% completată</span>
-          </div>
-        `;
+                <div class="congrats-trophy" aria-hidden="true"></div>
+                <div class="congrats-title">
+                  <span>FELICITĂRI!</span>
+                  <span>Materie 100% completată</span>
+                </div>
+              `;
         popup.classList.add("animate");
         backdrop.appendChild(popup);
         document.body.appendChild(backdrop);
@@ -3128,6 +4231,9 @@
         if (!subject) return;
         ensureFphData(subject);
         ensurePhedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         (subject.topics || []).forEach((t) => {
           progressStore[t.id] = 100;
         });
@@ -3158,6 +4264,9 @@
         if (!subject) return;
         ensureFphData(subject);
         ensurePhedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         // curăță orice chei rătăcite legate de materie (ex: id-uri vechi)
         Object.keys(progressStore || {}).forEach((key) => {
           if (key.startsWith(`${subject.id}-`)) delete progressStore[key];
@@ -3196,6 +4305,10 @@
           const subject = subjects.find((s) => s.id === card.dataset.id);
           ensureFphData(subject);
           ensureFpedData(subject);
+          ensurePhedData(subject);
+          ensurePdezvData(subject);
+          ensureLrData(subject);
+          ensurePedcomData(subject);
           const percent = subject ? subjectAverage(subject) : 0;
           const bar = card.querySelector(".progress-bar");
           const label = card.querySelector(".progress-label");
@@ -3224,9 +4337,14 @@
         currentSubject = subject;
         if (!subject) return;
         ensurePhedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         document.body.style.overflow = "hidden";
         ensureFphData(subject);
+        ensureFpedData(subject);
         detailTitle.textContent = `${subject.symbol} ${subject.name}`;
+        if (mobileBackToList) mobileBackToList.classList.remove("hidden");
         detailDesc.textContent =
           "Selectează capitolele și subcapitolele pentru a deschide quizurile aferente. Progresul se salvează local.";
         detailDesc.classList.add("hidden");
@@ -3261,6 +4379,10 @@
       function renderCapitole(subject) {
         ensureFphData(subject);
         ensurePhedData(subject);
+        ensureFpedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         if (!subject.capitole || !subject.capitole.length) {
           capitoleContainer.innerHTML = `<div class="empty">Nu există capitole definite încă.</div>`;
           return;
@@ -3292,84 +4414,88 @@
             }
 
             return `
-              <div class="capitol" data-capitol="${capitol.id}">
-                  <div class="capitol-header">
-                    <div style="flex:1; display:flex; align-items:center; gap:8px; min-width:0; width:100%;">
-                      <div class="pill pill-course" style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.12); width:100%; justify-content:space-between;">
-                        <span style="font-size:1.1rem;">📑</span>
-                        <span style="font-weight:800; flex:1; min-width:0;">${
-                          capitol.titlu
-                        }</span>
-                        <span class="pill-percent ${pillColorClass(
-                          capProgress
-                        )}"><span class="pill-val">${capProgress}%</span> <span class="pill-ico">${pillIcon(
+                    <div class="capitol" data-capitol="${capitol.id}">
+                        <div class="capitol-header">
+                          <div style="flex:1; display:flex; align-items:center; gap:8px; min-width:0; width:100%;">
+                            <div class="pill pill-course" style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.12); width:100%; justify-content:space-between;">
+                              <span class="cap-icon" style="font-size:1.1rem;">📑</span>
+                              <span style="font-weight:800; flex:1; min-width:0;">${
+                                capitol.titlu
+                              }</span>
+                              <span class="pill-percent ${pillColorClass(
+                                capProgress
+                              )}"><span class="pill-val">${capProgress}%</span> <span class="pill-ico">${pillIcon(
               capProgress
             )}</span></span>
-                      </div>
-                    </div>
-                    <div class="capitol-actions" style="justify-content:flex-end;">
-                    <button class="quiz-btn toggle-btn" data-toggle="${
-                      capitol.id
-                    }">
-                      <span>Subcapitole</span>
-                      <span class="chevron">🔽</span>
-                    </button>
-                  </div>
-                  </div>
-                <div class="subcap-list collapsible" id="${capitol.id}-subs">
-                  ${capitol.subcapitole
-                    .map((s) => {
-                      const quizIds = s.quizuri || [];
-                      const completedAll = quizIds.length
-                        ? quizIds.every((id) => getTopicProgress(id) === 100)
-                        : false;
-                      return `
-                      <div class="subcap">
-                        <div class="subcap-header">
-                          <div class="subcap-title">
-                            <span class="subcap-status ${
-                              completedAll ? "done" : ""
-                            }">${completedAll ? "✓" : ""}</span>
-                            <span>${s.titlu}</span>
+                            </div>
                           </div>
-                          <button class="quiz-btn toggle-btn secondary" data-quiz-ids="${quizIds.join(
-                            ","
-                          )}">
-                            <span>QUIZURI</span>
+                          <div class="capitol-actions" style="justify-content:flex-end;">
+                          <button class="quiz-btn toggle-btn" data-toggle="${
+                            capitol.id
+                          }">
+                            <span>Subcapitole</span>
                             <span class="chevron">🔽</span>
                           </button>
                         </div>
-                        <div class="subcap-quiz-list collapsible" data-quiz-list="${
-                          s.id
-                        }" data-quiz-ids="${quizIds.join(",")}"></div>
-                      </div>
-                    `;
-                    })
-                    .join("")}
-                  <div class="subcap deck-subcap" style="background:linear-gradient(135deg,rgba(120,90,200,0.14),rgba(48,40,72,0.34));border:1px solid rgba(255,255,255,0.18);border-radius:14px;padding:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.16), 0 12px 28px rgba(0,0,0,0.2);">
-                    <div class="subcap-header" style="align-items:center;">
-                      <div class="subcap-title">
-                        <span class="subcap-status ${
-                          deckComplete ? "done" : ""
-                        }">${deckComplete ? "✓" : ""}</span>
-                        <span>FLASHCARDS</span>
-                      </div>
-                      <button class="quiz-btn toggle-btn secondary deck-toggle-btn" data-deck-toggle="${
+                        </div>
+                      <div class="subcap-list collapsible" id="${
                         capitol.id
-                      }" style="padding:10px 14px;border-radius:12px;background:linear-gradient(135deg,rgba(105,125,165,0.32),rgba(80,98,140,0.32));border:1px solid rgba(255,255,255,0.24);backdrop-filter:blur(6px);color:#eef2ff;box-shadow:0 8px 18px rgba(0,0,0,0.18);">
-                        <span style="opacity:0.9;font-weight:800;">CARDURI</span>
-                        <span class="chevron">🔽</span>
-                      </button>
+                      }-subs">
+                        ${capitol.subcapitole
+                          .map((s) => {
+                            const quizIds = s.quizuri || [];
+                            const completedAll = quizIds.length
+                              ? quizIds.every(
+                                  (id) => getTopicProgress(id) === 100
+                                )
+                              : false;
+                            return `
+                            <div class="subcap">
+                              <div class="subcap-header">
+                                <div class="subcap-title">
+                                  <span class="subcap-status ${
+                                    completedAll ? "done" : ""
+                                  }">${completedAll ? "✓" : ""}</span>
+                                  <span>${s.titlu}</span>
+                                </div>
+                                <button class="quiz-btn toggle-btn secondary" data-quiz-ids="${quizIds.join(
+                                  ","
+                                )}">
+                                  <span>QUIZURI</span>
+                                  <span class="chevron">🔽</span>
+                                </button>
+                              </div>
+                              <div class="subcap-quiz-list collapsible" data-quiz-list="${
+                                s.id
+                              }" data-quiz-ids="${quizIds.join(",")}"></div>
+                            </div>
+                          `;
+                          })
+                          .join("")}
+                        <div class="subcap deck-subcap" style="background:linear-gradient(135deg,rgba(120,90,200,0.14),rgba(48,40,72,0.34));border:1px solid rgba(255,255,255,0.18);border-radius:14px;padding:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.16), 0 12px 28px rgba(0,0,0,0.2);">
+                          <div class="subcap-header" style="align-items:center;">
+                            <div class="subcap-title">
+                              <span class="subcap-status ${
+                                deckComplete ? "done" : ""
+                              }">${deckComplete ? "✓" : ""}</span>
+                              <span>FLASHCARDS</span>
+                            </div>
+                            <button class="quiz-btn toggle-btn secondary deck-toggle-btn" data-deck-toggle="${
+                              capitol.id
+                            }" style="padding:10px 14px;border-radius:12px;background:linear-gradient(135deg,rgba(105,125,165,0.32),rgba(80,98,140,0.32));border:1px solid rgba(255,255,255,0.24);backdrop-filter:blur(6px);color:#eef2ff;box-shadow:0 8px 18px rgba(0,0,0,0.18);">
+                              <span style="opacity:0.9;font-weight:800;">CARDURI</span>
+                              <span class="chevron">🔽</span>
+                            </button>
+                          </div>
+                          <div class="deck-collapsible collapsible" data-deck-list="${
+                            capitol.id
+                          }">
+                            ${renderDeckRow(subject.id, capitol.id)}
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="deck-collapsible collapsible" data-deck-list="${
-                      capitol.id
-                    }">
-                      ${renderDeckRow(subject.id, capitol.id)}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            `;
+                  `;
           })
           .join("");
 
@@ -3424,47 +4550,104 @@
           });
         });
 
-        capitoleContainer.querySelectorAll("[data-quiz-ids]").forEach((btn) => {
-          btn.addEventListener("click", () => {
-            const ids = btn.dataset.quizIds.split(",").filter(Boolean);
-            const quizList =
-              btn.closest(".subcap")?.querySelector(".subcap-quiz-list") ||
-              btn.nextElementSibling;
-            if (quizList) {
-              const willExpand = !quizList.classList.contains("expanded");
-              // close siblings within the same capitol
-              const parentCapitol = quizList.closest(".capitol");
-              if (parentCapitol) {
-                parentCapitol
-                  .querySelectorAll(".subcap-quiz-list.expanded")
-                  .forEach((el) => {
-                    if (el !== quizList) el.classList.remove("expanded");
-                  });
-                parentCapitol
-                  .querySelectorAll(".subcap .chevron")
-                  .forEach((c) => (c.style.transform = "rotate(0deg)"));
-                parentCapitol
-                  .querySelectorAll(".deck-collapsible.expanded")
-                  .forEach((el) => el.classList.remove("expanded"));
-                parentCapitol
-                  .querySelectorAll(".deck-toggle-btn .chevron")
-                  .forEach((c) => (c.style.transform = "rotate(0deg)"));
+        capitoleContainer
+          .querySelectorAll("button[data-quiz-ids]")
+          .forEach((btn) => {
+            btn.addEventListener("click", () => {
+              const ids = btn.dataset.quizIds.split(",").filter(Boolean);
+              const quizList =
+                btn.closest(".subcap")?.querySelector(".subcap-quiz-list") ||
+                btn.nextElementSibling;
+              if (quizList) {
+                const willExpand = !quizList.classList.contains("expanded");
+                // close siblings within the same capitol
+                const parentCapitol = quizList.closest(".capitol");
+                if (parentCapitol) {
+                  parentCapitol
+                    .querySelectorAll(".subcap-quiz-list.expanded")
+                    .forEach((el) => {
+                      if (el !== quizList) el.classList.remove("expanded");
+                    });
+                  parentCapitol
+                    .querySelectorAll(".subcap .chevron")
+                    .forEach((c) => (c.style.transform = "rotate(0deg)"));
+                  parentCapitol
+                    .querySelectorAll(".deck-collapsible.expanded")
+                    .forEach((el) => el.classList.remove("expanded"));
+                  parentCapitol
+                    .querySelectorAll(".deck-toggle-btn .chevron")
+                    .forEach((c) => (c.style.transform = "rotate(0deg)"));
+                }
+                quizList.innerHTML = renderInlineQuizList(subject, ids);
+                quizList.dataset.quizIds = ids.join(",");
+                if (willExpand) {
+                  quizList.classList.add("expanded");
+                  setChevron(btn, true);
+                  requestAnimationFrame(() =>
+                    scrollListIntoViewIfHidden(quizList)
+                  );
+                } else {
+                  quizList.classList.remove("expanded");
+                  setChevron(btn, false);
+                }
               }
-              quizList.innerHTML = renderInlineQuizList(subject, ids);
-              quizList.dataset.quizIds = ids.join(",");
-              if (willExpand) {
-                quizList.classList.add("expanded");
-                setChevron(btn, true);
-                requestAnimationFrame(() =>
-                  scrollListIntoViewIfHidden(quizList)
-                );
-              } else {
-                quizList.classList.remove("expanded");
-                setChevron(btn, false);
-              }
-            }
-            topicsContainer.classList.add("hidden");
-            wireInlineQuizButtons(quizList, subject);
+              topicsContainer.classList.add("hidden");
+              wireInlineQuizButtons(quizList, subject);
+            });
+          });
+
+        capitoleContainer.querySelectorAll(".subcap").forEach((subcap) => {
+          if (subcap.classList.contains("deck-subcap")) return;
+          if (subcap.dataset.toggleBound === "true") return;
+          subcap.dataset.toggleBound = "true";
+          subcap.addEventListener("click", (event) => {
+            if (event.target.closest(".subcap-quiz-list")) return;
+            if (event.target.closest("button")) return;
+            const toggleBtn = subcap.querySelector("[data-quiz-ids]");
+            if (toggleBtn) toggleBtn.click();
+          });
+        });
+
+        capitoleContainer
+          .querySelectorAll(".capitol-header")
+          .forEach((header) => {
+            if (header.dataset.toggleBound === "true") return;
+            header.dataset.toggleBound = "true";
+            header.addEventListener("click", (event) => {
+              if (event.target.closest("button")) return;
+              const toggleBtn = header.querySelector("[data-toggle]");
+              if (toggleBtn) toggleBtn.click();
+            });
+          });
+
+        capitoleContainer
+          .querySelectorAll(".subcap-quiz-list")
+          .forEach((list) => {
+            if (list.dataset.toggleBound === "true") return;
+            list.dataset.toggleBound = "true";
+            list.addEventListener("click", (event) => {
+              event.stopPropagation();
+            });
+          });
+
+        capitoleContainer
+          .querySelectorAll(".deck-collapsible")
+          .forEach((list) => {
+            if (list.dataset.toggleBound === "true") return;
+            list.dataset.toggleBound = "true";
+            list.addEventListener("click", (event) => {
+              event.stopPropagation();
+            });
+          });
+
+        capitoleContainer.querySelectorAll(".deck-subcap").forEach((subcap) => {
+          if (subcap.dataset.deckToggleBound === "true") return;
+          subcap.dataset.deckToggleBound = "true";
+          subcap.addEventListener("click", (event) => {
+            if (event.target.closest(".deck-collapsible")) return;
+            if (event.target.closest("button")) return;
+            const toggleBtn = subcap.querySelector("[data-deck-toggle]");
+            if (toggleBtn) toggleBtn.click();
           });
         });
 
@@ -3518,6 +4701,11 @@
 
       function renderTopics(subject, topicIds) {
         ensureFphData(subject);
+        ensureFpedData(subject);
+        ensurePhedData(subject);
+        ensurePdezvData(subject);
+        ensureLrData(subject);
+        ensurePedcomData(subject);
         const list = topicIds
           ? subject.topics.filter((t) => topicIds.includes(t.id))
           : subject.topics;
@@ -3530,20 +4718,22 @@
         topicsContainer.innerHTML = list
           .map((topic) => {
             const percent = getTopicProgress(topic.id);
+            const initialPercent =
+              pendingProgressAnimationTopicId === topic.id ? 0 : percent;
             const barStyle = barStyleFor(subject.id);
             return `
               <div class="topic">
             <div>
               <strong>${topic.title}</strong>
-              <div class="meta">Răspuns corect: ${percent}%</div>
+              <div class="meta">Răspuns corect: ${initialPercent}%</div>
               <div class="progress">
-                <div class="progress-bar" data-target="${percent}" style="width:${percent}%; ${barStyle}"></div>
-                <div class="progress-value">${percent}%</div>
+                <div class="progress-bar" data-target="${percent}" style="width:${initialPercent}%; ${barStyle}"></div>
+                <div class="progress-value">${initialPercent}%</div>
               </div>
             </div>
-            <button class="quiz-btn" data-topic="${topic.id}">START QUIZ</button>
-          </div>
-        `;
+                  <button class="quiz-btn" data-topic="${topic.id}">START QUIZ</button>
+                </div>
+              `;
           })
           .join("");
 
@@ -3567,18 +4757,55 @@
         return list
           .map((topic) => {
             const percent = getTopicProgress(topic.id);
+            const initialPercent =
+              pendingProgressAnimationTopicId === topic.id ? 0 : percent;
             const barStyle = barStyleFor(subject.id);
+            const lesson = getLessonForTopic(subject.id, topic.id);
             return `
-            <div class="topic" data-topic-container="${topic.id}" style="margin-top:12px;">
-              <div>
-                <strong>${topic.title}</strong>
-                <div class="meta">Răspuns corect: ${percent}%</div>
-                <div class="progress">
-                  <div class="progress-bar" data-target="${percent}" style="width:${percent}%; ${barStyle}"></div>
-                  <div class="progress-value">${percent}%</div>
-                </div>
+            <div class="topic" data-topic-container="${
+              topic.id
+            }" style="margin-top:12px;">
+                    <div class="topic-head">
+                      <div class="topic-info">
+                        <div class="quiz-title-row">
+                          ${
+                            lesson
+                              ? `<button class="lesson-info-btn lesson-info-btn-title" type="button" data-lesson-topic="${topic.id}" data-lesson-subject="${subject.id}" aria-label="Vezi lecția">
+                                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M12 10v6"></path>
+                                    <path d="M12 7h.01"></path>
+                                  </svg>
+                                </button>`
+                              : ""
+                          }
+                          <div class="quiz-title-text">
+                            <strong>${topic.title}</strong>
+                            <div class="meta">Răspuns corect: ${percent}%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="topic-actions">
+                        ${
+                          lesson
+                            ? `<button class="lesson-info-btn lesson-info-btn-mobile" type="button" data-lesson-topic="${topic.id}" data-lesson-subject="${subject.id}" aria-label="Vezi lecția">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                  <circle cx="12" cy="12" r="9"></circle>
+                                  <path d="M12 10v6"></path>
+                                  <path d="M12 7h.01"></path>
+                                </svg>
+                              </button>`
+                            : ""
+                        }
+                        <button class="quiz-btn" style="padding: 10px;" data-topic="${
+                          topic.id
+                        }">START QUIZ</button>
+                      </div>
+                    </div>
+              <div class="progress topic-progress">
+                <div class="progress-bar" data-target="${percent}" style="width:${initialPercent}%; ${barStyle}"></div>
+                <div class="progress-value">${initialPercent}%</div>
               </div>
-              <button class="quiz-btn" style="padding: 10px;" data-topic="${topic.id}">START QUIZ</button>
             </div>
           `;
           })
@@ -3589,6 +4816,23 @@
         if (subjectId === "fped") {
           return (
             (window.FPED_FLASHCARDS && window.FPED_FLASHCARDS[capitolId]) || []
+          );
+        }
+        if (subjectId === "pdezv") {
+          return (
+            (window.PDEZV_FLASHCARDS && window.PDEZV_FLASHCARDS[capitolId]) ||
+            []
+          );
+        }
+        if (subjectId === "lr") {
+          return (
+            (window.LR_FLASHCARDS && window.LR_FLASHCARDS[capitolId]) || []
+          );
+        }
+        if (subjectId === "pedcom") {
+          return (
+            (window.PEDCOM_FLASHCARDS && window.PEDCOM_FLASHCARDS[capitolId]) ||
+            []
           );
         }
         if (subjectId === "phed") {
@@ -3607,153 +4851,163 @@
         const rowStyle =
           "display:flex;flex-wrap:wrap;gap:16px;margin-top:18px;align-items:stretch;backdrop-filter:blur(4px);";
         return `<div class="deck-row" data-deck-subject="${subjectId}" data-deck-capitol="${capitolId}" style="${rowStyle}">
-          ${decks
-            .map((deck) => {
-              const cards = getDeckCards(deck);
-              const state = ensureDeckState(deck);
-              const available = cards
-                .map((_, i) => i)
-                .filter((i) => state.statuses[i] !== "green");
-              const allGreen = cards.length > 0 && available.length === 0;
-              let currentIdx = state.idx || 0;
-              if (!allGreen && !available.includes(currentIdx)) {
-                currentIdx = available[0] || 0;
-                state.idx = currentIdx;
-                deckState[deck.id] = state;
-              }
-              const card = cards[currentIdx] || {};
-              const promptParts = parseFrontParts(card);
-              const backContent = splitBackContent(card);
-              const redCount = state.statuses.filter((s) => s === "red").length;
-              const yellowCount = state.statuses.filter(
-                (s) => s === "yellow"
-              ).length;
-              const greenCount = state.statuses.filter(
-                (s) => s === "green"
-              ).length;
-              const displayTitle =
-                deck.title && deck.title.includes("Deck 1")
-                  ? "Carduri CURS 1"
-                  : deck.title || "Deck";
-              const boxStyle =
-                "flex:1 1 320px;position:relative;overflow:hidden;border-radius:16px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,0.06),rgba(47,29,64,0.55));border:1px solid rgba(255,255,255,0.12);box-shadow:0 18px 40px rgba(0,0,0,0.32),inset 0 1px 0 rgba(255,255,255,0.12);display:grid;gap:20px;";
-              const headerStyle =
-                "display:flex;align-items:center;justify-content:space-between;gap:10px;";
-              const titleStyle =
-                "font-weight:800;color:#f8fafc;letter-spacing:0.01em;font-size:1.02rem;";
-              const pillStyle =
-                "display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);font-weight:800;color:#e2e8f0;";
-              const cardsStyle = "display:grid;gap:26px;padding:18px 0;";
-              const cardStyle =
-                "background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(55,32,70,0.42));border:1px solid rgba(255,255,255,0.14);box-shadow:0 18px 46px rgba(0,0,0,0.35),inset 0 1px 0 rgba(255,255,255,0.18);padding:34px;border-radius:16px;position:relative;min-height:520px;max-width:760px;margin:0 auto;display:grid;gap:28px;";
-              const chipStyle =
-                "display:inline-flex;align-items:center;gap:6px;background:rgba(34,211,238,0.18);border:1px solid rgba(34,211,238,0.45);color:#a5f3fc;border-radius:999px;padding:9px 13px;font-weight:800;letter-spacing:0.01em;width:fit-content;box-shadow:0 10px 26px rgba(34,211,238,0.28);";
-              const frontContextStyle =
-                "font-size:clamp(0.95rem, 1.6vw, 1.1rem);color:#d6dee9;line-height:1.6;text-align:center;max-width:760px;margin:0 auto;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:16px 18px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 18px rgba(0,0,0,0.18);";
-              const frontStyle =
-                "font-weight:800;font-size:clamp(1.4rem, 3vw, 2rem);color:#f8fafc;line-height:1.6;display:flex;align-items:center;justify-content:center;text-align:center;min-height:180px;padding:18px;max-width:680px;margin:0 auto;";
-              const backStyle =
-                "color:#e6edf3;font-size:0.98rem;line-height:1.6;display:grid;gap:24px;max-width:800px; margin:0 auto;";
-              const shellStyle =
-                "position:relative;perspective:1200px;transform-style:preserve-3d;transition:transform 0.6s cubic-bezier(0.22,1,0.36,1);width:100%;min-height:500px;";
-              const faceBase =
-                "position:absolute;inset:0;padding:20px;border-radius:14px;backface-visibility:hidden;background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(52,30,66,0.34));display:grid;gap:24px;align-content:center;justify-items:center;box-sizing:border-box;";
-              const backFace = "transform:rotateY(180deg);";
-              const btnFlipStyle =
-                "margin-top:12px;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;border:1px solid rgba(255,255,255,0.06);background:linear-gradient(135deg,#22d3ee,#4f46e5);color:#f8fafc;font-weight:800;letter-spacing:0.01em;cursor:pointer;box-shadow:0 14px 30px rgba(79,70,229,0.35);width:100%;";
-              const actionsRow =
-                "display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px;width:100%;max-width:100%;margin-left:auto;margin-right:auto;";
-              const actionBase =
-                "border:none;border-radius:14px;padding:14px 12px;font-weight:800;color:#ffffff;cursor:pointer;box-shadow:0 14px 30px rgba(0,0,0,0.3);letter-spacing:0.01em;transition:transform 0.15s ease, box-shadow 0.15s ease;animation:shinePulse 2.6s ease-in-out infinite;";
-              const btnRed = `${actionBase} background:linear-gradient(135deg,#f97373,#ef4444);`;
-              const btnYellow = `${actionBase} background:linear-gradient(135deg,#facc15,#f59e0b);`;
-              const btnGreen = `${actionBase} background:linear-gradient(135deg,#22c55e,#16a34a);`;
-              const dotRow =
-                "display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:0;";
-              const dotBase =
-                "display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:999px;font-weight:800;font-size:0.95rem;box-shadow:0 10px 18px rgba(0,0,0,0.22);animation:shinePulse 3s ease-in-out infinite;";
-              const dotRed = `${dotBase} background:linear-gradient(135deg,#f97373,#ef4444);color:#ffffff;`;
-              const dotYellow = `${dotBase} background:linear-gradient(135deg,#facc15,#f59e0b);color:#ffffff;`;
-              const dotGreen = `${dotBase} background:linear-gradient(135deg,#22c55e,#16a34a);color:#ffffff;`;
-              const congratsStyle =
-                "padding:16px;border-radius:14px;background:linear-gradient(135deg,rgba(34,211,238,0.22),rgba(79,70,229,0.25));border:1px solid rgba(255,255,255,0.14);color:#e2e8f0;display:grid;gap:16px;place-items:center;text-align:center;";
-              const resetBtnStyle =
-                "display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,0.16);background:linear-gradient(135deg,#22d3ee,#4f46e5);color:#f8fafc;font-weight:800;letter-spacing:0.01em;cursor:pointer;box-shadow:0 14px 30px rgba(79,70,229,0.35);";
-              return `
-                <div class="deck-box deck-primary deck-static" data-deck-id="${
-                  deck.id
-                }" data-deck-subject="${subjectId}" data-deck-capitol="${capitolId}" data-card-idx="${currentIdx}" style="${boxStyle}">
-                  <div class="deck-header" style="${headerStyle}">
-                    <div class="deck-title" style="${titleStyle}">${displayTitle}</div>
-                    <span class="deck-score-pill" style="${pillStyle}">${
-                cards.length
-              } carduri</span>
-                  </div>
-                  <div class="deck-cards" style="${cardsStyle}">
-                    <div class="deck-status-row" style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:0;">
-                      <div class="deck-dots" style="${dotRow}">
-                        <span style="${dotRed}">${redCount}</span>
-                        <span style="${dotYellow}">${yellowCount}</span>
-                        <span style="${dotGreen}">${greenCount}</span>
-                      </div>
-                    </div>
-                    ${
-                      allGreen
-                        ? `
-                      <div class="deck-card static feature" style="${cardStyle} min-height:auto; gap:18px; padding:28px; max-width:720px;">
-                        <div style="${congratsStyle}">
-                          <div style="font-weight:800;font-size:1rem;">Felicitări! Cunoști toate conceptele! 🎉</div>
-                          <button type="button" class="deck-reset-btn" data-deck-reset="${deck.id}" style="${resetBtnStyle}">Ia-le de la capăt</button>
-                        </div>
-                      </div>`
-                        : `
-                      <div class="deck-card static feature">
-                        <div class="flip-shell" data-flip-shell="${
-                          deck.id
-                        }" style="${shellStyle}">
-                          <div class="flip-face front" style="${faceBase}">
-                            ${
-                              promptParts.context
-                                ? `<div style="${frontContextStyle}">${promptParts.context}</div>`
-                                : ""
-                            }
-                            <div class="deck-front" style="${frontStyle}">${
-                            promptParts.main
-                          }</div>
-                            <button type="button" class="deck-flip-btn" data-flip-target="${
-                              deck.id
-                            }" style="${btnFlipStyle}">Arată răspunsul</button>
-                          </div>
-                          <div class="flip-face back" style="${faceBase} ${backFace}">
-                            <div class="deck-back" style="${backStyle}">
-                              <div style="font-weight:800;color:#fff;text-align:center;text-shadow:0 2px 12px rgba(0,0,0,0.45);letter-spacing:0.01em;font-size:135%;">${
-                                promptParts.backTitle
-                              }:</div>
-                              <div style="color:#e6edf3;font-size:1.05rem;font-weight:600;">${
-                                backContent.academic
-                              }</div>
-                              ${
-                                backContent.simplified
-                                  ? `<div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:16px 14px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.18);color:#eef2ff;font-weight:700;">${backContent.simplified}</div>`
-                                  : ""
-                              }
-                            </div>
-                            <div class="deck-actions" style="${actionsRow}">
-                              <button type="button" class="deck-action deck-action-red" data-deck-action="again" style="${btnRed}">Nu am știut</button>
-                              <button type="button" class="deck-action deck-action-yellow" data-deck-action="hard" style="${btnYellow}">Mai am scăpări</button>
-                              <button type="button" class="deck-action deck-action-green" data-deck-action="good" style="${btnGreen}">Îl știu</button>
-                            </div>
-                          </div>
-                        </div>
-                       
-                      </div>`
+                ${decks
+                  .map((deck) => {
+                    const cards = getDeckCards(deck);
+                    const state = ensureDeckState(deck);
+                    const available = cards
+                      .map((_, i) => i)
+                      .filter((i) => state.statuses[i] !== "green");
+                    const allGreen = cards.length > 0 && available.length === 0;
+                    let currentIdx = state.idx || 0;
+                    if (!allGreen && !available.includes(currentIdx)) {
+                      currentIdx = available[0] || 0;
+                      state.idx = currentIdx;
+                      deckState[deck.id] = state;
                     }
-                  </div>
-                </div>
-              `;
-            })
-            .join("")}
-        </div>`;
+                    const card = cards[currentIdx] || {};
+                    const promptParts = parseFrontParts(card);
+                    const backContent = splitBackContent(card);
+                    const redCount = state.statuses.filter(
+                      (s) => s === "red"
+                    ).length;
+                    const yellowCount = state.statuses.filter(
+                      (s) => s === "yellow"
+                    ).length;
+                    const greenCount = state.statuses.filter(
+                      (s) => s === "green"
+                    ).length;
+                    const displayTitle =
+                      deck.title && deck.title.includes("Deck 1")
+                        ? "Carduri CURS 1"
+                        : deck.title || "Deck";
+                    const boxStyle =
+                      "flex:1 1 320px;position:relative;overflow:hidden;border-radius:16px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,0.06),rgba(47,29,64,0.55));border:1px solid rgba(255,255,255,0.12);box-shadow:0 18px 40px rgba(0,0,0,0.32),inset 0 1px 0 rgba(255,255,255,0.12);display:grid;gap:20px;";
+                    const headerStyle =
+                      "display:flex;align-items:center;justify-content:space-between;gap:10px;";
+                    const titleStyle =
+                      "font-weight:800;color:#f8fafc;letter-spacing:0.01em;font-size:1.02rem;";
+                    const pillStyle =
+                      "display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);font-weight:800;color:#e2e8f0;";
+                    const cardsStyle = "display:grid;gap:26px;padding:18px 0;";
+                    const cardStyle =
+                      "background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(55,32,70,0.42));border:1px solid rgba(255,255,255,0.14);box-shadow:0 18px 46px rgba(0,0,0,0.35),inset 0 1px 0 rgba(255,255,255,0.18);padding:34px;border-radius:16px;position:relative;min-height:520px;max-width:760px;margin:0 auto;display:grid;gap:28px;";
+                    const chipStyle =
+                      "display:inline-flex;align-items:center;gap:6px;background:rgba(34,211,238,0.18);border:1px solid rgba(34,211,238,0.45);color:#a5f3fc;border-radius:999px;padding:9px 13px;font-weight:800;letter-spacing:0.01em;width:fit-content;box-shadow:0 10px 26px rgba(34,211,238,0.28);";
+                    const frontContextStyle =
+                      "font-size:clamp(0.95rem, 1.6vw, 1.1rem);color:#d6dee9;line-height:1.6;text-align:center;max-width:760px;margin:0 auto;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:16px 18px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 18px rgba(0,0,0,0.18);";
+                    const frontStyle =
+                      "font-weight:800;font-size:clamp(1.4rem, 3vw, 2rem);color:#f8fafc;line-height:1.6;display:flex;align-items:center;justify-content:center;text-align:center;min-height:180px;padding:18px;max-width:680px;margin:0 auto;";
+                    const backStyle =
+                      "color:#e6edf3;font-size:0.98rem;line-height:1.6;max-width:800px; margin:0 auto;width:100%;";
+                    const shellStyle =
+                      "position:relative;perspective:1200px;transform-style:preserve-3d;transition:transform 0.6s cubic-bezier(0.22,1,0.36,1);width:100%;min-height:500px;";
+                    const faceBaseFront =
+                      "position:absolute;inset:0;padding:20px;border-radius:14px;backface-visibility:hidden;background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(52,30,66,0.34));display:grid;gap:24px;align-content:center;justify-items:center;box-sizing:border-box;";
+                    const faceBaseBack =
+                      "position:absolute;inset:0;padding:20px;border-radius:14px;backface-visibility:hidden;background:linear-gradient(150deg,rgba(255,255,255,0.08),rgba(52,30,66,0.34));display:flex;flex-direction:column;align-items:stretch;box-sizing:border-box;";
+                    const backFace = "transform:rotateY(180deg);";
+                    const btnFlipStyle =
+                      "margin-top:12px;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;border:1px solid rgba(255,255,255,0.06);background:linear-gradient(135deg,#22d3ee,#4f46e5);color:#f8fafc;font-weight:800;letter-spacing:0.01em;cursor:pointer;box-shadow:0 14px 30px rgba(79,70,229,0.35);width:100%;";
+                    const actionsRow =
+                      "display:grid;grid-template-columns:repeat(3,1fr);gap:12px;width:100%;max-width:100%;margin-left:auto;margin-right:auto;";
+                    const actionBase =
+                      "border:none;border-radius:14px;padding:14px 12px;font-weight:800;color:#ffffff;cursor:pointer;box-shadow:0 14px 30px rgba(0,0,0,0.3);letter-spacing:0.01em;transition:transform 0.15s ease, box-shadow 0.15s ease;animation:shinePulse 2.6s ease-in-out infinite;";
+                    const btnRed = `${actionBase} background:linear-gradient(135deg,#f97373,#ef4444);`;
+                    const btnYellow = `${actionBase} background:linear-gradient(135deg,#facc15,#f59e0b);`;
+                    const btnGreen = `${actionBase} background:linear-gradient(135deg,#22c55e,#16a34a);`;
+                    const dotRow =
+                      "display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:0;";
+                    const dotBase =
+                      "display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:999px;font-weight:800;font-size:0.95rem;box-shadow:0 10px 18px rgba(0,0,0,0.22);animation:shinePulse 3s ease-in-out infinite;";
+                    const dotRed = `${dotBase} background:linear-gradient(135deg,#f97373,#ef4444);color:#ffffff;`;
+                    const dotYellow = `${dotBase} background:linear-gradient(135deg,#facc15,#f59e0b);color:#ffffff;`;
+                    const dotGreen = `${dotBase} background:linear-gradient(135deg,#22c55e,#16a34a);color:#ffffff;`;
+                    const congratsStyle =
+                      "padding:16px;border-radius:14px;background:linear-gradient(135deg,rgba(34,211,238,0.22),rgba(79,70,229,0.25));border:1px solid rgba(255,255,255,0.14);color:#e2e8f0;display:grid;gap:16px;place-items:center;text-align:center;";
+                    const resetBtnStyle =
+                      "display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,0.16);background:linear-gradient(135deg,#22d3ee,#4f46e5);color:#f8fafc;font-weight:800;letter-spacing:0.01em;cursor:pointer;box-shadow:0 14px 30px rgba(79,70,229,0.35);";
+                    return `
+                      <div class="deck-box deck-primary deck-static" data-deck-id="${
+                        deck.id
+                      }" data-deck-subject="${subjectId}" data-deck-capitol="${capitolId}" data-card-idx="${currentIdx}" style="${boxStyle}">
+                        <div class="deck-header" style="${headerStyle}">
+                          <div class="deck-title" style="${titleStyle}">${displayTitle}</div>
+                          <span class="deck-score-pill" style="${pillStyle}">${
+                      cards.length
+                    } carduri</span>
+                        </div>
+                        <div class="deck-cards" style="${cardsStyle}">
+                          <div class="deck-status-row" style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:0;">
+                            <div class="deck-dots" style="${dotRow}">
+                              <span class="deck-dot red" data-deck-dot="red" style="${dotRed}">${redCount}</span>
+                              <span class="deck-dot yellow" data-deck-dot="yellow" style="${dotYellow}">${yellowCount}</span>
+                              <span class="deck-dot green" data-deck-dot="green" style="${dotGreen}">${greenCount}</span>
+                            </div>
+                          </div>
+                          ${
+                            allGreen
+                              ? `
+                            <div class="deck-card static feature" style="${cardStyle} min-height:auto; gap:18px; padding:28px; max-width:720px;">
+                              <div style="${congratsStyle}">
+                                <div style="font-weight:800;font-size:1rem;">Felicitări! Cunoști toate conceptele! 🎉</div>
+                                <button type="button" class="deck-reset-btn" data-deck-reset="${deck.id}" style="${resetBtnStyle}">Ia-le de la capăt</button>
+                              </div>
+                            </div>`
+                              : `
+                            <div class="deck-card static feature">
+                              <div class="flip-shell" data-flip-shell="${
+                                deck.id
+                              }" style="${shellStyle}">
+                                <div class="flip-face front" style="${faceBaseFront}">
+                                  ${
+                                    promptParts.context
+                                      ? `<div style="${frontContextStyle}">${promptParts.context}</div>`
+                                      : ""
+                                  }
+                                  <div class="deck-front" style="${frontStyle}">${
+                                  promptParts.main
+                                }</div>
+                                  <button type="button" class="deck-flip-btn" data-flip-target="${
+                                    deck.id
+                                  }" style="${btnFlipStyle}">Arată răspunsul</button>
+                                </div>
+                                <div class="flip-face back" style="${faceBaseBack} ${backFace}">
+                                  <div class="deck-back" style="${backStyle}">
+                                    <div class="deck-back-shell">
+                                      <div class="deck-back-title">${
+                                        promptParts.backTitle
+                                      }:</div>
+                                      <div class="deck-back-body">
+                                        <div class="deck-back-panel">
+                                          <div class="deck-back-content">${
+                                            backContent.academic
+                                          }</div>
+                                          ${
+                                            backContent.simplified
+                                              ? `<div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:16px 14px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.18);color:#eef2ff;font-weight:700;">${backContent.simplified}</div>`
+                                              : ""
+                                          }
+                                        </div>
+                                      </div>
+                                      <div class="deck-actions deck-back-actions" style="${actionsRow}">
+                                        <button type="button" class="deck-action deck-action-red" data-deck-action="again" style="${btnRed}">Nu am știut</button>
+                                        <button type="button" class="deck-action deck-action-yellow" data-deck-action="hard" style="${btnYellow}">Mai am scăpări</button>
+                                        <button type="button" class="deck-action deck-action-green" data-deck-action="good" style="${btnGreen}">Îl știu</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>`
+                          }
+                        </div>
+                      </div>
+                    `;
+                  })
+                  .join("")}
+              </div>`;
       }
 
       function refreshDeckRow(capitolId) {
@@ -3822,6 +5076,64 @@
           });
         };
 
+        const triggerDeckReward = (deckBox, useFly) => {
+          if (!deckBox) return;
+          const greenDot = deckBox.querySelector(".deck-dot.green");
+          if (!greenDot) return;
+          if (useFly) {
+            greenDot.classList.remove("reward-pulse");
+            void greenDot.offsetWidth;
+            greenDot.classList.add("reward-pulse");
+            const sourceBtn = deckBox.querySelector(".deck-action-green");
+            if (!sourceBtn) return 820;
+            const startRect = sourceBtn.getBoundingClientRect();
+            const endRect = greenDot.getBoundingClientRect();
+            const startX = startRect.left + startRect.width / 2;
+            const startY = startRect.top + startRect.height / 2;
+            const endX = endRect.left + endRect.width / 2;
+            const endY = endRect.top + endRect.height / 2;
+            const flyer = document.createElement("div");
+            flyer.className = "deck-reward-fly";
+            flyer.textContent = "+1";
+            flyer.style.left = `${startX - 16}px`;
+            flyer.style.top = `${startY - 16}px`;
+            document.body.appendChild(flyer);
+            const dx = endX - startX;
+            const dy = endY - startY;
+            flyer.animate(
+              [
+                { transform: "translate3d(0,0,0) scale(0.8)", opacity: 0 },
+                { opacity: 1, offset: 0.2 },
+                {
+                  transform: `translate3d(${dx}px, ${dy}px, 0) scale(1.15)`,
+                  opacity: 1,
+                  offset: 0.75,
+                },
+                {
+                  transform: `translate3d(${dx}px, ${dy}px, 0) scale(0.9)`,
+                  opacity: 0,
+                },
+              ],
+              { duration: 820, easing: "cubic-bezier(0.22,1,0.36,1)" }
+            );
+            setTimeout(() => {
+              flyer.remove();
+              greenDot.classList.remove("reward-pulse");
+              greenDot.classList.remove("pulse-hit");
+              void greenDot.offsetWidth;
+              greenDot.classList.add("pulse-hit");
+            }, 850);
+            return 860;
+          }
+          greenDot.classList.remove("number-fade");
+          void greenDot.offsetWidth;
+          greenDot.classList.add("number-fade");
+          setTimeout(() => {
+            greenDot.classList.remove("number-fade");
+          }, 220);
+          return 260;
+        };
+
         root.querySelectorAll("[data-flip-target]").forEach((btn) => {
           if (btn.dataset.flipBound === "true") return;
           const target = btn.dataset.flipTarget;
@@ -3868,27 +5180,45 @@
               }
               return 0;
             })();
-            if (btn.dataset.deckAction === "again") {
+            const action = btn.dataset.deckAction;
+            const runReward = action === "good";
+            const useFly =
+              window.matchMedia &&
+              window.matchMedia("(max-width: 900px)").matches;
+            const rewardDelay = runReward
+              ? triggerDeckReward(deckBox, useFly)
+              : 0;
+            if (action === "again") {
               st.statuses[currentIdx] = "red";
-            } else if (btn.dataset.deckAction === "hard") {
+            } else if (action === "hard") {
               st.statuses[currentIdx] = "yellow";
-            } else if (btn.dataset.deckAction === "good") {
+            } else if (action === "good") {
               st.statuses[currentIdx] = "green";
             }
             st.idx = nextIdx;
             deckState[deckId] = st;
             saveDeckState();
-            setTimeout(() => {
-              refreshDeckRow(capitolId);
-              renderCardProgress();
-              const subj = deckBox.dataset.deckSubject || "fph";
-              updateCapitolPill(capitolId, subj);
-              updateDeckCompletion(capitolId, subj);
-              syncDeckHeights(capitoleContainer);
-              if (subject) {
-                maybeCelebrateSubject(subject, prevAvg);
-              }
-            }, 260);
+            // update progress UI immediately on answer selection
+            renderCardProgress();
+            updateCapitolPill(capitolId, subj);
+            updateDeckCompletion(capitolId, subj);
+            if (subject) {
+              applySubjectBar(subject);
+            }
+            setTimeout(
+              () => {
+                refreshDeckRow(capitolId);
+                renderCardProgress();
+                const subj = deckBox.dataset.deckSubject || "fph";
+                updateCapitolPill(capitolId, subj);
+                updateDeckCompletion(capitolId, subj);
+                syncDeckHeights(capitoleContainer);
+                if (subject) {
+                  maybeCelebrateSubject(subject, prevAvg);
+                }
+              },
+              runReward ? rewardDelay || 980 : 260
+            );
           });
         });
 
@@ -3901,6 +5231,7 @@
               deckBox.dataset.deckCapitol ||
               deckBox.closest(".deck-row")?.dataset.deckCapitol;
             const subj = deckBox.dataset.deckSubject || "fph";
+            const targetCapitolId = capitolId;
             const subject = subjects.find((s) => s.id === subj);
             const decks = getDecksForCapitol(capitolId, subj);
             const deck = decks.find((d) => d.id === deckId);
@@ -3922,12 +5253,46 @@
             if (subject) {
               maybeCelebrateSubject(subject, 100);
             }
+            setTimeout(() => {
+              if (!targetCapitolId) return;
+              const row = capitoleContainer.querySelector(
+                `.deck-row[data-deck-capitol='${targetCapitolId}']`
+              );
+              if (row) scrollIntoModalView(row, 80);
+            }, 60);
           });
         });
       }
 
       function wireInlineQuizButtons(container, subject) {
         if (!container) return;
+        if (container.dataset.stopToggleBound !== "true") {
+          container.dataset.stopToggleBound = "true";
+          ["click", "mousedown"].forEach((evt) => {
+            container.addEventListener(evt, (event) => {
+              event.stopPropagation();
+            });
+          });
+        }
+        container.querySelectorAll(".topic").forEach((topicEl) => {
+          if (topicEl.dataset.stopToggleBound === "true") return;
+          topicEl.dataset.stopToggleBound = "true";
+          ["click", "mousedown"].forEach((evt) => {
+            topicEl.addEventListener(evt, (event) => {
+              event.stopPropagation();
+            });
+          });
+        });
+        container.querySelectorAll(".lesson-info-btn").forEach((btn) => {
+          if (btn.dataset.lessonBound === "true") return;
+          btn.dataset.lessonBound = "true";
+          btn.addEventListener("click", (event) => {
+            event.stopPropagation();
+            const topicId = btn.dataset.lessonTopic;
+            const subjectId = btn.dataset.lessonSubject || subject.id;
+            openLesson(subjectId, topicId, btn);
+          });
+        });
         container.querySelectorAll("[data-topic]").forEach((btn) => {
           btn.addEventListener("click", () => {
             const topicId = btn.dataset.topic;
@@ -3937,6 +5302,89 @@
         });
         updateBarWidths(container, false);
       }
+
+      function getLessonForTopic(subjectId, topicId) {
+        if (subjectId === "fped" && window.FPED_LESSONS) {
+          return window.FPED_LESSONS[topicId] || null;
+        }
+        return null;
+      }
+
+      function openLesson(subjectId, topicId, triggerEl) {
+        const lesson = getLessonForTopic(subjectId, topicId);
+        if (!lesson || !lessonOverlay) return;
+        const modalEl = detailOverlay.querySelector(".modal");
+        if (!modalEl) return;
+        const modalRect = modalEl.getBoundingClientRect();
+        const triggerRect = triggerEl?.getBoundingClientRect?.() || modalRect;
+        const x = triggerRect.left + triggerRect.width / 2 - modalRect.left;
+        const y = triggerRect.top + triggerRect.height / 2 - modalRect.top;
+        lessonOverlay.style.setProperty("--lesson-x", `${x}px`);
+        lessonOverlay.style.setProperty("--lesson-y", `${y}px`);
+        lessonOverlay.dataset.lessonX = `${x}`;
+        lessonOverlay.dataset.lessonY = `${y}`;
+        lessonLastTrigger = triggerEl || null;
+        lessonTitle.textContent = lesson.title || "Lecție";
+        lessonText.innerHTML = lesson.html || "";
+        wireTooltips(lessonText);
+        lessonOverlay.classList.remove("hidden", "exit");
+        requestAnimationFrame(() => {
+          lessonOverlay.classList.add("show");
+        });
+        lessonOverlay.setAttribute("aria-hidden", "false");
+        const body = lessonOverlay.querySelector(".lesson-body");
+        if (body) body.scrollTop = 0;
+        const modalRoot = detailOverlay.querySelector(".modal");
+        if (modalRoot) modalRoot.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      function closeLesson(immediate = false) {
+        if (!lessonOverlay) return;
+        lessonOverlay.setAttribute("aria-hidden", "true");
+        if (immediate) {
+          lessonOverlay.classList.add("hidden");
+          lessonOverlay.classList.remove("show", "exit");
+          lessonText.innerHTML = "";
+          return;
+        }
+        if (lessonOverlay.dataset.lessonX && lessonOverlay.dataset.lessonY) {
+          lessonOverlay.style.setProperty(
+            "--lesson-x",
+            `${lessonOverlay.dataset.lessonX}px`
+          );
+          lessonOverlay.style.setProperty(
+            "--lesson-y",
+            `${lessonOverlay.dataset.lessonY}px`
+          );
+        }
+        lessonOverlay.classList.add("exit");
+        lessonOverlay.classList.remove("show");
+        setTimeout(() => {
+          lessonOverlay.classList.add("hidden");
+          lessonOverlay.classList.remove("exit");
+          lessonText.innerHTML = "";
+          if (lessonLastTrigger) {
+            const modal = detailOverlay.querySelector(".modal");
+            if (modal) {
+              const rect = lessonLastTrigger.getBoundingClientRect();
+              const mRect = modal.getBoundingClientRect();
+              const targetTop = modal.scrollTop + (rect.top - mRect.top) - 16;
+              modal.scrollTo({
+                top: Math.max(targetTop, 0),
+                behavior: "smooth",
+              });
+            } else {
+              lessonLastTrigger.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+              });
+            }
+          }
+        }, 950);
+      }
+
+      // (removed) eye follow behavior
 
       function scrollListIntoViewIfHidden(listEl) {
         if (!listEl) return;
@@ -3976,6 +5424,8 @@
         return `--bar-base:${style.base}; --bar-glow:${style.glow};`;
       }
 
+      // (removed) subject eye gradient helpers
+
       function pillColorClass(val) {
         if (val >= 100) return "green";
         if (val >= 60) return "yellow";
@@ -3991,6 +5441,10 @@
       }
 
       function wireTooltips(scope = document) {
+        const isQuizScope =
+          scope === quizPanelContent ||
+          scope.id === "quizPanelContent" ||
+          (scope.closest && scope.closest("#quizPanel"));
         const tips = scope.querySelectorAll(".tip");
         tips.forEach((tip) => {
           if (tip.dataset.tipBound === "true") return;
@@ -3999,7 +5453,7 @@
           if (!box) return;
           let floating = null;
           const show = () => {
-            const rect = (icon || tip).getBoundingClientRect();
+            const rect = triggerEl.getBoundingClientRect();
             if (!floatingTooltip) {
               floatingTooltip = document.createElement("div");
               floatingTooltip.className = "tooltip-floating";
@@ -4052,20 +5506,25 @@
             tip.dataset.tipId = `tip-${Math.random().toString(36).slice(2, 9)}`;
           }
           let icon = tip.querySelector(".tooltip-icon");
-          if (!icon && !tip.classList.contains("help-tip")) {
-            icon = document.createElement("span");
-            icon.className = "tooltip-icon";
-            icon.setAttribute("aria-hidden", "true");
-            tip.appendChild(icon);
+          if (isQuizScope) {
+            if (!icon && !tip.classList.contains("help-tip")) {
+              icon = document.createElement("span");
+              icon.className = "tooltip-icon";
+              icon.setAttribute("aria-hidden", "true");
+              tip.appendChild(icon);
+            }
+          } else if (icon) {
+            icon.remove();
+            icon = null;
           }
-          if (!icon) icon = tip;
+          const triggerEl = icon || tip;
 
           // underline remains regardless of word count
-          icon.addEventListener("mouseenter", show);
-          icon.addEventListener("mousemove", show);
-          icon.addEventListener("mouseleave", hide);
-          icon.addEventListener("touchstart", toggle, { passive: false });
-          icon.addEventListener("click", toggle);
+          triggerEl.addEventListener("mouseenter", show);
+          triggerEl.addEventListener("mousemove", show);
+          triggerEl.addEventListener("mouseleave", hide);
+          triggerEl.addEventListener("touchstart", toggle, { passive: false });
+          triggerEl.addEventListener("click", toggle);
           if (!tooltipHideBound) {
             tooltipHideBound = true;
             document.addEventListener("click", (e) => {
@@ -4126,8 +5585,9 @@
           }
           const target = Number(bar.dataset.target || 0);
           const progressWrap = bar.parentElement;
+          let valEl = null;
           if (progressWrap) {
-            let valEl = progressWrap.querySelector(".progress-value");
+            valEl = progressWrap.querySelector(".progress-value");
             if (!valEl) {
               valEl = document.createElement("div");
               valEl.className = "progress-value";
@@ -4149,15 +5609,58 @@
             }
           }
           if (animate) {
+            bar.style.transition = "none";
             bar.style.width = "0%";
+            if (valEl) valEl.textContent = "0%";
             bar.offsetHeight; // reflow
+            const duration = 1400;
+            const delay = 140;
             requestAnimationFrame(() => {
-              bar.style.width = `${target}%`;
+              bar.style.transition = `width ${duration}ms cubic-bezier(0.16, 1, 0.3, 1)`;
+              setTimeout(() => {
+                bar.style.width = `${target}%`;
+              }, delay);
             });
+            if (valEl) animateProgressValue(valEl, target, duration, delay);
           } else {
+            bar.style.transition = "";
             bar.style.width = `${target}%`;
           }
         });
+        if (animate && onlyTopicId) {
+          pendingProgressAnimationTopicId = null;
+        }
+      }
+
+      function updateSubcapCompletion(subcapListEl) {
+        if (!subcapListEl || !subcapListEl.dataset.quizIds) return;
+        const quizIds = subcapListEl.dataset.quizIds.split(",").filter(Boolean);
+        if (!quizIds.length) return;
+        const completedAll = quizIds.every(
+          (id) => getTopicProgress(id) === 100
+        );
+        const subcap = subcapListEl.closest(".subcap");
+        const status = subcap?.querySelector(".subcap-status");
+        if (!status) return;
+        status.classList.toggle("done", completedAll);
+        status.textContent = completedAll ? "✓" : "";
+      }
+
+      function animateProgressValue(el, target, duration, delay = 0) {
+        const start = performance.now();
+        const from = 0;
+        const ease = (t) => 1 - Math.pow(1 - t, 4);
+        const tick = (now) => {
+          if (now - start < delay) {
+            requestAnimationFrame(tick);
+            return;
+          }
+          const t = Math.min(1, (now - start - delay) / duration);
+          const val = Math.round(from + (target - from) * ease(t));
+          el.textContent = `${val}%`;
+          if (t < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
       }
 
       function ensureFphData(subject) {
@@ -4198,6 +5701,54 @@
             id: q.id,
             title: q.title,
             // păstrează primul item pentru compatibilitate, dar expune și lista completă
+            question: q.questions?.[0] || null,
+            questions: q.questions || [],
+          }));
+        }
+      }
+
+      function ensurePdezvData(subject) {
+        if (!subject || subject.id !== "pdezv") return;
+        const data = window.PDEZV_CONTENT || {};
+        if (!subject.capitole?.length) {
+          subject.capitole = data.capitole || [];
+        }
+        if (!subject.topics?.length) {
+          subject.topics = (window.PDEZV_QUIZ || []).map((q) => ({
+            id: q.id,
+            title: q.title,
+            question: q.questions?.[0] || null,
+            questions: q.questions || [],
+          }));
+        }
+      }
+
+      function ensureLrData(subject) {
+        if (!subject || subject.id !== "lr") return;
+        const data = window.LR_CONTENT || {};
+        if (!subject.capitole?.length) {
+          subject.capitole = data.capitole || [];
+        }
+        if (!subject.topics?.length) {
+          subject.topics = (window.LR_QUIZ || []).map((q) => ({
+            id: q.id,
+            title: q.title,
+            question: q.questions?.[0] || null,
+            questions: q.questions || [],
+          }));
+        }
+      }
+
+      function ensurePedcomData(subject) {
+        if (!subject || subject.id !== "pedcom") return;
+        const data = window.PEDCOM_CONTENT || {};
+        if (!subject.capitole?.length) {
+          subject.capitole = data.capitole || [];
+        }
+        if (!subject.topics?.length) {
+          subject.topics = (window.PEDCOM_QUIZ || []).map((q) => ({
+            id: q.id,
+            title: q.title,
             question: q.questions?.[0] || null,
             questions: q.questions || [],
           }));
@@ -4287,18 +5838,14 @@
 
       function addEmojiPop(targetEl) {
         if (!targetEl) return;
-        const rect = targetEl.getBoundingClientRect();
-        const containerRect = detailOverlay.getBoundingClientRect();
         const emoji = document.createElement("div");
         emoji.className = "emoji-pop";
         emoji.textContent = "🎉";
-        emoji.style.left = `${Math.min(
-          rect.left + rect.width / 2 - containerRect.left,
-          containerRect.width - 24
-        )}px`;
-        emoji.style.top = `${rect.top - containerRect.top - 10}px`;
-        detailOverlay.appendChild(emoji);
-        setTimeout(() => emoji.remove(), 900);
+        emoji.style.left = "50%";
+        emoji.style.top = "12px";
+        emoji.style.transform = "translateX(-50%)";
+        targetEl.appendChild(emoji);
+        setTimeout(() => emoji.remove(), 1400);
       }
 
       function highlightCompletedTopic(listEl, topicId) {
@@ -4328,18 +5875,18 @@
             const optionsHtml = order
               .map(
                 (idx) => `
-                <label class="choice">
-                  <input type="${inputType}" name="q-${qIdx}" value="${idx}"> ${q.options[idx]}
-                </label>
-              `
+                      <label class="choice">
+                        <input type="${inputType}" name="q-${qIdx}" value="${idx}"> ${q.options[idx]}
+                      </label>
+                    `
               )
               .join("");
             return `
-              <div class="quiz-question" data-q="${qIdx}">
-                <h4>${q.text}</h4>
-                ${optionsHtml}
-              </div>
-            `;
+                    <div class="quiz-question" data-q="${qIdx}">
+                      <h4>${q.text}</h4>
+                      ${optionsHtml}
+                    </div>
+                  `;
           })
           .join('<hr class="quiz-sep">');
         wireTooltips(quizPanelContent);
@@ -4421,7 +5968,7 @@
         });
 
         if (!answeredAll) {
-          quizPanelFeedback.className = "feedback info";
+          quizPanelFeedback.className = "feedback info is-unanswered";
           quizPanelFeedback.textContent =
             "Completează toate întrebările înainte de a trimite.";
           quizPanelFeedback.style.display = "block";
@@ -4434,7 +5981,7 @@
 
         quizPanelFeedback.className = allCorrect
           ? "feedback success"
-          : "feedback info";
+          : "feedback info is-incorrect";
         quizPanelFeedback.textContent = allCorrect
           ? `Perfect! ${correctCount}/${currentQuestions.length} corecte.`
           : `${correctCount}/${currentQuestions.length} corecte. Corectează răspunsurile marcate și retrimite.`;
@@ -4448,6 +5995,8 @@
           quizPanelRestart.textContent = "Reia QUIZul";
           quizPanelBack.classList.add("split");
           quizPanelRestart.classList.add("split");
+          quizPanelBack.classList.add("quiz-back-mobile");
+          quizPanelRestart.classList.add("quiz-restart-mobile");
           quizPanelBack.classList.remove("secondary");
           quizPanelBack.classList.add("primary");
           quizPanelRestart.classList.remove("primary");
@@ -4460,7 +6009,9 @@
           quizPanelBack.classList.remove("hidden");
           quizPanelBack.textContent = "← Înapoi";
           quizPanelBack.classList.remove("split");
+          quizPanelBack.classList.remove("quiz-back-mobile");
           quizPanelRestart.classList.remove("split");
+          quizPanelRestart.classList.remove("quiz-restart-mobile");
           quizPanelBack.classList.remove("primary");
           quizPanelBack.classList.add("secondary");
           quizCompleted = false;
@@ -4500,7 +6051,9 @@
         quizPanelBack.classList.remove("hidden");
         quizPanelBack.textContent = "← Înapoi";
         quizPanelBack.classList.remove("split");
+        quizPanelBack.classList.remove("quiz-back-mobile");
         quizPanelRestart.classList.remove("split");
+        quizPanelRestart.classList.remove("quiz-restart-mobile");
         quizPanelBack.classList.remove("primary");
         quizPanelBack.classList.add("secondary");
         const lastTopicId = currentTopic
@@ -4539,15 +6092,24 @@
           capitoleContainer.classList.remove("hidden");
           if (quizCompleted && workingQuizList) {
             const topicId = lastCompletedTopicId;
+            pendingProgressAnimationTopicId = topicId;
             const targetItem =
               workingQuizList.querySelector(
                 `[data-topic-container='${topicId}']`
               ) || workingQuizList;
+            const bar = targetItem.querySelector(".progress-bar");
+            const val = targetItem.querySelector(".progress-value");
+            if (bar) {
+              bar.style.transition = "none";
+              bar.style.width = "0%";
+            }
+            if (val) val.textContent = "0%";
             targetItem.scrollIntoView({
               behavior: "smooth",
               block: "center",
             });
             setTimeout(() => {
+              updateSubcapCompletion(workingQuizList);
               highlightCompletedTopic(workingQuizList, topicId);
               const item =
                 workingQuizList.querySelector(
@@ -4573,6 +6135,18 @@
           capitoleContainer.classList.add("hidden");
           renderTopics(currentSubject);
           if (quizCompleted && lastTopicId) {
+            pendingProgressAnimationTopicId = lastTopicId;
+            const targetBtn = topicsContainer.querySelector(
+              `[data-topic='${lastTopicId}']`
+            );
+            const targetItem = targetBtn ? targetBtn.closest(".topic") : null;
+            const bar = targetItem?.querySelector(".progress-bar");
+            const val = targetItem?.querySelector(".progress-value");
+            if (bar) {
+              bar.style.transition = "none";
+              bar.style.width = "0%";
+            }
+            if (val) val.textContent = "0%";
             updateBarWidths(topicsContainer, true, lastTopicId);
           }
           if (lastTopicId) {

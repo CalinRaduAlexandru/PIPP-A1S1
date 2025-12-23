@@ -384,7 +384,7 @@ window.FPH_CONTENT = {
         {
           id: "fph-cap13-sub3",
           titlu: "Temperamentul",
-          quizuri: ["fph-t13h", "fph-t13i"],
+          quizuri: ["fph-t13h"], //"fph-t13i"
         },
         {
           id: "fph-cap13-sub4",
