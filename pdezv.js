@@ -11016,7 +11016,7 @@ window.PDEZV_LESSONS = {
       <div class="lesson-card">
         <div class="lesson-step-emoji">📏</div>
         <h3>📏 Distanța dintre actual și potențial</h3>
-        <p><strong>Definește ZPD.</strong></p>
+        <p><strong>Distanța dintre ceea ce o persoană poate face singură și ceea ce poate realiza cu sprijin</strong></p>
         <hr />
         <ul>
           <li>
