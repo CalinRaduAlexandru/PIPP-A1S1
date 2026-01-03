@@ -3138,7 +3138,7 @@
         .deck-back-body {
           min-height: 330px;
           overflow: auto;
-          padding: 0 6px;
+          padding: 0;
         }
 
         .deck-back-panel {
@@ -3200,7 +3200,7 @@
 
         .flash-back {
           display: grid;
-          gap: 12px;
+          gap: 0px;
         }
 
         .deck-card.completed {
@@ -3606,8 +3606,10 @@
         }
 
         .deck-back-panel {
-          height: 380px;
+          /* height: 380px; */
           max-height: none;
+          padding: 0;
+          background-color: rgba(255, 255, 255, 0);
         }
 
         .flash-pill-grid {
@@ -3635,7 +3637,7 @@
         }
 
         .flip-face {
-          padding: 12px !important;
+          padding: 0px !important;
           gap: 12px !important;
         }
       }
