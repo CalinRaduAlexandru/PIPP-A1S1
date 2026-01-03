@@ -71,6 +71,7 @@
         width: min(1080px, 96vw);
         position: relative;
         overflow: hidden;
+        animation: appFadeIn 2s ease both;
       }
 
       .intro {
@@ -182,6 +183,17 @@
           box-shadow: 0 0 0 0 rgba(255, 255, 255, 0),
             0 10px 28px rgba(0, 0, 0, 0.28);
           filter: brightness(1);
+        }
+      }
+
+      @keyframes appFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
         }
       }
 
@@ -3631,16 +3643,14 @@
   </head>
   <body>
     <div class="shell">
-      <!--
-      <section class="intro" id="intro">
+      <!-- <section class="intro" id="intro">
         <h1>Bun venit!</h1>
         <p>
           Apasă butonul și intră pe harta celor 6 materii. Progresul pornește de
           la 0%.
         </p>
         <button class="start-btn" id="startBtn">Începe călătoria ↗</button>
-      </section>
-      -->
+      </section> -->
 
       <section class="map visible" id="map">
         <h2>
@@ -3658,9 +3668,7 @@
               artificiale și pot conține erori, omisiuni sau imprecizii.
               Conținutul are un
               <strong>scop exclusiv educațional și orientativ</strong>, iar
-              <strong
-                >Acuratețea și gradul de acoperire al conținutului prelucrat din
-                materialele de curs nu sunt garantate</strong
+              <strong>acuratețea și completitudinea sa nu sunt garantate</strong
               >. <br /><br />
 
               <strong>
@@ -3681,7 +3689,7 @@
           </span>
         </h2>
         <div class="grid">
-          <article class="card fph" data-id="fph">
+          <article class="card fph locked" data-id="fph">
             <div class="card-header">
               <div class="icon-stack">
                 <span class="icon icon-brain"></span>
@@ -3696,6 +3704,28 @@
             </div>
             <div class="progress"><div class="progress-bar"></div></div>
             <div class="progress-label">Parcurs 0%</div>
+            <div class="lock-overlay">
+              <span class="lock-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#e2e8f0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+                  <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+                </svg>
+              </span>
+            </div>
           </article>
           <article class="card fped" data-id="fped">
             <div class="card-header">
@@ -3727,7 +3757,7 @@
             <div class="progress"><div class="progress-bar"></div></div>
             <div class="progress-label">Parcurs 0%</div>
           </article>
-          <article class="card phed" data-id="phed">
+          <article class="card phed locked" data-id="phed">
             <div class="card-header">
               <div class="icon-stack">
                 <span class="icon icon-cap"></span>
@@ -3740,8 +3770,30 @@
             </div>
             <div class="progress"><div class="progress-bar"></div></div>
             <div class="progress-label">Parcurs 0%</div>
+            <div class="lock-overlay">
+              <span class="lock-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#e2e8f0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+                  <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+                </svg>
+              </span>
+            </div>
           </article>
-          <article class="card pedcom" data-id="pedcom">
+          <article class="card pedcom locked" data-id="pedcom">
             <div class="card-header">
               <div class="icon-stack">
                 <span class="icon icon-bubble"></span>
@@ -3756,8 +3808,30 @@
             </div>
             <div class="progress"><div class="progress-bar"></div></div>
             <div class="progress-label">Parcurs 0%</div>
+            <div class="lock-overlay">
+              <span class="lock-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#e2e8f0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+                  <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+                </svg>
+              </span>
+            </div>
           </article>
-          <article class="card lr" data-id="lr">
+          <article class="card lr locked" data-id="lr">
             <div class="card-header">
               <div class="icon-stack">
                 <span class="icon icon-book"></span>
@@ -3772,6 +3846,28 @@
             </div>
             <div class="progress"><div class="progress-bar"></div></div>
             <div class="progress-label">Parcurs 0%</div>
+            <div class="lock-overlay">
+              <span class="lock-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#e2e8f0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+                  <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+                </svg>
+              </span>
+            </div>
           </article>
         </div>
         <div class="support-box">
