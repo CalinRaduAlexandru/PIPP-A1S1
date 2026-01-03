@@ -1108,7 +1108,10 @@
           .map((q, qIdx) => {
             const isMulti = Array.isArray(q.answer);
             const inputType = isMulti ? "checkbox" : "radio";
-            const order = shuffleIndices(q.options.length);
+            const order =
+              q.shuffle === false
+                ? Array.from({ length: q.options.length }, (_, i) => i)
+                : shuffleIndices(q.options.length);
             const optionsHtml = order
               .map(
                 (idx) => `

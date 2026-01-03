@@ -239,7 +239,7 @@ window.FPED_QUIZ = [
       {
         text: "Care este ideea centrală a <strong>fundamentelor socioculturale</strong> ale educației?",
         options: [
-          "<span class='tip'>Educația este condiționată de mediul fizic și sociocultural<span class='tooltip-box'>Educația se desfășoară în contexte concrete, fiind influențată atât de mediul fizic, cât și de mediul sociocultural în care trăiește individul, aceste condiții stabilind ce este posibil, ce este valorizat și cum este organizat procesul educațional.<br><br><strong>Exemplu (influența mediului fizic):</strong> într o comunitate rurală izolată, cu resurse materiale limitate și acces redus la infrastructură educațională, școala se concentrează pe competențe de bază și pe menținerea participării școlare, pe când într un mediu urban bine dotat, educația poate include laboratoare, activități extracurriculare și specializări timpurii.<br><br><strong>Exemplu (influența mediului sociocultural):</strong> într o societate care valorizează competiția și performanța individuală, educația pune accent pe evaluări și ierarhii, pe când într o societate orientată spre cooperare, școala promovează munca în echipă și sprijinul reciproc.</span></span>",
+          "<span class='tip'>Educația este condiționată de mediul fizic și sociocultural<span class='tooltip-box'>Educația se desfășoară în contexte concrete, fiind influențată atât de mediul fizic, cât și de mediul sociocultural în care trăiește individul, aceste condiții stabilind ce este posibil, ce este valorizat și cum este organizat procesul educațional.<br><br><strong>Exemplu (influența mediului fizic):</strong> într-o comunitate rurală izolată, cu resurse materiale limitate și acces redus la infrastructură educațională, școala se concentrează pe competențe de bază și pe menținerea participării școlare, pe când într-un mediu urban bine dotat, educația poate include laboratoare, activități extracurriculare și specializări timpurii.<br><br><strong>Exemplu (influența mediului sociocultural):</strong> într-o societate care valorizează competiția și performanța individuală, educația pune accent pe evaluări și ierarhii, pe când într-o societate orientată spre cooperare, școala promovează munca în echipă și sprijinul reciproc.</span></span>",
           "<span class='tip'>Educația are aceleași forme și finalități indiferent de contextul social<span class='tooltip-box'>Greșit: mediul sociocultural influențează direct conținuturile și finalitățile educației.</span></span>",
         ],
         answer: 0,
@@ -680,7 +680,7 @@ window.FPED_QUIZ = [
         options: [
           "<span class='tip'>Perspectiva UMANĂ – educația ca activitate specific umană<span class='tooltip-box'>Pedagogia pornește de la faptul că educația este o activitate exclusiv umană, legată de conștiință, intenționalitate și sens.<br><br><strong>Utilitate practică:</strong> perspectiva umană conduce la adaptarea educației la ritmul, nevoile și particularitățile fiecărui elev, nu la aplicarea uniformă a acelorași cerințe tuturor.<br><br><strong>Exemplu:</strong> profesorul diferențiază sarcinile pentru elevi cu niveluri diferite de dezvoltare, în loc să impună același standard rigid.</span></span>",
 
-          "<span class='tip'>Perspectiva SOCIALĂ – educația ca activitate socială<span class='tooltip-box'>Educația se desfășoară întotdeauna într un cadru social, fiind influențată de norme, valori, instituții și relații sociale.<br><br><strong>Utilitate practică:</strong> perspectiva socială explică de ce educația nu poate fi separată de familie, comunitate și instituții și de ce intervențiile educaționale trebuie adaptate contextului social.<br><br><strong>Exemplu:</strong> școala colaborează cu familia și comunitatea locală pentru a preveni abandonul școlar.</span></span>",
+          "<span class='tip'>Perspectiva SOCIALĂ – educația ca activitate socială<span class='tooltip-box'>Educația se desfășoară întotdeauna într-un cadru social, fiind influențată de norme, valori, instituții și relații sociale.<br><br><strong>Utilitate practică:</strong> perspectiva socială explică de ce educația nu poate fi separată de familie, comunitate și instituții și de ce intervențiile educaționale trebuie adaptate contextului social.<br><br><strong>Exemplu:</strong> școala colaborează cu familia și comunitatea locală pentru a preveni abandonul școlar.</span></span>",
 
           "<span class='tip'>Perspectiva COMUNICĂRII – educația ca relație de informare și formare<span class='tooltip-box'>Procesul educațional presupune transmitere, negociere și interpretare de sensuri între subiecte.<br><br><strong>Utilitate practică:</strong> perspectiva comunicării justifică accentul pus pe feedback, dialog și relația profesor–elev, nu doar pe transmiterea de informații.<br><br><strong>Exemplu:</strong> profesorul verifică permanent înțelegerea prin întrebări și reformulări, nu doar prin expunere frontală.</span></span>",
 
@@ -2426,7 +2426,7 @@ window.FPED_QUIZ = [
         text: "Care sunt <strong>două avantaje a curriculumului monoconfesional</strong>?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Avantaj</strong> - introducere și inserție spirituală într o credință de bază<span class='tooltip-box'>Realizează o introducere și o inserție spirituală în credința de bază.<br><br><strong>Exemplu:</strong> elevul învață rugăciuni, sărbători și valori specifice confesiunii proprii, într un cadru clar.</span></span>",
+          "<span class='tip'><strong>Avantaj</strong> - introducere și inserție spirituală într-o credință de bază<span class='tooltip-box'>Realizează o introducere și o inserție spirituală în credința de bază.<br><br><strong>Exemplu:</strong> elevul învață rugăciuni, sărbători și valori specifice confesiunii proprii, într-un cadru clar.</span></span>",
           "<span class='tip'><strong>Avantaj</strong> - prezentare unitară fără divergențe<span class='tooltip-box'>Elimină punctele de vedere divergente, prezentându se ca un tot noncontradictoriu și bine acordat axiologic (valorile sunt legate între ele și nu se contrazic).<br><br><strong>Exemplu:</strong> copilul primește aceeași linie de interpretare a valorilor morale, fără comparații care l ar putea deruta.</span></span>",
           "<span class='tip'><strong>Avantaj</strong> - relaționare pozitivă și dialog între confesiuni<span class='tooltip-box'>Adună la un loc în clasă copiii de confesiuni diferite, predispunând relaționări pozitive, dialog, îmbogățire reciprocă.<br><br><strong>Exemplu:</strong> elevii compară sărbători și practici, învață să asculte și să explice fără conflict.</span></span>",
         ],
@@ -2471,7 +2471,7 @@ window.FPED_QUIZ = [
         options: [
           "<span class='tip'><strong>Avantaj</strong> - atenuează tensiunile confesionale<span class='tooltip-box'>Atenuează sau elimină tensiunile confesionale la nivelul proceselor educaționale.<br><br><strong>Exemplu:</strong> elevii pot discuta despre religii ca fenomene culturale fără presiune confesională, reducând conflictele simbolice.</span></span>",
           "<span class='tip'><strong>Avantaj</strong> - conexiune mai directă cu disciplinele clasice<span class='tooltip-box'>Asigură o conexiune mai directă cu disciplinele clasice din perspectiva dimensiunii culturale a acestora.<br><br><strong>Exemplu:</strong> când studiază mituri sau texte religioase, elevul le leagă de literatură, istorie și artă.</span></span>",
-          "<span class='tip'><strong>Avantaj</strong> - formează identitatea religioasă într un cadru spiritual clar<span class='tooltip-box'>Distractor: acest avantaj aparține curriculumului monoconfesional, orientat spre inserție spirituală într o credință de bază.</span></span>",
+          "<span class='tip'><strong>Avantaj</strong> - formează identitatea religioasă într-un cadru spiritual clar<span class='tooltip-box'>Distractor: acest avantaj aparține curriculumului monoconfesional, orientat spre inserție spirituală într-o credință de bază.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -2645,8 +2645,8 @@ window.FPED_QUIZ = [
         text: "Ce caracterizează <strong>sarcinile nespecifice ale educației fizice</strong><span class='tooltip-box'>Sarcinile nespecifice sunt efecte formative generale ale educației fizice, care nu vizează direct dezvoltarea fizică propriu-zisă, ci influențează procesele psihice, afective și volitive prin intermediul mișcării.</span>?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Stimularea proceselor cognitive</strong><span class='tooltip-box'>Atenția, observația și gândirea în acțiune sunt activate prin mișcare.<br><br><strong>Exemplu:</strong> elevul anticipează mișcările colegilor într un joc sportiv și ia decizii rapide.</span></span>",
-          "<span class='tip'><strong>Dezvoltarea proceselor afective</strong><span class='tooltip-box'>Mișcarea generează bucurie, satisfacție, încredere în sine și control emoțional.<br><br><strong>Exemplu:</strong> elevul trăiește emoții pozitive în urma reușitei unei probe sau a participării într o echipă.</span></span>",
+          "<span class='tip'><strong>Stimularea proceselor cognitive</strong><span class='tooltip-box'>Atenția, observația și gândirea în acțiune sunt activate prin mișcare.<br><br><strong>Exemplu:</strong> elevul anticipează mișcările colegilor într-un joc sportiv și ia decizii rapide.</span></span>",
+          "<span class='tip'><strong>Dezvoltarea proceselor afective</strong><span class='tooltip-box'>Mișcarea generează bucurie, satisfacție, încredere în sine și control emoțional.<br><br><strong>Exemplu:</strong> elevul trăiește emoții pozitive în urma reușitei unei probe sau a participării într-o echipă.</span></span>",
           "<span class='tip'><strong>Consolidarea capacităților volitive</strong><span class='tooltip-box'>Se formează curajul, perseverența, inițiativa, consecvența și spiritul de fair play.<br><br><strong>Exemplu:</strong> elevul continuă exercițiul în ciuda dificultății și respectă regulile jocului.</span></span>",
           "<span class='tip'><strong>Transmiterea exclusivă de cunoștințe teoretice</strong><span class='tooltip-box'>Distractor: educația fizică nu este centrată pe teorie, ci pe formare prin acțiune.</span></span>",
         ],
@@ -2924,7 +2924,7 @@ window.FPED_QUIZ = [
           "<span class='tip'><strong>Educația pentru comunicare și mass media</strong><span class='tooltip-box'>Formează capacitatea de a analiza critic mesajele media și de a utiliza responsabil mijloacele de comunicare.</span></span>",
           "<span class='tip'><strong>Educația nutrițională</strong><span class='tooltip-box'>Își propune să informeze și să formeze tânărul în legătură cu valoarea nutritivă a alimentelor, selectarea și dozarea rațională a hranei, pregătirea adecvată a acesteia și îngrijirea propriului organism printr-un regim alimentar echilibrat.</span></span>",
           "<span class='tip'><strong>Educația pentru sănătate</strong><span class='tooltip-box'>Vizează cunoștințe despre sănătate și boală, formarea deprinderilor și conduitelor sanogene, precum și atitudini și valori legate de prevenție și păstrarea vieții.</span></span>",
-          "<span class='tip'><strong>Educația pentru timpul liber</strong><span class='tooltip-box'>Îi învață pe indivizi să valorifice timpul liber într un mod constructiv, prevenind plictiseala, inactivismul și degradarea personală.</span></span>",
+          "<span class='tip'><strong>Educația pentru timpul liber</strong><span class='tooltip-box'>Îi învață pe indivizi să valorifice timpul liber într-un mod constructiv, prevenind plictiseala, inactivismul și degradarea personală.</span></span>",
           "<span class='tip'><strong>Educația exclusiv intelectuală</strong><span class='tooltip-box'>Distractor: aceasta aparține educației clasice, nu categoriei noilor educații.</span></span>",
         ],
         answer: [0, 1, 2, 3, 4, 5],
@@ -3218,15 +3218,52 @@ const FLASH_PILL_VARIANTS = [
   "border:1px solid rgba(148,163,184,0.28);background:rgba(148,163,184,0.16);color:#f8fafc;",
 ];
 
-function flashPill(text, index) {
-  const variant = FLASH_PILL_VARIANTS[index % FLASH_PILL_VARIANTS.length];
-  return `<span style="${FLASH_PILL_BASE}${variant}">${text}</span>`;
+function flashPill(text, variant) {
+  return `<span class="flash-pill" style="${FLASH_PILL_BASE}${variant}">${text}</span>`;
 }
 
 function flashPillList(items) {
-  return `<div class="flash-pill-grid" style="${FLASH_PILL_LIST_STYLE}">${items
-    .map((item, idx) => flashPill(item, idx))
-    .join("")}</div>`;
+  const colorMap = (window.FLASH_PILL_COLOR_MAP =
+    window.FLASH_PILL_COLOR_MAP || {});
+  const namedVariants = (window.FLASH_PILL_NAMED_VARIANTS =
+    window.FLASH_PILL_NAMED_VARIANTS || {
+      cyan: FLASH_PILL_VARIANTS[0],
+      indigo: FLASH_PILL_VARIANTS[1],
+      emerald: FLASH_PILL_VARIANTS[2],
+      amber: FLASH_PILL_VARIANTS[3],
+      pink: FLASH_PILL_VARIANTS[4],
+      violet: FLASH_PILL_VARIANTS[5],
+      slate: FLASH_PILL_VARIANTS[6],
+      teal: FLASH_PILL_VARIANTS[7],
+      coral: FLASH_PILL_VARIANTS[8],
+    });
+  const getVariantForKey = (key) => {
+    if (!key) return null;
+    if (namedVariants[key]) return namedVariants[key];
+    if (!colorMap[key]) {
+      let hash = 0;
+      for (let i = 0; i < key.length; i += 1) {
+        hash = (hash * 31 + key.charCodeAt(i)) % 2147483647;
+      }
+      const index = Math.abs(hash) % FLASH_PILL_VARIANTS.length;
+      colorMap[key] = FLASH_PILL_VARIANTS[index];
+    }
+    return colorMap[key];
+  };
+  const variants = [...FLASH_PILL_VARIANTS];
+  for (let i = variants.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [variants[i], variants[j]] = [variants[j], variants[i]];
+  }
+  const pills = items
+    .map((item, idx) => {
+      const text = typeof item === "string" ? item : item.text;
+      const key = typeof item === "string" ? "" : item.key || item.color || "";
+      const variant = getVariantForKey(key) || variants[idx % variants.length];
+      return flashPill(text, variant);
+    })
+    .join("");
+  return `<div class="flash-pill-grid" style="${FLASH_PILL_LIST_STYLE}">${pills}</div>`;
 }
 
 window.FPED_LESSONS = {
@@ -3263,7 +3300,7 @@ window.FPED_LESSONS = {
       <p>
         Educația este <span class='tip'>multidimensională<span class='tooltip-box'>Biologic, psihologic, social și axiologic.</span></span>.
       </p>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🧬&nbsp;&nbsp;Biologic</h3>
           <p><span class='tip'>Premise ereditare<span class='tooltip-box'>Maturizare, ritmuri de dezvoltare.</span></span>.</p>
@@ -3304,7 +3341,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>🧱&nbsp;&nbsp;Tipuri de fundamente</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🧬&nbsp;&nbsp;Biopsihice</h3>
           <p>
@@ -3427,7 +3464,7 @@ window.FPED_LESSONS = {
         </div>
       </div>
       <hr />
-      <h2>2️⃣&nbsp;&nbsp;Ciclu procesual (feedback)</h2>
+      <h2>2️⃣&nbsp;&nbsp;Ciclu procesual</h2>
       <div class="lesson-flow">
         <span class="lesson-pill">Proiectare</span>
         <span class="lesson-flow-sep">›</span>
@@ -3578,7 +3615,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>🔭&nbsp;&nbsp;Viziuni complementare</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>⏳&nbsp;&nbsp;Educația ca proces</h3>
           <p><span class='tip'>Dinamică și etapizată<span class='tooltip-box'>Se desfășoară în timp, cu transformări succesive.</span></span>.</p>
@@ -3686,7 +3723,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>🔬&nbsp;&nbsp;Perspective științifice a pedagogiei</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>👤&nbsp;&nbsp;Umană</h3>
           <p><span class='tip'>Activitate specific umană<span class='tooltip-box'>Conștiință, intenționalitate, sens.</span></span>.</p>
@@ -3801,7 +3838,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>4️⃣&nbsp;&nbsp;Perspectivele educației (Cerghit)</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🔄&nbsp;&nbsp;Educația ca proces</h3>
           <p>
@@ -3882,7 +3919,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>3️⃣&nbsp;&nbsp;Ce oferă</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🧠&nbsp;&nbsp;Muncă intelectuală</h3>
           <p><span class='tip'>Introducere în învățarea sistematică<span class='tooltip-box'>Formare academică organizată.</span></span>.</p>
@@ -3955,7 +3992,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>2️⃣&nbsp;&nbsp;Caracteristici și obiective</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🧩&nbsp;&nbsp;Flexibilitate</h3>
           <p><span class='tip'>Adaptare la interesele participanților<span class='tooltip-box'>Conținuturi și metode ajustabile.</span></span>.</p>
@@ -4056,7 +4093,7 @@ window.FPED_LESSONS = {
       </p>
       <hr />
       <h2>6️⃣&nbsp;&nbsp;Influențe informale în comunicarea pedagogică</h2>
-<div class="lesson-grid two">
+<div class="lesson-grid two colorful">
   <div class="lesson-card">
     <h3>🧩&nbsp;&nbsp;Contextul comunicării</h3>
     <p>
@@ -4674,7 +4711,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>1️⃣&nbsp;&nbsp;Obiective cognitive de bază</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>👁️&nbsp;&nbsp;Capacități senzoriale</h3>
           <p><span class='tip'>Observare selectivă<span class='tooltip-box'>Sesizarea aspectelor relevante ale realității.</span></span>.</p>
@@ -4882,7 +4919,7 @@ window.FPED_LESSONS = {
 
       <hr />
       <h2>1️⃣&nbsp;&nbsp;Precondiții esențiale</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🧍&nbsp;&nbsp;Identitate și conștiință de sine</h3>
           <p><span class='tip'>Asumare a responsabilității<span class='tooltip-box'>„Eu am ales, eu sunt autor.”</span></span>.</p>
@@ -5058,7 +5095,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>5️⃣&nbsp;&nbsp;Spiritul frumosului și armoniei</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>📚&nbsp;&nbsp;Curriculum structurat</h3>
           <p><span class='tip'>Acces la experiențe estetice<span class='tooltip-box'>Discipline și activități integrate.</span></span>.</p>
@@ -5119,7 +5156,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>3️⃣&nbsp;&nbsp;Obiective majore</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>👁️&nbsp;&nbsp;Receptare estetică</h3>
           <p><span class='tip'>Sensibilitate perceptivă<span class='tooltip-box'>Forme, culori, sunete, gesturi.</span></span>.</p>
@@ -5236,7 +5273,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>4️⃣&nbsp;&nbsp;Activități complementare</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🏛️&nbsp;&nbsp;Muzee și expoziții</h3>
           <p><span class='tip'>Contact direct cu operele<span class='tooltip-box'>Receptare autentică.</span></span>.</p>
@@ -5271,7 +5308,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>1️⃣&nbsp;&nbsp;Argumente fundamentale</h2>
-<div class="lesson-grid two">
+<div class="lesson-grid two colorful">
   <div class="lesson-card">
     <h3>🏛️&nbsp;&nbsp;Cultural</h3>
     <p>
@@ -5485,9 +5522,9 @@ window.FPED_LESSONS = {
 
     <p>
       <span class="badge badge-plus">✅</span>
-      <span class='tip'>Inserție spirituală într o credință
+      <span class='tip'>Inserție spirituală într-o credință
         <span class='tooltip-box'>
-          Introduce elevul într o credință de bază prin valori, practici și repere morale prezentate coerent.<br><br>
+          Introduce elevul într-o credință de bază prin valori, practici și repere morale prezentate coerent.<br><br>
           <strong>Exemplu:</strong> explicarea sensului sărbătorilor și a practicilor specifice unei confesiuni.
         </span>
       </span>
@@ -5626,7 +5663,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>1️⃣&nbsp;&nbsp;Factori de necesitate</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>⚙️&nbsp;&nbsp;Mutații tehnologice</h3>
           <p><span class='tip'>Ritmul schimbărilor<span class='tooltip-box'>Digitalizare, automatizare, AI.</span></span>.</p>
@@ -5829,7 +5866,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>4️⃣&nbsp;&nbsp;Forme de realizare</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🏫&nbsp;&nbsp;Ora de educație fizică + înviorare</h3>
           <p><span class='tip'>Forme organizate în școală<span class='tooltip-box'>Menținere și dezvoltare fizică.</span></span>.</p>
@@ -5906,7 +5943,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>4️⃣&nbsp;&nbsp;Funcții sociale</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>🔁&nbsp;&nbsp;Obiceiul exercițiului</h3>
           <p><span class='tip'>Practicare sistematică<span class='tooltip-box'>Stil de viață activ.</span></span>.</p>
@@ -6266,7 +6303,7 @@ window.FPED_LESSONS = {
 
       <hr />
       <h2>3️⃣&nbsp;&nbsp;Exemple de noi educații</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>☮️&nbsp;&nbsp;Pentru pace</h3>
           <p><span class='tip'>Nonviolență și cooperare<span class='tooltip-box'>Rezolvarea conflictelor.</span></span>.</p>
@@ -6893,7 +6930,7 @@ window.FPED_LESSONS = {
       </table>
       <hr />
       <h2>📚&nbsp;&nbsp;Ce include cultura de bază?</h2>
-      <div class="lesson-grid two">
+      <div class="lesson-grid two colorful">
         <div class="lesson-card">
           <h3>📖&nbsp;&nbsp;Teoria educației</h3>
           <p><span class='tip'>Concepte și delimitări<span class='tooltip-box'>Fundamentele pedagogiei.</span></span>.</p>
@@ -6923,7 +6960,7 @@ window.FPED_LESSONS = {
       </div>
       <hr />
       <h2>🔍&nbsp;&nbsp;Perspective științifice</h2>
-      <div class="lesson-grid">
+      <div class="lesson-grid colorful">
         <div class="lesson-card">
           <h3>👥&nbsp;&nbsp;Influență socială</h3>
           <p>
@@ -7018,48 +7055,105 @@ window.FPED_FLASHCARDS = {
         },
         {
           front:
-            "Enumeră cel puțin 5 modalități de formare a unui subiect și descrie unul dintre acestea",
-          back: `<div class='flash-back'><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧰&nbsp;&nbsp;Modalități (minim 5)</div>Formarea subiectului poate fi înțeleasă prin mai multe modalități:${flashPillList(
+            "Enumeră modalitățile de formare a unui subiect și descrie unul dintre acestea",
+          back: `<div class='flash-back' style="margin-bottom: 16px;"><div class='flash-title' style="${FLASH_TITLE_STYLE}; margin-bottom: 16px;">Formarea subiectului poate fi înțeleasă prin mai multe modalități:</div><div class="flash-pill-underline">${flashPillList(
             [
-              "🪄&nbsp;&nbsp;dresaj, domesticire",
+              "🪄&nbsp;&nbsp;<span class='tip'>Dresaj<span class='tooltip-box'><strong>Spus simplu:</strong> formare prin condiționare și recompensă.<br /><br /><strong>Formulare academică:</strong> formarea unor obişnuinţe prin asocieri mecanice cauză–efect, pe baza reflexelor condiţionate, în scopuri artificiale faţă de natura subiectului.<br /><br /><strong>Exemplu:</strong> delfinul execută o mișcare pentru a primi peștișor.</span></span>, <span class='tip'>Domesticire<span class='tooltip-box'><strong>Spus simplu:</strong> dresaj stabilizat și transmis în timp.<br /><br /><strong>Formulare academică:</strong> formă complexă de dresaj cu finalitate practică, care fixează obişnuinţe transmisibile ereditar și modifică structura instinctuală a speciei.<br /><br /><strong>Exemplu:</strong> câinele domestic ca specie adaptată conviețuirii cu omul.</span></span>",
 
-              "🌱&nbsp;&nbsp;creștere, maturizare, formare",
-              "🏫&nbsp;&nbsp;instruire, predare, învățare",
-              "✨&nbsp;&nbsp;salvare",
-              "😈&nbsp;&nbsp;manipulare, îndoctrinare",
+              "🌱&nbsp;&nbsp;<span class='tip'>Creștere<span class='tooltip-box'><strong>Spus simplu:</strong> schimbări fizice vizibile ale organismului.<br /><br /><strong>Formulare academică:</strong> transformări evolutive de ordin somatic, măsurabile prin standarde de normalitate.<br /><br /><strong>Exemplu:</strong> creșterea în înălțime a copilului.</span></span>, <span class='tip'>Maturizare<span class='tooltip-box'><strong>Spus simplu:</strong> atingerea pragului maxim de dezvoltare funcțională.<br /><br /><strong>Formulare academică:</strong> procesul prin care individul ajunge la funcționare biologică și psihică deplină.<br /><br /><strong>Exemplu:</strong> maturizarea sistemului nervos în adolescență.</span></span>, <span class='tip'>Formare<span class='tooltip-box'><strong>Spus simplu:</strong> schimbări psihologice stabile.<br /><br /><strong>Formulare academică:</strong> transformări evolutive la nivel psihic, structurate prin norme de dezvoltare.<br /><br /><strong>Exemplu:</strong> formarea autocontrolului și a responsabilității.</span></span>",
+
+              "🏫&nbsp;&nbsp;<span class='tip'>Predare<span class='tooltip-box'><strong>Spus simplu:</strong> profesorul transmite organizat cunoștințe.<br /><br /><strong>Formulare academică:</strong> proces de prezentare sistematică a informațiilor, cu rol director al cadrului didactic.<br /><br /><strong>Exemplu:</strong> lecția explicativă susținută de profesor.</span></span>, <span class='tip'>Învățare<span class='tooltip-box'><strong>Spus simplu:</strong> apar schimbări dorite în comportament și cunoaștere.<br /><br /><strong>Formulare academică:</strong> proces prin care experiența produce modificări relativ stabile.<br /><br /><strong>Exemplu:</strong> elevul rezolvă singur exerciții după exersare.</span></span>, <span class='tip'>Instruire<span class='tooltip-box'><strong>Spus simplu:</strong> predare și învățare organizate împreună.<br /><br /><strong>Formulare academică:</strong> demers educativ intenționat care corelează obiective, conținuturi și metode.<br /><br /><strong>Exemplu:</strong> program școlar structurat pe competențe.</span></span>",
+
+              "✨&nbsp;&nbsp;<span class='tip'>Salvare<span class='tooltip-box'><strong>Spus simplu:</strong> desăvârșirea omului prin credință.<br /><br /><strong>Formulare academică:</strong> concept teologic ce vizează împlinirea ființei umane prin pregătire spirituală continuă.<br /><br /><strong>Exemplu:</strong> viața trăită conform valorilor creștine, orientată spre mântuire.</span></span>",
+
+              "😈&nbsp;&nbsp;<span class='tip'>Manipulare<span class='tooltip-box'><strong>Spus simplu:</strong> influențare prin înșelare sau presiune.<br /><br /><strong>Formulare academică:</strong> formă de influență socială ce modifică percepții sau comportamente prin tactici amăgitoare sau abuzive.<br /><br /><strong>Exemplu:</strong> publicitate care exploatează frica sau vinovăția.</span></span>, <span class='tip'>Îndoctrinare<span class='tooltip-box'><strong>Spus simplu:</strong> impunerea unei viziuni unice.<br /><br /><strong>Formulare academică:</strong> inculcarea unui punct de vedere sectar prin ascunderea scopului și reducerea gândirii critice.<br /><br /><strong>Exemplu:</strong> educație politică rigidă care nu permite alternative.</span></span>",
             ]
-          )}</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🔎&nbsp;&nbsp;Exemplu: INSTRUIREA</div><div><span class='tip'><strong>Organizează sistematic</strong><span class='tooltip-box'>Leagă predarea de învățare într-un demers intenționat.</span></span>, prin obiective, conținuturi și metode educative.</div></div></div>`,
+          )}</div>
+</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🔎&nbsp;&nbsp;Exemplu: INSTRUIREA</div><div><span class='tip'><strong>Organizează sistematic</strong><span class='tooltip-box'>Leagă predarea de învățare într-un demers intenționat.</span></span>, prin obiective, conținuturi și metode educative.</div></div></div>`,
         },
         {
           front:
             "Definește pedagogia și perspectivele științifice pe care le abordează",
           back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">📘&nbsp;&nbsp;Definiție</div><div>Pedagogia este <strong>știința educației omului tuturor vârstelor</strong>, care studiază sistematic <strong>fenomenul educațional</strong>.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Perspective științifice</div>${flashPillList(
             [
-              "👤&nbsp;&nbsp;<span class='tip'>umană<span class='tooltip-box'>Perspectiva umană tratează educația ca formare integrală a persoanei, în raport cu nevoile și potențialul ei.</span></span>",
-              "👥&nbsp;&nbsp;<span class='tip'>socială<span class='tooltip-box'>Perspectiva socială explică educația prin rolurile, normele și funcțiile sale în viața colectivă.</span></span>",
-              "💬&nbsp;&nbsp;<span class='tip'>comunicării<span class='tooltip-box'>Perspectiva comunicării vede educația ca proces de transmitere și negociere a sensurilor între actori.</span></span>",
-              "🔎&nbsp;&nbsp;<span class='tip'>pozitivă<span class='tooltip-box'>Perspectiva pozitivă analizează educația pe baza faptelor observabile și a regularităților verificabile.</span></span>",
-              "⚖️&nbsp;&nbsp;<span class='tip'>filosofică<span class='tooltip-box'>Perspectiva filosofică fundamentează educația prin valori, finalități și sensuri ale formării umane.</span></span>",
-              "🛠️&nbsp;&nbsp;<span class='tip'>praxiologică<span class='tooltip-box'>Perspectiva praxiologică privește educația ca acțiune eficientă, orientată spre metode și rezultate.</span></span>",
+              "👤<span class='tip'>umană<span class='tooltip-box'>Perspectiva umană tratează educația ca formare integrală a persoanei, în raport cu nevoile și potențialul ei.</span></span>",
+              "👥<span class='tip'>socială<span class='tooltip-box'>Perspectiva socială explică educația prin rolurile, normele și funcțiile sale în viața colectivă.</span></span>",
+              "💬<span class='tip'>comunicării<span class='tooltip-box'>Perspectiva comunicării vede educația ca proces de transmitere și negociere a sensurilor între actori.</span></span>",
+              "🔎<span class='tip'>pozitivă<span class='tooltip-box'>Perspectiva pozitivă analizează educația pe baza faptelor observabile și a regularităților verificabile.</span></span>",
+              "⚖️<span class='tip'>filosofică<span class='tooltip-box'>Perspectiva filosofică fundamentează educația prin valori, finalități și sensuri ale formării umane.</span></span>",
+              "🛠️<span class='tip'>praxiologică<span class='tooltip-box'>Perspectiva praxiologică privește educația ca acțiune eficientă, orientată spre metode și rezultate.</span></span>",
             ]
           )}</div></div>`,
         },
         {
           front:
             "Rolul pedagogiei în Sistemul Științelor Educației și evoluțiile interne și externe",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Rol în sistem</div><div><span class='tip'><strong>Pedagogia generală</strong><span class='tooltip-box'>Este nucleul teoretic din care se dezvoltă atât aprofundările, cât și aplicațiile practice.</span></span> funcționează ca <strong>nucleu central</strong> al științelor educației.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Evoluții interne</div><div>Are loc o <span class='tip'><strong>diversificare în aria pedagogică</strong><span class='tooltip-box'>Specializarea în interiorul domeniului: teorii și metodologii proprii.</span></span>. Avem, astfel, teoria și metodologia:</div>${flashPillList(
-            [
-              "📘&nbsp;&nbsp;instruirii",
-              "🧭&nbsp;&nbsp;curriculumului",
-              "✅&nbsp;&nbsp;evaluării",
-            ]
-          )}</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🌐&nbsp;&nbsp;Evoluții externe</div><div>Se produce o <span class='tip'><strong>ramificare interdisciplinară</strong><span class='tooltip-box'>Dezvoltare prin relaționare cu alte științe relevante pentru educație.</span></span>.</div>${flashPillList(
-            [
-              "🤓&nbsp;&nbsp;psihologia educației",
-              "👥&nbsp;&nbsp;sociologia educației",
-              "🏛️&nbsp;&nbsp;managementul educației",
-            ]
-          )}</div></div>`,
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Rol în sistem</div>
+    <div>
+      <span class='tip'><strong>Pedagogia generală</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> oferă baza comună pentru toate celelalte ramuri.<br /><br />
+        <strong>Formulare academică:</strong> nucleul teoretic care formulează concepte, principii și modele generale ale educației, din care derivă specializările și aplicațiile.
+      </span></span>
+      funcționează ca <strong>nucleu central</strong> al științelor educației.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Evoluții interne</div>
+    <div>
+      Are loc o <span class='tip'><strong>diversificare în aria pedagogică</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> apar ramuri tot mai specializate în interiorul pedagogiei.<br /><br />
+        <strong>Formulare academică:</strong> diferențiere internă prin dezvoltarea unor teorii și metodologii specifice subdomeniilor educaționale.
+      </span></span>.
+      Avem, astfel, teoria și metodologia:
+    </div>
+
+    ${window.flashPillList([
+      {
+        text: "📘&nbsp;&nbsp;<span class='tip'><strong>instruirii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum organizezi predarea și învățarea.<br /><br /><strong>Formulare academică:</strong> teoria și metodologia instruirii se referă la proiectarea și conducerea procesului didactic prin obiective, conținuturi, metode și forme de organizare.<br /><br /><strong>Exemplu:</strong> alegerea metodei potrivite pentru a preda o noțiune nouă.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧭&nbsp;&nbsp;<span class='tip'><strong>curriculumului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce se învață, în ce ordine și cu ce finalități.<br /><br /><strong>Formulare academică:</strong> teoria și metodologia curriculumului vizează planificarea parcursului educațional prin competențe, conținuturi, experiențe de învățare și standarde.<br /><br /><strong>Exemplu:</strong> structura unei programe școlare pe module și competențe.</span></span>",
+        key: "indigo",
+      },
+      {
+        text: "✅&nbsp;&nbsp;<span class='tip'><strong>evaluării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum verifici progresul și rezultatele.<br /><br /><strong>Formulare academică:</strong> teoria și metodologia evaluării urmăresc măsurarea și aprecierea rezultatelor învățării prin criterii, instrumente și decizii de reglare a demersului didactic.<br /><br /><strong>Exemplu:</strong> rubrică de evaluare pentru un proiect sau un test criterial.</span></span>",
+        key: "emerald",
+      },
+    ])}
+
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🌐&nbsp;&nbsp;Evoluții externe</div>
+    <div>
+      Se produce o <span class='tip'><strong>ramificare interdisciplinară</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> pedagogia se leagă de alte științe ca să explice și să optimizeze educația.<br /><br />
+        <strong>Formulare academică:</strong> extindere externă prin integrarea conceptelor și metodelor din discipline conexe relevante pentru fenomenul educațional.
+      </span></span>.
+    </div>
+
+    ${window.flashPillList([
+      {
+        text: "🤓<span class='tip'><strong>psihologia educației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum învață și se motivează elevii.<br /><br /><strong>Formulare academică:</strong> studiază procesele psihice implicate în învățare, dezvoltare și adaptare școlară.<br /><br /><strong>Exemplu:</strong> rolul motivației și al atenției în performanța școlară.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "👥<span class='tip'><strong>sociologia educației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum influențează societatea școala și invers.<br /><br /><strong>Formulare academică:</strong> analizează relațiile dintre educație, instituții, norme, inegalități și mobilitate socială.<br /><br /><strong>Exemplu:</strong> efectul mediului socio cultural asupra accesului la educație.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "🏛️<span class='tip'><strong>managementul educației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum conduci și organizezi o instituție educațională.<br /><br /><strong>Formulare academică:</strong> vizează planificarea, coordonarea și evaluarea resurselor și proceselor instituționale în educație.<br /><br /><strong>Exemplu:</strong> managementul unei școli: obiective, resurse, calitate, climat organizațional.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -7133,7 +7227,7 @@ window.FPED_FLASHCARDS = {
 
       <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
         <div class='flash-title' style="${FLASH_TITLE_STYLE}">
-          🧠&nbsp;&nbsp;Dimensiune și rol
+          🔍&nbsp;&nbsp;Dimensiune și rol
         </div>
         <div>
           Educația intelectuală vizează dezvoltarea <strong>capacităților cognitive</strong>
@@ -7146,16 +7240,17 @@ window.FPED_FLASHCARDS = {
         <div class='flash-title' style="${FLASH_TITLE_STYLE}">
           🎯&nbsp;&nbsp;Obiective
         </div>
-        ${flashPillList([
-          "👀&nbsp;&nbsp;observare selectivă și percepție relevantă a realității",
-          "🧩&nbsp;&nbsp;dezvoltarea atenției, memoriei, gândirii și limbajului",
-          "🧼&nbsp;&nbsp;<span class='tip'>formarea normelor igienice și pedagogice ale muncii intelectuale<span class='tooltip-box'><strong>Norme igienice:</strong> condiții fizice și fiziologice ale activității intelectuale care protejează sănătatea și previn oboseala (iluminare, poziție corporală, alternanța muncă–pauză, durată a efortului).<br><br><strong>Norme pedagogice:</strong> reguli de organizare didactică a învățării care asigură eficiența formării intelectuale (ritmul predării, dozarea sarcinilor, adaptarea conținutului la nivelul elevului).</span></span>",
-          "💡&nbsp;&nbsp;curiozitate cognitivă și bucuria descoperirii",
-          "🧭&nbsp;&nbsp;însușirea metodelor și tehnicilor de învățare eficientă",
-          "🧱&nbsp;&nbsp;organizarea și reorganizarea cunoștințelor",
-          "🌐&nbsp;&nbsp;construirea unei viziuni integrative asupra cunoașterii",
-          "🧘&nbsp;&nbsp;autoreglarea conduitei prin rațiune și reflecție",
-        ])}
+       ${flashPillList([
+         "👀&nbsp;&nbsp;<span class='tip'>observare selectivă<span class='tooltip-box'><strong>Clarificare:</strong> alegi din realitate ce contează, nu tot ce apare.<br><br><strong>Exemplu:</strong> într-un text, urmărești ideile cheie, nu fiecare detaliu.</span></span>",
+         "🧩&nbsp;&nbsp;<span class='tip'>atenție, memorie, gîndire, limbaj<span class='tooltip-box'><strong>Clarificare:</strong> îți antrenezi funcțiile de bază ca să poți înțelege și explica.<br><br><strong>Exemplu:</strong> rezumi cu propriile cuvinte o lecție și apoi o explici cuiva.</span></span>",
+         "🧼&nbsp;&nbsp;<span class='tip'>formarea normelor igienice și pedagogice ale muncii intelectuale<span class='tooltip-box'><strong>Norme igienice:</strong> condiții fizice și fiziologice ale activității intelectuale care protejează sănătatea și previn oboseala (iluminare, poziție corporală, alternanța muncă–pauză, durată a efortului).<br><br><strong>Norme pedagogice:</strong> reguli de organizare didactică a învățării care asigură eficiența formării intelectuale (ritmul predării, dozarea sarcinilor, adaptarea conținutului la nivelul elevului).</span></span>",
+         "💡&nbsp;&nbsp;<span class='tip'>curiozitate și bucuria descoperirii<span class='tooltip-box'><strong>Clarificare:</strong> cauți să înțelegi de ce și cum, nu doar să bifezi.<br><br><strong>Exemplu:</strong> după ce înveți un concept, cauți încă un exemplu din viața ta ca să îl prinzi.</span></span>",
+         "🧭&nbsp;&nbsp;<span class='tip'>metode și tehnici de învățare eficientă<span class='tooltip-box'><strong>Clarificare:</strong> înveți cum să înveți, cu strategii clare.<br><br><strong>Exemplu:</strong> îți faci un plan de recapitulare, teste scurte, întrebări pentru tine.</span></span>",
+         "🧱&nbsp;&nbsp;<span class='tip'>organizarea și reorganizarea cunoștințelor<span class='tooltip-box'><strong>Clarificare:</strong> pui informația în categorii și o refaci cînd înțelegi mai mult.<br><br><strong>Exemplu:</strong> transformi un capitol într-o schemă pe teme și subteme.</span></span>",
+         "🌐&nbsp;&nbsp;<span class='tip'>viziune integrativă asupra cunoașterii<span class='tooltip-box'><strong>Clarificare:</strong> legi idei din domenii diferite, nu le ții izolate.<br><br><strong>Exemplu:</strong> conectezi ce înveți la psihologie cu ce apare la pedagogie și comunicare.</span></span>",
+         "🧘&nbsp;&nbsp;<span class='tip'>autoreglare prin rațiune și reflecție<span class='tooltip-box'><strong>Clarificare:</strong> îți conduci alegerile și reacțiile prin gîndire, nu pe pilot automat.<br><br><strong>Exemplu:</strong> cînd te grăbești să răspunzi, faci o pauză și verifici dacă ai înțeles întrebarea.</span></span>",
+       ])}
+
       </div>
 
     </div>
@@ -7165,34 +7260,153 @@ window.FPED_FLASHCARDS = {
         {
           front:
             "Explică Teoria psihogenezei operațiilor intelectuale (Jean Piaget)",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧠&nbsp;&nbsp;Idee centrală</div><div>Inteligența se dezvoltă <strong>treptat, în stadii</strong>, prin <span class='tip'>asimilare<span class='tooltip-box'>Integrarea experienței în scheme existente.</span></span> și <span class='tip'>acomodare<span class='tooltip-box'>Modificarea schemelor pentru a se adapta realității.</span></span>.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">📈&nbsp;&nbsp;Stadii</div>${flashPillList(
-            [
-              "👶&nbsp;&nbsp;<span class='tip'>senzoriomotor (0–2)<span class='tooltip-box'>Cunoaștere prin acțiune directă: copilul explorează lumea prin percepție și mișcare. Nu există încă gândire simbolică stabilă; învățarea se face prin manipulare și reacții imediate.</span></span>",
-              "🧸&nbsp;&nbsp;<span class='tip'>preoperator (2–7)<span class='tooltip-box'>Gândire simbolică și intuitivă: apar limbajul și jocul de rol, dar raționamentul este egocentric și bazat pe aparențe. Copilul explică realitatea prin ceea ce vede, nu prin logică.</span></span>",
-              "🧱&nbsp;&nbsp;<span class='tip'>operații concrete (7–12)<span class='tooltip-box'>Gândire logică aplicată situațiilor concrete: copilul înțelege conservarea, clasificarea și serierea, dar are nevoie de suport concret pentru a raționa corect.</span></span>",
-              "💭&nbsp;&nbsp;<span class='tip'>operații formale (12+)<span class='tooltip-box'>Gândire abstractă și ipotetico-deductivă: adolescentul poate formula ipoteze, opera cu concepte abstracte și analiza situații independente de experiența directă.</span></span>",
-            ]
-          )}</div></div>`,
+          back: `<div class='flash-back'>
+
+  <!-- IDEEA CENTRALĂ -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">💡&nbsp;&nbsp;Idee centrală</div>
+    <div>
+      Dezvoltarea inteligenței are loc
+      <strong>treptat, în stadii succesive</strong>,
+      prin mecanisme active de adaptare.
+    </div>
+  </div>
+
+  <!-- MECANISMUL ÎNVĂȚĂRII -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Mecanismul învățării (adaptarea)</div>
+    <ul style="padding-left:18px;display:grid;gap:6px;">
+      <li>
+        <span class='tip'><strong>Asimilare</strong>
+          <span class='tooltip-box'>
+            <strong>Ce este:</strong> integrarea experienței noi în schemele existente.<br /><br />
+            <strong>Spus simplu:</strong> copilul înțelege ceva nou folosind ce știe deja.<br /><br />
+            <strong>Exemplu:</strong> un copil numește toate animalele cu patru picioare „câine”.
+          </span>
+        </span>
+      </li>
+      <li>
+        <span class='tip'><strong>Acomodare</strong>
+          <span class='tooltip-box'>
+            <strong>Ce este:</strong> modificarea schemelor când realitatea nu se potrivește.<br /><br />
+            <strong>Spus simplu:</strong> copilul își schimbă modul de a gândi.<br /><br />
+            <strong>Exemplu:</strong> învață că pisica nu este câine.
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ROLUL EXPERIENȚEI -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔁&nbsp;&nbsp;Rolul experienței</div>
+    <div>
+      Experiența este
+      <span class='tip'><strong>utilizată activ</strong>
+        <span class='tooltip-box'>
+          Copilul construiește și reorganizează structurile de gândire prin acțiune, nu prin simplă recepție.
+        </span>
+      </span>,
+      nu preluată pasiv.
+    </div>
+  </div>
+
+  <!-- STADIILE -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📈&nbsp;&nbsp;Stadii cognitive</div>
+
+  ${flashPillList([
+    "👶&nbsp;&nbsp;<span class='tip'><strong>Senzoriomotor</strong> (0–2 ani)<span class='tooltip-box'>\
+<strong>Caracteristică centrală:</strong> cunoaștere prin acțiune directă (percepție și mișcare).<br /><br />\
+<strong>Ce lipsește:</strong> gîndirea simbolică stabilă.<br /><br />\
+<strong>Manifestări tipice:</strong> explorare senzorială, repetare pentru efect, încercare și eroare.<br /><br />\
+<strong>Exemple:</strong> scutură o jucărie pentru sunet, apasă repetat un buton, duce obiecte la gură pentru explorare.\
+</span></span>",
+
+    "🧸&nbsp;&nbsp;<span class='tip'><strong>Preoperator</strong> (2–7 ani)<span class='tooltip-box'>\
+<strong>Caracteristică centrală:</strong> gîndire simbolică și intuitivă.<br /><br />\
+<strong>Subetape:</strong> 2–4 ani simbolic preconceptual; 4–7 ani intuitiv imagistic.<br /><br />\
+<strong>Manifestări tipice:</strong> egocentrism cognitiv (presupune că ceilalți văd și știu exact ca el), judecă după aparențe, intuiție perceptivă (explică prin ce se vede, fără verificare). <strong>Animism</strong> (atribuie obiectelor neînsuflețite intenții sau „viață”).<br /><br />\
+<strong>Exemple:</strong> o cutie devine mașină în joc, un băț devine sabie, crede că paharul mai înalt are mai mult lichid, spune că soarele îl urmărește.\
+</span></span>",
+
+    "🧱&nbsp;&nbsp;<span class='tip'><strong>Operații concrete</strong> (7–12 ani)<span class='tooltip-box'>\
+<strong>Caracteristică centrală:</strong> logică în situații concrete (are nevoie de suport obiectual).<br /><br />\
+<strong>Achiziții:</strong> conservare, clasificare, seriere.<br /><br />\
+<strong>Manifestări tipice:</strong> reversibilitate (poate întoarce mental o acțiune), decentrări (nu mai rămâne blocat într-un singur aspect), scade egocentrismul cognitiv.<br /><br />\
+<strong>Exemple:</strong> recunoaște aceeași cantitate de apă în recipiente diferite, grupează obiecte după categorie, ordonează bețe de la mic la mare.\
+</span></span>",
+
+    "💭&nbsp;&nbsp;<span class='tip'><strong>Operații formale</strong> (12+ ani)<span class='tooltip-box'>\
+<strong>Caracteristică centrală:</strong> gândire abstractă și ipotetico deductivă.<br /><br />\
+<strong>Achiziții:</strong> formulare de ipoteze, raționament formal, analiză independentă de experiența directă.<br /><br />\
+<strong>Manifestări tipice:</strong> gândire despre posibil (nu doar despre real).<br /><br />\
+<strong>Exemple:</strong> formulează ipoteze de tip dacă-atunci, rezolvă probleme pornind de la ipoteze teoretice, discută concepte precum „dreptate” și „libertate”.\
+</span></span>",
+  ])}
+
+  </div>
+
+  <!-- IMPLICAȚII -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎓&nbsp;&nbsp;Implicații educaționale</div>
+    <div>
+      <span class='tip'><strong>Predarea trebuie adaptată stadiului cognitiv</strong>
+        <span class='tooltip-box'>
+          Conținuturile, cerințele și metodele trebuie să corespundă nivelului de dezvoltare intelectuală.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+</div>
+`,
         },
         {
           front:
             "Explică Teoria genetic cognitivă și structurală (Jerome Bruner)",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🌍&nbsp;&nbsp;Idee centrală</div><div>Dezvoltarea cognitivă este <strong>mediată cultural</strong> prin limbaj, simboluri și interacțiune socială.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🔤&nbsp;&nbsp;Modalități de reprezentare</div>${flashPillList(
-            [
-              "✋&nbsp;&nbsp;activă (acțiune)",
-              "🖼️&nbsp;&nbsp;iconică (imagini)",
-              "🔣&nbsp;&nbsp;simbolică (limbaj/simboluri)",
-            ]
-          )}</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🌀&nbsp;&nbsp;Curriculum spiralat</div><div>Aceleiași idei pot fi predate la orice vârstă, <strong>reprezentate adecvat</strong> și reluate progresiv.</div></div></div>`,
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🌍&nbsp;&nbsp;Idee centrală</div>
+    <div>
+      Dezvoltarea cognitivă este <strong>mediată cultural</strong> prin limbaj, simboluri și interacțiune socială.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔤&nbsp;&nbsp;Modalități de reprezentare</div>
+    ${flashPillList([
+      "✋&nbsp;&nbsp;<span class='tip'><strong>activă</strong> (acțiune)<span class='tooltip-box'><strong><strong>Modalitatea activă</strong> construiește cunoașterea prin acțiune directă asupra mediului, prin manipulare și explorare practică.<br><br><strong>Exemplu:</strong> copilul învață echilibrul manipulînd obiecte sau deplasîndu se pe diferite suprafețe.</span></span>",
+      "🖼️&nbsp;&nbsp;<span class='tip'><strong>iconică</strong> (imagini)<span class='tooltip-box'><strong><strong>Modalitatea iconică</strong> se bazează pe asemănare. Imaginile, schemele și desenele păstrează o relație vizuală sau structurală cu realitatea și pot fi înțelese intuitiv, chiar fără explicație verbală.<br><br><strong>Exemplu:</strong> o schiță de câine este recunoscută ca un „câine” prin formă, nu prin convenție.</span></span>",
+      "🔣&nbsp;&nbsp;<span class='tip'><strong>simbolică</strong> (limbaj sau simboluri)<span class='tooltip-box'><strong><strong>Modalitatea simbolică</strong> utilizează semne convenționale precum cuvintele, numerele sau formulele, care nu au sens prin ele însele. Semnificația apare prin acord cultural și reguli de utilizare.<br><br><strong>Exemplu:</strong> cuvîntul „cîine” nu seamănă cu un cîine, iar legătura dintre cuvînt și obiect este învățată.</span></span>",
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">
+      🌀&nbsp;&nbsp;<span class='tip'><strong>Curriculum spiralat</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> aceleași conținuturi pot fi învățate la orice vîrstă, dacă sunt prezentate într-o formă potrivită nivelului de dezvoltare.<br><br>
+        <strong>Formulare academică:</strong> structura de bază a unei discipline poate fi predată repetat, la niveluri succesive de profunzime și abstractizare, prin reprezentări active, iconice și simbolice.<br><br>
+        <strong>Exemplu:</strong> proporția este introdusă prin manipulare concretă, apoi prin desene și ulterior prin formule matematice.
+      </span></span>
+    </div>
+    <div>
+      Aceleași idei pot fi predate la orice vîrstă, reprezentate adecvat și reluate progresiv.
+    </div>
+  </div>
+
+</div>`,
         },
         {
           front: "Explică Teoria învățării cumulativ-ierarhice (Gagne)",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧠&nbsp;&nbsp;Idee centrală</div><div>Învățarea depinde de <strong>condiții interne</strong> și <strong>condiții externe</strong> organizate ierarhic.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🔗&nbsp;&nbsp;Condiții</div>${flashPillList(
+          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">💡&nbsp;&nbsp;Idee centrală</div><div>Învățarea depinde de <strong>condiții interne</strong> și <strong>condiții externe</strong> organizate ierarhic.</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🔗&nbsp;&nbsp;Condiții</div>${flashPillList(
             [
-              "🧩&nbsp;&nbsp;interne: cunoștințe, motivație, nivel cognitiv",
-              "🧰&nbsp;&nbsp;externe: sarcini, suport, feedback, organizare",
+              "🧩&nbsp;&nbsp;<span class='tip'><strong>interne</strong>: cunoștințe, motivație, nivel cognitiv<span class='tooltip-box'><strong>Spus simplu:</strong> ce aduci deja cu tine în situația de învățare.<br /><br /><strong>Formulare academică:</strong> condițiile interne sunt resursele și stările subiectului care susțin sau limitează învățarea: nivelul de dezvoltare cognitivă, achizițiile anterioare și dispozițiile motivaționale.<br /><br /><strong>Exemplu:</strong> aceeași sarcină este rezolvată diferit dacă elevul are prerechizite (cunoștințe anterioare) și interes, față de cazul în care nu le are.</span></span>",
+              "🧰&nbsp;&nbsp;<span class='tip'><strong>externe</strong>: sarcini, suport, feedback, organizare<span class='tooltip-box'><strong>Spus simplu:</strong> ce vine din afara persoanei și poate fi organizat de profesor sau de context.<br /><br /><strong>Formulare academică:</strong> condițiile externe sunt cerințele și aranjamentele situației de învățare: tipul sarcinii, structura materialului, sprijinul oferit, feedbackul și organizarea activității.<br /><br /><strong>Exemplu:</strong> aceeași lecție devine mai accesibilă dacă sarcina este gradată, există modele de rezolvare și feedback imediat, comparativ cu o sarcină neclară și fără sprijin.</span></span>",
             ]
-          )}</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+          )}
+</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}">
   <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎯&nbsp;&nbsp;Implicație didactică</div>
   <div>
     Predarea pornește de la <strong>condițiile interne reale ale elevului</strong> (cunoștințe, nivel cognitiv, motivație) și structurează <strong>condițiile externe</strong> (sarcini, sprijin, feedback) în <strong>pași ierarhici</strong>, astfel încât fiecare achiziție să devină bază pentru următoarea.
@@ -7202,13 +7416,14 @@ window.FPED_FLASHCARDS = {
         },
         {
           front: "Explică Teoria cognitivistă",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧠&nbsp;&nbsp;Idee centrală</div><div>Învățarea depinde de <strong>procesarea informației</strong> (percepție, organizare, memorare, utilizare).</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Tipuri de cunoștințe</div>${flashPillList(
+          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">💡&nbsp;&nbsp;Idee centrală</div><div>Învățarea depinde de <strong>procesarea informației</strong> (percepție, organizare, memorare, utilizare).</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Tipuri de cunoștințe</div>${flashPillList(
             [
-              "📘&nbsp;&nbsp;declarative (ce este)",
-              "🛠️&nbsp;&nbsp;procedurale (cum se face)",
-              "🧭&nbsp;&nbsp;condiționale (când/de ce)",
+              "📘&nbsp;&nbsp;<span class='tip'><strong>declarative</strong> (ce este)<span class='tooltip-box'><strong>Spus simplu:</strong> știi și poți spune ce este ceva.<br /><br /><strong>Formulare academică:</strong> cunoștințe despre fapte și evenimente, exprimate în enunțuri de tip „ce este ceva”, de obicei codate verbal sau imagistic și puse în evidență prin sarcini de reproducere sau recunoaștere; ele formează memoria explicită a subiectului uman.<br /><br /><strong>Exemplu:</strong> definiția unui concept, enumerarea unor caracteristici, recunoașterea unui fapt istoric.</span></span>",
+              "🛠️&nbsp;&nbsp;<span class='tip'><strong>procedurale</strong> (cum se face)<span class='tooltip-box'><strong>Spus simplu:</strong> știi cum să faci ceva, chiar dacă nu explici ușor în cuvinte.<br /><br /><strong>Formulare academică:</strong> cunoștințe despre moduri de acțiune, exprimate în enunțuri de tip „cum să faci ceva”; includ algoritmi de rezolvare a problemelor și utilizarea instrumentelor sau dispozitivelor și formează memoria implicită (non declarativă sau procedurală).<br /><br /><strong>Exemplu:</strong> rezolvarea unei ecuații, redactarea unui eseu, folosirea unui instrument tehnic.</span></span>",
+              "🧭&nbsp;&nbsp;<span class='tip'><strong>condiționale</strong> (când / de ce)<span class='tooltip-box'><strong>Spus simplu:</strong> știi când și de ce să folosești ceea ce știi.<br /><br /><strong>Formulare academică:</strong> cunoștințe care se referă la condițiile acțiunii, răspunzând la întrebările „când?” și „de (pentru) ce?”; ele sunt responsabile pentru transferul învățării și pentru integrarea optimă a cunoștințelor explicite și implicite în contexte formale, nonformale și informale.<br /><br /><strong>Exemplu:</strong> alegerea strategiei potrivite de rezolvare în funcție de tipul problemei.</span></span>",
             ]
-          )}</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+          )}
+</div><div class='flash-block' style="${FLASH_BLOCK_STYLE}">
   <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔍&nbsp;&nbsp;Mediere cognitivă</div>
   <div>
     Între stimul și răspuns nu există o legătură directă, ci intervin
@@ -7224,42 +7439,72 @@ window.FPED_FLASHCARDS = {
             "Definește rolul educației morale de a facilita trecerea de la moralitate impusă la moralitate asumată",
           back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">⚖️&nbsp;&nbsp;Rol esențial</div><div>Educația morală susține trecerea de la <strong>heteronomie</strong> (moralitate impusă) la <strong>autonomie</strong> (moralitate asumată).</div></div><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Precondiții morale</div>${flashPillList(
             [
-              "🧍🏻‍♂️&nbsp;&nbsp;identitate și conștiință de sine",
-              "🫶&nbsp;&nbsp;acceptare de sine",
-              "👣&nbsp;&nbsp;modele morale",
-              "⚖️&nbsp;&nbsp;conștiință morală matură",
-              "🏆&nbsp;&nbsp;valorizarea conduitei și a succesului",
+              "🧍🏻‍♂️&nbsp;&nbsp;<span class='tip'><strong>identitate și conștiință de sine</strong><span class='tooltip-box'><strong>Spus simplu:</strong> să știi cine ești și cum te vezi pe tine.<br /><br /><strong>Formulare academică:</strong> sentimentul identității proprii și al conștiinței de sine constituie baza autoreferențială a moralității, exprimată prin întrebarea „Cine sunt eu?”.<br /><br /><strong>Exemplu:</strong> elevul își recunoaște valorile și limitele personale.</span></span>",
+              "🫶&nbsp;&nbsp;<span class='tip'><strong>acceptare de sine</strong><span class='tooltip-box'><strong>Spus simplu:</strong> să îți accepți dorințele și ceea ce contează pentru tine.<br /><br /><strong>Formulare academică:</strong> acceptarea de sine presupune clarificarea preferințelor și aspirațiilor autentice, formulate prin întrebarea „Ce îmi place sau doresc cu adevărat?”.<br /><br /><strong>Exemplu:</strong> elevul își asumă alegerile fără a se raporta exclusiv la presiunea grupului.</span></span>",
+              "👣&nbsp;&nbsp;<span class='tip'><strong>modele morale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> să ai repere despre cum ar trebui să te comporți.<br /><br /><strong>Formulare academică:</strong> conștiința necesității unor modele morale oferă criterii de orientare a conduitei, prin întrebări precum „Cum trebuie să mă comport?” și „După ce trebuie să mă ghidez?”.<br /><br /><strong>Exemplu:</strong> profesorul ca model de comportament echilibrat și responsabil.</span></span>",
+              "⚖️&nbsp;&nbsp;<span class='tip'><strong>conștiință morală matură</strong><span class='tooltip-box'><strong>Spus simplu:</strong> să poți decide ce este cel mai bine pentru tine și pentru ceilalți.<br /><br /><strong>Formulare academică:</strong> activarea conștiinței morale mature implică capacitatea de evaluare autonomă a acțiunilor, exprimată prin întrebarea „Care este cel mai bun lucru pentru mine?”.<br /><br /><strong>Exemplu:</strong> alegerea unei conduite corecte chiar în absența controlului extern.</span></span>",
+              "🏆&nbsp;&nbsp;<span class='tip'><strong>valorizarea conduitei și a succesului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> să reflectezi asupra modului în care ai acționat.<br /><br /><strong>Formulare academică:</strong> valorizarea conduitei și a succesului presupune evaluarea morală a propriilor acțiuni, formulată prin întrebarea „Cum am acționat?”.<br /><br /><strong>Exemplu:</strong> analiza unei decizii morale după finalizarea unei activități.</span></span>",
             ]
-          )}</div></div>`,
+          )}
+</div></div>`,
         },
         {
           front:
-            "Menționează rolul educației estetice și fă o paralelă cu educația artistică",
+            "Descrie rolul educației estetice și fă o paralelă cu educația artistică",
           back: `<div class='flash-back'>
+
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎨&nbsp;&nbsp;Educația estetică</div>
-    <div>
-      Formează <strong>sensibilitatea</strong>, gustul pentru frumos și
-      <strong>capacitatea de valorizare estetică</strong> a realității
-      în artă, natură și viața socială.
-    </div>
+    ${flashPillList([
+      {
+        text: "🌍&nbsp;&nbsp;<span class='tip'><strong>Vizează: sensibilitatea față de frumos</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te învață să recunoști, să apreciezi și să valorizezi frumosul din jur.<br><br><strong>Formulare academică:</strong> educația estetică urmărește formarea receptivității și a capacității de valorizare estetică a realității.<br><br><strong>Exemplu:</strong> sesizezi armonia unui spațiu, a unei conduite sau a unui peisaj.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌱&nbsp;&nbsp;<span class='tip'><strong>Sferă largă: natură, societate, artă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> frumosul nu apare doar în artă, ci și în viața cotidiană.<br><br><strong>Formulare academică:</strong> educația estetică include frumosul natural, social și artistic.<br><br><strong>Exemplu:</strong> aprecierea modului civilizat de comportament sau a designului unui obiect util.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "✨&nbsp;&nbsp;<span class='tip'><strong>Rezultat: receptivitate și creativitate estetică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți formezi gustul estetic și criterii de apreciere.<br><br><strong>Formulare academică:</strong> educația estetică conduce la dezvoltarea gustului estetic, a sensibilității și a creativității estetice.<br><br><strong>Exemplu:</strong> poți argumenta de ce ceva este armonios sau inadecvat estetic.</span></span>",
+        key: "teal",
+      },
+    ])}
   </div>
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎭&nbsp;&nbsp;Educația artistică</div>
-    <div>
-      Este o <strong>componentă a educației estetice</strong>, centrată pe
-      <strong>arte</strong> și pe activități de creație, interpretare și receptare artistică.
-    </div>
+    ${flashPillList([
+      {
+        text: "🎨&nbsp;&nbsp;<span class='tip'><strong>Vizează: capacități creative în arte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te învață să lucrezi cu arta, nu doar să o apreciezi.<br><br><strong>Formulare academică:</strong> educația artistică urmărește dezvoltarea și cultivarea capacităților creative specifice unei arte.<br><br><strong>Exemplu:</strong> a cânta, a picta, a interpreta un rol.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🖌️&nbsp;&nbsp;<span class='tip'><strong>Sferă restrânsă: opera de artă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se ocupă exclusiv de frumosul artistic.<br><br><strong>Formulare academică:</strong> educația artistică are ca obiect opera de artă și limbajele artistice.<br><br><strong>Exemplu:</strong> analiza unui tablou, a unei piese muzicale sau a unui text dramatic.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "🖼️&nbsp;&nbsp;<span class='tip'><strong>Specific: metodă și disciplină artistică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> presupune reguli, tehnici și exercițiu sistematic.<br><br><strong>Formulare academică:</strong> educația artistică se realizează prin activități metodice, specifice fiecărei arte.<br><br><strong>Exemplu:</strong> studiu tehnic la pian sau reguli de compoziție plastică.</span></span>",
+        key: "amber",
+      },
+    ])}
   </div>
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔗&nbsp;&nbsp;Relația dintre ele</div>
-    <div>
-      Educația estetică reprezintă <strong>cadrul larg</strong> al formării sensibilității față de frumos,
-      iar educația artistică este <strong>o formă specializată</strong> de realizare a acesteia prin arte.
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">
+      🔗&nbsp;&nbsp;Relația dintre ele
     </div>
+    ${flashPillList([
+      {
+        text: "📐&nbsp;&nbsp;<span class='tip'><strong>Educația estetică = cadru general</strong><span class='tooltip-box'><strong>Spus simplu:</strong> formează sensibilitatea față de frumos, oriunde apare el.<br><br><strong>Formulare academică:</strong> educația estetică reprezintă cadrul larg al formării estetice a personalității.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🎭&nbsp;&nbsp;<span class='tip'><strong>Educația artistică = formă specializată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este modul prin care educația estetică se realizează sistematic prin arte.<br><br><strong>Formulare academică:</strong> educația artistică este o componentă a educației estetice, centrată pe artă.</span></span>",
+        key: "coral",
+      },
+    ])}
   </div>
+
 </div>
 `,
         },
@@ -7353,25 +7598,28 @@ window.FPED_FLASHCARDS = {
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">🌸&nbsp;&nbsp;Importanță</div>
     <div>
-      Sexualitatea este o <strong>dimensiune constitutivă a personalității</strong>, iar educația sexuală urmărește formarea unui raport echilibrat, responsabil și demn față de sine și față de ceilalți, <strong>dincolo de simpla informare biologică</strong>.
+      Sexualitatea este o <strong>parte importantă a existenței umane</strong>, iar educația sexuală presupune
+      <strong>pregătire adecvată</strong> pentru a o întîmpina și gestiona corect.
+      Nu se reduce la informare anatomică, fiziologică și igienică, ci se leagă de <strong>valorile morale, civice și sociale</strong>.
     </div>
   </div>
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-    <div class='flash-title' style="${FLASH_TITLE_STYLE}">👥&nbsp;&nbsp;Factori responsabili</div>
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">👥&nbsp;&nbsp;Factori responsabili și condiții de realizare</div>
     ${flashPillList([
-      "👨‍👩‍👧&nbsp;&nbsp;<span class='tip'>familia<span class='tooltip-box'>Oferă primele repere normative, afective și comportamentale.</span></span>",
-      "🏫&nbsp;&nbsp;<span class='tip'>școala<span class='tooltip-box'>Asigură informare sistematică, coerentă și adaptată dezvoltării.</span></span>",
-      "📺&nbsp;&nbsp;<span class='tip'>mass-media / mediul informal<span class='tooltip-box'>Influențe difuze, adesea necontrolate, care pot modela atitudini și comportamente.</span></span>",
+      "👨‍👩‍👧&nbsp;&nbsp;<span class='tip'>familia<span class='tooltip-box'><strong>Rol:</strong> primele repere și conduite privind sexualitatea, prin competență și sinceritate.<br /><br /><strong>De evitat:</strong> autoritarismul și liberalismul exagerat; evitarea dialogului.</span></span>",
+      "🏫&nbsp;&nbsp;<span class='tip'>școala<span class='tooltip-box'><strong>Rol:</strong> inițiere sistematică în bazele fiziologice, psihologice și sociale.<br /><br /><strong>Plus:</strong> rol de îndrumător al părinților, pentru a evita intervenții duble sau incoerente.</span></span>",
+      "📺&nbsp;&nbsp;<span class='tip'>mass-media<span class='tooltip-box'><strong>Canale:</strong> televiziune, radio, internet.<br /><br /><strong>Risc:</strong> actualizare insuficientă sau distorsionată; e nevoie de formule educative adecvate și reprezentare sănătoasă.</span></span>",
+      "👥&nbsp;&nbsp;<span class='tip'>mediul informal<span class='tooltip-box'><strong>Exemple:</strong> clică, grup de prieteni, stradă.<br /><br /><strong>Risc:</strong> percepție falsă sau supradimensionată; necesită atenția cadrelor didactice și a părinților.</span></span>",
     ])}
   </div>
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Dimensiuni pedagogice</div>
     ${flashPillList([
-      "🧬&nbsp;&nbsp;<span class='tip'>biologică<span class='tooltip-box'>Cunoașterea corpului, a dezvoltării și a funcțiilor fiziologice.</span></span>",
-      "🧼&nbsp;&nbsp;<span class='tip'>igienică<span class='tooltip-box'>Formarea deprinderilor de igienă și prevenție.</span></span>",
-      "⚖️&nbsp;&nbsp;<span class='tip'>morală și socială<span class='tooltip-box'>Raportarea la valori, norme, responsabilitate și respect reciproc.</span></span>",
+      "🧬&nbsp;&nbsp;<span class='tip'>anatomică și fiziologică<span class='tooltip-box'><strong>Ce include:</strong> corpul și funcționarea lui, dezvoltarea specifică vîrstelor.<br /><br /><strong>Exemplu:</strong> schimbările pubertății explicate clar și realist.</span></span>",
+      "🧼&nbsp;&nbsp;<span class='tip'>igienică<span class='tooltip-box'><strong>Ce include:</strong> igienă, prevenție, reguli de protecție și sănătate.<br /><br /><strong>Exemplu:</strong> deprinderi de igienă și prevenirea riscurilor.</span></span>",
+      "⚖️&nbsp;&nbsp;<span class='tip'>morală, civică și socială<span class='tooltip-box'><strong>Ce include:</strong> raportarea la valori și norme, responsabilitate, respect, decență, demnitate.<br /><br /><strong>Exemplu:</strong> discuții despre consimțămînt și responsabilitate în relații.</span></span>",
     ])}
   </div>
 

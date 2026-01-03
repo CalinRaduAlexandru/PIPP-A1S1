@@ -6546,3 +6546,5751 @@ window.PHED_FLASHCARDS = {
     },
   ],
 };
+
+window.PHED_LESSONS = {
+  "phed-u2-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Piaget):</strong>
+      copilul își construiește cunoașterea prin <span class='tip'>scheme<span class='tooltip-box'><strong>Spus simplu:</strong> „rame” mentale în care pui experiențele ca să înțelegi lumea.<br /><br /><strong>Formulare academică:</strong> schemele sunt structuri mentale relativ stabile care organizează și interpretează informațiile.<br /><br /><strong>Exemplu:</strong> dacă a văzut un câine, copilul încearcă să numească „câine” orice animal cu patru picioare.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Ce sunt schemele</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Definiție</h3>
+        <p><strong>Structuri mentale de organizare.</strong></p>
+        <hr />
+        <p><span class='tip'>Copilul le folosește ca să interpreteze experiențe noi<span class='tooltip-box'><strong>Spus simplu:</strong> când apare ceva nou, îl compară cu ce știe deja.<br /><br /><strong>Formulare academică:</strong> schemele permit integrarea informației prin raportare la experiențe anterioare.<br /><br /><strong>Exemplu:</strong> vede o pisică și o confundă inițial cu un câine.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Rol practic</h3>
+        <p><strong>Fac lumea „inteligibilă”.</strong></p>
+        <hr />
+        <p><span class='tip'>Leagă experiențele între ele<span class='tooltip-box'><strong>Spus simplu:</strong> copilul nu păstrează lucruri izolate, ci le conectează.<br /><br /><strong>Formulare academică:</strong> schemele sunt unități de organizare care dau coerență cunoașterii.<br /><br /><strong>Exemplu:</strong> conectează „animal”, „domestic”, „câine”.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔄&nbsp;&nbsp;Asimilare și acomodare</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Asimilare</h3>
+        <p><strong>Integrezi noul în ce știi deja.</strong></p>
+        <hr />
+        <p><span class='tip'>Schema rămâne aceeași<span class='tooltip-box'><strong>Spus simplu:</strong> „bag” informația în sertarul deja existent.<br /><br /><strong>Formulare academică:</strong> informația nouă este integrată în schemele existente fără schimbarea lor structurală.<br /><br /><strong>Exemplu:</strong> numește „câine” orice animal cu patru picioare.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Acomodare</h3>
+        <p><strong>Schimbi schema ca să încapă noul.</strong></p>
+        <hr />
+        <p><span class='tip'>Schema se modifică<span class='tooltip-box'><strong>Spus simplu:</strong> când nu se potrivește, „refaci sertarul”.<br /><br /><strong>Formulare academică:</strong> schemele existente se modifică pentru a se adapta informației noi.<br /><br /><strong>Exemplu:</strong> înțelege că pisica nu este câine și creează o schemă separată.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧭&nbsp;&nbsp;Organizare și adaptare</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Organizare</h3>
+        <p><strong>Leagă informațiile într-un sistem coerent.</strong></p>
+        <hr />
+        <p><span class='tip'>Cunoașterea devine structurată<span class='tooltip-box'><strong>Spus simplu:</strong> copilul pune împreună ce știe, nu lasă informațiile „în aer”.<br /><br /><strong>Formulare academică:</strong> organizarea presupune ordonarea și relaționarea schemelor într-un sistem unitar.<br /><br /><strong>Exemplu:</strong> leagă „animal” cu „domestic” și „sălbatic”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Adaptare</h3>
+        <p><strong>Echilibrarea dintre asimilare și acomodare.</strong></p>
+        <hr />
+        <p><span class='tip'>Menține echilibrul cu mediul<span class='tooltip-box'><strong>Spus simplu:</strong> copilul ajustează ce știe ca să se potrivească realității.<br /><br /><strong>Formulare academică:</strong> adaptarea este echilibrarea continuă dintre asimilare și acomodare în raport cu mediul.<br /><br /><strong>Exemplu:</strong> își schimbă așteptările după ce descoperă reguli noi.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q2": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Piaget):</strong>
+      dezvoltarea cognitivă trece prin <span class='tip'>stadii calitativ diferite<span class='tooltip-box'><strong>Spus simplu:</strong> copilul nu „adună” doar informații, ci își schimbă modul de gândire în etape distincte.<br /><br /><strong>Formulare academică:</strong> stadiile se succed într-o ordine relativ invariantă, fiecare reorganizând gândirea.<br /><br /><strong>Exemplu:</strong> copilul trece de la gândire legată de acțiune la gândire abstractă.</span></span>.
+    </div>
+    <hr />
+
+    <h2>📚&nbsp;&nbsp;Succesiunea stadiilor</h2>
+    <div class="lesson-flow">
+      <span class="lesson-pill">Senzoriomotor</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Preoperator</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Operații concrete</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Operații formale</span>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Stadiile dezvoltării cognitive</h2>
+    <div class="lesson-grid four colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">👶</div>
+        <h3>Senzoriomotor (0–2 ani)</h3>
+        <p><strong>Cunoaștere prin simțuri și acțiune.</strong></p>
+        <hr />
+        <p><span class='tip'>Inteligență preverbală, nonsimbolică<span class='tooltip-box'><strong>Spus simplu:</strong> copilul înțelege lumea prin ceea ce vede, aude și face.<br /><br /><strong>Formulare academică:</strong> activitatea cognitivă este legată de acțiuni senzorio-motorii directe.<br /><br /><strong>Exemplu:</strong> explorează prin apucare și mișcare.</span></span></p>
+        <p><span class='tip'>Permanența obiectului (~8 luni)<span class='tooltip-box'><strong>Spus simplu:</strong> obiectele există și când nu le vezi.<br /><br /><strong>Formulare academică:</strong> copilul formează reprezentări mentale ale obiectelor absente.<br /><br /><strong>Exemplu:</strong> caută jucăria ascunsă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧸</div>
+        <h3>Preoperator (2–7 ani)</h3>
+        <p><strong>Gândire simbolică, cu limite cognitive.</strong></p>
+        <hr />
+        <p><span class='tip'>Egocentrism cognitiv<span class='tooltip-box'><strong>Spus simplu:</strong> îi este greu să vadă perspectiva altuia.<br /><br /><strong>Formulare academică:</strong> copilul raportează realitatea preponderent la propriul punct de vedere.<br /><br /><strong>Exemplu:</strong> crede că toți văd același lucru ca el.</span></span></p>
+        <p><span class='tip'>Animism<span class='tooltip-box'><strong>Spus simplu:</strong> atribuie viață și intenții obiectelor.<br /><br /><strong>Formulare academică:</strong> copilul personifică obiecte neînsuflețite.<br /><br /><strong>Exemplu:</strong> „soarele este supărat”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧱</div>
+        <h3>Operații concrete (7–12 ani)</h3>
+        <p><strong>Logică pe situații concrete.</strong></p>
+        <hr />
+        <p><span class='tip'>Conservare<span class='tooltip-box'><strong>Spus simplu:</strong> cantitatea rămâne aceeași chiar dacă forma se schimbă.<br /><br /><strong>Formulare academică:</strong> copilul înțelege invarianța cantității în transformări perceptive.<br /><br /><strong>Exemplu:</strong> aceeași apă în pahare diferite.</span></span></p>
+        <p><span class='tip'>Reversibilitate<span class='tooltip-box'><strong>Spus simplu:</strong> poate întoarce mental o acțiune.<br /><br /><strong>Formulare academică:</strong> copilul poate opera mental în sens invers pentru a verifica o transformare.<br /><br /><strong>Exemplu:</strong> dacă aduni, poți și scădea.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧪</div>
+        <h3>Operații formale (12–16 ani)</h3>
+        <p><strong>Gândire abstractă și ipotetică.</strong></p>
+        <hr />
+        <p><span class='tip'>Raționament ipotetico-deductiv<span class='tooltip-box'><strong>Spus simplu:</strong> gândește în „dacă… atunci”.<br /><br /><strong>Formulare academică:</strong> adolescentul poate formula ipoteze și deduce consecințe logic.<br /><br /><strong>Exemplu:</strong> planifică experimente mentale înainte să acționeze.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q3": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      teoria lui Piaget aparține <span class='tip'>constructivismului cognitiv<span class='tooltip-box'><strong>Spus simplu:</strong> copilul își construiește activ cunoașterea, nu o primește „de-a gata”.<br /><br /><strong>Formulare academică:</strong> cunoașterea este construită prin interacțiunea dintre structurile cognitive și experiența cu mediul.<br /><br /><strong>Exemplu:</strong> copilul își modifică ideile după ce descoperă că realitatea nu se potrivește cu ce știa.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Caracteristici centrale</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🏗️</div>
+        <h3>Constructivistă</h3>
+        <p><strong>Cunoașterea se construiește activ.</strong></p>
+        <hr />
+        <p><span class='tip'>Copilul este agent activ<span class='tooltip-box'><strong>Spus simplu:</strong> nu doar „primește” informații, ci le organizează prin acțiune.<br /><br /><strong>Formulare academică:</strong> subiectul construiește cunoașterea prin activitate cognitivă proprie.<br /><br /><strong>Exemplu:</strong> învață regulile jocului jucând, nu doar ascultând.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧱</div>
+        <h3>Stadială</h3>
+        <p><strong>Etape calitativ diferite.</strong></p>
+        <hr />
+        <p><span class='tip'>Ordine relativ invariantă<span class='tooltip-box'><strong>Spus simplu:</strong> stadiile apar într-o succesiune stabilă.<br /><br /><strong>Formulare academică:</strong> fiecare stadiu reorganizează gândirea și se construiește pe baza celui anterior.<br /><br /><strong>Exemplu:</strong> gândirea abstractă apare după etapa logicii concrete.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔁</div>
+        <h3>Interactivă</h3>
+        <p><strong>Relație constantă cu mediul.</strong></p>
+        <hr />
+        <p><span class='tip'>Adaptare prin asimilare și acomodare<span class='tooltip-box'><strong>Spus simplu:</strong> copilul își ajustează ideile când realitatea nu se potrivește.<br /><br /><strong>Formulare academică:</strong> dezvoltarea cognitivă rezultă din echilibrul dintre asimilare și acomodare.<br /><br /><strong>Exemplu:</strong> schimbă schema despre „câine” după ce întâlnește un cal.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>⚠️&nbsp;&nbsp;Limite discutate frecvent</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Subestimarea competențelor</h3>
+        <p><strong>Copiii pot ști mai mult decât pare.</strong></p>
+        <hr />
+        <p><span class='tip'>Performanța depinde de sarcină<span class='tooltip-box'><strong>Spus simplu:</strong> dacă exercițiul e formulat altfel, copilul poate reuși mai devreme.<br /><br /><strong>Formulare academică:</strong> concluziile pot varia în funcție de contextul și forma sarcinii.<br /><br /><strong>Exemplu:</strong> copilul rezolvă mai bine când i se oferă sprijin vizual.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Rigiditatea stadiilor</h3>
+        <p><strong>Vârstele sunt orientative.</strong></p>
+        <hr />
+        <p><span class='tip'>Ritmuri diferite între copii<span class='tooltip-box'><strong>Spus simplu:</strong> nu toți ajung în același timp la aceleași achiziții.<br /><br /><strong>Formulare academică:</strong> vârstele asociate stadiilor sunt aproximative și variabile.<br /><br /><strong>Exemplu:</strong> unii copii ajung la gândirea abstractă mai devreme.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Limitare culturală</h3>
+        <p><strong>Generalizări incomplete.</strong></p>
+        <hr />
+        <p><span class='tip'>Eșantion cultural restrâns<span class='tooltip-box'><strong>Spus simplu:</strong> studiile lui Piaget au fost realizate pe un context cultural limitat.<br /><br /><strong>Formulare academică:</strong> criticile vizează faptul că generalizările provin dintr-un eșantion cultural restrâns, ceea ce poate limita aplicabilitatea universală a stadiilor.<br /><br /><strong>Exemplu:</strong> modul de gândire poate fi influențat de practici educaționale diferite.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q4": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Vîgotski):</strong>
+      dezvoltarea cognitivă este modelată de <span class='tip'>contextul sociocultural<span class='tooltip-box'><strong>Spus simplu:</strong> copilul învață prin oameni, limbaj și cultură, nu singur.<br /><br /><strong>Formulare academică:</strong> dezvoltarea este mediată social prin interacțiuni, instrumente simbolice și norme culturale.<br /><br /><strong>Exemplu:</strong> copilul rezolvă o problemă mai bine când un adult îl ghidează verbal.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Relația învățare–dezvoltare</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Învățarea conduce dezvoltarea</h3>
+        <p><strong>Învățarea precede și stimulează dezvoltarea.</strong></p>
+        <hr />
+        <p><span class='tip'>Nu aștepți „maturizarea” ca să înveți<span class='tooltip-box'><strong>Spus simplu:</strong> copilul crește cognitiv atunci când învață cu sprijin.<br /><br /><strong>Formulare academică:</strong> învățarea ghidată activează potențialul de dezvoltare al copilului.<br /><br /><strong>Exemplu:</strong> după ce rezolvă ghidat un exercițiu, îl rezolvă singur.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Rolul mediului social</h3>
+        <p><strong>Interacțiunea este motorul progresului.</strong></p>
+        <hr />
+        <p><span class='tip'>Cultura oferă instrumente cognitive<span class='tooltip-box'><strong>Spus simplu:</strong> limbajul, regulile și exemplele îi arată copilului cum să gândească.<br /><br /><strong>Formulare academică:</strong> instrumentele culturale mediază gândirea și învățarea.<br /><br /><strong>Exemplu:</strong> folosirea limbajului pentru a planifica pașii unei sarcini.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧱&nbsp;&nbsp;Zona proximei dezvoltări și eșafodaj</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">📏</div>
+        <h3>Zona proximei dezvoltări</h3>
+        <p><strong>Distanța dintre „singur” și „cu ajutor”.</strong></p>
+        <hr />
+        <p><span class='tip'>Ce poate face cu sprijin competent<span class='tooltip-box'><strong>Spus simplu:</strong> acolo se află potențialul de creștere.<br /><br /><strong>Formulare academică:</strong> ZPD este distanța dintre nivelul actual și nivelul potențial de dezvoltare.<br /><br /><strong>Exemplu:</strong> rezolvă o problemă cu ghidaj, apoi reușește singur.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🤝</div>
+        <h3>Eșafodaj</h3>
+        <p><strong>Sprijin temporar care se retrage treptat.</strong></p>
+        <hr />
+        <p><span class='tip'>Ajutor adaptat nivelului copilului<span class='tooltip-box'><strong>Spus simplu:</strong> îl ajuți cât are nevoie, apoi îl lași să facă singur.<br /><br /><strong>Formulare academică:</strong> suportul este oferit în faze și retras pe măsură ce competența crește.<br /><br /><strong>Exemplu:</strong> profesorul dă indicii, apoi doar observă.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔤&nbsp;&nbsp;Limbajul și rolul adultului</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Limbajul</h3>
+        <p><strong>Instrument de gândire și autoreglare.</strong></p>
+        <hr />
+        <p><span class='tip'>De la limbaj exterior la limbaj interior<span class='tooltip-box'><strong>Spus simplu:</strong> copilul începe să-și vorbească „în minte”.<br /><br /><strong>Formulare academică:</strong> limbajul se internalizează și devine instrument de control cognitiv.<br /><br /><strong>Exemplu:</strong> își spune pașii în gând când rezolvă o sarcină.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Adultul/ covârstnicul competent</h3>
+        <p><strong>Mediator al învățării.</strong></p>
+        <hr />
+        <p><span class='tip'>Ghidează prin întrebări și modelare<span class='tooltip-box'><strong>Spus simplu:</strong> arată „cum se face” și pune întrebări care duc la răspuns.<br /><br /><strong>Formulare academică:</strong> adultul facilitează progresul cognitiv prin mediere și sprijin dialogic.<br /><br /><strong>Exemplu:</strong> „De ce ai ales această soluție?”</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q5": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      Piaget explică dezvoltarea prin <span class='tip'>mecanisme cognitive interne<span class='tooltip-box'><strong>Spus simplu:</strong> copilul își organizează singur gândirea prin scheme, asimilare și acomodare.<br /><br /><strong>Formulare academică:</strong> dezvoltarea cognitivă este guvernată de restructurări interne ale cunoașterii.<br /><br /><strong>Exemplu:</strong> copilul își schimbă schema despre animale după experiențe noi.</span></span>, iar Vîgotski prin <span class='tip'>mediere socială<span class='tooltip-box'><strong>Spus simplu:</strong> gândirea se formează prin interacțiune cu oameni și limbaj.<br /><br /><strong>Formulare academică:</strong> dezvoltarea este modelată de context sociocultural, limbaj și sprijin ghidat.<br /><br /><strong>Exemplu:</strong> copilul rezolvă o sarcină cu ajutorul adultului.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Concepte centrale</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Piaget</h3>
+        <p><strong>Scheme, asimilare, acomodare.</strong></p>
+        <hr />
+        <p><span class='tip'>Construcție internă a cunoașterii<span class='tooltip-box'><strong>Spus simplu:</strong> copilul „clădește” gândirea din interior.<br /><br /><strong>Formulare academică:</strong> mecanismele interne reorganizează structurile cognitive.<br /><br /><strong>Exemplu:</strong> ajustează schema despre „câine” după ce întâlnește un cal.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Vîgotski</h3>
+        <p><strong>Zona proximei dezvoltări (ZPD) și eșafodaj.</strong></p>
+        <hr />
+        <p><span class='tip'>Sprijin social pentru progres<span class='tooltip-box'><strong>Spus simplu:</strong> cu ajutor, copilul ajunge la niveluri mai înalte.<br /><br /><strong>Formulare academică:</strong> dezvoltarea este facilitată prin mediere și ghidaj.<br /><br /><strong>Exemplu:</strong> rezolvă ghidat o problemă, apoi o rezolvă singur.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>📍&nbsp;&nbsp;Egocentrism: interpretări diferite</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧩</div>
+        <h3>Piaget</h3>
+        <p><strong>Limită cognitivă.</strong></p>
+        <hr />
+        <p><span class='tip'>Dificultate de decentrări<span class='tooltip-box'><strong>Spus simplu:</strong> copilul nu vede ușor perspectiva altuia.<br /><br /><strong>Formulare academică:</strong> egocentrismul este incapacitatea de a adopta punctul de vedere al celuilalt.<br /><br /><strong>Exemplu:</strong> crede că toți văd exact ce vede el.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🗣️</div>
+        <h3>Vîgotski</h3>
+        <p><strong>Funcție de autoreglare.</strong></p>
+        <hr />
+        <p><span class='tip'>Limbaj egocentric util<span class='tooltip-box'><strong>Spus simplu:</strong> copilul își vorbește pentru a-și ghida acțiunea.<br /><br /><strong>Formulare academică:</strong> limbajul egocentric este o etapă funcțională spre limbajul interior.<br /><br /><strong>Exemplu:</strong> spune cu voce tare pașii unei sarcini.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🎯&nbsp;&nbsp;Implicații didactice</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Adaptare la nivel (Piaget)</h3>
+        <p><strong>Predarea se ajustează la stadiu.</strong></p>
+        <hr />
+        <p><span class='tip'>Respectarea nivelului actual<span class='tooltip-box'><strong>Spus simplu:</strong> nu ceri mai mult decât poate înțelege singur.<br /><br /><strong>Formulare academică:</strong> activitățile sunt aliniate nivelului de dezvoltare cognitivă.<br /><br /><strong>Exemplu:</strong> probleme concrete înainte de abstractizări.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Sprijin ghidat (Vîgotski)</h3>
+        <p><strong>Profesorul facilitează progresul.</strong></p>
+        <hr />
+        <p><span class='tip'>Ghidaj treptat<span class='tooltip-box'><strong>Spus simplu:</strong> ajuți până când elevul poate singur.<br /><br /><strong>Formulare academică:</strong> sprijinul se retrage progresiv pe măsură ce competența crește.<br /><br /><strong>Exemplu:</strong> oferă indicii, apoi doar observă.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q6": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      limbajul este un <span class='tip'>sistem de simboluri și reguli<span class='tooltip-box'><strong>Spus simplu:</strong> folosești semne (cuvinte) și reguli ca să construiești mesaje.<br /><br /><strong>Formulare academică:</strong> limbajul este un sistem convențional de simboluri cu reguli de combinare specifice culturii.<br /><br /><strong>Exemplu:</strong> ordinea cuvintelor schimbă sensul propoziției.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Seturi de convenții</h2>
+    <div class="lesson-grid five colorful">
+      <div class="lesson-card">
+        <h3>Fonologie</h3>
+        <p><strong>Sistemul de sunete.</strong></p>
+        <hr />
+        <p><span class='tip'>Fonemul este unitatea de bază<span class='tooltip-box'><strong>Spus simplu:</strong> sunetele care fac diferența între cuvinte.<br /><br /><strong>Formulare academică:</strong> fonologia descrie organizarea sunetelor distinctive ale limbii.<br /><br /><strong>Exemplu:</strong> „p” vs. „b” în „par”/„bar”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Morfologie</h3>
+        <p><strong>Forma cuvintelor.</strong></p>
+        <hr />
+        <p><span class='tip'>Morfemele construiesc sens<span class='tooltip-box'><strong>Spus simplu:</strong> părți mici de cuvânt schimbă sensul.<br /><br /><strong>Formulare academică:</strong> morfologia studiază structura internă a cuvintelor.<br /><br /><strong>Exemplu:</strong> „copil” → „copilărie”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Sintaxă</h3>
+        <p><strong>Reguli de combinare.</strong></p>
+        <hr />
+        <p><span class='tip'>Ordinea cuvintelor contează<span class='tooltip-box'><strong>Spus simplu:</strong> schimbarea ordinii poate schimba sensul.<br /><br /><strong>Formulare academică:</strong> sintaxa stabilește regulile de organizare în propoziții.<br /><br /><strong>Exemplu:</strong> „Elevul ajută profesorul” vs. invers.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Semantică</h3>
+        <p><strong>Înțelesuri și sensuri.</strong></p>
+        <hr />
+        <p><span class='tip'>Semnificația cuvintelor<span class='tooltip-box'><strong>Spus simplu:</strong> ce înseamnă un cuvânt sau o frază.<br /><br /><strong>Formulare academică:</strong> semantica studiază sensurile și relațiile dintre ele.<br /><br /><strong>Exemplu:</strong> „copil” și „elev” nu sunt identice.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Pragmatică</h3>
+        <p><strong>Potrivirea cu contextul.</strong></p>
+        <hr />
+        <p><span class='tip'>Când și cum folosești limbajul<span class='tooltip-box'><strong>Spus simplu:</strong> spui lucrul potrivit, în momentul potrivit.<br /><br /><strong>Formulare academică:</strong> pragmatica urmărește adecvarea mesajului la situație.<br /><br /><strong>Exemplu:</strong> altfel vorbești cu prietenii decât la un examen.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>💬&nbsp;&nbsp;Factori de bază ai dezvoltării limbajului</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Substrat biologic</h3>
+        <p><strong>Disponibilitate generală pentru limbaj.</strong></p>
+        <hr />
+        <p><span class='tip'>Bază necesară, nu suficientă<span class='tooltip-box'><strong>Spus simplu:</strong> ai nevoie de „echipamentul” biologic, dar și de stimulare.<br /><br /><strong>Formulare academică:</strong> substratul biologic oferă potențialul de însușire a limbajului.<br /><br /><strong>Exemplu:</strong> copilul poate învăța orice limbă dacă este expus.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Integritate senzorială</h3>
+        <p><strong>Recepția sunetelor și a vorbirii.</strong></p>
+        <hr />
+        <p><span class='tip'>Auzul și văzul susțin achiziția<span class='tooltip-box'><strong>Spus simplu:</strong> trebuie să auzi și să vezi corect pentru a învăța cuvinte.<br /><br /><strong>Formulare academică:</strong> integritatea senzorială permite recepția și diferențierea stimulilor verbali.<br /><br /><strong>Exemplu:</strong> dificultățile auditive pot întârzia limbajul.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u2-q7": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      achiziția limbajului urmează <span class='tip'>regularități universale<span class='tooltip-box'><strong>Spus simplu:</strong> copiii învață limbajul în moduri asemănătoare, chiar în culturi diferite.<br /><br /><strong>Formulare academică:</strong> dezvoltarea limbajului prezintă tipare comune de evoluție.<br /><br /><strong>Exemplu:</strong> apar întâi cuvinte frecvente, apoi construcții mai complexe.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Regularități în achiziția limbajului</h2>
+    <div class="lesson-grid four colorful">
+      <div class="lesson-card">
+        <h3>Frecvența cuvintelor</h3>
+        <p><strong>Se învață mai ușor cuvintele des auzite.</strong></p>
+        <hr />
+        <p><span class='tip'>Repetiția naturală contează<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce auzi des, reții mai repede.<br /><br /><strong>Formulare academică:</strong> frecvența utilizării favorizează memorarea lexicală.<br /><br /><strong>Exemplu:</strong> „mamă”, „apă”, „nu”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Contextul de învățare</h3>
+        <p><strong>Cuvintele se rețin mai bine cu sens.</strong></p>
+        <hr />
+        <p><span class='tip'>Contextul dă semnificație<span class='tooltip-box'><strong>Spus simplu:</strong> înveți mai bine când cuvântul e legat de o situație reală.<br /><br /><strong>Formulare academică:</strong> achiziția este facilitată de contexte semnificative.<br /><br /><strong>Exemplu:</strong> „minge” spus când copilul se joacă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Interacțiunea activă</h3>
+        <p><strong>Dialogul cu adultul accelerează limbajul.</strong></p>
+        <hr />
+        <p><span class='tip'>Întrebări și răspunsuri reale<span class='tooltip-box'><strong>Spus simplu:</strong> copilul învață mai mult când cineva îi răspunde și îl implică.<br /><br /><strong>Formulare academică:</strong> dialogul activ stimulează dezvoltarea comunicării și a vocabularului.<br /><br /><strong>Exemplu:</strong> adultul reformulează și completează.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Expunere pasivă</h3>
+        <p><strong>Mai puțin eficientă decât dialogul.</strong></p>
+        <hr />
+        <p><span class='tip'>Doar auzi, fără interacțiune<span class='tooltip-box'><strong>Spus simplu:</strong> dacă doar „asculți”, înveți mai greu.<br /><br /><strong>Formulare academică:</strong> expunerea pasivă are efecte limitate asupra dezvoltării limbajului.<br /><br /><strong>Exemplu:</strong> televiziunea nu înlocuiește conversația reală.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u3-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Bronfenbrenner):</strong>
+      dezvoltarea copilului este influențată de <span class='tip'>sisteme de mediu interconectate<span class='tooltip-box'><strong>Spus simplu:</strong> copilul trăiește simultan în mai multe „cercuri” sociale care se influențează între ele.<br /><br /><strong>Formulare academică:</strong> teoria ecologică explică dezvoltarea prin interacțiunea dintre individ și mediile sociale relaționale și instituționale.<br /><br /><strong>Exemplu:</strong> relația dintre familie și școală poate susține sau bloca progresul elevului.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Ordinea sistemelor</h2>
+    <div class="lesson-flow">
+      <span class="lesson-pill">Microsistem</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Mezosistem</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Exosistem</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Macrosistem</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Cronosistem</span>
+    </div>
+    <hr />
+
+    <h2>🌍&nbsp;&nbsp;Sisteme ecologice</h2>
+    <div class="lesson-grid five colorful">
+      <div class="lesson-card">
+        <h3>Microsistem</h3>
+        <p><strong>Contextul imediat.</strong></p>
+        <hr />
+        <p><span class='tip'>Interacțiuni față în față<span class='tooltip-box'><strong>Spus simplu:</strong> oamenii cu care copilul se vede zilnic.<br /><br /><strong>Formulare academică:</strong> include familia, școala, prietenii și relațiile directe.<br /><br /><strong>Exemplu:</strong> relația copil–părinte.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Mezosistem</h3>
+        <p><strong>Legăturile dintre microsisteme.</strong></p>
+        <hr />
+        <p><span class='tip'>Interacțiunea dintre contexte apropiate<span class='tooltip-box'><strong>Spus simplu:</strong> cum se înțeleg familia și școala.<br /><br /><strong>Formulare academică:</strong> reprezintă conexiunile între microsisteme.<br /><br /><strong>Exemplu:</strong> colaborarea părinți–profesori.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Exosistem</h3>
+        <p><strong>Influențe indirecte.</strong></p>
+        <hr />
+        <p><span class='tip'>Copilul nu participă direct<span class='tooltip-box'><strong>Spus simplu:</strong> evenimente care îl afectează prin adulți.<br /><br /><strong>Formulare academică:</strong> contexte în care copilul nu are rol direct, dar care îl influențează.<br /><br /><strong>Exemplu:</strong> programul de lucru al părintelui.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Macrosistem</h3>
+        <p><strong>Valori și norme culturale.</strong></p>
+        <hr />
+        <p><span class='tip'>Cadru social larg<span class='tooltip-box'><strong>Spus simplu:</strong> cultura și regulile generale ale societății.<br /><br /><strong>Formulare academică:</strong> include ideologii, valori, legi și condiții socioeconomice.<br /><br /><strong>Exemplu:</strong> așteptările culturale despre educație.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Cronosistem</h3>
+        <p><strong>Dimensiunea timpului.</strong></p>
+        <hr />
+        <p><span class='tip'>Schimbări de viață și istorice<span class='tooltip-box'><strong>Spus simplu:</strong> când și cum apar tranzițiile contează.<br /><br /><strong>Formulare academică:</strong> timpul modifică influențele celorlalte sisteme.<br /><br /><strong>Exemplu:</strong> mutarea într-o altă țară la vârste diferite are efecte diferite.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u3-q2": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Erikson):</strong>
+      dezvoltarea este o succesiune de <span class='tip'>crize psihosociale<span class='tooltip-box'><strong>Spus simplu:</strong> la fiecare etapă apare un conflict între două tendințe opuse.<br /><br /><strong>Formulare academică:</strong> rezolvarea pozitivă a crizelor conduce la virtuți psihosociale.<br /><br /><strong>Exemplu:</strong> încredere vs neîncredere în primul an de viață.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🗂️&nbsp;&nbsp;Stadii, vârste și virtuți</h2>
+    <table class="lesson-table">
+      <thead>
+        <tr>
+          <th>Etapă</th>
+          <th>Vârstă</th>
+          <th>Criză</th>
+          <th>Virtute</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Infantil</td>
+          <td>0–1</td>
+          <td>Încredere vs neîncredere</td>
+          <td>Speranța</td>
+        </tr>
+        <tr>
+          <td>Copilărie mică</td>
+          <td>1–3</td>
+          <td>Autonomie vs rușine/îndoială</td>
+          <td>Voința</td>
+        </tr>
+        <tr>
+          <td>Copilărie mijlocie</td>
+          <td>3–6</td>
+          <td>Inițiativă vs vinovăție</td>
+          <td>Scopul</td>
+        </tr>
+        <tr>
+          <td>Copilărie mare</td>
+          <td>6–12</td>
+          <td>Hărnicie vs inferioritate</td>
+          <td>Competența</td>
+        </tr>
+        <tr>
+          <td>Adolescență</td>
+          <td>12–18</td>
+          <td>Identitate vs confuzie de rol</td>
+          <td>Unitatea (fidelitatea)</td>
+        </tr>
+        <tr>
+          <td>Adult tânăr</td>
+          <td>18–35</td>
+          <td>Intimitate vs izolare</td>
+          <td>Mutualitatea</td>
+        </tr>
+        <tr>
+          <td>Adult mijlociu</td>
+          <td>35–55</td>
+          <td>Generativitate vs stagnare</td>
+          <td>Grija</td>
+        </tr>
+        <tr>
+          <td>Maturitate</td>
+          <td>55+</td>
+          <td>Integritate vs deznădejde</td>
+          <td>Înțelepciunea</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h2>✅&nbsp;&nbsp;Ce înseamnă „rezolvare pozitivă”</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Virtuți psihosociale</h3>
+        <p><strong>Rezultate ale crizelor rezolvate.</strong></p>
+        <hr />
+        <p><span class='tip'>Speranță, voință, competență<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare etapă adaugă o resursă psihică utilă.<br /><br /><strong>Formulare academică:</strong> rezolvarea pozitivă produce calități stabile ale eului.<br /><br /><strong>Exemplu:</strong> copilul învață să aibă încredere în ceilalți.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Conflicte rămase</h3>
+        <p><strong>Nu dispar, dar pot fi gestionate.</strong></p>
+        <hr />
+        <p><span class='tip'>Crizele revin sub alte forme<span class='tooltip-box'><strong>Spus simplu:</strong> problemele nerezolvate pot apărea din nou.<br /><br /><strong>Formulare academică:</strong> conflictele rămân componente ale dezvoltării pe parcursul vieții.<br /><br /><strong>Exemplu:</strong> lipsa încrederii afectează relațiile ulterioare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u3-q3": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Piaget):</strong>
+      judecata morală se dezvoltă de la <span class='tip'>reguli impuse<span class='tooltip-box'><strong>Spus simplu:</strong> copilul respectă regulile pentru că „așa i s-a spus”.<br /><br /><strong>Formulare academică:</strong> moralitatea trece de la heteronomie la autonomie pe măsură ce gândirea se maturizează.<br /><br /><strong>Exemplu:</strong> la început contează pedeapsa, apoi intenția.</span></span> la reguli negociate.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Stadii ale judecății morale</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Premoral (2–6 ani)</h3>
+        <p><strong>Absența regulilor stabile.</strong></p>
+        <hr />
+        <p><span class='tip'>Regulile sunt percepute ca rutine de joc<span class='tooltip-box'><strong>Spus simplu:</strong> copilul joacă „după cum îi vine”.<br /><br /><strong>Formulare academică:</strong> nu există reguli morale interiorizate, doar obiceiuri de joc.<br /><br /><strong>Exemplu:</strong> schimbă regulile când pierde.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Heteronomie (6–10 ani)</h3>
+        <p><strong>Reguli impuse de autoritate.</strong></p>
+        <hr />
+        <p><span class='tip'>Justiție imanentă<span class='tooltip-box'><strong>Spus simplu:</strong> copilul crede că pedeapsa vine automat după greșeală.<br /><br /><strong>Formulare academică:</strong> moralitatea este rigidă, axată pe consecințe și autoritate.<br /><br /><strong>Exemplu:</strong> consideră mai gravă o faptă cu pagubă mare, indiferent de intenție.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Autonomie (10–12+)</h3>
+        <p><strong>Reguli negociabile și intenții.</strong></p>
+        <hr />
+        <p><span class='tip'>Contează intenția, nu doar efectul<span class='tooltip-box'><strong>Spus simplu:</strong> nu doar „ce s-a întâmplat”, ci „de ce”.<br /><br /><strong>Formulare academică:</strong> judecata morală devine relativă la context și intenție.<br /><br /><strong>Exemplu:</strong> accidentele nu sunt la fel de grave ca acțiunile intenționate.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u3-q4": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Kohlberg):</strong>
+      raționamentul moral se dezvoltă în <span class='tip'>3 niveluri și 6 stadii<span class='tooltip-box'><strong>Spus simplu:</strong> oamenii justifică deciziile morale diferit pe măsură ce cresc.<br /><br /><strong>Formulare academică:</strong> dezvoltarea morală urmează o ierarhie a raționamentului, de la control extern la principii interne.<br /><br /><strong>Exemplu:</strong> aceeași decizie poate avea justificări diferite.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Nivelurile raționamentului moral</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Preconvențional (4–9 ani)</h3>
+        <p><strong>Orientare externă.</strong></p>
+        <hr />
+        <p><span class='tip'>Stadiile 1–2<span class='tooltip-box'><strong>Spus simplu:</strong> contează pedeapsa sau interesul personal.<br /><br /><strong>Formulare academică:</strong> moralitatea este definită de consecințe și beneficii directe.<br /><br /><strong>Exemplu:</strong> „e bine dacă nu sunt pedepsit”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Convențional (9–14 ani)</h3>
+        <p><strong>Conformare la norme.</strong></p>
+        <hr />
+        <p><span class='tip'>Stadiile 3–4<span class='tooltip-box'><strong>Spus simplu:</strong> faci ce e acceptat și respecți ordinea socială.<br /><br /><strong>Formulare academică:</strong> moralitatea este legată de aprobarea socială și respectul față de reguli.<br /><br /><strong>Exemplu:</strong> „fac asta pentru că așa e corect”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Postconvențional (13+)</h3>
+        <p><strong>Principii interne.</strong></p>
+        <hr />
+        <p><span class='tip'>Stadiile 5–6<span class='tooltip-box'><strong>Spus simplu:</strong> contează drepturile și principiile etice.<br /><br /><strong>Formulare academică:</strong> moralitatea este ghidată de principii universalizabile și conștiință.<br /><br /><strong>Exemplu:</strong> poți contesta o lege nedreaptă.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔗&nbsp;&nbsp;Piaget vs. Kohlberg</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Piaget</h3>
+        <p><strong>Judecata morală.</strong></p>
+        <hr />
+        <p><span class='tip'>De la reguli impuse la reguli negociate<span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă modul de înțelegere a regulilor.<br /><br /><strong>Formulare academică:</strong> judecata morală evoluează odată cu dezvoltarea cognitivă.<br /><br /><strong>Exemplu:</strong> intențiile devin mai importante decât consecințele.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Kohlberg</h3>
+        <p><strong>Raționamentul moral.</strong></p>
+        <hr />
+        <p><span class='tip'>Justificarea deciziilor morale<span class='tooltip-box'><strong>Spus simplu:</strong> contează „de ce” alegi ceva ca fiind corect.<br /><br /><strong>Formulare academică:</strong> modelul se bazează pe tipul de argumentare morală.<br /><br /><strong>Exemplu:</strong> două persoane pot alege la fel, dar din motive diferite.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u3-q5": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Gilligan):</strong>
+      moralitatea include și <span class='tip'>etica grijii<span class='tooltip-box'><strong>Spus simplu:</strong> contează relațiile, responsabilitatea și evitarea răului.<br /><br /><strong>Formulare academică:</strong> Gilligan critică supraaccentul pe justiție și introduce perspectiva grijii și a relațiilor.<br /><br /><strong>Exemplu:</strong> o decizie morală poate fi ghidată de protejarea cuiva vulnerabil.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Niveluri ale eticii grijii</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Preconvențional</h3>
+        <p><strong>Supraviețuire individuală.</strong></p>
+        <hr />
+        <p><span class='tip'>Interes personal<span class='tooltip-box'><strong>Spus simplu:</strong> decizia e centrată pe propria siguranță.<br /><br /><strong>Formulare academică:</strong> moralitatea este ghidată de nevoi personale și protecție de sine.<br /><br /><strong>Exemplu:</strong> aleg o acțiune pentru a evita pierderea.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Convențional</h3>
+        <p><strong>Sacrificiul de sine.</strong></p>
+        <hr />
+        <p><span class='tip'>Grija față de ceilalți<span class='tooltip-box'><strong>Spus simplu:</strong> „a fi bun” înseamnă să pui pe alții înaintea ta.<br /><br /><strong>Formulare academică:</strong> moralitatea este asociată cu abnegația și altruismul.<br /><br /><strong>Exemplu:</strong> renunți la ceva important pentru a nu răni pe cineva.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Postconvențional</h3>
+        <p><strong>Nonviolență și echilibru.</strong></p>
+        <hr />
+        <p><span class='tip'>Responsabilitate reciprocă<span class='tooltip-box'><strong>Spus simplu:</strong> cauți binele tuturor, inclusiv al tău.<br /><br /><strong>Formulare academică:</strong> moralitatea urmărește armonia dintre sine și ceilalți, evitând răul pentru ambele părți.<br /><br /><strong>Exemplu:</strong> alegi o soluție care minimizează suferința tuturor.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      personalitatea se formează <span class='tip'>progresiv, prin interacțiunea factorilor biologici și socio-culturali<span class='tooltip-box'><strong>Spus simplu:</strong> nu te naști „cu personalitatea gata făcută”; ea se construiește în timp.<br /><br /><strong>Formulare academică:</strong> personalitatea rezultă din combinarea potențialului ereditar cu experiențele de viață și influențele mediului.<br /><br /><strong>Exemplu:</strong> aceeași predispoziție poate duce la rezultate diferite în contexte educaționale diferite.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Factori ai unicitații</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Potențial ereditar</h3>
+        <p><strong>Bază biologică a trăsăturilor.</strong></p>
+        <hr />
+        <p><span class='tip'>Predispoziții inițiale<span class='tooltip-box'><strong>Spus simplu:</strong> unele reacții apar mai ușor încă de la început.<br /><br /><strong>Formulare academică:</strong> ereditatea oferă un potențial asupra căruia acționează mediul.<br /><br /><strong>Exemplu:</strong> nivel diferit de activitate sau sensibilitate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Istorie de viață</h3>
+        <p><strong>Experiențe și contexte.</strong></p>
+        <hr />
+        <p><span class='tip'>Ce trăiești te modelează<span class='tooltip-box'><strong>Spus simplu:</strong> evenimentele și mediul schimbă cine devii.<br /><br /><strong>Formulare academică:</strong> experiențele acumulate modelează structura personalității.<br /><br /><strong>Exemplu:</strong> sprijinul familial poate crește încrederea în sine.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Filozofie personală</h3>
+        <p><strong>Valori și sensuri proprii.</strong></p>
+        <hr />
+        <p><span class='tip'>Modul propriu de a vedea lumea<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare își construiește o „poveste” despre sine și lume.<br /><br /><strong>Formulare academică:</strong> sistemul de valori și convingeri contribuie la coerența personalității.<br /><br /><strong>Exemplu:</strong> un elev își definește identitatea prin „munca bine făcută”.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>📍&nbsp;&nbsp;Componente cu ritmuri diferite</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">⚡</div>
+        <h3>Temperament</h3>
+        <p><strong>Apare de la naștere.</strong></p>
+        <hr />
+        <p><span class='tip'>Bază înnăscută a reacțiilor<span class='tooltip-box'><strong>Spus simplu:</strong> unii copii sunt mai calmi, alții mai activi.<br /><br /><strong>Formulare academică:</strong> temperamentul reprezintă componenta înnăscută a reacțiilor psihice.<br /><br /><strong>Exemplu:</strong> reactivitate emoțională diferită la doi copii de aceeași vârstă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧱</div>
+        <h3>Caracter și aptitudini</h3>
+        <p><strong>Se dezvoltă treptat.</strong></p>
+        <hr />
+        <p><span class='tip'>Modelate prin educație și experiență<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce înveți și trăiești îți formează caracterul.<br /><br /><strong>Formulare academică:</strong> caracterul și aptitudinile se construiesc prin interacțiune cu mediul.<br /><br /><strong>Exemplu:</strong> perseverența se dezvoltă prin sarcini și feedback.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🎯&nbsp;&nbsp;De ce contează cunoașterea personalității</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Descriere și explicare</h3>
+        <p><strong>Înțelegi comportamentul.</strong></p>
+        <hr />
+        <p><span class='tip'>Vezi „de ce” face cineva ceva<span class='tooltip-box'><strong>Spus simplu:</strong> comportamentele devin mai clare în context.<br /><br /><strong>Formulare academică:</strong> cunoașterea personalității explică relația persoanei cu mediul.<br /><br /><strong>Exemplu:</strong> de ce un elev reacționează diferit la stres.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Predicție</h3>
+        <p><strong>Poți anticipa reacții.</strong></p>
+        <hr />
+        <p><span class='tip'>Se previne eșecul sau conflictul<span class='tooltip-box'><strong>Spus simplu:</strong> știi la ce să te aștepți și cum să ajuți.<br /><br /><strong>Formulare academică:</strong> predicția permite intervenții educaționale adecvate.<br /><br /><strong>Exemplu:</strong> adaptarea strategiilor de învățare la profilul elevului.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q2": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      personalitatea poate fi analizată pe <span class='tip'>niveluri diferite de profunzime<span class='tooltip-box'><strong>Spus simplu:</strong> putem observa comportamente vizibile, trăsături și structuri mai profunde.<br /><br /><strong>Formulare academică:</strong> nivelurile de analiză surprind fațete diferite ale personalității, de la manifestări externe la structuri interne.<br /><br /><strong>Exemplu:</strong> un elev poate fi „tăcut” (manifestare), dar are o motivație internă puternică (structură profundă).</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Niveluri de analiză</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Comportamental</h3>
+        <p><strong>Ce se vede direct.</strong></p>
+        <hr />
+        <p><span class='tip'>Manifestări observabile<span class='tooltip-box'><strong>Spus simplu:</strong> reacțiile și acțiunile vizibile ale persoanei.<br /><br /><strong>Formulare academică:</strong> nivelul comportamental descrie conduita observabilă în situații concrete.<br /><br /><strong>Exemplu:</strong> ridică mâna des la clasă sau evită să vorbească.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Trăsături</h3>
+        <p><strong>Patternuri relativ stabile.</strong></p>
+        <hr />
+        <p><span class='tip'>Caracteristici persistente<span class='tooltip-box'><strong>Spus simplu:</strong> tendințe care se repetă în timp.<br /><br /><strong>Formulare academică:</strong> nivelul trăsăturilor surprinde regularități psihologice stabile.<br /><br /><strong>Exemplu:</strong> conștiinciozitate ridicată sau impulsivitate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Structuri profunde</h3>
+        <p><strong>Motivații și organizări interne.</strong></p>
+        <hr />
+        <p><span class='tip'>Procese mai greu observabile<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce „mișcă” persoana din interior.<br /><br /><strong>Formulare academică:</strong> nivelul structural vizează organizarea internă a personalității și dinamica ei.<br /><br /><strong>Exemplu:</strong> nevoia de reușită sau sens personal.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q3": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      personalitatea poate fi explicată prin <span class='tip'>abordări teoretice diferite<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare teorie pune accent pe alt „motor” al personalității.<br /><br /><strong>Formulare academică:</strong> teoriile personalității oferă perspective distincte asupra structurii și dezvoltării persoanei.<br /><br /><strong>Exemplu:</strong> unele teorii pun accent pe trăsături, altele pe relații și contexte.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Abordări principale</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Abordări de tip trăsături</h3>
+        <p><strong>Accent pe caracteristici stabile.</strong></p>
+        <hr />
+        <p><span class='tip'>Personalitatea ca set de trăsături<span class='tooltip-box'><strong>Spus simplu:</strong> ești „un anumit tip de persoană”.<br /><br /><strong>Formulare academică:</strong> trăsăturile sunt predispoziții stabile care ghidează comportamentul.<br /><br /><strong>Exemplu:</strong> extraversiune, conștiinciozitate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Abordări dezvoltare–context</h3>
+        <p><strong>Personalitatea ca proces.</strong></p>
+        <hr />
+        <p><span class='tip'>Se schimbă în timp și în context<span class='tooltip-box'><strong>Spus simplu:</strong> nu rămâi „la fel” în toate situațiile și vârstele.<br /><br /><strong>Formulare academică:</strong> personalitatea se construiește prin relația dintre individ și mediu.<br /><br /><strong>Exemplu:</strong> schimbări de rol influențează comportamentele.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Abordări integrative</h3>
+        <p><strong>Combinații de perspective.</strong></p>
+        <hr />
+        <p><span class='tip'>Integrează trăsături și context<span class='tooltip-box'><strong>Spus simplu:</strong> nu explici omul doar prin „ce e”, ci și prin „ce trăiește”.<br /><br /><strong>Formulare academică:</strong> personalitatea este un sistem dinamic care include trăsături și interacțiuni contextuale.<br /><br /><strong>Exemplu:</strong> stabilitate a trăsăturilor, dar reacții diferite în contexte diferite.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q4": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      personalitatea are o <span class='tip'>structură relativ stabilă (statică)<span class='tooltip-box'><strong>Spus simplu:</strong> există componente care dau coerență persoanei.<br /><br /><strong>Formulare academică:</strong> structura personalității include elemente de bază care susțin identitatea și continuitatea.<br /><br /><strong>Exemplu:</strong> trăsături, valori, motive.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Structura personalității (static)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Componente de bază</h3>
+        <p><strong>Trăsături, motive, valori.</strong></p>
+        <hr />
+        <p><span class='tip'>Elemente relativ stabile<span class='tooltip-box'><strong>Spus simplu:</strong> sunt „părți” care rămân constante în timp.<br /><br /><strong>Formulare academică:</strong> structura statică asigură continuitatea identității personale.<br /><br /><strong>Exemplu:</strong> onestitatea ca valoare stabilă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Coerență</h3>
+        <p><strong>Unitate a persoanei.</strong></p>
+        <hr />
+        <p><span class='tip'>Leagă comportamentele între ele<span class='tooltip-box'><strong>Spus simplu:</strong> reacțiile nu sunt haotice, ci au o logică internă.<br /><br /><strong>Formulare academică:</strong> coerența personalității explică stabilitatea comportamentului în timp.<br /><br /><strong>Exemplu:</strong> o persoană consecventă în promisiuni.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q5": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      personalitatea este un <span class='tip'>sistem dinamic și interacționist<span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă prin interacțiunea cu mediul.<br /><br /><strong>Formulare academică:</strong> personalitatea funcționează ca un sistem deschis, adaptativ, influențat de contexte și experiențe.<br /><br /><strong>Exemplu:</strong> aceeași persoană reacționează diferit la școală și acasă.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Caracteristici dinamice</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Interacțiune cu mediul</h3>
+        <p><strong>Schimbare prin experiență.</strong></p>
+        <hr />
+        <p><span class='tip'>Mediul modelează răspunsurile<span class='tooltip-box'><strong>Spus simplu:</strong> experiențele pot întări sau modifica trăsături.<br /><br /><strong>Formulare academică:</strong> personalitatea se ajustează prin feedback și contexte sociale.<br /><br /><strong>Exemplu:</strong> un mediu sprijinitor crește încrederea.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Adaptare continuă</h3>
+        <p><strong>Flexibilitate psihologică.</strong></p>
+        <hr />
+        <p><span class='tip'>Răspunsuri diferite în situații diferite<span class='tooltip-box'><strong>Spus simplu:</strong> nu reacționezi identic în orice context.<br /><br /><strong>Formulare academică:</strong> dinamica personalității reflectă ajustarea la cerințele mediului.<br /><br /><strong>Exemplu:</strong> același elev poate fi timid la clasă, dar activ în familie.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Autoorganizare</h3>
+        <p><strong>Integrare a componentelor interne.</strong></p>
+        <hr />
+        <p><span class='tip'>Unitate dinamică internă<span class='tooltip-box'><strong>Spus simplu:</strong> persoana își rearanjează resursele interne ca să facă față.<br /><br /><strong>Formulare academică:</strong> personalitatea se autoreglează pentru a menține coerența funcțională.<br /><br /><strong>Exemplu:</strong> dezvoltarea rezilienței după o criză.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q6": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      temperamentul este latura personalității legată de <span class='tip'>reactivitate emoțională și energie<span class='tooltip-box'><strong>Spus simplu:</strong> cât de repede și cât de intens reacționezi, câtă energie ai.<br /><br /><strong>Formulare academică:</strong> temperamentul descrie reactivitatea, autoreglarea, activitatea și sociabilitatea, având bază biologică.<br /><br /><strong>Exemplu:</strong> un copil foarte activ reacționează rapid la stimuli, altul este mai calm.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Baza funcțională și stabilitate</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Bază biologică</h3>
+        <p><strong>Sistem nervos și endocrin.</strong></p>
+        <hr />
+        <p><span class='tip'>Particularități anatomo-fiziologice<span class='tooltip-box'><strong>Spus simplu:</strong> modul în care funcționează corpul influențează reacțiile.<br /><br /><strong>Formulare academică:</strong> temperamentul se sprijină pe funcționarea sistemului nervos și hormonal.<br /><br /><strong>Exemplu:</strong> nivel diferit de excitabilitate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Stabilitate relativă</h3>
+        <p><strong>Predispoziții care se mențin.</strong></p>
+        <hr />
+        <p><span class='tip'>Expresia se adaptează contextului<span class='tooltip-box'><strong>Spus simplu:</strong> temperamentul rămâne, dar modul de manifestare se schimbă.<br /><br /><strong>Formulare academică:</strong> trăsăturile temperamentale sunt relativ stabile, dar exprimarea lor variază situațional.<br /><br /><strong>Exemplu:</strong> un copil energic învață să se autoregleze la școală.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>⚖️&nbsp;&nbsp;Valoare adaptativă</h2>
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <p><strong>Trăsăturile temperamentale nu sunt „bune” sau „rele” în sine.</strong></p>
+        <p><span class='tip'>Depind de context<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași trăsătură poate ajuta sau încurca, după situație.<br /><br /><strong>Formulare academică:</strong> adaptativitatea temperamentului este condiționată de cerințele contextului și autoreglare.<br /><br /><strong>Exemplu:</strong> impulsivitatea poate ajuta în sport, dar poate crea probleme în clasă.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q7": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      temperamentul poate fi observat <span class='tip'>încă din copilărie<span class='tooltip-box'><strong>Spus simplu:</strong> se vede devreme cum reacționează copilul la stimuli.<br /><br /><strong>Formulare academică:</strong> predispozițiile temperamentale apar timpuriu și rămân relativ stabile.<br /><br /><strong>Exemplu:</strong> un copil timid poate rămâne prudent și mai târziu.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Tipare temperamentale (Thomas & Chess)</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Calm/ adaptabil</h3>
+        <p><strong>Ritm regulat, adaptare ușoară.</strong></p>
+        <hr />
+        <p><span class='tip'>Reglare bună a reacțiilor<span class='tooltip-box'><strong>Spus simplu:</strong> se adaptează ușor la schimbări.<br /><br /><strong>Formulare academică:</strong> răspunsuri moderate și adaptabile la stimuli noi.<br /><br /><strong>Exemplu:</strong> se obișnuiește rapid cu o clasă nouă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Dificil</h3>
+        <p><strong>Reactivitate ridicată.</strong></p>
+        <hr />
+        <p><span class='tip'>Se adaptează greu la noutate<span class='tooltip-box'><strong>Spus simplu:</strong> reacționează intens și are nevoie de timp.<br /><br /><strong>Formulare academică:</strong> nivel ridicat de reactivitate și dificultăți de adaptare.<br /><br /><strong>Exemplu:</strong> protestează puternic la schimbări de rutină.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Lent/ greu de activat</h3>
+        <p><strong>Reactivate treptată.</strong></p>
+        <hr />
+        <p><span class='tip'>Inițial reținut, apoi adaptabil<span class='tooltip-box'><strong>Spus simplu:</strong> la început e rezervat, apoi se încălzește.<br /><br /><strong>Formulare academică:</strong> reacții lente, dar adaptare posibilă în timp.<br /><br /><strong>Exemplu:</strong> se implică după mai multe întâlniri.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>📈&nbsp;&nbsp;Stabilitate (Kagan)</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Extremele sunt mai stabile</h3>
+        <p><strong>Foarte inhibați vs. foarte neinhibați.</strong></p>
+        <hr />
+        <p><span class='tip'>Predispozițiile puternice persistă<span class='tooltip-box'><strong>Spus simplu:</strong> copiii foarte timizi sau foarte curajoși tind să rămână așa.<br /><br /><strong>Formulare academică:</strong> stabilitatea crește la extremele temperamentale.<br /><br /><strong>Exemplu:</strong> copilul care evită constant noutatea rămâne precaut.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Moderații pot varia</h3>
+        <p><strong>Expresia se schimbă în timp.</strong></p>
+        <hr />
+        <p><span class='tip'>Contextul poate modifica manifestarea<span class='tooltip-box'><strong>Spus simplu:</strong> un copil moderat poate deveni mai deschis sau mai inhibat.<br /><br /><strong>Formulare academică:</strong> nivelurile moderate sunt mai sensibile la experiențe și educație.<br /><br /><strong>Exemplu:</strong> sprijinul școlar crește încrederea socială.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q8": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază (Eysenck):</strong>
+      temperamentul este descris prin <span class='tip'>dimensiuni biologice<span class='tooltip-box'><strong>Spus simplu:</strong> există axe stabile care arată cum reacționezi și câtă energie ai.<br /><br /><strong>Formulare academică:</strong> modelul are bază neurofiziologică și explică stabilitatea temperamentului din adolescență până la adult.<br /><br /><strong>Exemplu:</strong> nivelul de activare corticală influențează extraversia.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Dimensiuni temperamentale</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Extraversie–introversie</h3>
+        <p><strong>Nivel de activare corticală.</strong></p>
+        <hr />
+        <p><span class='tip'>Căutarea vs. evitarea stimulării<span class='tooltip-box'><strong>Spus simplu:</strong> extraverșii caută stimulare, introverșii o evită.<br /><br /><strong>Formulare academică:</strong> extraversia se leagă de activarea corticală bazală.<br /><br /><strong>Exemplu:</strong> un extravert preferă grupuri mari.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Nevrotism–stabilitate</h3>
+        <p><strong>Reactivitate emoțională.</strong></p>
+        <hr />
+        <p><span class='tip'>Sensibilitate la stres<span class='tooltip-box'><strong>Spus simplu:</strong> un nivel ridicat înseamnă emoții intense și instabile.<br /><br /><strong>Formulare academică:</strong> nevrotismul reflectă activarea sistemului limbic.<br /><br /><strong>Exemplu:</strong> anxietate crescută în situații dificile.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Psihoticism</h3>
+        <p><strong>Impulsivitate și empatie redusă.</strong></p>
+        <hr />
+        <p><span class='tip'>Agresivitate și egocentrism<span class='tooltip-box'><strong>Spus simplu:</strong> nivel ridicat înseamnă mai puțină cooperare.<br /><br /><strong>Formulare academică:</strong> psihoticismul se asociază cu impulsivitate și lipsa empatiei.<br /><br /><strong>Exemplu:</strong> reacții dure în conflicte sociale.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔗&nbsp;&nbsp;Temperamente clasice</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Combinații E–N</h3>
+        <p><strong>Extraversie + Nevrotism.</strong></p>
+        <hr />
+        <p><span class='tip'>Sangvinic, coleric, flegmatic, melancolic<span class='tooltip-box'><strong>Spus simplu:</strong> tipurile clasice apar din combinarea E și N.<br /><br /><strong>Formulare academică:</strong> temperamentele clasice rezultă din intersecția extraversiei și nevrotismului.<br /><br /><strong>Exemplu:</strong> extravert + stabil = sangvinic.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Adaptare contextuală</h3>
+        <p><strong>Nu există „bun” sau „rău”.</strong></p>
+        <hr />
+        <p><span class='tip'>Depinde de situație și autoreglare<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași trăsătură poate ajuta sau încurca.<br /><br /><strong>Formulare academică:</strong> valoarea adaptativă este condiționată de context.<br /><br /><strong>Exemplu:</strong> extraversia ajută în prezentări, dar poate distrage în studiu.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q9": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      conceptul de sine răspunde la întrebarea <span class='tip'>„cine sunt eu?”<span class='tooltip-box'><strong>Spus simplu:</strong> imaginea mentală despre propriile caracteristici și abilități.<br /><br /><strong>Formulare academică:</strong> conceptul de sine include percepția abilităților, valorilor, credințelor și așteptărilor personale.<br /><br /><strong>Exemplu:</strong> „sunt bun la matematică, dar timid în grupuri”.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Baze ale conceptului de sine</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Conștiința de sine</h3>
+        <p><strong>Recunoaștere de sine.</strong></p>
+        <hr />
+        <p><span class='tip'>Înțelegerea propriei identități<span class='tooltip-box'><strong>Spus simplu:</strong> copilul înțelege că este o persoană distinctă.<br /><br /><strong>Formulare academică:</strong> conștiința de sine susține formarea reprezentării personale.<br /><br /><strong>Exemplu:</strong> se recunoaște în oglindă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Feedback social</h3>
+        <p><strong>Oglindirea prin ceilalți.</strong></p>
+        <hr />
+        <p><span class='tip'>Comparații și evaluări<span class='tooltip-box'><strong>Spus simplu:</strong> ne vedem prin reacțiile altora.<br /><br /><strong>Formulare academică:</strong> feedbackul și comparațiile sociale modelează conceptul de sine.<br /><br /><strong>Exemplu:</strong> un elev se percepe „bun” după feedback repetat.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Fațete ale conceptului de sine</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Fațeta publică</h3>
+        <p><strong>Cum cred că mă văd ceilalți.</strong></p>
+        <hr />
+        <p><span class='tip'>Imagine socială<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce „arăt” în fața altora.<br /><br /><strong>Formulare academică:</strong> include percepțiile despre statut și roluri sociale.<br /><br /><strong>Exemplu:</strong> „sunt lider în grup”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Fațeta intimă</h3>
+        <p><strong>Cum mă văd eu.</strong></p>
+        <hr />
+        <p><span class='tip'>Imagine internă stabilă<span class='tooltip-box'><strong>Spus simplu:</strong> credințele personale despre mine însumi.<br /><br /><strong>Formulare academică:</strong> nucleul autoreprezentării și autoreglării.<br /><br /><strong>Exemplu:</strong> „sunt perseverent”.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q10": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      conceptul de sine se schimbă <span class='tip'>în funcție de vârstă și experiență<span class='tooltip-box'><strong>Spus simplu:</strong> cum te vezi pe tine se transformă pe măsură ce crești.<br /><br /><strong>Formulare academică:</strong> autoreprezentarea devine mai realistă, complexă și diferențiată în timp.<br /><br /><strong>Exemplu:</strong> copiii mici se supraevaluează, adolescenții se compară social.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Evoluția conceptului de sine</h2>
+    <table class="lesson-table">
+      <thead>
+        <tr>
+          <th>Vârstă</th>
+          <th>Caracteristici</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>~1,5 ani</td>
+          <td>Recunoașterea de sine (oglindă, „eu”)</td>
+        </tr>
+        <tr>
+          <td>2,5–6 ani</td>
+          <td>Judecăți simple, acțiuni concrete, autoevaluare ridicată</td>
+        </tr>
+        <tr>
+          <td>7–10 ani</td>
+          <td>Comparații sociale, realism crescut, feedback negativ</td>
+        </tr>
+        <tr>
+          <td>10+ ani</td>
+          <td>Roluri sociale, criterii autonome, perspectivă critică</td>
+        </tr>
+        <tr>
+          <td>14+ ani</td>
+          <td>Fațete: academică, sportivă, socială, aspect, conduită</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h2>🎯&nbsp;&nbsp;Diferențe de gen în adolescență</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Fete</h3>
+        <p><strong>Stima de sine mai scăzută la aspect fizic.</strong></p>
+        <hr />
+        <p><span class='tip'>Influențată de comparații sociale<span class='tooltip-box'><strong>Spus simplu:</strong> presiunea aspectului afectează mai mult fetele.<br /><br /><strong>Formulare academică:</strong> diferențele apar în domeniul aspectului fizic și al competențelor atletice.<br /><br /><strong>Exemplu:</strong> evaluare negativă a imaginii corporale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Băieți</h3>
+        <p><strong>Stima de sine mai ridicată în zona fizică.</strong></p>
+        <hr />
+        <p><span class='tip'>Avantaj în competențe atletice<span class='tooltip-box'><strong>Spus simplu:</strong> băieții se percep mai competenți sportiv.<br /><br /><strong>Formulare academică:</strong> diferențele de gen sunt mai mici la social și academic, dar vizibile la aspect fizic.<br /><br /><strong>Exemplu:</strong> încredere mai mare în zona sportivă.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q11": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      stima de sine este <span class='tip'>evaluarea valorii personale<span class='tooltip-box'><strong>Spus simplu:</strong> cum te simți în legătură cu tine însuți.<br /><br /><strong>Formulare academică:</strong> stima de sine este componenta evaluativă a conceptului de sine.<br /><br /><strong>Exemplu:</strong> „sunt mulțumit de mine” vs. „nu mă simt suficient”.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Cum se formează</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Acceptare socială</h3>
+        <p><strong>Reacțiile celorlalți contează.</strong></p>
+        <hr />
+        <p><span class='tip'>Comparații și feedback<span class='tooltip-box'><strong>Spus simplu:</strong> te compari și înveți cum ești văzut.<br /><br /><strong>Formulare academică:</strong> acceptarea socială și comparațiile modelează evaluarea de sine.<br /><br /><strong>Exemplu:</strong> popularitatea în grup crește stima de sine.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Congruență</h3>
+        <p><strong>Competență percepută + importanță.</strong></p>
+        <hr />
+        <p><span class='tip'>Nu trebuie să fii bun la tot<span class='tooltip-box'><strong>Spus simplu:</strong> contează domeniile importante pentru tine.<br /><br /><strong>Formulare academică:</strong> stima de sine este ridicată când competența percepută coincide cu domeniul valorizat.<br /><br /><strong>Exemplu:</strong> dacă matematica contează pentru tine și te simți bun, stima crește.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>👥&nbsp;&nbsp;Categorii de acceptare socială (Woolfolk)</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Populari</h3>
+        <p><strong>Acceptați de grup.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Respinsi</h3>
+        <p><strong>Agresivi sau retrași.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Neglijați</h3>
+        <p><strong>Puține relații, fără respingere activă.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Controversați</h3>
+        <p><strong>Și apreciați, și respinși.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Medii</h3>
+        <p><strong>Adaptați, stimă de sine normală.</strong></p>
+      </div>
+    </div>
+  `,
+  "phed-u5-q12": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      feedbackul influențează <span class='tip'>evaluarea de sine și perseverența<span class='tooltip-box'><strong>Spus simplu:</strong> modul în care primești feedback îți schimbă încrederea în tine.<br /><br /><strong>Formulare academică:</strong> feedbackul reglează stima de sine și orientarea spre efort.<br /><br /><strong>Exemplu:</strong> feedbackul pe strategie susține motivația.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Feedback eficient</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Centrat pe proces</h3>
+        <p><strong>Strategie, efort, pași.</strong></p>
+        <hr />
+        <p><span class='tip'>Favorizează autoreglarea<span class='tooltip-box'><strong>Spus simplu:</strong> elevul înțelege ce să îmbunătățească.<br /><br /><strong>Formulare academică:</strong> feedbackul informativ susține învățarea și perseverența.<br /><br /><strong>Exemplu:</strong> „Ai ales o strategie bună”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Nu doar etichete</h3>
+        <p><strong>Evita „ești genial”.</strong></p>
+        <hr />
+        <p><span class='tip'>Etichetele rigidizează imaginea de sine<span class='tooltip-box'><strong>Spus simplu:</strong> lauda globală poate crește anxietatea la eșec.<br /><br /><strong>Formulare academică:</strong> lauda centrată pe persoană poate reduce toleranța la dificultăți.<br /><br /><strong>Exemplu:</strong> elevul evită sarcini grele ca să nu „strice” imaginea.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🛠️&nbsp;&nbsp;Strategii de sprijin</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Autonomie</h3>
+        <p><strong>Oportunitatea de a alege.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Complexitate graduală</h3>
+        <p><strong>Sarcini progresive.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Monitorizare progres</h3>
+        <p><strong>Accent pe îmbunătățire.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Obiective realiste</h3>
+        <p><strong>Personalizare.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Toleranță la greșeli</h3>
+        <p><strong>Corectare fără stigmatizare.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Perspectivă flexibilă</h3>
+        <p><strong>Puncte de vedere diferite.</strong></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      teoriile învățării se pot recunoaște după <span class='tip'>mecanismul explicativ dominant<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare teorie spune „de ce” învață oamenii, dar răspunsurile diferă.<br /><br /><strong>Formulare academică:</strong> clasificarea pe familii teoretice organizează teoriile după factorul principal al învățării (consecințe, construcție cognitivă, procese mentale, nevoi, transformare).<br /><br /><strong>Exemplu:</strong> behaviorismul explică prin consecințe, constructivismul prin construirea sensului.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia recunoașterii</h3>
+        <p><strong>Întreabă-te: „Ce pune teoria în centru?”</strong></p>
+        <hr />
+        <p><span class='tip'>Consecințe, construcție, procese mentale, nevoi, transformare<span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul te direcționează către familie.<br /><br /><strong>Formulare academică:</strong> criteriul de clasificare este mecanismul explicativ major al învățării.<br /><br /><strong>Exemplu:</strong> „întărire” → behaviorism; „ZDP” → constructivism social.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Familii teoretice (recunoaștere rapidă)</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Behavioriste</h3>
+        <p><strong>Învățare prin consecințe.</strong></p>
+        <hr />
+        <p><span class='tip'>Stimul → răspuns → întărire<span class='tooltip-box'><strong>Spus simplu:</strong> comportamentele cresc dacă sunt urmate de consecințe pozitive.<br /><br /><strong>Formulare academică:</strong> învățarea este modelarea comportamentului prin întărire și pedeapsă.<br /><br /><strong>Exemplu:</strong> Skinner (condiționare operantă), Thorndike (legea efectului), Watson (condiționarea emoțiilor).</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Constructiviste</h3>
+        <p><strong>Cunoaștere construită activ.</strong></p>
+        <hr />
+        <p><span class='tip'>Scheme + interacțiune socială<span class='tooltip-box'><strong>Spus simplu:</strong> elevul construiește sens din experiențe și dialog.<br /><br /><strong>Formulare academică:</strong> cunoașterea este construită prin asimilare, acomodare și mediere socială.<br /><br /><strong>Exemplu:</strong> Piaget (constructivism cognitiv), Vîgotski (constructivism social), Bruner.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Cognitive</h3>
+        <p><strong>Procese mentale și reprezentări.</strong></p>
+        <hr />
+        <p><span class='tip'>Atenție, memorie, strategie<span class='tooltip-box'><strong>Spus simplu:</strong> contează cum procesezi informația.<br /><br /><strong>Formulare academică:</strong> învățarea este explicată prin prelucrarea informației, insight și autoeficacitate.<br /><br /><strong>Exemplu:</strong> Gestalt (insight), TPI, Bandura (învățare socială cognitivă).</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Umaniste</h3>
+        <p><strong>Autonomie și sens personal.</strong></p>
+        <hr />
+        <p><span class='tip'>Nevoi, acceptare, dezvoltare personală<span class='tooltip-box'><strong>Spus simplu:</strong> învățarea crește când sunt împlinite nevoile și persoana e valorizată.<br /><br /><strong>Formulare academică:</strong> motivația și autoactualizarea sunt condiții ale învățării autentice.<br /><br /><strong>Exemplu:</strong> Rogers (învățare centrată pe persoană), Maslow (ierarhia nevoilor).</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Contemporane</h3>
+        <p><strong>Transformare și context.</strong></p>
+        <hr />
+        <p><span class='tip'>Schimbarea cadrului de sens<span class='tooltip-box'><strong>Spus simplu:</strong> învățarea poate schimba felul în care vezi lumea.<br /><br /><strong>Formulare academică:</strong> accent pe transformarea perspectivelor, învățare colectivă și pragmatism.<br /><br /><strong>Exemplu:</strong> Mezirow (transformare), Kegan, Engeström (expansiune), Elkjaer (pragmatism).</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q2": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      în condiționarea operantă, <span class='tip'>comportamentul este modelat de consecințe<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce este urmat de o consecință favorabilă se repetă mai des.<br /><br /><strong>Formulare academică:</strong> comportamentele operante sunt selectate și menținute prin tipul și programul întăririi.<br /><br /><strong>Exemplu:</strong> elevul rezolvă mai des tema când primește feedback pozitiv.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🎯</div>
+        <h3>Cheia teoriei</h3>
+        <p><strong>Consecințele selectează comportamentele eficiente.</strong></p>
+        <hr />
+        <p><span class='tip'>Întărire, pedeapsă, extincție<span class='tooltip-box'><strong>Spus simplu:</strong> întărirea crește un comportament, pedeapsa îl scade, iar extincția îl slăbește prin lipsa întăririi.<br /><br /><strong>Formulare academică:</strong> întărirea consolidează răspunsul, pedeapsa reduce probabilitatea răspunsului, extincția apare când întărirea nu mai urmează comportamentul.<br /><br /><strong>Exemplu:</strong> elevul continuă să răspundă dacă primește feedback; dacă nu mai primește, răspunde mai rar.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Elemente centrale</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Respondent vs. operant</h3>
+        <p><strong>Reflex vs. acțiune.</strong></p>
+        <hr />
+        <p><span class='tip'>Pavlov vs. Skinner<span class='tooltip-box'><strong>Spus simplu:</strong> comportamentul respondent e reflex, cel operant e o acțiune care produce consecințe.<br /><br /><strong>Formulare academică:</strong> condiționarea clasică asociază stimuli, iar condiționarea operantă modelează comportamente emise activ prin întărire.<br /><br /><strong>Exemplu:</strong> salivare la un stimul asociat (respondent) vs. ridicarea mâinii pentru a primi atenție (operant).</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Întăriri</h3>
+        <p><strong>Primare și secundare.</strong></p>
+        <hr />
+        <p><span class='tip'>Sociale, verbale, simbolice, de activitate<span class='tooltip-box'><strong>Spus simplu:</strong> primarele țin de nevoi biologice, secundarele se învață social.<br /><br /><strong>Formulare academică:</strong> întăririle primare au valoare biologică directă; întăririle secundare capătă valoare prin asociere și pot fi sociale, verbale, simbolice sau de activitate.<br /><br /><strong>Exemplu:</strong> laudă, puncte, timp extra la activitatea preferată.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Programe de întărire</h3>
+        <p><strong>Regula după care întărești.</strong></p>
+        <hr />
+        <p><span class='tip'>Când și cât de des apare recompensa<span class='tooltip-box'><strong>Spus simplu:</strong> dacă întărești mereu, înveți repede; dacă întărești rar, comportamentul se menține mai mult.<br /><br /><strong>Formulare academică:</strong> programele de întărire influențează viteza de achiziție și stabilitatea comportamentului.<br /><br /><strong>Exemplu:</strong> întărirea variabilă menține comportamentul mai durabil.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q3": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      constructivismul vede învățarea ca <span class='tip'>proces activ de construire a cunoașterii<span class='tooltip-box'><strong>Spus simplu:</strong> elevul nu primește pasiv informația, ci o construiește.<br /><br /><strong>Formulare academică:</strong> cunoașterea este construită prin interacțiunea dintre structurile cognitive și mediul social.<br /><br /><strong>Exemplu:</strong> elevul descoperă o regulă prin experiment, nu doar prin memorare.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧩</div>
+        <h3>Cheia comparației</h3>
+        <p><strong>Piaget accentuează structurile cognitive; Vîgotski accentuează medierea socială.</strong></p>
+        <hr />
+        <p><span class='tip'>Diferența centrală: dezvoltare → învățare vs. învățare → dezvoltare<span class='tooltip-box'><strong>Spus simplu:</strong> la Piaget trebuie să fii „pregătit”, la Vîgotski sprijinul poate împinge dezvoltarea înainte.<br /><br /><strong>Formulare academică:</strong> pentru Piaget, dezvoltarea cognitivă condiționează învățarea; pentru Vîgotski, învățarea ghidată poate preceda dezvoltarea.<br /><br /><strong>Exemplu:</strong> copilul poate rezolva o sarcină cu ajutor (Vîgotski), dar nu singur.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🌱&nbsp;&nbsp;Constructivism cognitiv (Piaget)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Asimilare și acomodare</h3>
+        <p><strong>Construirea schemelor.</strong></p>
+        <hr />
+        <p><span class='tip'>Dezvoltarea precede învățarea<span class='tooltip-box'><strong>Spus simplu:</strong> înveți anumite lucruri doar după ce s-au format structurile necesare.<br /><br /><strong>Formulare academică:</strong> învățarea depinde de nivelul de dezvoltare cognitivă și de reorganizarea schemelor prin asimilare și acomodare.<br /><br /><strong>Exemplu:</strong> operațiile formale apar după etapa operațiilor concrete.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Stadii cognitive</h3>
+        <p><strong>Etape calitativ diferite.</strong></p>
+        <hr />
+        <p><span class='tip'>Senzoriomotor → preoperator → concret → formal<span class='tooltip-box'><strong>Spus simplu:</strong> copilul trece prin stadii care schimbă felul în care gândește.<br /><br /><strong>Formulare academică:</strong> stadiile sunt structuri cognitive succesive, cu reguli proprii de funcționare.<br /><br /><strong>Exemplu:</strong> gândirea abstractă apare în stadiul operațiilor formale.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>👥&nbsp;&nbsp;Constructivism social (Vîgotski)</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Mediere socială</h3>
+        <p><strong>Limbaj și ghidaj.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățarea poate precede dezvoltarea<span class='tooltip-box'><strong>Spus simplu:</strong> sprijinul potrivit accelerează dezvoltarea.<br /><br /><strong>Formulare academică:</strong> interacțiunea socială și limbajul mediază dezvoltarea funcțiilor psihice superioare.<br /><br /><strong>Exemplu:</strong> rezolvi o problemă cu ajutorul adultului, apoi o faci singur.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Zona dezvoltării proxime</h3>
+        <p><strong>Diferența dintre potențial și actual.</strong></p>
+        <hr />
+        <p><span class='tip'>Sprijin gradual (scaffolding)<span class='tooltip-box'><strong>Spus simplu:</strong> ajutorul se retrage treptat pe măsură ce elevul reușește.<br /><br /><strong>Formulare academică:</strong> ZDP reprezintă distanța dintre nivelul actual și cel potențial realizabil cu sprijin.<br /><br /><strong>Exemplu:</strong> profesorul oferă indicii, apoi lasă elevul să finalizeze singur.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q4": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea transformatoare schimbă <span class='tip'>modul în care interpretăm experiența<span class='tooltip-box'><strong>Spus simplu:</strong> nu adaugi doar informații, îți schimbi „lentilele”.<br /><br /><strong>Formulare academică:</strong> se transformă cadrele de referință care structurează sensul.<br /><br /><strong>Exemplu:</strong> după o discuție, îți schimbi convingerea despre un subiect sensibil.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔄</div>
+        <h3>Cheia procesului</h3>
+        <p><strong>Reflecție critică → schimbare de perspectivă.</strong></p>
+        <hr />
+        <p><span class='tip'>Cadre mai deschise și flexibile<span class='tooltip-box'><strong>Spus simplu:</strong> înveți să vezi o situație din mai multe unghiuri.<br /><br /><strong>Formulare academică:</strong> transformarea urmărește perspective mai reflexive, mai incluzive și mai adaptabile.<br /><br /><strong>Exemplu:</strong> îți schimbi convingerea despre „cine are dreptate” după un dialog dificil.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Componente esențiale</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Cadre de referință</h3>
+        <p><strong>Obiceiuri mentale.</strong></p>
+        <hr />
+        <p><span class='tip'>Pot fi problematice<span class='tooltip-box'><strong>Spus simplu:</strong> uneori te fac să vezi doar o parte din realitate.<br /><br /><strong>Formulare academică:</strong> cadrele de referință structurează sensul, dar pot deveni rigide și limitative.<br /><br /><strong>Exemplu:</strong> „dacă greșesc, înseamnă că sunt slab”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Reflecție critică</h3>
+        <p><strong>Pui sub semnul întrebării.</strong></p>
+        <hr />
+        <p><span class='tip'>Analizezi presupunerile tale<span class='tooltip-box'><strong>Spus simplu:</strong> te întrebi „de ce cred asta?”.<br /><br /><strong>Formulare academică:</strong> reflecția critică examinează premisele și validitatea interpretărilor.<br /><br /><strong>Exemplu:</strong> descoperi că o regulă „bătută în cuie” nu mai funcționează.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Discurs și sprijin</h3>
+        <p><strong>Dialog semnificativ.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățare prin conversație autentică<span class='tooltip-box'><strong>Spus simplu:</strong> discuțiile te ajută să vezi altfel lucrurile.<br /><br /><strong>Formulare academică:</strong> discursul rațional și sprijinul social facilitează transformarea cadrelor de sens.<br /><br /><strong>Exemplu:</strong> o discuție ghidată îți clarifică dilema.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q5": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea integrată este <span class='tip'>un proces complex, legat de experiență și de context social<span class='tooltip-box'><strong>Spus simplu:</strong> nu înveți doar cu mintea, ci și cu emoții, relații și acțiune.<br /><br /><strong>Formulare academică:</strong> învățarea combină dimensiuni cognitive, emoționale, sociale și acționale.<br /><br /><strong>Exemplu:</strong> un proiect de echipă combină gândirea, emoțiile și acțiunea.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🌐</div>
+        <h3>Cheia integrării</h3>
+        <p><strong>Învățarea se întâmplă în relația subiect–mediu.</strong></p>
+        <hr />
+        <p><span class='tip'>Interacțiune cognitivă și comportamentală<span class='tooltip-box'><strong>Spus simplu:</strong> gândești și acționezi în context real.<br /><br /><strong>Formulare academică:</strong> învățarea apare prin interacțiunea activă dintre individ și mediul social (James, Dewey).<br /><br /><strong>Exemplu:</strong> elevul înțelege mai bine când aplică într-o situație autentică.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Dimensiuni ale învățării integrate</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Cognitiv</h3>
+        <p><strong>Înțelegere și structurare.</strong></p>
+        <hr />
+        <p><span class='tip'>Procesarea informației<span class='tooltip-box'><strong>Spus simplu:</strong> legi ideile între ele și le organizezi.<br /><br /><strong>Formulare academică:</strong> dimensiunea cognitivă susține construirea sensului și a conceptelor.<br /><br /><strong>Exemplu:</strong> elevul face o schemă logică a lecției.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Emoțional</h3>
+        <p><strong>Implicare afectivă.</strong></p>
+        <hr />
+        <p><span class='tip'>Trăiri care susțin învățarea<span class='tooltip-box'><strong>Spus simplu:</strong> când ești interesat, înveți mai bine.<br /><br /><strong>Formulare academică:</strong> emoțiile facilitează atenția și perseverența.<br /><br /><strong>Exemplu:</strong> curiozitatea crește timpul de lucru.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Social</h3>
+        <p><strong>Relații și colaborare.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățare în relații<span class='tooltip-box'><strong>Spus simplu:</strong> înveți mai bine când discuți și colaborezi.<br /><br /><strong>Formulare academică:</strong> interacțiunea socială mediază construirea sensului.<br /><br /><strong>Exemplu:</strong> lucrul în echipă clarifică concepte.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Acțional</h3>
+        <p><strong>Aplicare și practică.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățare prin acțiune<span class='tooltip-box'><strong>Spus simplu:</strong> faci, testezi, corectezi.<br /><br /><strong>Formulare academică:</strong> dimensiunea acțională ancorează cunoașterea în comportamente observabile.<br /><br /><strong>Exemplu:</strong> proiect practic după o lecție teoretică.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>📌&nbsp;&nbsp;Rezultate educaționale (EIC)</h2>
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <p><strong>Învățarea integrată produce valori, atitudini, cunoștințe, competențe și comportamente.</strong></p>
+        <p><span class='tip'>Rezultate complexe și vizibile<span class='tooltip-box'><strong>Spus simplu:</strong> nu rămâi doar cu informații, ci și cu moduri de a acționa.<br /><br /><strong>Formulare academică:</strong> rezultatele educaționale sunt multidimensionale și integrate.<br /><br /><strong>Exemplu:</strong> un proiect dezvoltă și cunoștințe, și colaborare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q6": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea prin experiență înseamnă <span class='tip'>transformarea experienței în cunoaștere<span class='tooltip-box'><strong>Spus simplu:</strong> nu experiența contează, ci cum o prelucrezi.<br /><br /><strong>Formulare academică:</strong> cunoștințele sunt create prin transformarea experienței (Kolb).<br /><br /><strong>Exemplu:</strong> după o activitate practică, reflectezi și formulezi o regulă.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧪</div>
+        <h3>Cheia modelului</h3>
+        <p><strong>Învățarea este ciclică și continuă.</strong></p>
+        <hr />
+        <p><span class='tip'>Experiență → reflecție → concept → aplicare<span class='tooltip-box'><strong>Spus simplu:</strong> treci prin pași care se repetă și se completează.<br /><br /><strong>Formulare academică:</strong> cunoașterea se creează prin transformarea experienței (Kolb).<br /><br /><strong>Exemplu:</strong> încerci ceva, te gândești, înțelegi și aplici din nou.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>📚&nbsp;&nbsp;Baze teoretice</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>John Dewey</h3>
+        <p><strong>Experiența ca sursă a învățării.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățare legată de viața reală<span class='tooltip-box'><strong>Spus simplu:</strong> învățarea are sens când pornește din experiență.<br /><br /><strong>Formulare academică:</strong> experiența anterioară condiționează învățarea nouă.<br /><br /><strong>Exemplu:</strong> un proiect real face conținutul relevant.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Kurt Lewin</h3>
+        <p><strong>Model dinamic al învățării.</strong></p>
+        <hr />
+        <p><span class='tip'>Ciclu acțiune–reflecție<span class='tooltip-box'><strong>Spus simplu:</strong> învățarea este un proces care se mișcă în cerc.<br /><br /><strong>Formulare academică:</strong> învățarea implică interacțiunea dintre acțiune și analiză.<br /><br /><strong>Exemplu:</strong> aplici, observi, ajustezi.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔁&nbsp;&nbsp;Ciclul lui Kolb</h2>
+    <div class="lesson-flow">
+      <span class="lesson-pill">Experiență concretă</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Reflecție</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Conceptualizare</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Experimentare</span>
+    </div>
+    <hr />
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Ce se întâmplă în ciclu</h3>
+        <p><span class='tip'><strong>Experiență concretă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> trăiești o situație reală.<br /><br /><strong>Formulare academică:</strong> contact direct cu evenimentele din mediu.<br /><br /><strong>Exemplu:</strong> participi la un proiect.</span></span></p>
+        <p><span class='tip'><strong>Reflecție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la ce s-a întâmplat.<br /><br /><strong>Formulare academică:</strong> analiză și interpretare a experienței.<br /><br /><strong>Exemplu:</strong> îți notezi ce a mers bine.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>De la idee la acțiune</h3>
+        <p><span class='tip'><strong>Conceptualizare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> formulezi o idee/ regulă generală.<br /><br /><strong>Formulare academică:</strong> extragi concepte și principii din reflecție.<br /><br /><strong>Exemplu:</strong> „data viitoare încep cu planul”.</span></span></p>
+        <p><span class='tip'><strong>Experimentare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> testezi ce ai învățat.<br /><br /><strong>Formulare academică:</strong> aplici noile concepte în acțiune.<br /><br /><strong>Exemplu:</strong> aplici planul într-un proiect nou.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q7": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      stilurile lui Kolb apar din <span class='tip'>modul în care trăiești și transformi experiența<span class='tooltip-box'><strong>Spus simplu:</strong> combinația „cum simți” + „cum prelucrezi” dă un stil de învățare.<br /><br /><strong>Formulare academică:</strong> stilurile rezultă din intersectarea experienței concrete/abstracte cu reflecția/experimentarea.<br /><br /><strong>Exemplu:</strong> un elev preferă experimentarea activă, altul reflecția atentă.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia diferențierii</h3>
+        <p><strong>Experiență: concretă vs. abstractă; Transformare: reflecție vs. acțiune.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Stiluri de învățare (Kolb)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Divergent</h3>
+        <p><strong>Experiență concretă + reflecție.</strong></p>
+        <hr />
+        <p><span class='tip'>Explorare de perspective<span class='tooltip-box'><strong>Spus simplu:</strong> privești aceeași situație din mai multe unghiuri.<br /><br /><strong>Formulare academică:</strong> stilul divergent combină experiența concretă cu reflecția pentru a genera idei multiple.<br /><br /><strong>Exemplu:</strong> brainstorming, discuții în grup, interpretări diferite.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Asimilator</h3>
+        <p><strong>Abstract + reflecție.</strong></p>
+        <hr />
+        <p><span class='tip'>Modele și coerență logică<span class='tooltip-box'><strong>Spus simplu:</strong> îți place să organizezi idei în teorii.<br /><br /><strong>Formulare academică:</strong> stilul asimilator privilegiază conceptualizarea abstractă și organizarea logică a informației.<br /><br /><strong>Exemplu:</strong> scheme, concepte, explicații teoretice.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Convergent</h3>
+        <p><strong>Abstract + acțiune.</strong></p>
+        <hr />
+        <p><span class='tip'>Aplicare practică<span class='tooltip-box'><strong>Spus simplu:</strong> folosești ideile pentru a rezolva probleme.<br /><br /><strong>Formulare academică:</strong> stilul convergent combină conceptualizarea abstractă cu experimentarea activă pentru soluții eficiente.<br /><br /><strong>Exemplu:</strong> sarcini tehnice, rezolvări de probleme aplicate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Acomodator</h3>
+        <p><strong>Concret + acțiune.</strong></p>
+        <hr />
+        <p><span class='tip'>Învățare prin încercare<span class='tooltip-box'><strong>Spus simplu:</strong> înveți făcând și ajustând.<br /><br /><strong>Formulare academică:</strong> stilul acomodator combină experiența concretă cu experimentarea activă, orientându-se spre acțiune.<br /><br /><strong>Exemplu:</strong> proiecte practice, experimentare directă.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔄&nbsp;&nbsp;Revizuire importantă</h2>
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <p><strong>Stilurile nu sunt rigide; învățarea poate activa toate stilurile în funcție de sarcină.</strong></p>
+        <p><span class='tip'>Învățarea integrată<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași persoană poate folosi stiluri diferite în momente diferite.<br /><br /><strong>Formulare academică:</strong> Kolb a revizuit ideea stilului fix și a susținut activarea combinată a stilurilor.<br /><br /><strong>Exemplu:</strong> începi cu reflecție și termini cu experimentare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u6-q8": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea personalizată adaptează <span class='tip'>obiectivele, metodele și ritmul la fiecare elev<span class='tooltip-box'><strong>Spus simplu:</strong> nu toți învață la fel și în același ritm.<br /><br /><strong>Formulare academică:</strong> demersul educațional se ajustează la nevoi, potențial și interese.<br /><br /><strong>Exemplu:</strong> același conținut este explicat diferit pentru niveluri diferite.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🎯</div>
+        <h3>Cheia personalizării</h3>
+        <p><strong>Elevul este activ și autoreglat, iar profesorul ajustează contextul.</strong></p>
+        <hr />
+        <p><span class='tip'>Adaptare la nevoi și potențial<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare elev primește sprijinul potrivit lui.<br /><br /><strong>Formulare academică:</strong> personalizarea urmărește activarea potențialului individual, inclusiv în zona proximei dezvoltări.<br /><br /><strong>Exemplu:</strong> sarcini diferențiate în funcție de nivel.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔁&nbsp;&nbsp;Etape ale procesului</h2>
+    <div class="lesson-flow">
+      <span class="lesson-pill">Implicare</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Evaluare</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Adaptare</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Reevaluare</span>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;De ce este eficientă</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Autonomie crescută</h3>
+        <p><strong>Elevul își asumă învățarea.</strong></p>
+        <hr />
+        <p><span class='tip'>Autoreglare reală<span class='tooltip-box'><strong>Spus simplu:</strong> elevul știe ce are de făcut și de ce.<br /><br /><strong>Formulare academică:</strong> personalizarea susține controlul metacognitiv al procesului de învățare.<br /><br /><strong>Exemplu:</strong> își ajustează strategia după feedback.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Progres realist</h3>
+        <p><strong>Obiective adaptate.</strong></p>
+        <hr />
+        <p><span class='tip'>Efort cu sens<span class='tooltip-box'><strong>Spus simplu:</strong> sarcina e suficient de dificilă, dar realizabilă.<br /><br /><strong>Formulare academică:</strong> adaptarea la nivel susține progresul fără supraîncărcare.<br /><br /><strong>Exemplu:</strong> un elev avansează prin pași gradați.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea depinde de <span class='tip'>factori cognitivi și non-cognitivi<span class='tooltip-box'><strong>Spus simplu:</strong> nu e suficient să „știi”; contează și motivația, emoțiile și contextul.<br /><br /><strong>Formulare academică:</strong> performanța rezultă din interacțiunea dintre procese cognitive și variabile afective, metacognitive și demografice.<br /><br /><strong>Exemplu:</strong> doi elevi la fel de pregătiți pot performa diferit din cauza anxietății.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧩</div>
+        <h3>Cheia diferențelor între elevi</h3>
+        <p><strong>Variabilele interindividuale explică de ce elevii învață diferit.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Categorii de factori</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Cognitivi</h3>
+        <p><strong>Inteligență, memorie, strategii.</strong></p>
+        <hr />
+        <p><span class='tip'>Procese mentale directe<span class='tooltip-box'><strong>Spus simplu:</strong> sunt „uneltele” cu care înveți efectiv.<br /><br /><strong>Formulare academică:</strong> factorii cognitivi descriu procesarea și organizarea informației (memorie, atenție, raționament).<br /><br /><strong>Exemplu:</strong> o strategie bună de organizare crește performanța.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Afectivi</h3>
+        <p><strong>Motivație, emoții, atitudini.</strong></p>
+        <hr />
+        <p><span class='tip'>Energia internă a învățării<span class='tooltip-box'><strong>Spus simplu:</strong> dacă ești interesat și încrezător, înveți mai bine.<br /><br /><strong>Formulare academică:</strong> factorii afectivi susțin implicarea și perseverența în sarcină.<br /><br /><strong>Exemplu:</strong> anxietatea ridicată reduce performanța.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Metacognitivi</h3>
+        <p><strong>Monitorizare și autoreglare.</strong></p>
+        <hr />
+        <p><span class='tip'>Controlul propriei învățări<span class='tooltip-box'><strong>Spus simplu:</strong> îți planifici, verifici și corectezi modul de studiu.<br /><br /><strong>Formulare academică:</strong> metacogniția reglează strategiile și efortul în funcție de obiective.<br /><br /><strong>Exemplu:</strong> elevul schimbă metoda când nu înțelege.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Demografici</h3>
+        <p><strong>Context social și resurse.</strong></p>
+        <hr />
+        <p><span class='tip'>Condiții de viață și cultură<span class='tooltip-box'><strong>Spus simplu:</strong> mediul poate ajuta sau limita învățarea.<br /><br /><strong>Formulare academică:</strong> factorii demografici includ mediul socio-economic și cultural, influențând accesul la resurse.<br /><br /><strong>Exemplu:</strong> sprijinul familial oferă oportunități de învățare.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Variabile interindividuale</h2>
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <p><strong>Diferențele dintre elevi apar din combinarea acestor factori.</strong></p>
+        <p><span class='tip'>Personalitatea adaugă originalitate<span class='tooltip-box'><strong>Spus simplu:</strong> același context poate da rezultate diferite la persoane diferite.<br /><br /><strong>Formulare academică:</strong> trăsăturile de personalitate modulează efectul factorilor cognitivi și afectivi.<br /><br /><strong>Exemplu:</strong> doi elevi cu aceeași abilitate reacționează diferit la eșec.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q2": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația este <span class='tip'>forța care inițiază și menține învățarea<span class='tooltip-box'><strong>Spus simplu:</strong> este „de ce-ul” care te face să începi și să continui.<br /><br /><strong>Formulare academică:</strong> angajarea în sarcină depinde de factori personali, abilități și context social.<br /><br /><strong>Exemplu:</strong> elevul începe tema pentru că vrea să reușească și să fie apreciat.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔥</div>
+        <h3>Cheia motivației</h3>
+        <p><strong>Fără motivație, chiar și abilitățile bune rămân nefolosite.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Factori implicați</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Personalitate</h3>
+        <p><strong>Convingeri, emoții, atribuiri.</strong></p>
+        <hr />
+        <p><span class='tip'>Cum te vezi și cum explici reușita<span class='tooltip-box'><strong>Spus simplu:</strong> dacă atribui succesul efortului, perseverezi.<br /><br /><strong>Formulare academică:</strong> credințele personale și atribuirea cauzelor modulează angajarea în sarcină.<br /><br /><strong>Exemplu:</strong> „am reușit pentru că am muncit”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Abilități</h3>
+        <p><strong>Competențe și resurse cognitive.</strong></p>
+        <hr />
+        <p><span class='tip'>Ce poate face elevul efectiv<span class='tooltip-box'><strong>Spus simplu:</strong> cunoștințele și strategiile reale contează.<br /><br /><strong>Formulare academică:</strong> nivelul competențelor influențează percepția reușitei și efortul investit.<br /><br /><strong>Exemplu:</strong> un elev cu bază solidă se implică mai ușor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Context social</h3>
+        <p><strong>Climat, relații, cultură.</strong></p>
+        <hr />
+        <p><span class='tip'>Mediul poate sprijini sau inhiba<span class='tooltip-box'><strong>Spus simplu:</strong> un climat pozitiv crește motivația.<br /><br /><strong>Formulare academică:</strong> factorii sociali și culturali influențează accesul la resurse și sensul sarcinii.<br /><br /><strong>Exemplu:</strong> feedbackul profesorului crește implicarea.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q3": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația crește când elevul are <span class='tip'>așteptări de reușită și valoare percepută<span class='tooltip-box'><strong>Spus simplu:</strong> dacă crezi că poți și merită, te implici.<br /><br /><strong>Formulare academică:</strong> teoria Expectanță–Valoare explică angajarea prin probabilitatea de succes și valoarea sarcinii.<br /><br /><strong>Exemplu:</strong> te implici când crezi că poți reuși și sarcina contează pentru tine.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">📈</div>
+        <h3>Cheia implicării</h3>
+        <p><strong>Motivația = Expectanță × Valoare.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Componentele teoriei</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Expectanță</h3>
+        <p><strong>„Pot reuși.”</strong></p>
+        <hr />
+        <p><span class='tip'>Probabilitatea de succes percepută<span class='tooltip-box'><strong>Spus simplu:</strong> cât de sigur ești că poți face sarcina.<br /><br /><strong>Formulare academică:</strong> expectanța reprezintă credința elevului în capacitatea de a reuși.<br /><br /><strong>Exemplu:</strong> „dacă încerc, pot lua o notă bună”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Valoare</h3>
+        <p><strong>„Merită să fac.”</strong></p>
+        <hr />
+        <p><span class='tip'>Importanță și utilitate<span class='tooltip-box'><strong>Spus simplu:</strong> sarcina are sens pentru tine.<br /><br /><strong>Formulare academică:</strong> valoarea reflectă utilitatea, interesul și relevanța personală a sarcinii.<br /><br /><strong>Exemplu:</strong> „mă ajută pentru examen/ viitor”.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q4": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația crește când sunt satisfăcute <span class='tip'>nevoile de autonomie, competență și relaționare<span class='tooltip-box'><strong>Spus simplu:</strong> ai nevoie să alegi, să te simți capabil și conectat.<br /><br /><strong>Formulare academică:</strong> teoria auto-determinării (SDT) explică motivația prin aceste trei nevoi psihologice.<br /><br /><strong>Exemplu:</strong> elevul alege tema, primește feedback și colaborează cu colegii.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia autodeterminării</h3>
+        <p><strong>Când nevoile sunt împlinite, apare motivația intrinsecă.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Cele trei nevoi</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Autonomie</h3>
+        <p><strong>Simți că alegi.</strong></p>
+        <hr />
+        <p><span class='tip'>Control personal asupra deciziilor<span class='tooltip-box'><strong>Spus simplu:</strong> ai libertate să alegi cum lucrezi.<br /><br /><strong>Formulare academică:</strong> autonomia este nevoia de auto-determinare în activitate.<br /><br /><strong>Exemplu:</strong> elevul alege tema proiectului.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Competență</h3>
+        <p><strong>Simți că poți.</strong></p>
+        <hr />
+        <p><span class='tip'>Eficiență percepută<span class='tooltip-box'><strong>Spus simplu:</strong> simți că reușești prin efort.<br /><br /><strong>Formulare academică:</strong> competența este percepția eficacității în sarcini.<br /><br /><strong>Exemplu:</strong> „pot rezolva problema dacă mă concentrez”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Relaționare</h3>
+        <p><strong>Simți că aparții.</strong></p>
+        <hr />
+        <p><span class='tip'>Conectare cu ceilalți<span class='tooltip-box'><strong>Spus simplu:</strong> te simți acceptat în grup.<br /><br /><strong>Formulare academică:</strong> relaționarea este nevoia de legături sociale semnificative.<br /><br /><strong>Exemplu:</strong> elevul simte sprijin din partea colegilor.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q5": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația poate fi crescută prin <span class='tip'>joc și mecanisme de gamification<span class='tooltip-box'><strong>Spus simplu:</strong> reguli, feedback și progres fac învățarea mai atractivă.<br /><br /><strong>Formulare academică:</strong> gamification folosește elemente de joc pentru a susține implicarea.<br /><br /><strong>Exemplu:</strong> puncte, badge-uri și niveluri pentru progres.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🎮</div>
+        <h3>Cheia jocului educațional</h3>
+        <p><strong>Feedback rapid + progres vizibil = implicare.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Elemente tipice</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Provocări</h3>
+        <p><strong>Obiective clare și gradate.</strong></p>
+        <hr />
+        <p><span class='tip'>Dificultate progresivă<span class='tooltip-box'><strong>Spus simplu:</strong> sarcina devine mai grea pe măsură ce reușești.<br /><br /><strong>Formulare academică:</strong> provocările calibrate susțin motivația și fluxul (flow).<br /><br /><strong>Exemplu:</strong> niveluri succesive într-o lecție.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Recompense</h3>
+        <p><strong>Badges, puncte, niveluri.</strong></p>
+        <hr />
+        <p><span class='tip'>Feedback rapid și vizibil<span class='tooltip-box'><strong>Spus simplu:</strong> vezi imediat progresul.<br /><br /><strong>Formulare academică:</strong> recompensele consolidează implicarea și efortul.<br /><br /><strong>Exemplu:</strong> badge pentru finalizarea unei sarcini.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q6": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      nevoile sunt organizate <span class='tip'>pe niveluri, de la bază la autorealizare<span class='tooltip-box'><strong>Spus simplu:</strong> fără nevoile de bază, motivația scade.<br /><br /><strong>Formulare academică:</strong> piramida lui Maslow ordonează nevoile în trepte.<br /><br /><strong>Exemplu:</strong> fără somn și siguranță, e greu să te concentrezi.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🏔️</div>
+        <h3>Cheia piramidei</h3>
+        <p><strong>Nevoile superioare devin relevante când cele de bază sunt împlinite.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Niveluri (esential)</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Fiziologice</h3>
+        <p><strong>Hrană, somn, confort.</strong></p>
+        <hr />
+        <p><span class='tip'>Baza funcționării<span class='tooltip-box'><strong>Spus simplu:</strong> fără aceste nevoi, concentrarea scade.<br /><br /><strong>Formulare academică:</strong> nevoile fiziologice susțin energia necesară pentru activitate cognitivă.<br /><br /><strong>Exemplu:</strong> lipsa somnului reduce atenția.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Securitate</h3>
+        <p><strong>Stabilitate, protecție.</strong></p>
+        <hr />
+        <p><span class='tip'>Siguranță fizică și emoțională<span class='tooltip-box'><strong>Spus simplu:</strong> ai nevoie să te simți în siguranță ca să înveți.<br /><br /><strong>Formulare academică:</strong> securitatea reduce anxietatea și crește disponibilitatea pentru învățare.<br /><br /><strong>Exemplu:</strong> un climat de clasă sigur crește participarea.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Apartenență / stimă / autorealizare</h3>
+        <p><strong>Relații, valoare, dezvoltare.</strong></p>
+        <hr />
+        <p><span class='tip'>Nevoi superioare<span class='tooltip-box'><strong>Spus simplu:</strong> după baza sigură, cauți relații și sens.<br /><br /><strong>Formulare academică:</strong> apartenența, stima și autorealizarea susțin motivația internă și performanța.<br /><br /><strong>Exemplu:</strong> elevul se implică pentru că se simte valoros.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q7": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      teoriile cognitive explică motivația prin <span class='tip'>interpretări, așteptări și sens personal<span class='tooltip-box'><strong>Spus simplu:</strong> nu doar ce se întâmplă contează, ci cum interpretezi.<br /><br /><strong>Formulare academică:</strong> motivația este mediată de evaluările cognitive ale situațiilor și rezultatelor.<br /><br /><strong>Exemplu:</strong> aceeași notă este interpretată ca „șansă de progres” sau „eșec total”.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">💡</div>
+        <h3>Cheia cognitivă</h3>
+        <p><strong>Motivația se construiește prin explicațiile pe care le dai.</strong></p>
+        <hr />
+        <p><span class='tip'>Interpretare și sens personal<span class='tooltip-box'><strong>Spus simplu:</strong> contează cum „povestești” ce ți se întâmplă.<br /><br /><strong>Formulare academică:</strong> evaluările cognitive mediază emoțiile și comportamentele de învățare.<br /><br /><strong>Exemplu:</strong> „am eșuat pentru că nu am exersat suficient”.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q8": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      atribuirea explică <span class='tip'>cum interpretezi cauzele succesului și eșecului<span class='tooltip-box'><strong>Spus simplu:</strong> îți spui „de ce a ieșit” și asta îți schimbă motivația.<br /><br /><strong>Formulare academică:</strong> teoria atribuirii descrie modul în care cauza percepută influențează emoțiile și implicarea.<br /><br /><strong>Exemplu:</strong> „am reușit pentru că am muncit” crește efortul viitor.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia interpretării</h3>
+        <p><strong>Atribuirile pot crește sau scădea motivația.</strong></p>
+        <hr />
+        <p><span class='tip'>Cauza percepută schimbă emoția și efortul<span class='tooltip-box'><strong>Spus simplu:</strong> dacă spui „e vina mea și pot schimba”, te implici; dacă spui „nu am cum”, renunți.<br /><br /><strong>Formulare academică:</strong> atribuirea cauzelor influențează anticiparea reușitei și persistența în sarcină.<br /><br /><strong>Exemplu:</strong> „am greșit pentru că nu am învățat suficient”.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Dimensiuni ale atribuirii</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Intern / extern</h3>
+        <p><strong>Ține de mine sau de context.</strong></p>
+        <hr />
+        <p><span class='tip'>Locul cauzei<span class='tooltip-box'><strong>Spus simplu:</strong> cauza poate fi „în mine” sau „în afară”.<br /><br /><strong>Formulare academică:</strong> locusul cauzal descrie sursa percepută a rezultatului.<br /><br /><strong>Exemplu:</strong> „nu am exersat” vs. „testul a fost prea greu”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Stabil / instabil</h3>
+        <p><strong>Se menține sau se schimbă.</strong></p>
+        <hr />
+        <p><span class='tip'>Durata cauzei<span class='tooltip-box'><strong>Spus simplu:</strong> unele cauze rămân, altele se pot schimba.<br /><br /><strong>Formulare academică:</strong> stabilitatea influențează așteptările viitoare de reușită.<br /><br /><strong>Exemplu:</strong> „am avut o zi proastă” (instabil) vs. „nu sunt bun la asta” (stabil).</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Controlabil / necontrolabil</h3>
+        <p><strong>Pot influența sau nu.</strong></p>
+        <hr />
+        <p><span class='tip'>Gradul de control personal<span class='tooltip-box'><strong>Spus simplu:</strong> unele cauze pot fi schimbate de tine, altele nu.<br /><br /><strong>Formulare academică:</strong> controlabilitatea determină dacă elevul investește efort ulterior.<br /><br /><strong>Exemplu:</strong> „nu am învățat” (controlabil) vs. „am fost bolnav” (necontrolabil).</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q9": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      neajutorarea învățată apare când elevul <span class='tip'>crede că nu are control asupra rezultatului<span class='tooltip-box'><strong>Spus simplu:</strong> „nu contează ce fac, tot nu reușesc”.<br /><br /><strong>Formulare academică:</strong> atribuiri stabile și necontrolabile pot reduce efortul și implicarea.<br /><br /><strong>Exemplu:</strong> după eșecuri repetate, elevul renunță să mai încerce.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">⚠️</div>
+        <h3>Cheia riscului</h3>
+        <p><strong>Motivația scade când elevul nu mai vede sensul efortului.</strong></p>
+        <hr />
+        <p><span class='tip'>Atribuiri stabile și necontrolabile<span class='tooltip-box'><strong>Spus simplu:</strong> „nu pot și nu se va schimba”.<br /><br /><strong>Formulare academică:</strong> percepția lipsei de control duce la pasivitate și evitarea sarcinilor.<br /><br /><strong>Exemplu:</strong> elevul renunță înainte să încerce.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Semne și consecințe</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Pasivitate</h3>
+        <p><strong>Evită sarcinile.</strong></p>
+        <hr />
+        <p><span class='tip'>Reducerea efortului<span class='tooltip-box'><strong>Spus simplu:</strong> „nu are rost să încerc”.<br /><br /><strong>Formulare academică:</strong> scade inițierea și persistența în activitate.<br /><br /><strong>Exemplu:</strong> nu mai începe tema.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Scăderea performanței</h3>
+        <p><strong>Se confirmă „nu pot”.</strong></p>
+        <hr />
+        <p><span class='tip'>Cerc vicios al eșecului<span class='tooltip-box'><strong>Spus simplu:</strong> lipsa efortului duce la rezultate slabe.<br /><br /><strong>Formulare academică:</strong> performanța scăzută întărește atribuirea negativă inițială.<br /><br /><strong>Exemplu:</strong> nota mică confirmă „nu sunt bun”.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q10": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația are <span class='tip'>faze distincte (Mih, 2010)<span class='tooltip-box'><strong>Spus simplu:</strong> treci prin pași de la nevoie la acțiune și evaluare.<br /><br /><strong>Formulare academică:</strong> procesul motivațional include declanșare, orientare, mobilizare, acțiune și evaluare a rezultatului.<br /><br /><strong>Exemplu:</strong> apare nevoia, îți fixezi scopul, acționezi, apoi îți evaluezi reușita.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">⏱️</div>
+        <h3>Cheia procesului</h3>
+        <p><strong>Motivația se construiește în timp, nu apare brusc.</strong></p>
+        <hr />
+        <p><span class='tip'>Trecere de la nevoie la acțiune<span class='tooltip-box'><strong>Spus simplu:</strong> întâi simți nevoia, apoi decizi și acționezi.<br /><br /><strong>Formulare academică:</strong> procesul motivațional presupune treceri succesive între etape (Mih, 2010).<br /><br /><strong>Exemplu:</strong> simți nevoia de reușită, alegi să înveți, apoi evaluezi rezultatul.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🔁&nbsp;&nbsp;Faze ale procesului motivațional</h2>
+    <div class="lesson-flow">
+      <span class="lesson-pill">Apariția nevoii</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Formarea motivului</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Decizie</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Acțiune</span>
+      <span class="lesson-flow-sep">›</span>
+      <span class="lesson-pill">Evaluare</span>
+    </div>
+    <hr />
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Ce înseamnă fazele</h3>
+        <p><span class='tip'><strong>Apariția nevoii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> simți o lipsă sau o dorință.<br /><br /><strong>Formulare academică:</strong> nevoia declanșează tensiunea motivațională.<br /><br /><strong>Exemplu:</strong> vrei să înțelegi o lecție.</span></span></p>
+        <p><span class='tip'><strong>Formarea motivului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nevoia capătă un obiect concret.<br /><br /><strong>Formulare academică:</strong> motivul orientează energia spre un scop.<br /><br /><strong>Exemplu:</strong> „vreau să iau o notă bună”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>De la decizie la evaluare</h3>
+        <p><span class='tip'><strong>Decizie</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi să acționezi.<br /><br /><strong>Formulare academică:</strong> se selectează strategia de acțiune.<br /><br /><strong>Exemplu:</strong> îți faci program de studiu.</span></span></p>
+        <p><span class='tip'><strong>Acțiune + evaluare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> lucrezi și vezi rezultatul.<br /><br /><strong>Formulare academică:</strong> execuția este urmată de aprecierea rezultatelor și ajustare.<br /><br /><strong>Exemplu:</strong> verifici ce ai învățat și corectezi.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q11": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      atitudinile influențează <span class='tip'>direcția și intensitatea motivației pentru învățare<span class='tooltip-box'><strong>Spus simplu:</strong> dacă ai o atitudine pozitivă, te implici mai mult.<br /><br /><strong>Formulare academică:</strong> atitudinile orientează intenția de acțiune și nivelul de perseverență în sarcină.<br /><br /><strong>Exemplu:</strong> un elev care apreciază disciplina își asumă sarcini mai dificile.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia relației</h3>
+        <p><strong>Atitudinile sunt „filtrul” prin care vezi sarcina.</strong></p>
+        <hr />
+        <p><span class='tip'>Atitudine pozitivă = implicare mai mare<span class='tooltip-box'><strong>Spus simplu:</strong> dacă îți place materia, muncești mai mult.<br /><br /><strong>Formulare academică:</strong> atitudinile influențează intenția de a acționa și persistența în sarcină.<br /><br /><strong>Exemplu:</strong> elevul cu atitudine pozitivă își asumă teme dificile.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Componente ale atitudinii</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Cognitiv</h3>
+        <p><strong>Ce cred despre sarcină.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Afectiv</h3>
+        <p><strong>Ce simt față de sarcină.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Comportamental</h3>
+        <p><strong>Cum acționez în sarcină.</strong></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q12": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      metacogniția înseamnă <span class='tip'>să îți reglezi conștient învățarea<span class='tooltip-box'><strong>Spus simplu:</strong> îți planifici, urmărești și ajustezi strategia.<br /><br /><strong>Formulare academică:</strong> metacogniția include planificarea, monitorizarea și reglarea proceselor cognitive.<br /><br /><strong>Exemplu:</strong> îți verifici rezolvarea și corectezi pașii.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧰</div>
+        <h3>Cheia autoreglării</h3>
+        <p><strong>„Mă opresc, verific, schimb strategia.”</strong></p>
+        <hr />
+        <p><span class='tip'>Gândire despre propria gândire<span class='tooltip-box'><strong>Spus simplu:</strong> îți urmărești pașii și corectezi.<br /><br /><strong>Formulare academică:</strong> metacogniția implică planificare, monitorizare și reglare a proceselor cognitive.<br /><br /><strong>Exemplu:</strong> refaci rezolvarea dacă observi o eroare.</span></span></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Procese metacognitive</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>Planificare</h3>
+        <p><strong>Stabilesc pașii.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Monitorizare</h3>
+        <p><strong>Verific dacă funcționează.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Reglare</h3>
+        <p><strong>Schimb când e nevoie.</strong></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Evaluare</h3>
+        <p><strong>Reflectez la rezultat.</strong></p>
+      </div>
+    </div>
+  `,
+  "phed-u7-q13": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      motivația și metacogniția se <span class='tip'>susțin reciproc în performanță<span class='tooltip-box'><strong>Spus simplu:</strong> dacă ești motivat, îți controlezi mai bine învățarea, iar controlul crește motivația.<br /><br /><strong>Formulare academică:</strong> motivația facilitează autoreglarea, iar autoreglarea stabilizează motivația și performanța.<br /><br /><strong>Exemplu:</strong> elevul motivat își monitorizează progresul și își păstrează implicarea.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔗</div>
+        <h3>Cheia interacțiunii</h3>
+        <p><strong>Controlul și energia internă lucrează împreună.</strong></p>
+        <hr />
+        <p><span class='tip'>Motivația susține autoreglarea<span class='tooltip-box'><strong>Spus simplu:</strong> dacă ai energie, îți controlezi mai bine învățarea; controlul îți crește energia.<br /><br /><strong>Formulare academică:</strong> motivația și metacogniția se susțin reciproc și influențează performanța.<br /><br /><strong>Exemplu:</strong> elevul motivat își monitorizează mai atent progresul.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u8-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Ideea de bază:</strong>
+      învățarea autoreglată este <span class='tip'>un proces activ de planificare, monitorizare și control<span class='tooltip-box'><strong>Spus simplu:</strong> elevul își conduce propria învățare.<br /><br /><strong>Formulare academică:</strong> autoreglarea implică stabilirea obiectivelor, monitorizarea progresului și controlul strategiilor.<br /><br /><strong>Exemplu:</strong> elevul își planifică studiul, verifică dacă înțelege și își ajustează metoda.</span></span>.
+    </div>
+    <hr />
+
+    <div class="lesson-grid one">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Cheia autoreglării</h3>
+        <p><strong>Obiective + strategii + criterii de evaluare.</strong></p>
+      </div>
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Ce poate regla elevul</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>Cunoașterea</h3>
+        <p><strong>Strategii cognitive.</strong></p>
+        <hr />
+        <p><span class='tip'>Cum procesezi informația<span class='tooltip-box'><strong>Spus simplu:</strong> alegi metode de studiu potrivite.<br /><br /><strong>Formulare academică:</strong> elevul monitorizează și controlează strategiile cognitive pentru înțelegere și memorare.<br /><br /><strong>Exemplu:</strong> rezumare, scheme, exemple.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Motivația</h3>
+        <p><strong>Efort și perseverență.</strong></p>
+        <hr />
+        <p><span class='tip'>Menținerea implicării<span class='tooltip-box'><strong>Spus simplu:</strong> îți gestionezi energia și interesul.<br /><br /><strong>Formulare academică:</strong> autoreglarea motivației susține continuarea sarcinii.<br /><br /><strong>Exemplu:</strong> îți amintești scopul când apare oboseala.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Comportamentul</h3>
+        <p><strong>Organizare și timp.</strong></p>
+        <hr />
+        <p><span class='tip'>Gestionarea mediului de studiu<span class='tooltip-box'><strong>Spus simplu:</strong> îți organizezi timpul și spațiul.<br /><br /><strong>Formulare academică:</strong> autoreglarea comportamentală include planificare și control al contextului de învățare.<br /><br /><strong>Exemplu:</strong> îți setezi intervale de studiu și pauze.</span></span></p>
+      </div>
+    </div>
+  `,
+  "phed-u8-q2": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Pintrich (2000) – definiția învățării autoreglate</strong><br/>
+    Învățarea autoreglată este un <span class='tip'><strong>proces activ</strong><span class='tooltip-box'>Elevul stabilește obiective și acționează intenționat, nu învață „la întâmplare”.</span></span>
+    prin care elevii își <span class='tip'><strong>stabilesc obiective</strong><span class='tooltip-box'>Obiectivele sunt reperul pentru monitorizare și control.</span></span> și își
+    <span class='tip'><strong>monitorizează</strong><span class='tooltip-box'>Observă ce se întâmplă în învățare (înțelegere, efort, context).</span></span>,
+    <span class='tip'><strong>reglează</strong><span class='tooltip-box'>Ajustează strategii, timp, efort, motivație.</span></span> și
+    <span class='tip'><strong>controlează</strong><span class='tooltip-box'>Ia decizii pentru a rămâne pe obiectiv.</span></span>
+    <strong>cunoașterea, motivația și comportamentul</strong>, în funcție de obiective și de mediul în care învață.
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Idee-cheie: autoreglarea „leagă” elevul de rezultate</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Ce este monitorizat/controlat?</h3>
+      <p><strong>Cunoașterea</strong> (înțelegere, strategii), <strong>motivația</strong> (eficacitate, valoare), <strong>comportamentul</strong> (timp, efort).</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „Nu înțeleg → schimb strategia + cresc efortul + reduc distragerile.”</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🌍&nbsp;&nbsp;Cum se raportează la mediu?</h3>
+      <p>
+        Activitățile de autoreglare <span class='tip'><strong>mediază</strong><span class='tooltip-box'>Fac legătura dintre individ, context și performanță.</span></span>
+        relația dintre elev, context și performanță.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> în același context, elevul care monitorizează și ajustează obține rezultate mai bune.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Cele 4 faze (fără delimitări mereu clare)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Planificare</h3>
+      <p>
+        <span class='tip'><strong>Obiective + plan</strong><span class='tooltip-box'>Stabilești ce urmărești și cum.</span></span>
+        + <span class='tip'><strong>activarea cunoștințelor anterioare</strong><span class='tooltip-box'>Ce știu deja? ce mi-a mers în trecut?</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Monitorizare</h3>
+      <p>
+        <span class='tip'><strong>Conștientizare metacognitivă</strong><span class='tooltip-box'>Îmi dau seama ce înțeleg/nu înțeleg, cum mă simt, ce cere sarcina.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Control & reglare</h3>
+      <p>
+        <span class='tip'><strong>Ajustări</strong><span class='tooltip-box'>Schimb strategia, timpul, efortul, condițiile, pentru a rămâne pe obiectiv.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Reacții & reflecții</h3>
+      <p>
+        <span class='tip'><strong>Evaluare</strong><span class='tooltip-box'>Ce a mers? ce schimb data viitoare?</span></span> despre sine, sarcină și context.
+      </p>
+    </div>
+  </div>
+
+  <div class="lesson-highlight" style="margin-top:16px;">
+    <strong>🔁&nbsp;&nbsp;Succesiune:</strong> fazele nu sunt <strong>ierarhice/liniare</strong>, ci se pliază pe necesități (poți reveni la planificare după monitorizare).
+  </div>
+`,
+
+  "phed-u8-q3": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Zimmerman (2000) – modelul ciclic</strong><br/>
+    Autoreglarea = <span class='tip'><strong>gânduri, sentimente și comportamente auto-generate</strong><span class='tooltip-box'>Sunt produse de elev, nu impuse exclusiv din exterior.</span></span>
+    care sunt <span class='tip'><strong>planificate și adaptate ciclic</strong><span class='tooltip-box'>Se ajustează continuu pe baza feedback-ului.</span></span>
+    pentru atingerea obiectivelor.
+  </div>
+
+  <hr />
+
+  <h2>👤&nbsp;&nbsp;Cursantul autoreglat</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🚀&nbsp;&nbsp;Proactiv</h3>
+      <p>Stabilește obiective, se auto-observă, se autoevaluează și își adaptează strategiile.</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> își face plan, verifică progresul, schimbă metoda.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧰&nbsp;&nbsp;Strategii implicate</h3>
+      <p>
+        <span class='tip'><strong>Strategii legate de sarcină</strong><span class='tooltip-box'>Timp, organizare, metode de studiu.</span></span>
+        + <span class='tip'><strong>credințe auto-motivaționale</strong><span class='tooltip-box'>Autoeficacitate, motivație intrinsecă.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔄&nbsp;&nbsp;Cele 3 faze ciclice</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Gândirea anticipatoare</h3>
+      <p>
+        <span class='tip'><strong>Obiective + plan</strong><span class='tooltip-box'>Ce urmăresc? ce strategie aleg?</span></span>
+        + <span class='tip'><strong>convingeri motivaționale</strong><span class='tooltip-box'>„Pot reuși?” „Merită?”</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Monitorizarea performanței</h3>
+      <p>
+        <span class='tip'><strong>Auto-observare + autocontrol</strong><span class='tooltip-box'>Verific dacă înțeleg și dacă respect planul.</span></span>
+        în timpul sarcinii.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Auto-reflecția</h3>
+      <p>
+        <span class='tip'><strong>Evaluare + ajustări</strong><span class='tooltip-box'>Ce a mers? ce schimb pentru data viitoare?</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <div class="lesson-highlight" style="margin-top:16px;">
+    <strong>🔁&nbsp;&nbsp;De ce „ciclic”?</strong> feedback-ul din performanță influențează obiectivele și strategiile următoarei încercări (închide și reia ciclul).
+  </div>
+`,
+
+  "phed-u8-q4": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Pintrich vs. Zimmerman – asemănări și diferențe</strong><br/>
+    <span class='tip'><strong>Ideea comună</strong><span class='tooltip-box'>Ambele modele văd elevul ca agent activ care își construiește învățarea.</span></span>:
+    elevul stabilește obiective și folosește strategii pentru a-și controla învățarea.
+  </div>
+
+  <hr />
+
+  <h2>🤝&nbsp;&nbsp;Ce au în comun</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Obiectivele ghidează autoreglarea</h3>
+      <p>Obiectivele sunt reper pentru monitorizare, control și evaluare.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧠➕🔥➕⏱️&nbsp;&nbsp;Mai mult decât cogniție</h3>
+      <p>Ambele includ motivația, comportamentul și relația cu mediul.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Diferența de accent</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>Pintrich</h3>
+      <p>
+        Autoreglarea = activități de <strong>monitorizare–control–reglare</strong> care
+        <span class='tip'><strong>mediază</strong><span class='tooltip-box'>Leagă individ–context–performanță.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Accent:</strong> reglarea situată, adaptare în timp real la sarcină și context.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>Zimmerman</h3>
+      <p>
+        Autoreglarea = procese auto-generate ajustate <span class='tip'><strong>ciclic</strong><span class='tooltip-box'>Pe baza feedback-ului din performanță.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Accent:</strong> legătura explicită „final → următoarea încercare” prin feedback.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Organizarea fazelor</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Pintrich</h3>
+      <p><strong>4 faze</strong>: planificare → monitorizare → control/reglare → reacții/reflecții (flexibile, neliniare).</p>
+    </div>
+    <div class="lesson-card">
+      <h3>Zimmerman</h3>
+      <p><strong>3 faze</strong>: anticipare → monitorizarea performanței → auto-reflecție (ciclu pe feedback).</p>
+    </div>
+  </div>
+
+  <div class="lesson-highlight" style="margin-top:16px;">
+    <strong>🧱&nbsp;&nbsp;Limite:</strong> Pintrich formulează explicit limite individuale și contextuale; Zimmerman sugerează limita prin eficiența cu care elevul activează și ajustează procesele pe baza feedback-ului.
+  </div>
+`,
+
+  "phed-u8-q5": `
+  <div class="lesson-highlight">
+    <strong>🧠&nbsp;&nbsp;Planificarea în autoreglarea cogniției</strong><br/>
+    Planificarea înseamnă <span class='tip'><strong>stabilirea obiectivelor</strong><span class='tooltip-box'>Ce vreau să obțin?</span></span>
+    și <span class='tip'><strong>activarea cunoștințelor relevante</strong><span class='tooltip-box'>Ce știu deja? ce strategii îmi sunt utile?</span></span>,
+    care vor ghida monitorizarea și evaluarea.
+  </div>
+
+  <hr />
+
+  <h2>🎯&nbsp;&nbsp;Rolul obiectivului țintă</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Ghidează ce activezi</h3>
+      <p>Obiectivul determină ce cunoștințe/strategii scoți „în față”.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>✅&nbsp;&nbsp;Criteriu de monitorizare & evaluare</h3>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „vreau înțelegere profundă” → verific sensul, nu doar memorarea.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Obiectivele pot evolua</h2>
+  <div class="lesson-highlight">
+    Obiectivele pot fi <span class='tip'><strong>ajustate/reformulate</strong><span class='tooltip-box'>Autoreglarea e adaptativă.</span></span> pe parcursul activității.
+    <br/><br/>
+    <strong>Exemplu:</strong> „termin tema” → devine „clarific conceptul dificil”.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Țintă vs. direcție</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Obiectiv țintă</h3>
+      <p><strong>Rezultat concret</strong> al sarcinii (ce finalizez/obțin).</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „rezolv corect exercițiile”.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Obiectiv de direcție</h3>
+      <p><strong>Motiv general</strong> (de ce urmăresc sarcina).</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „vreau să înțeleg mai bine materia”.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏁&nbsp;&nbsp;Măiestrie vs. performanță</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>🛠️&nbsp;&nbsp;Orientare spre măiestrie</h3>
+      <p>Accent pe <strong>învățare</strong>, progres personal, standarde de auto-îmbunătățire.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🥇&nbsp;&nbsp;Orientare spre performanță</h3>
+      <p>Accent pe <strong>comparație</strong>, a fi superior, evitarea inferiorității (standarde normative).</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧮&nbsp;&nbsp;Modelul 2×2 (Elliot & McGregor)</h2>
+  <div class="lesson-highlight">
+    Combină <span class='tip'><strong>tipul competenței</strong><span class='tooltip-box'>Măiestrie vs. performanță.</span></span>
+    cu <span class='tip'><strong>valența</strong><span class='tooltip-box'>Apropiere de succes vs. evitare a eșecului.</span></span>
+    → 4 tipuri de obiective.
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Când activarea devine autoreglare?</h2>
+  <div class="lesson-highlight">
+    Când activarea cunoștințelor anterioare este <span class='tip'><strong>intenționată și conștientă</strong><span class='tooltip-box'>Nu doar „îmi vine automat”, ci caut activ informația relevantă.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> recitesc noțiuni vechi / aleg strategii înainte de a începe.
+  </div>
+`,
+
+  "phed-u8-q6": `
+  <div class="lesson-highlight">
+    <strong>🧠&nbsp;&nbsp;Monitorizarea cogniției și metacogniția</strong><br/>
+    Monitorizarea cogniției = <span class='tip'><strong>conștientizarea propriei cunoașteri</strong><span class='tooltip-box'>Observ și urmăresc ce înțeleg, ce nu înțeleg, cât de sigur sunt.</span></span>
+    (componentă centrală a <strong>metacogniției</strong>).
+  </div>
+
+  <hr />
+
+  <h2>📚&nbsp;&nbsp;Tipuri de cunoștințe metacognitive</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Declarative</h3>
+      <p>
+        <span class='tip'><strong>„Știu dacă știu”</strong><span class='tooltip-box'>Pot aprecia dacă stăpânesc conținutul.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „știu/nu știu definiția”.</p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Procedurale</h3>
+      <p>
+        <span class='tip'><strong>„Știu cum”</strong><span class='tooltip-box'>Știu să aplic o strategie / o formulă.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „știu cum să rezolv problema”.</p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Condiționale</h3>
+      <p>
+        <span class='tip'><strong>„Știu când și de ce”</strong><span class='tooltip-box'>Aleg strategia potrivită în funcție de sarcină.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „când recitesc vs. când fac exerciții”.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔎&nbsp;&nbsp;Judecăți metacognitive: JOL și FOK</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📝&nbsp;&nbsp;JOL (Judgments of Learning)</h3>
+      <p>
+        <span class='tip'><strong>Estimări ale reamintirii viitoare</strong><span class='tooltip-box'>Apar în timpul/imediat după studiu: „voi ști la test?”.</span></span>
+        și sunt <span class='tip'><strong>relativ corecte</strong><span class='tooltip-box'>Nu perfecte, dar utile pentru autoreglare.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>💡&nbsp;&nbsp;FOK (Feeling of Knowing)</h3>
+      <p>
+        <span class='tip'><strong>„Nu-mi vine acum, dar știu că știu”</strong><span class='tooltip-box'>Convingerea că pot recupera ulterior informația.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Limită frecventă:</strong> <span class='tip'><strong>supraevaluare</strong><span class='tooltip-box'>Cred că voi recupera, dar la test nu reușesc.</span></span>.</p>
+    </div>
+  </div>
+`,
+
+  "phed-u8-q7": `
+  <div class="lesson-highlight">
+    <strong>🧠&nbsp;&nbsp;Control și reflecție cognitivă</strong><br/>
+    <span class='tip'><strong>Controlul/reglarea cognitivă</strong><span class='tooltip-box'>Ajustarea strategiilor pentru a se potrivi sarcinii și obiectivelor.</span></span>
+    înseamnă să îți adaptezi strategiile la cerințe (nu doar să „continui la fel”).
+  </div>
+
+  <hr />
+
+  <h2>🧰&nbsp;&nbsp;Ce strategii folosesc elevii?</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Strategii cognitive</h3>
+      <p>
+        <span class='tip'><strong>Prelucrare directă</strong><span class='tooltip-box'>Memorare, raționament, rezolvare de probleme.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> repet, fac exerciții, aplic o formulă.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Strategii metacognitive</h3>
+      <p>
+        <span class='tip'><strong>Decid și schimb strategia</strong><span class='tooltip-box'>Reglez: păstrez/schimb/combina strategii cognitive.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> renunț la „doar citit” și trec la scheme + exerciții.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔍&nbsp;&nbsp;Reacție și reflecție cognitivă</h2>
+  <div class="lesson-highlight">
+    Reflecția implică <span class='tip'><strong>judecăți și evaluări ale performanței</strong><span class='tooltip-box'>Analizez ce a funcționat în învățare.</span></span>.
+    <br/><br/>
+    <strong>Autoreglare eficientă:</strong> succesul/eșecul este atribuit <span class='tip'><strong>strategiilor</strong><span class='tooltip-box'>„strategia nu a fost bună”</span></span>, nu „talentului” fix.
+  </div>
+
+  <hr />
+
+  <h2>📈&nbsp;&nbsp;De ce contează evaluarea permanentă</h2>
+  <div class="lesson-highlight">
+    Pentru că susține <span class='tip'><strong>ajustarea strategiilor</strong><span class='tooltip-box'>Corectez devreme, nu după ce e prea târziu.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> îmi dau seama rapid că metoda nu funcționează și o schimb.
+  </div>
+`,
+
+  "phed-u8-q8": `
+  <div class="lesson-highlight">
+    <strong>🔥&nbsp;&nbsp;Planificarea și activarea motivațională</strong><br/>
+    Autoreglarea motivației și afectului vizează
+    <span class='tip'><strong>convingeri</strong><span class='tooltip-box'>autoeficacitate, așteptări</span></span>,
+    <span class='tip'><strong>scopuri</strong><span class='tooltip-box'>de direcție (măiestrie/perf.)</span></span>
+    și <span class='tip'><strong>emoții</strong><span class='tooltip-box'>interes, anxietate, frică</span></span>
+    legate de sarcină.
+  </div>
+
+  <hr />
+
+  <h2>💪&nbsp;&nbsp;Autoeficacitatea</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>✅&nbsp;&nbsp;Ce este</h3>
+      <p>
+        <span class='tip'><strong>Convingerea că pot reuși</strong><span class='tooltip-box'>Nu este măsură obiectivă a abilităților, ci credință despre capacitate.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Ce influențează</h3>
+      <p>Alegerea sarcinii, efortul și persistența.</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> dacă „cred că pot”, muncesc mai mult și rezist mai bine la dificultate.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;EOL (Ease of Learning)</h2>
+  <div class="lesson-highlight">
+    <span class='tip'><strong>EOL</strong><span class='tooltip-box'>Judecăți înainte de învățare: „cât de ușor/dificil va fi?”.</span></span>
+    sunt estimări anticipative despre dificultate (corelează doar moderat cu performanța reală).
+  </div>
+
+  <hr />
+
+  <h2>💎&nbsp;&nbsp;Valoarea sarcinii și interesul personal</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>💎&nbsp;&nbsp;Valoarea sarcinii</h3>
+      <p>
+        Dacă sarcina e percepută ca <span class='tip'><strong>importantă/utilă/relevantă</strong><span class='tooltip-box'>Pentru obiective personale.</span></span>,
+        crește probabilitatea de angajare.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🌟&nbsp;&nbsp;Interesul personal</h3>
+      <p>
+        Poate facilita implicarea, dar poate coexista și cu emoții negative
+        (<span class='tip'><strong>anxietate/frică</strong><span class='tooltip-box'>Mai ales când miza e mare.</span></span>)
+        care interferează cu performanța.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u8-q9": `
+  <div class="lesson-highlight">
+    <strong>💎&nbsp;&nbsp;Modelul expectanță–valoare</strong><br/>
+    Implicarea apare prin combinația dintre
+    <span class='tip'><strong>șansele percepute de succes</strong><span class='tooltip-box'>„Cred că pot reuși?”</span></span>
+    și <span class='tip'><strong>valoarea sarcinii</strong><span class='tooltip-box'>„Merită pentru mine?”</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Ce include valoarea sarcinii</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📌&nbsp;&nbsp;Relevanță</h3>
+      <p>Are legătură cu obiectivele mele.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🛠️&nbsp;&nbsp;Utilitate & importanță</h3>
+      <p>Ajută la un scop (școlar sau viitor).</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🚀&nbsp;&nbsp;Cum influențează începerea sarcinii</h2>
+  <div class="lesson-highlight">
+    Credințele despre valoare <span class='tip'><strong>cresc probabilitatea de angajare</strong><span class='tooltip-box'>Acționează anticipativ.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> „are sens pentru viitorul meu” → mă apuc mai ușor.
+  </div>
+
+  <hr />
+
+  <h2>🌟&nbsp;&nbsp;Interesul și un posibil efect negativ</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>🌟&nbsp;&nbsp;Interes → valoare mai mare</h3>
+      <p>Interesul personal poate spori valoarea percepută și implicarea.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>⚠️&nbsp;&nbsp;Valoare mare, dar...</h3>
+      <p>
+        Pot apărea <span class='tip'><strong>anxietate/frică</strong><span class='tooltip-box'>Anticiparea eșecului sau frica de evaluare.</span></span>
+        care interferează cu performanța.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „e foarte important” → emoțiile îmi blochează atenția.</p>
+    </div>
+  </div>
+`,
+
+  "phed-u8-q10": `
+  <div class="lesson-highlight">
+    <strong>⏱️&nbsp;&nbsp;Planificarea și monitorizarea comportamentului</strong><br/>
+    În autoreglarea comportamentală, elevul își gestionează activitatea:
+    <span class='tip'><strong>timpul</strong><span class='tooltip-box'>când/ cât lucrez</span></span> și
+    <span class='tip'><strong>strategiile de studiu</strong><span class='tooltip-box'>ce metode aleg</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Planificare/activare comportamentală</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🗓️&nbsp;&nbsp;Managementul activității</h3>
+      <p>Stabilesc programul și metodele potrivite sarcinii.</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „azi 45 min recapitulare + 30 min exerciții”.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>👀&nbsp;&nbsp;Monitorizarea comportamentului</h3>
+      <p>
+        <span class='tip'><strong>Urmăresc timpul și efortul</strong><span class='tooltip-box'>Observ dacă pierd timp sau dacă ritmul e potrivit.</span></span>.
+      </p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „am stat prea mult pe o parte → accelerez/redistribui timpul”.</p>
+    </div>
+  </div>
+`,
+
+  "phed-u8-q11": `
+  <div class="lesson-highlight">
+    <strong>⏱️&nbsp;&nbsp;Control și reflecție comportamentală</strong><br/>
+    Controlul comportamentului înseamnă <span class='tip'><strong>ajustarea timpului și efortului</strong><span class='tooltip-box'>În funcție de reevaluarea dificultății sarcinii.</span></span>,
+    nu menținerea rigidă a planului.
+  </div>
+
+  <hr />
+
+  <h2>🎛️&nbsp;&nbsp;Controlul în timpul sarcinii</h2>
+  <div class="lesson-highlight">
+    Elevul își <strong>recalibrează</strong> timpul/efortul când sarcina e percepută ca mai ușoară sau mai dificilă.
+    <br/><br/>
+    <strong>Exemplu:</strong> aloc mai mult timp unei părți dificile.
+  </div>
+
+  <hr />
+
+  <h2>🆘&nbsp;&nbsp;Strategie comportamentală foarte eficientă</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Căutarea ajutorului</h3>
+      <p>
+        <span class='tip'><strong>Solicitarea ajutorului</strong><span class='tooltip-box'>De la profesor/colegi pentru depășirea aspectelor dificile.</span></span>
+        este una dintre strategiile cele mai eficiente.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🪜&nbsp;&nbsp;Exemplu</h3>
+      <p class="lesson-highlight">„Nu înțeleg pasul 3 → cer o explicație / un exemplu rezolvat.”</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🪞&nbsp;&nbsp;Reacție și reflecție comportamentală</h2>
+  <div class="lesson-highlight">
+    Implică <span class='tip'><strong>judecăți despre propriile comportamente</strong><span class='tooltip-box'>Cum am lucrat? ce obiceiuri m-au ajutat/încurcat?</span></span>
+    și despre motivația care le-a susținut.
+    <br/><br/>
+    <strong>Exemplu:</strong> „am amânat prea mult → schimb rutina”.
+  </div>
+`,
+
+  "phed-u8-q12": `
+  <div class="lesson-highlight">
+    <strong>🌍&nbsp;&nbsp;Planificarea și monitorizarea contextului de învățare</strong><br/>
+    La Pintrich, autoreglarea contextuală ține mult de
+    <span class='tip'><strong>modul în care percep sarcina și contextul</strong><span class='tooltip-box'>Chiar dacă situația obiectivă rămâne aceeași, interpretarea poate schimba implicarea.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Planificare/activare contextuală</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Perceperea sarcinii</h3>
+      <p>Interpretez cerința și „ce înseamnă” pentru mine.</p>
+      <p class="lesson-highlight"><strong>Exemplu:</strong> „dificil” = oportunitate de învățare, nu amenințare.</p>
+    </div>
+    <div class="lesson-card">
+      <h3>🏫&nbsp;&nbsp;Norme și climat</h3>
+      <p>
+        Percepțiile despre normele/climatul clasei pot fi reale sau distorsionate (de stereotipuri activate) și pot influența implicarea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>👀&nbsp;&nbsp;Monitorizare contextuală</h2>
+  <div class="lesson-highlight">
+    <span class='tip'><strong>Conștientizez oportunități și constrângeri</strong><span class='tooltip-box'>Reguli, practici de notare, cerințe, recompense.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> observ ce tip de răspunsuri sunt apreciate și îmi adaptez modul de lucru.
+  </div>
+
+  <hr />
+
+  <h2>🧱&nbsp;&nbsp;De ce controlul contextului e mai dificil?</h2>
+  <div class="lesson-highlight">
+    Pentru că <span class='tip'><strong>nu e complet sub controlul elevului</strong><span class='tooltip-box'>Sarcinile și contextul nu pot fi mereu schimbate direct.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🤝&nbsp;&nbsp;Strategie de control contextual</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🗣️&nbsp;&nbsp;Negocierea cerințelor</h3>
+      <p>
+        <span class='tip'><strong>Negocierea</strong><span class='tooltip-box'>Mai ales în contexte flexibile (ex. proiecte).</span></span>
+        poate ajusta termene/format/cerințe.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🪞&nbsp;&nbsp;Reacție și reflecție contextuală</h3>
+      <p>
+        Evaluări ale sarcinii și mediului pe criterii cognitive (învățare, obiective) și criterii de confort/plăcere.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u8-q13": `
+  <div class="lesson-highlight">
+    <strong>🧩&nbsp;&nbsp;Îmbunătățirea abilităților autoreglatorii – programul Cleary & Zimmerman</strong><br/>
+    Ideea de bază: <span class='tip'><strong>succesul este (în mare măsură) sub controlul elevului</strong><span class='tooltip-box'>Prin utilizarea și ajustarea strategiilor de învățare.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧱&nbsp;&nbsp;Două componente principale</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Evaluare inițială</h3>
+      <p>
+        Se evaluează <span class='tip'><strong>strategiile de studiu</strong><span class='tooltip-box'>Ce face elevul acum.</span></span>,
+        <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Ce îl susține sau îl blochează.</span></span>
+        și <span class='tip'><strong>capacitatea de ajustare</strong><span class='tooltip-box'>Poate schimba strategia când nu merge?</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Formare autoreglată</h3>
+      <p>
+        Transformarea strategiilor <strong>ineficiente</strong> în strategii <strong>eficiente</strong> și creșterea independenței în învățare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>👣&nbsp;&nbsp;Cum se învață strategiile</h2>
+  <div class="lesson-highlight">
+    De la <span class='tip'><strong>modelare socială</strong><span class='tooltip-box'>Observ/imit din surse sociale.</span></span>
+    → <span class='tip'><strong>practică ghidată</strong><span class='tooltip-box'>Exersez cu sprijin.</span></span>
+    → <span class='tip'><strong>utilizare independentă</strong><span class='tooltip-box'>Aplic singur în situații noi.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Rolul ciclului de feedback</h2>
+  <div class="lesson-highlight">
+    Feedback-ul susține <span class='tip'><strong>ajustările strategice</strong><span class='tooltip-box'>Obiective → monitorizare → evaluare → ajustare.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> rezultat slab → schimb strategia pentru sarcina următoare.
+  </div>
+
+  <hr />
+
+  <h2>🌱&nbsp;&nbsp;Mesajul de „speranță” și împuternicire</h2>
+  <div class="lesson-highlight">
+    Sentimentul de <span class='tip'><strong>control</strong><span class='tooltip-box'>„Pot influența rezultatul.”</span></span> crește motivația și rezultatele:
+    elevul persevereză mai mult pentru că vede o cale de îmbunătățire.
+  </div>
+`,
+
+  "phed-u8-q14": `
+  <div class="lesson-highlight">
+    <strong>🧩&nbsp;&nbsp;Îmbunătățirea abilităților autoreglatorii – programul Cleary & Zimmerman</strong><br/>
+    Ideea de bază: <span class='tip'><strong>succesul este (în mare măsură) sub controlul elevului</strong><span class='tooltip-box'>Prin utilizarea și ajustarea strategiilor de învățare.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧱&nbsp;&nbsp;Două componente principale</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Evaluare inițială</h3>
+      <p>
+        Se evaluează <span class='tip'><strong>strategiile de studiu</strong><span class='tooltip-box'>Ce face elevul acum.</span></span>,
+        <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Ce îl susține sau îl blochează.</span></span>
+        și <span class='tip'><strong>capacitatea de ajustare</strong><span class='tooltip-box'>Poate schimba strategia când nu merge?</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Formare autoreglată</h3>
+      <p>
+        Transformarea strategiilor <strong>ineficiente</strong> în strategii <strong>eficiente</strong> și creșterea independenței în învățare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>👣&nbsp;&nbsp;Cum se învață strategiile</h2>
+  <div class="lesson-highlight">
+    De la <span class='tip'><strong>modelare socială</strong><span class='tooltip-box'>Observ/imit din surse sociale.</span></span>
+    → <span class='tip'><strong>practică ghidată</strong><span class='tooltip-box'>Exersez cu sprijin.</span></span>
+    → <span class='tip'><strong>utilizare independentă</strong><span class='tooltip-box'>Aplic singur în situații noi.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Rolul ciclului de feedback</h2>
+  <div class="lesson-highlight">
+    Feedback-ul susține <span class='tip'><strong>ajustările strategice</strong><span class='tooltip-box'>Obiective → monitorizare → evaluare → ajustare.</span></span>.
+    <br/><br/>
+    <strong>Exemplu:</strong> rezultat slab → schimb strategia pentru sarcina următoare.
+  </div>
+
+  <hr />
+
+  <h2>🌱&nbsp;&nbsp;Mesajul de „speranță” și împuternicire</h2>
+  <div class="lesson-highlight">
+    Sentimentul de <span class='tip'><strong>control</strong><span class='tooltip-box'>„Pot influența rezultatul.”</span></span> crește motivația și rezultatele:
+    elevul persevereză mai mult pentru că vede o cale de îmbunătățire.
+  </div>
+  `,
+  "phed-u10-q1": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Un <span class='tip'><strong>grup restrâns</strong><span class='tooltip-box'><strong>De Visscher:</strong> condițiile minime ca un ansamblu de persoane să devină „grup”.</span></span>
+    este un ansamblu de <span class='tip'><strong>minimum cinci persoane</strong><span class='tooltip-box'><strong>Prag minim:</strong> suficienți membri pentru interacțiuni variate, nu doar diadă/triadă.</span></span>
+    care sunt <span class='tip'><strong>împreună</strong><span class='tooltip-box'><strong>Prezență efectivă:</strong> același loc și același timp, nu doar apartenență formală.</span></span>,
+    se <span class='tip'><strong>percep</strong><span class='tooltip-box'><strong>Recunoaștere reciprocă:</strong> „știu cine ești” și „tu știi cine sunt”.</span></span>,
+    <span class='tip'><strong>comunică</strong><span class='tooltip-box'><strong>Schimb direct:</strong> mesaje verbale și nonverbale în timp real.</span></span>
+    și <span class='tip'><strong>interacționează direct</strong><span class='tooltip-box'><strong>Influență reciprocă:</strong> acțiunile unuia produc reacții la ceilalți.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Ce NU e suficient ca să ai „grup restrâns”</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>🏛️&nbsp;&nbsp;Apartenență formală</h3>
+      <p>
+        A fi în aceeași instituție (școală, firmă) nu garantează grup:
+        poți fi „în listă”, dar fără contact direct.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Cheie:</strong> statuturile și rolurile formale pot apărea ulterior, dar nu sunt condiția minimă.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>📡&nbsp;&nbsp;Participare doar „la distanță”</h3>
+      <p>
+        Interacțiunea mediată (doar online/asimetric) poate crea comunități,
+        dar nu îndeplinește criteriul clasic de <strong>prezență efectivă</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Cheie:</strong> De Visscher pune accent pe interacțiune nemijlocită, aici-și-acum.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Condițiile minime ale grupului restrâns</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Număr minim</h3>
+      <p>
+        Grupul restrâns presupune <strong>minimum cinci persoane</strong>.
+      </p>
+      <hr />
+      <p class="lesson-highlight">
+        <strong>De reținut:</strong> pragul ajută apariția unei rețele de relații, nu doar relații „unu la unu”.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Prezență efectivă și concomitentă</h3>
+      <p>
+        Membrii sunt <strong>în același timp și loc</strong>, astfel încât
+        perceperea și interacțiunea să fie directe.
+      </p>
+      <hr />
+      <p class="lesson-highlight">
+        <strong>De ce contează:</strong> face posibilă comunicarea imediată și reglarea reciprocă în timp real.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Percepere reciprocă</h3>
+      <p>
+        Fiecare membru îi <strong>observă</strong> și <strong>recunoaște</strong> pe ceilalți ca persoane prezente.
+      </p>
+      <hr />
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> într-o echipă mică, îi identifici pe ceilalți și le anticipezi reacțiile.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Comunicare și interacțiune directă</h3>
+      <p>
+        Există schimburi de mesaje și acțiuni care produc <strong>influență reciprocă</strong>.
+      </p>
+      <hr />
+      <p class="lesson-highlight">
+        <strong>Semn:</strong> ce face/spune unul modifică comportamentul sau starea celorlalți.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⏳&nbsp;&nbsp;Durabilitatea: „să țină suficient”</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <strong>📌&nbsp;&nbsp;Durabilitatea</strong> înseamnă
+    <span class='tip'><strong>persistența grupului</strong><span class='tooltip-box'>Dimensiune temporală: timp suficient ca să apară relații stabile.</span></span>
+    astfel încât să se formeze <span class='tip'><strong>roluri</strong><span class='tooltip-box'>Așteptări despre „cine face ce” în interiorul grupului.</span></span>,
+    <span class='tip'><strong>reguli</strong><span class='tooltip-box'>Norme explicite sau implicite despre cum se procedează.</span></span>
+    și <span class='tip'><strong>relații</strong><span class='tooltip-box'>Legături interpersonale care se stabilizează în timp.</span></span>.
+  </div>
+
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧷&nbsp;&nbsp;Ce NU e durabilitate</h3>
+      <p>
+        O întâlnire ocazională, fără continuitate, nu permite apariția structurilor de grup.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🏗️&nbsp;&nbsp;Ce produce durabilitatea</h3>
+      <p>
+        Repetarea contactului duce la rutine, statuturi informale, norme și coeziune.
+      </p>
+    </div>
+  </div>
+`,
+  "phed-u10-q2": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Grupurile pot fi înțelese pe un <span class='tip'><strong>continuum al organizării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> de la „mulți oameni laolaltă” (foarte puțină structură) la grupuri cu reguli, roluri și planificare (structură ridicată).</span></span>.
+    În clasificarea lui <span class='tip'><strong>Anzieu și Martin</strong><span class='tooltip-box'><strong>Clasificare clasică:</strong> diferențiază categorii de grupuri în funcție de mărime, coeziune și nivelul de organizare.</span></span>,
+    apar cinci tipuri: <span class='tip'><strong>mulțimea</strong><span class='tooltip-box'><strong>Organizare foarte scăzută:</strong> prezență întâmplătoare, contact slab.</span></span>,
+    <span class='tip'><strong>banda</strong><span class='tooltip-box'><strong>Organizare scăzută:</strong> grup mic, întâlniri intenționate.</span></span>,
+    <span class='tip'><strong>gruparea</strong><span class='tooltip-box'><strong>Organizare medie:</strong> întâlniri periodice, relații mai degrabă superficiale.</span></span>,
+    <span class='tip'><strong>grupul primar</strong><span class='tooltip-box'><strong>Organizare ridicată:</strong> relații apropiate, cunoaștere reciprocă, comunicare directă (echivalent cu grup restrâns).</span></span>
+    și <span class='tip'><strong>grupul secundar</strong><span class='tooltip-box'><strong>Organizare foarte ridicată:</strong> instituționalizat, formal, cu scopuri și acțiuni planificate.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Anzieu & Martin: categoriile de grupuri (pe nivel de organizare)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>🌊&nbsp;&nbsp;Mulțimea</h3>
+      <p><strong>Organizare foarte scăzută.</strong></p>
+      <hr />
+      <p>
+        Număr <span class='tip'><strong>foarte mare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „mulți oameni” într-un spațiu comun.</span></span>,
+        întâlnire adesea <span class='tip'><strong>întâmplătoare</strong><span class='tooltip-box'><strong>Cheie:</strong> nu există un „noi” stabil, ci doar prezență simultană.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> public la spectacole, competiții sportive.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🧢&nbsp;&nbsp;Banda</h3>
+      <p><strong>Organizare scăzută.</strong></p>
+      <hr />
+      <p>
+        Număr <span class='tip'><strong>mic</strong><span class='tooltip-box'><strong>Cheie:</strong> suficient de puțini încât să se cunoască și să iasă împreună.</span></span>,
+        întâlniri <span class='tip'><strong>intenționate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „ne vedem pentru că vrem”.</span></span>
+        și preocupări similare.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Accent:</strong> plăcerea de a fi împreună, nu o structură formală.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Gruparea</h3>
+      <p><strong>Organizare medie.</strong></p>
+      <hr />
+      <p>
+        Număr <span class='tip'><strong>variabil</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poate crește sau scădea, fără să se „rupă” complet.</span></span>,
+        întâlniri <span class='tip'><strong>periodice</strong><span class='tooltip-box'><strong>Cheie:</strong> există o oarecare continuitate.</span></span>,
+        scopuri relativ stabile și relații mai degrabă <span class='tip'><strong>superficiale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te știi cu oamenii, dar nu neapărat „în profunzime”.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Grupul primar</h3>
+      <p><strong>Organizare ridicată.</strong></p>
+      <hr />
+      <p>
+        Număr <span class='tip'><strong>restrâns</strong><span class='tooltip-box'><strong>Cheie:</strong> contact frecvent, direct.</span></span>,
+        relații <span class='tip'><strong>apropiate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cunoaștere reciprocă + împărtășire de trăiri.</span></span>
+        și comunicare directă.
+      </p>
+      <p class="lesson-highlight">
+        <strong>De reținut:</strong> este echivalentul <strong>grupului restrâns</strong>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🏛️&nbsp;&nbsp;Grupul secundar</h3>
+      <p><strong>Organizare foarte ridicată.</strong></p>
+      <hr />
+      <p>
+        Număr <span class='tip'><strong>mare</strong><span class='tooltip-box'><strong>Cheie:</strong> nu te cunoști direct cu toți.</span></span>,
+        structură <span class='tip'><strong>formală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reguli, roluri, ierarhii, proceduri.</span></span>,
+        scopuri și acțiuni <span class='tip'><strong>planificate</strong><span class='tooltip-box'><strong>Cheie:</strong> funcționează ca o instituție/organizație.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>👥&nbsp;&nbsp;Grupuri primare vs. secundare: cum le recunoști în practică</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Grupuri primare</h3>
+      <p><strong>Relații apropiate + comunicare directă.</strong></p>
+      <hr />
+      <p>
+        Sunt grupuri cu <span class='tip'><strong>număr restrâns</strong><span class='tooltip-box'><strong>Cheie:</strong> permite cunoaștere reciprocă reală.</span></span>,
+        în care se împărtășesc <span class='tip'><strong>sentimente</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează „cum mă simt cu voi”.</span></span>
+        și există interacțiune frecventă.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemple tipice:</strong> familia, grupul de prieteni, clasa de elevi.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Grupuri secundare</h3>
+      <p><strong>Relații formalizate + contact indirect.</strong></p>
+      <hr />
+      <p>
+        Sunt grupuri cu <span class='tip'><strong>număr mare</strong><span class='tooltip-box'><strong>Cheie:</strong> interacțiunile devin mediate de reguli și roluri.</span></span>,
+        cu funcționare <span class='tip'><strong>instituționalizată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> există proceduri și ierarhii clare.</span></span>
+        și relații mai puțin personale.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemple tipice:</strong> școala, universitatea, colective profesionale mari.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Două clasificări utile pentru gestionarea clasei de elevi</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <h3>🧷&nbsp;&nbsp;Grup de apartenență vs. grup de referință</h3>
+      <p>
+        <span class='tip'><strong>Grupul de apartenență</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „unde sunt” și particip efectiv.<br /><br /><strong>Exemple:</strong> familia, clasa, grupul profesional.</span></span>
+        este grupul în care persoana trăiește direct interacțiunile.
+      </p>
+      <p>
+        <span class='tip'><strong>Grupul de referință</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „cu cine vreau să semăn”.<br /><br /><strong>Rol:</strong> oferă valori, așteptări, modele și comportamente dezirabile.</span></span>
+        este grupul după care individul se ghidează sau cu care vrea să se identifice.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Cheie:</strong> cele două se pot <strong>suprapune</strong> sau pot fi <strong>diferite</strong>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🏷️&nbsp;&nbsp;Grup formal vs. grup informal</h3>
+      <p>
+        <span class='tip'><strong>Grupul formal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> organizare explicită, roluri, reguli, ierarhii (ex.: clase, consilii, comisii).</span></span>
+        descrie structura „oficială”.
+      </p>
+      <p>
+        <span class='tip'><strong>Grupul informal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se formează spontan pe baza popularității, atracțiilor, alianțelor și conflictelor.</span></span>
+        descrie rețeaua „reală” de relații.
+      </p>
+      <p class="lesson-highlight">
+        <strong>De reținut:</strong> un grup eficient apare când structura formală și organizarea informală se armonizează (nu se sabotează).
+      </p>
+    </div>
+  </div>
+`,
+  "phed-u10-q3": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Un <span class='tip'><strong>grup eficient</strong><span class='tooltip-box'><strong>Cheie:</strong> eficiența apare când dinamica relațiilor susține sarcina și bunăstarea membrilor.</span></span>
+    nu este „suma” indivizilor, ci produce <span class='tip'><strong>fenomene psihologice de grup</strong><span class='tooltip-box'><strong>Exemple:</strong> norme, roluri, coeziune, climat, influență reciprocă.</span></span>
+    care pot crește sau scădea performanța.
+  </div>
+
+  <hr />
+
+  <h2>🔍&nbsp;&nbsp;De ce contează relațiile din grup (Mielu Zlate)</h2>
+  <div class="lesson-card">
+    <p>
+      <span class='tip'><strong>Zlate</strong><span class='tooltip-box'><strong>Idee:</strong> lipsa preocupării pentru evoluția relațiilor din grup este o limită majoră.</span></span>
+      deoarece fără analiză relațională nu înțelegi cum se consolidează, se mențin și se gestionează dinamica grupurilor (mai ales în educație).
+    </p>
+    <p class="lesson-highlight">
+      <strong>De reținut:</strong> eficiența nu vine automat din „a fi împreună”; vine din felul în care funcționează relațiile.
+    </p>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Cum arată un grup eficient (ex. McGregor)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Climat confortabil</h3>
+      <p>
+        Atmosferă <span class='tip'><strong>destinsă</strong><span class='tooltip-box'><strong>Semn:</strong> rigiditate redusă, tensiuni vizibile mici.</span></span>,
+        care încurajează participarea și cooperarea.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Participare reală</h3>
+      <p>
+        <span class='tip'><strong>Discuții numeroase</strong><span class='tooltip-box'><strong>Cheie:</strong> între toți participanții, nu doar 1–2 membri.</span></span>,
+        fără pierderea focalizării pe sarcină.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Obiectiv clar și acceptat</h3>
+      <p>
+        Sarcina este <span class='tip'><strong>bine înțeleasă</strong><span class='tooltip-box'><strong>Cheie:</strong> claritate asupra „ce facem”.</span></span>
+        și <span class='tip'><strong>acceptată</strong><span class='tooltip-box'><strong>Cheie:</strong> consens, nu impunere formală.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Libertate de exprimare</h3>
+      <p>
+        Membrii pot exprima <span class='tip'><strong>idei și sentimente</strong><span class='tooltip-box'><strong>Rezultat:</strong> încredere și comunicare autentică.</span></span>,
+        ceea ce susține rezolvarea problemelor.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⛔&nbsp;&nbsp;Cum arată un grup ineficient</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Obiective confuze</h3>
+      <p>
+        Sarcinile și obiectivele nu sunt bine înțelese; apar scopuri personale în conflict.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>👂&nbsp;&nbsp;Ascultare slabă</h3>
+      <p>
+        Membrii nu se ascultă; discuțiile devin incoerente și sar de la o idee la alta.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>⚡&nbsp;&nbsp;Dezacord prost gestionat</h3>
+      <p>
+        Conflictele se „închid” rapid (de ex. prin votul unei mici majorități), fără clarificare și integrare.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u10-q4": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Pentru <span class='tip'><strong>Kurt Lewin</strong><span class='tooltip-box'><strong>„Frontiers in group dynamics”, 1947:</strong> grupul este un tot unitar cu efecte psihologice reale.</span></span>,
+    grupul este <span class='tip'><strong>mai mult decât suma indivizilor</strong><span class='tooltip-box'><strong>Cheie:</strong> interacțiunea schimbă „valoarea” părților și produce fenomene emergente.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧲&nbsp;&nbsp;Ce aduce nou perspectiva lui Lewin</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Proprietăți emergente</h3>
+      <p>
+        În grup apar norme, presiune de grup, coeziune, roluri și leadership informal — fenomene care nu se explică doar prin individ.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🔁&nbsp;&nbsp;Caracter dinamic și transformator</h3>
+      <p>
+        Interacțiunea dintre membri generează consecințe și schimbări; grupul transformă comportamente și atitudini.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Ipoteze despre grup (Lewin)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Grupul = spațiul vital</h3>
+      <p>
+        Grupul este <span class='tip'><strong>terenul ocupat de individ</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mediul psihosocial imediat al persoanei.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Instrument de satisfacere a trebuințelor</h3>
+      <p>
+        Prin grup, individul își împlinește nevoi de apartenență, recunoaștere și afirmare.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Schimbările de grup sunt resimțite de individ</h3>
+      <p>
+        Modificările din structura/dinamica grupului afectează direct membrul (pentru că este parte din grup).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Grupul susține dezvoltarea</h3>
+      <p>
+        Grupul aparține universului social al individului și îi permite integrarea și evoluția.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Raportul individ–grup</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;De reținut:</strong>
+    <span class='tip'><strong>individul și grupul se influențează reciproc</strong><span class='tooltip-box'><strong>Cheie:</strong> schimbări în grup → efecte asupra individului; schimbări în individ → efecte asupra grupului.</span></span>.
+  </div>
+
+  <hr />
+
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🎓&nbsp;&nbsp;Implicație educațională</h3>
+      <p>
+        Dacă schimbi norme, roluri sau climat, schimbi și comportamentele elevilor.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>⚠️&nbsp;&nbsp;Greșeală frecventă</h3>
+      <p>
+        Să tratezi clasa ca pe „indivizi izolați” și să ignori dinamica dintre ei.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u10-q5": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Grupul școlar</strong><span class='tooltip-box'><strong>Clasa de elevi:</strong> grup asociat educației formale, cu rol major în socializare și dezvoltare.</span></span>
+    este important deoarece satisface nevoi fundamentale și influențează evoluția elevului pe termen lung.
+  </div>
+
+  <hr />
+
+  <h2>🌱&nbsp;&nbsp;De ce e reper pentru dezvoltare</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Nevoi psihosociale</h3>
+      <p>
+        Satisface nevoi de afiliere, securitate și protecție, mai ales în perioade sensibile (ex. adolescență).
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Efecte dincolo de „academice”</h3>
+      <p>
+        Influențează identitatea socială, competențele relaționale, normele și rolurile, nu doar achizițiile cognitive.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏷️&nbsp;&nbsp;Cum este definită clasa de elevi</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;Definire:</strong>
+    Clasa de elevi este un <span class='tip'><strong>grup formal</strong><span class='tooltip-box'><strong>Cheie:</strong> organizare explicită, instituționalizată.</span></span>,
+    <span class='tip'><strong>restrâns</strong><span class='tooltip-box'><strong>Cheie:</strong> permite interacțiune directă frecventă.</span></span>,
+    <span class='tip'><strong>primar</strong><span class='tooltip-box'><strong>Cheie:</strong> relații apropiate și comunicare directă.</span></span>,
+    cu <span class='tip'><strong>scop educațional</strong><span class='tooltip-box'><strong>Spus simplu:</strong> învățare și formare.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Caracteristicile clasei (D. Sălăvăstru)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Interacțiune directă</h3>
+      <p>
+        Relaționare nemijlocită între membrii clasei (comunicare față în față).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Scopuri și motive</h3>
+      <p>
+        Scopuri educaționale care dau direcție acțiunii comune și activităților din clasă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Statute și roluri</h3>
+      <p>
+        Structură prin roluri diferențiate și asumate (formale și informale).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Coeziune</h3>
+      <p>
+        Unitate și solidaritate între membri, care susțin cooperarea și climatul clasei.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🎯&nbsp;&nbsp;Ce permite gestionarea eficientă (de către profesor)</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;Cheie:</strong>
+    Gestionarea bună a interacțiunilor, scopurilor, rolurilor, normelor și coeziunii creează
+    <span class='tip'><strong>situații veritabile de învățare</strong><span class='tooltip-box'><strong>Rezultat:</strong> cunoaștere reciprocă, competențe relaționale și performanțe mai bune.</span></span>.
+  </div>
+`,
+
+  "phed-u10-q6": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    O gestionare bună a interacțiunii, scopurilor, rolurilor, normelor și coeziunii clasei
+    creează premisele pentru <span class='tip'><strong>o comunitate de învățare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clasa devine un spațiu al învățării autentice, nu doar al predării.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🏫&nbsp;&nbsp;Ce exprimă „comunitatea de învățare”</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📚&nbsp;&nbsp;Achiziții durabile</h3>
+      <p>
+        Susține învățarea pe termen lung și învățarea pe tot parcursul vieții, valorificând beneficiile activităților educaționale de grup.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Învățarea rămâne individuală</h3>
+      <p>
+        Învățarea e personală, dar este facilitată prin <span class='tip'><strong>mediere socială</strong><span class='tooltip-box'><strong>Cheie:</strong> cooperare, dialog, feedback, modele.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;De ce e importantă în educația contemporană</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Reponderarea competențelor</h3>
+      <p>
+        Integrează competențe academice, profesionale și personale (nu doar „note”).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Flexibilitate și adaptabilitate</h3>
+      <p>
+        Susține perfecționarea și reconversia prin practici de colaborare și rezolvare de probleme în echipă.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🤝&nbsp;&nbsp;De ce munca în echipă e sursă de învățare (Ciolan)</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;Idee-cheie:</strong>
+    <span class='tip'><strong>munca în echipă</strong><span class='tooltip-box'><strong>Ciolan:</strong> învățarea integrată și medierea socială produc achiziții durabile prin cooperare și integrarea experiențelor individuale.</span></span>
+    accelerează învățarea prin schimb de perspective, negociere de sens, feedback și aplicare.
+  </div>
+`,
+
+  "phed-u10-q7": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Pentru <span class='tip'><strong>Peter Gray</strong><span class='tooltip-box'><strong>Cheie:</strong> explorarea, jocul și sociabilitatea sunt motoare naturale ale învățării.</span></span>,
+    oamenii sunt „vechi în cunoaștere”: avem mecanisme evolutive care ne împing să învățăm prin explorare, joacă și interacțiune socială.
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Triada care susține învățarea: curiozitate – joc – sociabilitate</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Curiozitatea</h3>
+      <p>
+        Nu dispare odată cu vârsta; susține explorări tot mai complexe și mai rafinate.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Spiritul ludic</h3>
+      <p>
+        Completează curiozitatea: prin joc, copilul folosește creativ aptitudinile nou descoperite.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Funcția evoluționistă a jocului</h3>
+      <p>
+        Jocul exersează și îmbunătățește aptitudini necesare pentru adaptare și supraviețuire.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Sociabilitatea</h3>
+      <p>
+        Conectează mințile copiilor cu ale partenerilor de vârste apropiate, susținând învățarea prin schimb de idei.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🎓&nbsp;&nbsp;Implicație pentru educație</h2>
+  <div class="lesson-card">
+    <p class="lesson-highlight">
+      <strong>De reținut:</strong> învățarea devine mai solidă când educația valorifică explorarea, jocul și cooperarea,
+      în loc să le trateze ca „pauze” de la învățare.
+    </p>
+  </div>
+`,
+  "phed-u10-q8": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Cercetarea contemporană asupra creierului aduce noutate prin
+    <span class='tip'><strong>cartografierea detaliată a circuitelor neuronale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „hărți” ale rețelelor și conexiunilor din creier (connectomics).</span></span>,
+    iar această cunoaștere poate susține demersuri educaționale mai bine fundamentate.
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Ce e „nou” față de explicațiile clasice</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Hartă a conexiunilor</h3>
+      <p>
+        Programele de tip <span class='tip'><strong>connectomics</strong><span class='tooltip-box'><strong>Cheie:</strong> studiază rețelele de conexiuni, nu doar „zone” izolate.</span></span>
+        urmăresc să descrie în detaliu circuitele și legăturile dintre neuroni.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Tehnologie care „vede” foarte fin</h3>
+      <p>
+        Avansul tehnologic permite analiză microscopică precisă a țesutului cerebral și a conexiunilor.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Dezvoltare dependentă de utilizare</h3>
+      <p>
+        Se subliniază ideea că <span class='tip'><strong>rețelele neuronale se modifică</strong><span class='tooltip-box'><strong>Cheie:</strong> experiența și mediul modelează conexiunile.</span></span>
+        în funcție de dezvoltare și utilizare.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Educația creierului e îndelungată</h3>
+      <p>
+        „Educația” creierului este un proces profund, care se întinde până în jurul vârstei de
+        <span class='tip'><strong>~20 de ani</strong><span class='tooltip-box'><strong>Spus simplu:</strong> maturizarea și reorganizarea continuă mult după copilărie.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔬&nbsp;&nbsp;Ce fac programele de cercetare (ex. Harvard, menționate de Ken Robinson)</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🗺️&nbsp;&nbsp;Scopul</h3>
+      <p>
+        <span class='tip'><strong>Crearea unei hărți detaliate</strong><span class='tooltip-box'><strong>Cheie:</strong> descrierea circuitelor și conexiunilor, pentru a înțelege mai bine funcționarea creierului.</span></span>
+        (nu „standardizarea” educației și nici „anularea” teoriilor clasice).
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Consecința</h3>
+      <p>
+        Datele neuroștiințifice <span class='tip'><strong>completează</strong><span class='tooltip-box'><strong>Important:</strong> nu înlocuiesc automat psihologia educației, ci o pot rafina.</span></span>
+        explicațiile despre dezvoltare și învățare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧪&nbsp;&nbsp;ATLUM: de ce e relevant în cercetare</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;ATLUM</strong> (<em>automatic tape collecting lathe ultra microtome</em>)
+    este un aparat care <span class='tip'><strong>recoltează și secționează extrem de fin</strong><span class='tooltip-box'><strong>Spus simplu:</strong> taie țesutul cerebral în „felii” foarte subțiri.</span></span>
+    țesutul cerebral, iar apoi secțiunile sunt analizate (de ex. cu microscop electronic).
+  </div>
+
+  <hr />
+
+  <h2>🎓&nbsp;&nbsp;Semnificație educațională a avansului tehnologic</h2>
+  <div class="lesson-card">
+    <p class="lesson-highlight">
+      <strong>Cheie:</strong> cunoașterea despre creier poate susține proiectarea unor demersuri educaționale
+      în beneficiul <span class='tip'><strong>dezvoltării personalității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dezvoltare cognitivă, socio-emoțională și autoreglare, pe termen lung.</span></span>,
+      nu „reduce” rolul educației și nici nu o face inutilă.
+    </p>
+  </div>
+`,
+
+  "phed-u10-q9": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    În orice grup apar <span class='tip'><strong>preferințe</strong><span class='tooltip-box'>Apropiere/alegeri pozitive.</span></span>,
+    <span class='tip'><strong>respingeri</strong><span class='tooltip-box'>Evitări/alegeri negative.</span></span>
+    și procese de stratificare, iar profesorul are nevoie să le cunoască pentru a interveni educațional adecvat.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Ce este metoda sociometrică</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Definiție</h3>
+      <p>
+        <span class='tip'><strong>Metoda sociometrică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> metodă de cunoaștere a relațiilor din grup prin întrebări de alegere/evitare.</span></span>
+        oferă rapid informații despre atracții și respingeri dintre membri.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;De ce e utilă</h3>
+      <p>
+        Ajută profesorul să observe tensiuni, izolare, subgrupuri și potențial de cooperare
+        (nu e o metodă de „control” și nici de evaluare academică).
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧪&nbsp;&nbsp;Cum funcționează, pe scurt</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Întrebări simple</h3>
+      <p>
+        Se formulează întrebări de tip „cu cine ai prefera să lucrezi?” sau „cu cine ai evita?”,
+        în contexte clare (sarcini/activități).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Se obțin alegeri și respingeri</h3>
+      <p>
+        Rezultă date despre <span class='tip'><strong>preferințe</strong><span class='tooltip-box'>Alegeri pozitive.</span></span>
+        și <span class='tip'><strong>respingeri</strong><span class='tooltip-box'>Alegeri negative.</span></span>,
+        inclusiv reciprocități (A îl alege pe B și B îl alege pe A).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Sociograma</h3>
+      <p>
+        <span class='tip'><strong>Sociograma</strong><span class='tooltip-box'><strong>Spus simplu:</strong> desen/diagramă a relațiilor din grup.</span></span>
+        face vizibile nodurile centrale, periferice sau izolate.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Decizii pedagogice</h3>
+      <p>
+        Profesorul poate organiza echipe, preveni conflicte și susține incluziunea pe baza datelor relaționale.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🛠️&nbsp;&nbsp;Utilitate educațională (în practică)</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;Cheie:</strong>
+    Metoda sociometrică sprijină decizii despre <span class='tip'><strong>organizarea activităților de grup</strong><span class='tooltip-box'><strong>Exemple:</strong> perechi/echipe, rotație, roluri, colaborare ghidată.</span></span>,
+    reducând riscul de excludere și crescând șansele de cooperare.
+  </div>
+`,
+
+  "phed-u10-q10": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Coeziunea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cât de uniți și cooperanți sunt membrii grupului pentru sarcini comune.</span></span>
+    este un indicator esențial al „stării” grupului: susține colaborarea și reduce fragmentarea.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Ce este coeziunea și cum o recunoști</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Definiție operațională</h3>
+      <p>
+        Coeziunea este <span class='tip'><strong>măsura solidarității</strong><span class='tooltip-box'><strong>Cheie:</strong> sprijin reciproc + direcție comună.</span></span>
+        și a cooperării în jurul sarcinilor.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🔎&nbsp;&nbsp;Semne observabile</h3>
+      <p>
+        Participare, sprijin între colegi, reguli împărtășite, cooperare în sarcini și mai puține rupturi între subgrupuri.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Ce crește coeziunea</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Valori împărtășite</h3>
+      <p>
+        Membrii au repere comune despre ce e important și dezirabil în grup.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Interese similare</h3>
+      <p>
+        O direcție comună crește disponibilitatea de colaborare și reduce competiția distructivă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Comunicare directă și echilibrată</h3>
+      <p>
+        Schimb relativ egal, clarificări, feedback; scade riscul tensiunilor „ascunse”.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Nu evitarea comunicării</h3>
+      <p>
+        Evitarea discuțiilor „ca să nu fie conflict” scade coeziunea și crește fragmentarea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🎓&nbsp;&nbsp;De ce contează pentru profesor</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧑‍🏫&nbsp;&nbsp;Gestionare și disciplină</h3>
+      <p>
+        Coeziunea susține organizarea activităților și cooperarea în sarcini comune (fără să înlocuiască regulile și normele).
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧷&nbsp;&nbsp;Legătura cu sociometria</h3>
+      <p>
+        Relațiile de <span class='tip'><strong>atracție și respingere</strong><span class='tooltip-box'><strong>Cheie:</strong> mai ales cele reciproce sau concentrate în jurul unor persoane.</span></span>
+        pot întări sau slăbi coeziunea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>📌&nbsp;&nbsp;Coeziunea ca „indicator de stare”</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <strong>Cheie:</strong>
+    Coeziunea sintetizează cât de bine funcționează cooperarea și solidaritatea în jurul sarcinilor comune:
+    coeziune mai bună → sprijin și participare; coeziune mai slabă → fragmentare și dificultăți relaționale.
+  </div>
+`,
+
+  "phed-u10-q11": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Pe lângă imaginea „de ansamblu” a grupului, e important să înțelegem <span class='tip'><strong>poziția fiecărui elev</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cât de ales, respins sau ignorat este în relațiile clasei.</span></span>,
+    pentru a sprijini integrarea și a preveni izolarea.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Ce exprimă indicii sociometrici individuali</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📊&nbsp;&nbsp;Ce rezumă</h3>
+      <p>
+        <span class='tip'><strong>Indicii sociometrici</strong><span class='tooltip-box'><strong>Cheie:</strong> sintetizează relațiile primite și oferite (alegeri/respingeri).</span></span>
+        arată cum este integrat elevul în rețeaua clasei.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;De ce contează</h3>
+      <p>
+        Ghidează intervenții relaționale: incluziune, prevenirea marginalizării, echilibrarea subgrupurilor.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Poziții sociometrice posibile (fără formule)</h2>
+  <div class="lesson-card">
+    <p class="lesson-highlight">
+      <strong>Exemple de poziții:</strong>
+      <span class='tip'><strong>foarte popular</strong><span class='tooltip-box'>Primește multe alegeri.</span></span>,
+      <span class='tip'><strong>popular</strong><span class='tooltip-box'>Primește alegeri frecvente.</span></span>,
+      <span class='tip'><strong>acceptat</strong><span class='tooltip-box'>Integrare decentă, fără centralitate mare.</span></span>,
+      <span class='tip'><strong>indiferent</strong><span class='tooltip-box'>Primește puține alegeri și puține respingeri.</span></span>,
+      <span class='tip'><strong>respins</strong><span class='tooltip-box'>Primește respingeri/evitări.</span></span>.
+    </p>
+  </div>
+
+  <hr />
+
+  <h2>🛠️&nbsp;&nbsp;Cum folosește profesorul aceste informații</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>👥&nbsp;&nbsp;Organizarea echipelor</h3>
+      <p>
+        Formează echipe care reduc izolarea și cresc cooperarea (rotații, roluri, sarcini interdependente).
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧷&nbsp;&nbsp;Intervenții discrete</h3>
+      <p>
+        Datele se folosesc <span class='tip'><strong>confidențial</strong><span class='tooltip-box'><strong>Cheie:</strong> fără etichetare publică, fără „clasamente”.</span></span>
+        pentru sprijin, nu pentru sancțiune.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Cum se leagă de celelalte niveluri</h2>
+  <div class="lesson-highlight">
+    <strong>📌&nbsp;&nbsp;De reținut:</strong>
+    Metoda sociometrică descrie relațiile, coeziunea descrie starea grupului, iar indicii individuali arată poziția fiecărui elev în acest context.
+  </div>
+`,
+  "phed-u11-q1": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Succesul în învățare</strong><span class='tooltip-box'>Concept central în psihologia educației: nu e doar „note mari”, ci rezultatul procesului de învățare și al potrivirii dintre elev și cerințe.</span></span>
+    poate fi înțeles ca <span class='tip'><strong>rezultantă a activității de învățare</strong><span class='tooltip-box'>Efect direct al efortului și al procesului: progres raportat la obiective.</span></span>
+    și ca un <span class='tip'><strong>echilibru</strong><span class='tooltip-box'>Între resurse/aspirații și solicitările școlare.</span></span> care susține dezvoltarea.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Perspective asupra succesului școlar</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Definiția de bază</h3>
+      <p>
+        Succesul este <span class='tip'><strong>rezultanta activității de învățare</strong><span class='tooltip-box'><strong>Exemplu:</strong> progres constant în raport cu obiectivele propuse.</span></span>,
+        adică un efect observabil al implicării elevului.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Radu (1983): succes ca echilibru</h3>
+      <p>
+        Apare când există <span class='tip'><strong>echilibru</strong><span class='tooltip-box'>Între capacități + aspirații și solicitările școlare.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elev cu nivel mediu își fixează obiective accesibile și le atinge.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Perspectiva experiențială (Ghiță, 2019)</h3>
+      <p>
+        Succesul e o <span class='tip'><strong>experiență motivatoare</strong><span class='tooltip-box'>Stimulează autodepășirea și ridică treptat nivelul provocărilor asumate.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> reușita într-o sarcină îl face pe elev să aleagă una ușor mai dificilă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Echilibrul aspirații–cerințe (Ghiță, 2019)</h3>
+      <p>
+        Elevul își fixează <span class='tip'><strong>așteptările</strong><span class='tooltip-box'>Obiective și strategii.</span></span>
+        în funcție de <span class='tip'><strong>cerințele școlare</strong><span class='tooltip-box'>Dificultatea și standardele sarcinii.</span></span>
+        și de resursele proprii.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🌍&nbsp;&nbsp;De ce are impact „extins”</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Efect psihologic</h3>
+      <p>
+        Reușitele susțin <span class='tip'><strong>încrederea</strong><span class='tooltip-box'>Autoevaluare mai bună și disponibilitate pentru sarcini viitoare.</span></span>
+        și reglajul așteptărilor.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Efect social și profesional</h3>
+      <p>
+        Succesul școlar poate influența <span class='tip'><strong>succesul profesional, managerial și social</strong><span class='tooltip-box'><strong>Exemplu:</strong> încrederea formată în școală sprijină integrarea profesională.</span></span>,
+        fără a garanta automat reușita în toate domeniile.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q2": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Succesul școlar este influențat de <span class='tip'><strong>factori interni</strong><span class='tooltip-box'>Țin de elev: resurse psihosociale, capacitate cognitivă, motivație.</span></span>
+    și <span class='tip'><strong>factori externi</strong><span class='tooltip-box'>Țin de mediu: familie, școală, context socio-cultural.</span></span> (Simon & Peter, 2000),
+    iar modelele moderne acordă o atenție tot mai mare <span class='tip'><strong>factorilor noncognitivi</strong><span class='tooltip-box'>Motivație, perseverență, eficacitate etc. (Cianciolo & Sternberg, 2012).</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Harta indicatorilor: ce se ia în calcul</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Factori interni</h3>
+      <p>
+        Țin de persoana elevului:
+        <span class='tip'><strong>echilibru psihosocial</strong><span class='tooltip-box'>Gestionarea emoțiilor și relațiilor.</span></span>,
+        <span class='tip'><strong>capacitate cognitivă</strong><span class='tooltip-box'>Înțelegere, organizare, aplicare.</span></span>,
+        <span class='tip'><strong>motivație intrinsecă</strong><span class='tooltip-box'>Interes și sens, nu doar recompense.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Factori externi</h3>
+      <p>
+        Țin de mediu și instituții:
+        <span class='tip'><strong>influențe socio-culturale</strong><span class='tooltip-box'>Resurse, norme, oportunități.</span></span>,
+        <span class='tip'><strong>valorile familiei</strong><span class='tooltip-box'>Atitudini față de învățare și perseverență.</span></span>,
+        <span class='tip'><strong>relațiile educaționale</strong><span class='tooltip-box'>Calitatea relației elev–profesor.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Inteligența academică (IQ)</h3>
+      <p>
+        Rămâne un <span class='tip'><strong>predictor important</strong><span class='tooltip-box'>Ajută mai ales în sarcini complexe, dar nu explică singur reușita.</span></span>
+        în succesul școlar.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Factorii noncognitivi</h3>
+      <p>
+        Devin tot mai importanți în modelele actuale:
+        <span class='tip'><strong>motivație</strong><span class='tooltip-box'>Inițiază și susține efortul.</span></span>,
+        <span class='tip'><strong>perseverență</strong><span class='tooltip-box'>Menține efortul în timp.</span></span>,
+        <span class='tip'><strong>eficacitate personală</strong><span class='tooltip-box'>„Pot reuși dacă depun efort”.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Exemple rapide (ca să nu le încurci)</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>✅&nbsp;&nbsp;Interne</h3>
+      <p class="lesson-highlight">
+        <strong>Exemple:</strong> echilibru psihosocial, capacitate cognitivă, motivație intrinsecă.
+      </p>
+      <p>
+        <strong>Nu intră aici:</strong>
+        <span class='tip'><strong>cultura organizațională</strong><span class='tooltip-box'>Ține de școală (extern).</span></span>,
+        <span class='tip'><strong>grupul de prieteni</strong><span class='tooltip-box'>Ține de mediu (extern).</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>✅&nbsp;&nbsp;Externe</h3>
+      <p class="lesson-highlight">
+        <strong>Exemple:</strong> mediu socio-cultural, valori familiale, relații educaționale.
+      </p>
+      <p>
+        <strong>Nu intră aici:</strong>
+        <span class='tip'><strong>aspirațiile</strong><span class='tooltip-box'>Țin de elev (intern).</span></span>,
+        <span class='tip'><strong>aptitudinile personale</strong><span class='tooltip-box'>Țin de elev (intern).</span></span>.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q3": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Între factorii interni ai succesului școlar, un rol major îl au
+    <span class='tip'><strong>motivația</strong><span class='tooltip-box'>„Motorul” comportamentului de învățare.</span></span>,
+    <span class='tip'><strong>capacitatea cognitivă</strong><span class='tooltip-box'>Susține înțelegerea și aplicarea.</span></span>
+    și <span class='tip'><strong>echilibrul psihosocial</strong><span class='tooltip-box'>Reglaj emoțional și relațional.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🔥&nbsp;&nbsp;Motivația: ce este și ce face (în școală)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Definiție (Roșca, 1943 apud Sălăvăstru, 2004)</h3>
+      <p>
+        Motivația = <span class='tip'><strong>totalitatea mobilurilor interne ale conduitei</strong><span class='tooltip-box'>Înnăscute/dobândite, conștiente/inconștiente: de la trebuințe la idealuri.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>„Motorul” comportamentului</h3>
+      <p>
+        Inițiază și susține comportamentul de învățare:
+        elevul continuă să lucreze chiar când apar obstacole.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Ce pot face motivele (Sălăvăstru, 2004)</h3>
+      <p>
+        Sub impactul stimulărilor interne/externe, motivele pot:
+        <span class='tip'><strong>determina acțiunea</strong><span class='tooltip-box'>Declanșează orientarea spre sarcină.</span></span>,
+        <span class='tip'><strong>susține acțiunea</strong><span class='tooltip-box'>Mențin efortul în timp.</span></span>,
+        <span class='tip'><strong>ierarhiza scopuri</strong><span class='tooltip-box'>Stabilesc priorități.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Motivația învățării</h3>
+      <p>
+        Include <span class='tip'><strong>factorii care angajează elevul</strong><span class='tooltip-box'>Interes, sens, obiective clare, feedback, sprijin relațional.</span></span>
+        în activități ce produc învățare durabilă.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Motivație și performanță: relație reciprocă</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📈&nbsp;&nbsp;Cum ajută performanța motivația</h3>
+      <p>
+        Performanța oferă rezultate observabile, susține <span class='tip'><strong>autoevaluarea</strong><span class='tooltip-box'>„Cât pot?”</span></span>
+        și <span class='tip'><strong>stima de sine</strong><span class='tooltip-box'>„Valorez și pot progresa.”</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🚀&nbsp;&nbsp;Cum ajută motivația performanța</h3>
+      <p>
+        Motivația susține angajarea în sarcini și menținerea efortului,
+        crescând șansele de progres.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧱&nbsp;&nbsp;Maslow (2014): trebuințe și învățare</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🪫&nbsp;&nbsp;Primele patru clase</h3>
+      <p>
+        <span class='tip'><strong>fiziologice</strong><span class='tooltip-box'>Odihnă, hrană etc.</span></span>,
+        <span class='tip'><strong>securitate</strong><span class='tooltip-box'>Protecție, echilibru emoțional.</span></span>,
+        <span class='tip'><strong>apartenență</strong><span class='tooltip-box'>Acceptare, afiliere.</span></span>,
+        <span class='tip'><strong>stimă</strong><span class='tooltip-box'>Prețuire, aprobarea, atingerea obiectivelor.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🌱&nbsp;&nbsp;Două categorii mari</h3>
+      <p>
+        <span class='tip'><strong>trebuințe de deficiență</strong><span class='tooltip-box'>Primele patru; nesatisfacerea lor blochează focusul pe învățare.</span></span>
+        vs.
+        <span class='tip'><strong>trebuințe de creștere</strong><span class='tooltip-box'>Explorare, cunoaștere, autoactualizare.</span></span>.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q4": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Factorii externi (Simon & Peter, 2000) țin de <span class='tip'><strong>mediu</strong><span class='tooltip-box'>Context socio-cultural și comunitar.</span></span>,
+    <span class='tip'><strong>familie</strong><span class='tooltip-box'>Valori și sprijin.</span></span>
+    și <span class='tip'><strong>școală</strong><span class='tooltip-box'>Relații educaționale și cultură organizațională.</span></span>,
+    influențând direct implicarea elevului în învățare.
+  </div>
+
+  <hr />
+
+  <h2>🌍&nbsp;&nbsp;Factorii externi: unde apar și cum acționează</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Mediul socio-cultural</h3>
+      <p>
+        Oferă (sau limitează) resurse, oportunități și modele.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> acces la materiale, bibliotecă, sprijin comunitar.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Valorile promovate în familie</h3>
+      <p>
+        Susțin rutina, perseverența și atitudinea față de școală.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> familie care valorizează învățarea și susține un program de studiu.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Relațiile educaționale</h3>
+      <p>
+        Calitatea relației elev–profesor influențează implicarea și încrederea.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> feedback clar și respectuos → crește participarea.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Grupul de prieteni</h3>
+      <p>
+        Poate susține sau descuraja efortul prin norme de grup.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> grup care valorizează proiectele școlare → crește implicarea.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">5️⃣</div>
+      <h3>Cultura organizațională a școlii</h3>
+      <p>
+        <span class='tip'><strong>Set de valori și practici</strong><span class='tooltip-box'>Climat: cum se lucrează, cum se oferă sprijin, cum se tratează greșeala.</span></span>
+        care poate facilita învățarea.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> școală care promovează sprijinul și feedbackul reduce frica de greșeală.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q5": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    În practica educațională (Sălăvăstru, 2004), <span class='tip'><strong>insuccesul</strong><span class='tooltip-box'>Forme observabile ale dificultăților școlare.</span></span>
+    este recunoscut prin indicatori concreți: decalaje, evaluări nepromovate și părăsirea școlii.
+  </div>
+
+  <hr />
+
+  <h2>👀&nbsp;&nbsp;Forme observabile și criterii de apreciere</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Rămânerea în urmă la învățătură</h3>
+      <p>
+        Elevul nu ține pasul cu ritmul clasei și se acumulează lacune.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> finalizează greu sarcinile și apare decalajul față de obiective.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Corijența</h3>
+      <p>
+        Formă școlară de semnalare a neatingerii cerințelor la o disciplină.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul susține evaluare de corijență.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Repetenția</h3>
+      <p>
+        Neîndeplinirea standardelor minime pe parcursul unui an școlar.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul repetă anul pentru a reface achizițiile.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Abandonul școlar</h3>
+      <p>
+        Părăsirea parcursului educațional.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul nu mai frecventează școala o perioadă lungă și renunță.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q6": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Insuccesul școlar poate fi descris după <span class='tip'><strong>amploare</strong><span class='tooltip-box'>Generalizat vs limitat.</span></span>,
+    după <span class='tip'><strong>tip</strong><span class='tooltip-box'>Cognitiv vs noncognitiv.</span></span>
+    și după <span class='tip'><strong>durată</strong><span class='tooltip-box'>Episodic vs de durată.</span></span>,
+    iar tehnic (Sălăvăstru, 2004) poate fi urmărit pe faze.
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Tipuri de insucces (distincții-cheie)</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📦&nbsp;&nbsp;Generalizat vs limitat</h3>
+      <p>
+        <span class='tip'><strong>Generalizat</strong><span class='tooltip-box'>Dificultăți de adaptare la viața școlară în ansamblu.</span></span>
+        = probleme la majoritatea disciplinelor / standardelor.
+      </p>
+      <p>
+        <span class='tip'><strong>Limitat</strong><span class='tooltip-box'>Dificultăți doar la una sau câteva materii.</span></span>
+        = probleme localizate (ex. doar la matematică și fizică).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Cognitiv vs noncognitiv</h3>
+      <p>
+        <span class='tip'><strong>Cognitiv</strong><span class='tooltip-box'>Rezultate sub nivelul minim acceptat.</span></span>
+        = performanțe sub standard (note foarte mici, lacune).
+      </p>
+      <p>
+        <span class='tip'><strong>Noncognitiv</strong><span class='tooltip-box'>Adaptare deficitară la climatul școlar.</span></span>
+        = dificultăți de integrare/acceptare a regulilor, conflict persistent cu școala.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⏳&nbsp;&nbsp;Insuccesul ca durată</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>⚡&nbsp;&nbsp;Episodic</h3>
+      <p>
+        Dificultate limitată la unele sarcini sau perioade scurte.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> blocaj la un proiect sau la un capitol.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧱&nbsp;&nbsp;De durată</h3>
+      <p>
+        Persistă pe perioade mai lungi (semestru/an), cu acumulare de lacune.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> dificultăți constante tot semestrul.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🛠️&nbsp;&nbsp;Dimensiuni tehnice (Sălăvăstru, 2004): fazele insuccesului</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Faza premergătoare</h3>
+      <p>
+        Apar primele dificultăți, primele decalaje și nemulțumirea față de școală.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul începe să rămână în urmă și evită sarcini.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Faza de retrapaj propriu-zis</h3>
+      <p>
+        Lacune mari, dependență de sprijin, aversiune față de școală, comportamente disruptive.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> absenteismul crește și perturbarea orelor se accentuează.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Faza eșecului școlar formal</h3>
+      <p>
+        Se exprimă prin <span class='tip'><strong>repetenție</strong><span class='tooltip-box'>Neîndeplinirea standardelor minime într-un an.</span></span>
+        sau <span class='tip'><strong>abandon</strong><span class='tooltip-box'>Părăsirea parcursului educațional.</span></span>.
+      </p>
+    </div>
+  </div>
+`,
+  "phed-u11-q7": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Dificultățile de învățare</strong><span class='tooltip-box'>Sunt asociate eșecului școlar și pot avea origini multiple: biologice, cognitive, emoționale și educaționale.</span></span>
+    pot fi înțelese mai clar dacă folosești <span class='tip'><strong>clasificări</strong><span class='tooltip-box'>Scheme care grupează problemele după tip sau origine, ca să știi „unde” să intervii.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Coașan (2000): categorii de dificultăți</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Dificultăți fiziologice</h3>
+      <p>
+        <span class='tip'><strong>Malformații, boli, afecțiuni, infirmități</strong><span class='tooltip-box'>Pot afecta energia, atenția, ritmul și disponibilitatea pentru învățare.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o afecțiune medicală reduce capacitatea de concentrare.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Deficiențe cognitive</h3>
+      <p>
+        Întârzieri în <span class='tip'><strong>înțelegere</strong><span class='tooltip-box'>Decodare și interpretare a cerințelor.</span></span> și în operații precum
+        <span class='tip'><strong>analiza și sinteza</strong><span class='tooltip-box'>Descompunerea și reorganizarea informației.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul înțelege greu instrucțiunile și nu poate organiza informația.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Deficiențe emoționale</h3>
+      <p>
+        Dezechilibre ale abilităților <span class='tip'><strong>intra</strong><span class='tooltip-box'>Autoreglare emoțională.</span></span> și
+        <span class='tip'><strong>interpersonale</strong><span class='tooltip-box'>Relaționare, cooperare, comunicare.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> dificultăți de relaționare → implicare scăzută la clasă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Deficiențe pedagogice</h3>
+      <p>
+        Dezechilibre la nivelul <span class='tip'><strong>relațiilor educaționale</strong><span class='tooltip-box'>Cum se explică, cum se oferă feedback, cum se gestionează climatul.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> feedback confuz + climat tensionat → blocaj în învățare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧬&nbsp;&nbsp;McKinney (1984): după origine</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Înnăscute</h3>
+      <p>
+        <span class='tip'><strong>Prezente de timpuriu</strong><span class='tooltip-box'>Ex.: deficiențe genetice sau particularități stabile ale dezvoltării.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> dificultăți observabile încă de la începutul dezvoltării.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Dobândite</h3>
+      <p>
+        Apar prin <span class='tip'><strong>carențe și obiceiuri</strong><span class='tooltip-box'>Suprasolicitare, organizare deficitară a timpului, lipsa somnului.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> program haotic + oboseală → rezultate slabe.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧭&nbsp;&nbsp;Hamada (2012): moștenire – mediu – educație</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Disfuncții neurologice</h3>
+      <p>
+        <span class='tip'><strong>Prezente de la naștere</strong><span class='tooltip-box'>Pot influența direct procesarea și capacitățile cognitive.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>📏&nbsp;&nbsp;Dificultăți inegale de dezvoltare</h3>
+      <p>
+        Diferențe între <span class='tip'><strong>posibilități reale</strong><span class='tooltip-box'>Nivelul actual al elevului.</span></span>
+        și <span class='tip'><strong>standardele impuse</strong><span class='tooltip-box'>Cerințe prea sus pentru momentul respectiv.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>📚&nbsp;&nbsp;Dificultăți în sarcinile academice</h3>
+      <p>
+        Diferențe între <span class='tip'><strong>potențialul real</strong><span class='tooltip-box'>Ce poate elevul acum.</span></span>
+        și <span class='tip'><strong>sarcinile curente</strong><span class='tooltip-box'>Ce i se cere la discipline.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>⚖️&nbsp;&nbsp;Discrepanța potențial–realizare</h3>
+      <p>
+        <span class='tip'><strong>Efort mare și epuizant</strong><span class='tooltip-box'>Pentru a atinge nivelul cerut.</span></span>, dar cu rezultate abia la minim.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q8": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Eșecul în învățare apare printr-o combinație de
+    <span class='tip'><strong>factori biopsihici</strong><span class='tooltip-box'>Țin de persoană și particularități psihice.</span></span>,
+    <span class='tip'><strong>factori școlari</strong><span class='tooltip-box'>Țin de stiluri de predare/învățare și potrivirea lor.</span></span>
+    și <span class='tip'><strong>factori sociali</strong><span class='tooltip-box'>Țin de climat și influențe din mediul social.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Williams et al. (2004): 3 categorii de factori</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Factori biopsihici</h3>
+      <p>
+        Aspecte de personalitate / funcționare psihică ce pot genera dificultăți în învățare.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> autocontrol scăzut → concentrare redusă pe sarcină.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Factori școlari</h3>
+      <p>
+        <span class='tip'><strong>Stil educațional al profesorului</strong><span class='tooltip-box'>Cum predă, cum explică, cum structurează.</span></span>
+        + <span class='tip'><strong>stil de învățare al elevului</strong><span class='tooltip-box'>Cum învață mai bine elevul.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> strategie didactică nepotrivită → achiziții slabe.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Factori sociali</h3>
+      <p>
+        Climat și influențe sociale care pot afecta atitudinea față de școală.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> anturaj care ridiculizează învățarea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⚠️&nbsp;&nbsp;Gracia & Jenkins (2002): cauze frecvente ale dificultăților</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Anxietatea față de eșec</h3>
+      <p>
+        Poate duce la <span class='tip'><strong>organizare defectuoasă</strong><span class='tooltip-box'>Amânare, evitare, panică înainte de evaluare.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> amână studiul și intră în panică înainte de test.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Autoeficacitate scăzută</h3>
+      <p>
+        <span class='tip'><strong>„Nu pot”</strong><span class='tooltip-box'>Convingere care reduce implicarea și crește evitarea sarcinilor.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> evită sarcini fiind convins că nu reușește.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Competențe psihopedagogice deficitare</h3>
+      <p>
+        <span class='tip'><strong>Explicații neclare</strong><span class='tooltip-box'>Lipsa adaptării la nivelul clasei și feedback slab.</span></span>
+        pot bloca învățarea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏫&nbsp;&nbsp;Inadaptarea școlară: ce înseamnă</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <strong>📌&nbsp;&nbsp;Inadaptarea școlară</strong> = <span class='tip'><strong>dificultatea de a îndeplini sarcini</strong><span class='tooltip-box'>Probleme cu cerințele, ritmul, regulile.</span></span>
+    sau de a <span class='tip'><strong>se integra</strong><span class='tooltip-box'>În grup, în norme, în climatul clasei.</span></span> în mediul școlar.
+    <br /><br />
+    <strong>Exemplu:</strong> elevul nu se adaptează la reguli și evită participarea.
+  </div>
+`,
+
+  "phed-u11-q9": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Prevenirea eșecului școlar începe cu <span class='tip'><strong>cunoașterea elevului</strong><span class='tooltip-box'>Potențial, nivel al achizițiilor, trăsături și factori care influențează învățarea.</span></span>
+    și continuă cu <span class='tip'><strong>individualizare și personalizare</strong><span class='tooltip-box'>Adaptarea instruirii la elev, nu elevul la „rețeta unică”.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🛠️&nbsp;&nbsp;Strategii-cheie de prevenire (în practică)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Cunoaștere profundă a elevului</h3>
+      <p>
+        Înseamnă să înțelegi <span class='tip'><strong>nevoile</strong><span class='tooltip-box'>Ce îl blochează și ce îl ajută.</span></span>,
+        <span class='tip'><strong>nivelul actual</strong><span class='tooltip-box'>Ce poate face singur acum.</span></span>
+        și <span class='tip'><strong>factorii de context</strong><span class='tooltip-box'>Ritm, sprijin, anxietate, obiceiuri.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> are lacune la o competență → primește sarcini gradate.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Individualizare și personalizare</h3>
+      <p>
+        <span class='tip'><strong>Abordarea particularizată</strong><span class='tooltip-box'>Ritm, dificultate, tip de sprijin diferite pentru elevi diferiți.</span></span>
+        contribuie decisiv la prevenire.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> același obiectiv, dar sarcini cu dificultăți diferite.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Succes inițial „personal”</h3>
+      <p>
+        Creezi contexte în care elevul trăiește <span class='tip'><strong>reușite reale</strong><span class='tooltip-box'>Mici, dar autentice: „am reușit ceva dificil pentru mine”.</span></span>,
+        ca să crească încrederea și implicarea.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Reconsiderarea IQ: de ce contează azi</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📌&nbsp;&nbsp;Ce nu înseamnă</h3>
+      <p>
+        Nu înseamnă „ignorăm inteligența”, ci evităm să o facem
+        <span class='tip'><strong>singurul criteriu</strong><span class='tooltip-box'>Eșecul/succesul nu se explică doar cognitiv.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🌱&nbsp;&nbsp;Ce înseamnă</h3>
+      <p>
+        Valorizăm <span class='tip'><strong>factorii noncognitivi</strong><span class='tooltip-box'>Eficacitate personală, perseverență, autoreglare.</span></span>
+        și orientăm practica spre antrenarea lor.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul exersează menținerea efortului și încrederea în sarcini.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u11-q10": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Profesorul are la îndemână <span class='tip'><strong>trei resurse educaționale</strong><span class='tooltip-box'>Enumerate în text: relațiile educaționale, strategia didactică, practicile evaluative.</span></span>
+    care, folosite împreună, cresc șansele de <span class='tip'><strong>succes în învățare</strong><span class='tooltip-box'>Implicare + sarcini potrivite + progres vizibil.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧰&nbsp;&nbsp;Cele 3 resurse la îndemâna profesorului</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Relațiile educaționale</h3>
+      <p>
+        Sunt o resursă reală pentru că <span class='tip'><strong>susțin implicarea</strong><span class='tooltip-box'>Cresc disponibilitatea pentru efort și reduc evitarea.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> elevul cere ajutor la timp în loc să renunțe.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Strategia didactică</h3>
+      <p>
+        <span class='tip'><strong>Potrivește instruirea cu elevul</strong><span class='tooltip-box'>Baza individualizării și personalizării: ritm, tip de sarcină, sprijin.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> sarcini gradate de la ușor la dificil, cu sprijin pe parcurs.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Practicile evaluative</h3>
+      <p>
+        Contribuie prin <span class='tip'><strong>autoevaluare</strong><span class='tooltip-box'>Elevul vede progresul și știe ce îmbunătățește.</span></span>
+        și prin rezultate observabile care pot susține stima de sine.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> criterii vizibile + șanse de îmbunătățire după evaluare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Cum lucrează împreună</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Relația deschide ușa</h3>
+      <p>
+        Creează încredere și disponibilitate pentru efort.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Strategia organizează drumul</h3>
+      <p>
+        Structurează sarcini potrivite și sprijin gradual, ca elevul să poată reuși.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>📊&nbsp;&nbsp;Evaluarea arată progresul</h3>
+      <p>
+        Face învățarea vizibilă și ghidează ajustarea efortului și a strategiilor.
+      </p>
+    </div>
+  </div>
+`,
+  "phed-u13-q1": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea nu înseamnă doar <span class='tip'><strong>noutate</strong><span class='tooltip-box'>Să apară ceva diferit de ce exista înainte.</span></span>,
+    ci <span class='tip'><strong>noutate + valoare</strong><span class='tooltip-box'>Produsul trebuie să fie relevant, util sau semnificativ pentru cineva (persoană, grup, societate).</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;De ce originalitatea singură nu ajunge</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Noutate</h3>
+      <p>
+        Ideea/produsul este <strong>nou</strong> (original, diferit).
+      </p>
+      <p class="lesson-highlight">
+        <strong>Dar:</strong> o idee poate fi nouă și totuși inutilă sau irelevantă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Valoare (utilitate)</h3>
+      <p>
+        Produsul are <span class='tip'><strong>valoare</strong><span class='tooltip-box'>Utilitate, relevanță, adecvare la o problemă sau un context.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o idee nouă care rezolvă o problemă concretă.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⚖️&nbsp;&nbsp;Când noutatea e „prea mare” vs. „prea mică”</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🚫&nbsp;&nbsp;Noutate prea mare</h3>
+      <p>
+        Produsul poate fi <span class='tip'><strong>respins</strong><span class='tooltip-box'>Lipsa reperelor face dificilă evaluarea și acceptarea socială.</span></span>
+        sau <strong>neînțeles</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o idee radical diferită poate părea „ciudată” înainte să fie apreciată.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>📝&nbsp;&nbsp;Noutate prea mică</h3>
+      <p>
+        Rezultatul ajunge <span class='tip'><strong>copiere cu minime schimbări</strong><span class='tooltip-box'>Similaritate mare cu variantele anterioare → creativitate scăzută.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> „versiuni” aproape identice ale aceluiași produs.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Dezbaterea asupra „valorii”</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <strong>📌&nbsp;&nbsp;Problema:</strong>
+    nu e mereu clar <span class='tip'><strong>cine e evaluatorul</strong><span class='tooltip-box'>Public, experți, instituții, comunități profesionale.</span></span>
+    și <span class='tip'><strong>după ce criterii</strong><span class='tooltip-box'>Criteriile diferă între domenii și epoci.</span></span>.
+    <br /><br />
+    <strong>Exemplu:</strong> în artă, valoarea implică inevitabil o doză de subiectivitate.
+  </div>
+`,
+
+  "phed-u13-q2": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Există niveluri ale creativității:
+    <span class='tip'><strong>Big C</strong><span class='tooltip-box'>Creativitate eminentă, cu impact social major.</span></span>
+    și <span class='tip'><strong>little c</strong><span class='tooltip-box'>Creativitate cotidiană, aplicată în viața de zi cu zi.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🌍&nbsp;&nbsp;Big C vs. little c: diferența-cheie</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Big C</h3>
+      <p>
+        Se distinge prin <span class='tip'><strong>impact societal</strong><span class='tooltip-box'>Schimbă un domeniu, influențează comunități largi.</span></span>
+        și <span class='tip'><strong>recunoaștere</strong><span class='tooltip-box'>Validare publică/profesională.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o teorie științifică majoră sau o invenție cu efect larg.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>little c</h3>
+      <p>
+        Este <span class='tip'><strong>creativitatea cotidiană</strong><span class='tooltip-box'>Soluții ingenioase, adaptări, improvizații utile.</span></span>,
+        cu valoare <strong>personală</strong> sau <strong>locală</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> adaptezi o metodă de lucru la o situație nouă.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⏳&nbsp;&nbsp;Ce caracterizează creativitatea Big C</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🏆&nbsp;&nbsp;Recunoaștere socială</h3>
+      <p>
+        Produsele sunt validate de comunitate (public, experți, instituții).
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧱&nbsp;&nbsp;Investiție îndelungată</h3>
+      <p>
+        Implică <span class='tip'><strong>muncă susținută</strong><span class='tooltip-box'>De regulă, ani de practică și aprofundare într-un domeniu.</span></span>,
+        nu doar spontaneitate.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🌱&nbsp;&nbsp;De ce contează „potențialul creativ” (little c)</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <strong>📌&nbsp;&nbsp;Potențial creativ</strong> înseamnă că accentul se mută
+    de la „talent fix” la <span class='tip'><strong>dezvoltare</strong><span class='tooltip-box'>Creativitatea poate fi cultivată prin exercițiu, experiențe diverse și învățare.</span></span>.
+    <br /><br />
+    <strong>Exemplu:</strong> antrenarea gândirii divergente la elevi.
+  </div>
+`,
+
+  "phed-u13-q3": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Definițiile moderne ale creativității se întâlnesc, de regulă, în două repere:
+    <span class='tip'><strong>noutate</strong><span class='tooltip-box'>Originalitate / diferență relevantă.</span></span>
+    și <span class='tip'><strong>valoare</strong><span class='tooltip-box'>Utilitate, adecvare, semnificație într-un context.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🔎&nbsp;&nbsp;Nucleul comun al definițiilor moderne</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Noutate</h3>
+      <p>
+        Nu e suficient să fie „altfel”, ci să fie <strong>original</strong> într-un mod recognoscibil.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Valoare / utilitate</h3>
+      <p>
+        Ideea trebuie să fie <span class='tip'><strong>adecvată</strong><span class='tooltip-box'>Potrivită cerințelor unei sarcini sau nevoi.</span></span>
+        și <strong>relevantă</strong>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Perspective complementare (ce adaugă fiecare)</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Plucker & Beghetto (2004)</h3>
+      <p>
+        Creativitatea = <span class='tip'><strong>interacțiune</strong><span class='tooltip-box'>Între aptitudine și proces.</span></span>
+        care produce un rezultat <strong>nou și util</strong> într-un <strong>context social</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> un proiect de echipă evaluat pozitiv de comunitate.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Runco (2004)</h3>
+      <p>
+        Accent pe <span class='tip'><strong>interpretări originale și adecvate</strong><span class='tooltip-box'>Persoana decide (inițial) când o idee e utilă pentru ea/în context.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> transformi o experiență personală într-o soluție practică.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Sternberg (2005)</h3>
+      <p>
+        Creativitatea cere <span class='tip'><strong>inovație</strong><span class='tooltip-box'>Originalitate.</span></span>
+        + <span class='tip'><strong>adecvare</strong><span class='tooltip-box'>Potrivire la cerințele sarcinii.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o soluție ingenioasă care respectă constrângerile problemei.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Torrance (1966)</h3>
+      <p>
+        Accent pe <span class='tip'><strong>proces</strong><span class='tooltip-box'>Sensibilitate la probleme → ipoteze → testare → comunicare.</span></span>,
+        nu doar pe produs.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> identifici o lacună și formulezi ipoteze pe care le verifici.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q4": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Modelele sistemice sunt necesare deoarece <span class='tip'><strong>creativitatea nu ține doar de individ</strong><span class='tooltip-box'>Aceeași persoană poate fi creativă într-un context și blocată în altul.</span></span>:
+    ea apare din <span class='tip'><strong>interacțiunea</strong><span class='tooltip-box'>Persoană + domeniu + context socio-cultural.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Triada modelului sistemic</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Persoana</h3>
+      <p>
+        Include <span class='tip'><strong>aptitudini</strong><span class='tooltip-box'>Capacități cognitive, gândire divergentă, flexibilitate.</span></span>,
+        <span class='tip'><strong>motivație și trăsături</strong><span class='tooltip-box'>Curiozitate, perseverență, deschidere.</span></span>
+        și <span class='tip'><strong>experiență</strong><span class='tooltip-box'>Istoric de formare și cunoștințe acumulate.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Domeniul</h3>
+      <p>
+        <span class='tip'><strong>Reguli și cunoștințe împărtășite</strong><span class='tooltip-box'>Standarde, criterii de valoare, tradiții ale domeniului.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> cum se validează o idee în știință vs. în artă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Contextul socio-cultural</h3>
+      <p>
+        Poate <span class='tip'><strong>susține sau bloca</strong><span class='tooltip-box'>Prin norme, valori, resurse, deschidere culturală.</span></span>
+        producerea și validarea creativității.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Logica de ansamblu: creativitatea ca interacțiune</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>✅&nbsp;&nbsp;Niciun element nu e suficient singur</h3>
+      <p>
+        <strong>Potențial ridicat</strong> fără context favorabil poate rămâne nevalorificat,
+        iar un <strong>context bun</strong> fără competențe/implicare produce rar rezultate creative.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>🌿&nbsp;&nbsp;Exemplu de combinație funcțională</h3>
+      <p>
+        <span class='tip'><strong>persoană pregătită</strong><span class='tooltip-box'>Cunoștințe + motivație.</span></span>
+        + <span class='tip'><strong>domeniu permeabil</strong><span class='tooltip-box'>Acceptă idei noi.</span></span>
+        + <span class='tip'><strong>context favorabil</strong><span class='tooltip-box'>Resurse și deschidere culturală.</span></span>.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q5": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Produsul creativ</strong><span class='tooltip-box'>Fațeta „produs” a creativității.</span></span>
+    este definit prin <span class='tip'><strong>două condiții</strong><span class='tooltip-box'>Noutate și valoare.</span></span>:
+    fără una dintre ele, nu mai vorbim de creativitate propriu-zisă.
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Cele două condiții ale produsului creativ</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Noutate</h3>
+      <p>
+        Produsul este <strong>original</strong>, aduce ceva nou.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Atenție:</strong> noutatea fără valoare poate rămâne doar „bizarerie”.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Valoare</h3>
+      <p>
+        Produsul este <span class='tip'><strong>util / relevant / adecvat</strong><span class='tooltip-box'>Potrivit unei nevoi sau unei sarcini.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Atenție:</strong> valoarea fără noutate tinde spre copiere/reproducere.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🌍&nbsp;&nbsp;Unde poate avea impact un produs creativ</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>La nivel personal</h3>
+      <p>
+        Rezolvă o problemă concretă pentru individ.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o soluție ingenioasă într-o situație cotidiană.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>La nivel societal</h3>
+      <p>
+        Produce schimbări ample sau influențează un domeniu.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o descoperire științifică majoră.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧑‍⚖️&nbsp;&nbsp;Cum se evaluează produsele creative</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    În multe domenii, evaluarea se face prin <span class='tip'><strong>un grup de experți</strong><span class='tooltip-box'>Comunități științifice, critici de artă, profesioniști ai domeniului.</span></span>,
+    iar criteriile sunt <span class='tip'><strong>contextuale</strong><span class='tooltip-box'>Depind de epocă și de regulile domeniului.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>📈&nbsp;&nbsp;Productivitate totală vs. productivitate efectivă</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Productivitate totală</h3>
+      <p>
+        Ține de <span class='tip'><strong>cantitate</strong><span class='tooltip-box'>Câte idei/produse generezi.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>Productivitate efectivă</h3>
+      <p>
+        Ține de <span class='tip'><strong>valoare</strong><span class='tooltip-box'>Câte dintre produse sunt realmente valoroase.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> multe schițe, puține capodopere.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⏳&nbsp;&nbsp;Evoluția productivității</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    O afirmație frecvent întâlnită este că vârful productivității apare adesea
+    <span class='tip'><strong>între 30 și 50 de ani</strong><span class='tooltip-box'>O medie generală, care poate varia mult în funcție de domeniu.</span></span>.
+  </div>
+`,
+
+  "phed-u13-q6": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea poate fi înțeleasă ca <span class='tip'><strong>proces</strong><span class='tooltip-box'>Nu doar produs final, ci un parcurs cu etape.</span></span>.
+    Modelul clasic (Wallace, 1926) descrie etape care pot apărea în mod repetat.
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Wallace (1926): etapele procesului creativ</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Preparare</h3>
+      <p>
+        <span class='tip'><strong>Căutare și documentare</strong><span class='tooltip-box'>Identifici problema, strângi informații, clarifici „ce lipsește”.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Risc:</strong> specializarea prea înaltă poate aduce <strong>rigiditate</strong> în gândire.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Incubație</h3>
+      <p>
+        Ideile se <span class='tip'><strong>combină și se filtrează</strong><span class='tooltip-box'>Procesare „în fundal”, asocieri și recombinări.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> nu te mai forțezi, dar mintea continuă să lucreze.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Iluminare</h3>
+      <p>
+        Momentul <span class='tip'><strong>„Aha”</strong><span class='tooltip-box'>Soluția devine conștientă și funcțională.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Notă:</strong> „Aha”-urile pot fi <strong>multiple și mici</strong>, nu doar unul spectaculos.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Verificare</h3>
+      <p>
+        <span class='tip'><strong>Elaborare și evaluare</strong><span class='tooltip-box'>Testezi, ajustezi, corectezi, rafinezi soluția.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> aplici soluția, vezi ce nu funcționează și revii cu îmbunătățiri.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;De ce procesul creativ e „ciclic”</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>Nu e mereu liniar</h3>
+      <p>
+        Etapele nu au durate fixe și nu curg obligatoriu identic pentru toți.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Verificarea poate relansa procesul</h3>
+      <p>
+        În <span class='tip'><strong>verificare</strong><span class='tooltip-box'>Testare și evaluare.</span></span> poți descoperi o problemă nouă,
+        ceea ce te duce înapoi la <strong>preparare</strong> sau <strong>incubație</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> testezi, observi o lipsă, revii la documentare.
+      </p>
+    </div>
+  </div>
+`,
+  "phed-u13-q7": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Gândirea divergentă</strong><span class='tooltip-box'>Proces cognitiv central al creativității: produce mai multe răspunsuri/soluții la aceeași problemă.</span></span>
+    înseamnă <span class='tip'><strong>generarea de alternative</strong><span class='tooltip-box'>Nu cauți „singurul răspuns corect”, ci explorezi variante.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧠&nbsp;&nbsp;Divergent vs. convergent</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🌱&nbsp;&nbsp;Divergent</h3>
+      <p>
+        Produce <strong>mai multe idei</strong> și soluții posibile.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> „La ce poate fi folosit un obiect obișnuit?”
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Convergent</h3>
+      <p>
+        Caută <strong>o soluție corectă</strong>, validată printr-un standard.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> un exercițiu cu un singur răspuns.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Criteriile lui Guilford (1967)</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Fluiditatea</h3>
+      <p>
+        <span class='tip'><strong>Numărul total de idei</strong><span class='tooltip-box'>Accent pe cantitate, nu pe calitate.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> câte răspunsuri poți genera într-un timp limitat.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Flexibilitatea</h3>
+      <p>
+        <span class='tip'><strong>Varietatea categoriilor</strong><span class='tooltip-box'>Schimbi perspectiva: ideile vin din registre diferite.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> soluții tehnice, sociale și simbolice la aceeași problemă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Originalitatea</h3>
+      <p>
+        <span class='tip'><strong>Raritatea ideilor</strong><span class='tooltip-box'>Cu cât apare mai rar un răspuns în eșantion, cu atât e mai original.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> un răspuns oferit de foarte puțini participanți.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Elaborarea</h3>
+      <p>
+        <span class='tip'><strong>Complexitatea și detalierea</strong><span class='tooltip-box'>Ideea e dezvoltată în pași, exemple, consecințe.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> o soluție explicată, nu doar enunțată.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧪&nbsp;&nbsp;TTCT: logica testelor Torrance</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📋&nbsp;&nbsp;Ce este TTCT</h3>
+      <p>
+        <span class='tip'><strong>Torrance Tests of Creative Thinking</strong><span class='tooltip-box'>Teste de creativitate verbală și figurală, cu sarcini deschise.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> utilizări neobișnuite sau interpretarea unor stimuli vizuali.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧑‍🏫&nbsp;&nbsp;Cum se analizează răspunsurile</h3>
+      <p>
+        Scorarea e realizată de <span class='tip'><strong>specialiști instruiți</strong><span class='tooltip-box'>Pe criterii standardizate, inclusiv fluiditate/flexibilitate/originalitate/elaborare.</span></span>,
+        nu doar prin numărarea automată a cuvintelor.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q8": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea „ca persoană” se explică printr-un mix de
+    <span class='tip'><strong>cognitiv</strong><span class='tooltip-box'>Cum gândești: flexibilitate, divergent, selecție relevantă.</span></span>,
+    <span class='tip'><strong>personalitate</strong><span class='tooltip-box'>Deschidere, nonconformism, inițiativă.</span></span>
+    și <span class='tip'><strong>motivație</strong><span class='tooltip-box'>Intrinsecă/extrinsecă, în roluri diferite.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Inteligență și creativitate: „teoria pragului”</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>📈&nbsp;&nbsp;Relație până la un prag</h3>
+      <p>
+        Există o corelație pozitivă <strong>până la un anumit nivel</strong> al IQ.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>📉&nbsp;&nbsp;Peste prag, relația slăbește</h3>
+      <p>
+        Un IQ foarte ridicat nu garantează creativitate ridicată.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> IQ foarte mare + creativitate medie.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Profilul persoanei creative: 3 componente</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Cognitiv</h3>
+      <p>
+        <span class='tip'><strong>Flexibilitate ideativă</strong><span class='tooltip-box'>Conectezi idei diferite, schimbi cadrele de interpretare.</span></span>,
+        <span class='tip'><strong>gândire divergentă</strong><span class='tooltip-box'>Cauți răspunsuri multiple.</span></span>,
+        <span class='tip'><strong>perspicacitate</strong><span class='tooltip-box'>Selectezi informația relevantă.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Personalitate</h3>
+      <p>
+        <span class='tip'><strong>Deschidere spre experiență</strong><span class='tooltip-box'>Interes pentru noutate și diversitate.</span></span>,
+        <span class='tip'><strong>nonconformism</strong><span class='tooltip-box'>Ieșire din tipare.</span></span>,
+        <span class='tip'><strong>inițiativă și încredere în sine</strong><span class='tooltip-box'>Propui și testezi idei.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Motivație</h3>
+      <p>
+        <span class='tip'><strong>Intrinsecă</strong><span class='tooltip-box'>Curiozitate, interes, pasiune.</span></span>
+        + <span class='tip'><strong>extrinsecă</strong><span class='tooltip-box'>Recompense, recunoaștere.</span></span>,
+        folosite în momente diferite ale procesului creativ.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔥&nbsp;&nbsp;Intrinsec vs. extrinsec: unde ajută fiecare</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🌿&nbsp;&nbsp;Motivația intrinsecă</h3>
+      <p>
+        Susține <span class='tip'><strong>incubația</strong><span class='tooltip-box'>„Dospirea” ideilor.</span></span>
+        și <span class='tip'><strong>iluminarea</strong><span class='tooltip-box'>Momentul „Aha”.</span></span>:
+        rămâi conectat la problemă pentru că te interesează.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🏁&nbsp;&nbsp;Motivația extrinsecă</h3>
+      <p>
+        Sprijină <span class='tip'><strong>prepararea</strong><span class='tooltip-box'>Documentare, efort organizat.</span></span>
+        și <span class='tip'><strong>verificarea</strong><span class='tooltip-box'>Evaluare, rafinare.</span></span>,
+        când ai nevoie de structură și finalizare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔁&nbsp;&nbsp;Perseverența reinterpretată</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    La persoanele creative, <span class='tip'><strong>perseverența</strong><span class='tooltip-box'>Menținerea efortului în timp.</span></span>
+    poate arăta ca <span class='tip'><strong>alternanță între angajare și retragere</strong><span class='tooltip-box'>Pauza poate fi strategie (schimbare de perspectivă), nu abandon.</span></span>.
+    <br /><br />
+    <strong>Exemplu:</strong> lași proiectul o vreme, revii cu piste noi.
+  </div>
+`,
+
+  "phed-u13-q9": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    În teoria sistemică (Csikszentmihalyi), creativitatea apare din
+    <span class='tip'><strong>interacțiunea</strong><span class='tooltip-box'>Nu e produsul exclusiv al persoanei, ci al unui sistem.</span></span>
+    dintre <strong>persoană</strong>, <strong>domeniu</strong> și <strong>aria de specializare</strong>.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Cele 3 sisteme interdependente</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Persoana</h3>
+      <p>
+        <span class='tip'><strong>Aptitudini</strong><span class='tooltip-box'>Resurse cognitive.</span></span>,
+        <span class='tip'><strong>motivație</strong><span class='tooltip-box'>Interes și angajare.</span></span>,
+        <span class='tip'><strong>trăsături</strong><span class='tooltip-box'>Deschidere, inițiativă etc.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Domeniul</h3>
+      <p>
+        Definește <span class='tip'><strong>ce e valoros</strong><span class='tooltip-box'>Reguli, limbaj, criterii ale culturii într-un domeniu.</span></span>
+        la un moment dat.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Aria de specializare</h3>
+      <p>
+        Componenta social-organizațională:
+        <span class='tip'><strong>resurse + validare expertă</strong><span class='tooltip-box'>Ierarhii, acces la finanțare, rețele, permeabilitate.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> colaborare interdisciplinară + acces la resurse → accelerare.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏛️&nbsp;&nbsp;Societatea poate favoriza sau bloca</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🗳️&nbsp;&nbsp;Context favorizant</h3>
+      <p>
+        Libertatea de exprimare și accesul la resurse pot crește șansele ca ideile noi să fie încercate și validate.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>⛔&nbsp;&nbsp;Context restrictiv</h3>
+      <p>
+        Controlul, cenzura sau lipsa resurselor pot reduce <strong>vizibilitatea</strong> și <strong>validarea</strong> ideilor noi.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏠&nbsp;&nbsp;Mediul proximal: familia și mediul defavorizat</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>👨‍👩‍👧‍👦&nbsp;&nbsp;Rolul familiei</h3>
+      <p>
+        Poate susține creativitatea prin <span class='tip'><strong>valori</strong><span class='tooltip-box'>Curiozitate, autonomie.</span></span>,
+        <span class='tip'><strong>atmosferă</strong><span class='tooltip-box'>Acceptare, încurajare.</span></span>
+        și <span class='tip'><strong>resurse</strong><span class='tooltip-box'>Timp, materiale, oportunități.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🌧️&nbsp;&nbsp;Mediu defavorizat</h3>
+      <p>
+        Nu „anulează” creativitatea: uneori constrângerile pot deveni <span class='tip'><strong>stimulative</strong><span class='tooltip-box'>Forțează soluții neobișnuite și dezvoltă perseverență.</span></span>,
+        dar nu garantează automat creativitate ridicată.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q10": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea la copii e discutată deoarece definiția clasică cere
+    <span class='tip'><strong>noutate + valoare</strong><span class='tooltip-box'>Uneori asociate cu timp, experiență și validare socială.</span></span>,
+    iar copiii sunt încă în formare. Perspectiva <strong>little c</strong> schimbă însă concluzia.
+  </div>
+
+  <hr />
+
+  <h2>⚖️&nbsp;&nbsp;De ce apar controversele</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧱&nbsp;&nbsp;Perspectivă restrictivă</h3>
+      <p>
+        Criteriile „tari” (valoare socială, expertiză) cer
+        <span class='tip'><strong>timp de formare</strong><span class='tooltip-box'>Ani de acumulări și exercițiu.</span></span>
+        și <span class='tip'><strong>discernământ</strong><span class='tooltip-box'>Intenționalitate și control mai mature.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🌱&nbsp;&nbsp;Perspectivă educațională</h3>
+      <p>
+        Dacă privim creativitatea ca <strong>potențial</strong> și proces,
+        copiii pot fi creativi în mod autentic la nivelul lor.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Argumentele „opoziției” față de creativitatea copiilor</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Timp de formare</h3>
+      <p>
+        Creativitatea majoră ar necesita ani de acumulări și practică.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Discernământ și intenționalitate</h3>
+      <p>
+        Copiii sunt în dezvoltare cognitivă și emoțională; controlul și scopurile sunt încă în maturizare.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>„Regula celor 10 ani”</h3>
+      <p>
+        Unele perspective leagă creativitatea eminentă de <strong>minim un deceniu</strong> de muncă într-un domeniu.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🌿&nbsp;&nbsp;Cum schimbă little c discuția</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    <span class='tip'><strong>little c</strong><span class='tooltip-box'>Creativitate cotidiană: soluții ingenioase cu valoare personală/educațională.</span></span>
+    redefinește creativitatea copilului ca <span class='tip'><strong>propensiune spre schimbare și adaptare</strong><span class='tooltip-box'>Explorare, combinare, ajustare continuă.</span></span>.
+    <br /><br />
+    <strong>Implicație:</strong> creativitatea poate fi <strong>stimulată prin educație</strong>.
+  </div>
+
+  <hr />
+
+  <h2>🧒&nbsp;&nbsp;Ce trăsături ale copilăriei susțin creativitatea</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>✨&nbsp;&nbsp;Fantezie și spontaneitate</h3>
+      <p>
+        Imaginarea de alternative și acțiunea fără rigiditate.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎲&nbsp;&nbsp;Disponibilitate pentru risc</h3>
+      <p>
+        Experimentare fără teama excesivă de eșec (esențială pentru încercare–eroare).
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q11": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Primele manifestări creative apar devreme și sunt, de regulă,
+    <span class='tip'><strong>informale</strong><span class='tooltip-box'>Nu urmăresc validare socială complexă.</span></span>
+    și orientate spre <span class='tip'><strong>plăcere</strong><span class='tooltip-box'>Motivație intrinsecă.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🌱&nbsp;&nbsp;Primele manifestări creative</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Jocul simbolic</h3>
+      <p>
+        Copilul folosește <span class='tip'><strong>simboluri</strong><span class='tooltip-box'>Un obiect „devine” altceva.</span></span>
+        pentru a reprezenta realitatea.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> un băț devine sabie sau baghetă magică.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Desenul</h3>
+      <p>
+        Formă de expresie creativă cu <strong>valoare personală</strong> (nu neapărat societală).
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Profiluri: copiii cu scoruri ridicate la creativitate</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Independență</h3>
+      <p>
+        Inițiativă, explorare autonomă, curaj de a încerca.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🗣️&nbsp;&nbsp;Limbaj elaborat</h3>
+      <p>
+        Mai bogat decât media vârstei, util pentru nuanțare și combinare de idei.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🎭&nbsp;&nbsp;Joc dramatic și exploratoriu</h3>
+      <p>
+        Activități cu roluri, scenarii, „ce-ar fi dacă…”.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🏫&nbsp;&nbsp;Creativitatea la vârsta școlară și în adolescență</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🔎&nbsp;&nbsp;Vârsta școlară</h3>
+      <p>
+        Se vede prin <span class='tip'><strong>interese multiple</strong><span class='tooltip-box'>Curiozitate, atenție la detalii, întrebări.</span></span>
+        și prin semne precum <span class='tip'><strong>notițe/desene marginale</strong><span class='tooltip-box'>Indicatori ai explorării și ai gândirii asociative.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🚀&nbsp;&nbsp;Adolescență</h3>
+      <p>
+        Crește importanța <span class='tip'><strong>originalității</strong><span class='tooltip-box'>A fi diferit devine o valoare.</span></span>,
+        a <span class='tip'><strong>siguranței de sine</strong><span class='tooltip-box'>Îndrăzneală.</span></span>
+        și a <span class='tip'><strong>perseverenței</strong><span class='tooltip-box'>Menținerea intereselor pe termen mai lung.</span></span>.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q12": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    <span class='tip'><strong>Prietenul imaginar</strong><span class='tooltip-box'>Personaj cu gânduri/dorințe atribuite de copil, tratat ca entitate distinctă.</span></span>
+    și <span class='tip'><strong>lumile imaginare</strong><span class='tooltip-box'>Construcții fictive complexe, cu reguli și continuitate.</span></span>
+    sunt văzute ca indicatori ai creativității deoarece cer organizare, imaginație și perseverență.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Două forme ale jocului imaginar</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Prietenul imaginar</h3>
+      <p>
+        Copilul îi atribuie <strong>gânduri</strong> și <strong>dorințe</strong>,
+        tratându-l ca „altcineva”.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Notă:</strong> apare frecvent în jurul vârstei de 7 ani (ca reper în literatura citată).
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Lumile imaginare</h3>
+      <p>
+        <span class='tip'><strong>Construcții complexe</strong><span class='tooltip-box'>Personaje, locuri, reguli, continuitate.</span></span>,
+        uneori cu „dovezi” materiale: hărți, desene, obiecte.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;De ce sunt indicatori ai creativității</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Rezolvare de probleme</h3>
+      <p>
+        Copilul organizează informația și găsește soluții în cadrul universului creat.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🔥&nbsp;&nbsp;Motivație intrinsecă și perseverență</h3>
+      <p>
+        Sunt menținute <span class='tip'><strong>luni sau ani</strong><span class='tooltip-box'>Implicare pe termen lung, fără nevoie de validare constantă.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>👑&nbsp;&nbsp;Leadership și implicare emoțională</h3>
+      <p>
+        Copilul conduce și dezvoltă lumea: decide reguli, scenarii, evoluții.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>📚&nbsp;&nbsp;Exemplu și concluzie</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🦁&nbsp;&nbsp;C.S. Lewis</h3>
+      <p>
+        Exemplul arată <span class='tip'><strong>legătura dintre lumi imaginare și creativitatea adultă</strong><span class='tooltip-box'>Lumea „Boxen” a precedat creațiile literare mature.</span></span>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🔎&nbsp;&nbsp;Logica de ansamblu</h3>
+      <p>
+        Jocul imaginar susține dezvoltarea <strong>cognitivă</strong>, <strong>emoțională</strong> și <strong>motivațională</strong>,
+        antrenând capacitatea de a crea și transforma structuri complexe.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q13": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea în școală depinde de <span class='tip'><strong>interacțiunea mai multor agenți</strong><span class='tooltip-box'>Elevi, profesori, management, părinți și decidenți.</span></span>:
+    același elev poate înflori sau se poate bloca în funcție de sistem.
+  </div>
+
+  <hr />
+
+  <h2>🧩&nbsp;&nbsp;Cine influențează creativitatea în școală</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Elevul</h3>
+      <p>
+        Activează potențialul prin <span class='tip'><strong>curiozitate</strong><span class='tooltip-box'>Întrebări, alternative, inițiativă.</span></span>,
+        dar se poate bloca prin <span class='tip'><strong>evitare și conformism</strong><span class='tooltip-box'>Caută doar „corectul”.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Profesorii</h3>
+      <p>
+        Pot susține creativitatea prin <span class='tip'><strong>valorizarea originalității</strong><span class='tooltip-box'>Climat deschis și tolerant.</span></span>
+        și <span class='tip'><strong>disponibilitate pentru explorare</strong><span class='tooltip-box'>Întrebări și încercări.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Managementul școlii</h3>
+      <p>
+        Poate facilita sau bloca prin <span class='tip'><strong>politici și priorități</strong><span class='tooltip-box'>Resurse, timp, accent pe standardizare vs. inovare.</span></span>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> accent exclusiv pe rezultate standardizate → reduce inovația didactică.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Părinți și decidenți</h3>
+      <p>
+        Influențează <span class='tip'><strong>valorile și resursele</strong><span class='tooltip-box'>Așteptări, politici, finanțare, cultură educațională.</span></span>
+        care ajung în școală.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Logica de ansamblu</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    Creativitatea este <span class='tip'><strong>rezultatul unui sistem</strong><span class='tooltip-box'>Interacțiune elev–profesor–școală–context.</span></span>:
+    inițiativele individuale au nevoie de <strong>susținere relațională</strong> și <strong>sprijin instituțional</strong>
+    ca să devină constante și vizibile.
+  </div>
+`,
+
+  "phed-u13-q14": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Blocarea creativității în școală apare când sunt descurajate
+    <span class='tip'><strong>întrebările</strong><span class='tooltip-box'>Curiozitatea și alternativele.</span></span>,
+    <span class='tip'><strong>riscul</strong><span class='tooltip-box'>Încercare–eroare.</span></span>
+    și <span class='tip'><strong>explorarea</strong><span class='tooltip-box'>Mai multe soluții posibile.</span></span>.
+  </div>
+
+  <hr />
+
+  <h2>🚫&nbsp;&nbsp;Mecanisme frecvente de blocare</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Conduite ale elevului</h3>
+      <p>
+        <span class='tip'><strong>Doar răspunsul corect</strong><span class='tooltip-box'>Reduce gândirea divergentă.</span></span>
+        + <span class='tip'><strong>evitarea riscurilor</strong><span class='tooltip-box'>Teamă de greșeală.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Convingeri ale profesorului</h3>
+      <p>
+        <span class='tip'><strong>„Creativitatea e doar pentru genii”</strong><span class='tooltip-box'>Ignoră little c.</span></span>
+        sau <span class='tip'><strong>„metodele creative = haos”</strong><span class='tooltip-box'>Temere care duce la rigiditate.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Școala ca instituție</h3>
+      <p>
+        <span class='tip'><strong>Conformism și rutină</strong><span class='tooltip-box'>Uniformitate, procedee rigide.</span></span>
+        care reduc spațiul pentru inițiativă.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Evaluare exclusiv cognitivă</h3>
+      <p>
+        <span class='tip'><strong>Standardizare</strong><span class='tooltip-box'>Favorizează uniformitatea și penalizează deviațiile productive.</span></span>,
+        ignorând dimensiunile procesului creativ.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔎&nbsp;&nbsp;Cum se vede blocarea în practică</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>😶&nbsp;&nbsp;Autocenzură</h3>
+      <p>
+        Elevul evită să propună idei de teamă să nu greșească sau să fie evaluat negativ.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧊&nbsp;&nbsp;Predictibilitate peste explorare</h3>
+      <p>
+        Sistemul favorizează „sigur” și „corect” în detrimentul încercării de alternative.
+      </p>
+    </div>
+  </div>
+`,
+
+  "phed-u13-q15": `
+  <div class="lesson-highlight">
+    <strong>📘&nbsp;&nbsp;Ideea centrală:</strong>
+    Creativitatea poate fi <span class='tip'><strong>susținută intenționat</strong><span class='tooltip-box'>Prin organizarea contextului educațional, a sarcinilor și a relațiilor.</span></span>,
+    nu doar lăsată la întâmplare.
+  </div>
+
+  <hr />
+
+  <h2>✅&nbsp;&nbsp;Condiții (Starko, 2005) pentru promovarea creativității</h2>
+  <div class="lesson-grid two colorful">
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">1️⃣</div>
+      <h3>Elevii participă la stabilirea obiectivelor</h3>
+      <p>
+        Crește <span class='tip'><strong>autonomia</strong><span class='tooltip-box'>Responsabilitate și sens personal al învățării.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">2️⃣</div>
+      <h3>Dezbatere și diferențe de opinie</h3>
+      <p>
+        Se normalizează <span class='tip'><strong>pluralitatea de perspective</strong><span class='tooltip-box'>Nu există o singură cale „acceptată” de la început.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">3️⃣</div>
+      <h3>Alternarea sarcinilor structurate și nestructurate</h3>
+      <p>
+        Structurat = siguranță; nestructurat = <span class='tip'><strong>explorare</strong><span class='tooltip-box'>Sarcini deschise, mai multe soluții.</span></span>.
+      </p>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-step-emoji">4️⃣</div>
+      <h3>Alternarea sarcinilor individuale și de echipă</h3>
+      <p>
+        Se combină <strong>inițiativa personală</strong> cu <span class='tip'><strong>învățarea socială</strong><span class='tooltip-box'>Cooperare, idei împărtășite.</span></span>.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>⏳&nbsp;&nbsp;De ce contează timpul de reflecție</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧠&nbsp;&nbsp;Consolidare</h3>
+      <p>
+        Elevul înțelege <strong>ce a făcut</strong>, <strong>ce a funcționat</strong> și <strong>ce îmbunătățește</strong>.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>💬&nbsp;&nbsp;Exemplu practic</h3>
+      <p class="lesson-highlight">
+        Discuție de final: „Ce soluții au apărut? De ce sunt diferite? Ce le face utile?”
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🧰&nbsp;&nbsp;Proiecte complexe și modelul profesorului</h2>
+  <div class="lesson-grid two">
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Proiecte complexe</h3>
+      <p>
+        Integrează dimensiuni <strong>cognitive</strong>, <strong>sociale</strong> și <strong>emoționale</strong>.
+      </p>
+      <p class="lesson-highlight">
+        <strong>Exemplu:</strong> proiect cu impact comunitar.
+      </p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧑‍🏫&nbsp;&nbsp;Modelul profesorului</h3>
+      <p>
+        Profesorul transmite <span class='tip'><strong>atitudini creative</strong><span class='tooltip-box'>Curiozitate, deschidere, experimentare.</span></span>
+        prin propriul mod de lucru.
+      </p>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>🔗&nbsp;&nbsp;Logica de ansamblu</h2>
+  <div class="lesson-highlight" style="margin-bottom: 16px;">
+    Creativitatea este <strong>cultivabilă</strong> când există un climat care permite
+    <span class='tip'><strong>autonomie</strong><span class='tooltip-box'>Participare reală.</span></span>,
+    <span class='tip'><strong>explorare</strong><span class='tooltip-box'>Sarcini deschise.</span></span>
+    și <span class='tip'><strong>reflecție</strong><span class='tooltip-box'>Înțelegerea procesului.</span></span>.
+  </div>
+`,
+};

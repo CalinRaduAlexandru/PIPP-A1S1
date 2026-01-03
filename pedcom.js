@@ -25,7 +25,7 @@ window.PEDCOM_CONTENT = {
         {
           id: "pedcom-1-4",
           referinta: "1.4",
-          titlu: "Axiomele comunicării",
+          titlu: "Școala de la Palo Alto și Axiomele comunicării",
           quizuri: [
             "pedcom-1-4-q0", // Intenționalitatea comunicării și Școala de la Palo Alto
             "pedcom-1-4-q1", // Comunicarea, Școala de la Palo Alto și pedagogia comunicării
@@ -126,67 +126,112 @@ window.PEDCOM_CONTENT = {
       titlu: "UI2 Formele comunicării",
       subcapitole: [
         {
-          id: "pedcom-2-3",
+          id: "pedcom-2-1",
+          referinta: "2.3",
+          titlu: "Formele comunicării",
+          quizuri: [
+            "pedcom-2-2-q1", // comunicare socială vs spontană + condiții de bază
+            "pedcom-2-2-q2", // criterii Iacob + clasificări + triunghiul comunicării
+            "pedcom-2-2-q3", // comunicarea intrapersonală
+            "pedcom-2-2-q4", // comunicarea interpersonală, în grup mic și publică
+          ],
+        },
+        {
+          id: "pedcom-2-2",
           referinta: "2.3",
           titlu: "Comunicarea verbală",
           quizuri: [
-            "pedcom-2-3-q1", // Funcțiile și specificul comunicării verbale
-            "pedcom-2-3-q2", // Claritate, coerență, adecvare și feedback în verbal
-            "pedcom-2-3-q3", // Forme, registre și contexte ale verbalului
-            "pedcom-2-3-q4", // Riscuri și distorsiuni în comunicarea verbală
+            "pedcom-2-3-q1", // definiție, vorbire, rol și achiziție
+            "pedcom-2-3-q2", // teorii ale achiziției limbajului
+            "pedcom-2-3-q3", // limbaj, cultură și statut social
+            "pedcom-2-3-q4", // caracteristici și condiții ale comunicării verbale
+          ],
+        },
+        {
+          id: "pedcom-2-3",
+          referinta: "2.4",
+          titlu: "Comunicarea nonverbală",
+          quizuri: [
+            "pedcom-2-4-q1", // rol și principii
+            "pedcom-2-4-q2", // contact vizual
+            "pedcom-2-4-q3", // proxemică
+            "pedcom-2-4-q4", // mimică, gesturi, aparență, obiecte
+            "pedcom-2-4-q5", // cromatic, chimic, tactil, dominanță
           ],
         },
         {
           id: "pedcom-2-4",
-          referinta: "2.4",
-          titlu: "Comunicarea nonverbală",
+          referinta: "2.5",
+          titlu: "Comunicarea paraverbală",
           quizuri: [
-            "pedcom-2-4-q1", // Funcții și roluri ale nonverbalului în interacțiune
-            "pedcom-2-4-q2", // Limbajul corpului: postură, orientare, mișcare
-            "pedcom-2-4-q3", // Mimică și expresii faciale
-            "pedcom-2-4-q4", // Gestica: ilustratori, embleme, adaptori, regulatori
-            "pedcom-2-4-q5", // Proxemică și gestionarea distanței
-            "pedcom-2-4-q6", // Congruență, incongruență și interpretarea nonverbalului
+            "pedcom-2-5-q1", // paraverbal + paralimbaj + tăceri
           ],
         },
         {
           id: "pedcom-2-5",
-          referinta: "2.5",
-          titlu: "Comunicarea paraverbală",
+          referinta: "2.6",
+          titlu: "Comunicarea scrisă și metacomunicarea",
           quizuri: [
-            "pedcom-2-5-q1", // Vocea: volum, tonalitate, timbru
-            "pedcom-2-5-q2", // Ritm, pauze, accent și fluență
-            "pedcom-2-5-q3", // Efecte paraverbale: credibilitate, emoție, relație
+            "pedcom-2-6-q1", // comunicarea scrisă
+            "pedcom-2-6-q2", // metacomunicare + relația dintre canale
           ],
         },
         {
           id: "pedcom-2-6",
-          referinta: "2.6",
-          titlu: "Comunicarea scrisă",
+          referinta: "2.7",
+          titlu: "Implicații psihopedagogice ale formelor comunicării",
           quizuri: [
-            "pedcom-2-6-q1", // Specificul comunicării scrise: structură și precizie
-            "pedcom-2-6-q2", // Avantaje și limite: permanență, ambiguitate, feedback
-            "pedcom-2-6-q3", // Stil și norme: claritate, coeziune, adaptare la public
+            "pedcom-2-7-q1", // implicații psihopedagogice
           ],
         },
         {
           id: "pedcom-2-7",
-          referinta: "2.7",
-          titlu: "Implicațiile psihopedagogice ale formelor comunicării",
-          quizuri: [
-            "pedcom-2-7-q1", // Impact educațional: relație, motivație, climat
-            "pedcom-2-7-q2", // Adaptarea comunicării la elev: vârstă, nevoi, context
-            "pedcom-2-7-q3", // Managementul clasei prin verbal, nonverbal și paraverbal
-          ],
-        },
-        {
-          id: "pedcom-2-8",
           referinta: "2.8",
           titlu: "Comunicarea de grup",
           quizuri: [
-            "pedcom-2-8-q1", // Dinamica grupului: norme, coeziune, influență
-            "pedcom-2-8-q2", // Roluri în grup și tipuri de interacțiuni
-            "pedcom-2-8-q3", // Facilitare, conflict și decizie în comunicarea de grup
+            "pedcom-2-8-q1", // comunicare de grup și tipologii
+          ],
+        },
+      ],
+    },
+    {
+      id: "pedcom-u3",
+      titlu: "UI3 Comunicarea și feed-back-ul",
+      subcapitole: [
+        {
+          id: "pedcom-3-1",
+          referinta: "3.1-3.3",
+          titlu: "Feedback și reglaj în comunicare",
+          quizuri: [
+            "pedcom-3-1-q1", // feedback R-E + mijloace
+            "pedcom-3-1-q2", // feedback E-R + Leavitt
+          ],
+        },
+        {
+          id: "pedcom-3-2",
+          referinta: "3.3",
+          titlu: "Feedback constructiv",
+          quizuri: [
+            "pedcom-3-2-q1", // reguli și exemple
+            "pedcom-3-2-q2", // greșeli + etichetare + formulări corecte
+          ],
+        },
+        {
+          id: "pedcom-3-3",
+          referinta: "3.4",
+          titlu: "Blocaje și bariere în comunicare",
+          quizuri: [
+            "pedcom-3-3-q1", // bariere limbaj/tezaur + sistem/proces
+            "pedcom-3-3-q2", // tipologii autori + stereotipuri + heuristici
+          ],
+        },
+        {
+          id: "pedcom-3-4",
+          referinta: "3.5-3.6",
+          titlu: "Întrebări, reformulare și tehnici",
+          quizuri: [
+            "pedcom-3-4-q1", // tipuri întrebări + reguli
+            "pedcom-3-4-q2", // reformulare + tehnici asertive + decalog
           ],
         },
       ],
@@ -242,72 +287,72 @@ window.PEDCOM_QUIZ = [
     title: "Comunicarea: definiții ale conceptului",
     questions: [
       {
-        text: "De ce se afirmă că <span class='tip'><strong>comunicarea nu este specifică exclusiv ființei umane</strong><span class='tooltip-box'>Numeroase specii animale folosesc sisteme de semnale pentru coordonare, supraviețuire și relaționare, chiar dacă nu dispun de limbaj simbolic uman.</span></span>?",
+        text: "De ce se afirmă că <span class='tip'><strong>comunicarea nu este specifică exclusiv ființei umane?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar oamenii transmit și înțeleg semnale; o fac și alte viețuitoare.<br><br><strong>Formulare academică:</strong> comunicarea apare în multiple forme de semnalizare la nivel interspecific, fără a necesita limbaj simbolic uman.<br><br><strong>Exemplu:</strong> albinele indică sursa de nectar, iar licuricii folosesc semnale luminoase pentru coordonare.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Animalele comunică prin sisteme proprii de semnale</strong><span class='tooltip-box'>Exemplele includ semnale sonore, chimice sau luminoase, adaptate mediului și speciei.</span></span>",
-          "<span class='tip'><strong>Doar oamenii pot comunica deoarece folosesc limbaj</strong><span class='tooltip-box'>Aceasta este o concepție restrictivă; limbajul este specific uman, dar comunicarea nu.</span></span>",
-          "<span class='tip'><strong>Comunicarea apare doar în societăți complexe</strong><span class='tooltip-box'>Comunicarea există și în forme simple de organizare biologică.</span></span>",
+          "<span class='tip'><strong>Animalele comunică prin sisteme proprii de semnale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunică prin sunete, mirosuri, mișcări sau lumină.<br><br><strong>Formulare academică:</strong> semnalizarea animală îndeplinește funcții de supraviețuire și coordonare (orientare, avertizare, cooperare).<br><br><strong>Exemplu:</strong> delfinii emit sunete specifice pentru a lucra în grup.</span></span>",
+          "<span class='tip'><strong>Comunicarea există doar acolo unde există limbaj uman</strong><span class='tooltip-box'><strong>Spus simplu:</strong> această idee restrânge greșit comunicarea la limbajul uman.<br><br><strong>Formulare academică:</strong> limbajul verbal este o formă specifică, nu condiția unică a comunicării.<br><br><strong>Exemplu:</strong> semnalele sonore ale păsărilor sunt comunicare fără limbaj uman.</span></span>",
+          "<span class='tip'><strong>Comunicarea apare doar în societăți complexe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea există și în forme simple de organizare biologică.<br><br><strong>Formulare academică:</strong> interacțiunea semnalizată apare independent de complexitatea socială.<br><br><strong>Exemplu:</strong> semnale de alarmă la mamiferele sălbatice.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care este semnificația ideii că <span class='tip'><strong>nevoia de comunicare este o necesitate vitală</strong><span class='tooltip-box'>Comunicarea este esențială pentru existența socială, fiind comparată cu funcții biologice fundamentale.</span></span>?",
+        text: "Care este semnificația ideii că <span class='tip'><strong>nevoia de comunicare este o necesitate vitală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără comunicare, viața socială nu poate funcționa.<br><br><strong>Formulare academică:</strong> schimbul de informații și semnificații susține existența socială, fiind comparat cu funcții biologice fundamentale.<br><br><strong>Exemplu:</strong> fără comunicare nu poți coordona munca, regulile sau ajutorul reciproc.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Susține existența și evoluția umană</strong><span class='tooltip-box'>Fără comunicare nu pot fi transmise informații, valori și experiențe între indivizi.</span></span>",
-          "<span class='tip'><strong>Este comparabilă cu respirația pentru organism</strong><span class='tooltip-box'>Bernard Voyenne subliniază rolul vital al schimbului de informații pentru societate.</span></span>",
-          "<span class='tip'><strong>Este o abilitate opțională, dependentă de context</strong><span class='tooltip-box'>Textul accentuează caracterul fundamental, nu opțional, al comunicării.</span></span>",
+          "<span class='tip'><strong>Susține existența și evoluția umană</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea menține legătura între oameni.<br><br><strong>Formulare academică:</strong> schimbul de mesaje permite transmiterea valorilor, normelor și experienței sociale.<br><br><strong>Exemplu:</strong> învățarea regulilor din familie și școală.</span></span>",
+          "<span class='tip'><strong>Este comparabilă cu respirația pentru organism</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără ea, societatea „se blochează”.<br><br><strong>Formulare academică:</strong> comunicarea este o condiție structurală a vieții sociale, nu un element opțional.<br><br><strong>Exemplu:</strong> blocajul informațional produce confuzie și conflict.</span></span>",
+          "<span class='tip'><strong>Este o abilitate opțională, dependentă de context</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este permanentă, nu excepțională.<br><br><strong>Formulare academică:</strong> interacțiunea comunicativă este continuă și structurală, nu ocazională.<br><br><strong>Exemplu:</strong> chiar și tăcerea transmite un mesaj.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "De ce <span class='tip'><strong>definirea conceptului de comunicare</strong><span class='tooltip-box'>Comunicarea este un concept larg utilizat, cu sensuri multiple în discipline diferite.</span></span> este considerată dificilă?",
+        text: "De ce <span class='tip'><strong>definirea conceptului de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e folosită în multe domenii și înseamnă lucruri apropiate, dar nu identice.<br><br><strong>Formulare academică:</strong> conceptul are un grad ridicat de generalitate și un câmp semantic foarte larg, ceea ce îngreunează delimitarea strictă.<br><br><strong>Exemplu:</strong> biologia, sociologia și științele informației folosesc termenul cu nuanțe diferite.</span></span> este considerată dificilă?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Are un grad ridicat de generalitate</strong><span class='tooltip-box'>Conceptele foarte generale tind să fie mai greu de delimitat precis.</span></span>",
-          "<span class='tip'><strong>Este folosită diferit în numeroase domenii</strong><span class='tooltip-box'>Biologia, sociologia, științele informației folosesc termenul cu sensuri specifice.</span></span>",
-          "<span class='tip'><strong>Este un concept rar utilizat</strong><span class='tooltip-box'>Dimpotrivă, comunicarea este extrem de frecvent utilizată.</span></span>",
+          "<span class='tip'><strong>Are un grad ridicat de generalitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e un termen „mare”, greu de strâns într-o frază scurtă.<br><br><strong>Formulare academică:</strong> conceptele foarte generale sunt greu de delimitat precis.<br><br><strong>Exemplu:</strong> „comunicare” poate însemna schimb de informații, relație, influență.</span></span>",
+          "<span class='tip'><strong>Este folosită diferit în numeroase domenii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare disciplină pune accentul pe alt aspect.<br><br><strong>Formulare academică:</strong> biologia, sociologia și psihologia definesc comunicarea cu sensuri specifice.<br><br><strong>Exemplu:</strong> în biologie se vorbește de semnalizare, în educație de relație pedagogică.</span></span>",
+          "<span class='tip'><strong>Este un concept rar utilizat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dimpotrivă, este extrem de frecvent.<br><br><strong>Formulare academică:</strong> frecvența mare a folosirii produce și mai multe sensuri.<br><br><strong>Exemplu:</strong> comunicare în mass-media, școală, familie.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Cum este descrisă <span class='tip'><strong>complexitatea procesului de comunicare</strong><span class='tooltip-box'>Comunicarea implică multiple procese psihice și cognitive care funcționează simultan.</span></span>?",
+        text: "Cum este descrisă <span class='tip'><strong>complexitatea procesului de comunicare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e un singur lucru, ci o combinație de procese care lucrează împreună.<br><br><strong>Formulare academică:</strong> comunicarea implică procese psihice și cognitive care funcționează simultan și se influențează reciproc.<br><br><strong>Exemplu:</strong> în timp ce vorbești, îți amintești, alegi cuvinte, interpretezi reacția celuilalt.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Implică memorii, vocabular, imaginație și percepții</strong><span class='tooltip-box'>Comunicarea este rezultatul interacțiunii acestor funcții psihice.</span></span>",
-          "<span class='tip'><strong>Este un act simplu de transmitere mecanică</strong><span class='tooltip-box'>Această perspectivă este reductivă și incompletă.</span></span>",
-          "<span class='tip'><strong>Presupune relaționări multiple între procese interne</strong><span class='tooltip-box'>Accentul cade pe caracterul integrativ al comunicării.</span></span>",
+          "<span class='tip'><strong>Implică memorii, vocabular, imaginație și percepții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mintea face mai multe lucruri deodată.<br><br><strong>Formulare academică:</strong> comunicarea este rezultatul interacțiunii mai multor funcții psihice.<br><br><strong>Exemplu:</strong> alegi cuvinte, îți amintești idei și observi reacția celuilalt.</span></span>",
+          "<span class='tip'><strong>Este un act simplu de transmitere mecanică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e doar „trimis–primit”.<br><br><strong>Formulare academică:</strong> perspectiva mecanicistă este reductivă și incompletă.<br><br><strong>Exemplu:</strong> două persoane pot înțelege diferit același mesaj.</span></span>",
+          "<span class='tip'><strong>Presupune relaționări multiple între procese interne</strong><span class='tooltip-box'><strong>Spus simplu:</strong> procesele se sprijină reciproc.<br><br><strong>Formulare academică:</strong> accentul cade pe caracterul integrativ al comunicării.<br><br><strong>Exemplu:</strong> emoția schimbă felul în care interpretezi mesajul.</span></span>",
         ],
         answer: [0, 2],
       },
       {
-        text: "Care este <span class='tip'><strong>originea etimologică a termenului comunicare</strong><span class='tooltip-box'>Etimologia ajută la înțelegerea sensului de bază al conceptului.</span></span>?",
+        text: "Care este <span class='tip'><strong>originea etimologică a termenului comunicare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată de unde vine cuvântul și ce sensuri de bază are.<br><br><strong>Formulare academică:</strong> etimologia indică sursa lexicală și sensurile originare care structurează conceptul.<br><br><strong>Exemplu:</strong> „a pune în comun” sugerează împărtășirea între oameni.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Latinescul communis / communicare</strong><span class='tooltip-box'>Sensul de a pune în comun, a împărtăși.</span></span>",
-          "<span class='tip'><strong>Grecescul logos</strong><span class='tooltip-box'>Logos se referă la rațiune și discurs, nu direct la comunicare.</span></span>",
-          "<span class='tip'><strong>Francezul message</strong><span class='tooltip-box'>Termen derivat ulterior, nu origine etimologică.</span></span>",
+          "<span class='tip'><strong>Latinescul „communis / communicare”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înseamnă „a face în comun”.<br><br><strong>Formulare academică:</strong> derivarea indică actul de a împărtăși și de a participa la ceva comun.<br><br><strong>Exemplu:</strong> punerea la comun a informațiilor într-un grup.</span></span>",
+          "<span class='tip'><strong>Grecescul „logos”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se referă la rațiune și discurs, nu la comunicare ca termen.<br><br><strong>Formulare academică:</strong> „logos” este asociat discursului, nu originii lexicale a comunicării.<br><br><strong>Exemplu:</strong> termenul „logopedie” derivă din „logos”.</span></span>",
+          "<span class='tip'><strong>Englezescul „message”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este sursa termenului „comunicare”.<br><br><strong>Formulare academică:</strong> este un cuvânt legat de mesaj, nu de etimologia conceptului.<br><br><strong>Exemplu:</strong> „message” desemnează conținutul, nu actul comunicării.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce evidențiază <span class='tip'><strong>preluarea termenului comunicare în limba română</strong><span class='tooltip-box'>Evoluția semantică reflectă schimbări culturale și sociale.</span></span>?",
+        text: "Ce evidențiază <span class='tip'><strong>preluarea termenului comunicare în limba română?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> inițial avea un sens religios, apoi s-a extins la relațiile sociale.<br><br><strong>Formulare academică:</strong> termenul a trecut de la sensul ecleziastic de împărtășire la sensul laic de organizare a raporturilor interumane.<br><br><strong>Exemplu:</strong> „a împărtăși” a devenit „a comunica” în contexte sociale și educaționale.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Inițial sens ecleziastic și cultural</strong><span class='tooltip-box'>A avea sensul de a împărtăși și a uni.</span></span>",
-          "<span class='tip'><strong>Ulterior sens modern de organizare socială</strong><span class='tooltip-box'>Legat de raporturile interumane și viața socială.</span></span>",
-          "<span class='tip'><strong>Lipsa oricărei evoluții semantice</strong><span class='tooltip-box'>Textul subliniază tocmai evoluția sensului.</span></span>",
+          "<span class='tip'><strong>Inițial sens ecleziastic: împărtășire, participare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> era legat de practici religioase.<br><br><strong>Formulare academică:</strong> „cuminecare” desemna împărtășirea unui bun spiritual comun.<br><br><strong>Exemplu:</strong> împărtășirea ca act ritualic.</span></span>",
+          "<span class='tip'><strong>Ulterior sens laic: organizarea existenței sociale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea descrie relațiile umane obișnuite.<br><br><strong>Formulare academică:</strong> termenul desemnează baza raporturilor interumane și sociale.<br><br><strong>Exemplu:</strong> comunicarea în școală și la locul de muncă.</span></span>",
+          "<span class='tip'><strong>Nu a existat nicio schimbare de sens</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sensul s-a schimbat clar în timp.<br><br><strong>Formulare academică:</strong> evoluția semantică este explicită în trecerea de la ecleziastic la laic.<br><br><strong>Exemplu:</strong> folosirea în contexte nonreligioase.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Care sunt <span class='tip'><strong>cele două mari categorii de definiții ale comunicării</strong><span class='tooltip-box'>Clasificarea ajută la organizarea conceptuală a domeniului.</span></span>?",
+        text: "Care sunt <span class='tip'><strong>cele două mari categorii de definiții ale comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele o văd ca transmitere, altele ca negociere de sens.<br><br><strong>Formulare academică:</strong> definițiile se împart între modelul transmisiei (efect asupra receptorului) și modelul interacțiunii/negocierii semnificației.<br><br><strong>Exemplu:</strong> „cine, ce, cui, pe ce canal (mijlocul de transmitere), cu ce efect” vs. „schimb și co-construcție de sens”.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Comunicarea ca transmitere de mesaj</strong><span class='tooltip-box'>Modelul cine ce cui pe ce canal cu ce efect.</span></span>",
-          "<span class='tip'><strong>Comunicarea ca negociere și schimb de semnificații</strong><span class='tooltip-box'>Accent pe interpretare și construcție comună de sens.</span></span>",
-          "<span class='tip'><strong>Comunicarea ca reacție reflexă automată</strong><span class='tooltip-box'>Aceasta nu corespunde clasificării prezentate.</span></span>",
+          "<span class='tip'><strong>Comunicarea ca transmitere de mesaj</strong><span class='tooltip-box'><strong>Spus simplu:</strong> accent pe emițător, canal (mijlocul de transmitere) și efect.<br><br><strong>Formulare academică:</strong> comunicarea este un flux direcționat de la emițător la receptor, cu efect măsurabil.<br><br><strong>Exemplu:</strong> informarea într-o știre.</span></span>",
+          "<span class='tip'><strong>Comunicarea ca negociere și schimb de semnificații</strong><span class='tooltip-box'><strong>Spus simplu:</strong> accent pe interpretare și înțelegere comună.<br><br><strong>Formulare academică:</strong> sensul se construiește prin interacțiune și interpretare reciprocă.<br><br><strong>Exemplu:</strong> clarifici ce a vrut să spună celălalt.</span></span>",
+          "<span class='tip'><strong>Comunicarea ca reflex automat, fără sens</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea implică sens și interpretare, nu doar reflex.<br><br><strong>Formulare academică:</strong> reducerea la reflex elimină componenta semantică.<br><br><strong>Exemplu:</strong> clipitul involuntar nu e comunicare intenționată.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -318,52 +363,76 @@ window.PEDCOM_QUIZ = [
     title: "Funcțiile comunicării în modelul lui Roman Jakobson",
     questions: [
       {
-        text: "Care este rolul <span class='tip'><strong>funcției expresive</strong><span class='tooltip-box'>Funcția expresivă pune accent pe emițător și pe exprimarea atitudinii sale față de situație și conținutul mesajului.<br><br><strong>Exemplu:</strong> Sunt foarte bucuros că ai venit.</span></span> în comunicare?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Exprimarea atitudinii emițătorului</strong><span class='tooltip-box'>Mesajul reflectă starea, emoțiile sau evaluările celui care comunică.</span></span>",
-          "<span class='tip'><strong>Transmiterea obiectivă a informației</strong><span class='tooltip-box'>Aceasta este specifică funcției referențiale, nu celei expresive.</span></span>",
-          "<span class='tip'><strong>Menținerea contactului</strong><span class='tooltip-box'>Este specifică funcției fatice.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Funcția <span class='tip'><strong>conativă</strong><span class='tooltip-box'>Funcția conativă este orientată spre receptor și urmărește influențarea comportamentului sau atitudinii acestuia.<br><br><strong>Exemplu:</strong> Te rog să închizi ușa.</span></span> este dominantă în situațiile de:",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Influențare și persuasiune</strong><span class='tooltip-box'>Mesajul urmărește să determine o reacție, o acțiune sau o schimbare la nivelul receptorului.</span></span>",
-          "<span class='tip'><strong>Descriere neutră a realității</strong><span class='tooltip-box'>Aceasta corespunde funcției referențiale.</span></span>",
-          "<span class='tip'><strong>Analiză a limbajului</strong><span class='tooltip-box'>Aceasta este funcția metalingvistică.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Ce caracterizează <span class='tip'><strong>funcția referențială</strong><span class='tooltip-box'>Funcția referențială este centrată pe context și pe transmiterea informațiilor despre realitate.<br><br><strong>Exemplu:</strong> Afară plouă.</span></span> a comunicării?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Indicarea referentului mesajului</strong><span class='tooltip-box'>Mesajul oferă informații despre obiecte, fapte sau situații din realitate.</span></span>",
-          "<span class='tip'><strong>Exprimarea emoțiilor emițătorului</strong><span class='tooltip-box'>Aceasta este funcția expresivă.</span></span>",
-          "<span class='tip'><strong>Stabilirea relației sociale</strong><span class='tooltip-box'>Aceasta este specifică funcției fatice.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Care este scopul <span class='tip'><strong>funcției fatice</strong><span class='tooltip-box'>Funcția fatică are rolul de a iniția, menține sau încheia contactul între participanții la comunicare.<br><br><strong>Exemplu:</strong> Alo, mă auzi?</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Menținerea contactului comunicativ</strong><span class='tooltip-box'>Accentul cade pe canalul de comunicare și pe funcționarea acestuia.</span></span>",
-          "<span class='tip'><strong>Transmiterea de informații esențiale</strong><span class='tooltip-box'>Aceasta este funcția referențială.</span></span>",
-          "<span class='tip'><strong>Construirea unui mesaj artistic</strong><span class='tooltip-box'>Aceasta este funcția poetică.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Care funcții sunt activate atunci când comunicarea se concentrează pe <span class='tip'><strong>limbaj ca sistem</strong><span class='tooltip-box'>Funcția metalingvistică clarifică sensul codului utilizat, iar funcția poetică pune accent pe forma mesajului și organizarea semnelor.</span></span>?",
+        text: "Alege funcțiile care aparțin lui <span class='tip'><strong>Roman Jakobson?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt șase funcții prin care un mesaj își arată scopul principal.<br><br><strong>Formulare academică:</strong> funcțiile limbajului descriu orientarea mesajului spre emițător, receptor, referent (realitatea/tema despre care se vorbește), canal, cod sau forma mesajului.<br><br><strong>Exemplu:</strong> un ordin e conativ, iar un joc de cuvinte e poetic.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Funcția metalingvistică</strong><span class='tooltip-box'>Este utilizată atunci când explicăm sensul cuvintelor sau regulile limbajului.</span></span>",
-          "<span class='tip'><strong>Funcția poetică</strong><span class='tooltip-box'>Pune accent pe structura mesajului și pe modul de organizare a semnelor.</span></span>",
-          "<span class='tip'><strong>Funcția conativă</strong><span class='tooltip-box'>Este orientată spre receptor, nu spre limbaj.</span></span>",
+          "<span class='tip'><strong>Funcția expresivă</strong> – arată atitudinea emițătorului<span class='tooltip-box'><strong>Spus simplu:</strong> îl „auzi” pe vorbitor în mesaj.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre emițător și exprimă starea sau atitudinea lui.<br><br><strong>Exemplu:</strong> „Sunt încântat de rezultat.”</span></span>",
+          "<span class='tip'><strong>Funcția conativă</strong> – urmărește un efect asupra receptorului<span class='tooltip-box'><strong>Spus simplu:</strong> îl rogi sau îl influențezi pe celălalt.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre receptor și vizează o reacție sau un comportament.<br><br><strong>Exemplu:</strong> „Te rog, răspunde.”</span></span>",
+          "<span class='tip'><strong>Funcția referențială</strong> – indică despre ce vorbești<span class='tooltip-box'><strong>Spus simplu:</strong> spui un fapt, o informație.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre referent (realitatea/tema despre care se vorbește) și transmite conținut factual.<br><br><strong>Exemplu:</strong> „Plouă afară.”</span></span>",
+          "<span class='tip'><strong>Funcția fatică</strong> – menține contactul în comunicare<span class='tooltip-box'><strong>Spus simplu:</strong> verifici dacă legătura e activă.<br><br><strong>Formulare academică:</strong> mesajul testează sau menține canalul de comunicare deschis.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+          "<span class='tip'><strong>Funcția metalingvistică</strong> – clarifică codul folosit<span class='tooltip-box'><strong>Spus simplu:</strong> explici cuvintele sau regulile limbii.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre cod și explică sensurile lui.<br><br><strong>Exemplu:</strong> „Prin «verb» înțelegem...”</span></span>",
+          "<span class='tip'><strong>Funcția poetică</strong> – pune accent pe forma mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> contează cum sună, nu doar ce spune.<br><br><strong>Formulare academică:</strong> mesajul evidențiază organizarea estetică (ritm, repetiție, jocuri de cuvinte).<br><br><strong>Exemplu:</strong> rimele din poezie sau un slogan.</span></span>",
+          "<span class='tip'><strong>Funcția deliberativă</strong> – discuție despre opțiuni viitoare<span class='tooltip-box'><strong>Spus simplu:</strong> e o etichetă retorică, nu funcție la Jakobson.<br><br><strong>Formulare academică:</strong> termenul nu apare în lista celor șase funcții ale modelului lui Jakobson.<br><br><strong>Exemplu:</strong> se referă la dezbatere, nu la funcțiile limbajului.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5],
+      },
+      {
+        text: "Ce afirmă <span class='tip'><strong>funcția expresivă?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> emițătorul își arată atitudinea și starea.<br><br><strong>Formulare academică:</strong> mesajul exprimă raportarea subiectivă a emițătorului la situație și la conținut.<br><br><strong>Exemplu:</strong> „Sunt mândru de ce ai făcut.”</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Exprimă atitudinea emițătorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată cum se simte vorbitorul.<br><br><strong>Formulare academică:</strong> accentul cade pe subiectivitatea emițătorului, nu pe referent.<br><br><strong>Exemplu:</strong> „Mă bucur că ai reușit.”</span></span>",
+          "<span class='tip'><strong>Menține contactul în comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta aparține funcției fatice.<br><br><strong>Formulare academică:</strong> funcția fatică verifică/menține canalul de comunicare.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+          "<span class='tip'><strong>Clarifică sensul cuvintelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta aparține funcției metalingvistice.<br><br><strong>Formulare academică:</strong> metalingvistica explică limbajul, nu emoția emițătorului.<br><br><strong>Exemplu:</strong> „Prin «verb» înțelegem...”</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Funcția <span class='tip'><strong>conativă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul încearcă să influențeze receptorul.<br><br><strong>Formulare academică:</strong> funcția conativă este orientată spre receptor și urmărește determinarea unui răspuns sau a unei acțiuni.<br><br><strong>Exemplu:</strong> „Te rog să închizi ușa.”</span></span> este dominantă în situațiile de:",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Influențare și persuasiune</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul vrea să te facă să acționezi.<br><br><strong>Formulare academică:</strong> accentul cade pe reacția receptorului, nu pe conținut în sine.<br><br><strong>Exemplu:</strong> „Ridică mâna.”</span></span>",
+          "<span class='tip'><strong>Descriere neutră a realității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> asta este funcția referențială.<br><br><strong>Formulare academică:</strong> transmiterea de informații despre referent nu implică influențare directă.<br><br><strong>Exemplu:</strong> „Este ora 8.”</span></span>",
+          "<span class='tip'><strong>Analiză a limbajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e funcția metalingvistică.<br><br><strong>Formulare academică:</strong> limbajul explică limbajul.<br><br><strong>Exemplu:</strong> „Substantivul denumește...”</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce caracterizează <span class='tip'><strong>funcția referențială?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> spui despre ce vorbești, adică despre un fapt sau o situație.<br><br><strong>Formulare academică:</strong> funcția referențială este orientată spre referent (realitatea/tema despre care se vorbește) și transmite conținut factual.<br><br><strong>Exemplu:</strong> „Afară plouă.”</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Indicarea referentului mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul spune ceva despre realitate.<br><br><strong>Formulare academică:</strong> informația este centrată pe obiecte, fapte sau situații externe mesajului.<br><br><strong>Exemplu:</strong> „Temperatura a scăzut.”</span></span>",
+          "<span class='tip'><strong>Exprimarea emoțiilor emițătorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este funcția expresivă.<br><br><strong>Formulare academică:</strong> orientarea spre emițător nu e referențială.<br><br><strong>Exemplu:</strong> „Sunt îngrijorat.”</span></span>",
+          "<span class='tip'><strong>Menținerea contactului social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este funcția fatică.<br><br><strong>Formulare academică:</strong> faticul verifică canalul, nu transmite fapte.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este scopul <span class='tip'><strong>funcției fatice?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> verifici și menții legătura de comunicare.<br><br><strong>Formulare academică:</strong> funcția fatică inițiază, menține sau întrerupe contactul între participanți prin canalul de comunicare (mijlocul prin care mesajul circulă).<br><br><strong>Exemplu:</strong> „Alo, mă auzi?”</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Menținerea contactului comunicativ</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te asiguri că legătura funcționează.<br><br><strong>Formulare academică:</strong> funcția fatică verifică și susține canalul de comunicare.<br><br><strong>Exemplu:</strong> „Mă auzi bine?”</span></span>",
+          "<span class='tip'><strong>Transmiterea de informații esențiale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este funcția referențială.<br><br><strong>Formulare academică:</strong> conținutul factual ține de referent, nu de canal.<br><br><strong>Exemplu:</strong> „Sunt 20°C.”</span></span>",
+          "<span class='tip'><strong>Construirea unui mesaj artistic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e funcția poetică.<br><br><strong>Formulare academică:</strong> estetica mesajului nu urmărește contactul, ci forma.<br><br><strong>Exemplu:</strong> rime și ritm.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce descrie <span class='tip'><strong>funcția metalingvistică?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vorbești despre limbaj folosind limbajul.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre cod și clarifică sensurile lui.<br><br><strong>Exemplu:</strong> „Prin «verb» înțelegem o acțiune.”</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Clarificarea codului folosit</strong><span class='tooltip-box'><strong>Spus simplu:</strong> explici termenii sau regulile limbii.<br><br><strong>Formulare academică:</strong> codul devine tema mesajului.<br><br><strong>Exemplu:</strong> „Cuvântul «metaforă» înseamnă...”</span></span>",
+          "<span class='tip'><strong>Influențarea receptorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta aparține funcției conative.<br><br><strong>Formulare academică:</strong> conativul vizează efectul asupra receptorului, nu explicarea codului.<br><br><strong>Exemplu:</strong> „Te rog, notează.”</span></span>",
+          "<span class='tip'><strong>Exprimarea emoțiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta aparține funcției expresive.<br><br><strong>Formulare academică:</strong> expresivul exprimă starea emițătorului.<br><br><strong>Exemplu:</strong> „Sunt încântat.”</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce evidențiază <span class='tip'><strong>funcția poetică?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează cum sună și cum e construit mesajul.<br><br><strong>Formulare academică:</strong> funcția poetică pune accent pe forma mesajului și organizarea estetică a semnelor.<br><br><strong>Exemplu:</strong> rime, repetiții, jocuri de cuvinte.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Accentul pe forma mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează ritmul, repetiția, sonoritatea.<br><br><strong>Formulare academică:</strong> mesajul devine „obiect” estetic prin organizare internă.<br><br><strong>Exemplu:</strong> sloganuri cu rimă.</span></span>",
+          "<span class='tip'><strong>Utilizarea jocurilor de cuvinte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> forma captează atenția.<br><br><strong>Formulare academică:</strong> manipularea semnelor accentuează dimensiunea poetică.<br><br><strong>Exemplu:</strong> aliterații și jocuri sonore.</span></span>",
+          "<span class='tip'><strong>Clarificarea codului lingvistic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e funcția metalingvistică.<br><br><strong>Formulare academică:</strong> explicarea limbajului nu e poetică, ci metalingvistică.<br><br><strong>Exemplu:</strong> definiții de termeni.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -374,264 +443,194 @@ window.PEDCOM_QUIZ = [
     title: "Factorii determinanți ai comunicării",
     questions: [
       {
-        text: "Cum sunt organizați <span class='tip'><strong>factorii determinanți ai comunicării</strong><span class='tooltip-box'>J C Abric propune o clasificare a factorilor comunicării în funcție de sursa lor principală de influență asupra procesului comunicativ.</span></span> în viziunea lui J C Abric (2002)?",
+        text: "Cum sunt organizați <span class='tip'><strong>factorii determinanți ai comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este influențată de oameni, de cod și de context.<br><br><strong>Formulare academică:</strong> factorii determinanți sunt grupați după sursa principală de influență: actorii comunicării, codul/canalul și mediul/contextul (J.-C. Abric, 2002).<br><br><strong>Exemplu:</strong> aceeași idee sună diferit în funcție de persoană, limbaj și situație.</span></span> în viziunea lui J.-C. Abric (2002)?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>În trei mari categorii</strong> actori ai comunicării cod și mediu context<span class='tooltip-box'>Clasificarea include factorii ce țin de persoane de sistemul de semne folosit și de contextul în care are loc comunicarea.</span></span>",
-          "<span class='tip'><strong>În funcție de tipul mesajului</strong> verbal nonverbal paraverbal<span class='tooltip-box'>Aceasta este o clasificare frecventă a mesajelor nu a factorilor determinanți ai comunicării.</span></span>",
-          "<span class='tip'><strong>În funcție de intenționalitate</strong> conștientă și inconștientă<span class='tooltip-box'>Intenționalitatea este o dimensiune psihologică dar nu constituie criteriul de bază al clasificării lui Abric.</span></span>",
+          "<span class='tip'><strong>În trei mari categorii</strong> – actori, cod/canal, mediu/context<span class='tooltip-box'><strong>Spus simplu:</strong> contează cine comunică, cum comunică și unde comunică.<br><br><strong>Formulare academică:</strong> clasificarea include factorii ce țin de persoană, de sistemul de semne și de contextul comunicării.<br><br><strong>Exemplu:</strong> elev–profesor, limbaj, clasă.</span></span>",
+          "<span class='tip'><strong>În funcție de tipul mesajului</strong> – verbal, nonverbal, paraverbal<span class='tooltip-box'><strong>Spus simplu:</strong> aceasta clasifică mesajele, nu factorii determinanți.<br><br><strong>Formulare academică:</strong> este o clasificare a formelor de mesaj, nu a surselor de influență.<br><br><strong>Exemplu:</strong> tonul vocii este paraverbal.</span></span>",
+          "<span class='tip'><strong>În funcție de intenționalitate</strong> – conștientă și inconștientă<span class='tooltip-box'><strong>Spus simplu:</strong> intenția nu este criteriul principal la Abric.<br><br><strong>Formulare academică:</strong> intenționalitatea e o dimensiune, nu schema de clasificare a factorilor.<br><br><strong>Exemplu:</strong> poți comunica și fără intenție explicită.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care dintre următorii sunt <span class='tip'><strong>factori care aparțin actorilor comunicării</strong><span class='tooltip-box'>Acești factori țin de caracteristicile persoanelor implicate direct în procesul comunicării.</span></span>?",
+        text: "Care dintre următorii sunt <span class='tip'><strong>factori ai actorilor comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt lucruri care țin de persoanele implicate, nu de mesaj sau context.<br><br><strong>Formulare academică:</strong> actorii comunicării sunt influențați de factori psihologici, cognitivi și sociali care modelează intențiile și interpretările.<br><br><strong>Exemplu:</strong> emoțiile sau statutul schimbă felul în care spui ceva.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Factorii psihologici</strong><span class='tooltip-box'>Se referă la emoții motivații atitudini trăsături de personalitate care influențează comunicarea.</span></span>",
-          "<span class='tip'><strong>Factorii cognitivi</strong><span class='tooltip-box'>Vizează nivelul de cunoaștere schemele mentale capacitatea de înțelegere și interpretare.</span></span>",
-          "<span class='tip'><strong>Factorii sociali</strong><span class='tooltip-box'>Includ statutul rolurile sociale și poziția individului în grup sau societate.</span></span>",
-          "<span class='tip'><strong>Factorii canalului de comunicare</strong><span class='tooltip-box'>Aceștia țin de cod și de mijlocul de transmitere nu direct de actorii comunicării.</span></span>",
+          "<span class='tip'><strong>Factorii psihologici</strong><span class='tooltip-box'><strong>Spus simplu:</strong> emoții, motivații, atitudini.<br><br><strong>Formulare academică:</strong> stările afective și trăsăturile personale influențează emiterea și recepția mesajului.<br><br><strong>Exemplu:</strong> când ești nervos, vorbești mai tăios.</span></span>",
+          "<span class='tip'><strong>Factorii cognitivi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nivelul de înțelegere și cunoaștere.<br><br><strong>Formulare academică:</strong> schemele mentale și capacitatea de interpretare condiționează sensul transmis.<br><br><strong>Exemplu:</strong> un mesaj tehnic e înțeles diferit de un specialist și de un începător.</span></span>",
+          "<span class='tip'><strong>Factorii sociali</strong><span class='tooltip-box'><strong>Spus simplu:</strong> statutul și rolurile sociale contează.<br><br><strong>Formulare academică:</strong> poziția socială influențează tonul, distanța și autoritatea în comunicare.<br><br><strong>Exemplu:</strong> altfel vorbești cu un coleg decât cu un director.</span></span>",
+          "<span class='tip'><strong>Factorii canalului de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> canalul ține de mijlocul de transmitere, nu de persoane.<br><br><strong>Formulare academică:</strong> canalul aparține codului și mediului, nu actorilor.<br><br><strong>Exemplu:</strong> telefon, e-mail, voce.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Ce tipuri de factori sunt incluși în categoria <span class='tip'><strong>factorilor care țin de cod</strong><span class='tooltip-box'>Codul reprezintă sistemul de semne și reguli utilizate pentru a construi și transmite mesajul.</span></span>?",
+        text: "Ce tipuri de factori sunt incluși în categoria <span class='tip'><strong>factorilor care țin de cod?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codul înseamnă limbajul și regulile lui (cuvinte, semne, convenții).<br><br><strong>Formulare academică:</strong> codul reprezintă sistemul de semne și reguli utilizate pentru a construi și transmite mesajul; include și canalul (mijlocul de transmitere).<br><br><strong>Exemplu:</strong> limba română, semne grafice, mesaj audio.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Factori psihici sau obiectivi</strong><span class='tooltip-box'>Vizează caracteristicile concrete ale semnelor și suportului de comunicare.</span></span>",
-          "<span class='tip'><strong>Factori psihologici și psihosemantici</strong><span class='tooltip-box'>Țin de semnificațiile atribuite mesajelor și de interpretarea lor subiectivă.</span></span>",
-          "<span class='tip'><strong>Factori ai canalului de comunicare</strong><span class='tooltip-box'>Se referă la mediul prin care mesajul este transmis și la limitările sau facilitățile acestuia.</span></span>",
-          "<span class='tip'><strong>Factori ai contextului cultural</strong><span class='tooltip-box'>Aceștia țin de mediu și context nu de codul propriu zis.</span></span>",
+          "<span class='tip'><strong>Factori psihici sau obiectivi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum sunt semnele și suportul lor concret.<br><br><strong>Formulare academică:</strong> vizează caracteristicile formale ale semnelor și ale suportului de comunicare.<br><br><strong>Exemplu:</strong> claritatea unui text scris.</span></span>",
+          "<span class='tip'><strong>Factori psihologici și psihosemantici</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sensurile pe care le dăm cuvintelor.<br><br><strong>Formulare academică:</strong> interpretarea semnificațiilor influențează înțelegerea mesajului.<br><br><strong>Exemplu:</strong> același cuvânt poate fi înțeles diferit.</span></span>",
+          "<span class='tip'><strong>Factori ai canalului de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> canalul este drumul mesajului (voce, scris, online).<br><br><strong>Formulare academică:</strong> mediul de transmitere poate facilita sau distorsiona mesajul.<br><br><strong>Exemplu:</strong> microfon slab, conexiune instabilă.</span></span>",
+          "<span class='tip'><strong>Factori ai contextului cultural</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul ține de mediu, nu de cod în sine.<br><br><strong>Formulare academică:</strong> normele culturale sunt factori de mediu, nu de cod.<br><br><strong>Exemplu:</strong> regulile de politețe diferă între culturi.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Ce caracterizează <span class='tip'><strong>factorii care țin de mediu și context</strong><span class='tooltip-box'>Acești factori descriu cadrul extern în care are loc comunicarea și care îi poate influența sensul și eficiența.</span></span>?",
+        text: "Care sunt <span class='tip'><strong>factorii de mediu și context?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> locul, timpul și cultura schimbă comunicarea.<br><br><strong>Formulare academică:</strong> mediul include factori materiali, temporali, sociali și culturali care influențează interpretarea mesajului.<br><br><strong>Exemplu:</strong> același mesaj sună diferit în clasă decât acasă.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Contextul material și temporal</strong><span class='tooltip-box'>Include spațiul timpul condițiile fizice și momentul comunicării.</span></span>",
-          "<span class='tip'><strong>Contextul social</strong><span class='tooltip-box'>Se referă la normele relațiile de putere și structurile sociale implicate.</span></span>",
-          "<span class='tip'><strong>Contextul cultural și ideologic</strong><span class='tooltip-box'>Include valori credințe ideologii și cadre simbolice împărtășite.</span></span>",
-          "<span class='tip'><strong>Structura internă a mesajului</strong><span class='tooltip-box'>Aceasta ține de cod și de organizarea mesajului nu de context.</span></span>",
+          "<span class='tip'><strong>Factori materiali și temporali</strong><span class='tooltip-box'><strong>Spus simplu:</strong> spațiul și momentul comunicării.<br><br><strong>Formulare academică:</strong> condițiile fizice și temporale pot facilita sau bloca comunicarea.<br><br><strong>Exemplu:</strong> zgomotul din curte vs. liniștea din bibliotecă.</span></span>",
+          "<span class='tip'><strong>Factori sociali și culturali</strong><span class='tooltip-box'><strong>Spus simplu:</strong> normele și valorile grupului contează.<br><br><strong>Formulare academică:</strong> normele sociale și culturale modelează sensul și regulile dialogului.<br><br><strong>Exemplu:</strong> salutul și formula de adresare diferă între contexte.</span></span>",
+          "<span class='tip'><strong>Factori psihosemantici</strong><span class='tooltip-box'><strong>Spus simplu:</strong> țin de cod, nu de context.<br><br><strong>Formulare academică:</strong> interpretarea semnificațiilor aparține factorilor de cod.<br><br><strong>Exemplu:</strong> sensuri diferite ale aceluiași cuvânt.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1],
       },
     ],
   },
   {
     id: "pedcom-1-3-q4",
-    title: "Schema comunicării și contextul comunicativ",
+    title: "Schema comunicării",
     questions: [
       {
-        text: "Cum este descris procesul de comunicare în <span class='tip'><strong>schema clasică a comunicării</strong><span class='tooltip-box'>Schema clasică descrie comunicarea ca un proces secvențial, cu roluri clare și pași succesivi: emitere, transmitere, recepție și răspuns.</span></span>?",
+        text: "Ce rol are <span class='tip'><strong>schema clasică a comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată traseul mesajului de la emitent la receptor.<br><br><strong>Formulare academică:</strong> schema descrie etapele codării, transmiterii și decodării mesajului în actul comunicării.<br><br><strong>Exemplu:</strong> profesor → mesaj → canal (voce) → elev.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Mesajul este emis, codificat, transmis prin canal și decodificat</strong><span class='tooltip-box'>Emitatorul codifică mesajul, îl transmite printr un canal, iar receptorul îl decodifică pentru a i atribui sens.</span></span>",
-          "<span class='tip'><strong>Mesajul apare spontan, fără emitator sau receptor</strong><span class='tooltip-box'>Aceasta contrazice ideea de comunicare intențională și relațională.</span></span>",
-          "<span class='tip'><strong>Comunicarea este posibilă doar în dialog</strong><span class='tooltip-box'>Comunicarea poate fi și monolog, nu doar dialog.</span></span>",
+          "<span class='tip'><strong>Explică etapele codării, transmiterii și decodării mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul pleacă, trece printr-un canal și este înțeles de receptor.<br><br><strong>Formulare academică:</strong> schema include emitent, mesaj, cod, canal, receptor și feedback.<br><br><strong>Exemplu:</strong> vocea profesorului transmite lecția elevului.</span></span>",
+          "<span class='tip'><strong>Elimină rolul receptorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără receptor nu există comunicare.<br><br><strong>Formulare academică:</strong> receptorul este element esențial în schema comunicării.<br><br><strong>Exemplu:</strong> dacă nu ascultă nimeni, mesajul nu ajunge.</span></span>",
+          "<span class='tip'><strong>Descrie doar monologul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schema se aplică și dialogului.<br><br><strong>Formulare academică:</strong> feedback-ul transformă monologul în interacțiune.<br><br><strong>Exemplu:</strong> întrebările elevilor modifică explicația.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce diferențiază <span class='tip'><strong>monologul</strong><span class='tooltip-box'>Monologul apare atunci când receptorul nu răspunde după decodificarea mesajului.</span></span> de <span class='tip'><strong>dialog</strong><span class='tooltip-box'>Dialogul presupune alternanța rolurilor de emitator și receptor.</span></span>?",
+        text: "Ce înseamnă <span class='tip'><strong>feedbackul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul receptorului către emitent (conexiune inversă).<br><br><strong>Formulare academică:</strong> feedbackul este reacția receptorului care reglează și continuă comunicarea, transformând receptorul în emitent.<br><br><strong>Exemplu:</strong> elevul spune „nu am înțeles”, iar profesorul reformulează.</span></span> într-un act de comunicare?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Prezența feedbackului</strong><span class='tooltip-box'>Feedbackul indică răspunsul receptorului și permite continuarea schimbului comunicațional.</span></span>",
-          "<span class='tip'><strong>Numărul de participanți</strong><span class='tooltip-box'>Atât monologul cât și dialogul pot implica doi sau mai mulți participanți.</span></span>",
-          "<span class='tip'><strong>Canalul de comunicare</strong><span class='tooltip-box'>Canalul poate fi același în ambele situații.</span></span>",
+          "<span class='tip'><strong>Răspunsul receptorului care continuă comunicarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> receptorul răspunde și devine, la rândul lui, emitent.<br><br><strong>Formulare academică:</strong> feedbackul validează sau corectează sensul mesajului inițial.<br><br><strong>Exemplu:</strong> „Am înțeles” sau „Mai explică, te rog.”</span></span>",
+          "<span class='tip'><strong>Blocarea mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> blocarea oprește dialogul, nu îl reglează.<br><br><strong>Formulare academică:</strong> feedbackul presupune reacție, nu întrerupere.<br><br><strong>Exemplu:</strong> tăcerea totală poate bloca schimbul.</span></span>",
+          "<span class='tip'><strong>Codarea inițială a mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codarea aparține emitentului, nu feedbackului.<br><br><strong>Formulare academică:</strong> feedbackul apare după transmiterea mesajului.<br><br><strong>Exemplu:</strong> mai întâi explici, apoi primești întrebări.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce reprezintă <span class='tip'><strong>feedbackul</strong><span class='tooltip-box'>Feedbackul este conexiunea inversă prin care receptorul răspunde mesajului primit.</span></span> în procesul comunicării?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Răspunsul receptorului către emitator</strong><span class='tooltip-box'>Feedbackul permite reglarea și continuitatea comunicării.</span></span>",
-          "<span class='tip'><strong>Codificarea inițială a mesajului</strong><span class='tooltip-box'>Codificarea este realizată de emitator, nu de receptor.</span></span>",
-          "<span class='tip'><strong>Canalul prin care circulă mesajul</strong><span class='tooltip-box'>Canalul este suportul transmiterii, nu răspunsul.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "În ce tipuri de <span class='tip'><strong>mediu</strong><span class='tooltip-box'>Mediul comunicării reprezintă cadrul în care are loc schimbul de informații.</span></span> se desfășoară comunicarea?",
+        text: "Care sunt <span class='tip'><strong>elementele schemei comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cine transmite, ce transmite, prin ce și cui, plus feedback.<br><br><strong>Formulare academică:</strong> schema include emitent, mesaj, cod, canal, receptor și feedback (retroacțiune).<br><br><strong>Exemplu:</strong> profesor → lecție → voce → elev → întrebări.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Mediu fizic</strong><span class='tooltip-box'>Include spațiul concret în care se află participanții.</span></span>",
-          "<span class='tip'><strong>Mediu social</strong><span class='tooltip-box'>Include relațiile dintre indivizi și pozițiile lor sociale.</span></span>",
-          "<span class='tip'><strong>Mediu cultural</strong><span class='tooltip-box'>Este legat de epoca, valorile și normele culturale.</span></span>",
-          "<span class='tip'><strong>Mediu biologic</strong><span class='tooltip-box'>Nu este menționat ca mediu distinct al comunicării în această schemă.</span></span>",
+          "<span class='tip'><strong>Emitentul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cel care inițiază mesajul.<br><br><strong>Formulare academică:</strong> produce mesajul și îl codifică.<br><br><strong>Exemplu:</strong> profesorul care explică.</span></span>",
+          "<span class='tip'><strong>Mesajul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conținutul transmis.<br><br><strong>Formulare academică:</strong> ansamblu de semne care poartă informația.<br><br><strong>Exemplu:</strong> explicația unei reguli.</span></span>",
+          "<span class='tip'><strong>Codul și canalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> limbajul folosit și drumul mesajului.<br><br><strong>Formulare academică:</strong> cod = sistem de semne; canal = mijlocul de transmitere.<br><br><strong>Exemplu:</strong> limba română + vocea.</span></span>",
+          "<span class='tip'><strong>Receptorul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cel care primește mesajul.<br><br><strong>Formulare academică:</strong> decodifică și interpretează mesajul.<br><br><strong>Exemplu:</strong> elevul care ascultă.</span></span>",
+          "<span class='tip'><strong>Feedbackul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul receptorului către emitent.<br><br><strong>Formulare academică:</strong> retroacțiune care reglează comunicarea.<br><br><strong>Exemplu:</strong> „Am înțeles.”</span></span>",
+          "<span class='tip'><strong>Coeficientul de dominanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este un element al schemei.<br><br><strong>Formulare academică:</strong> nu apare în schema clasică a comunicării.<br><br><strong>Exemplu:</strong> nu ține de emitent/receptor/canal.</span></span>",
         ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Ce caracterizează un <span class='tip'><strong>climat comunicațional deschis și cooperant</strong><span class='tooltip-box'>Climatul comunicării este atmosfera psihosocială în care are loc schimbul de mesaje.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Valorizarea rolului fiecărui participant</strong><span class='tooltip-box'>Participanții percep importanța contribuției proprii.</span></span>",
-          "<span class='tip'><strong>Libertatea de exprimare fără teamă</strong><span class='tooltip-box'>Ideile pot fi exprimate sincer, fără ironie sau represalii.</span></span>",
-          "<span class='tip'><strong>Blocarea feedbackului</strong><span class='tooltip-box'>Blocarea feedbackului afectează negativ comunicarea.</span></span>",
-          "<span class='tip'><strong>Orientarea spre scop comun</strong><span class='tooltip-box'>Participanții sunt stimulați să colaboreze pentru atingerea obiectivelor comune.</span></span>",
-        ],
-        answer: [0, 1, 3],
+        answer: [0, 1, 2, 3, 4],
       },
     ],
   },
+
   {
     id: "pedcom-1-3-q5",
-    title: "Cei „4 C” și regulile eficienței comunicării",
+    title: "Cei „4 C” ai comunicării",
     questions: [
       {
-        text: "Care este succesiunea corectă a proceselor în <span class='tip'><strong>schema clasică a comunicării</strong><span class='tooltip-box'>Schema comunicării descrie traseul mesajului de la inițiere până la interpretare și răspuns, într-un cadru relațional și contextual.</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Emițător → Codare → Canal → Decodare → Receptor</strong><span class='tooltip-box'>Mesajul este formulat de emițător, codificat, transmis printr-un canal și decodificat de receptor.</span></span>",
-          "<span class='tip'><strong>Receptor → Canal → Codare → Emițător</strong><span class='tooltip-box'>Această ordine inversează rolurile și procesele comunicării.</span></span>",
-          "<span class='tip'><strong>Codare → Emițător → Mesaj → Receptor</strong><span class='tooltip-box'>Codarea este realizată de emițător, nu precede apariția lui.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Ce diferențiază <span class='tip'><strong>dialogul</strong><span class='tooltip-box'>Dialogul presupune alternanța rolurilor de emițător și receptor și existența feedback-ului.</span></span> de <span class='tip'><strong>monolog</strong><span class='tooltip-box'>Monologul apare atunci când comunicarea nu este continuată de receptor printr-un răspuns.</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Prezența feedback-ului</strong><span class='tooltip-box'>În dialog receptorul răspunde, devenind la rândul său emițător.</span></span>",
-          "<span class='tip'><strong>Existența unui canal</strong><span class='tooltip-box'>Canalul există în orice formă de comunicare.</span></span>",
-          "<span class='tip'><strong>Existența unui mesaj</strong><span class='tooltip-box'>Mesajul este prezent atât în monolog, cât și în dialog.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "În ce <span class='tip'><strong>medii</strong><span class='tooltip-box'>Comunicarea are loc simultan în mai multe medii care influențează interpretarea mesajului.</span></span> se desfășoară procesul comunicării?",
+        text: "Selectează <span class='tip'><strong>cei „4 C” ai comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt cele patru întrebări pe care le ai în minte când pregătești mesajul.<br><br><strong>Formulare academică:</strong> „4 C” sunt: Ce dorim să comunicăm? Cum dorim să comunicăm? Cui ne adresăm? Ce limbaj vom folosi?<br><br><strong>Exemplu:</strong> înainte de un mesaj important îți clarifici conținutul, forma, publicul și limbajul.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Mediu fizic</strong><span class='tooltip-box'>Spațiul concret în care se află participanții (birou, clasă).</span></span>",
-          "<span class='tip'><strong>Mediu social</strong><span class='tooltip-box'>Relațiile dintre participanți și statutul lor social.</span></span>",
-          "<span class='tip'><strong>Mediu cultural</strong><span class='tooltip-box'>Valorile, normele și perioada istorică în care are loc comunicarea.</span></span>",
-          "<span class='tip'><strong>Mediu biologic</strong><span class='tooltip-box'>Nu este menționat ca mediu al comunicării în schema clasică.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Ce definește un <span class='tip'><strong>climat de comunicare deschis și cooperant</strong><span class='tooltip-box'>Climatul comunicării reprezintă atmosfera psihosocială în care are loc schimbul de mesaje.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Libertatea de exprimare</strong><span class='tooltip-box'>Participanții pot exprima idei fără teama de ironii sau represalii.</span></span>",
-          "<span class='tip'><strong>Valorizarea rolului fiecăruia</strong><span class='tooltip-box'>Fiecare participant percepe importanța contribuției sale.</span></span>",
-          "<span class='tip'><strong>Control strict și sancțiuni</strong><span class='tooltip-box'>Acestea caracterizează mai degrabă un climat defensiv.</span></span>",
-        ],
-        answer: [0, 1],
-      },
-      {
-        text: "Care sunt cei <span class='tip'><strong>4 C ai comunicării eficiente</strong><span class='tooltip-box'>Cei 4 C orientează planificarea și adaptarea comunicării la interlocutor.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Ce comunicăm</strong><span class='tooltip-box'>Conținutul mesajului.</span></span>",
-          "<span class='tip'><strong>Cum comunicăm</strong><span class='tooltip-box'>Forma și modul de exprimare.</span></span>",
-          "<span class='tip'><strong>Cui comunicăm</strong><span class='tooltip-box'>Adaptarea mesajului la receptor.</span></span>",
-          "<span class='tip'><strong>Ce limbaj folosim</strong><span class='tooltip-box'>Alegerea vocabularului și a nivelului de complexitate.</span></span>",
-          "<span class='tip'><strong>Cât de repede comunicăm</strong><span class='tooltip-box'>Viteza nu face parte din cei 4 C clasici.</span></span>",
+          "<span class='tip'><strong>Ce dorim să comunicăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici conținutul mesajului.<br><br><strong>Formulare academică:</strong> stabilești ideea sau informația pe care vrei să o transmiți.<br><br><strong>Exemplu:</strong> „Vreau să anunț o schimbare de program”.</span></span>",
+          "<span class='tip'><strong>Cum dorim să comunicăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi forma și stilul mesajului.<br><br><strong>Formulare academică:</strong> hotărăști dacă mesajul e formal sau informal, direct sau indirect.<br><br><strong>Exemplu:</strong> „Îi spun pe scurt, politicos”.</span></span>",
+          "<span class='tip'><strong>Cui ne adresăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la receptor.<br><br><strong>Formulare academică:</strong> identifici interlocutorul pentru a adapta mesajul.<br><br><strong>Exemplu:</strong> „Vorbesc cu elevii, nu cu colegii”.</span></span>",
+          "<span class='tip'><strong>Ce limbaj vom folosi?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi cuvintele potrivite.<br><br><strong>Formulare academică:</strong> stabilești nivelul și tipul limbajului folosit în mesaj.<br><br><strong>Exemplu:</strong> termeni simpli, fără jargon.</span></span>",
+          "<span class='tip'><strong>Când comunicăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> momentul contează, dar nu este unul dintre cei „4 C”.<br><br><strong>Formulare academică:</strong> această întrebare apare la „unde și când”, nu în lista celor „4 C”.<br><br><strong>Exemplu:</strong> nu este una dintre cele patru întrebări din listă.</span></span>",
         ],
         answer: [0, 1, 2, 3],
       },
       {
-        text: "Ce <span class='tip'><strong>principii practice</strong><span class='tooltip-box'>Regulile de formulare sprijină eficiența și claritatea mesajului.</span></span> derivă din aplicarea celor 4 C?",
+        text: "Selectează formulările corecte despre <span class='tip'><strong>cum utilizăm limbajul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul trebuie să fie pe înțelesul celuilalt și formulat clar.<br><br><strong>Formulare academică:</strong> utilizăm cuvinte și expresii potrivite nivelului de înțelegere, clare, ușor de înțeles, precise și concise, evitând limbajul tehnic și frazele prea complicate.<br><br><strong>Exemplu:</strong> alegi termeni simpli, fără jargon.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Adaptarea limbajului la nivelul interlocutorului</strong><span class='tooltip-box'>Mesajul este formulat pe măsura capacității de înțelegere a partenerului.</span></span>",
-          "<span class='tip'><strong>Claritate și concizie</strong><span class='tooltip-box'>Mesajele clare și precise reduc ambiguitatea.</span></span>",
-          "<span class='tip'><strong>Utilizarea limbajului tehnic complex</strong><span class='tooltip-box'>Este recomandat să fie evitat în comunicarea curentă.</span></span>",
+          "<span class='tip'><strong>Folosim cuvinte și expresii potrivite nivelului de înțelegere al partenerului de dialog</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi cuvinte pe care celălalt le înțelege.<br><br><strong>Formulare academică:</strong> mesajul se adaptează competenței de înțelegere a interlocutorului.<br><br><strong>Exemplu:</strong> explici simplu unui începător.</span></span>",
+          "<span class='tip'><strong>Folosim cuvinte și expresii clare, ușor de înțeles, precise și concise</strong><span class='tooltip-box'><strong>Spus simplu:</strong> spui clar și scurt.<br><br><strong>Formulare academică:</strong> limbajul trebuie să fie clar, precis și concis, pentru a evita ambiguitatea.<br><br><strong>Exemplu:</strong> „Tema este la pagina 10”.</span></span>",
+          "<span class='tip'><strong>Evităm limbajul tehnic, de specialitate și frazele prea complicate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu folosești jargon inutil.<br><br><strong>Formulare academică:</strong> mesajul evită termeni tehnici și structuri prea complexe.<br><br><strong>Exemplu:</strong> nu folosești cuvinte rare când nu e nevoie.</span></span>",
+          "<span class='tip'><strong>Folosim fraze cât mai complicate pentru a impresiona</strong><span class='tooltip-box'><strong>Spus simplu:</strong> frazele complicate încurcă mesajul.<br><br><strong>Formulare academică:</strong> această opțiune contrazice ideea de claritate și concizie.<br><br><strong>Exemplu:</strong> jargonul excesiv blochează înțelegerea.</span></span>",
         ],
-        answer: [0, 1],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "În cei „4 C”, care întrebare se referă la <span class='tip'><strong>receptor?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este întrebarea despre cine ascultă mesajul.<br><br><strong>Formulare academică:</strong> receptorul este persoana căreia îi este adresat mesajul.<br><br><strong>Exemplu:</strong> adaptezi limbajul la public.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Cui ne adresăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este întrebarea despre interlocutor.<br><br><strong>Formulare academică:</strong> receptorul este persoana către care este orientat mesajul.<br><br><strong>Exemplu:</strong> „Vorbesc cu elevii?”</span></span>",
+          "<span class='tip'><strong>Ce dorim să comunicăm?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta ține de conținutul mesajului.<br><br><strong>Formulare academică:</strong> se referă la informația transmisă, nu la receptor.<br><br><strong>Exemplu:</strong> „Vreau să anunț o schimbare”.</span></span>",
+          "<span class='tip'><strong>Ce limbaj vom folosi?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se referă la tipul de cuvinte, nu la persoană.<br><br><strong>Formulare academică:</strong> ține de formularea mesajului, nu de receptor.<br><br><strong>Exemplu:</strong> „Folosesc termeni simpli”.</span></span>",
+        ],
+        answer: 0,
       },
     ],
   },
   {
     id: "pedcom-1-3-q6",
-    title: "Să ne răspundem următoarele întrebări în comunicare",
+    title: "Întrebări esențiale înainte de comunicare",
     questions: [
       {
-        text: "De ce comunicarea este considerată o <span class='tip'><strong>necesitate fundamentală</strong><span class='tooltip-box'>Comunicarea este văzută ca o condiție a existenței sociale și a evoluției umane, similară unor funcții vitale.</span></span> pentru om?",
+        text: "Selectează <span class='tip'><strong>întrebările pregătitoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt întrebările la care răspunzi înainte să comunici.<br><br><strong>Formulare academică:</strong> „Într-o comunicare este bine să ne răspundem următoarelor întrebări” (N. Stanton, 1995, 5-6; de Peretti, 2007).<br><br><strong>Exemplu:</strong> clarifici scopul, interlocutorul și contextul.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>DE CE?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici scopul comunicării.<br><br><strong>Formulare academică:</strong> „DE CE? (scopul comunicării)”.<br><br><strong>Exemplu:</strong> vrei să informezi sau să influențezi?</span></span>",
+          "<span class='tip'><strong>CINE?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici interlocutorul.<br><br><strong>Formulare academică:</strong> „CINE? (interlocutorul)”.<br><br><strong>Exemplu:</strong> cui te adresezi?</span></span>",
+          "<span class='tip'><strong>UNDE ȘI CÂND?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici locul și contextul.<br><br><strong>Formulare academică:</strong> „UNDE ȘI CÂND? (locul și contextul)”.<br><br><strong>Exemplu:</strong> în clasă sau în pauză?</span></span>",
+          "<span class='tip'><strong>CE?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici subiectul mesajului.<br><br><strong>Formulare academică:</strong> „CE? (subiectul)”.<br><br><strong>Exemplu:</strong> ce vrei exact să spui?</span></span>",
+          "<span class='tip'><strong>CUM?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici tonul și stilul.<br><br><strong>Formulare academică:</strong> „CUM? (tonul și stilul)”.<br><br><strong>Exemplu:</strong> scris sau vorbit?</span></span>",
+          "<span class='tip'><strong>CÂT?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este în lista întrebărilor pregătitoare din text.<br><br><strong>Formulare academică:</strong> această întrebare nu apare în lista lui Stanton și de Peretti.<br><br><strong>Exemplu:</strong> nu este una dintre întrebările-cheie.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "Ce clarifică <span class='tip'><strong>întrebarea „DE CE?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți stabilești scopul comunicării.<br><br><strong>Formulare academică:</strong> „DE CE? (scopul comunicării) – «De ce comunicăm?» «Care este scopul meu real de a scrie sau vorbi?», «Ce sper eu să realizez? O schimbare de atitudine? O schimbare de opinie?», «Care este scopul meu? Să informez? Să influenţez? Să fraternizez cu cineva? Să fac conversaţie?»”.<br><br><strong>Exemplu:</strong> vrei să informezi, să influențezi sau să fraternizezi.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Asigură schimbul de informații, idei și sentimente</strong><span class='tooltip-box'>Bernard Voyenne compară importanța comunicării pentru societate cu respirația pentru organism.</span></span>",
-          "<span class='tip'><strong>Permite doar transmiterea de date</strong><span class='tooltip-box'>Această perspectivă este restrictivă și nu surprinde dimensiunea socială a comunicării.</span></span>",
-          "<span class='tip'><strong>Este specifică exclusiv limbajului verbal</strong><span class='tooltip-box'>Comunicarea nu se limitează la limbajul verbal și nici doar la oameni.</span></span>",
+          "<span class='tip'><strong>Scopul comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți clarifici finalitatea mesajului.<br><br><strong>Formulare academică:</strong> întrebarea „DE CE?” vizează scopul comunicării.<br><br><strong>Exemplu:</strong> informare, influențare, conversație.</span></span>",
+          "<span class='tip'><strong>Interlocutorul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este sub întrebarea „CINE?”.<br><br><strong>Formulare academică:</strong> interlocutorul nu ține de „DE CE?”.<br><br><strong>Exemplu:</strong> „Cine este persoana?”</span></span>",
+          "<span class='tip'><strong>Locul și contextul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acestea sunt la „UNDE ȘI CÂND?”.<br><br><strong>Formulare academică:</strong> locul/contextul sunt altă întrebare pregătitoare.<br><br><strong>Exemplu:</strong> „Unde primește mesajul?”</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Cum este definită comunicarea în prima mare categorie de definiții?",
+        text: "Ce clarifică <span class='tip'><strong>întrebarea „CINE?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la persoana căreia îi vorbești.<br><br><strong>Formulare academică:</strong> „CINE? (interlocutorul) - Cine este …………?”, „Ce fel de persoană este?” „Ce personalitate are?”, „Ce educaţie? Vârstă? Statut social?”, „Cum va reacţiona la conţinutul mesajului meu?””.<br><br><strong>Exemplu:</strong> adaptezi limbajul la vârstă și statut.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Proces de transmitere a unui mesaj</strong><span class='tooltip-box'>Model clasic: cine spune, ce spune, pe ce canal, cui și cu ce efect.</span></span>",
-          "<span class='tip'><strong>Proces de negociere a semnificațiilor</strong><span class='tooltip-box'>Aceasta aparține celei de a doua categorii de definiții.</span></span>",
-          "<span class='tip'><strong>Interacțiune lipsită de informație</strong><span class='tooltip-box'>Această formulare apare doar în extinderi extreme ale conceptului.</span></span>",
+          "<span class='tip'><strong>Interlocutorul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici cine este receptorul.<br><br><strong>Formulare academică:</strong> întrebarea „CINE?” vizează persoana și reacția ei la mesaj.<br><br><strong>Exemplu:</strong> „Ce vârstă are?”</span></span>",
+          "<span class='tip'><strong>Scopul comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ține de „DE CE?”.<br><br><strong>Formulare academică:</strong> scopul comunicării nu este „CINE?”.<br><br><strong>Exemplu:</strong> „De ce comunic?”</span></span>",
+          "<span class='tip'><strong>Tonul și stilul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ține de „CUM?”.<br><br><strong>Formulare academică:</strong> tonul și stilul sunt altă întrebare pregătitoare.<br><br><strong>Exemplu:</strong> „Scris sau vorbit?”</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care sunt <span class='tip'><strong>funcțiile comunicării</strong><span class='tooltip-box'>Roman Jakobson identifică șase funcții fundamentale ale comunicării.</span></span> descrise de Roman Jakobson?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Funcția expresivă</strong><span class='tooltip-box'>Exprimă atitudinea și starea emitentului față de mesaj.</span></span>",
-          "<span class='tip'><strong>Funcția conativă</strong><span class='tooltip-box'>Vizează influențarea receptorului.</span></span>",
-          "<span class='tip'><strong>Funcția fatică</strong><span class='tooltip-box'>Menține contactul între participanți.</span></span>",
-          "<span class='tip'><strong>Funcția administrativă</strong><span class='tooltip-box'>Nu face parte din clasificarea lui Jakobson.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Ce rol are <span class='tip'><strong>schema clasică a comunicării</strong><span class='tooltip-box'>Schema clasică descrie traseul mesajului între emitent și receptor.</span></span>?",
+        text: "Ce clarifică <span class='tip'><strong>întrebarea „UNDE ȘI CÂND?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la locul și momentul comunicării.<br><br><strong>Formulare academică:</strong> „UNDE ȘI CÂND? (locul şi contextul) - «Unde va fi interlocutorul (receptorul) când va primi mesajul meu?», «În birou sau în apropierea altui obiect interesant?», «Ce elemente ale mesajului meu nu sunt cunoscute, astfel încât va fi nevoie să-i reamintesc faptele?», «În ce moment soseşte mesajul meu?», «Pot răspunde la o problemă ridicată de interlocutor? Sau mesajul meu va reprezenta prima informaţie pe care interlocutorul o va auzi despre problema respectivă?», «Care este relaţia mea cu ascultătorul?», «Este subiectul mesajului meu un motiv de controversă între noi?», «Atmosfera este încărcată sau cordială?»”.<br><br><strong>Exemplu:</strong> locul și atmosfera pot schimba tonul mesajului.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Explică etapele codării, transmiterii și decodării mesajului</strong><span class='tooltip-box'>Include emitent, mesaj, canal, receptor și feedback.</span></span>",
-          "<span class='tip'><strong>Elimină rolul receptorului</strong><span class='tooltip-box'>Receptorul este esențial în proces.</span></span>",
-          "<span class='tip'><strong>Descrie doar monologul</strong><span class='tooltip-box'>Schema explică atât monologul, cât și dialogul.</span></span>",
+          "<span class='tip'><strong>Locul și contextul comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi cadrul și momentul potrivit.<br><br><strong>Formulare academică:</strong> întrebarea „UNDE ȘI CÂND?” vizează contextul spațio-temporal și relațional.<br><br><strong>Exemplu:</strong> sală de clasă vs. pauză.</span></span>",
+          "<span class='tip'><strong>Subiectul mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „CE?”.<br><br><strong>Formulare academică:</strong> subiectul nu ține de loc și moment.<br><br><strong>Exemplu:</strong> „Ce vreau să spun?”</span></span>",
+          "<span class='tip'><strong>Tonul și stilul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „CUM?”.<br><br><strong>Formulare academică:</strong> tonul și stilul sunt o altă întrebare pregătitoare.<br><br><strong>Exemplu:</strong> „Scris sau vorbit?”</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce înseamnă <span class='tip'><strong>feedback ul</strong><span class='tooltip-box'>Feedback ul mai este numit conexiune inversă.</span></span> într un act de comunicare?",
+        text: "Ce clarifică <span class='tip'><strong>întrebarea „CE?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi exact conținutul mesajului.<br><br><strong>Formulare academică:</strong> „CE? (subiectul) – «Ce vreau exact să spun?», «Ce aş dori să spun?», «Ce doreşte el să ştie?», «Ce informaţii pot omite?», «Ce informaţii pot da pentru a fi: clar, concis, amabil, constructiv, corect, complet?»”.<br><br><strong>Exemplu:</strong> selectezi informațiile esențiale.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Răspunsul receptorului care continuă comunicarea</strong><span class='tooltip-box'>Prin feedback receptorul devine la rândul său emitent.</span></span>",
-          "<span class='tip'><strong>Blocarea mesajului</strong><span class='tooltip-box'>Blocarea duce la monolog, nu la feedback.</span></span>",
-          "<span class='tip'><strong>Codarea inițială a mesajului</strong><span class='tooltip-box'>Codarea aparține emitentului.</span></span>",
+          "<span class='tip'><strong>Subiectul mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici ce vrei să spui.<br><br><strong>Formulare academică:</strong> întrebarea „CE?” vizează conținutul mesajului.<br><br><strong>Exemplu:</strong> „Ce informații pot omite?”</span></span>",
+          "<span class='tip'><strong>Interlocutorul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „CINE?”.<br><br><strong>Formulare academică:</strong> interlocutorul nu ține de „CE?”.<br><br><strong>Exemplu:</strong> „Ce fel de persoană este?”</span></span>",
+          "<span class='tip'><strong>Tonul și stilul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „CUM?”.<br><br><strong>Formulare academică:</strong> tonul și stilul sunt altă întrebare pregătitoare.<br><br><strong>Exemplu:</strong> „Scris sau vorbit?”</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce factori determinanți ai comunicării identifică <span class='tip'><strong>J C Abric</strong><span class='tooltip-box'>Abric propune o clasificare complexă a factorilor comunicării.</span></span>?",
-        multiple: true,
+        text: "Ce clarifică <span class='tip'><strong>întrebarea „CUM?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi tonul și stilul mesajului.<br><br><strong>Formulare academică:</strong> „CUM? (tonul şi stilul) – «Cum voi comunica mesajul meu? În cuvinte? În imagini? În cuvinte sau imagini?,» «Ce cuvinte? Ce imagini? Ce mod de comunicare va fi mai apreciat?», «Scris sau vorbit? O scrisoare, o discuţie personală sau un interviu?», «Cum voi organiza informaţiile pe care vreau să le transmit?», «Voi folosi o prezentare deductivă (încep cu punctul meu de vedere principal şi apoi să continui cu explicaţii, exemple, ilustrări)?», «Sau voi utiliza o prezentare inductivă, în care mesajul meu va fi plasat, la final?», «Cum voi realiza efectul dorit?», «Ce ton trebuie să folosesc pentru a-mi realiza obiectivul?», «Ce cuvinte trebuie să folosesc, sau să evit, pentru a crea o atmosferă potrivită?»”.<br><br><strong>Exemplu:</strong> alegi între scris sau vorbit și decizi tonul.</span></span>",
+        multiple: false,
         options: [
-          "<span class='tip'><strong>Factori ai actorilor comunicării</strong><span class='tooltip-box'>Psihologici, cognitivi și sociali.</span></span>",
-          "<span class='tip'><strong>Factori ai codului și canalului</strong><span class='tooltip-box'>Țin de mesaj și de mediul de transmitere.</span></span>",
-          "<span class='tip'><strong>Factori de mediu și context</strong><span class='tooltip-box'>Materiali, temporali, sociali și culturali.</span></span>",
-          "<span class='tip'><strong>Factori genetici exclusivi</strong><span class='tooltip-box'>Nu apar în clasificarea lui Abric.</span></span>",
+          "<span class='tip'><strong>Tonul și stilul comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi cum transmiți mesajul.<br><br><strong>Formulare academică:</strong> întrebarea „CUM?” vizează forma, stilul și organizarea mesajului.<br><br><strong>Exemplu:</strong> prezentare deductivă sau inductivă.</span></span>",
+          "<span class='tip'><strong>Locul și contextul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „UNDE ȘI CÂND?”.<br><br><strong>Formulare academică:</strong> locul și contextul nu țin de „CUM?”.<br><br><strong>Exemplu:</strong> „În birou sau în apropierea altui obiect interesant?”</span></span>",
+          "<span class='tip'><strong>Subiectul mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este „CE?”.<br><br><strong>Formulare academică:</strong> conținutul nu ține de „CUM?”.<br><br><strong>Exemplu:</strong> „Ce vreau exact să spun?”</span></span>",
         ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "La ce se referă regula celor <span class='tip'><strong>4 C</strong><span class='tooltip-box'>Regula celor 4 C orientează pregătirea comunicării.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Ce comunicăm</strong><span class='tooltip-box'>Conținutul mesajului.</span></span>",
-          "<span class='tip'><strong>Cum comunicăm</strong><span class='tooltip-box'>Forma, tonul și stilul.</span></span>",
-          "<span class='tip'><strong>Cui comunicăm</strong><span class='tooltip-box'>Adaptarea la interlocutor.</span></span>",
-          "<span class='tip'><strong>Cât de repede comunicăm</strong><span class='tooltip-box'>Nu face parte din regula celor 4 C.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Care sunt întrebările esențiale care trebuie clarificate înainte de a comunica eficient?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>De ce comunic</strong><span class='tooltip-box'>Scopul real al mesajului.</span></span>",
-          "<span class='tip'><strong>Cine este interlocutorul</strong><span class='tooltip-box'>Caracteristici, reacții, așteptări.</span></span>",
-          "<span class='tip'><strong>Unde și când comunic</strong><span class='tooltip-box'>Contextul spațio temporal și relațional.</span></span>",
-          "<span class='tip'><strong>Ce vârstă are emitentul</strong><span class='tooltip-box'>Nu este o întrebare centrală a schemei.</span></span>",
-        ],
-        answer: [0, 1, 2],
+        answer: 0,
       },
     ],
   },
@@ -640,45 +639,54 @@ window.PEDCOM_QUIZ = [
     title: "Intenționalitatea comunicării. Semnal și indiciu",
     questions: [
       {
-        text: "Conform perspectivei <span class='tip'><strong>semiologiei comunicării</strong><span class='tooltip-box'>Abordare care analizează comunicarea în funcție de existența intenționalității din partea emițătorului.</span></span>, care este criteriul esențial pentru a putea vorbi propriu zis despre comunicare?",
+        text: "În analiza comunicării după <span class='tip'><strong>intenționalitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează dacă emițătorul a vrut să transmită ceva.<br><br><strong>Formulare academică:</strong> comunicarea este analizată în funcție de existența sau absența intenției din partea emițătorului.<br><br><strong>Exemplu:</strong> un gest făcut intenționat vs. o reacție involuntară.</span></span>, care este criteriul esențial pentru a vorbi despre comunicare?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Existența intenționalității</strong><span class='tooltip-box'>Doar semnalul presupune un act deliberat al emițătorului orientat spre un scop comunicativ.</span></span>",
-          "<span class='tip'><strong>Existența unui receptor</strong><span class='tooltip-box'>Prezența unui receptor nu este suficientă dacă nu există intenție comunicativă.</span></span>",
-          "<span class='tip'><strong>Transmiterea de informații</strong><span class='tooltip-box'>Pot exista informații percepute fără ca ele să fi fost intenționat transmise.</span></span>",
+          "<span class='tip'><strong>Existența intenționalității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> trebuie să fie un act deliberat al emițătorului.<br><br><strong>Formulare academică:</strong> „doar semnalul presupune existenţa unei intenţionalităţi din partea emiţătorului”.<br><br><strong>Exemplu:</strong> „Ajutor!” spus intenționat.</span></span>",
+          "<span class='tip'><strong>Existența unui receptor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un receptor nu e suficient fără intenție.<br><br><strong>Formulare academică:</strong> criteriul central nu este receptorul, ci intenția emițătorului.<br><br><strong>Exemplu:</strong> receptorul poate interpreta un indiciu, dar acesta nu e intenționat.</span></span>",
+          "<span class='tip'><strong>Transmiterea de informații, indiferent de intenție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu orice informație transmisă e considerată comunicare intenționată.<br><br><strong>Formulare academică:</strong> intenționalitatea rămâne criteriul esențial.<br><br><strong>Exemplu:</strong> paloarea poate transmite o stare fără intenție.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care este diferența fundamentală dintre <span class='tip'><strong>semnal</strong><span class='tooltip-box'>Semnalul este un act intenționat, deliberat, orientat spre un scop precis.</span></span> și <span class='tip'><strong>indiciu</strong><span class='tooltip-box'>Indiciul este o manifestare neintenționată, interpretată de receptor.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Semnalul presupune intenționalitate</strong><span class='tooltip-box'>Este produs cu scopul de a transmite ceva către celălalt.</span></span>",
-          "<span class='tip'><strong>Indiciul este spontan</strong><span class='tooltip-box'>Apare ca reacție sau manifestare necontrolată, fără intenție comunicativă.</span></span>",
-          "<span class='tip'><strong>Indiciul nu poate genera comunicare</strong><span class='tooltip-box'>Deși lipsit de intenționalitate, indiciul poate declanșa un răspuns comunicativ.</span></span>",
-          "<span class='tip'><strong>Semnalul este un act deliberat</strong><span class='tooltip-box'>Este realizat conștient pentru a produce un efect asupra receptorului.</span></span>",
-        ],
-        answer: [0, 1, 3],
-      },
-      {
-        text: "Exemplul <span class='tip'><strong>palorii bruște a unei persoane</strong><span class='tooltip-box'>Reacție fiziologică involuntară, interpretată de receptor în funcție de context.</span></span> ilustrează faptul că:",
+        text: "Cum sunt definite <span class='tip'><strong>semnalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e un act intenționat, făcut cu un scop precis.<br><br><strong>Formulare academică:</strong> „semnalul presupune existenţa unei intenţionalităţi din partea emiţătorului”.<br><br><strong>Exemplu:</strong> o chemare în ajutor.</span></span> și <span class='tip'><strong>indiciul?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e o manifestare neintenționată.<br><br><strong>Formulare academică:</strong> indiciul este lipsit de intenționalitatea comunicării.<br><br><strong>Exemplu:</strong> paloarea bruscă a cuiva.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Indiciul poate genera un act de comunicare</strong><span class='tooltip-box'>Deși nu este intenționat, el poate produce interpretare și reacție din partea receptorului.</span></span>",
-          "<span class='tip'><strong>Doar semnalele produc reacții</strong><span class='tooltip-box'>Reacțiile pot apărea și în urma indicilor interpretați contextual.</span></span>",
-          "<span class='tip'><strong>Indiciul este identic cu semnalul</strong><span class='tooltip-box'>Diferența dintre ele rămâne intenționalitatea.</span></span>",
+          "<span class='tip'><strong>Semnalul este intenționat, indiciul este neintenționat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> semnalul e deliberat, indiciul e spontan.<br><br><strong>Formulare academică:</strong> semiologia comunicării operează distincția fundamentală între semnal și indiciu în funcție de intenționalitate.<br><br><strong>Exemplu:</strong> chemare în ajutor vs. paloare.</span></span>",
+          "<span class='tip'><strong>Semnalul este nonverbal, indiciul este verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu forma contează, ci intenția.<br><br><strong>Formulare academică:</strong> distincția nu este una de formă, ci de intenționalitate.<br><br><strong>Exemplu:</strong> un cuvânt poate fi semnal.</span></span>",
+          "<span class='tip'><strong>Semnalul este întotdeauna involuntar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> semnalul presupune intenție, nu involuntar.<br><br><strong>Formulare academică:</strong> semnalul este un act deliberat săvârșit într-un scop precis.<br><br><strong>Exemplu:</strong> o chemare explicită.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "De ce analiza comunicării exclusiv prin prisma <span class='tip'><strong>intenționalității</strong><span class='tooltip-box'>Criteriu care restrânge comunicarea la actele deliberate ale emițătorului.</span></span> este considerată problematică?",
-        multiple: true,
+        text: "Ce ilustrează exemplul: <span class='tip'><strong>paloarea bruscă a unei persoane?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este o reacție involuntară, deci un indiciu.<br><br><strong>Formulare academică:</strong> „Paloarea bruscă ce invadează chipul cuiva este doar un indiciu al sentimentelor încercate”.<br><br><strong>Exemplu:</strong> paloarea poate semnala teamă fără intenție.</span></span>",
+        multiple: false,
         options: [
-          "<span class='tip'><strong>Restrânge aria semantică a comunicării</strong><span class='tooltip-box'>Exclude situații în care indiciile produc efecte comunicative reale.</span></span>",
-          "<span class='tip'><strong>Ignoră rolul receptorului</strong><span class='tooltip-box'>Interpretarea receptorului poate transforma un indiciu într un act de comunicare.</span></span>",
-          "<span class='tip'><strong>Confundă semnalele cu indicii</strong><span class='tooltip-box'>Dimpotrivă, distincția este clară, dar consecințele sunt discutabile.</span></span>",
+          "<span class='tip'><strong>Este un indiciu, nu un semnal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu e făcut intenționat.<br><br><strong>Formulare academică:</strong> paloarea este un indiciu al sentimentelor încercate, nu un act deliberat.<br><br><strong>Exemplu:</strong> nu strigi, doar pălești.</span></span>",
+          "<span class='tip'><strong>Este un semnal explicit</strong><span class='tooltip-box'><strong>Spus simplu:</strong> semnalul este intenționat.<br><br><strong>Formulare academică:</strong> semnalul e un act deliberat săvârșit într-un scop precis.<br><br><strong>Exemplu:</strong> „Ajutor!”</span></span>",
+          "<span class='tip'><strong>Este o formă de limbaj verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> paloarea nu este verbală.<br><br><strong>Formulare academică:</strong> indiciul poate fi nonverbal și involuntar.<br><br><strong>Exemplu:</strong> paloarea ține de reacție fiziologică.</span></span>",
         ],
-        answer: [0, 1],
+        answer: 0,
+      },
+      {
+        text: "De ce spun autorii că acest criteriu <span class='tip'><strong>restrânge aria semantică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> exclude multe situații reale de comunicare.<br><br><strong>Formulare academică:</strong> „acest criteriu restrânge semnificativ aria semantică a conceptului de comunicare, din perspectiva emiţătorului”.<br><br><strong>Exemplu:</strong> indiciile ar fi eliminate din comunicare.</span></span> a comunicării?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Exclude comunicarea bazată pe indiciu</strong><span class='tooltip-box'><strong>Spus simplu:</strong> indiciile nu ar mai fi considerate comunicare.<br><br><strong>Formulare academică:</strong> „nu suntem îndreptăţiţi să vorbim de comunicare decât în cazul semnalelor”.<br><br><strong>Exemplu:</strong> paloarea nu ar conta.</span></span>",
+          "<span class='tip'><strong>Confundă semnalul cu indiciul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> distincția rămâne clară, nu e confundată.<br><br><strong>Formulare academică:</strong> problema e restrângerea conceptului, nu confuzia termenilor.<br><br><strong>Exemplu:</strong> semnal vs. indiciu rămân separate.</span></span>",
+          "<span class='tip'><strong>Elimină rolul emițătorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> criteriul chiar pleacă de la emițător.<br><br><strong>Formulare academică:</strong> restrângerea e făcută „din perspectiva emiţătorului”.<br><br><strong>Exemplu:</strong> se pune accent pe intenția emițătorului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce se poate întâmpla când un <span class='tip'><strong>indiciu</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e o manifestare neintenționată.</strong><br><br><strong>Formulare academică:</strong> indiciul este lipsit de intenționalitatea comunicării.<br><br><strong>Exemplu:</strong> paloarea cuiva.</span></span> este interpretat de receptor?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Poate genera un act de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> receptorul răspunde, iar comunicarea începe.<br><br><strong>Formulare academică:</strong> interpretarea indiciului „poate conduce fie la o intervenţie concretă, fie la solicitarea unor clarificări, fie la acordarea unui suport”.<br><br><strong>Exemplu:</strong> întrebi „Ești bine?” sau oferi ajutor.</span></span>",
+          "<span class='tip'><strong>Nu produce nicio reacție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> indiciul poate declanșa reacții.<br><br><strong>Formulare academică:</strong> indiciul poate genera comportament de răspuns din partea receptorului.<br><br><strong>Exemplu:</strong> oferi suport.</span></span>",
+          "<span class='tip'><strong>Se transformă automat în semnal intenționat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> indiciul rămâne neintenționat, chiar dacă e interpretat.<br><br><strong>Formulare academică:</strong> intenționalitatea nu apare retroactiv, dar poate apărea un răspuns comunicativ.<br><br><strong>Exemplu:</strong> reacționezi la paloare.</span></span>",
+        ],
+        answer: 0,
       },
     ],
   },
@@ -687,103 +695,130 @@ window.PEDCOM_QUIZ = [
     title: "Intenționalitatea comunicării și Școala de la Palo Alto",
     questions: [
       {
-        text: "Cum este definită <span class='tip'><strong>comunicarea</strong><span class='tooltip-box'>În această secțiune comunicarea este analizată în funcție de criteriul intenționalității: dacă există sau nu intenția explicită a emițătorului de a transmite un mesaj.</span></span> din perspectiva <span class='tip'><strong>semiologiei comunicării</strong><span class='tooltip-box'>Semiologia comunicării este asociată cu autori precum Buyssens, Martinet, Mounin și Prieto și operează distincția dintre semnal și indiciu.</span></span>?",
+        text: "Ce afirmă reprezentanții <span class='tip'><strong>Școlii de la Palo Alto?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea și comportamentul sunt practic același lucru.<br><br><strong>Formulare academică:</strong> „cei doi termeni: comunicare și comportament, sunt practic sinonimi”.<br><br><strong>Exemplu:</strong> chiar un gest involuntar are valoare comunicațională.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Doar semnalul este comunicare</strong><span class='tooltip-box'>În această viziune, comunicarea presupune intenționalitate: semnalul este produs deliberat de emițător.</span></span>",
-          "<span class='tip'><strong>Orice indiciu este comunicare</strong><span class='tooltip-box'>Această perspectivă este respinsă de semioticieni, deoarece indiciul nu presupune intenție.</span></span>",
-          "<span class='tip'><strong>Comunicarea este identică cu comportamentul</strong><span class='tooltip-box'>Aceasta este perspectiva Școlii de la Palo Alto, nu a semiologiei comunicării.</span></span>",
+          "<span class='tip'><strong>Comunicarea și comportamentul sunt sinonime</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice comportament are potențial comunicațional.<br><br><strong>Formulare academică:</strong> orice comportament considerat indiciu de semioticieni este considerat semnal de către Școala de la Palo Alto.<br><br><strong>Exemplu:</strong> tăcerea poate comunica distanță.</span></span>",
+          "<span class='tip'><strong>Comunicarea există doar dacă este intenționată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este poziția semioticienilor, nu a Palo Alto.<br><br><strong>Formulare academică:</strong> Palo Alto extinde comunicarea și la comportamente neintenționate.<br><br><strong>Exemplu:</strong> paloarea poate fi interpretată.</span></span>",
+          "<span class='tip'><strong>Comunicarea se reduce la limbajul verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pentru Palo Alto, comunicarea include toate comportamentele.<br><br><strong>Formulare academică:</strong> limbajul verbal nu este singura formă de comunicare.<br><br><strong>Exemplu:</strong> mimica și postura comunică.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care este diferența fundamentală dintre <span class='tip'><strong>indiciu</strong><span class='tooltip-box'>Indiciul este o manifestare neintenționată, lipsită de scop comunicativ explicit.</span></span> și <span class='tip'><strong>semnal</strong><span class='tooltip-box'>Semnalul este un act deliberat, produs cu intenția de a comunica ceva.</span></span>?",
+        text: "De ce spun reprezentanții Palo Alto că nu are sens să vorbim despre comunicare <span class='tip'><strong>fără interacțiuni reale?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea există doar între oameni care interacționează concret.<br><br><strong>Formulare academică:</strong> „a vorbi despre comunicare în general, fără a face referire la interacţiunile reale dintre participanţi, este lipsit de sens”.<br><br><strong>Exemplu:</strong> nu analizezi comunicarea dacă nu există schimb real.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Indiciul este neintenționat, semnalul este intenționat</strong><span class='tooltip-box'>Aceasta este distincția centrală operată de semiologia comunicării.</span></span>",
-          "<span class='tip'><strong>Indiciul este verbal, semnalul este nonverbal</strong><span class='tooltip-box'>Distincția nu este una de formă, ci de intenționalitate.</span></span>",
-          "<span class='tip'><strong>Indiciul apare doar în comunicarea umană</strong><span class='tooltip-box'>Indiciile pot apărea și în comportamente nonumane sau involuntare.</span></span>",
+          "<span class='tip'><strong>Pentru că comunicarea este relațională</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sensul apare în interacțiune, nu în izolare.<br><br><strong>Formulare academică:</strong> comunicarea se înțelege numai raportată la interacțiunile reale dintre participanți.<br><br><strong>Exemplu:</strong> aceeași afirmație poate avea sens diferit în relații diferite.</span></span>",
+          "<span class='tip'><strong>Pentru că mesajele sunt întotdeauna verbale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajele pot fi și nonverbale.<br><br><strong>Formulare academică:</strong> Palo Alto nu limitează comunicarea la verbal.<br><br><strong>Exemplu:</strong> tăcerea poate comunica.</span></span>",
+          "<span class='tip'><strong>Pentru că doar emițătorul contează</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează relația dintre participanți, nu doar emiterea.<br><br><strong>Formulare academică:</strong> comunicarea este interacțională, nu unilaterală.<br><br><strong>Exemplu:</strong> reacția receptorului schimbă sensul.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Cum interpretează <span class='tip'><strong>Școala de la Palo Alto</strong><span class='tooltip-box'>Curent reprezentat de Bateson, Haley, Jackson, Watzlawick și alții, care leagă comunicarea de interacțiune și comportament.</span></span> relația dintre comunicare și comportament?",
+        text: "Ce spune <span class='tip'><strong>ipoteza codului comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> există reguli ale comunicării; dacă le respecți, comunicarea merge bine.<br><br><strong>Formulare academică:</strong> „există un cod formalizat al comunicării şi că odată ce regulile acestui cod sunt corect observate comunicarea este bună”.<br><br><strong>Exemplu:</strong> când regulile sunt încălcate, apar disfuncții.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Comunicarea și comportamentul sunt sinonime</strong><span class='tooltip-box'>Orice comportament are valoare comunicațională, chiar și fără intenție explicită.</span></span>",
-          "<span class='tip'><strong>Doar comportamentele intenționate sunt comunicare</strong><span class='tooltip-box'>Aceasta este poziția semioticienilor, nu a Școlii de la Palo Alto.</span></span>",
-          "<span class='tip'><strong>Comunicarea există doar prin limbaj verbal</strong><span class='tooltip-box'>Școala de la Palo Alto extinde comunicarea la toate formele de interacțiune.</span></span>",
+          "<span class='tip'><strong>Comunicarea este bună când regulile codului sunt respectate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> respectarea regulilor face comunicarea eficientă.<br><br><strong>Formulare academică:</strong> regulile codului, dacă sunt corect observate, duc la comunicare bună.<br><br><strong>Exemplu:</strong> mesaj clar, canal adecvat, răspuns coerent.</span></span>",
+          "<span class='tip'><strong>Comunicarea depinde doar de intenție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar intenția contează, ci și regulile codului.<br><br><strong>Formulare academică:</strong> ipoteza codului nu reduce comunicarea la intenție.<br><br><strong>Exemplu:</strong> intenție bună, dar reguli încălcate.</span></span>",
+          "<span class='tip'><strong>Comunicarea nu poate fi afectată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea poate fi afectată până la ruptură.<br><br><strong>Formulare academică:</strong> încălcarea regulilor codului poate duce la disfuncții.<br><br><strong>Exemplu:</strong> blocaj în dialog.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce rol joacă <span class='tip'><strong>interacțiunea</strong><span class='tooltip-box'>Pentru Școala de la Palo Alto, comunicarea nu poate fi separată de contextul interacțiunii reale dintre participanți.</span></span> în definirea comunicării?",
+        text: "Care poate fi <span class='tip'><strong>forma extremă a rupturii?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> atunci când comunicarea se rupe complet.<br><br><strong>Formulare academică:</strong> „forma extremă a acestei rupturi regăsindu-se în schizofrenie, care se caracterizează prin refuzul de a comunica”.<br><br><strong>Exemplu:</strong> refuzul comunicării.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Schizofrenia</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este dată ca exemplu de ruptură completă a comunicării.<br><br><strong>Formulare academică:</strong> forma extremă a rupturii se regăsește în schizofrenie.<br><br><strong>Exemplu:</strong> refuzul comunicării.</span></span>",
+          "<span class='tip'><strong>Oboseala comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este menționată ca formă extremă.<br><br><strong>Formulare academică:</strong> textul nu folosește acest exemplu.<br><br><strong>Exemplu:</strong> pauza nu e ruptură totală.</span></span>",
+          "<span class='tip'><strong>Confuzia temporară</strong><span class='tooltip-box'><strong>Spus simplu:</strong> confuzia nu e forma extremă a rupturii.<br><br><strong>Formulare academică:</strong> textul dă ca exemplu schizofrenia.<br><br><strong>Exemplu:</strong> o neînțelegere trecătoare nu e ruptură totală.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce informație descrie <span class='tip'><strong>structura Școlii de la Palo Alto?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> a existat un prim grup și apoi un al doilea grup (MRI).<br><br><strong>Formulare academică:</strong> primul grup includea pe Gregory Bateson, Jay Haley și Don D. Jackson; al doilea grup era MRI (Mental Research Institute), cu Ruskin, Virginia Satir și Paul Watzlawick (1961), purtător de cuvânt al școlii.<br><br><strong>Exemplu:</strong> Watzlawick devine figură centrală în 1961.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Este condiția de existență a comunicării</strong><span class='tooltip-box'>Fără interacțiune concretă între participanți, nu se poate vorbi de comunicare.</span></span>",
-          "<span class='tip'><strong>Transformă orice comportament în semnal</strong><span class='tooltip-box'>Chiar și comportamentele neintenționate capătă valoare comunicațională.</span></span>",
-          "<span class='tip'><strong>Elimină necesitatea codului</strong><span class='tooltip-box'>Școala de la Palo Alto nu neagă existența codurilor, ci accentuează interacțiunea.</span></span>",
-          "<span class='tip'><strong>Exclude contextul social</strong><span class='tooltip-box'>Dimpotrivă, contextul este esențial în interpretarea comportamentelor.</span></span>",
+          "<span class='tip'><strong>Primul grup: Gregory Bateson, Jay Haley, Don D. Jackson</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceștia formau nucleul inițial.<br><br><strong>Formulare academică:</strong> „Un prim grup ... alături de Gregory Bateson ... Jay Haley și Don D. Jackson”.<br><br><strong>Exemplu:</strong> nucleul inițial al școlii.</span></span>",
+          "<span class='tip'><strong>Al doilea grup: MRI (Mental Research Institute)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupul din jurul lui Jackson, cu Ruskin și Virginia Satir.<br><br><strong>Formulare academică:</strong> „MRI ... cuprindea în jurul lui Jackson pe Ruskin, Virginia Satir, apoi Paul Watzlawick în 1961”.<br><br><strong>Exemplu:</strong> al doilea grup al școlii.</span></span>",
+          "<span class='tip'><strong>Paul Watzlawick a devenit purtător de cuvânt (1961)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> el a reprezentat public școala.<br><br><strong>Formulare academică:</strong> „Paul Watzlawick în 1961, care a devenit purtătorul de cuvânt al acestei şcoli”.<br><br><strong>Exemplu:</strong> voce publică a școlii.</span></span>",
+          "<span class='tip'><strong>Al doilea grup a fost condus de Bateson</strong><span class='tooltip-box'><strong>Spus simplu:</strong> Bateson nu a participat la al doilea grup.<br><br><strong>Formulare academică:</strong> „Un al doilea grup la care Bateson nu a participat niciodată este MRI”.<br><br><strong>Exemplu:</strong> Bateson nu e în MRI.</span></span>",
         ],
-        answer: [0, 1],
-      },
-      {
-        text: "Care este ideea centrală a <span class='tip'><strong>ipotezei codului comunicării</strong><span class='tooltip-box'>Ipoteză formulată de cercetătorii de la Palo Alto, inspirată din epistemologie.</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Respectarea regulilor codului asigură comunicarea eficientă</strong><span class='tooltip-box'>Atunci când regulile codului sunt respectate, comunicarea funcționează; încălcarea lor duce la disfuncții.</span></span>",
-          "<span class='tip'><strong>Comunicarea este imposibilă fără limbaj verbal</strong><span class='tooltip-box'>Această afirmație contrazice perspectiva Palo Alto.</span></span>",
-          "<span class='tip'><strong>Doar emițătorul controlează sensul mesajului</strong><span class='tooltip-box'>Sensul este construit în interacțiune, nu unilateral.</span></span>",
-        ],
-        answer: 0,
+        answer: [0, 1, 2],
       },
     ],
   },
   {
     id: "pedcom-1-4-q1",
-    title: "Comunicarea, Școala de la Palo Alto și pedagogia comunicării",
+    title: "Comunicarea în educație și pedagogia comunicării",
     questions: [
       {
-        text: "Care este ideea centrală a <span class='tip'><strong>Școlii de la Palo Alto</strong><span class='tooltip-box'>Școala de la Palo Alto consideră comunicarea inseparabilă de comportament și analizabilă doar în contexte reale de interacțiune.</span></span> în raport cu comunicarea?",
+        text: "Ce afirmă textul despre <span class='tip'><strong>rolul comunicării în educație?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e esențială pentru învățământ.<br><br><strong>Formulare academică:</strong> „Comunicarea a fost dintotdeauna o componentă principală a educaţiei, un suport indispensabil învăţământului.”<br><br><strong>Exemplu:</strong> fără comunicare nu există predare și învățare.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Comunicarea și comportamentul sunt sinonime</strong><span class='tooltip-box'>Orice comportament are valoare comunicațională, chiar dacă nu este intenționat explicit.</span></span>",
-          "<span class='tip'><strong>Comunicarea există doar dacă este intenționată</strong><span class='tooltip-box'>Această idee aparține mai degrabă semioticii comunicării.</span></span>",
-          "<span class='tip'><strong>Comunicarea este un simplu transfer de informații</strong><span class='tooltip-box'>Viziune limitată, specifică modelelor liniare clasice.</span></span>",
+          "<span class='tip'><strong>Comunicarea este componentă principală a educației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> educația nu poate funcționa fără comunicare.<br><br><strong>Formulare academică:</strong> comunicarea este suport indispensabil învățământului.<br><br><strong>Exemplu:</strong> lecția depinde de comunicarea profesor–elev.</span></span>",
+          "<span class='tip'><strong>Comunicarea este secundară educației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> comunicarea este componentă principală, nu secundară.<br><br><strong>Exemplu:</strong> predarea fără comunicare nu e posibilă.</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar un instrument opțional</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul o numește indispensabilă.<br><br><strong>Formulare academică:</strong> comunicarea este suport indispensabil, nu opțional.<br><br><strong>Exemplu:</strong> nu poți învăța fără schimb de semnificații.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "De ce afirmă reprezentanții Palo Alto că nu putem vorbi despre comunicare <span class='tip'><strong>în afara interacțiunii</strong><span class='tooltip-box'>Pentru Palo Alto, comunicarea există doar ca proces relațional, situat între participanți.</span></span>?",
+        text: "Cum este descrisă <span class='tip'><strong>relația dintre școală și comunicare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> școala a integrat formele comunicării în practica ei.<br><br><strong>Formulare academică:</strong> „practica îndelungată a şcolii nu a încetat niciodată să-şi apropie şi să integreze, în mod inteligent, diferitele forme ale comunicării în structurile ei procesuale.”<br><br><strong>Exemplu:</strong> comunicarea orală și scrisă sunt integrate în lecții.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Pentru că sensul apare doar în relație</strong><span class='tooltip-box'>Informația capătă semnificație prin reacțiile și răspunsurile participanților.</span></span>",
-          "<span class='tip'><strong>Pentru că mesajele sunt întotdeauna verbale</strong><span class='tooltip-box'>Comunicarea include și comportamente nonverbale.</span></span>",
-          "<span class='tip'><strong>Pentru că intenția este suficientă</strong><span class='tooltip-box'>Intenția nu este condiția exclusivă a comunicării în această perspectivă.</span></span>",
+          "<span class='tip'><strong>Școala integrează inteligent formele comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea a fost mereu parte din școală.<br><br><strong>Formulare academică:</strong> școala integrează formele comunicării în structurile ei procesuale.<br><br><strong>Exemplu:</strong> comunicarea didactică e organizată în lecție.</span></span>",
+          "<span class='tip'><strong>Școala este indiferentă față de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune exact opusul.<br><br><strong>Formulare academică:</strong> practica școlii a integrat comunicarea permanent.<br><br><strong>Exemplu:</strong> structura lecției depinde de comunicare.</span></span>",
+          "<span class='tip'><strong>Comunicarea nu are rol în structurile școlii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este integrată în structurile școlii.<br><br><strong>Formulare academică:</strong> comunicarea este parte din structurile procesuale ale școlii.<br><br><strong>Exemplu:</strong> activitățile didactice sunt organizate comunicațional.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "În perspectiva <span class='tip'><strong>pedagogiei comunicării</strong><span class='tooltip-box'>Pedagogia comunicării privește învățarea ca proces comunicațional fundamental.</span></span>, care afirmații sunt corecte?",
+        text: "Ce evidențiază textul despre <span class='tip'><strong>societatea cunoașterii și comunicării generalizate?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ajunge peste tot, iar școala devine mai sensibilă la aceste schimbări.<br><br><strong>Formulare academică:</strong> actul comunicării se implică efectiv în toate domeniile vieţii social-umane, iar învăţământul se manifestă şi mai sensibil la aceste evoluţii, favorizând reînnoirea modurilor în care elevii învaţă şi sunt învăţaţi.<br><br><strong>Exemplu:</strong> apar metode noi de predare și învățare.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Relația instructivă este o formă de comunicare</strong><span class='tooltip-box'>Predarea este un schimb de semnificații între profesor și elev.</span></span>",
-          "<span class='tip'><strong>Comunicarea organizează condițiile învățării</strong><span class='tooltip-box'>Structurarea comunicării influențează direct eficiența procesului educativ.</span></span>",
-          "<span class='tip'><strong>Comunicarea este un element secundar în educație</strong><span class='tooltip-box'>Textul subliniază rolul central și constitutiv al comunicării.</span></span>",
-          "<span class='tip'><strong>Comunicarea stimulează interactivitatea</strong><span class='tooltip-box'>Ea favorizează cooperarea, coordonarea și coeziunea grupului.</span></span>",
-        ],
-        answer: [0, 1, 3],
-      },
-      {
-        text: "Cum este definit rolul comunicării în <span class='tip'><strong>instituția de învățământ</strong><span class='tooltip-box'>Școala este spațiul în care se învață și se perfecționează comunicarea.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Sursă de învățare și dezvoltare</strong><span class='tooltip-box'>Comunicarea generează contexte de învățare și sens.</span></span>",
-          "<span class='tip'><strong>Instrument de organizare a învățării</strong><span class='tooltip-box'>Prin comunicare se structurează activitățile didactice.</span></span>",
-          "<span class='tip'><strong>Factor de coeziune socio-afectivă</strong><span class='tooltip-box'>Contribuie la climatul clasei și la relațiile interpersonale.</span></span>",
-          "<span class='tip'><strong>Proces neutru, lipsit de valoare socială</strong><span class='tooltip-box'>Contrazice explicit perspectiva pedagogiei comunicării.</span></span>",
+          "<span class='tip'><strong>Comunicarea se implică în toate domeniile vieții social-umane</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea devine prezentă peste tot.<br><br><strong>Formulare academică:</strong> actul comunicării se implică efectiv în toate domeniile vieţii social-umane.<br><br><strong>Exemplu:</strong> comunicare în educație, muncă, comunitate.</span></span>",
+          "<span class='tip'><strong>Învățământul devine mai sensibil la aceste evoluții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> școala se adaptează schimbărilor.<br><br><strong>Formulare academică:</strong> învăţământul se manifestă şi mai sensibil la aceste evoluţii.<br><br><strong>Exemplu:</strong> apar metode interactive.</span></span>",
+          "<span class='tip'><strong>Se accentuează tendința de reînnoire a modurilor de învățare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă felul în care elevii învață și sunt învățați.<br><br><strong>Formulare academică:</strong> se accentuează actuala tendinţă de reînnoire a modurilor în care elevii învaţă şi sunt învăţaţi.<br><br><strong>Exemplu:</strong> învățare activă și colaborativă.</span></span>",
+          "<span class='tip'><strong>Învățământul rămâne neschimbat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> învățământul devine mai sensibil și se reînnoiește.<br><br><strong>Exemplu:</strong> apar noi forme de comunicare didactică.</span></span>",
         ],
         answer: [0, 1, 2],
+      },
+      {
+        text: "Ce afirmă <span class='tip'><strong>I. Cerghit (2002)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> învățământul este foarte comunicant la toate nivelurile.<br><br><strong>Formulare academică:</strong> „Învăţământul ... este prin excelenţă un domeniu puternic comunicant la toate nivelurile.”<br><br><strong>Exemplu:</strong> fiecare etapă a predării implică comunicare.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Învățământul este puternic comunicant la toate nivelurile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e prezentă peste tot în școală.<br><br><strong>Formulare academică:</strong> domeniul este puternic comunicant la toate nivelurile.<br><br><strong>Exemplu:</strong> profesor–elev, elev–elev, elev–conținut.</span></span>",
+          "<span class='tip'><strong>Învățământul comunică doar la nivel formal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul nu restrânge comunicarea la formal.<br><br><strong>Formulare academică:</strong> comunicarea apare la toate nivelurile, nu doar formal.<br><br><strong>Exemplu:</strong> și relațiile informale contează.</span></span>",
+          "<span class='tip'><strong>Învățământul nu este un domeniu comunicant</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune opusul.<br><br><strong>Formulare academică:</strong> domeniul este comunicant la toate nivelurile.<br><br><strong>Exemplu:</strong> comunicarea e centrală în predare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Selectează afirmațiile specifice <span class='tip'><strong>pedagogiei moderne a comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este baza procesului de învățare.<br><br><strong>Formulare academică:</strong> textul enumeră rolurile comunicării în procesul instructiv-educativ.<br><br><strong>Exemplu:</strong> comunicarea organizează schimburile de semnificații din clasă.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Relaţia instructivă este una de comunicare, „un schimb de semnificaţii”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> predarea înseamnă schimb de semnificații.<br><br><strong>Formulare academică:</strong> relaţia instructivă dă naştere unui limbaj didactic/pedagogic.<br><br><strong>Exemplu:</strong> limbajul profesor–elev.</span></span>",
+          "<span class='tip'><strong>Comunicarea este condiţie fundamentală a bunei desfăşurări a învăţământului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără comunicare, procesul nu funcționează.<br><br><strong>Formulare academică:</strong> a organiza condiţiile învăţării înseamnă a organiza comunicările din clasă.<br><br><strong>Exemplu:</strong> structura lecției depinde de schimburi de semnificații.</span></span>",
+          "<span class='tip'><strong>Comunicarea este sursă de informaţii și sursă generatoare de învăţare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea transmite mesaje și produce învățare.<br><br><strong>Formulare academică:</strong> comunicarea accentuează interacţiunile elev–cunoaştere–profesor.<br><br><strong>Exemplu:</strong> dialogul didactic activează învățarea.</span></span>",
+          "<span class='tip'><strong>Comunicarea stimulează interactivitatea și coordonarea cu alţii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ajută colaborarea.<br><br><strong>Formulare academică:</strong> comunicarea promovează contactul, schimbul și coordonarea.<br><br><strong>Exemplu:</strong> lucru în grup.</span></span>",
+          "<span class='tip'><strong>Comunicarea are rol de intervenţie, dirijare şi control asupra învăţării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ghidează învățarea.<br><br><strong>Formulare academică:</strong> comunicarea intervine în reglarea învățării.<br><br><strong>Exemplu:</strong> corectarea în timp real.</span></span>",
+          "<span class='tip'><strong>Comunicarea este instrument de organizare a învăţării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără comunicare nu poți organiza învățarea.<br><br><strong>Formulare academică:</strong> organizează învățarea și condițiile ei.<br><br><strong>Exemplu:</strong> explicațiile ordonează activitățile.</span></span>",
+          "<span class='tip'><strong>Comunicarea creează context socio-afectiv și întărește coeziunea grupului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ține clasa unită.<br><br><strong>Formulare academică:</strong> factor creator de context socio-afectiv și coeziune, favorizează evoluția învățării și predării.<br><br><strong>Exemplu:</strong> climat de clasă pozitiv.</span></span>",
+          "<span class='tip'><strong>Comunicarea este un proces neutru, fără valoare socială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> comunicarea are valoare umană și socială.<br><br><strong>Exemplu:</strong> educarea comunicării e scop al școlii.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5, 6],
+      },
+      {
+        text: "Ce spune textul despre <span class='tip'><strong>instituția de învățământ?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> școala e locul unde se învață și se perfecționează comunicarea.<br><br><strong>Formulare academică:</strong> instituția de învățământ este locul unde se învață, se deprinde, se perfecționează și se creează comunicarea; comunicarea are valoare umană și socială, iar educarea comunicării este un scop în sine.<br><br><strong>Exemplu:</strong> toate disciplinele contribuie la educarea comunicării.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Este locul unde se învață comunicarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> școala formează comunicarea.<br><br><strong>Formulare academică:</strong> instituţia de învăţământ constituie locul unde se învaţă comunicarea.<br><br><strong>Exemplu:</strong> elevii exersează comunicarea zilnic.</span></span>",
+          "<span class='tip'><strong>Aici se deprinde și se perfecționează comunicarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea se formează și se rafinează în școală.<br><br><strong>Formulare academică:</strong> unde se deprinde şi se perfecţionează comunicarea.<br><br><strong>Exemplu:</strong> feedback la prezentări.</span></span>",
+          "<span class='tip'><strong>Aici se creează comunicarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> școala produce forme noi de comunicare.<br><br><strong>Formulare academică:</strong> unde se elaborează (creează) comunicarea.<br><br><strong>Exemplu:</strong> limbaj didactic.</span></span>",
+          "<span class='tip'><strong>Comunicarea este o valoare umană și socială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea contează pentru oameni și societate.<br><br><strong>Formulare academică:</strong> comunicarea are semnificaţia unei valori umane şi sociale.<br><br><strong>Exemplu:</strong> formarea competențelor sociale.</span></span>",
+          "<span class='tip'><strong>Educarea comunicării este un scop în sine</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e un obiectiv major al școlii.<br><br><strong>Formulare academică:</strong> educarea comunicării constituie un scop în sine, un obiectiv major al învăţământului.<br><br><strong>Exemplu:</strong> toate disciplinele contribuie.</span></span>",
+          "<span class='tip'><strong>Comunicarea nu ține de școală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> școala este locul învățării comunicării.<br><br><strong>Exemplu:</strong> educarea comunicării este obiectiv major.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
       },
     ],
   },
@@ -792,65 +827,77 @@ window.PEDCOM_QUIZ = [
     title: "Axiomele comunicării – Watzlawick, Beavin, Jackson",
     questions: [
       {
-        text: "Ce afirmă <span class='tip'><strong>Axioma 1</strong><span class='tooltip-box'>Prima axiomă a comunicării susține că orice comportament are valoare comunicațională, chiar și atunci când intenția de a comunica lipsește.</span></span> a comunicării?",
+        text: "Ce afirmă <span class='tip'><strong>Școala de la Palo Alto?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> această școală formulează axiomele comunicării.<br><br><strong>Formulare academică:</strong> „Școala de la Palo Alto prezintă cinci axiome ale comunicării.”<br><br><strong>Exemplu:</strong> axioma 1, axioma 2 etc.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Non comunicarea este imposibilă</strong><span class='tooltip-box'>Chiar și tăcerea, mimica, postura sau evitarea transmit informații despre starea și relația dintre indivizi.</span></span>",
-          "<span class='tip'><strong>Comunicarea apare doar prin limbaj verbal</strong><span class='tooltip-box'>Această idee este infirmată de axiomă, deoarece comportamentele nonverbale comunică permanent.</span></span>",
-          "<span class='tip'><strong>Comunicarea este întotdeauna intenționată</strong><span class='tooltip-box'>Axioma 1 arată că intenționalitatea nu este o condiție necesară pentru comunicare.</span></span>",
+          "<span class='tip'><strong>Prezintă cinci axiome ale comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este explicată prin 5 reguli de bază.<br><br><strong>Formulare academică:</strong> „Școala de la Palo Alto prezintă cinci axiome ale comunicării.”<br><br><strong>Exemplu:</strong> „Nu se poate să nu comunicăm”.</span></span>",
+          "<span class='tip'><strong>Prezintă doar două axiome ale comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> numărul nu este corect.<br><br><strong>Formulare academică:</strong> textul vorbește despre cinci axiome.<br><br><strong>Exemplu:</strong> sunt cinci, nu două.</span></span>",
+          "<span class='tip'><strong>Refuză ideea de axiome</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune opusul.<br><br><strong>Formulare academică:</strong> sunt prezentate explicit axiomele comunicării.<br><br><strong>Exemplu:</strong> apar axiome numerotate 1–5.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Cum descrie <span class='tip'><strong>Axioma 2</strong><span class='tooltip-box'>A doua axiomă arată că orice comunicare are simultan un conținut informațional și un nivel relațional care oferă chei de interpretare.</span></span> structura comunicării?",
+        text: "Alege <span class='tip'><strong>axiomele comunicării (Watzlawick, Beavin, Jackson)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt cinci idei-cheie despre comunicare.<br><br><strong>Formulare academică:</strong> axiomele sunt formulate explicit în text ca Axioma 1–5.<br><br><strong>Exemplu:</strong> „Nu se poate să nu comunicăm”.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Nivel informațional</strong> – ce se spune<span class='tooltip-box'>Reprezintă conținutul explicit al mesajului: fapte, opinii, afirmații.</span></span>",
-          "<span class='tip'><strong>Nivel relațional</strong> – cum ne raportăm<span class='tooltip-box'>Definește relația dintre parteneri și influențează interpretarea conținutului.</span></span>",
-          "<span class='tip'><strong>Metacomunicarea</strong> – comunicarea despre relație<span class='tooltip-box'>Trecerea de la conținut la relație permite reglarea și clarificarea interacțiunii.</span></span>",
-          "<span class='tip'><strong>Codificarea tehnică</strong> – transmitere mecanică<span class='tooltip-box'>Aceasta ține de canal și cod, nu de axiomă.</span></span>",
+          "<span class='tip'><strong>Nu se poate să nu comunicăm / nu există non-comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice comportament transmite ceva.<br><br><strong>Formulare academică:</strong> non-comunicarea este imposibilă.<br><br><strong>Exemplu:</strong> tăcerea poate fi un mesaj.</span></span>",
+          "<span class='tip'><strong>Comunicarea are nivel informațional și relațional (metacomunicare)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează ce spui și cum e relația dintre voi.<br><br><strong>Formulare academică:</strong> „Orice comunicarea se desfăşoară la două niveluri: informaţional (de conţinut) şi relaţional, cel de-al doilea înglobându-l pe primul... metacomunicare.”<br><br><strong>Exemplu:</strong> „De ce încerci mereu să mă contrazici?”</span></span>",
+          "<span class='tip'><strong>Natura relației depinde de punctarea secvențelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare vede altfel „cine a început”.<br><br><strong>Formulare academică:</strong> „Natura relaţiei depinde de punctarea secvenţelor de comunicare de către parteneri.”<br><br><strong>Exemplu:</strong> „apăs maneta și primesc mâncare” vs „am dresat șoarecele”.</span></span>",
+          "<span class='tip'><strong>Comunicarea este digitală și analogică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> există limbaj verbal și nonverbal.<br><br><strong>Formulare academică:</strong> „Fiinţele umane utilizează două moduri de comunicare: digital și analogic.”<br><br><strong>Exemplu:</strong> povestire vs plâns fără cuvinte.</span></span>",
+          "<span class='tip'><strong>Comunicarea este simetrică sau complementară</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relația poate fi egală sau pe roluri diferite.<br><br><strong>Formulare academică:</strong> „Orice comunicare este simetrică sau complementară, în funcţie de faptul că se bazează pe egalitate sau pe diferenţe.”<br><br><strong>Exemplu:</strong> profesor–elev (complementar).</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar verbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este axiomă.<br><br><strong>Formulare academică:</strong> axioma 4 include nonverbalul (analogic).<br><br><strong>Exemplu:</strong> mimica transmite emoții.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1, 2, 3, 4],
       },
       {
-        text: "Ce explică <span class='tip'><strong>Axioma 3</strong><span class='tooltip-box'>A treia axiomă arată că natura relației depinde de modul în care partenerii punctează secvențele de comunicare.</span></span> prin noțiunea de <em>punctare</em>?",
+        text: "Ce afirmă <span class='tip'><strong>Axioma 1?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu poți să nu comunici dacă ești prezent.<br><br><strong>Formulare academică:</strong> „Nu se poate să nu comunicăm sau nu există non-comunicare.”<br><br><strong>Exemplu:</strong> înfățișarea, mimica, privirea, mersul, gesturile și tăcerile comunică.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Diferențele de perspectivă asupra aceleiași secvențe</strong><span class='tooltip-box'>Fiecare partener interpretează începutul, cauza și sensul interacțiunii din propriul punct de vedere.</span></span>",
-          "<span class='tip'><strong>Diferențele de vocabular</strong><span class='tooltip-box'>Nu vocabularul este esențial aici, ci interpretarea relațională a succesiunii actelor.</span></span>",
-          "<span class='tip'><strong>Diferențele de statut social</strong><span class='tooltip-box'>Statutul poate influența relația, dar nu definește punctarea secvențelor.</span></span>",
+          "<span class='tip'><strong>Non-comunicarea este imposibilă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice comportament spune ceva despre tine.<br><br><strong>Formulare academică:</strong> non-comunicarea este imposibilă din momentul în care ne aflăm în prezența celuilalt.<br><br><strong>Exemplu:</strong> înfățișarea, mimica, privirea, mersul, gesturile și tăcerile.</span></span>",
+          "<span class='tip'><strong>Comunicarea apare doar prin limbaj verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> axiomă negație.<br><br><strong>Formulare academică:</strong> textul include mimica, privirea, gesturile și tăcerile.<br><br><strong>Exemplu:</strong> limbaj nonverbal.</span></span>",
+          "<span class='tip'><strong>Comunicarea este întotdeauna intenționată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> axiomă negație.<br><br><strong>Formulare academică:</strong> chiar fără intenție, comportamentele comunică.<br><br><strong>Exemplu:</strong> paloarea transmite emoții.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce diferență stabilește <span class='tip'><strong>Axioma 4</strong><span class='tooltip-box'>Axioma a patra distinge între comunicarea digitală (verbală) și cea analogică (nonverbală).</span></span> între cele două moduri de comunicare?",
+        text: "Ce afirmă <span class='tip'><strong>Axioma 2?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice comunicare are conținut și relație.<br><br><strong>Formulare academică:</strong> „Orice comunicarea se desfăşoară la două niveluri: informaţional (de conţinut) şi relaţional, cel de-al doilea înglobându-l pe primul şi oferind indicaţii de interpretare a conţinutului celui dintâi, el fiind astfel o metacomunicare.”<br><br><strong>Exemplu:</strong> „De ce încerci mereu să mă contrazici?” mută discuția de la conținut la relație.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Comunicarea are nivel informațional și relațional</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează ce spui și cum e relația dintre voi.<br><br><strong>Formulare academică:</strong> „...se desfăşoară la două niveluri: informaţional ... şi relaţional, cel de-al doilea înglobându-l pe primul... metacomunicare.”<br><br><strong>Exemplu:</strong> „Observ că nu mai asculți ce spun.”</span></span>",
+          "<span class='tip'><strong>Comunicarea are un singur nivel: informativ</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contrazice axiomă 2.<br><br><strong>Formulare academică:</strong> textul afirmă două niveluri, nu unul singur.<br><br><strong>Exemplu:</strong> relația schimbă sensul conținutului.</span></span>",
+          "<span class='tip'><strong>Comunicarea nu are metacomunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> metacomunicarea este chiar în definiție.<br><br><strong>Formulare academică:</strong> trecerea de la conținut la relație este metacomunicare.<br><br><strong>Exemplu:</strong> „Chiar nu te interesează ce spun?”</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce afirmă <span class='tip'><strong>Axioma 3?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceeași secvență poate fi văzută diferit de parteneri.<br><br><strong>Formulare academică:</strong> „Natura relaţiei depinde de punctarea secvenţelor de comunicare de către parteneri.”<br><br><strong>Exemplu:</strong> „apăs maneta și primesc mâncare” vs „am dresat șoarecele să apese maneta”.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Relația depinde de punctarea secvențelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare vede altfel „cine a început”.<br><br><strong>Formulare academică:</strong> „punctarea nu este o problemă de conţinut, ci de relaţie.”<br><br><strong>Exemplu:</strong> șoarecele vs. experimentatorul punctează diferit.</span></span>",
+          "<span class='tip'><strong>Relația depinde doar de vocabular</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu vocabularul e problema.<br><br><strong>Formulare academică:</strong> textul explică punctarea secvențelor, nu vocabularul.<br><br><strong>Exemplu:</strong> două perspective asupra aceleiași situații.</span></span>",
+          "<span class='tip'><strong>Punctarea este o problemă strict tehnică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> axiomă negație.<br><br><strong>Formulare academică:</strong> punctarea ține de relație și perspective, nu de tehnic.<br><br><strong>Exemplu:</strong> conflict de perspectivă în clasă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce spune <span class='tip'><strong>Axioma 4?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicăm și verbal, și nonverbal.<br><br><strong>Formulare academică:</strong> „Fiinţele umane utilizează două moduri de comunicare: digital și analogic.”<br><br><strong>Exemplu:</strong> povestești o ceartă, dar intensitatea se vede când plângi fără cuvinte.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Digital</strong> – logic și precis<span class='tooltip-box'>Limbajul verbal are o sintaxă clară, dar este mai slab în exprimarea relației.</span></span>",
-          "<span class='tip'><strong>Analogic</strong> – expresiv relațional<span class='tooltip-box'>Comunicarea nonverbală transmite emoții și atitudini, dar este ambiguă logic.</span></span>",
-          "<span class='tip'><strong>Nonverbalul poate înlocui complet verbalul</strong><span class='tooltip-box'>Axioma nu susține substituirea totală, ci complementaritatea.</span></span>",
-          "<span class='tip'><strong>Verbalul este singurul mod de a comunica sens</strong><span class='tooltip-box'>Această afirmație este infirmată de axiomă.</span></span>",
+          "<span class='tip'><strong>Limbajul digital are sintaxă logică, dar nu are semantică adecvată relației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cuvintele sunt clare, dar nu arată bine relația.<br><br><strong>Formulare academică:</strong> „Limbajul digital posedă o sintaxă logică foarte complexă și foarte comodă, dar este lipsit de o semantică adecvată relației.”<br><br><strong>Exemplu:</strong> povestești ce s-a întâmplat, dar nu se simte intensitatea.</span></span>",
+          "<span class='tip'><strong>Limbajul analogic are semantică, dar nu are sintaxă clară</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nonverbalul arată starea, dar e mai ambiguu.<br><br><strong>Formulare academică:</strong> „Limbajul analogic deţine semantica, dar nu şi sintaxa adecvată unei definiri non-echivoce a naturii relaţiei.”<br><br><strong>Exemplu:</strong> plânsul arată tristețea, nu cauza.</span></span>",
+          "<span class='tip'><strong>Comunicarea digitală este întotdeauna suficientă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> „...cea mai bună modalitate de a te face înţeles... nu este cu necesitate utilizarea unei comunicări digitale (verbale)”.<br><br><strong>Exemplu:</strong> gesturile pot explica mai bine emoția.</span></span>",
+          "<span class='tip'><strong>Comunicarea analogică este inutilă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul îi recunoaște valoarea.<br><br><strong>Formulare academică:</strong> analogicul este semnificativ pentru stările psihice induse de interacțiune.<br><br><strong>Exemplu:</strong> mimica transmite intensitatea.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Cum definește <span class='tip'><strong>Axioma 5</strong><span class='tooltip-box'>Ultima axiomă afirmă că relațiile pot fi simetrice sau complementare, în funcție de distribuția puterii și rolurilor.</span></span> tipurile de relații?",
+        text: "Ce afirmă <span class='tip'><strong>Axioma 5?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relațiile pot fi egale sau pe roluri diferite.<br><br><strong>Formulare academică:</strong> „Orice comunicare este simetrică sau complementară, în funcţie de faptul că se bazează pe egalitate sau pe diferenţe.”<br><br><strong>Exemplu:</strong> profesor–elev (complementar).</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Relație simetrică</strong> – bazată pe egalitate<span class='tooltip-box'>Partenerii tind să răspundă în mod similar, minimizând diferențele.</span></span>",
-          "<span class='tip'><strong>Relație complementară</strong> – bazată pe diferență<span class='tooltip-box'>Unul ocupă poziția de control, celălalt de răspuns, relația fiind acceptată de ambii.</span></span>",
-          "<span class='tip'><strong>Conflictul apare doar în relații simetrice</strong><span class='tooltip-box'>Conflictele pot apărea și în relații complementare, când pozițiile nu sunt acceptate.</span></span>",
-        ],
-        answer: [0, 1],
-      },
-      {
-        text: "Care afirmații surprind corect <span class='tip'><strong>ideea de ansamblu</strong><span class='tooltip-box'>Întrebarea verifică înțelegerea globală a axiomaticii comunicării.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Comunicarea este inevitabilă</strong><span class='tooltip-box'>Orice comportament într un context social are valoare de mesaj.</span></span>",
-          "<span class='tip'><strong>Relația influențează sensul mesajului</strong><span class='tooltip-box'>Conținutul este interpretat prin prisma relației dintre parteneri.</span></span>",
-          "<span class='tip'><strong>Comunicarea este un proces dinamic și relațional</strong><span class='tooltip-box'>Nu este un simplu transfer de informație, ci o interacțiune continuă.</span></span>",
-          "<span class='tip'><strong>Comunicarea se reduce la transmiterea de date</strong><span class='tooltip-box'>Această perspectivă este depășită de teoria axiomatică.</span></span>",
+          "<span class='tip'><strong>Relația simetrică minimizează diferențele</strong><span class='tooltip-box'><strong>Spus simplu:</strong> partenerii răspund similar.<br><br><strong>Formulare academică:</strong> „în relaţia simetrică sunt minimizate diferenţele”.<br><br><strong>Exemplu:</strong> „Ți-am adus un cadou.” / „Și eu ție.”</span></span>",
+          "<span class='tip'><strong>Relația complementară se bazează pe diferențe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rolurile sunt diferite, dar acceptate.<br><br><strong>Formulare academică:</strong> relația e complementară când schimburile sunt diferite după sensul interacțiunii.<br><br><strong>Exemplu:</strong> profesorul solicită, elevul răspunde.</span></span>",
+          "<span class='tip'><strong>Conflictul apare când un partener nu acceptă tipul de relație</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apar conflicte de poziție.<br><br><strong>Formulare academică:</strong> conflictul se naște când unul nu acceptă relația complementară.<br><br><strong>Exemplu:</strong> elevul refuză rolul de răspuns.</span></span>",
+          "<span class='tip'><strong>Relațiile sunt întotdeauna simetrice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune că pot fi și complementare.<br><br><strong>Formulare academică:</strong> există două tipuri de relații.<br><br><strong>Exemplu:</strong> părinte–copil (complementar).</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -858,109 +905,164 @@ window.PEDCOM_QUIZ = [
   },
   {
     id: "pedcom-1-4-q3",
-    title: "Comunicarea ca domeniu: concluzionare și progresare conceptuală",
+    title: "Comunicarea ca domeniu: definiții și interacțiune",
     questions: [
       {
-        text: "Care este ideea de <span class='tip'><strong>fond</strong><span class='tooltip-box'>Ideea de fond reunește sensul general rezultat din mai multe teorii sau axiome, nu un detaliu punctual.</span></span> care traversează toate axiomele comunicării formulate de Școala de la Palo Alto?",
+        text: "Care este ideea ce stă la baza <span class='tip'><strong>demersului palo-altiștilor?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice comportament comunică, iar intenția contează mai puțin.<br><br><strong>Formulare academică:</strong> „Ideea ce stă la baza demersului palo altiştilor este ... aceea că orice comportament are o valoare comunicativă şi, prin urmare, distincţia semnal versus indiciu este irelevantă.”<br><br><strong>Exemplu:</strong> gesturile pot transmite informații utile chiar fără intenție.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Orice comportament are valoare comunicativă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> și tăcerea „spune” ceva.<br><br><strong>Formulare academică:</strong> „orice comportament are o valoare comunicativă”.<br><br><strong>Exemplu:</strong> evitarea privirii transmite disconfort.</span></span>",
+          "<span class='tip'><strong>Distincția semnal vs. indiciu este irelevantă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu mai contează dacă ai intenționat sau nu.<br><br><strong>Formulare academică:</strong> „distincţia semnal versus indiciu este irelevantă, ea complicând inutil lucrurile”.<br><br><strong>Exemplu:</strong> gesturile neintenționate pot fi utile celuilalt.</span></span>",
+          "<span class='tip'><strong>Intenția este condiția esențială a comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> „...e de fapt puţin important în ce măsură a avut intenţia să ni le ofere.”<br><br><strong>Exemplu:</strong> te „demască” un gest involuntar.</span></span>",
+          "<span class='tip'><strong>Comunicarea nu are legătură cu comportamentul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune opusul.<br><br><strong>Formulare academică:</strong> „orice comportament are o valoare comunicativă”.<br><br><strong>Exemplu:</strong> tăcerea este tot comportament.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Cum definește Bougnoux (1998) <span class='tip'><strong>comunicarea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea înseamnă „a pune ceva în comun”.<br><br><strong>Formulare academică:</strong> „A comunica înseamnă, înainte de toate, «a pune ceva în comun».”<br><br><strong>Exemplu:</strong> împărtășești o idee și primești un răspuns.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Schimb de informații și mesaje</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți dau informații și primesc informații.<br><br><strong>Formulare academică:</strong> „un schimb de informaţii, cunoştinţe, de mesaje”.<br><br><strong>Exemplu:</strong> explici o regulă și primești clarificări.</span></span>",
+          "<span class='tip'><strong>Schimb de idei, confesiuni, impresii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți împărtășești gândurile și trăirile.<br><br><strong>Formulare academică:</strong> „un schimb de reflecţii, de idei, de confesiuni, de impresii”.<br><br><strong>Exemplu:</strong> povestești o experiență personală.</span></span>",
+          "<span class='tip'><strong>Schimb de opinii și atitudini</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți spui părerile și poziția.<br><br><strong>Formulare academică:</strong> „un schimb de păreri, de opinii, de atitudini”.<br><br><strong>Exemplu:</strong> dezbați un subiect cu un coleg.</span></span>",
+          "<span class='tip'><strong>Doar transmitere tehnică de semnale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> această idee este prea îngustă.<br><br><strong>Formulare academică:</strong> Bougnoux vorbește despre schimb și relație.<br><br><strong>Exemplu:</strong> comunicarea nu e doar „semnal”.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Cum definește Wiener <span class='tip'><strong>comunicarea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este un schimb între oameni.<br><br><strong>Formulare academică:</strong> „comunicarea este un comportament de schimb”.<br><br><strong>Exemplu:</strong> îți dau o informație și primesc un răspuns.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Imposibilitatea non comunicării</strong><span class='tooltip-box'>Orice comportament are valoare comunicativă, indiferent de intenție.</span></span>",
-          "<span class='tip'><strong>Primatul intenționalității</strong><span class='tooltip-box'>Doar mesajele intenționate ar fi comunicare.</span></span>",
-          "<span class='tip'><strong>Neutralitatea relațională</strong><span class='tooltip-box'>Relațiile nu influențează sensul mesajului.</span></span>",
+          "<span class='tip'><strong>Comunicarea este un comportament de schimb</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schimbăm informații și reacții.<br><br><strong>Formulare academică:</strong> „comunicarea este un comportament de schimb.”<br><br><strong>Exemplu:</strong> dialogul profesor–elev.</span></span>",
+          "<span class='tip'><strong>Comunicarea este un proces pur tehnic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prea îngust.<br><br><strong>Formulare academică:</strong> definiția lui Wiener pune accent pe schimb.<br><br><strong>Exemplu:</strong> schimb de idei, nu doar semnale.</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar exprimare individuală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul vorbește despre schimb.<br><br><strong>Formulare academică:</strong> schimb implică cel puțin doi parteneri.<br><br><strong>Exemplu:</strong> interacțiune.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce arată <span class='tip'><strong>evoluția concepțiilor despre comunicare</strong><span class='tooltip-box'>Progresarea domeniului presupune trecerea de la modele simple la unele complexe și interactive.</span></span> de la modelele informaționale la cele interacționale?",
+        text: "Selectează elementele incluse în definiția comunicării la <span class='tip'><strong>Hybels & Weaver</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este un act cu mesaje, zgomot, context, efect și feedback.<br><br><strong>Formulare academică:</strong> „comunicarea se referă la actul uneia sau al mai multor persoane ce trimit şi primesc mesaje distorsionate de zgomot, act care se petrece într-un context, are un efect şi furnizează ocazia unui feed-back.”<br><br><strong>Exemplu:</strong> un mesaj ajunge, este interpretat și primește răspuns.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Receptorul devine participant activ</strong><span class='tooltip-box'>Receptorul nu doar primește mesajul, ci îl interpretează și îl influențează prin feedback.</span></span>",
-          "<span class='tip'><strong>Accentul se mută pe relație</strong><span class='tooltip-box'>Sensul este construit în relație, nu doar transmis ca informație.</span></span>",
-          "<span class='tip'><strong>Comunicarea este redusă la cod</strong><span class='tooltip-box'>Model specific abordărilor strict tehnice.</span></span>",
-          "<span class='tip'><strong>Interacțiunea generează influență reciprocă</strong><span class='tooltip-box'>Fiecare intervenție modifică contextul relațional.</span></span>",
+          "<span class='tip'><strong>Trimit și primesc mesaje</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e bidirecțională.<br><br><strong>Formulare academică:</strong> „actul uneia sau al mai multor persoane ce trimit şi primesc mesaje”.<br><br><strong>Exemplu:</strong> întrebare – răspuns.</span></span>",
+          "<span class='tip'><strong>Zgomot (distorsiune)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ceva poate strica mesajul.<br><br><strong>Formulare academică:</strong> „mesaje distorsionate de zgomot”.<br><br><strong>Exemplu:</strong> bruiaj într-un apel.</span></span>",
+          "<span class='tip'><strong>Context</strong><span class='tooltip-box'><strong>Spus simplu:</strong> situația în care are loc mesajul.<br><br><strong>Formulare academică:</strong> „act care se petrece într-un context”.<br><br><strong>Exemplu:</strong> la clasă vs. în pauză.</span></span>",
+          "<span class='tip'><strong>Efect</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul produce un rezultat.<br><br><strong>Formulare academică:</strong> „are un efect”.<br><br><strong>Exemplu:</strong> schimbă o opinie.</span></span>",
+          "<span class='tip'><strong>Feedback</strong><span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul la mesaj.<br><br><strong>Formulare academică:</strong> „furnizează ocazia unui feed-back”.<br><br><strong>Exemplu:</strong> confirmare sau clarificare.</span></span>",
+          "<span class='tip'><strong>Excluderea contextului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este exact contrariul definiției.<br><br><strong>Formulare academică:</strong> contextul este inclus explicit.<br><br><strong>Exemplu:</strong> sensul depinde de situație.</span></span>",
         ],
-        answer: [0, 1, 3],
+        answer: [0, 1, 2, 3, 4],
       },
       {
-        text: "În ce sens comunicarea este definită ca <span class='tip'><strong>proces de schimb și influență</strong><span class='tooltip-box'>Definiție sintetică ce reunește informația, relația și efectele asupra partenerilor.</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Schimb de mesaje cu efect asupra comportamentului</strong><span class='tooltip-box'>Comunicarea produce reacții, ajustări și repoziționări relaționale.</span></span>",
-          "<span class='tip'><strong>Transmitere liniară de informații</strong><span class='tooltip-box'>Model depășit, specific paradigmelor inițiale.</span></span>",
-          "<span class='tip'><strong>Codificare fără feedback</strong><span class='tooltip-box'>Exclude dimensiunea interacțională.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Care afirmații exprimă corect <span class='tip'><strong>direcțiile de progres ale domeniului comunicării</strong><span class='tooltip-box'>Se referă la modul în care teoriile se rafinează și se extind.</span></span>?",
+        text: "Ce subliniază cercetările despre <span class='tip'><strong>comunicarea interpersonală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este cooperare, influență și participare activă.<br><br><strong>Formulare academică:</strong> „cei angajaţi într-un asemenea schimb ... se simt angajaţi ... într-o activitate de cooperare verbală (principiul reciprocităţii) ... orice schimb comunicativ ... este purtător de influenţă (principiul influenţei).”<br><br><strong>Exemplu:</strong> dialogul devine o cooperare verbală, iar fiecare intervenție îl influențează pe celălalt.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Integrarea contextului social și cultural</strong><span class='tooltip-box'>Comunicarea este analizată în contexte concrete de viață.</span></span>",
-          "<span class='tip'><strong>Recunoașterea rolului relației</strong><span class='tooltip-box'>Relația structurează sensul conținutului.</span></span>",
-          "<span class='tip'><strong>Excluderea nonverbalului</strong><span class='tooltip-box'>Contrazice axioma digital analogic.</span></span>",
-          "<span class='tip'><strong>Accent pe interacțiune și feedback</strong><span class='tooltip-box'>Schimbul este dinamic și circular.</span></span>",
+          "<span class='tip'><strong>Principiul reciprocității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare îl sprijină pe celălalt în dialog.<br><br><strong>Formulare academică:</strong> enunțul fiecăruia găsește sprijin în enunțul celuilalt, ca activitate de cooperare verbală.<br><br><strong>Exemplu:</strong> răspunzi și continui ideea celuilalt.</span></span>",
+          "<span class='tip'><strong>Interacțiune verbală dinamică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schimbul are multe intervenții personale.<br><br><strong>Formulare academică:</strong> fiecare schimb devine o interacţiune verbală dinamică.<br><br><strong>Exemplu:</strong> discuție cu replici scurte și dese.</span></span>",
+          "<span class='tip'><strong>Principiul influenței</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice intervenție are impact asupra celuilalt.<br><br><strong>Formulare academică:</strong> orice intervenţie comunicativă este purtătoare de influenţă.<br><br><strong>Exemplu:</strong> tonul schimbă reacția.</span></span>",
+          "<span class='tip'><strong>Receptor pasiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> se abandonează ideea de receptor pasiv, în favoarea partenerului activ.<br><br><strong>Exemplu:</strong> feedback constant.</span></span>",
         ],
-        answer: [0, 1, 3],
+        answer: [0, 1, 2],
       },
     ],
   },
   {
     id: "pedcom-1-4-q4",
-    title:
-      "Comunicarea ca domeniu: concluzionare și progresare conceptuală (2)",
+    title: "Dificultatea definirii comunicării și tipuri de definiții",
     questions: [
       {
-        text: "De ce este <span class='tip'><strong>dificilă definirea comunicării</strong><span class='tooltip-box'>Comunicarea este abordată din perspective diferite (psihologică, sociologică, informațională, educațională), fiecare accentuând alte componente ale procesului.</span></span>?",
+        text: "De ce este <span class='tip'><strong>dificilă definirea comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e privită din multe unghiuri.<br><br><strong>Formulare academică:</strong> „Dificultatea definirii comunicării este dată şi de diversitatea unghiurilor de vedere sub care aceasta este privită... vasta întindere a conceptului... ridică probleme.”<br><br><strong>Exemplu:</strong> unii autori accentuează percepția, alții interacțiunea.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Diversitatea perspectivelor</strong><span class='tooltip-box'>Autori diferiți pun accent pe percepție, interacțiune, intenție, influență sau proces.</span></span>",
-          "<span class='tip'><strong>Complexitatea procesului</strong><span class='tooltip-box'>Comunicarea implică simultan conținut, relație, context, intenție și feedback.</span></span>",
-          "<span class='tip'><strong>Există o definiție unanim acceptată</strong><span class='tooltip-box'>În realitate nu există o definiție unică, exhaustivă.</span></span>",
-          "<span class='tip'><strong>Caracterul interdisciplinar</strong><span class='tooltip-box'>Biologia, sociologia, psihologia, educația și științele informației folosesc conceptul diferit.</span></span>",
+          "<span class='tip'><strong>Diversitatea unghiurilor de vedere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare autor vede altceva important.<br><br><strong>Formulare academică:</strong> „diversitatea unghiurilor de vedere sub care aceasta este privită”.<br><br><strong>Exemplu:</strong> psihologic vs. sociologic.</span></span>",
+          "<span class='tip'><strong>Vasta întindere a conceptului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea cuprinde multe situații și forme.<br><br><strong>Formulare academică:</strong> „tocmai vasta întindere a conceptului ... ridică probleme”.<br><br><strong>Exemplu:</strong> comunicare în familie, școală, comunitate.</span></span>",
+          "<span class='tip'><strong>Delimitările terminologice sunt complexe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> termenii sunt greu de fixat.<br><br><strong>Formulare academică:</strong> „delimitările terminologice ... proces destul de complex şi de laborios”.<br><br><strong>Exemplu:</strong> definiții diferite pentru același termen.</span></span>",
+          "<span class='tip'><strong>Există o definiție unică și exhaustivă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> „Nici una din multele definiţii ... nu epuizează semantic conceptul.”<br><br><strong>Exemplu:</strong> definițiile sunt complementare.</span></span>",
         ],
-        answer: [0, 1, 3],
+        answer: [0, 1, 2],
       },
       {
-        text: "Ce idee centrală susține <span class='tip'><strong>Școala de la Palo Alto</strong><span class='tooltip-box'>Această școală consideră comunicarea și comportamentul ca fiind inseparabile, orice comportament având valoare comunicativă.</span></span>?",
+        text: "Ce subliniază <span class='tip'><strong>Gordon</strong><span class='tooltip-box'><strong>Spus simplu:</strong> trăsăturile oamenilor schimbă felul în care primesc mesajele.<br><br><strong>Formulare academică:</strong> „percepţia, atribuirea, motivaţia, personalitatea precum şi dezvoltarea fiecăruia dintre comunicatori influenţează modul în care o persoană receptează informaţia transmisă către alta.”<br><br><strong>Exemplu:</strong> același mesaj e perceput diferit de persoane diferite.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Nu se poate să nu comunicăm</strong><span class='tooltip-box'>Orice comportament transmite informație și generează interacțiune.</span></span>",
-          "<span class='tip'><strong>Doar mesajele intenționate sunt comunicare</strong><span class='tooltip-box'>Aceasta este poziția semiologică, nu a Palo Alto.</span></span>",
-          "<span class='tip'><strong>Comunicarea este doar transmitere de informații</strong><span class='tooltip-box'>Viziune restrictivă, depășită.</span></span>",
+          "<span class='tip'><strong>Percepția, atribuirea, motivația și personalitatea influențează recepția</strong><span class='tooltip-box'><strong>Spus simplu:</strong> oamenii interpretează diferit mesajele.<br><br><strong>Formulare academică:</strong> „percepţia, atribuirea, motivaţia, personalitatea ... influenţează modul în care o persoană receptează informaţia”.<br><br><strong>Exemplu:</strong> o critică poate fi văzută ca ajutor sau atac.</span></span>",
+          "<span class='tip'><strong>Recepția mesajului este identică la toți</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> variabilele individuale influențează recepția.<br><br><strong>Exemplu:</strong> diferențe de motivație.</span></span>",
+          "<span class='tip'><strong>Doar contextul tehnic contează</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul introduce factori personali.<br><br><strong>Formulare academică:</strong> recepția depinde de persoană, nu doar de canal.<br><br><strong>Exemplu:</strong> interpretarea mesajului.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Cum este înțeleasă comunicarea în abordările contemporane ca <span class='tip'><strong>proces interacțional</strong><span class='tooltip-box'>Accentul cade pe relație, influență reciprocă și cooperare verbală.</span></span>?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Schimb reciproc</strong><span class='tooltip-box'>Participanții sunt activi și se influențează permanent.</span></span>",
-          "<span class='tip'><strong>Construcție de sens</strong><span class='tooltip-box'>Semnificația se creează în interacțiune, nu este doar transmisă.</span></span>",
-          "<span class='tip'><strong>Receptor pasiv</strong><span class='tooltip-box'>Această idee este abandonată în teoriile moderne.</span></span>",
-          "<span class='tip'><strong>Influență și feedback</strong><span class='tooltip-box'>Fiecare intervenție produce efecte asupra celuilalt.</span></span>",
-        ],
-        answer: [0, 1, 3],
-      },
-      {
-        text: "Ce arată <span class='tip'><strong>multiplicarea definițiilor comunicării</strong><span class='tooltip-box'>Diferite definiții pun accent pe simboluri, proces, relație, intenție sau putere.</span></span>?",
+        text: "Cum definesc Roberts și Hunt <span class='tip'><strong>comunicarea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea înseamnă să obții, să transmiți și să dai sens informației.<br><br><strong>Formulare academică:</strong> „comunicarea este dobândirea, transmiterea şi ataşarea unui înţeles informaţiei”.<br><br><strong>Exemplu:</strong> vezi o informație, o explici și o interpretezi.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Caracterul complementar al definițiilor</strong><span class='tooltip-box'>Nicio definiție nu epuizează conceptul, fiecare surprinde o fațetă.</span></span>",
-          "<span class='tip'><strong>Inutilitatea definirii comunicării</strong><span class='tooltip-box'>Dimpotrivă, definițiile ajută la clarificare teoretică.</span></span>",
-          "<span class='tip'><strong>Existența unei confuzii totale</strong><span class='tooltip-box'>Diversitatea nu înseamnă lipsă de rigoare.</span></span>",
+          "<span class='tip'><strong>Dobândirea, transmiterea și atașarea unui înțeles informației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cauți, trimiți și interpretezi.<br><br><strong>Formulare academică:</strong> „dobândirea, transmiterea şi ataşarea unui înţeles informaţiei”.<br><br><strong>Exemplu:</strong> o informație capătă sens în comunicare.</span></span>",
+          "<span class='tip'><strong>Transmitere fără sens</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul pune accent pe înțeles.<br><br><strong>Formulare academică:</strong> definirea include atașarea unui înțeles.<br><br><strong>Exemplu:</strong> sensul e esențial.</span></span>",
+          "<span class='tip'><strong>Comunicarea exclude obținerea informației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul include obținerea ca element precomunicațional.<br><br><strong>Formulare academică:</strong> obținerea informației este introdusă în procesul comunicării.<br><br><strong>Exemplu:</strong> căutarea informației precede transmiterea.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care afirmații surprind <span class='tip'><strong>direcțiile de progres ale domeniului comunicării</strong><span class='tooltip-box'>Evoluția teoriei comunicării reflectă schimbări sociale, tehnologice și educaționale.</span></span>?",
+        text: "Ce precizează alți autori despre <span class='tip'><strong>ce se transmite în comunicare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea include opinii, predicții, sugestii și idei.<br><br><strong>Formulare academică:</strong> „opinii, predicţii, sugestii, idei toate sunt cuprinse în comunicare.”<br><br><strong>Exemplu:</strong> o sugestie poate schimba o decizie.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Trecerea de la transmitere la interacțiune</strong><span class='tooltip-box'>Comunicarea este văzută ca relație și cooperare.</span></span>",
-          "<span class='tip'><strong>Accent pe influență și context</strong><span class='tooltip-box'>Mesajele sunt analizate prin efectele și condițiile lor.</span></span>",
-          "<span class='tip'><strong>Reducerea comunicării la limbaj verbal</strong><span class='tooltip-box'>Teoriile moderne includ nonverbalul și analogicul.</span></span>",
-          "<span class='tip'><strong>Integrarea comunicării în educație</strong><span class='tooltip-box'>Învățarea este privită ca proces comunicativ fundamental.</span></span>",
+          "<span class='tip'><strong>Opinii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> păreri personale.<br><br><strong>Formulare academică:</strong> opiniile sunt parte a comunicării.<br><br><strong>Exemplu:</strong> „Cred că e mai bine așa.”</span></span>",
+          "<span class='tip'><strong>Predicții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> anticipări ale viitorului.<br><br><strong>Formulare academică:</strong> predicțiile fac parte din comunicare.<br><br><strong>Exemplu:</strong> „Probabil va ploua.”</span></span>",
+          "<span class='tip'><strong>Sugestii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> recomandări.<br><br><strong>Formulare academică:</strong> sugestiile sunt incluse în comunicare.<br><br><strong>Exemplu:</strong> „Ar fi bine să încerci...”</span></span>",
+          "<span class='tip'><strong>Idei</strong><span class='tooltip-box'><strong>Spus simplu:</strong> concepții sau planuri.<br><br><strong>Formulare academică:</strong> ideile sunt transmise în comunicare.<br><br><strong>Exemplu:</strong> „Am o idee pentru proiect.”</span></span>",
+          "<span class='tip'><strong>Exclusiv date brute</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul enumeră mai mult decât date brute.<br><br><strong>Formulare academică:</strong> comunicarea include opinii, sugestii și idei.<br><br><strong>Exemplu:</strong> nu e doar statistică.</span></span>",
         ],
-        answer: [0, 1, 3],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce include Luthans în <span class='tip'><strong>inventarul comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> Luthans pune împreună tipuri, direcții, medii și nivele ale comunicării.<br><br><strong>Formulare academică:</strong> inventarul acoperă comunicarea verticală, orizontală, laterală; orală/scrisă; ascultare/citire; metode, medii, moduri, canale, reţele, fluxuri; interpersonală, intrapersonală, interorganizaţională.<br><br><strong>Exemplu:</strong> comunicare verticală într-o instituție.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Verticală, orizontală, laterală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> direcții ale comunicării în organizații.<br><br><strong>Formulare academică:</strong> „comunicare verticală, orizontală, laterală”.<br><br><strong>Exemplu:</strong> manager → angajat.</span></span>",
+          "<span class='tip'><strong>Orală, scrisă, ascultare, citire</strong><span class='tooltip-box'><strong>Spus simplu:</strong> forme și procese ale comunicării.<br><br><strong>Formulare academică:</strong> „orală, scrisă, ascultare, citire”.<br><br><strong>Exemplu:</strong> anunț scris vs. explicat oral.</span></span>",
+          "<span class='tip'><strong>Metode, medii, moduri, canale, rețele, fluxuri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum circulă informația.<br><br><strong>Formulare academică:</strong> „metode, medii, moduri, canale, reţele, fluxuri informaţionale”.<br><br><strong>Exemplu:</strong> email, platformă, grupuri.</span></span>",
+          "<span class='tip'><strong>Interpersonală, intrapersonală, interorganizațională</strong><span class='tooltip-box'><strong>Spus simplu:</strong> niveluri ale comunicării.<br><br><strong>Formulare academică:</strong> „interpersonal, intrapersonal, interorganizațional”.<br><br><strong>Exemplu:</strong> dialog cu sine vs. dialog cu altă instituție.</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar verbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> inventarul e mult mai larg.<br><br><strong>Formulare academică:</strong> include și canale, rețele și forme scrise.<br><br><strong>Exemplu:</strong> comunicare scrisă.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce au făcut Dance și Larson în legătură cu <span class='tip'><strong>definițiile comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> au strâns 126 definiții și le-au clasificat în 15 tipuri.<br><br><strong>Formulare academică:</strong> au adunat 126 de formulări reprezentative și le-au clasificat în 15 tipuri de definiții.<br><br><strong>Exemplu:</strong> tipuri precum „simboluri”, „proces”, „putere”.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Au clasificat 126 definiții în 15 tipuri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> multe definiții, împărțite pe categorii.<br><br><strong>Formulare academică:</strong> „126 de formulări... clasificate în 15 tipuri”.<br><br><strong>Exemplu:</strong> comunicarea ca proces, transfer, putere.</span></span>",
+          "<span class='tip'><strong>Au propus o singură definiție oficială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> textul spune contrariul.<br><br><strong>Formulare academică:</strong> au adunat multe definiții, nu una singură.<br><br><strong>Exemplu:</strong> 126 de formulări.</span></span>",
+          "<span class='tip'><strong>Au eliminat clasificarea definițiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> au clasificat, nu au eliminat.<br><br><strong>Formulare academică:</strong> există 15 tipuri distincte.<br><br><strong>Exemplu:</strong> tipuri de definiții.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Selectează tipurile de definiții (1/2) din clasificarea Dance & Larson <span class='tip'><strong>(simboluri → legătură)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> primele tipuri pun accent pe limbaj, înțelegere și relație.<br><br><strong>Formulare academică:</strong> tipurile includ simboluri, înţelegere, interacţiune, reducerea incertitudinii, proces, transfer, legătură.<br><br><strong>Exemplu:</strong> comunicarea ca „transfer”.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Simboluri, vorbire, limbaj</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca limbaj și semne.<br><br><strong>Formulare academică:</strong> tipul „simboluri, vorbire, limbaj”.<br><br><strong>Exemplu:</strong> cuvinte și semne.</span></span>",
+          "<span class='tip'><strong>Înţelegere (receptare, nu transmitere)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> accentul e pe înțelegere.<br><br><strong>Formulare academică:</strong> „înţelegere – receptarea, nu transmiterea mesajului”.<br><br><strong>Exemplu:</strong> contează ce înțelegi.</span></span>",
+          "<span class='tip'><strong>Interacţiune, relaţie</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca schimb activ.<br><br><strong>Formulare academică:</strong> „interacţiune, relaţie – schimbul activ şi coerent”.<br><br><strong>Exemplu:</strong> dialog real.</span></span>",
+          "<span class='tip'><strong>Reducerea incertitudinii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> căutăm informații ca să ne adaptăm.<br><br><strong>Formulare academică:</strong> „reducerea incertitudinii... căutarea de informaţii”.<br><br><strong>Exemplu:</strong> întrebi ca să nu greșești.</span></span>",
+          "<span class='tip'><strong>Procesul (întreaga secvenţă a transmiterii)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca proces complet.<br><br><strong>Formulare academică:</strong> „procesul – întreaga secvenţă a transmiterii”.<br><br><strong>Exemplu:</strong> de la emitere la recepție.</span></span>",
+          "<span class='tip'><strong>Transfer, transmitere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mișcare în spațiu sau timp.<br><br><strong>Formulare academică:</strong> „transfer – transmitere – mişcare în spaţiu sau timp”.<br><br><strong>Exemplu:</strong> trimiterea unei scrisori.</span></span>",
+          "<span class='tip'><strong>Legătură, unire</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca „legare” între oameni.<br><br><strong>Formulare academică:</strong> „legătură, unire – comunicarea ca conector”.<br><br><strong>Exemplu:</strong> creează relații.</span></span>",
+          "<span class='tip'><strong>Putere (mijloc de influenţă)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare în partea 2.<br><br><strong>Formulare academică:</strong> „putere – comunicarea văzută ca mijloc de influenţă”.<br><br><strong>Exemplu:</strong> persuasiune.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5, 6],
+      },
+      {
+        text: "Selectează tipurile de definiții (2/2) din clasificarea Dance & Larson <span class='tip'><strong>(trăsături comune → putere)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceste tipuri accentuează canalul, memoria, intenția și puterea.<br><br><strong>Formulare academică:</strong> tipurile includ trăsături comune, canal, memorie, răspuns discriminatoriu, stimuli, intenţie, momente/situaţii, putere.<br><br><strong>Exemplu:</strong> comunicarea spune și „cu ce scop”.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Trăsături comune</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce e împărtășit de ambele părți.<br><br><strong>Formulare academică:</strong> „trăsături comune – amplificarea a ceea ce este împărtăşit”.<br><br><strong>Exemplu:</strong> valori comune.</span></span>",
+          "<span class='tip'><strong>Canal, purtător, rută</strong><span class='tooltip-box'><strong>Spus simplu:</strong> drumul mesajului.<br><br><strong>Formulare academică:</strong> „canal, purtător, rută – calea/ vehiculul”.<br><br><strong>Exemplu:</strong> telefon, email.</span></span>",
+          "<span class='tip'><strong>Memorie, stocare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea duce la acumulare de informații.<br><br><strong>Formulare academică:</strong> „memorie, stocare – comunicarea duce la acumularea de informaţii”.<br><br><strong>Exemplu:</strong> arhive, baze de date.</span></span>",
+          "<span class='tip'><strong>Răspuns discriminatoriu</strong><span class='tooltip-box'><strong>Spus simplu:</strong> atenție selectivă și interpretare.<br><br><strong>Formulare academică:</strong> „răspuns discriminatoriu – acordarea selectivă de atenţie”.<br><br><strong>Exemplu:</strong> auzi doar ce te interesează.</span></span>",
+          "<span class='tip'><strong>Stimulii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul ca declanșator al reacției.<br><br><strong>Formulare academică:</strong> „stimulii – mesajul ca cauză a răspunsului”.<br><br><strong>Exemplu:</strong> un sunet provoacă reacție.</span></span>",
+          "<span class='tip'><strong>Intenţie</strong><span class='tooltip-box'><strong>Spus simplu:</strong> actele comunicării au scop.<br><br><strong>Formulare academică:</strong> „intenţie – accentuează faptul că actele comunicării au un scop”.<br><br><strong>Exemplu:</strong> convingere.</span></span>",
+          "<span class='tip'><strong>Momente şi situaţii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul contează.<br><br><strong>Formulare academică:</strong> „momente şi situaţii – acordarea de atenţie contextului”.<br><br><strong>Exemplu:</strong> mesaj diferit la clasă vs. acasă.</span></span>",
+          "<span class='tip'><strong>Putere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca influență.<br><br><strong>Formulare academică:</strong> „putere – comunicarea văzută ca mijloc de influenţă”.<br><br><strong>Exemplu:</strong> persuasiune socială.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5, 6, 7],
       },
     ],
   },
@@ -969,43 +1071,43 @@ window.PEDCOM_QUIZ = [
     title: "Introducere în modelele și teoriile comunicării",
     questions: [
       {
-        text: "Care este ideea de bază a demersului prezentat în introducerea la <span class='tip'><strong>modelele și teoriile comunicării</strong><span class='tooltip-box'>Secțiunea introduce necesitatea raportării la teorii diferite pentru a înțelege complexitatea procesului comunicării, fără pretenția de a le epuiza pe toate.</span></span>?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Comunicarea este un proces complex</strong>, care trebuie analizat din perspective teoretice diferite<span class='tooltip-box'>Textul subliniază că analiza comunicării presupune raportarea la teorii diverse, componente multiple și factori determinanți.</span></span>",
-          "<span class='tip'><strong>Există o singură teorie corectă</strong> a comunicării<span class='tooltip-box'>Contrazice explicit ideea pluralității abordărilor teoretice.</span></span>",
-          "<span class='tip'><strong>Modelele comunicării sunt exhaustive</strong> și definitive<span class='tooltip-box'>Textul precizează clar lipsa pretenției de exhaustivitate.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "De ce este necesară raportarea la <span class='tip'><strong>modele și teorii ale comunicării</strong><span class='tooltip-box'>Modelele și teoriile oferă cadre conceptuale care ajută la înțelegerea funcțiilor, componentelor și mecanismelor comunicării.</span></span>?",
+        text: "De ce este necesară raportarea la <span class='tip'><strong>modele și teorii ale comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e complexă și ai nevoie de mai multe unghiuri ca s-o înțelegi.<br><br><strong>Formulare academică:</strong> analiza aprofundată a comunicării presupune raportarea la teorii diferite, la funcții, componente și factori determinanți ai unui proces deosebit de complex.<br><br><strong>Exemplu:</strong> un mesaj de la profesor nu înseamnă același lucru într-o clasă prietenoasă ca într-una tensionată.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Pentru a înțelege funcțiile comunicării</strong><span class='tooltip-box'>Analiza funcțiilor este imposibilă fără raportarea la teorii.</span></span>",
-          "<span class='tip'><strong>Pentru a analiza componentele procesului comunicării</strong><span class='tooltip-box'>Modelele evidențiază sursa, mesajul, canalul, receptorul etc.</span></span>",
-          "<span class='tip'><strong>Pentru a identifica factorii determinanți</strong> ai comunicării<span class='tooltip-box'>Textul menționează explicit factorii determinanți ai procesului comunicațional.</span></span>",
-          "<span class='tip'><strong>Pentru a elimina complexitatea comunicării</strong><span class='tooltip-box'>Modelele nu elimină complexitatea, ci o fac inteligibilă.</span></span>",
+          "<span class='tip'><strong>Clarifică funcțiile comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi ce rol are mesajul (informare, influențare, relație).<br><br><strong>Formulare academică:</strong> teoriile explică funcțiile comunicării și felul în care acestea se ierarhizează în situații concrete.<br><br><strong>Exemplu:</strong> un anunț este mai mult informativ decât expresiv.</span></span>",
+          "<span class='tip'><strong>Descrie componentele procesului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vezi cine transmite, ce transmite și prin ce mijloc.<br><br><strong>Formulare academică:</strong> modelele detaliază componente precum sursa, mesajul, canalul și receptorul, plus relația dintre ele.<br><br><strong>Exemplu:</strong> o prezentare la clasă are emițător, mesaj și canal.</span></span>",
+          "<span class='tip'><strong>Identifică factorii determinanți</strong><span class='tooltip-box'><strong>Spus simplu:</strong> afli ce influențează comunicarea.<br><br><strong>Formulare academică:</strong> sunt analizate condiții și factori care modelează comunicarea în contexte diferite.<br><br><strong>Exemplu:</strong> statutul profesor–elev schimbă felul în care se receptează mesajul.</span></span>",
+          "<span class='tip'><strong>Elimină complet complexitatea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, modelele ajută să înțelegi, nu să „șteargă” complexitatea.<br><br><strong>Formulare academică:</strong> comunicarea rămâne un proces complex, chiar dacă este organizat conceptual.<br><br><strong>Exemplu:</strong> același mesaj poate genera interpretări diferite.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Cum este caracterizat procesul comunicării în această introducere?",
+        text: "Ce precizează autorii despre <span class='tip'><strong>prezentarea modelelor?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu vor să prezinte toate modelele, doar câteva esențiale.<br><br><strong>Formulare academică:</strong> prezentarea este scurtă și fără pretenția de a epuiza multitudinea abordărilor în cercetarea comunicării.<br><br><strong>Exemplu:</strong> sunt alese modele reprezentative, nu toate variantele posibile.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Ca proces deosebit de complex</strong><span class='tooltip-box'>Este formularea explicită din text.</span></span>",
-          "<span class='tip'><strong>Ca act mecanic și liniar</strong><span class='tooltip-box'>Această viziune aparține doar primilor teoreticieni, nu este poziția generală.</span></span>",
-          "<span class='tip'><strong>Ca fenomen secundar în viața socială</strong><span class='tooltip-box'>Contrazice accentul pus pe importanța comunicării.</span></span>",
+          "<span class='tip'><strong>Nu este exhaustivă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e o selecție orientativă, nu o listă completă.<br><br><strong>Formulare academică:</strong> autorii oferă un referențial conceptual, nu o sistematizare totală.<br><br><strong>Exemplu:</strong> se prezintă modele cheie, nu toate teoriile existente.</span></span>",
+          "<span class='tip'><strong>Include toate teoriile existente</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, tocmai asta se neagă în text.<br><br><strong>Formulare academică:</strong> multitudinea abordărilor nu poate fi epuizată într-un singur demers.<br><br><strong>Exemplu:</strong> unele școli teoretice sunt doar menționate indirect.</span></span>",
+          "<span class='tip'><strong>Elimină modelele vechi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, modelele vechi sunt prezentate ca punct de plecare.<br><br><strong>Formulare academică:</strong> modelele timpurii sunt analizate ca bază conceptuală.<br><br><strong>Exemplu:</strong> Shannon–Weaver apare ca model tehnic inițial.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Cum este descrisă perspectiva <span class='tip'><strong>primilor teoreticieni ai comunicării</strong><span class='tooltip-box'>Primele modele aveau o viziune simplificată asupra comunicării.</span></span>?",
+        text: "Cum este caracterizat <span class='tip'><strong>procesul comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e un proces foarte complicat, cu multe părți care se influențează între ele.<br><br><strong>Formulare academică:</strong> comunicarea este descrisă ca un proces deosebit de complex, care implică funcții, componente și factori determinanți.<br><br><strong>Exemplu:</strong> într-o discuție contează ce spui, cum spui și contextul.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Transfer de informație</strong> între o sursă și un receptor<span class='tooltip-box'>Aceasta este formularea exactă din text.</span></span>",
-          "<span class='tip'><strong>Schimb simbolic complex</strong> cu negociere de sens<span class='tooltip-box'>Această perspectivă apare în teorii ulterioare.</span></span>",
-          "<span class='tip'><strong>Interacțiune socio-afectivă predominantă</strong><span class='tooltip-box'>Nu caracterizează primele teorii.</span></span>",
+          "<span class='tip'><strong>Proces deosebit de complex</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este un simplu „trimis de mesaj”.<br><br><strong>Formulare academică:</strong> complexitatea rezultă din interacțiunea componentelor și a contextelor.<br><br><strong>Exemplu:</strong> aceeași frază are sens diferit în situații diferite.</span></span>",
+          "<span class='tip'><strong>Proces simplu și liniar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu este doar un traseu drept.<br><br><strong>Formulare academică:</strong> reducerea la linearitate ignoră feedback-ul și contextul.<br><br><strong>Exemplu:</strong> reacțiile schimbă conversația.</span></span>",
+          "<span class='tip'><strong>Proces exclusiv tehnic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e doar despre semnale.<br><br><strong>Formulare academică:</strong> există dimensiuni psihologice, sociale și culturale relevante.<br><br><strong>Exemplu:</strong> tonul schimbă sensul mesajului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum priveau <span class='tip'><strong>primii teoreticieni comunicarea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea era văzută ca un transfer de informație.<br><br><strong>Formulare academică:</strong> pentru primii teoreticieni, comunicarea se limita la transferul de informație între o sursă și un receptor.<br><br><strong>Exemplu:</strong> mesajul pleacă de la A și ajunge la B.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Transfer de informație între sursă și receptor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> accent pe transmitere, nu pe sensul construit împreună.<br><br><strong>Formulare academică:</strong> viziunea inițială este liniară și orientată spre transfer.<br><br><strong>Exemplu:</strong> un mesaj transmis printr-un canal tehnic.</span></span>",
+          "<span class='tip'><strong>Negociere complexă de semnificații</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta apare în teorii ulterioare.<br><br><strong>Formulare academică:</strong> perspectiva interacțională este ulterioară modelelor tehnice.<br><br><strong>Exemplu:</strong> dialogul în care clarifici sensul cu celălalt.</span></span>",
+          "<span class='tip'><strong>Comunicare exclusiv emoțională</strong><span class='tooltip-box'><strong>Spus simplu:</strong> emoțiile există, dar nu definesc singure comunicarea.<br><br><strong>Formulare academică:</strong> reducerea la emoții nu corespunde modelelor inițiale.<br><br><strong>Exemplu:</strong> o știre informativă nu e emoțională.</span></span>",
         ],
         answer: 0,
       },
@@ -1013,57 +1115,55 @@ window.PEDCOM_QUIZ = [
   },
   {
     id: "pedcom-1-5-q1",
-    title: "Modele tehnice ale comunicării. Modelul lui Shannon și Weaver",
+    title: "Modelul tehnic al comunicării: Shannon și Weaver",
     questions: [
       {
-        text: "În modelul lui <span class='tip'><strong>Shannon și Weaver</strong><span class='tooltip-box'>Modelul Shannon și Weaver, formulat în 1949, provine din domeniul telecomunicațiilor și tratează comunicarea ca transfer de semnale între o sursă și un destinatar.</span></span>, cum este definită comunicarea?",
+        text: "Cum este definită comunicarea în <span class='tip'><strong>modelul Shannon și Weaver?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul pleacă de la o sursă și ajunge la destinatar ca semnal.<br><br><strong>Formulare academică:</strong> comunicarea este prezentată ca un transfer de mesaj de la o sursă către un destinatar sub forma unor semnale, codate de emițător și decodate de receptor, afectate posibil de zgomote pe canal.<br><br><strong>Exemplu:</strong> un mesaj telefonic poate fi distorsionat de semnal slab.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Transfer de informație de la o sursă la un destinatar</strong><span class='tooltip-box'>Accentul cade pe transmiterea mesajului prin canal, nu pe sens sau relație.</span></span>",
-          "<span class='tip'><strong>Negociere de semnificații între parteneri</strong><span class='tooltip-box'>Aceasta este o perspectivă interacțională, nu tehnică.</span></span>",
-          "<span class='tip'><strong>Construcție simbolică dependentă de context social</strong><span class='tooltip-box'>Această abordare apare în teoriile socio culturale.</span></span>",
+          "<span class='tip'><strong>Transfer de mesaj între sursă și destinatar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> accent pe transmitere corectă.<br><br><strong>Formulare academică:</strong> mesajul este codificat, transmis pe canal și decodificat la destinație.<br><br><strong>Exemplu:</strong> un e-mail trimis și citit.</span></span>",
+          "<span class='tip'><strong>Negociere de sens între parteneri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este o perspectivă interacțională, nu tehnică.<br><br><strong>Formulare academică:</strong> modelul tehnic nu analizează co-construcția sensului.<br><br><strong>Exemplu:</strong> o discuție în care redefiniți termenii.</span></span>",
+          "<span class='tip'><strong>Construirea relației sociale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este tema modelului tehnic.<br><br><strong>Formulare academică:</strong> relația socială este tratată în modele psihosociologice, nu aici.<br><br><strong>Exemplu:</strong> statutul profesor–elev nu este analizat.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care sunt <span class='tip'><strong>elementele centrale</strong><span class='tooltip-box'>Modelul este reprezentat schematic printr un lanț liniar de etape.</span></span> ale modelului Shannon și Weaver?",
+        text: "Pe ce își centrează Shannon și Weaver <span class='tip'><strong>analiza?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pe cod și canal, nu pe sensul mesajului.<br><br><strong>Formulare academică:</strong> preocupările se concentrează pe raporturile dintre cod și canalul de transmisie (codaj optim, reducerea zgomotului, maximizarea debitului de informație).<br><br><strong>Exemplu:</strong> cum transmiți un semnal clar într-o rețea zgomotoasă.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Sursă emitentă și destinatar</strong><span class='tooltip-box'>Comunicarea pornește de la sursă și se finalizează la destinatar.</span></span>",
-          "<span class='tip'><strong>Codare și decodare</strong><span class='tooltip-box'>Mesajul este transformat în semnal și apoi reconstruit.</span></span>",
-          "<span class='tip'><strong>Canal de transmitere</strong><span class='tooltip-box'>Canalul permite circulația semnalului.</span></span>",
-          "<span class='tip'><strong>Relație și metacomunicare</strong><span class='tooltip-box'>Acestea nu sunt incluse în modelul tehnic.</span></span>",
+          "<span class='tip'><strong>Codul și canalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum transformi mesajul în semnal și pe unde îl trimiți.<br><br><strong>Formulare academică:</strong> codul = setul de semnale, canalul = mijlocul de transmitere.<br><br><strong>Exemplu:</strong> limbajul folosit și mediul tehnic (telefon, internet).</span></span>",
+          "<span class='tip'><strong>Reducerea zgomotului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vrei să ajungă cât mai clar.<br><br><strong>Formulare academică:</strong> zgomotul este interferența ce poate distorsiona semnalul.<br><br><strong>Exemplu:</strong> bruiajul într-un apel.</span></span>",
+          "<span class='tip'><strong>Semnificația psihologică a mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e ignorată în modelul tehnic.<br><br><strong>Formulare academică:</strong> analiza rămâne sintactică, nu semantică (nu intră în sens).<br><br><strong>Exemplu:</strong> nu se discută emoțiile din spatele cuvintelor.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1],
       },
       {
-        text: "Ce rol joacă <span class='tip'><strong>zgomotul</strong><span class='tooltip-box'>Zgomotul reprezintă orice interferență care poate afecta transmiterea semnalului.</span></span> în modelul Shannon și Weaver?",
+        text: "Ce reprezintă <span class='tip'><strong>zgomotul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice lucru care strică mesajul pe drum.<br><br><strong>Formulare academică:</strong> zgomotul este interferența care poate distorsiona semnalul transmis pe canal.<br><br><strong>Exemplu:</strong> un microfon defect sau conexiune slabă.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Poate distorsiona mesajul transmis</strong><span class='tooltip-box'>Zgomotul afectează fidelitatea semnalului pe canal.</span></span>",
-          "<span class='tip'><strong>Conferă sens mesajului</strong><span class='tooltip-box'>Sensul nu este obiectivul principal al modelului.</span></span>",
-          "<span class='tip'><strong>Generează relația dintre interlocutori</strong><span class='tooltip-box'>Relația nu este analizată în acest model.</span></span>",
+          "<span class='tip'><strong>Interferență care distorsionează semnalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul ajunge „stricat”.<br><br><strong>Formulare academică:</strong> zgomotul modifică fidelitatea mesajului pe canal.<br><br><strong>Exemplu:</strong> paraziți sonori într-o transmisie.</span></span>",
+          "<span class='tip'><strong>Relația dintre parteneri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relația nu e analizată de modelul tehnic.<br><br><strong>Formulare academică:</strong> această dimensiune apare în modele psihosociologice.<br><br><strong>Exemplu:</strong> apropiat vs. necunoscut.</span></span>",
+          "<span class='tip'><strong>Codul comun al vorbitorilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codul nu e zgomot, e condiție pentru înțelegere.<br><br><strong>Formulare academică:</strong> codul este sistemul de semne folosit pentru codare/decodare.<br><br><strong>Exemplu:</strong> limba română.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care este <span class='tip'><strong>valoarea principală</strong><span class='tooltip-box'>Modelul are o mare influență asupra dezvoltării teoriilor comunicării.</span></span> a modelului Shannon și Weaver?",
+        text: "Care este <span class='tip'><strong>valoarea modelului Shannon–Weaver?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ajută să înțelegi clar traseul mesajului și distorsiunile.<br><br><strong>Formulare academică:</strong> modelul permite înțelegerea esenței comunicării și explică distorsiunea mesajului în procesul de recepție, ca urmare a acțiunii zgomotelor.<br><br><strong>Exemplu:</strong> poți explica de ce un mesaj ajunge alterat.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Clarifică procesul de transmitere a mesajului</strong><span class='tooltip-box'>Permite înțelegerea etapelor tehnice ale comunicării.</span></span>",
-          "<span class='tip'><strong>Explică distorsiunile apărute în comunicare</strong><span class='tooltip-box'>Zgomotul explică erorile de recepție.</span></span>",
-          "<span class='tip'><strong>Integrează dimensiunea psihologică și socială</strong><span class='tooltip-box'>Aceste dimensiuni sunt ignorate de model.</span></span>",
-          "<span class='tip'><strong>Oferă o schemă aplicabilă și în alte domenii</strong><span class='tooltip-box'>Modelul a fost extins din telecomunicații spre alte forme de comunicare.</span></span>",
+          "<span class='tip'><strong>Clarifică traseul comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vezi pașii emițător–canal–receptor.<br><br><strong>Formulare academică:</strong> schema tehnică evidențiază codarea, transmisia și decodarea.<br><br><strong>Exemplu:</strong> email trimis și citit.</span></span>",
+          "<span class='tip'><strong>Explică distorsiunile prin zgomot</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată cum se strică mesajul pe drum.<br><br><strong>Formulare academică:</strong> zgomotul explică erorile de recepție.<br><br><strong>Exemplu:</strong> mesajul se aude tăiat.</span></span>",
+          "<span class='tip'><strong>Include profund sensul mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, sensul este ignorat în acest model.<br><br><strong>Formulare academică:</strong> analiza este sintactică, nu semantică.<br><br><strong>Exemplu:</strong> nu explică ironia.</span></span>",
         ],
-        answer: [0, 1, 3],
+        answer: [0, 1],
       },
       {
-        text: "Care este <span class='tip'><strong>limita majoră</strong><span class='tooltip-box'>Criticile modelului vizează caracterul său reducționist.</span></span> a modelului Shannon și Weaver?",
+        text: "Care este <span class='tip'><strong>limita principală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> tratează oamenii ca entități abstracte, fără context social.<br><br><strong>Formulare academică:</strong> modelul ignoră aspectele psihologice și sociologice ale comunicării și rupe individul de mediul său social.<br><br><strong>Exemplu:</strong> nu explică de ce același mesaj este interpretat diferit de persoane diferite.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Ignoră sensul, contextul și dimensiunea relațională</strong><span class='tooltip-box'>Modelul tratează mesajul ca unitate tehnică, nu semantică.</span></span>",
-          "<span class='tip'><strong>Nu explică transmiterea semnalelor</strong><span class='tooltip-box'>Transmiterea este tocmai punctul său forte.</span></span>",
-          "<span class='tip'><strong>Exclude complet canalul de comunicare</strong><span class='tooltip-box'>Canalul este element central al modelului.</span></span>",
+          "<span class='tip'><strong>Ignoră contextul social și psihologic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu ține cont de norme, roluri, valori.<br><br><strong>Formulare academică:</strong> comunicarea este redusă la mecanism tehnic, fără mediul de apartenență.<br><br><strong>Exemplu:</strong> un elev timid interpretează altfel același mesaj.</span></span>",
+          "<span class='tip'><strong>Exclude canalul de comunicare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> canalul e element central aici.<br><br><strong>Formulare academică:</strong> fără canal nu există transmitere tehnică.<br><br><strong>Exemplu:</strong> vocea sau scrisul.</span></span>",
+          "<span class='tip'><strong>Elimină rolul emițătorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, emițătorul este punctul de plecare al modelului.<br><br><strong>Formulare academică:</strong> sursa este explicită în schemă.<br><br><strong>Exemplu:</strong> profesorul care inițiază mesajul.</span></span>",
         ],
         answer: 0,
       },
@@ -1074,46 +1174,63 @@ window.PEDCOM_QUIZ = [
     title: "Modelul comunicării la Harold D. Lasswell",
     questions: [
       {
-        text: "Modelul lui <span class='tip'><strong>Harold D. Lasswell</strong><span class='tooltip-box'>Lasswell este unul dintre primii teoreticieni ai comunicării în masă și propune analiza comunicării printr o succesiune de întrebări orientate spre influență și efect.</span></span> descrie actul comunicării printr o serie de întrebări fundamentale. Care este succesiunea corectă?",
+        text: "Care este succesiunea de întrebări din <span class='tip'><strong>modelul Lasswell?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cine spune ce, prin ce mijloc, cui și cu ce efect.<br><br><strong>Formulare academică:</strong> actul comunicării este descris prin întrebările: cine? spune ce? pe ce canal? cui? cu ce efect?.<br><br><strong>Exemplu:</strong> o campanie publică analizează cine transmite, mesajul, canalul, publicul și efectul.</span></span>",
         multiple: false,
         options: [
-          "Cine spune ce pe ce canal cui și cu ce efect",
-          "Cine codifică mesajul pe canal și primește feedback",
-          "Ce mesaj este transmis într un context social dat",
-          "Cum se construiește sensul prin negociere simbolică",
+          "<span class='tip'><strong>Cine? spune ce? pe ce canal? cui? cu ce efect?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acestea sunt cele 5 întrebări-cheie.<br><br><strong>Formulare academică:</strong> succesiunea descrie structura comunicării de masă la Lasswell.<br><br><strong>Exemplu:</strong> autor – mesaj – TV – public – impact.</span></span>",
+          "<span class='tip'><strong>Cine? cu ce cod? cu ce zgomot? către cine?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e apropiată de modelele tehnice, nu de Lasswell.<br><br><strong>Formulare academică:</strong> Lasswell nu folosește acest set de întrebări.<br><br><strong>Exemplu:</strong> zgomotul este specific modelului Shannon–Weaver.</span></span>",
+          "<span class='tip'><strong>Ce sens construim împreună? în ce relație?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta aparține teoriilor interacționale, nu lui Lasswell.<br><br><strong>Formulare academică:</strong> accentul lui Lasswell este pe influență și efect.<br><br><strong>Exemplu:</strong> persuasiune în comunicarea de masă.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "În modelul lui Lasswell componenta <span class='tip'><strong>„Cine?”</strong><span class='tooltip-box'>Componenta „Cine” vizează studiul sociologic al sursei sau al organismelor emitătoare din comunicarea de masă.</span></span> se referă în principal la:",
+        text: "La ce se referă componenta <span class='tip'><strong>„Cine?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cine trimite mesajul, din ce instituție sau mediu.<br><br><strong>Formulare academică:</strong> „Cine” corespunde studiului sociologic al mediilor și organismelor emițătoare.<br><br><strong>Exemplu:</strong> o televiziune, o instituție publică, un profesor.</span></span>",
         multiple: false,
         options: [
-          "Analiza mesajului și a conținutului său",
-          "Studiul audienței și al caracteristicilor publicului",
-          "Studiul mediilor și al canalelor tehnice",
-          "Studiul emițătorului și al instituțiilor care produc mesajul",
+          "<span class='tip'><strong>Studiul emițătorului și al instituțiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> identifici sursa mesajului.<br><br><strong>Formulare academică:</strong> se analizează mediile emitente și organizațiile care produc mesajul.<br><br><strong>Exemplu:</strong> cine transmite o campanie.</span></span>",
+          "<span class='tip'><strong>Analiza conținutului mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta ține de „spune ce?”.<br><br><strong>Formulare academică:</strong> conținutul este separat de sursă în modelul Lasswell.<br><br><strong>Exemplu:</strong> tema mesajului.</span></span>",
+          "<span class='tip'><strong>Studiul audienței</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta ține de „cui?”.<br><br><strong>Formulare academică:</strong> publicul e componenta destinatarului, nu a sursei.<br><br><strong>Exemplu:</strong> elevi, părinți, public general.</span></span>",
         ],
-        answer: 3,
+        answer: 0,
       },
       {
-        text: "Ce element diferențiază modelul lui Lasswell de modelul tehnic al lui <span class='tip'><strong>Shannon și Weaver</strong><span class='tooltip-box'>Modelul Shannon și Weaver este centrat pe transmiterea tehnică a semnalului și pe reducerea zgomotului, fără a analiza influența și efectele mesajului.</span></span>?",
+        text: "Ce descrie componenta <span class='tip'><strong>„Pe ce canal?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mijloacele tehnice prin care circulă mesajul.<br><br><strong>Formulare academică:</strong> „pe ce canal” desemnează ansamblul tehnicilor care, într-o societate dată, difuzează informația și cultura.<br><br><strong>Exemplu:</strong> TV, radio, platforme online.</span></span>",
         multiple: false,
         options: [
-          "Introducerea noțiunii de cod și decodare",
-          "Accentul pus pe feedback și circularitate",
-          "Accentul pus pe efectele și influența mesajului asupra publicului",
-          "Analiza contextului psihologic al receptorului",
+          "<span class='tip'><strong>Tehnicile și mijloacele de difuzare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> instrumentele prin care mesajul ajunge la public.<br><br><strong>Formulare academică:</strong> canalul include mijloacele tehnologice și mediile de transmitere.<br><br><strong>Exemplu:</strong> rețele sociale, televiziune, afișe.</span></span>",
+          "<span class='tip'><strong>Normele conversației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acestea țin de reguli sociale, nu de canal.<br><br><strong>Formulare academică:</strong> canalul este un mijloc tehnic, nu o regulă.<br><br><strong>Exemplu:</strong> a vorbi pe rând nu e „canal”.</span></span>",
+          "<span class='tip'><strong>Contextul psihologic al receptorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu acesta este canalul.<br><br><strong>Formulare academică:</strong> canalul nu descrie stările psihologice ale publicului.<br><br><strong>Exemplu:</strong> motivațiile țin de receptor.</span></span>",
         ],
-        answer: 2,
+        answer: 0,
       },
       {
-        text: "Care dintre următoarele afirmații surprind corect <span class='tip'><strong>limitele modelului Lasswell</strong><span class='tooltip-box'>Modelul este considerat liniar, persuasiv și lipsit de retroacțiune, reducând comunicarea la o relație de influență unidirecțională.</span></span>?",
+        text: "Ce înseamnă <span class='tip'><strong>„Cu ce efect?”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce schimbare produce mesajul la public.<br><br><strong>Formulare academică:</strong> componenta „efect” presupune analiza influenței mesajului asupra audienței.<br><br><strong>Exemplu:</strong> publicul își schimbă opinia după un mesaj.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Influența mesajului asupra audienței</strong><span class='tooltip-box'><strong>Spus simplu:</strong> efectul urmărit sau obținut.<br><br><strong>Formulare academică:</strong> evaluarea impactului comunicării asupra receptorilor.<br><br><strong>Exemplu:</strong> oamenii adoptă un comportament nou.</span></span>",
+          "<span class='tip'><strong>Descrierea codului folosit</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codul se referă la limbaj, nu la efect.<br><br><strong>Formulare academică:</strong> codul ține de „spune ce?”, nu de rezultat.<br><br><strong>Exemplu:</strong> alegerea limbii.</span></span>",
+          "<span class='tip'><strong>Identitatea emițătorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> asta este componenta „cine?”.<br><br><strong>Formulare academică:</strong> sursa mesajului este analizată separat de efect.<br><br><strong>Exemplu:</strong> instituția care transmite.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce arată <span class='tip'><strong>valoarea modelului Lasswell?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> depășește transmiterea simplă și pune accent pe efecte.<br><br><strong>Formulare academică:</strong> avantajul esențial este că vede comunicarea ca proces dinamic, în etape, cu finalitate și efecte.<br><br><strong>Exemplu:</strong> un mesaj este evaluat prin impactul asupra publicului.</span></span>",
         multiple: true,
         options: [
-          "Comunicarea este văzută ca un proces liniar fără feedback",
-          "Receptorul este conceput ca fiind pasiv",
-          "Contextul sociologic și psihologic este ignorat",
-          "Modelul explică foarte bine negocierea sensului între parteneri",
+          "<span class='tip'><strong>Accent pe finalitate și efecte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează ce obții prin mesaj.<br><br><strong>Formulare academică:</strong> modelul evidențiază dimensiunea persuasivă a comunicării.<br><br><strong>Exemplu:</strong> campanii cu scop clar.</span></span>",
+          "<span class='tip'><strong>Proces cu etape distincte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare întrebare marchează o etapă.<br><br><strong>Formulare academică:</strong> comunicarea este analizată secvențial, fiecare element având un rol specific.<br><br><strong>Exemplu:</strong> se analizează separat mesajul, canalul și audiența.</span></span>",
+          "<span class='tip'><strong>Eliminarea completă a contextului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, contextul e doar subevaluat, nu eliminat total.<br><br><strong>Formulare academică:</strong> limitarea modelului este reducerea la persuasiune, nu absența absolută a contextului.<br><br><strong>Exemplu:</strong> nu discută pe larg mediul social.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Care sunt <span class='tip'><strong>limitele modelului Lasswell?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e prea liniar și nu are feedback real.<br><br><strong>Formulare academică:</strong> modelul rămâne simplist, persuasiv, fără retroacțiune, cu receptor pasiv și fără context psihologic/sociologic suficient.<br><br><strong>Exemplu:</strong> nu explică dialogul și ajustarea mesajului în timp real.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Lipsa retroacțiunii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu există feedback în schemă.<br><br><strong>Formulare academică:</strong> comunicarea e percepută ca unidirecțională.<br><br><strong>Exemplu:</strong> publicul nu influențează mesajul.</span></span>",
+          "<span class='tip'><strong>Receptor pasiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> publicul doar primește, nu co-construiește.<br><br><strong>Formulare academică:</strong> interinfluența emițător–receptor nu este analizată.<br><br><strong>Exemplu:</strong> reacțiile publicului nu sunt integrate.</span></span>",
+          "<span class='tip'><strong>Reducerea la persuasiune</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e văzută ca influență, nu ca dialog.<br><br><strong>Formulare academică:</strong> accentul pe efect distorsionează complexitatea comunicării.<br><br><strong>Exemplu:</strong> comunicarea educațională nu e doar persuasiune.</span></span>",
+          "<span class='tip'><strong>Analiza completă a contextului social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, tocmai asta lipsește.<br><br><strong>Formulare academică:</strong> contextul social și psihologic nu este luat în considerare suficient.<br><br><strong>Exemplu:</strong> diferențele de status nu sunt analizate.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -1124,43 +1241,42 @@ window.PEDCOM_QUIZ = [
     title: "Modelul lui Riley și Riley (1959)",
     questions: [
       {
-        text: "Ce element nou introduce modelul lui <span class='tip'><strong>Riley și Riley</strong><span class='tooltip-box'>Modelul Riley și Riley plasează comunicarea într un cadru social, evidențiind faptul că emitatorul și receptorul sunt influențați de grupurile din care fac parte.</span></span> față de modelele strict tehnice?",
+        text: "Ce aduce nou <span class='tip'><strong>modelul Riley și Riley?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este văzută în interiorul grupurilor din care fac parte oamenii.<br><br><strong>Formulare academică:</strong> emițătorul și receptorul sunt încadrați în grupuri primare și apoi în contextul social care le influențează comunicarea.<br><br><strong>Exemplu:</strong> mesajul e interpretat diferit în familie decât între colegi.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Încadrarea emitatorului și receptorului în grupuri primare</strong><span class='tooltip-box'>Familia, comunitatea sau grupurile mici influențează modul de transmitere și interpretare a mesajelor.</span></span>",
-          "<span class='tip'><strong>Accentul exclusiv pe cod și canal</strong><span class='tooltip-box'>Aceasta este specifică mai degrabă modelului Shannon și Weaver.</span></span>",
-          "<span class='tip'><strong>Eliminarea contextului social</strong><span class='tooltip-box'>Modelul Riley subliniază tocmai importanța contextului social.</span></span>",
+          "<span class='tip'><strong>Încadrarea în grupuri primare și context social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupul din care faci parte contează.<br><br><strong>Formulare academică:</strong> grupurile de apartenență modelează transmiterea și recepția mesajului.<br><br><strong>Exemplu:</strong> normele familiei schimbă felul în care vorbești.</span></span>",
+          "<span class='tip'><strong>Eliminarea influenței sociale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, tocmai influența socială e introdusă.<br><br><strong>Formulare academică:</strong> modelul adaugă contextul social, nu îl exclude.<br><br><strong>Exemplu:</strong> apartenența la grupuri explică interpretarea mesajului.</span></span>",
+          "<span class='tip'><strong>Feedback complet formalizat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> feedback-ul nu este dezvoltat explicit aici.<br><br><strong>Formulare academică:</strong> rămâne un model liniar, chiar dacă bidirecțional.<br><br><strong>Exemplu:</strong> nu există schemă clară de retroacțiune.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "În modelul Riley și Riley, <span class='tip'><strong>grupurile primare</strong><span class='tooltip-box'>Grupurile primare sunt grupuri de apartenență apropiate, precum familia, comunitatea sau grupurile mici, care modelează comportamentele și interpretările.</span></span> influențează:",
+        text: "Ce sunt <span class='tip'><strong>grupurile primare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupuri apropiate, unde oamenii se cunosc bine.<br><br><strong>Formulare academică:</strong> grupuri de apartenență (familie, comunitate, grupuri mici) care influențează implicarea în comunicare.<br><br><strong>Exemplu:</strong> familie, colegi apropiați, comunitate locală.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Modul de implicare în comunicare</strong><span class='tooltip-box'>Apartenența la grup determină nivelul de participare și tipul de răspuns în comunicare.</span></span>",
-          "<span class='tip'><strong>Procesarea și interpretarea mesajului</strong><span class='tooltip-box'>Mesajele sunt filtrate prin experiențele și normele grupului.</span></span>",
-          "<span class='tip'><strong>Transmiterea și receptarea mesajului</strong><span class='tooltip-box'>Grupurile influențează atât emiterea cât și recepția mesajului.</span></span>",
-          "<span class='tip'><strong>Eliminarea reciprocității</strong><span class='tooltip-box'>Modelul Riley recunoaște reciprocitatea, nu o elimină.</span></span>",
+          "<span class='tip'><strong>Familia</strong><span class='tooltip-box'><strong>Spus simplu:</strong> primul grup în care comunicăm constant.<br><br><strong>Formulare academică:</strong> familie = grup primar care modelează norme și stiluri de comunicare.<br><br><strong>Exemplu:</strong> felul în care saluți și răspunzi acasă.</span></span>",
+          "<span class='tip'><strong>Comunitatea / grupul mic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> oamenii cu care interacționezi direct.<br><br><strong>Formulare academică:</strong> grupuri cu relații față în față și norme comune.<br><br><strong>Exemplu:</strong> o echipă restrânsă de colegi.</span></span>",
+          "<span class='tip'><strong>Publicul anonim de masă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta nu este grup primar, ci public larg.<br><br><strong>Formulare academică:</strong> relațiile primare sunt apropiate și personalizate, nu anonime.<br><br><strong>Exemplu:</strong> spectatorii unei emisiuni TV.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1],
       },
       {
-        text: "Care este <span class='tip'><strong>avantajul principal</strong><span class='tooltip-box'>Avantajul major al modelului este recunoașterea inter influenței dintre indivizi și rolul contextului social.</span></span> al modelului Riley și Riley?",
+        text: "Care este <span class='tip'><strong>valoarea modelului Riley și Riley?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată că există reciprocitate și interinfluență în comunicare.<br><br><strong>Formulare academică:</strong> modelul atestă existența unui fenomen de reciprocitate și interinfluență între indivizi, în interiorul contextului social.<br><br><strong>Exemplu:</strong> felul în care răspunzi e influențat de ce primești.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Recunoașterea reciprocității și a inter influenței</strong><span class='tooltip-box'>Comunicarea este văzută ca un proces influențat de ambele părți și de mediul social.</span></span>",
-          "<span class='tip'><strong>Clarificarea matematică a mesajului</strong><span class='tooltip-box'>Aceasta aparține modelului Shannon și Weaver.</span></span>",
-          "<span class='tip'><strong>Accentul pe persuasiune</strong><span class='tooltip-box'>Caracteristic mai ales modelului Lasswell.</span></span>",
+          "<span class='tip'><strong>Reciprocitate și interinfluență</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e „într-un singur sens”.<br><br><strong>Formulare academică:</strong> participanții se influențează reciproc în actul comunicativ.<br><br><strong>Exemplu:</strong> reacțiile celuilalt îți schimbă mesajul.</span></span>",
+          "<span class='tip'><strong>Reducerea la canal și cod</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e viziunea tehnică, nu a lui Riley.<br><br><strong>Formulare academică:</strong> modelul include grupuri și context social, nu doar canal.<br><br><strong>Exemplu:</strong> rolul familiei în comunicare.</span></span>",
+          "<span class='tip'><strong>Excluderea contextului social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul este chiar elementul nou introdus.<br><br><strong>Formulare academică:</strong> modelul se bazează pe grupuri și context social.<br><br><strong>Exemplu:</strong> comunicare diferită în grupuri distincte.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care este <span class='tip'><strong>limita</strong><span class='tooltip-box'>Deși sugerează reciprocitatea, modelul nu dezvoltă explicit mecanismul de feed back.</span></span> modelului Riley și Riley?",
+        text: "Care este <span class='tip'><strong>limita modelului?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu explică clar feedback-ul.<br><br><strong>Formulare academică:</strong> modelul ignoră noțiunea de feedback, păstrând comunicarea ca proces liniar, chiar dacă bidirecțional.<br><br><strong>Exemplu:</strong> nu arată cum reacția modifică mesajul următor.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Lipsa conceptualizării explicite a feed back ului</strong><span class='tooltip-box'>Comunicarea rămâne parțial liniară, chiar dacă este bidirecțională.</span></span>",
-          "<span class='tip'><strong>Ignorarea completă a contextului social</strong><span class='tooltip-box'>Contextul social este un element central al modelului.</span></span>",
-          "<span class='tip'><strong>Reducerea comunicării la persuasiune</strong><span class='tooltip-box'>Aceasta este o limită asociată modelului Lasswell.</span></span>",
+          "<span class='tip'><strong>Lipsa conceptualizării feedback-ului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> feedback-ul nu e descris explicit.<br><br><strong>Formulare academică:</strong> comunicarea rămâne liniară în model.<br><br><strong>Exemplu:</strong> nu apare mecanismul de reglare.</span></span>",
+          "<span class='tip'><strong>Eliminarea grupurilor primare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupurile primare sunt chiar elementul central.<br><br><strong>Formulare academică:</strong> modelul se bazează pe apartenența la grupuri.<br><br><strong>Exemplu:</strong> familie și comunitate.</span></span>",
+          "<span class='tip'><strong>Reducerea la persuasiune</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este limita lui Lasswell, nu a lui Riley.<br><br><strong>Formulare academică:</strong> Riley nu are focus persuasiv predominant.<br><br><strong>Exemplu:</strong> nu urmărește doar efectul.</span></span>",
         ],
         answer: 0,
       },
@@ -1168,47 +1284,45 @@ window.PEDCOM_QUIZ = [
   },
   {
     id: "pedcom-1-5-q4",
-    title: "Modelul cibernetic al comunicării – contribuția lui Norbert Wiener",
+    title: "Contribuția lui Norbert Wiener și feedback-ul",
     questions: [
       {
-        text: "Care este aportul esențial al lui <span class='tip'><strong>Norbert Wiener</strong><span class='tooltip-box'>Norbert Wiener este fondatorul ciberneticii și unul dintre primii teoreticieni care au introdus explicit feedback ul în analiza comunicării, mutând accentul de la linearitate la circularitate.</span></span> în teoria comunicării?",
+        text: "Ce clarifică <span class='tip'><strong>Norbert Wiener?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rolul feedback-ului în comunicare.<br><br><strong>Formulare academică:</strong> Wiener clarifică rolul feedback-ului și trece de la viziunea liniară la conceperea unui proces circular.<br><br><strong>Exemplu:</strong> reacția receptorului schimbă mesajul următor.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Introducerea feedback ului</strong> ca mecanism central<span class='tooltip-box'>Feedback ul explică modul în care reacțiile receptorului influențează comportamentul ulterior al emițătorului, transformând comunicarea într un proces circular.</span></span>",
-          "<span class='tip'><strong>Definirea funcțiilor limbajului</strong> după criterii semantice<span class='tooltip-box'>Această contribuție aparține mai degrabă lui Roman Jakobson, nu lui Wiener.</span></span>",
-          "<span class='tip'><strong>Analiza persuasiunii de masă</strong><span class='tooltip-box'>Este specifică modelului lui Lasswell, nu ciberneticii lui Wiener.</span></span>",
+          "<span class='tip'><strong>Feedback-ul ca mecanism central</strong><span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul se întoarce și reglează comunicarea.<br><br><strong>Formulare academică:</strong> feedback-ul transformă comunicarea din transfer în interacțiune.<br><br><strong>Exemplu:</strong> profesorul reformulează după întrebările elevilor.</span></span>",
+          "<span class='tip'><strong>Comunicarea ca transfer fără reacție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este viziunea liniară anterioară.<br><br><strong>Formulare academică:</strong> Wiener contrazice exact această perspectivă.<br><br><strong>Exemplu:</strong> mesajul nu rămâne fix.</span></span>",
+          "<span class='tip'><strong>Eliminarea rolului receptorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> receptorul e activ, nu eliminat.<br><br><strong>Formulare academică:</strong> feedback-ul presupune participare activă a receptorului.<br><br><strong>Exemplu:</strong> răspunsurile influențează discuția.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce diferențiază comunicarea concepută de Wiener față de <span class='tip'><strong>modelele liniare</strong><span class='tooltip-box'>Modelele liniare descriu comunicarea ca transmitere unidirecțională de informație, fără reacție sau reglaj.</span></span> anterioare?",
+        text: "Ce înseamnă <span class='tip'><strong>feedback pozitiv și feedback negativ?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unul amplifică, celălalt reglează și stabilizează.<br><br><strong>Formulare academică:</strong> feedback-ul pozitiv accentuează fenomenul (efect de bulgăre), feedback-ul negativ reglează și menține echilibrul relației.<br><br><strong>Exemplu:</strong> o ceartă escaladează vs. o discuție care se calmează.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Caracterul circular</strong> al comunicării<span class='tooltip-box'>Mesajele produc reacții care revin asupra emițătorului, influențând continuarea comunicării.</span></span>",
-          "<span class='tip'><strong>Existența retroacțiunii</strong><span class='tooltip-box'>Feedback ul permite reglarea procesului comunicării în timp real.</span></span>",
-          "<span class='tip'><strong>Receptorul este activ</strong><span class='tooltip-box'>Receptorul nu mai este pasiv, ci participă la dinamica schimbului comunicativ.</span></span>",
-          "<span class='tip'><strong>Absența contextului</strong><span class='tooltip-box'>Contextul nu este eliminat; această afirmație caracterizează mai degrabă modelele tehnice rigide.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Cum sunt definite cele două tipuri de <span class='tip'><strong>feedback</strong><span class='tooltip-box'>Feedback ul reprezintă reacția care revine asupra emițătorului și influențează evoluția comunicării.</span></span> în modelul lui Wiener?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Feedback pozitiv</strong> – amplificare<span class='tooltip-box'>Conduce la intensificarea fenomenului comunicativ, asemănător efectului de bulgăre de zăpadă.</span></span>",
-          "<span class='tip'><strong>Feedback negativ</strong> – reglare<span class='tooltip-box'>Are rol de stabilizare și menținere a echilibrului relației.</span></span>",
-          "<span class='tip'><strong>Feedback semantic</strong> – clarificare a sensului<span class='tooltip-box'>Nu este o categorie formulată de Wiener în modelul cibernetic.</span></span>",
-          "<span class='tip'><strong>Feedback estetic</strong> – expresivitate<span class='tooltip-box'>Nu aparține clasificării propuse de Wiener.</span></span>",
+          "<span class='tip'><strong>Feedback pozitiv = amplificare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> crește intensitatea schimbului.<br><br><strong>Formulare academică:</strong> conduce la accentuarea fenomenului comunicativ.<br><br><strong>Exemplu:</strong> enervarea crește treptat între doi oameni.</span></span>",
+          "<span class='tip'><strong>Feedback negativ = reglare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> stabilizează relația.<br><br><strong>Formulare academică:</strong> tinde să mențină echilibrul comunicării.<br><br><strong>Exemplu:</strong> cineva temperează o discuție tensionată.</span></span>",
+          "<span class='tip'><strong>Feedback pozitiv = eliminare a mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, feedback-ul pozitiv nu „șterge”, ci amplifică.<br><br><strong>Formulare academică:</strong> nu există această definire în modelul lui Wiener.<br><br><strong>Exemplu:</strong> conflictul crește, nu dispare.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Care este <span class='tip'><strong>limita principală</strong><span class='tooltip-box'>Limitele modelelor teoretice indică aspectele pe care acestea nu le explică suficient.</span></span> a modelului lui Norbert Wiener?",
+        text: "De ce se spune că modelul lui Wiener trece de la <span class='tip'><strong>liniar la circular?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajele se întorc și schimbă continuarea comunicării.<br><br><strong>Formulare academică:</strong> comunicarea devine joc de acțiuni și retroacțiuni, nu doar transmitere unidirecțională.<br><br><strong>Exemplu:</strong> feedback-ul schimbă direcția unei discuții.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Tratarea mesajului ca entitate abstractă</strong><span class='tooltip-box'>Modelul neglijează complexitatea limbajului și a semnificațiilor concrete ale mesajului.</span></span>",
-          "<span class='tip'><strong>Lipsa totală a feedback ului</strong><span class='tooltip-box'>Este exact opusul contribuției lui Wiener.</span></span>",
-          "<span class='tip'><strong>Reducerea comunicării la persuasiune</strong><span class='tooltip-box'>Aceasta este o limită a modelului Lasswell, nu a lui Wiener.</span></span>",
+          "<span class='tip'><strong>Există retroacțiune</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reacția receptorului revine asupra emițătorului.<br><br><strong>Formulare academică:</strong> comunicarea este proces circular, cu reglaj continuu.<br><br><strong>Exemplu:</strong> explici din nou când vezi neînțelegere.</span></span>",
+          "<span class='tip'><strong>Se elimină complet mesajul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, mesajul rămâne element central.<br><br><strong>Formulare academică:</strong> modelul nu elimină mesajul, ci îi adaugă feedback.<br><br><strong>Exemplu:</strong> mesajul continuă, dar se ajustează.</span></span>",
+          "<span class='tip'><strong>Receptorul devine pasiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> din contră, receptorul devine activ.<br><br><strong>Formulare academică:</strong> feedback-ul presupune implicare activă a receptorului.<br><br><strong>Exemplu:</strong> întrebările schimbă explicația.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este <span class='tip'><strong>limita principală a modelului lui Wiener?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu analizează în profunzime natura mesajului.<br><br><strong>Formulare academică:</strong> modelul neglijează natura mesajului, tratându-l ca totalitate abstractă, fără a intra în complexitatea limbajului.<br><br><strong>Exemplu:</strong> nu explică de ce un mesaj poate fi ambiguu.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Ignoră complexitatea mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul nu este analizat pe componente de sens.<br><br><strong>Formulare academică:</strong> limbajul este tratat global, fără detaliu semantic.<br><br><strong>Exemplu:</strong> nu se discută nuanțele sau ambiguitățile.</span></span>",
+          "<span class='tip'><strong>Excluderea feedback-ului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta contrazice contribuția lui Wiener.<br><br><strong>Formulare academică:</strong> feedback-ul este elementul central introdus de Wiener.<br><br><strong>Exemplu:</strong> tocmai feedback-ul face comunicarea circulară.</span></span>",
+          "<span class='tip'><strong>Lipsa contextului social în totalitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta nu e formulată ca limită principală în text.<br><br><strong>Formulare academică:</strong> critica principală este natura mesajului, nu contextul social general.<br><br><strong>Exemplu:</strong> accentul e pe limbaj, nu pe norme sociale.</span></span>",
         ],
         answer: 0,
       },
@@ -1219,49 +1333,61 @@ window.PEDCOM_QUIZ = [
     title: "Modelul comunicării la Roman Jakobson",
     questions: [
       {
-        text: "Care sunt <span class='tip'><strong>elementele fundamentale</strong><span class='tooltip-box'>Jakobson descrie comunicarea ca un sistem articulat de componente care fac posibil schimbul de sens și nu doar transmiterea mecanică a informației.</span></span> ale modelului lui Roman Jakobson?",
+        text: "Care sunt <span class='tip'><strong>elementele modelului Jakobson?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cine transmite, ce transmite, prin ce cod și în ce context.<br><br><strong>Formulare academică:</strong> modelul identifică șase elemente: destinator, mesaj, cod comun, destinatar, context și contact (legătura fizică și psihologică).<br><br><strong>Exemplu:</strong> profesorul (destinator) transmite o explicație (mesaj) unui elev (destinatar).</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Emițător (destinator)</strong><span class='tooltip-box'>Cel care inițiază comunicarea și își exprimă atitudinea, emoțiile sau intențiile prin mesaj.</span></span>",
-          "<span class='tip'><strong>Mesaj</strong><span class='tooltip-box'>Ansamblul de semne transmise, având atât conținut cât și formă expresivă.</span></span>",
-          "<span class='tip'><strong>Cod</strong><span class='tooltip-box'>Sistemul de semne comun interlocutorilor, necesar pentru codare și decodare.</span></span>",
-          "<span class='tip'><strong>Canal tehnic</strong><span class='tooltip-box'>Apare explicit în modelele tehnice, dar la Jakobson este integrat în noțiunea de contact.</span></span>",
-          "<span class='tip'><strong>Context</strong><span class='tooltip-box'>Situația sau realitatea la care se referă mesajul și care îi dă sens.</span></span>",
+          "<span class='tip'><strong>Destinator</strong> – cel care comunică<span class='tooltip-box'><strong>Spus simplu:</strong> inițiază mesajul.<br><br><strong>Formulare academică:</strong> destinatorul este sursa comunicării în modelul lingvistic.<br><br><strong>Exemplu:</strong> profesorul care vorbește.</span></span>",
+          "<span class='tip'><strong>Mesaj</strong> – ansamblu de semnale<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce se transmite efectiv.<br><br><strong>Formulare academică:</strong> mesajul este informația pusă în formă, prin codare/decodare.<br><br><strong>Exemplu:</strong> explicația unei reguli.</span></span>",
+          "<span class='tip'><strong>Cod comun</strong> – sistem de semne împărtășit<span class='tooltip-box'><strong>Spus simplu:</strong> trebuie să vorbim „aceeași limbă”.<br><br><strong>Formulare academică:</strong> codul comun asigură înțelegerea mesajului.<br><br><strong>Exemplu:</strong> limba română folosită de ambii.</span></span>",
+          "<span class='tip'><strong>Context</strong> – situația la care se referă mesajul<span class='tooltip-box'><strong>Spus simplu:</strong> cadrul și tema despre care se vorbește.<br><br><strong>Formulare academică:</strong> contextul este fie verbal, fie verbalizabil și include condiții sociale ale comunicării.<br><br><strong>Exemplu:</strong> „salut” la început vs. la final.</span></span>",
+          "<span class='tip'><strong>Contact</strong> – legătură fizică și psihologică<span class='tooltip-box'><strong>Spus simplu:</strong> să te auzi și să te înțelegi cu celălalt.<br><br><strong>Formulare academică:</strong> contactul este canalul relațional (legătură fizică) și conexiunea psihologică (atenție).<br><br><strong>Exemplu:</strong> vă priviți și vă ascultați.</span></span>",
+          "<span class='tip'><strong>Zgomot</strong> – interferențe pe canal<span class='tooltip-box'><strong>Spus simplu:</strong> acesta e specific modelului tehnic, nu lui Jakobson.<br><br><strong>Formulare academică:</strong> zgomotul nu este element fundamental în modelul lingvistic al lui Jakobson.<br><br><strong>Exemplu:</strong> bruiaj într-un apel.</span></span>",
         ],
-        answer: [0, 1, 2, 4],
+        answer: [0, 1, 2, 3, 4],
       },
       {
-        text: "Ce <span class='tip'><strong>funcție a comunicării</strong><span class='tooltip-box'>Fiecare funcție corespunde unui element dominant din actul comunicării și poate deveni predominantă într-o situație concretă.</span></span> este activată atunci când accentul cade pe menținerea legăturii dintre interlocutori?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Funcția referențială</strong><span class='tooltip-box'>Este centrată pe context și pe transmiterea informației despre realitate.</span></span>",
-          "<span class='tip'><strong>Funcția fatică</strong><span class='tooltip-box'>Vizează deschiderea, menținerea sau întreruperea contactului între interlocutori.</span></span>",
-          "<span class='tip'><strong>Funcția poetică</strong><span class='tooltip-box'>Pune accent pe forma mesajului și pe valoarea sa expresivă.</span></span>",
-          "<span class='tip'><strong>Funcția metalingvistică</strong><span class='tooltip-box'>Verifică dacă interlocutorii folosesc același cod.</span></span>",
-        ],
-        answer: 1,
-      },
-      {
-        text: "Care asociere dintre <span class='tip'><strong>funcție</strong><span class='tooltip-box'>Funcțiile coexistă în actul comunicării, dar una devine dominantă în funcție de scop.</span></span> și <span class='tip'><strong>element</strong><span class='tooltip-box'>Elementul dominant determină tipul de funcție activată.</span></span> este corectă în modelul lui Jakobson?",
+        text: "Alege funcțiile care aparțin lui <span class='tip'><strong>Roman Jakobson?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt șase funcții prin care mesajul își arată scopul dominant.<br><br><strong>Formulare academică:</strong> funcțiile limbajului sunt orientate spre destinator, destinatar, context (referent), contact, cod și forma mesajului.<br><br><strong>Exemplu:</strong> un ordin e conativ, un joc de cuvinte e poetic.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Funcția emotivă</strong> – emițător<span class='tooltip-box'>Exprimă starea, atitudinea sau afectivitatea celui care comunică.</span></span>",
-          "<span class='tip'><strong>Funcția conativă</strong> – destinatar<span class='tooltip-box'>Urmărește influențarea sau determinarea unei reacții din partea destinatarului.</span></span>",
-          "<span class='tip'><strong>Funcția referențială</strong> – context<span class='tooltip-box'>Este orientată spre realitatea la care se referă mesajul.</span></span>",
-          "<span class='tip'><strong>Funcția poetică</strong> – cod<span class='tooltip-box'>În realitate, funcția poetică este centrată pe mesaj, nu pe cod.</span></span>",
+          "<span class='tip'><strong>Funcția emotivă (expresivă)</strong> – angajare afectivă<span class='tooltip-box'><strong>Spus simplu:</strong> arată starea celui care vorbește.<br><br><strong>Formulare academică:</strong> este orientată spre destinator și reflectă personalitatea lui.<br><br><strong>Exemplu:</strong> „Sunt bucuros.”</span></span>",
+          "<span class='tip'><strong>Funcția conativă</strong> – efect asupra destinatarului<span class='tooltip-box'><strong>Spus simplu:</strong> vrei să-l faci pe celălalt să reacționeze.<br><br><strong>Formulare academică:</strong> este orientată spre destinatar și urmărește acțiune sau reacție.<br><br><strong>Exemplu:</strong> „Te rog, închide ușa.”</span></span>",
+          "<span class='tip'><strong>Funcția fatică</strong> – menținerea contactului<span class='tooltip-box'><strong>Spus simplu:</strong> verifici dacă legătura e activă.<br><br><strong>Formulare academică:</strong> funcția se referă la provocarea și menținerea contactului.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+          "<span class='tip'><strong>Funcția referențială</strong> – orientare spre context<span class='tooltip-box'><strong>Spus simplu:</strong> vorbești despre o realitate sau un fapt.<br><br><strong>Formulare academică:</strong> funcția vizează contextul (referent = realitatea/tema despre care se vorbește).<br><br><strong>Exemplu:</strong> „Astăzi e luni.”</span></span>",
+          "<span class='tip'><strong>Funcția metalingvistică</strong> – clarificarea codului<span class='tooltip-box'><strong>Spus simplu:</strong> explici cuvintele folosite.<br><br><strong>Formulare academică:</strong> verifică compatibilitatea codurilor între interlocutori.<br><br><strong>Exemplu:</strong> „Prin «verb» înțelegem...”</span></span>",
+          "<span class='tip'><strong>Funcția poetică</strong> – accent pe forma mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> contează cum sună mesajul.<br><br><strong>Formulare academică:</strong> funcția se raportează la forma mesajului, cu valoare expresivă proprie.<br><br><strong>Exemplu:</strong> rimă, slogan, joc de cuvinte.</span></span>",
+          "<span class='tip'><strong>Funcția deliberativă</strong> – planificare a viitorului<span class='tooltip-box'><strong>Spus simplu:</strong> nu este funcție în modelul Jakobson.<br><br><strong>Formulare academică:</strong> termenul aparține retoricii, nu listei lui Jakobson.<br><br><strong>Exemplu:</strong> dezbatere politică.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1, 2, 3, 4, 5],
       },
       {
-        text: "Ce <span class='tip'><strong>limită majoră</strong><span class='tooltip-box'>Limitele țin de faptul că orice model simplifică realitatea comunicării.</span></span> este atribuită modelului lui Jakobson?",
+        text: "Ce subliniază Jakobson despre <span class='tip'><strong>funcțiile comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> toate există în mesaj, dar una domină.<br><br><strong>Formulare academică:</strong> funcțiile coexistă în actul de vorbire, iar structura verbală depinde de funcția predominantă.<br><br><strong>Exemplu:</strong> într-un ordin domină funcția conativă.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Funcțiile coexistă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu apare doar una singură.<br><br><strong>Formulare academică:</strong> comunicarea activează simultan mai multe funcții.<br><br><strong>Exemplu:</strong> un mesaj informativ poate avea și ton afectiv.</span></span>",
+          "<span class='tip'><strong>Există o funcție predominantă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> una se evidențiază în context.<br><br><strong>Formulare academică:</strong> ierarhia funcțiilor diferă în funcție de situație.<br><br><strong>Exemplu:</strong> într-un slogan domină funcția poetică.</span></span>",
+          "<span class='tip'><strong>Funcțiile nu pot apărea împreună</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta contrazice modelul Jakobson.<br><br><strong>Formulare academică:</strong> modelul afirmă coexistența funcțiilor, nu excluderea lor.<br><br><strong>Exemplu:</strong> mesajele combină conținut și relație.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Cum se împart funcțiile între <span class='tip'><strong>limbaj analogic și digital?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele funcții țin de relație, altele de conținut.<br><br><strong>Formulare academică:</strong> funcțiile expresivă, conativă și fatică sunt asociate limbajului analogic (relație), iar referențială, metalingvistică și poetică limbajului digital (conținut).<br><br><strong>Exemplu:</strong> tonul ține de analogic, cuvintele de digital.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Expresivă, conativă, fatică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> susțin relația dintre vorbitori.<br><br><strong>Formulare academică:</strong> sunt asociate limbajului analogic (gesturi, ton, contact).<br><br><strong>Exemplu:</strong> privirea și vocea arată emoția.</span></span>",
+          "<span class='tip'><strong>Referențială, metalingvistică, poetică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> țin de conținut și formă verbală.<br><br><strong>Formulare academică:</strong> sunt asociate limbajului digital (semne arbitrare).<br><br><strong>Exemplu:</strong> definiții, explicații, poezie.</span></span>",
+          "<span class='tip'><strong>Toate funcțiile sunt analogice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, funcțiile sunt împărțite în două categorii.<br><br><strong>Formulare academică:</strong> modelul afirmă o distribuție între analogic și digital.<br><br><strong>Exemplu:</strong> conținutul factual rămâne digital.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Care este <span class='tip'><strong>limita modelului Jakobson?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu descrie clar condițiile sociale ale comunicării.<br><br><strong>Formulare academică:</strong> modelul rămâne predominant lingvistic și nu oferă un statut precis condițiilor sociale ale comunicării.<br><br><strong>Exemplu:</strong> nu explică diferențele dintre comunicarea în public și cea intimă.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Ignoră complet feedback ul</strong><span class='tooltip-box'>Ulterior Jakobson face referire și la rolul activ al destinatarului.</span></span>",
-          "<span class='tip'><strong>Rămâne predominant lingvistic</strong><span class='tooltip-box'>Modelul pune accent pe limbaj și funcțiile sale, acordând un rol secundar condițiilor sociale concrete.</span></span>",
-          "<span class='tip'><strong>Reduce comunicarea la persuasiune</strong><span class='tooltip-box'>Aceasta este mai degrabă o limită a modelului lui Lasswell.</span></span>",
-          "<span class='tip'><strong>Exclude complet contextul</strong><span class='tooltip-box'>Contextul este un element central în modelul lui Jakobson.</span></span>",
+          "<span class='tip'><strong>Nu acordă un statut precis condițiilor sociale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul social e doar evocat, nu analizat profund.<br><br><strong>Formulare academică:</strong> modelul nu ține cont cu adevărat de condițiile sociale ale comunicării.<br><br><strong>Exemplu:</strong> nu explică rolul instituției sau al statusului.</span></span>",
+          "<span class='tip'><strong>Elimină complet contextul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul este element explicit în model.<br><br><strong>Formulare academică:</strong> contextul este parte centrală a comunicării la Jakobson.<br><br><strong>Exemplu:</strong> sensul mesajului depinde de context.</span></span>",
+          "<span class='tip'><strong>Nu recunoaște funcțiile comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dimpotrivă, acesta e nucleul modelului.<br><br><strong>Formulare academică:</strong> modelul este construit pe funcții asociate elementelor comunicării.<br><br><strong>Exemplu:</strong> funcția conativă, fatică etc.</span></span>",
         ],
-        answer: 1,
+        answer: 0,
       },
     ],
   },
@@ -1270,46 +1396,50 @@ window.PEDCOM_QUIZ = [
     title: "Modelul lui Dell Hymes – comunicarea în context social (SPEAKING)",
     questions: [
       {
-        text: "Ce aduce nou <span class='tip'><strong>modelul lui Dell Hymes</strong><span class='tooltip-box'>Dell Hymes propune o abordare pragmatică și socio-culturală a comunicării, analizând actele de vorbire în contexte reale, nu izolate.</span></span> față de modelele anterioare?",
+        text: "Ce propune <span class='tip'><strong>modelul Dell Hymes?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea trebuie înțeleasă în context social concret.<br><br><strong>Formulare academică:</strong> Hymes propune o abordare pragmatică a interacțiunilor lingvistice plasate în context social, sintetizată în modelul SPEAKING.<br><br><strong>Exemplu:</strong> același mesaj poate avea alt sens într-o evaluare decât într-o conversație între prieteni.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Introducerea contextului social și cultural</strong><span class='tooltip-box'>Comunicarea este analizată în relație cu situația, participanții, normele și genul discursului.</span></span>",
-          "<span class='tip'><strong>Reducerea comunicării la transfer de informație</strong><span class='tooltip-box'>Aceasta este caracteristică modelelor tehnice, nu etnografiei comunicării.</span></span>",
-          "<span class='tip'><strong>Eliminarea intenției și a efectelor</strong><span class='tooltip-box'>Modelul SPEAKING include explicit finalități și efecte ale comunicării.</span></span>",
+          "<span class='tip'><strong>Analiza comunicării în context social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează locul, oamenii și regulile sociale.<br><br><strong>Formulare academică:</strong> comunicarea este interpretată prin elemente contextuale și pragmatice.<br><br><strong>Exemplu:</strong> un compliment poate fi ironic dacă tonul o sugerează.</span></span>",
+          "<span class='tip'><strong>Reducerea comunicării la canal și cod</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e viziunea tehnică, nu a lui Hymes.<br><br><strong>Formulare academică:</strong> Hymes extinde modelul spre norme și finalități sociale.<br><br><strong>Exemplu:</strong> ritualul salutului.</span></span>",
+          "<span class='tip'><strong>Excluderea efectului și a intenției</strong><span class='tooltip-box'><strong>Spus simplu:</strong> Hymes include explicit finalitățile comunicării.<br><br><strong>Formulare academică:</strong> modelul include „ends” (intenții și rezultate).<br><br><strong>Exemplu:</strong> vrei să convingi sau să informezi.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce desemnează elementul <span class='tip'><strong>Setting</strong><span class='tooltip-box'>Setting se referă la cadrul spațio-temporal și la scena socială în care are loc comunicarea.</span></span> din modelul SPEAKING?",
+        text: "Alege elementele din modelul <span class='tip'><strong>SPEAKING?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt opt componente care descriu o situație de comunicare.<br><br><strong>Formulare academică:</strong> SPEAKING cuprinde: Setting, Participants, Ends, Act sequence, Keys, Instrumentalities, Norms, Genre.<br><br><strong>Exemplu:</strong> locul, participanții, scopul și regulile schimbului.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Locul și momentul comunicării</strong><span class='tooltip-box'>De exemplu: birou, clasă, stradă; întâlnire formală sau conversație informală.</span></span>",
-          "<span class='tip'><strong>Scena socială</strong><span class='tooltip-box'>Situația simbolică: negociere, evaluare, seducție, ritual.</span></span>",
-          "<span class='tip'><strong>Codul lingvistic</strong><span class='tooltip-box'>Codul este un alt element, nu ține de setting.</span></span>",
-          "<span class='tip'><strong>Canalul tehnic</strong><span class='tooltip-box'>Canalul intră la instruments, nu la setting.</span></span>",
+          "<span class='tip'><strong>Setting</strong> – cadrul și scena<span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul comunicării.<br><br><strong>Formulare academică:</strong> include cadrul spațio-temporal și scena socială.<br><br><strong>Exemplu:</strong> o evaluare formală.</span></span>",
+          "<span class='tip'><strong>Participants</strong> – participanții<span class='tooltip-box'><strong>Spus simplu:</strong> cine vorbește și cine asistă.<br><br><strong>Formulare academică:</strong> include destinator, destinatar și prezențele relevante.<br><br><strong>Exemplu:</strong> profesor, elevi, observatori.</span></span>",
+          "<span class='tip'><strong>Ends</strong> – finalități<span class='tooltip-box'><strong>Spus simplu:</strong> scopul și rezultatul așteptat.<br><br><strong>Formulare academică:</strong> include intențiile comunicării și rezultatele efective.<br><br><strong>Exemplu:</strong> convingere vs. informare.</span></span>",
+          "<span class='tip'><strong>Act sequence</strong> – conținut și formă<span class='tooltip-box'><strong>Spus simplu:</strong> ce se spune și cum se structurează mesajul.<br><br><strong>Formulare academică:</strong> actele vizează conținutul și forma mesajului.<br><br><strong>Exemplu:</strong> introducere, argument, concluzie.</span></span>",
+          "<span class='tip'><strong>Keys</strong> – tonul și maniera<span class='tooltip-box'><strong>Spus simplu:</strong> felul în care spui: serios, ironic, calm.<br><br><strong>Formulare academică:</strong> key se referă la accent și spiritul actului comunicativ.<br><br><strong>Exemplu:</strong> ton ironic schimbă sensul.</span></span>",
+          "<span class='tip'><strong>Instrumentalities</strong> – canale și forme de vorbire<span class='tooltip-box'><strong>Spus simplu:</strong> vorbit, scris, cântat, dialect etc.<br><br><strong>Formulare academică:</strong> include canalele și codurile folosite în comunicare.<br><br><strong>Exemplu:</strong> limbaj formal vs. dialect.</span></span>",
+          "<span class='tip'><strong>Norms</strong> – norme de interacțiune și interpretare<span class='tooltip-box'><strong>Spus simplu:</strong> reguli sociale despre cum vorbești.<br><br><strong>Formulare academică:</strong> norme de rând la vorbire și interpretare socială.<br><br><strong>Exemplu:</strong> „Ce mai faci?” ca formulă rituală.</span></span>",
+          "<span class='tip'><strong>Genre</strong> – genul discursului<span class='tooltip-box'><strong>Spus simplu:</strong> tipul mesajului: poem, conferință, scrisoare.<br><br><strong>Formulare academică:</strong> categoria formală în care se înscrie mesajul.<br><br><strong>Exemplu:</strong> discurs, poezie, raport.</span></span>",
+          "<span class='tip'><strong>Noise</strong> – zgomotul tehnic<span class='tooltip-box'><strong>Spus simplu:</strong> nu este element SPEAKING.<br><br><strong>Formulare academică:</strong> „zgomotul” aparține modelelor tehnice, nu celui etnografic.<br><br><strong>Exemplu:</strong> bruiaj radio.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5, 6, 7],
+      },
+      {
+        text: "Ce evidențiază elementul <span class='tip'><strong>Keys?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> tonul și maniera în care spui mesajul.<br><br><strong>Formulare academică:</strong> keys se referă la accent, manieră și spiritul actului comunicativ, care pot schimba efectul mesajului.<br><br><strong>Exemplu:</strong> un compliment spus ironic devine insultă.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Tonul și maniera comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum spui contează la fel de mult ca ce spui.<br><br><strong>Formulare academică:</strong> keys definește stilul comunicării (ironic, formal, afectiv).<br><br><strong>Exemplu:</strong> voce joasă vs. voce nervoasă.</span></span>",
+          "<span class='tip'><strong>Codul lingvistic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codul e alt element (Instrumentalities).<br><br><strong>Formulare academică:</strong> keys nu descrie limbajul, ci tonalitatea actului.<br><br><strong>Exemplu:</strong> aceeași propoziție cu ton diferit.</span></span>",
+          "<span class='tip'><strong>Canalul tehnic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> canalul ține de instrumente, nu de keys.<br><br><strong>Formulare academică:</strong> keys nu se referă la telefon, scris etc.<br><br><strong>Exemplu:</strong> mesaj scris, dar spus ironic.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este <span class='tip'><strong>valoarea și limita modelului Hymes?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aduce norme și finalități, dar nu explică toate dificultățile reale.<br><br><strong>Formulare academică:</strong> valoarea constă în îmbogățirea modelului prin finalități și norme; limita este perspectiva ideală, insuficientă pentru dificultăți non-lingvistice.<br><br><strong>Exemplu:</strong> cunoașterea normelor nu rezolvă automat un conflict de statut.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Introduce finalități și norme</strong><span class='tooltip-box'><strong>Spus simplu:</strong> explică scopul și regulile comunicării.<br><br><strong>Formulare academică:</strong> include intenții și rezultate, plus convenții sociale.<br><br><strong>Exemplu:</strong> salutul ca normă.</span></span>",
+          "<span class='tip'><strong>Rămâne într-o perspectivă ideală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu acoperă dificultățile reale ale comunicării.<br><br><strong>Formulare academică:</strong> nu explică majoritatea dificultăților non-lingvistice.<br><br><strong>Exemplu:</strong> conflictele nu se reduc doar la norme.</span></span>",
+          "<span class='tip'><strong>Elimină complet contextul social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dimpotrivă, contextul e central la Hymes.<br><br><strong>Formulare academică:</strong> modelul este construit pe situația socială a interacțiunii.<br><br><strong>Exemplu:</strong> setting și participants.</span></span>",
         ],
         answer: [0, 1],
-      },
-      {
-        text: "Care element din modelul SPEAKING explică de ce <span class='tip'><strong>același mesaj</strong><span class='tooltip-box'>Conținut identic verbal poate produce efecte diferite în funcție de modul de exprimare.</span></span> poate avea efecte diferite?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Keys (tonul)</strong><span class='tooltip-box'>Accentul, maniera sau spiritul comunicării pot transforma sensul mesajului.</span></span>",
-          "<span class='tip'><strong>Ends (finalitățile)</strong><span class='tooltip-box'>Diferența dintre intenție și rezultat influențează interpretarea.</span></span>",
-          "<span class='tip'><strong>Genre (genul)</strong><span class='tooltip-box'>Categoria formală a mesajului influențează așteptările receptorilor.</span></span>",
-          "<span class='tip'><strong>Codarea matematică</strong><span class='tooltip-box'>Nu este relevantă pentru modelul lui Hymes.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "De ce <span class='tip'><strong>normele</strong><span class='tooltip-box'>Normele privesc regulile de interacțiune și interpretare acceptate social.</span></span> sunt esențiale în comunicare, conform lui Hymes?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Reglează cine, când și cum poate vorbi</strong><span class='tooltip-box'>Normele stabilesc rândul la vorbire, formulele acceptabile și interpretările legitime.</span></span>",
-          "<span class='tip'><strong>Asigură transmiterea perfectă a informației</strong><span class='tooltip-box'>Aceasta este o perspectivă tehnică, nu sociopragmatică.</span></span>",
-          "<span class='tip'><strong>Elimină ambiguitatea mesajelor</strong><span class='tooltip-box'>Ambiguitatea rămâne posibilă chiar și cu norme clare.</span></span>",
-        ],
-        answer: 0,
       },
     ],
   },
@@ -1318,49 +1448,60 @@ window.PEDCOM_QUIZ = [
     title: "Modelele psihosociologice ale comunicării",
     questions: [
       {
-        text: "Ce noutate aduc <span class='tip'><strong>modelele psihosociologice</strong><span class='tooltip-box'>Modelele psihosociologice depășesc viziunea tehnică sau strict lingvistică și privesc comunicarea ca interacțiune socială, contextualizată și relațională.</span></span> față de modelele anterioare?",
+        text: "Ce aduc nou <span class='tip'><strong>modelele psihosociologice?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e doar verbală și nu există în afara relațiilor sociale.<br><br><strong>Formulare academică:</strong> modelele psihosociologice extind noțiunea de mesaj (multicanalitate), introduc raportul psihosocial și aprofundează rolul contextului.<br><br><strong>Exemplu:</strong> postura sau tonul transmit informație la fel de mult ca vorbele.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Extinderea noțiunii de mesaj</strong><span class='tooltip-box'>Mesajul nu mai este doar verbal, ci include gesturi, mimică, postură, ton, adică o comunicare multicanal.</span></span>",
-          "<span class='tip'><strong>Introducerea raportului psihosocial</strong><span class='tooltip-box'>Comunicarea este influențată de statut, rol, identitate socială și poziție relațională.</span></span>",
-          "<span class='tip'><strong>Eliminarea contextului</strong><span class='tooltip-box'>Este fals: contextul devine central în modelele psihosociologice.</span></span>",
-          "<span class='tip'><strong>Accent pe interacțiune și co construcția sensului</strong><span class='tooltip-box'>Sensul apare din interacțiunea dintre emițător și receptor, nu este doar transmis.</span></span>",
-        ],
-        answer: [0, 1, 3],
-      },
-      {
-        text: "Ce exprimă <span class='tip'><strong>noțiunea de raport psihosocial</strong><span class='tooltip-box'>Raportul psihosocial desemnează relația dintre parteneri determinată de statut, rol, identitate și poziție în interacțiune.</span></span> în comunicare?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Doar diferențe de personalitate</strong><span class='tooltip-box'>Personalitatea contează, dar raportul psihosocial este mai larg și include statutul și rolurile sociale.</span></span>",
-          "<span class='tip'><strong>Relația socială și pozițională dintre participanți</strong><span class='tooltip-box'>Felul în care vorbim depinde de cine suntem unul pentru celălalt: apropiat, necunoscut, superior etc.</span></span>",
-          "<span class='tip'><strong>Canalul tehnic al comunicării</strong><span class='tooltip-box'>Canalul ține de modelele tehnice, nu de raportul psihosocial.</span></span>",
-        ],
-        answer: 1,
-      },
-      {
-        text: "Cum este redefinit <span class='tip'><strong>contextul</strong><span class='tooltip-box'>Contextul include elemente lingvistice și extralingvistice care influențează producerea și interpretarea mesajului.</span></span> în modelele psihosociologice?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Cadru fizic și temporal</strong><span class='tooltip-box'>Locul, momentul și ritmul schimburilor influențează comunicarea.</span></span>",
-          "<span class='tip'><strong>Instituția și cultura</strong><span class='tooltip-box'>Normele culturale și instituționale modelează sensul comunicării.</span></span>",
-          "<span class='tip'><strong>Numărul de participanți</strong><span class='tooltip-box'>Comunicarea diferă în intimitate, în grup restrâns sau în public.</span></span>",
-          "<span class='tip'><strong>Exclusiv structura gramaticală</strong><span class='tooltip-box'>Aceasta este doar o parte a contextului, nu întregul.</span></span>",
+          "<span class='tip'><strong>Multicanalitatea mesajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicăm prin cuvinte și nonverbal.<br><br><strong>Formulare academică:</strong> mesajul include canal verbal și nonverbal (digital și analogic).<br><br><strong>Exemplu:</strong> cuvinte + gesturi + mimică.</span></span>",
+          "<span class='tip'><strong>Raportul psihosocial</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relația dintre oameni schimbă comunicarea.<br><br><strong>Formulare academică:</strong> statusul și rolul social determină modul de interacțiune.<br><br><strong>Exemplu:</strong> profesor–elev vs. coleg–coleg.</span></span>",
+          "<span class='tip'><strong>Importanța contextului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> locul, timpul și instituția contează.<br><br><strong>Formulare academică:</strong> contextul include cadru, instituție, participanți și relațiile lor.<br><br><strong>Exemplu:</strong> comunicarea la birou vs. acasă.</span></span>",
+          "<span class='tip'><strong>Reducerea comunicării la cod și canal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta e viziunea tehnică, nu psihosociologică.<br><br><strong>Formulare academică:</strong> modelele psihosociologice depășesc analiza strict tehnică.<br><br><strong>Exemplu:</strong> includ relația și contextul.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Ce înseamnă <span class='tip'><strong>receptarea mesajului</strong><span class='tooltip-box'>Receptarea nu este pasivă, ci implică interpretare, inferență și selecție contextuală a sensului.</span></span> în aceste modele?",
+        text: "Ce înseamnă <span class='tip'><strong>multicanalitatea comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu comunicăm doar prin cuvinte.<br><br><strong>Formulare academică:</strong> mesajele sunt transmise pe căi verbale și nonverbale; se disting forme „digitale” și „analogice”.<br><br><strong>Exemplu:</strong> spui „da”, dar dai din cap „nu”.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Decodare mecanică a mesajului</strong><span class='tooltip-box'>Aceasta este o viziune depășită, specifică modelelor tehnice.</span></span>",
-          "<span class='tip'><strong>Interpretare activă și inferențială</strong><span class='tooltip-box'>Receptorul construiește sensul folosind contextul și experiența sa.</span></span>",
-          "<span class='tip'><strong>Recepție neutră, fără influență socială</strong><span class='tooltip-box'>Este fals: recepția este profund influențată social și relațional.</span></span>",
+          "<span class='tip'><strong>Mesajul include verbal și nonverbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea folosește cuvinte și semnale corporale.<br><br><strong>Formulare academică:</strong> limbajul digital (cuvinte) și analogic (gesturi, mimică) co-există.<br><br><strong>Exemplu:</strong> tonul schimbă sensul cuvintelor.</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar verbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, nonverbalul are un rol major.<br><br><strong>Formulare academică:</strong> o mare cantitate de informație este transmisă nonverbal.<br><br><strong>Exemplu:</strong> postura transmite atitudine.</span></span>",
+          "<span class='tip'><strong>Comunicarea este doar analogică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, există și componenta verbală (digitală).<br><br><strong>Formulare academică:</strong> mesajul verbal rămâne o parte esențială.<br><br><strong>Exemplu:</strong> explicațiile verbale din clasă.</span></span>",
         ],
-        answer: 1,
+        answer: 0,
+      },
+      {
+        text: "Ce descrie <span class='tip'><strong>raportul psihosocial?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relația dintre oameni în funcție de rol și statut.<br><br><strong>Formulare academică:</strong> raportul psihosocial este determinat de statusuri, identități sociale și poziții în actul comunicării.<br><br><strong>Exemplu:</strong> comunicarea cu un superior este diferită de comunicarea cu un prieten.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Relația determinată de statut și rol</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu vorbim la fel cu toți.<br><br><strong>Formulare academică:</strong> statusul social influențează modul de comunicare.<br><br><strong>Exemplu:</strong> profesor–elev, superior–subaltern.</span></span>",
+          "<span class='tip'><strong>Canalul tehnic al comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> canalul este un element tehnic, nu psihosocial.<br><br><strong>Formulare academică:</strong> canalul descrie mijlocul de transmitere, nu relația socială.<br><br><strong>Exemplu:</strong> telefon, email.</span></span>",
+          "<span class='tip'><strong>Codul lingvistic folosit</strong><span class='tooltip-box'><strong>Spus simplu:</strong> codul este altă componentă, nu raport psihosocial.<br><br><strong>Formulare academică:</strong> raportul psihosocial descrie relații sociale, nu limbajul folosit.<br><br><strong>Exemplu:</strong> aceeași limbă, dar relații diferite.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce include <span class='tip'><strong>contextul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cadrul, instituția și participanții influențează comunicarea.<br><br><strong>Formulare academică:</strong> contextul cuprinde co-textul (mediul discursiv) și elemente extralingvistice: cadru, instituție, participanți și relațiile dintre ei.<br><br><strong>Exemplu:</strong> nu comunici la fel la ședință ca acasă.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Cadrul fizic și temporal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul contează.<br><br><strong>Formulare academică:</strong> cadrul include aspecte topografice și temporale ale întâlnirii.<br><br><strong>Exemplu:</strong> birou vs. plajă.</span></span>",
+          "<span class='tip'><strong>Instituția și cultura</strong><span class='tooltip-box'><strong>Spus simplu:</strong> regulile instituției influențează comunicarea.<br><br><strong>Formulare academică:</strong> cultura și instituțiile impun norme și constrângeri ale schimbului.<br><br><strong>Exemplu:</strong> școala vs. familie.</span></span>",
+          "<span class='tip'><strong>Numărul de participanți</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea în doi diferă de comunicarea în grup.<br><br><strong>Formulare academică:</strong> numărul de indivizi schimbă ritmul și tipul comunicării.<br><br><strong>Exemplu:</strong> intimitate vs. public.</span></span>",
+          "<span class='tip'><strong>Doar structura gramaticală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu, contextul e mult mai larg.<br><br><strong>Formulare academică:</strong> elementele extralingvistice sunt esențiale în acest model.<br><br><strong>Exemplu:</strong> relațiile dintre participanți.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Cum este înțeleasă <span class='tip'><strong>recepția mesajului?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> receptorul interpretează activ, nu doar „primește”.<br><br><strong>Formulare academică:</strong> recepția include inferență și interpretare, prin selectarea sensurilor relevante în raport cu contextul.<br><br><strong>Exemplu:</strong> înțelegi un mesaj implicit după situație.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Interpretare activă și inferențială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> receptorul „completează” sensul.<br><br><strong>Formulare academică:</strong> sensul decurge din implicații și context explicit.<br><br><strong>Exemplu:</strong> îți dai seama că e ironie după ton.</span></span>",
+          "<span class='tip'><strong>Decodare mecanică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este viziunea tehnică, nu psihosociologică.<br><br><strong>Formulare academică:</strong> recepția nu e doar decodare, ci interpretare socială.<br><br><strong>Exemplu:</strong> „Bine” spus ironic.</span></span>",
+          "<span class='tip'><strong>Recepție fără context</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contextul este esențial în înțelegere.<br><br><strong>Formulare academică:</strong> interpretarea se bazează pe context și relație.<br><br><strong>Exemplu:</strong> aceeași frază într-un alt loc are alt sens.</span></span>",
+        ],
+        answer: 0,
       },
     ],
   },
+
   {
     id: "pedcom-1-5C-q1",
     title:
@@ -3297,184 +3438,3800 @@ window.PEDCOM_QUIZ = [
       },
     ],
   },
+
+  {
+    id: "pedcom-2-2-q1",
+    title: "Formele comunicării: sens și condiții de bază",
+    questions: [
+      {
+        text: "Cum se diferențiază <span class='tip'><strong>comunicarea socială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se învață și folosește simboluri (cuvinte, reguli).<br><br><strong>Formulare academică:</strong> este un schimb de informații învățat în interacțiuni sociale, realizat prin sisteme simbolice.</span></span> de <span class='tip'><strong>comunicarea spontană?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este înnăscută și folosește semne biologice.<br><br><strong>Formulare academică:</strong> este determinată biologic și utilizează semne naturale ca mijloc de comunicare.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Comunicarea socială este învățată și simbolică</strong><span class='tooltip-box'><strong>Exemplu:</strong> înveți să spui «mulțumesc» și să folosești formule de politețe.</span></span>",
+          "<span class='tip'><strong>Comunicarea spontană este înnăscută și folosește semne</strong><span class='tooltip-box'><strong>Exemplu:</strong> plânsul bebelușului transmite o nevoie.</span></span>",
+          "<span class='tip'><strong>Comunicarea socială este exclusiv instinctivă</strong><span class='tooltip-box'><strong>Distractor:</strong> este construită prin învățare și norme culturale.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Când <span class='tip'><strong>transferul de informație</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu e suficient să trimiți mesajul, trebuie și înțeles.<br><br><strong>Formulare academică:</strong> comunicarea apare doar când mesajul este decodificat și urmat de un răspuns adecvat.</span></span> devine comunicare?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Când mesajul este înțeles și urmat de un răspuns adecvat</strong><span class='tooltip-box'><strong>Exemplu:</strong> elevul răspunde corect după ce a înțeles instrucțiunea.</span></span>",
+          "<span class='tip'><strong>Când mesajul este transmis rapid</strong><span class='tooltip-box'><strong>Distractor:</strong> viteza nu garantează înțelegerea.</span></span>",
+          "<span class='tip'><strong>Când există doar un emițător activ</strong><span class='tooltip-box'><strong>Distractor:</strong> comunicarea presupune și receptare activă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce condiții susțin o comunicare interumană funcțională?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Roluri egale pentru emițător și receptor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ambii sunt activi, nu doar unul vorbește.</span></span>",
+          "<span class='tip'><strong>Comunitate de limbaj și interese</strong><span class='tooltip-box'><strong>Spus simplu:</strong> folosesc același cod și urmăresc sensuri compatibile.</span></span>",
+          "<span class='tip'><strong>Feedback care menține dialogul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul receptorului confirmă sau corectează.</span></span>",
+          "<span class='tip'><strong>Receptor pasiv, fără răspuns</strong><span class='tooltip-box'><strong>Distractor:</strong> lipsa feedbackului slăbește actul comunicării.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-2-q2",
+    title: "Criterii și tipuri de clasificare a comunicării",
+    questions: [
+      {
+        text: "Ce criterii folosește <span class='tip'><strong>Luminița Iacob?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clasifică după parteneri, statut, cod, scop, feedback și conținut (Iacob apud Cucoș, 1998).</span></span> pentru a delimita formele comunicării?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Numărul partenerilor</strong><span class='tooltip-box'><strong>Exemplu:</strong> intrapersonală, interpersonală, grup mic, publică.</span></span>",
+          "<span class='tip'><strong>Statutul interlocutorilor</strong><span class='tooltip-box'><strong>Exemplu:</strong> verticală vs. orizontală.</span></span>",
+          "<span class='tip'><strong>Codul folosit</strong><span class='tooltip-box'><strong>Exemplu:</strong> verbală, paraverbală, nonverbală, mixtă.</span></span>",
+          "<span class='tip'><strong>Finalitatea actului comunicativ</strong><span class='tooltip-box'><strong>Exemplu:</strong> accidentală, subiectivă, instrumentală.</span></span>",
+          "<span class='tip'><strong>Capacitatea autoreglării</strong><span class='tooltip-box'><strong>Exemplu:</strong> lateralizată vs. nelateralizată.</span></span>",
+          "<span class='tip'><strong>Natura conținutului</strong><span class='tooltip-box'><strong>Exemplu:</strong> referențială, operațional-metodologică, atitudinală.</span></span>",
+          "<span class='tip'><strong>Vârsta emițătorului</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este criteriu în această clasificare.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4, 5],
+      },
+      {
+        text: "Cum se diferențiază comunicarea <span class='tip'><strong>lateralizată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără feedback.</span></span> de comunicarea <span class='tip'><strong>nelateralizată?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cu feedback, față în față.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Lateralizata nu are feedback, nelateralizata are feedback direct</strong><span class='tooltip-box'><strong>Exemplu:</strong> film vs. dialog.</span></span>",
+          "<span class='tip'><strong>Lateralizata are feedback intens, nelateralizata nu</strong><span class='tooltip-box'><strong>Distractor:</strong> este invers.</span></span>",
+          "<span class='tip'><strong>Ambele au feedback identic</strong><span class='tooltip-box'><strong>Distractor:</strong> diferența este tocmai feedbackul.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce exprimă comunicarea <span class='tip'><strong>referențială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> transmite un adevăr / o informație.</span></span> comparativ cu cea <span class='tip'><strong>operațional-metodologică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> explică cum operezi cu acel adevăr.</span></span> și <span class='tip'><strong>atitudinală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> evaluează și valorizează.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Referențială = vizează un anumit adevăr</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Apa fierbe la 100°C”.</span></span>",
+          "<span class='tip'><strong>Operațional-metodologică = explică felul de operare</strong><span class='tooltip-box'><strong>Exemplu:</strong> pașii prin care ajungi la concluzie.</span></span>",
+          "<span class='tip'><strong>Atitudinală = valorizează situația, mesajul și partenerul</strong><span class='tooltip-box'><strong>Exemplu:</strong> „E important ce ai spus”.</span></span>",
+          "<span class='tip'><strong>Referențială = exprimă doar emoții</strong><span class='tooltip-box'><strong>Distractor:</strong> emoțiile țin mai mult de atitudinal.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Care sunt formele după <span class='tip'><strong>numărul partenerilor?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cu tine, cu unul, cu un grup mic, cu public larg.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Intrapersonală</strong><span class='tooltip-box'><strong>Exemplu:</strong> dialog interior.</span></span>",
+          "<span class='tip'><strong>Interpersonală</strong><span class='tooltip-box'><strong>Exemplu:</strong> dialog între două persoane.</span></span>",
+          "<span class='tip'><strong>În grup mic</strong><span class='tooltip-box'><strong>Exemplu:</strong> echipă care rezolvă o problemă.</span></span>",
+          "<span class='tip'><strong>Publică</strong><span class='tooltip-box'><strong>Exemplu:</strong> conferință sau mesaj către public larg.</span></span>",
+          "<span class='tip'><strong>Metaformală</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este formă în această clasificare.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce sugerează <span class='tip'><strong>triunghiul comunicării?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu contează doar ce spui, ci și cum spui și cum arăți (Iovănuț, 2001).</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>7% ce spui, 38% cum spui, 55% nonverbal</strong><span class='tooltip-box'><strong>Exemplu:</strong> tonul și postura pot schimba sensul cuvintelor.</span></span>",
+          "<span class='tip'><strong>100% comunicarea este doar verbală</strong><span class='tooltip-box'><strong>Distractor:</strong> nonverbalul și paraverbalul au pondere mare.</span></span>",
+          "<span class='tip'><strong>38% este dat de scris, 55% de desen</strong><span class='tooltip-box'><strong>Distractor:</strong> valorile se referă la verbal, paraverbal și nonverbal.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-2-q3",
+    title: "Comunicarea intrapersonală: ce este și cum funcționează",
+    questions: [
+      {
+        text: "Ce înseamnă <span class='tip'><strong>comunicarea intrapersonală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dialogul tău interior – gânduri, emoții, felul în care te vezi.<br><br><strong>Formulare academică:</strong> comunicarea intrapersonală se referă la gândire, la procesarea internă a mesajelor și la autoevaluare, în care suntem simultan emițător și receptor.<br><br><strong>Exemplu:</strong> îți spui „am făcut bine” sau „trebuie să repar asta”.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Este dialogul interior și procesarea mesajelor care nu sunt observabile extern</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce se întâmplă „în mintea ta”.<br><br><strong>Formulare academică:</strong> include gândirea, emoțiile și modul în care îți interpretezi experiențele.<br><br><strong>Exemplu:</strong> îți faci planul pentru ziua următoare.</span></span>",
+          "<span class='tip'><strong>Este comunicarea publică desfășurată în fața unei audiențe mari</strong><span class='tooltip-box'><strong>Distractor:</strong> comunicarea publică implică audiență și feedback limitat, nu dialog interior.</span></span>",
+          "<span class='tip'><strong>Este un proces automat fără legătură cu gândirea și emoțiile</strong><span class='tooltip-box'><strong>Distractor:</strong> tocmai gândirea și emoțiile sunt nucleul comunicării intrapersonale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce rol are <span class='tip'><strong>auto-percepția</strong><span class='tooltip-box'><strong>Spus simplu:</strong> felul în care te vezi pe tine îți schimbă gândurile și reacțiile.<br><br><strong>Formulare academică:</strong> comunicarea intrapersonală include modul în care individul se vede pe sine și își interpretează experiențele personale.</span></span> în comunicarea intrapersonală?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Influentează felul în care interpretezi evenimentele</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceeași întâmplare poate părea succes sau eșec.<br><br><strong>Formulare academică:</strong> interpretarea mesajelor interne depinde de autoevaluare.<br><br><strong>Exemplu:</strong> după o zi bună, te vezi mai pozitiv.</span></span>",
+          "<span class='tip'><strong>Se modelează prin experiențele sociale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce spun ceilalți despre tine îți schimbă dialogul interior.<br><br><strong>Formulare academică:</strong> relațiile interpersonale influențează comunicarea intrapersonală.<br><br><strong>Exemplu:</strong> critica unui profesor poate activa auto-îndoiala.</span></span>",
+          "<span class='tip'><strong>Nu are legătură cu emoțiile</strong><span class='tooltip-box'><strong>Distractor:</strong> emoțiile sunt parte centrală a comunicării intrapersonale.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "De ce <span class='tip'><strong>comunicarea intrapersonală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pare simplă, dar e foarte complexă când luăm în calcul influențele sociale.</span></span> poate fi considerată „cea mai complexă”?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Pentru că include influențe interpersonale, de grup și publice, plus autoevaluare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> toate experiențele cu ceilalți ajung să modeleze dialogul interior.<br><br><strong>Formulare academică:</strong> comunicarea intrapersonală integrează influențele externe și criteriile personale de autoevaluare.<br><br><strong>Exemplu:</strong> o ceartă recentă schimbă felul în care te vezi.</span></span>",
+          "<span class='tip'><strong>Pentru că nu are nicio legătură cu mediul social</strong><span class='tooltip-box'><strong>Distractor:</strong> mediul social este o sursă majoră de influență.</span></span>",
+          "<span class='tip'><strong>Pentru că se desfășoară exclusiv în fața unui public</strong><span class='tooltip-box'><strong>Distractor:</strong> publicul ține de comunicarea publică, nu intrapersonală.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce evidențiază <span class='tip'><strong>exemplul cu ziua bună/rea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> starea ta schimbă modul în care te privești pe tine.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Dialogul interior este influențat de experiențele recente și de emoții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> emoțiile colorează autoevaluarea.<br><br><strong>Formulare academică:</strong> comunicarea intrapersonală reflectă experiențele interpersonale și modul în care acestea sunt interiorizate.<br><br><strong>Exemplu:</strong> un conflict te face să te concentrezi pe eșec.</span></span>",
+          "<span class='tip'><strong>Comunicarea intrapersonală este independentă de context</strong><span class='tooltip-box'><strong>Distractor:</strong> contextul are impact direct.</span></span>",
+          "<span class='tip'><strong>Comunicarea intrapersonală este identică la toți oamenii</strong><span class='tooltip-box'><strong>Distractor:</strong> există diferențe individuale.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum influențează <span class='tip'><strong>comunicarea interpersonală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce trăiești cu ceilalți intră în „vocea ta interioară”.</span></span> dialogul interior?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Modelează modul în care vorbești cu tine însuți</strong><span class='tooltip-box'><strong>Spus simplu:</strong> preiei mesaje auzite de la alții.<br><br><strong>Formulare academică:</strong> experiențele sociale determină structura autoevaluării.<br><br><strong>Exemplu:</strong> laudele repetate cresc încrederea.</span></span>",
+          "<span class='tip'><strong>Poate activa emoții precum succesul sau eșecul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reacțiile celorlalți îți schimbă starea internă.<br><br><strong>Formulare academică:</strong> reacțiile sociale influențează interpretarea internă a evenimentelor.<br><br><strong>Exemplu:</strong> critica poate genera îndoială.</span></span>",
+          "<span class='tip'><strong>Nu are nicio influență asupra autoevaluării</strong><span class='tooltip-box'><strong>Distractor:</strong> influența este una dintre ideile centrale.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-2-q4",
+    title: "Comunicarea interpersonală, în grup mic și publică",
+    questions: [
+      {
+        text: "Cum este descrisă <span class='tip'><strong>comunicarea interpersonală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schimb direct între persoane, cu feedback rapid.<br><br><strong>Formulare academică:</strong> comunicarea interpersonală este o relație de schimb, de întreținere a relațiilor, în care ambii parteneri sunt emițători și receptori.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Are de obicei o formă informală și nestructurată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conversații naturale, fără scenariu fix.<br><br><strong>Formulare academică:</strong> interacțiunea diadică este flexibilă și permite ajustări rapide.<br><br><strong>Exemplu:</strong> discuție între colegi.</span></span>",
+          "<span class='tip'><strong>Folosește toate componentele comunicării (verbal, nonverbal, feedback)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează cuvintele, tonul și reacțiile.<br><br><strong>Formulare academică:</strong> canalele principale sunt auzul și văzul, iar feedbackul este imediat.<br><br><strong>Exemplu:</strong> răspunsuri rapide la întrebări.</span></span>",
+          "<span class='tip'><strong>Feedbackul este limitat și întârziat</strong><span class='tooltip-box'><strong>Distractor:</strong> feedbackul în interpersonal este rapid și direct.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce caracterizează <span class='tip'><strong>comunicarea în grup mic?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grup mic, scop clar, discuții mai structurate.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Se desfășoară cu scop clar (rezolvarea unei probleme)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu e doar conversație, ci colaborare.<br><br><strong>Formulare academică:</strong> conversațiile devin structurate și orientate spre obiectiv.<br><br><strong>Exemplu:</strong> echipă care planifică un proiect.</span></span>",
+          "<span class='tip'><strong>Este mai formală decât comunicarea diadică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apar reguli de discuție.<br><br><strong>Formulare academică:</strong> crește complexitatea procesului comunicațional și riscul de confuzie.<br><br><strong>Exemplu:</strong> fiecare vorbește pe rând.</span></span>",
+          "<span class='tip'><strong>Nu există feedback între participanți</strong><span class='tooltip-box'><strong>Distractor:</strong> feedbackul este prezent, deși mai complex.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Cum este descrisă <span class='tip'><strong>comunicarea publică?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesaj către audiență mare, feedback limitat.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Mesajul este înalt structurat și canalele sunt amplificate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> voce puternică, gesturi mai ample, suport vizual.<br><br><strong>Formulare academică:</strong> comunicarea publică folosește mijloace vizuale și vocale pentru audiență largă.<br><br><strong>Exemplu:</strong> conferință sau discurs public.</span></span>",
+          "<span class='tip'><strong>Feedbackul este limitat (nonverbal, întrebări la final)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> publicul ascultă mai mult decât intervine.<br><br><strong>Formulare academică:</strong> intervențiile directe sunt reduse, iar feedbackul este indirect.<br><br><strong>Exemplu:</strong> aplauze sau dezinteres.</span></span>",
+          "<span class='tip'><strong>Contextul este de regulă informal și spontan</strong><span class='tooltip-box'><strong>Distractor:</strong> comunicarea publică are cadru formal.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce idee centrală sintetizează <span class='tip'><strong>comunicarea interpersonală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „a avea în comun” – schimb real, nu doar exprimare.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Comunicarea este un comportament de schimb și întreținere a relației</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar „spui”, ci construiești relații.<br><br><strong>Formulare academică:</strong> comunicarea desemnează o relație de schimb de informații, idei, opinii și atitudini (Bougnoux; Wiener, apud Cerghit).<br><br><strong>Exemplu:</strong> dialogul clarifică și creează acord.</span></span>",
+          "<span class='tip'><strong>Comunicarea înseamnă doar expunere unilaterală</strong><span class='tooltip-box'><strong>Distractor:</strong> schimbul presupune reciprocitate.</span></span>",
+          "<span class='tip'><strong>Comunicarea interpersonală este identică cu public speaking</strong><span class='tooltip-box'><strong>Distractor:</strong> public speaking este o altă formă.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
   {
     id: "pedcom-2-3-q1",
-    title: "Funcțiile și specificul comunicării verbale",
+    title: "Comunicarea verbală: definiție și rol",
     questions: [
       {
-        text: "Privită per ansamblu, <span class='tip'><strong>comunicarea verbală?</strong><span class='tooltip-box'>Este forma de comunicare care folosește cuvinte și reguli de limbă pentru a construi sensuri explicite și verificabile.<br><br><strong>Exemplu:</strong> explici o regulă de matematică prin definiții și pași, nu doar prin gesturi.</span></span>",
+        text: "Ce este <span class='tip'><strong>comunicarea verbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> comunicare prin cuvinte și reguli ale limbii.<br><br><strong>Formulare academică:</strong> sistem de comunicare specific uman, bazat pe cuvinte ca simboluri, care permite transmiterea și organizarea informației.</span></span>?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Transmiterea de sensuri prin cuvinte și structură lingvistică, cu posibilitatea clarificării</strong><span class='tooltip-box'>Corect. Verbalul permite precizarea intenției și organizarea logică a ideilor, ceea ce susține învățarea și cooperarea.<br><br><strong>Exemplu:</strong> ceri o explicație: „Poți să reformulezi, te rog, ideea în două propoziții?”.</span></span>",
-          "<span class='tip'><strong>Transmiterea de sensuri doar prin postură, privire și distanță</strong><span class='tooltip-box'>Incorect. Asta descrie preponderent comunicarea nonverbală, care poate completa verbalul, dar nu îl înlocuiește ca instrument principal de formulare explicită.</span></span>",
-          "<span class='tip'><strong>Transmiterea de sensuri exclusiv prin ton, volum și ritm, fără a conta cuvintele</strong><span class='tooltip-box'>Incorect. Tonul și ritmul țin de paraverbal și influențează interpretarea, dar nu pot exprima la fel de precis concepte și relații logice.</span></span>",
+          "<span class='tip'><strong>Comunicarea realizată prin cuvinte și structuri ale limbii</strong><span class='tooltip-box'><strong>Exemplu:</strong> explici o idee folosind termeni și propoziții.</span></span>",
+          "<span class='tip'><strong>Comunicarea realizată doar prin gesturi</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta ține de nonverbal.</span></span>",
+          "<span class='tip'><strong>Comunicarea realizată doar prin ton și volum</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea sunt elemente paraverbale.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Care funcții sunt esențiale pentru comunicarea verbală în contexte educaționale?",
+        text: "Cum se definește <span class='tip'><strong>vorbirea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunete intenționate pentru a comunica, de la vocalize la fraze.</span></span> în raport cu limbajul?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Vorbirea este expresia sonoră a limbajului, emisă cu intenție de comunicare</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul trece de la vocalize la propoziții.</span></span>",
+          "<span class='tip'><strong>Vorbirea este un semn biologic fără scop comunicativ</strong><span class='tooltip-box'><strong>Distractor:</strong> vorbirea presupune intenție de comunicare.</span></span>",
+          "<span class='tip'><strong>Vorbirea este identică cu scrierea</strong><span class='tooltip-box'><strong>Distractor:</strong> scrisul este o formă distinctă a verbalului.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce rol are <span class='tip'><strong>limbajul verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> organizează gândirea și experiența.</span></span> în dezvoltarea copilului?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Explicarea și organizarea conținuturilor prin definiții, exemple și argumente</strong><span class='tooltip-box'>Corect. Verbalul structurează cunoașterea și face posibilă predarea sistematică.<br><br><strong>Exemplu:</strong> diferențiezi conceptul de cauză de cel de consecință în propoziții distincte.</span></span>",
-          "<span class='tip'><strong>Negocierea sensului prin întrebări, reformulări și verificarea înțelegerii</strong><span class='tooltip-box'>Corect. Comunicarea eficientă nu înseamnă doar emitere, ci și calibrare pe receptor.<br><br><strong>Exemplu:</strong> „Ce ai înțeles prin acest termen?” urmat de clarificare.</span></span>",
-          "<span class='tip'><strong>Stabilirea automată a adevărului, fără nevoie de interpretare sau context</strong><span class='tooltip-box'>Incorect. Mesajul verbal se interpretează în context, iar ambiguitatea poate apărea chiar și în propoziții corecte.</span></span>",
+          "<span class='tip'><strong>Ajută la transmiterea nevoilor și la controlul comportamentului</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul cere, refuză, atrage atenția.</span></span>",
+          "<span class='tip'><strong>Permite reprezentarea simbolică și gândirea abstractă</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul poate vorbi despre lucruri absente.</span></span>",
+          "<span class='tip'><strong>Este doar un instrument mecanic, fără rol cognitiv</strong><span class='tooltip-box'><strong>Distractor:</strong> limbajul susține gândirea.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Ce diferențiază comunicarea verbală de celelalte forme, prin avantajul ei principal?",
+        text: "Când apare, în mod tipic, <span class='tip'><strong>achiziția limbajului verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> spre finalul primului an de viață.</span></span> și ce rol are familia?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Poate exprima concepte abstracte și relații logice cu precizie</strong><span class='tooltip-box'>Corect. Verbalul poate construi definiții și argumente, ceea ce îl face central în învățare și coordonare.<br><br><strong>Exemplu:</strong> explici o regulă: „Dacă A atunci B, altfel C”.</span></span>",
-          "<span class='tip'><strong>Este întotdeauna mai credibilă decât nonverbalul</strong><span class='tooltip-box'>Incorect. Credibilitatea depinde de congruența dintre canale. Uneori nonverbalul contrazice verbalul și schimbă interpretarea.</span></span>",
-          "<span class='tip'><strong>Nu poate fi influențată de emoții sau relație</strong><span class='tooltip-box'>Incorect. Emoțiile și relația influențează alegerea cuvintelor, interpretarea și disponibilitatea pentru dialog.</span></span>",
+          "<span class='tip'><strong>La sfârșitul primului an; limba se învață în familie, cu rol esențial al mamei</strong><span class='tooltip-box'><strong>Exemplu:</strong> primele cuvinte apar în mediul familial.</span></span>",
+          "<span class='tip'><strong>În adolescență; familia are rol secundar</strong><span class='tooltip-box'><strong>Distractor:</strong> achiziția e timpurie și familia este centrală.</span></span>",
+          "<span class='tip'><strong>Doar la școală; familia nu contează</strong><span class='tooltip-box'><strong>Distractor:</strong> limba maternă se formează în familie.</span></span>",
         ],
         answer: 0,
       },
     ],
   },
-
   {
     id: "pedcom-2-3-q2",
-    title: "Claritate, coerență, adecvare și feedback în verbal",
+    title: "Teorii ale achiziției limbajului verbal",
     questions: [
       {
-        text: "Ce înseamnă <span class='tip'><strong>claritatea mesajului verbal?</strong><span class='tooltip-box'>Claritatea înseamnă formulare ușor de urmărit, cu termeni potriviți nivelului receptorului și fără ambiguități inutile.<br><br><strong>Exemplu:</strong> în loc de „fă asta”, spui „rezolvă exercițiile 1 și 2 până mâine”.</span></span>",
+        text: "Ce afirmă <span class='tip'><strong>teoria învățării limbajului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copilul învață prin imitare și corectare (Skinner, 1957).</span></span>?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Formulare explicită, precisă și ușor de urmărit pentru interlocutor</strong><span class='tooltip-box'>Corect. Claritatea scade riscul de interpretări greșite și crește eficiența comunicării.<br><br><strong>Exemplu:</strong> „Trimite mi rezumatul în două paragrafe până la ora 18”.</span></span>",
-          "<span class='tip'><strong>Folosirea unui vocabular cât mai sofisticat, indiferent de public</strong><span class='tooltip-box'>Incorect. Vocabularul prea tehnic poate reduce înțelegerea și crește distanța dintre vorbitori.</span></span>",
-          "<span class='tip'><strong>Spunerea acelorași idei de mai multe ori, fără structură</strong><span class='tooltip-box'>Incorect. Repetiția fără organizare poate produce confuzie, chiar dacă intenția este de clarificare.</span></span>",
+          "<span class='tip'><strong>Copilul imită vorbirea adultului și este corectat prin întărire</strong><span class='tooltip-box'><strong>Exemplu:</strong> greșelile sunt corectate, iar formele corecte sunt întărite.</span></span>",
+          "<span class='tip'><strong>Copilul nu are nevoie de contact social pentru limbaj</strong><span class='tooltip-box'><strong>Distractor:</strong> teoria subliniază imitarea.</span></span>",
+          "<span class='tip'><strong>Copilul nu învață, ci vorbește perfect din naștere</strong><span class='tooltip-box'><strong>Distractor:</strong> achiziția este progresivă.</span></span>",
         ],
         answer: 0,
       },
       {
-        text: "Ce descrie cel mai bine <span class='tip'><strong>coerența discursului?</strong><span class='tooltip-box'>Coerența este legătura logică dintre idei, cu treceri explicite și concluzii care rezultă din premise.<br><br><strong>Exemplu:</strong> întâi definești termenul, apoi dai criteriile, apoi aplici pe un caz.</span></span>",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Organizarea ideilor astfel încât să existe o succesiune logică și conectare între afirmații</strong><span class='tooltip-box'>Corect. Coerența face mesajul previzibil și ușor de procesat.<br><br><strong>Exemplu:</strong> „Întâi explic cauza, apoi efectul, apoi concluzia”.</span></span>",
-          "<span class='tip'><strong>Alternarea rapidă a subiectelor ca să menții atenția</strong><span class='tooltip-box'>Incorect. Schimbarea frecventă a subiectului rupe firul și reduce înțelegerea.</span></span>",
-          "<span class='tip'><strong>Folosirea multor exemple, chiar dacă nu au legătură între ele</strong><span class='tooltip-box'>Incorect. Exemplele ajută doar dacă susțin aceeași idee și sunt integrate în structură.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Ce înseamnă <span class='tip'><strong>adecvarea</strong><span class='tooltip-box'>Adecvarea este potrivirea mesajului cu scopul, contextul și caracteristicile receptorului.<br><br><strong>Exemplu:</strong> explici aceeași noțiune diferit unui copil și unui coleg.</span></span> în comunicarea verbală?",
+        text: "Ce argumente arată limitele <span class='tip'><strong>imitării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copiii creează propoziții originale.</span></span> ca explicație unică?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Alegerea termenilor în funcție de nivelul de înțelegere al interlocutorului</strong><span class='tooltip-box'>Corect. Adecvarea reduce efortul cognitiv inutil.</span></span>",
-          "<span class='tip'><strong>Adaptarea lungimii și structurii mesajului la situație</strong><span class='tooltip-box'>Corect. Uneori ai nevoie de un rezumat, alteori de explicație detaliată.</span></span>",
-          "<span class='tip'><strong>Menținerea aceluiași stil indiferent de public, ca semn de consecvență</strong><span class='tooltip-box'>Incorect. Consecvența nu înseamnă rigiditate. Adecvarea cere flexibilitate.</span></span>",
+          "<span class='tip'><strong>Copiii produc propoziții noi, pe care nu le-au auzit</strong><span class='tooltip-box'><strong>Exemplu:</strong> enunțuri scurte din două cuvinte create de copil.</span></span>",
+          "<span class='tip'><strong>Achiziția limbajului urmează secvențe relativ standardizate</strong><span class='tooltip-box'><strong>Exemplu:</strong> apar etape similare chiar în medii diferite.</span></span>",
+          "<span class='tip'><strong>Copiii vorbesc doar ceea ce aud, fără variație</strong><span class='tooltip-box'><strong>Distractor:</strong> există creativitate lingvistică.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Ce rol are <span class='tip'><strong>feedbackul?</strong><span class='tooltip-box'>Feedbackul este răspunsul receptorului, folosit pentru a verifica înțelegerea și a regla comunicarea.<br><br><strong>Exemplu:</strong> „Poți să îmi spui cu cuvintele tale ce ai înțeles?”</span></span>",
+        text: "Ce susține <span class='tip'><strong>teoria psiholingvistică (mentalistă)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copilul învață reguli și le aplică (Chomsky, 1968-1972).</span></span>?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Verifică înțelegerea și permite corectarea mesajului dacă apare neclaritate</strong><span class='tooltip-box'>Corect. Feedbackul transformă comunicarea într un proces, nu într o simplă transmitere.<br><br><strong>Exemplu:</strong> dacă elevul reformulează greșit, revii cu o explicație mai simplă.</span></span>",
-          "<span class='tip'><strong>Înseamnă doar evaluarea interlocutorului, de obicei critică</strong><span class='tooltip-box'>Incorect. Feedbackul poate fi descriptiv și orientat spre clarificare, nu doar evaluativ.</span></span>",
-          "<span class='tip'><strong>Este opțional și nu schimbă calitatea comunicării</strong><span class='tooltip-box'>Incorect. Lipsa feedbackului crește riscul de neînțelegere și de false acorduri.</span></span>",
+          "<span class='tip'><strong>Copilul internalizează un sistem de reguli, nu doar imită</strong><span class='tooltip-box'><strong>Exemplu:</strong> poate genera propoziții corecte pe baza regulilor.</span></span>",
+          "<span class='tip'><strong>Copilul învață doar din corectarea greșelilor</strong><span class='tooltip-box'><strong>Distractor:</strong> asta ține de teoria învățării.</span></span>",
+          "<span class='tip'><strong>Limbajul este imposibil de învățat fără scris</strong><span class='tooltip-box'><strong>Distractor:</strong> achiziția are loc înainte de scris.</span></span>",
         ],
         answer: 0,
       },
+      {
+        text: "Ce idee centrală aduce <span class='tip'><strong>Lenneberg</strong><span class='tooltip-box'><strong>Spus simplu:</strong> abilitatea de limbaj simbolic este genetică și specific umană (1969).</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Limbajul simbolic este specific speciei umane</strong><span class='tooltip-box'><strong>Exemplu:</strong> primatele nu ajung să vorbească.</span></span>",
+          "<span class='tip'><strong>Achiziția limbajului cere un nivel cognitiv și motor minim</strong><span class='tooltip-box'><strong>Exemplu:</strong> dezvoltarea neurală și motorie susține vorbirea.</span></span>",
+          "<span class='tip'><strong>Orice limbă poate fi învățată datorită bazei genetice</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul poate învăța limba mediului.</span></span>",
+          "<span class='tip'><strong>Limbajul se învață exclusiv prin citit</strong><span class='tooltip-box'><strong>Distractor:</strong> achiziția începe oral.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
     ],
   },
-
   {
     id: "pedcom-2-3-q3",
-    title: "Forme, registre și contexte ale verbalului",
+    title: "Limbaj, cultură și statut social",
     questions: [
       {
-        text: "Cum se diferențiază, în practică, <span class='tip'><strong>forma orală</strong><span class='tooltip-box'>Oralul este rapid și flexibil, dar mai dependent de context și de memorie.<br><br><strong>Exemplu:</strong> explicația la clasă poate fi ajustată imediat după reacția elevilor.</span></span> de <span class='tip'><strong>forma scrisă?</strong><span class='tooltip-box'>Scrisul oferă stabilitate și revizibilitate, dar feedbackul este de obicei întârziat.<br><br><strong>Exemplu:</strong> un mesaj scris poate fi recitit și corectat înainte de trimitere.</span></span>",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Oralul permite reglaj imediat prin reacții, iar scrisul permite revizuire și precizie mai mare</strong><span class='tooltip-box'>Corect. Diferența centrală este dinamica timpului și a corectării.<br><br><strong>Exemplu:</strong> la oral clarifici pe loc, la scris corectezi înainte.</span></span>",
-          "<span class='tip'><strong>Oralul este întotdeauna mai precis decât scrisul</strong><span class='tooltip-box'>Incorect. Oralul poate fi mai ambiguu, mai ales în grabă.</span></span>",
-          "<span class='tip'><strong>Scrisul nu transmite niciodată emoții sau atitudini</strong><span class='tooltip-box'>Incorect. Stilul, punctuația și alegerea cuvintelor transmit atitudine, chiar dacă diferit față de oral.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Ce este <span class='tip'><strong>registrul de limbaj?</strong><span class='tooltip-box'>Registrul este nivelul de formalitate și selecția expresiilor potrivite situației.<br><br><strong>Exemplu:</strong> la școală spui „vă rog să”, cu prietenii spui „poți să”.</span></span>",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Modul de exprimare adaptat la context, relație și scop</strong><span class='tooltip-box'>Corect. Registrul ajută la adecvare și la evitarea tensiunilor inutile.</span></span>",
-          "<span class='tip'><strong>Viteza cu care vorbești, măsurată în cuvinte pe minut</strong><span class='tooltip-box'>Incorect. Asta ține de ritm, deci de paraverbal.</span></span>",
-          "<span class='tip'><strong>Distanța fizică dintre interlocutori, exprimată în metri</strong><span class='tooltip-box'>Incorect. Asta ține de proxemică, deci de nonverbal.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Care exemple indică o adaptare corectă a registrului la context?",
+        text: "Cum influențează <span class='tip'><strong>modelele culturale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cultura dictează cum vorbim cu diferite persoane.</span></span> comunicarea verbală?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Folosirea unui limbaj mai formal într o situație evaluativă</strong><span class='tooltip-box'>Corect. Contextul cere adesea claritate și respect formal.</span></span>",
-          "<span class='tip'><strong>Folosirea unui limbaj mai colocvial într un grup de prieteni, când scopul este apropierea</strong><span class='tooltip-box'>Corect. Registrul poate susține coeziunea și confortul.</span></span>",
-          "<span class='tip'><strong>Păstrarea aceluiași stil indiferent de situație, ca să nu pari inconsecvent</strong><span class='tooltip-box'>Incorect. Asta poate deveni rigiditate și poate produce neadecvare.</span></span>",
+          "<span class='tip'><strong>Stabilesc norme de adresare diferite după statut și rol</strong><span class='tooltip-box'><strong>Exemplu:</strong> formule de politețe pentru persoane cu statut înalt.</span></span>",
+          "<span class='tip'><strong>Influențează topica frazei și vocabularul</strong><span class='tooltip-box'><strong>Exemplu:</strong> limbaj diferit pentru șef vs. coleg apropiat.</span></span>",
+          "<span class='tip'><strong>Elimină complet diferențele sociale în limbaj</strong><span class='tooltip-box'><strong>Distractor:</strong> diferențele se păstrează și se codifică.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "De ce <span class='tip'><strong>contextul</strong><span class='tooltip-box'>Contextul include scopul comunicării, normele situației și relația dintre participanți.<br><br><strong>Exemplu:</strong> aceeași propoziție poate fi glumă între prieteni și insultă într o relație tensionată.</span></span> schimbă sensul verbalului?",
+        text: "Ce semnalizează <span class='tip'><strong>modul de adresare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> persoana a II-a singular vs. plural arată apropierea și statutul.</span></span> într-o interacțiune?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Fiindcă aceeași formulare poate primi interpretări diferite în funcție de relație și situație</strong><span class='tooltip-box'>Corect. Sensul nu stă doar în cuvinte, ci și în condițiile în care sunt folosite.</span></span>",
-          "<span class='tip'><strong>Fiindcă sensul cuvintelor este mereu identic, indiferent de situație</strong><span class='tooltip-box'>Incorect. Sensul poate fi nuanțat de intenție, ton și context.</span></span>",
-          "<span class='tip'><strong>Fiindcă doar comunicarea nonverbală are context, verbalul nu</strong><span class='tooltip-box'>Incorect. Toate canalele sunt contextualizate.</span></span>",
+          "<span class='tip'><strong>Natura relației și distanța socială dintre interlocutori</strong><span class='tooltip-box'><strong>Exemplu:</strong> „tu” pentru relații apropiate, „dumneavoastră” pentru relații formale.</span></span>",
+          "<span class='tip'><strong>Doar preferința personală, fără semnificație socială</strong><span class='tooltip-box'><strong>Distractor:</strong> adresarea are funcție socială.</span></span>",
+          "<span class='tip'><strong>Doar accentul regional</strong><span class='tooltip-box'><strong>Distractor:</strong> accentul e paraverbal, nu modul de adresare.</span></span>",
         ],
         answer: 0,
+      },
+      {
+        text: "Cum este indicat <span class='tip'><strong>statutul social</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cei cu statut înalt vorbesc mai mult și sunt ascultați mai des.</span></span> în comunicare?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Frecvența și durata vorbirii sunt mai mari la statut înalt</strong><span class='tooltip-box'><strong>Exemplu:</strong> liderul vorbește mai des și este solicitat.</span></span>",
+          "<span class='tip'><strong>Opinia celor cu statut înalt este solicitată mai des</strong><span class='tooltip-box'><strong>Exemplu:</strong> liderul este întrebat pentru decizii.</span></span>",
+          "<span class='tip'><strong>Statutul nu se reflectă în comunicare</strong><span class='tooltip-box'><strong>Distractor:</strong> statutul se vede în roluri și adresare.</span></span>",
+        ],
+        answer: [0, 1],
       },
     ],
   },
-
   {
     id: "pedcom-2-3-q4",
-    title: "Riscuri și distorsiuni în comunicarea verbală",
+    title: "Caracteristici și condiții ale comunicării verbale",
     questions: [
       {
-        text: "Care este un risc frecvent al comunicării verbale legat de <span class='tip'><strong>ambiguitate?</strong><span class='tooltip-box'>Ambiguitatea apare când mesajul poate fi interpretat în mai multe feluri.<br><br><strong>Exemplu:</strong> „Ne vedem mai târziu” poate însemna peste o oră sau seara.</span></span>",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Folosirea unor formulări vagi care permit interpretări diferite</strong><span class='tooltip-box'>Corect. Ambiguitatea crește erorile și conflictele prin presupuneri nealiniate.</span></span>",
-          "<span class='tip'><strong>Folosirea unor termeni definiți clar și consecvent</strong><span class='tooltip-box'>Incorect. Asta reduce ambiguitatea, nu o produce.</span></span>",
-          "<span class='tip'><strong>Solicitarea de clarificări atunci când ceva nu este înțeles</strong><span class='tooltip-box'>Incorect. Clarificarea este un antidot, nu un risc.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Ce tip de distorsiune apare când interlocutorul <span class='tip'><strong>presupune intenții</strong><span class='tooltip-box'>Atribuirea intențiilor este când interpretezi mesajul prin ceea ce crezi despre celălalt, nu prin ce spune efectiv.<br><br><strong>Exemplu:</strong> „Ai întârziat” este interpretat ca „nu îți pasă de mine”.</span></span> fără verificare?",
-        multiple: false,
-        options: [
-          "<span class='tip'><strong>Interpretarea mesajului prin atribuiri, fără întrebări de verificare</strong><span class='tooltip-box'>Corect. Atribuirile necontrolate amplifică tensiunea și reduc acuratețea înțelegerii.</span></span>",
-          "<span class='tip'><strong>Reformularea mesajului pentru a verifica sensul</strong><span class='tooltip-box'>Incorect. Reformularea scade riscul de distorsiune.</span></span>",
-          "<span class='tip'><strong>Definirea termenilor înainte de folosire</strong><span class='tooltip-box'>Incorect. Definirea crește precizia și reduce interpretările eronate.</span></span>",
-        ],
-        answer: 0,
-      },
-      {
-        text: "Care situații pot produce distorsiuni verbale prin <span class='tip'><strong>supraîncărcare informațională?</strong><span class='tooltip-box'>Supraîncărcarea apare când mesajul are prea multe idei noi deodată, fără structură sau pauze de verificare.<br><br><strong>Exemplu:</strong> dai instrucțiuni în zece pași fără să verifici dacă au fost înțelese.</span></span>",
+        text: "Care sunt <span class='tip'><strong>caracteristicile comunicării verbale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clar, sincer, fluent, corect și cu ritm potrivit.</span></span> menționate în curs?",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Transmiterea mai multor instrucțiuni într o singură frază lungă</strong><span class='tooltip-box'>Corect. Crește riscul de pierdere a detaliilor și de confuzie.</span></span>",
-          "<span class='tip'><strong>Lipsa segmentării pe pași și lipsa verificării înțelegerii</strong><span class='tooltip-box'>Corect. Fără feedback, nu știi ce a fost procesat corect.</span></span>",
-          "<span class='tip'><strong>Folosirea unui singur concept la un moment dat, cu exemple scurte</strong><span class='tooltip-box'>Incorect. Asta este o strategie de reducere a încărcăturii cognitive.</span></span>",
+          "<span class='tip'><strong>Claritate și sinceritate</strong><span class='tooltip-box'><strong>Exemplu:</strong> mesaj direct, fără ambiguități.</span></span>",
+          "<span class='tip'><strong>Fluență și ritm</strong><span class='tooltip-box'><strong>Exemplu:</strong> discurs cursiv, fără blocaje.</span></span>",
+          "<span class='tip'><strong>Corectitudine (fără argou, jargon, stereotipii)</strong><span class='tooltip-box'><strong>Exemplu:</strong> limbaj adecvat contextului educațional.</span></span>",
+          "<span class='tip'><strong>Exagerare și hiperbolă permanentă</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este caracteristică de bază.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce trăsături comportamentale susțin <span class='tip'><strong>comunicarea eficientă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vorbești natural, clar și la obiect.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Naturalitate și claritate</strong><span class='tooltip-box'><strong>Exemplu:</strong> exprimare firească și ușor de urmărit.</span></span>",
+          "<span class='tip'><strong>Precizie și concizie</strong><span class='tooltip-box'><strong>Exemplu:</strong> cuvinte puține, dar exacte.</span></span>",
+          "<span class='tip'><strong>Armonie și finețe</strong><span class='tooltip-box'><strong>Exemplu:</strong> formulări care respectă interlocutorul.</span></span>",
+          "<span class='tip'><strong>Divagații și repetiții excesive</strong><span class='tooltip-box'><strong>Distractor:</strong> reduc claritatea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce strategii simple pot <span class='tip'><strong>declanșa o conversație</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pornești de la context, persoană sau întrebare.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Pornești de la contextul situațional</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Suntem la un workshop și…”</span></span>",
+          "<span class='tip'><strong>Pornești de la persoana din față</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Ce platformă ai ales?”</span></span>",
+          "<span class='tip'><strong>Folosești întrebări, opinii sau constatări</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Ce părere ai despre…?”</span></span>",
+          "<span class='tip'><strong>Refuzi orice contact vizual și rămâi tăcut</strong><span class='tooltip-box'><strong>Distractor:</strong> nu inițiază conversația.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce aspecte merită cunoscute despre <span class='tip'><strong>interlocutor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> observi cum stă, cum vorbește și ce valori are.</span></span> pentru a comunica eficient?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Aspecte nonverbale: distanță, postură, gestică, respirație</strong><span class='tooltip-box'><strong>Exemplu:</strong> corp tensionat indică disconfort.</span></span>",
+          "<span class='tip'><strong>Aspecte verbale/paraverbale: ritm, canal predominant</strong><span class='tooltip-box'><strong>Exemplu:</strong> un interlocutor auditiv preferă explicații orale.</span></span>",
+          "<span class='tip'><strong>Aspecte mentale: metacomunicare, valori, credințe, amintiri</strong><span class='tooltip-box'><strong>Exemplu:</strong> amintirile influențează interpretarea mesajelor.</span></span>",
+          "<span class='tip'><strong>Doar vârsta biologică</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este suficientă.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce tipuri de <span class='tip'><strong>atitudini</strong><span class='tooltip-box'><strong>Spus simplu:</strong> felul în care te raportezi la tine și la ceilalți.</span></span> apar în comunicare?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Atitudini de interpretare, evaluare, ajutor, chestionare, comprehensiune</strong><span class='tooltip-box'><strong>Formulare academică:</strong> tipologie Abric, inspirată de Porter.</span></span>",
+          "<span class='tip'><strong>Atitudini „Eu sunt OK / Tu ești OK” și variațiile lor</strong><span class='tooltip-box'><strong>Formulare academică:</strong> tipologie Harris: optimist, neîncrezător, deprimat, disperat.</span></span>",
+          "<span class='tip'><strong>Atitudini fără impact asupra comunicării</strong><span class='tooltip-box'><strong>Distractor:</strong> atitudinile influențează climatul relațional.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-4-q1",
+    title: "Comunicarea nonverbală: rol și principii",
+    questions: [
+      {
+        text: "Ce rol are <span class='tip'><strong>comunicarea nonverbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> însoțește vorbele și le nuanțează.</span></span> în interacțiune?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Accompaniază și contextualizează mesajul verbal</strong><span class='tooltip-box'><strong>Exemplu:</strong> un zâmbet schimbă sensul unei propoziții.</span></span>",
+          "<span class='tip'><strong>Facilitează înțelegerea intențiilor emițătorului</strong><span class='tooltip-box'><strong>Exemplu:</strong> postura deschisă arată disponibilitate.</span></span>",
+          "<span class='tip'><strong>Este învățată implicit, prin imitare și cultură</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul adoptă gesturi fără să i se explice.</span></span>",
+          "<span class='tip'><strong>Se transmite doar prin cuvinte</strong><span class='tooltip-box'><strong>Distractor:</strong> nonverbalul folosește alte semne.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce principii descriu comunicarea <span class='tip'><strong>nonverbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e culturală, uneori inconștientă și poate contrazice verbalul.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Este determinată cultural</strong><span class='tooltip-box'><strong>Exemplu:</strong> gesturi diferite între culturi.</span></span>",
+          "<span class='tip'><strong>Poate intra în conflict cu mesajul verbal</strong><span class='tooltip-box'><strong>Exemplu:</strong> spui „da” dar dai din cap a „nu”.</span></span>",
+          "<span class='tip'><strong>Este în mare parte inconștientă</strong><span class='tooltip-box'><strong>Exemplu:</strong> microexpresii faciale.</span></span>",
+          "<span class='tip'><strong>Este lipsită de rol afectiv</strong><span class='tooltip-box'><strong>Distractor:</strong> nonverbalul exprimă emoții.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce funcții atribuie <span class='tip'><strong>DeVito</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nonverbalul poate accentua, completa sau contrazice.</span></span> comunicării nonverbale?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Accentuare și completare</strong><span class='tooltip-box'><strong>Exemplu:</strong> gesturile întăresc ideea.</span></span>",
+          "<span class='tip'><strong>Contrazicere și substituire</strong><span class='tooltip-box'><strong>Exemplu:</strong> tăcerea și gestul pot înlocui cuvintele.</span></span>",
+          "<span class='tip'><strong>Regularizarea fluxului comunicațional</strong><span class='tooltip-box'><strong>Exemplu:</strong> semnalizezi că vrei să vorbești.</span></span>",
+          "<span class='tip'><strong>Eliminarea nevoii de context</strong><span class='tooltip-box'><strong>Distractor:</strong> contextul rămâne important.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-4-q2",
+    title: "Contact vizual și semnale ale privirii",
+    questions: [
+      {
+        text: "Ce funcții îndeplinește <span class='tip'><strong>contactul vizual</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reglează fluxul, arată emoții și relații.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Regularizează fluxul informațional</strong><span class='tooltip-box'><strong>Exemplu:</strong> indică cine vorbește.</span></span>",
+          "<span class='tip'><strong>Monitorizează feedbackul</strong><span class='tooltip-box'><strong>Exemplu:</strong> vezi dacă interlocutorul te urmărește.</span></span>",
+          "<span class='tip'><strong>Exprimă emoțiile și natura relației</strong><span class='tooltip-box'><strong>Exemplu:</strong> privire caldă vs. rece.</span></span>",
+          "<span class='tip'><strong>Elimină nevoia de cuvinte</strong><span class='tooltip-box'><strong>Distractor:</strong> nu înlocuiește verbalul.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Cum se interpretează <span class='tip'><strong>frecvența privirii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prea mult poate părea agresiv.</span></span> în context afectiv?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>În context pozitiv sugerează simpatie, iar excesul poate sugera agresivitate</strong><span class='tooltip-box'><strong>Exemplu:</strong> privirea insistentă poate fi inconfortabilă.</span></span>",
+          "<span class='tip'><strong>Frecvența privirii nu are semnificație</strong><span class='tooltip-box'><strong>Distractor:</strong> are rol afectiv.</span></span>",
+          "<span class='tip'><strong>Privirea lungă înseamnă mereu respect</strong><span class='tooltip-box'><strong>Distractor:</strong> depinde de context.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce poate indica <span class='tip'><strong>mărimea pupilei</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dilatarea poate arăta simpatie.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Pupile dilatate = simpatie</strong><span class='tooltip-box'><strong>Exemplu:</strong> interes pozitiv.</span></span>",
+          "<span class='tip'><strong>Pupile contractate = antipatie</strong><span class='tooltip-box'><strong>Exemplu:</strong> reacție negativă.</span></span>",
+          "<span class='tip'><strong>Mărimea pupilei nu influențează percepția</strong><span class='tooltip-box'><strong>Distractor:</strong> contribuie la interpretarea globală.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Ce crește probabilitatea conflictelor în comunicarea verbală atunci când nonverbalul și verbalul sunt <span class='tip'><strong>incongruente?</strong><span class='tooltip-box'>Incongruența apare când cuvintele spun una, iar tonul și expresia transmit altceva.<br><br><strong>Exemplu:</strong> spui „mă bucur pentru tine” cu o grimasă de dispreț.</span></span>",
+        text: "Cum se interpretează <span class='tip'><strong>privirea directă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> în Vest e deschidere, în unele culturi e lipsă de respect.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>În culturile vestice semnifică deschidere spre comunicare</strong><span class='tooltip-box'><strong>Exemplu:</strong> evitarea privirii pare nesinceritate.</span></span>",
+          "<span class='tip'><strong>În unele culturi orientale poate fi considerată sfidare</strong><span class='tooltip-box'><strong>Exemplu:</strong> față de persoane mai în vârstă sau cu statut superior.</span></span>",
+          "<span class='tip'><strong>Este interpretată identic în toate culturile</strong><span class='tooltip-box'><strong>Distractor:</strong> există norme culturale diferite.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-4-q3",
+    title: "Proxemică și spațiul interpersonal",
+    questions: [
+      {
+        text: "Ce tipuri de <span class='tip'><strong>distanțe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> intimă, personală, socială, publică (Hall).</span></span> există în comunicare?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Distanța intimă</strong><span class='tooltip-box'><strong>Exemplu:</strong> 0-15/40 cm, relații apropiate.</span></span>",
+          "<span class='tip'><strong>Distanța personală</strong><span class='tooltip-box'><strong>Exemplu:</strong> 45-125 cm, conversații familiare.</span></span>",
+          "<span class='tip'><strong>Distanța socială</strong><span class='tooltip-box'><strong>Exemplu:</strong> 125-360 cm, relații profesionale.</span></span>",
+          "<span class='tip'><strong>Distanța publică</strong><span class='tooltip-box'><strong>Exemplu:</strong> peste 3,6 m, discurs formal.</span></span>",
+          "<span class='tip'><strong>Distanța imaginară</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este tip proxemic.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce se întâmplă când <span class='tip'><strong>spațiul intim</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e invadat, apare tensiune.</span></span> este încălcat?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Faptul că receptorul acordă greutate canalului care pare mai autentic, de obicei nonverbalului</strong><span class='tooltip-box'>Corect. Incongruența produce neîncredere și interpretări negative.</span></span>",
-          "<span class='tip'><strong>Faptul că incongruența nu contează, deoarece doar cuvintele au sens</strong><span class='tooltip-box'>Incorect. În practică, incongruența schimbă interpretarea mesajului.</span></span>",
-          "<span class='tip'><strong>Faptul că incongruența apare doar în scris, nu în vorbire</strong><span class='tooltip-box'>Incorect. În vorbire, incongruența este chiar mai vizibilă prin ton și mimică.</span></span>",
+          "<span class='tip'><strong>Apare disconfort, iar persoana încearcă să restabilească distanța</strong><span class='tooltip-box'><strong>Exemplu:</strong> se retrage sau cere spațiu.</span></span>",
+          "<span class='tip'><strong>Crește automat încrederea</strong><span class='tooltip-box'><strong>Distractor:</strong> invadarea produce tensiune.</span></span>",
+          "<span class='tip'><strong>Nu are niciun efect asupra relației</strong><span class='tooltip-box'><strong>Distractor:</strong> distanța are rol comunicativ.</span></span>",
         ],
         answer: 0,
+      },
+      {
+        text: "Ce tipuri de <span class='tip'><strong>teritorii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> tribale, familiale, personale.</span></span> sunt menționate în curs?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Teritorii tribale</strong><span class='tooltip-box'><strong>Exemplu:</strong> spații ale grupului larg.</span></span>",
+          "<span class='tip'><strong>Teritorii familiale</strong><span class='tooltip-box'><strong>Exemplu:</strong> spații ale familiei.</span></span>",
+          "<span class='tip'><strong>Teritorii personale</strong><span class='tooltip-box'><strong>Exemplu:</strong> zona individuală de confort.</span></span>",
+          "<span class='tip'><strong>Teritorii digitale</strong><span class='tooltip-box'><strong>Distractor:</strong> nu apar în această clasificare.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-4-q4",
+    title: "Mimică, gesturi, aparență și alte canale nonverbale",
+    questions: [
+      {
+        text: "Ce caracterizează <span class='tip'><strong>expresia facială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> exprimă emoții și poate fi controlată.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Emoțiile de bază sunt exprimate reflex și sunt universale</strong><span class='tooltip-box'><strong>Exemplu:</strong> surpriza, bucuria.</span></span>",
+          "<span class='tip'><strong>Poate fi controlată pentru a intensifica sau masca emoții</strong><span class='tooltip-box'><strong>Exemplu:</strong> ascunzi supărarea.</span></span>",
+          "<span class='tip'><strong>Este complet lipsită de influență culturală</strong><span class='tooltip-box'><strong>Distractor:</strong> există norme culturale.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Cum sunt clasificate <span class='tip'><strong>gesturile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pot întări, înlocui sau exprima stări.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Ilustratoare (întăresc mesajul verbal)</strong><span class='tooltip-box'><strong>Exemplu:</strong> negarea din cap.</span></span>",
+          "<span class='tip'><strong>Adaptoare (indică stări emoționale)</strong><span class='tooltip-box'><strong>Exemplu:</strong> îți acoperi ochii.</span></span>",
+          "<span class='tip'><strong>Emblemă (înlocuiesc mesajul verbal)</strong><span class='tooltip-box'><strong>Exemplu:</strong> semnul V.</span></span>",
+          "<span class='tip'><strong>Gesturi fără nicio funcție comunicativă</strong><span class='tooltip-box'><strong>Distractor:</strong> chiar gesturile autice trădează stări.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce tipuri propune <span class='tip'><strong>Jean Esteoetzel</strong><span class='tooltip-box'><strong>Spus simplu:</strong> autice, obișnuite, simbolice.</span></span> pentru gesturi?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Autice</strong><span class='tooltip-box'><strong>Exemplu:</strong> frământarea mâinilor.</span></span>",
+          "<span class='tip'><strong>Obișnuite</strong><span class='tooltip-box'><strong>Exemplu:</strong> ridicarea mâinii la lecție.</span></span>",
+          "<span class='tip'><strong>Simbolice</strong><span class='tooltip-box'><strong>Exemplu:</strong> semn de aprobare.</span></span>",
+          "<span class='tip'><strong>Digitale</strong><span class='tooltip-box'><strong>Distractor:</strong> nu apare în această tipologie.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce canale nonverbale includ <span class='tip'><strong>aparenta, ambientul și obiectele</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum arăți și ce spațiu alegi spune ceva despre tine.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Îmbrăcămintea</strong><span class='tooltip-box'><strong>Exemplu:</strong> uniforma sugerează rolul.</span></span>",
+          "<span class='tip'><strong>Ambientul (spațiul interior)</strong><span class='tooltip-box'><strong>Exemplu:</strong> decorul reflectă personalitatea.</span></span>",
+          "<span class='tip'><strong>Obiectele (culoare, ordine, distribuție)</strong><span class='tooltip-box'><strong>Exemplu:</strong> culori calde stimulează comunicarea.</span></span>",
+          "<span class='tip'><strong>Doar cuvintele alese</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea sunt verbale.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-4-q5",
+    title: "Cromatic, chimic, tactil și indicatori nonverbali",
+    questions: [
+      {
+        text: "Ce semnificații sunt menționate pentru <span class='tip'><strong>culori</strong><span class='tooltip-box'><strong>Spus simplu:</strong> culorile influențează starea și comunicarea.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Albastru închis = liniște, pasivitate</strong><span class='tooltip-box'><strong>Exemplu:</strong> favorizează somnul.</span></span>",
+          "<span class='tip'><strong>Galben strălucitor = speranță și activitate</strong><span class='tooltip-box'><strong>Exemplu:</strong> asociat cu energie.</span></span>",
+          "<span class='tip'><strong>Roșu = optim pentru gândire creatoare</strong><span class='tooltip-box'><strong>Exemplu:</strong> stimulează energia.</span></span>",
+          "<span class='tip'><strong>Verde = ajută la lucrul cu idei</strong><span class='tooltip-box'><strong>Exemplu:</strong> susține clarificarea.</span></span>",
+          "<span class='tip'><strong>Culorile nu influențează comunicarea</strong><span class='tooltip-box'><strong>Distractor:</strong> culorile pot stimula sau inhiba.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce descrie <span class='tip'><strong>comunicarea chimică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mirosurile influențează relația.</span></span>?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Influența mirosurilor asupra percepției și stării interlocutorului</strong><span class='tooltip-box'><strong>Exemplu:</strong> parfumul poate crea apropiere sau respingere.</span></span>",
+          "<span class='tip'><strong>Doar un efect estetic fără rol comunicativ</strong><span class='tooltip-box'><strong>Distractor:</strong> poate modifica relația și dispoziția.</span></span>",
+          "<span class='tip'><strong>Un mesaj transmis prin scriere</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de comunicarea scrisă.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce indică <span class='tip'><strong>comunicarea tactilă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> atingerile arată relația de putere sau apropiere.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Palma orientată în jos = dominare</strong><span class='tooltip-box'><strong>Exemplu:</strong> salut cu palmă peste a celuilalt.</span></span>",
+          "<span class='tip'><strong>Palma orientată în sus = supunere</strong><span class='tooltip-box'><strong>Exemplu:</strong> arată cedare.</span></span>",
+          "<span class='tip'><strong>Palma lateral = egalitate</strong><span class='tooltip-box'><strong>Exemplu:</strong> salut simetric.</span></span>",
+          "<span class='tip'><strong>Orientarea palmei nu are semnificație</strong><span class='tooltip-box'><strong>Distractor:</strong> are rol de status.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce înseamnă <span class='tip'><strong>indicatori ai dominanței</strong><span class='tooltip-box'><strong>Spus simplu:</strong> semne prin care cineva pare dominant (Collett, 2010).</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Înălțime și postură dreaptă</strong><span class='tooltip-box'><strong>Exemplu:</strong> „postura călărețului”.</span></span>",
+          "<span class='tip'><strong>Ocuparea spațiului și orientarea corpului</strong><span class='tooltip-box'><strong>Exemplu:</strong> picioare întinse, corpul nu e orientat spre subordonat.</span></span>",
+          "<span class='tip'><strong>Atingerea și privirea</strong><span class='tooltip-box'><strong>Exemplu:</strong> dominanța vizuală.</span></span>",
+          "<span class='tip'><strong>Menținerea completă a distanței fără contact vizual</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este un indicator tipic.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce avantaje aduce <span class='tip'><strong>decodificarea limbajului nonverbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îl înțelegi mai bine pe celălalt.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Anticipezi starea de spirit a celuilalt</strong><span class='tooltip-box'><strong>Exemplu:</strong> observi tensiunea înainte de a fi spusă.</span></span>",
+          "<span class='tip'><strong>Crești empatia și adaptarea comunicării</strong><span class='tooltip-box'><strong>Exemplu:</strong> ajustezi tonul și mesajul.</span></span>",
+          "<span class='tip'><strong>Îți controlezi mai bine propriile semnale</strong><span class='tooltip-box'><strong>Exemplu:</strong> eviți gesturi care trădează emoții.</span></span>",
+          "<span class='tip'><strong>Elimini complet nevoia de verbal</strong><span class='tooltip-box'><strong>Distractor:</strong> verbalul rămâne esențial.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-5-q1",
+    title: "Comunicarea paraverbală",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>comunicarea paraverbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum sună mesajul, nu doar ce spune.</span></span>?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Mesajul transmis prin elemente vocale care însoțesc cuvântul</strong><span class='tooltip-box'><strong>Exemplu:</strong> ton, ritm, pauze.</span></span>",
+          "<span class='tip'><strong>Mesajul transmis prin gesturi</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea sunt nonverbale.</span></span>",
+          "<span class='tip'><strong>Mesajul transmis doar prin scris</strong><span class='tooltip-box'><strong>Distractor:</strong> scrisul e verbal.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce elemente intră în <span class='tip'><strong>paralimbaj</strong><span class='tooltip-box'><strong>Spus simplu:</strong> viteză, ton, volum, pauze, timbru, dicție.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Ritm și viteză</strong><span class='tooltip-box'><strong>Exemplu:</strong> repede = urgență, lent = monotonie.</span></span>",
+          "<span class='tip'><strong>Înălțimea tonului și volumul</strong><span class='tooltip-box'><strong>Exemplu:</strong> ton înalt = iritare.</span></span>",
+          "<span class='tip'><strong>Pauze și timbru</strong><span class='tooltip-box'><strong>Exemplu:</strong> pauza subliniază idei.</span></span>",
+          "<span class='tip'><strong>Dicție și accent</strong><span class='tooltip-box'><strong>Exemplu:</strong> accentul schimbă sensul frazei.</span></span>",
+          "<span class='tip'><strong>Ortografia</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de scris.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Ce rol are <span class='tip'><strong>paralimbajul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poate schimba sensul mesajului.</span></span> în înțelegerea mesajului?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Poate modifica sensul cuvintelor</strong><span class='tooltip-box'><strong>Exemplu:</strong> același „da” spus diferit.</span></span>",
+          "<span class='tip'><strong>Contribuie la credibilitate și profunzime</strong><span class='tooltip-box'><strong>Exemplu:</strong> mesajul e mai credibil când verbalul și nonverbalul sunt congruente.</span></span>",
+          "<span class='tip'><strong>Are o pondere înțeleasă ca ~39% din sens (Mehrabian)</strong><span class='tooltip-box'><strong>Formulare academică:</strong> paraverbalul influențează puternic interpretarea (Pânișoară, 2003).</span></span>",
+          "<span class='tip'><strong>Nu are impact asupra interpretării</strong><span class='tooltip-box'><strong>Distractor:</strong> influențează puternic.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce tipuri de <span class='tip'><strong>tăceri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> tăcerea poate însemna multe (Cucoș, 1994).</span></span> sunt menționate?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Tăceri de nedumerire, vinovăție, protest, aprobare</strong><span class='tooltip-box'><strong>Exemplu:</strong> tăcere după o întrebare grea.</span></span>",
+          "<span class='tip'><strong>Tăceri laborioase, stimulative, condamnări</strong><span class='tooltip-box'><strong>Exemplu:</strong> tăcere când cineva se gândește intens.</span></span>",
+          "<span class='tip'><strong>Tăceri obraznice, indiferente, obositoare</strong><span class='tooltip-box'><strong>Exemplu:</strong> lipsa răspunsului intenționată.</span></span>",
+          "<span class='tip'><strong>Tăceri exclusiv neutre</strong><span class='tooltip-box'><strong>Distractor:</strong> tăcerea are semnificații diverse.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-6-q1",
+    title: "Comunicarea scrisă",
+    questions: [
+      {
+        text: "Ce presupune <span class='tip'><strong>comunicarea scrisă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cod specific și mesaj foarte clar.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Cunoașterea unui cod specific</strong><span class='tooltip-box'><strong>Exemplu:</strong> reguli de scriere și punctuație.</span></span>",
+          "<span class='tip'><strong>Control exigent al informațiilor și argumentelor</strong><span class='tooltip-box'><strong>Exemplu:</strong> mesajul trebuie să fie complet în sine.</span></span>",
+          "<span class='tip'><strong>Un raport optim între informație și timp</strong><span class='tooltip-box'><strong>Exemplu:</strong> suficient, dar nu redundant.</span></span>",
+          "<span class='tip'><strong>Absența oricărei structuri</strong><span class='tooltip-box'><strong>Distractor:</strong> structura e esențială.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce obiective ale <span class='tip'><strong>comunicării scrise</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi textul în profunzime și îl poți folosi.</span></span> sunt menționate?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Înțelegerea nivelurilor de abstractizare și a punctuației</strong><span class='tooltip-box'><strong>Exemplu:</strong> sensuri diferite prin semne grafice.</span></span>",
+          "<span class='tip'><strong>Distincția esențial / accesoriu și rezumare</strong><span class='tooltip-box'><strong>Exemplu:</strong> extragi ideile cheie.</span></span>",
+          "<span class='tip'><strong>Tehnici de lucru cu informația scrisă</strong><span class='tooltip-box'><strong>Exemplu:</strong> dicționare, fișe, grafice.</span></span>",
+          "<span class='tip'><strong>Eliminarea nevoii de interpretare</strong><span class='tooltip-box'><strong>Distractor:</strong> interpretarea rămâne centrală.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce reguli definesc <span class='tip'><strong>competența comunicativă textuală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> regulile pragmatice, semantice și sintactice.</span></span> și în ce ordine?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Pragmatic – semantic – sintactic</strong><span class='tooltip-box'><strong>Exemplu:</strong> întâi scopul, apoi coerența, apoi ordinea.</span></span>",
+          "<span class='tip'><strong>Sintactic – semantic – pragmatic</strong><span class='tooltip-box'><strong>Distractor:</strong> ordinea corectă este pragmatic-semantic-sintactic.</span></span>",
+          "<span class='tip'><strong>Doar semantic</strong><span class='tooltip-box'><strong>Distractor:</strong> cele trei sunt necesare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care sunt <span class='tip'><strong>avantajele</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți organiza și revizui textul.</span></span> și <span class='tip'><strong>dezavantajele</strong><span class='tooltip-box'><strong>Spus simplu:</strong> feedbackul e întârziat și emoția lipsește.</span></span> scrisului?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Avantaje: organizare clară, consultare, argumentare</strong><span class='tooltip-box'><strong>Exemplu:</strong> poți reveni și îmbunătăți textul.</span></span>",
+          "<span class='tip'><strong>Dezavantaje: lipsa legăturii directe și a feedbackului imediat</strong><span class='tooltip-box'><strong>Exemplu:</strong> răspunsul vine mai târziu.</span></span>",
+          "<span class='tip'><strong>Dezavantaj: lipsa informației emoționale</strong><span class='tooltip-box'><strong>Exemplu:</strong> tonul e dificil de transmis.</span></span>",
+          "<span class='tip'><strong>Avantaj: elimină complet ambiguitatea</strong><span class='tooltip-box'><strong>Distractor:</strong> scrisul poate fi ambiguu dacă nu e clar.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce <span class='tip'><strong>cerințe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum trebuie să fie un text scris ca să comunice bine.</span></span> trebuie respectate?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Concizie, claritate, logică internă</strong><span class='tooltip-box'><strong>Exemplu:</strong> text ușor de urmărit.</span></span>",
+          "<span class='tip'><strong>Terminologie adecvată și argumente clare</strong><span class='tooltip-box'><strong>Exemplu:</strong> cuvinte potrivite situației.</span></span>",
+          "<span class='tip'><strong>Lungime rezonabilă și punctuație corectă</strong><span class='tooltip-box'><strong>Exemplu:</strong> fraze echilibrate.</span></span>",
+          "<span class='tip'><strong>Fraze excesiv de lungi și emoție necontrolată</strong><span class='tooltip-box'><strong>Distractor:</strong> reduc claritatea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-6-q2",
+    title: "Metacomunicarea și relația dintre canale",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>metacomunicarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mesajul din spatele mesajului: „ce”, „cum” și „de ce”.</span></span>?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Semnificații implicite care nu țin strict de cuvinte</strong><span class='tooltip-box'><strong>Explicație:</strong> metacomunicarea se referă la nivelul sugerat al mesajului (Neacșu, 1999).</span></span>",
+          "<span class='tip'><strong>Doar sensul literal al cuvintelor</strong><span class='tooltip-box'><strong>Distractor:</strong> metacomunicarea depășește sensul literal.</span></span>",
+          "<span class='tip'><strong>Orice mesaj transmis în scris</strong><span class='tooltip-box'><strong>Distractor:</strong> metacomunicarea există în toate formele.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum se raportează <span class='tip'><strong>verbalul, paraverbalul și nonverbalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pot lucra împreună sau se pot contrazice.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Paraverbalul și nonverbalul sunt decodate mai rapid</strong><span class='tooltip-box'><strong>Explicație:</strong> aproximativ de 4,5 ori mai rapid decât verbalul.</span></span>",
+          "<span class='tip'><strong>Pot fi concordante sau discordante</strong><span class='tooltip-box'><strong>Exemplu:</strong> ironia: mesaj laudativ + ton disprețuitor.</span></span>",
+          "<span class='tip'><strong>Nonverbalul poate anticipa sau urma verbalul</strong><span class='tooltip-box'><strong>Exemplu:</strong> mimica apare înainte de cuvinte.</span></span>",
+          "<span class='tip'><strong>Întotdeauna au același ritm și același sens</strong><span class='tooltip-box'><strong>Distractor:</strong> pot diferi ca ritm și sens.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce exprimă <span class='tip'><strong>proporțiile 7%–38%–55%</strong><span class='tooltip-box'><strong>Spus simplu:</strong> emoția se transmite mai ales nonverbal și paraverbal.</span></span>?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Predominanța nonverbalului și paraverbalului în conținutul afectiv</strong><span class='tooltip-box'><strong>Explicație:</strong> 55% nonverbal, 38% paraverbal, 7% verbal.</span></span>",
+          "<span class='tip'><strong>Verbalul este suficient pentru relație</strong><span class='tooltip-box'><strong>Distractor:</strong> relația se sprijină pe nonverbal/paraverbal.</span></span>",
+          "<span class='tip'><strong>Nonverbalul nu influențează sensul</strong><span class='tooltip-box'><strong>Distractor:</strong> îl influențează major.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce spune cursul despre <span class='tip'><strong>dominanta canalelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> uneori domină verbalul, alteori nonverbalul sau mixul.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Comportamentele reale pot avea dominantă verbală, nonverbală sau mixtă</strong><span class='tooltip-box'><strong>Explicație:</strong> formele se combină în funcție de context.</span></span>",
+          "<span class='tip'><strong>Paraverbalul și nonverbalul scapă mai des conștientizării</strong><span class='tooltip-box'><strong>Explicație:</strong> au grad ridicat de spontaneitate.</span></span>",
+          "<span class='tip'><strong>În comunicarea didactică, canalele sunt convergente</strong><span class='tooltip-box'><strong>Explicație:</strong> verbal + paraverbal + nonverbal formează un întreg (Iacob, 1994).</span></span>",
+          "<span class='tip'><strong>Paraverbalul și nonverbalul nu contează în predare</strong><span class='tooltip-box'><strong>Distractor:</strong> sunt esențiale pentru relaționare.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-7-q1",
+    title: "Implicații psihopedagogice",
+    questions: [
+      {
+        text: "Ce rol are <span class='tip'><strong>comunicarea verbală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> transmite conținuturi complexe și creează dialog în clasă.</span></span> în educație?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Permite transmiterea conținutului psihic al profesorului și elevului</strong><span class='tooltip-box'><strong>Formulare academică:</strong> verbalul transmite percepții, emoții și dorințe (Turcu, Filimon, 1999).</span></span>",
+          "<span class='tip'><strong>Susține dialogul profesor–elev și efecte formative</strong><span class='tooltip-box'><strong>Formulare academică:</strong> dialogul are efecte formative (Ghivirigă, 1975).</span></span>",
+          "<span class='tip'><strong>Favorizează doar expunerea magistrală</strong><span class='tooltip-box'><strong>Distractor:</strong> se caută dialog autentic și maieutic.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce limite sunt semnalate pentru <span class='tip'><strong>expunerea și maieutica</strong><span class='tooltip-box'><strong>Spus simplu:</strong> profesorul poate vorbi prea mult, iar dialogul devine formal.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Profesorul devine distribuitor de informație, nu partener de dialog</strong><span class='tooltip-box'><strong>Exemplu:</strong> elevii răspund doar ce dorește profesorul.</span></span>",
+          "<span class='tip'><strong>Dialogul poate fi doar aparent, nu real</strong><span class='tooltip-box'><strong>Exemplu:</strong> întrebările verifică, nu stimulează gândirea.</span></span>",
+          "<span class='tip'><strong>Elevii ar trebui să pună întrebări pentru dialog autentic</strong><span class='tooltip-box'><strong>Formulare academică:</strong> „nu profesorul, ci elevii ar trebui să întrebe” (Ghivirigă, 1975).</span></span>",
+          "<span class='tip'><strong>Expunerea nu are niciun rol în educație</strong><span class='tooltip-box'><strong>Distractor:</strong> rolul ei există, dar trebuie echilibrat.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Cum contribuie <span class='tip'><strong>paraverbalul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> modifică sensul mesajului și transmite identitatea vorbitorului.</span></span> în educație?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Produce supracodificare: același mesaj capătă alt sens</strong><span class='tooltip-box'><strong>Exemplu:</strong> tonul schimbă mesajul.</span></span>",
+          "<span class='tip'><strong>Comunică informații despre vârstă, stare și statut</strong><span class='tooltip-box'><strong>Exemplu:</strong> dicția și timbrul indică identitatea.</span></span>",
+          "<span class='tip'><strong>Emoțiile schimbă parametrii vocii</strong><span class='tooltip-box'><strong>Exemplu:</strong> furia → volum și ritm ridicate.</span></span>",
+          "<span class='tip'><strong>Expressivitatea trebuie să reducă inteligibilitatea</strong><span class='tooltip-box'><strong>Distractor:</strong> expresivitatea trebuie să sprijine înțelegerea.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce spune cursul despre <span class='tip'><strong>nonverbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e foarte precoce și are baze înnăscute și învățate.</span></span> în educație?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Este precoce ontogenetic</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul folosește expresii înainte de limbaj.</span></span>",
+          "<span class='tip'><strong>Se bazează pe elemente înnăscute și învățate</strong><span class='tooltip-box'><strong>Exemplu:</strong> emoțiile primare + reguli culturale.</span></span>",
+          "<span class='tip'><strong>Nu are rol în clasă</strong><span class='tooltip-box'><strong>Distractor:</strong> nonverbalul influențează relația educațională.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "pedcom-2-8-q1",
+    title: "Comunicarea de grup",
+    questions: [
+      {
+        text: "Ce idei subliniază <span class='tip'><strong>Kurt Lewin</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupul e interdependent, iar mediul psihosocial contează.</span></span> despre grup?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Comportamentul este determinat de mediul psihologic și social</strong><span class='tooltip-box'><strong>Exemplu:</strong> reacțiile se schimbă în funcție de context.</span></span>",
+          "<span class='tip'><strong>Grupul este un ansamblu de persoane interdependente</strong><span class='tooltip-box'><strong>Exemplu:</strong> acțiunile unuia influențează pe ceilalți.</span></span>",
+          "<span class='tip'><strong>Grupul funcționează fără comunicare</strong><span class='tooltip-box'><strong>Distractor:</strong> comunicarea este axul central.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce caracterizează <span class='tip'><strong>comunicarea eficientă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ideile sunt dezvoltate, întrebate și îmbunătățite.</span></span> în grup?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Membrii dezvoltă idei, cer informații, propun modificări</strong><span class='tooltip-box'><strong>Exemplu:</strong> explică pașii unui proiect.</span></span>",
+          "<span class='tip'><strong>Participarea include atenție, înțelegere, elaborare, modificare</strong><span class='tooltip-box'><strong>Formulare academică:</strong> participare eficientă.</span></span>",
+          "<span class='tip'><strong>Climat afectiv pozitiv: sensibilitate, acorduri, clarificare</strong><span class='tooltip-box'><strong>Exemplu:</strong> parafrazări și clarificări frecvente.</span></span>",
+          "<span class='tip'><strong>Excluderea întrebărilor</strong><span class='tooltip-box'><strong>Distractor:</strong> întrebările sunt utile.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce factori pot face <span class='tip'><strong>comunicarea ineficientă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> constrângeri de spațiu, timp și emoții.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Constrângeri de spațiu și timp</strong><span class='tooltip-box'><strong>Exemplu:</strong> lipsa timpului pentru discuții.</span></span>",
+          "<span class='tip'><strong>Constrângeri afective și emoționale</strong><span class='tooltip-box'><strong>Exemplu:</strong> tensiuni nerezolvate.</span></span>",
+          "<span class='tip'><strong>Constrângeri raționale și imaginative</strong><span class='tooltip-box'><strong>Exemplu:</strong> lipsa creativității în soluții.</span></span>",
+          "<span class='tip'><strong>Numai prezența unui lider</strong><span class='tooltip-box'><strong>Distractor:</strong> liderul nu este singurul factor.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce tipologii de persoane pot apărea într un <span class='tip'><strong>grup</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unii sunt cooperanți, alții retrași sau dominatori.</span></span>?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Certăreți, vorbăreți, știu-tot</strong><span class='tooltip-box'><strong>Exemplu:</strong> domină conversația.</span></span>",
+          "<span class='tip'><strong>Timizi, introvertiți, necooperanți</strong><span class='tooltip-box'><strong>Exemplu:</strong> evită implicarea.</span></span>",
+          "<span class='tip'><strong>Interogativi, snob intelectual, neinteresați</strong><span class='tooltip-box'><strong>Exemplu:</strong> pun întrebări excesive sau se detașează.</span></span>",
+          "<span class='tip'><strong>Absenți complet</strong><span class='tooltip-box'><strong>Distractor:</strong> tipologiile se referă la comportamente prezente.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Cum sunt descrise stilurile <span class='tip'><strong>agresiv, pasiv și asertiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> impunere, retragere, respect reciproc.</span></span> în grup?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Agresiv: impune idei și neglijează nevoile celorlalți</strong><span class='tooltip-box'><strong>Exemplu:</strong> monopolizează discuția.</span></span>",
+          "<span class='tip'><strong>Pasiv: evită implicarea și renunță la opinii</strong><span class='tooltip-box'><strong>Exemplu:</strong> așteaptă să decidă alții.</span></span>",
+          "<span class='tip'><strong>Asertiv: își exprimă opiniile respectându-i pe ceilalți</strong><span class='tooltip-box'><strong>Exemplu:</strong> afirmă fără a domina.</span></span>",
+          "<span class='tip'><strong>Asertiv = agresiv</strong><span class='tooltip-box'><strong>Distractor:</strong> asertivul respectă echilibrul.</span></span>",
+        ],
+        answer: [0, 1, 2],
       },
     ],
   },
 ];
+
+window.PEDCOM_LESSONS = {
+  "pedcom-1-6-q1": `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Idee-cheie:</strong>
+      Comunicativitatea înseamnă <span class='tip'>eficiență în schimbul interpersonal<span class='tooltip-box'><strong>Spus simplu:</strong> nu e suficient să vorbești, contează să fii înțeles și să creezi relație.<br><br><strong>Formulare academică:</strong> a fi comunicativ înseamnă a fi eficient în actul comunicării, spre deosebire de sociabilitate, care indică plăcerea relaționării.</span></span>.
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Comunicativ vs. sociabil</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>😊&nbsp;&nbsp;Sociabil</h3>
+        <p><span class='tip'>Plăcut, lipsit de inhibiții<span class='tooltip-box'><strong>Spus simplu:</strong> e ușor să stai de vorbă cu el.<br><br><strong>Formulare academică:</strong> sociabilitatea păstrează nuanțe egocentrice și nu garantează eficiența comunicării.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Comunicativ</h3>
+        <p><span class='tip'>Eficient în relația de comunicare<span class='tooltip-box'><strong>Spus simplu:</strong> se face înțeles și creează schimb real.<br><br><strong>Formulare academică:</strong> comunicativitatea înseamnă eficiență în actul comunicării, nu doar plăcere în relaționare.</span></span></p>
+      </div>
+    </div>
+    <hr />
+    <h2>💡&nbsp;&nbsp;Șansele formării competenței comunicative</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>🔍&nbsp;&nbsp;Predispoziții + abilități</h3>
+        <p><span class='tip'>Raportul dintre native și dobândite<span class='tooltip-box'><strong>Formulare academică:</strong> șansele formării competenței generale comunicative depind de cunoașterea raportului dintre predispozițiile native și abilitățile dobândite.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📚&nbsp;&nbsp;Cunoaștere de domeniu</h3>
+        <p><span class='tip'>Sfera de acțiune a comunicării<span class='tooltip-box'><strong>Formulare academică:</strong> șansele depind de asimilarea unui ansamblu de cunoștințe privind sfera de acțiune a abilității de a comunica eficient.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🛠️&nbsp;&nbsp;Intervenții de optimizare</h3>
+        <p><span class='tip'>Direcții de îmbunătățire<span class='tooltip-box'><strong>Formulare academică:</strong> șansele depind de identificarea direcțiilor în care se poate interveni pentru optimizarea capacității de comunicare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-6-q2": `
+    <h2>🧭&nbsp;&nbsp;Comunicativitatea nu e absolută</h2>
+    <p>Există diferențe între oameni și contexte în ceea ce privește comunicarea.</p>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>⚖️&nbsp;&nbsp;Ecuație individuală</h3>
+        <hr />
+        <p><span class='tip'>Unii sunt mai precauți în autodezvăluire<span class='tooltip-box'><strong>Formulare academică:</strong> există o ecuație individuală a comunicabilității care îi face pe unii mai precauți față de actul autodezvăluirii.</span></span></p>
+        <p><span class='tip'>Sărăcia emisiei → receptare redusă<span class='tooltip-box'><strong>Formulare academică:</strong> sărăcia emisiei de mesaje atrage după sine un număr redus de acte de recepție.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🔗&nbsp;&nbsp;Legătura cu sociabilitatea</h3>
+        <hr />
+        <p><span class='tip'>Comunicativ ↔ sociabil<span class='tooltip-box'><strong>Formulare academică:</strong> calitatea de a fi comunicativ se corelează firesc cu aceea de a fi sociabil și invers, necomunicativul se asociază cu nesociabilul.</span></span></p>
+        <p><span class='tip'>Ambele țin de condiția socială a omului<span class='tooltip-box'><strong>Formulare academică:</strong> ambele calități țin de condiția socială a omului și favorizează deschiderea către celălalt.</span></span></p>
+      </div>
+    </div>
+    <hr />
+    <h2>🧾&nbsp;&nbsp;Transmitere vs. comunicare</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>A transmite nu înseamnă automat a comunica<span class='tooltip-box'><strong>Formulare academică:</strong> distincția dintre a transmite și a comunica o experiență a generat nevoia de a regândi modul de desfășurare a proceselor.</span></span></p>
+      <p><span class='tip'>Înțelegerea și răspunsul sunt esențiale<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul trebuie să fie înțeles pentru ca schimbul să funcționeze.</span></span></p>
+    </div>
+    <hr />
+    <h2>🧑‍🤝‍🧑&nbsp;&nbsp;Incomunicabilitatea – situație excepțională</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Când nu există repere comune<span class='tooltip-box'><strong>Formulare academică:</strong> dacă două persoane nu au elemente comune (ideologie, credințe, cultură), comunicarea devine dificilă.</span></span></p>
+      <p><span class='tip'>Paralimbajul compensează<span class='tooltip-box'><strong>Formulare academică:</strong> chiar și în situații extreme, paralimbajul (surâs, gestică) preia o parte din funcțiile comunicării verbale.<br><br><strong>Exemplu:</strong> gesturi simple când nu cunoști limba.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-6-q3": `
+    <h2>🧩&nbsp;&nbsp;Planuri determinative ale comunicării</h2>
+    <p>Resursele nonverbale explică de ce limbajul verbal nu este suficient.</p>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🤲&nbsp;&nbsp;Chinestezice și haptice</h3>
+        <p><span class='tip'>Mișcări ale corpului și atingere<span class='tooltip-box'><strong>Formulare academică:</strong> planuri chinestezice și haptice: mișcările nonverbale ale corpului și de atingere/pipăit.<br><br><strong>Exemplu:</strong> o palmă pe umăr care sprijină.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📏&nbsp;&nbsp;Proxemice</h3>
+        <p><span class='tip'>Spațiul corpului<span class='tooltip-box'><strong>Formulare academică:</strong> planul proxemic se referă la spațiul corpului și distanța dintre parteneri.<br><br><strong>Exemplu:</strong> apropiere vs. retragere.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧿&nbsp;&nbsp;Iconice</h3>
+        <p><span class='tip'>Simbolistica imaginii<span class='tooltip-box'><strong>Formulare academică:</strong> planul iconic privește simbolistica și semnele vizuale.<br><br><strong>Exemplu:</strong> simboluri grafice sau semnale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🤝&nbsp;&nbsp;Comportament epimeletic</h3>
+        <p><span class='tip'>Disponibilitate de îngrijire și atenție<span class='tooltip-box'><strong>Formulare academică:</strong> comportamentul epimeletic indică disponibilitatea față de celălalt pentru îngrijire și atenție.<br><br><strong>Exemplu:</strong> oferirea de sprijin.</span></span></p>
+      </div>
+    </div>
+    <hr />
+    <h2>🧭&nbsp;&nbsp;Ce înseamnă competență autentică</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Nu ajunge să stăpânești verbalul<span class='tooltip-box'><strong>Formulare academică:</strong> utilizarea eficientă a instrumentelor verbale nu este suficientă pentru eficiența comunicării.</span></span></p>
+      <p><span class='tip'>Ai nevoie și de resurse nonverbale<span class='tooltip-box'><strong>Formulare academică:</strong> competența implică valorificarea resurselor nonverbale, crearea de oportunități de schimb și receptivitate la relaționare.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-6-q4": `
+    <h2>💬&nbsp;&nbsp;Competența lingvistică și socio-comunicațională</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>🗣️&nbsp;&nbsp;Competența lingvistică</h3>
+        <hr />
+        <p><span class='tip'>Transpunerea gândurilor în cuvinte<span class='tooltip-box'><strong>Formulare academică:</strong> competența lingvistică este nivelul abilității unei persoane de a-și transpune gândurile, trăirile și intențiile în cuvinte sau de a înțelege un mesaj receptat.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🤝&nbsp;&nbsp;Competența socio-comunicațională</h3>
+        <hr />
+        <p><span class='tip'>Inițiere, moderare, relație, conflict<span class='tooltip-box'><strong>Formulare academică:</strong> competența socio-comunicațională presupune inițierea, moderarea și valorificarea comunicării și managementul conflictelor.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>🔎&nbsp;&nbsp;Exemplu de diferență</h3>
+      <hr />
+      <p><span class='tip'>Savant foarte competent lingvistic, dar incomunicativ social<span class='tooltip-box'><strong>Formulare academică:</strong> un savant poate avea competență lingvistică înaltă, dar să nu-și poată expune ideile pe înțelesul altora din lipsa competenței socio-comunicaționale.</span></span></p>
+    </div>
+    <hr />
+    <h2>📌&nbsp;&nbsp;Situația de comunicare ideală (Habermas)</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>👥&nbsp;&nbsp;Doi parteneri în acord</h3>
+        <p><span class='tip'>Acțiune comună sau înțelegere asupra a ceva<span class='tooltip-box'><strong>Formulare academică:</strong> cel puțin doi parteneri să acționeze în acord sau să se înțeleagă asupra a ceva.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Înțelegere = consens</h3>
+        <p><span class='tip'>Promovarea unui consens<span class='tooltip-box'><strong>Formulare academică:</strong> înțelegerea înseamnă promovarea unui anumit consens.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧪&nbsp;&nbsp;Consensul adevărat</h3>
+        <p><span class='tip'>Raportare la situație ideală<span class='tooltip-box'><strong>Formulare academică:</strong> consensul adevărat se distinge prin raportare la o situație ideală (acord contrafactual).</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-6-q5": `
+    <h2>🎯&nbsp;&nbsp;Competența de comunicare – profil și structură</h2>
+    <div class="lesson-card">
+      <h3>📚&nbsp;&nbsp;Calități personale și verbale (N. Stanton, 1995)</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Claritate, acuratețe, empatie, sinceritate, relaxare<span class='tooltip-box'><strong>Formulare academică:</strong> competența lingvistică implică un ansamblu de calități ale personalității.</span></span></li>
+        <li><span class='tip'>Mecanisme ale vorbirii, volum, dicție, accent, viteză, pauză, timbru<span class='tooltip-box'><strong>Formulare academică:</strong> competența lingvistică presupune și calități verbale și paraverbale.</span></span></li>
+      </ul>
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Competența de comunicare ca „concept integrator” (I. Neacșu)</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>🧱&nbsp;&nbsp;Elemente structurale</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Stăpânirea sistemului limbii<span class='tooltip-box'><strong>Formulare academică:</strong> cunoștințe și priceperi care permit realizarea și înțelegerea enunțurilor.</span></span></li>
+          <li><span class='tip'>Stăpânirea structurii textelor<span class='tooltip-box'><strong>Formulare academică:</strong> organizarea retorică și argumentativă a secvențelor de enunțuri.</span></span></li>
+          <li><span class='tip'>Stăpânirea domeniului referențial<span class='tooltip-box'><strong>Formulare academică:</strong> cunoștințe privind domeniile de experiență și de cunoaștere.</span></span></li>
+          <li><span class='tip'>Stăpânirea elementelor relaționale<span class='tooltip-box'><strong>Formulare academică:</strong> strategie determinată de rol, poziție și intenții.</span></span></li>
+          <li><span class='tip'>Stăpânirea elementelor situaționale<span class='tooltip-box'><strong>Formulare academică:</strong> factori fizici, psihologici și sociali ai procesului enunțiativ.</span></span></li>
+          <li><span class='tip'>Operații transformaționale și de transfer<span class='tooltip-box'><strong>Formulare academică:</strong> trecerea de la enunțuri izolate la texte, pe reguli tari și slabe de codificare/decodificare.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Idee-cheie</h3>
+        <hr />
+        <p><span class='tip'>Integrează semantic, structural și pragmatic<span class='tooltip-box'><strong>Formulare academică:</strong> competența de comunicare are statut de concept integrator, unificând elemente din semantică generativă, structurală și pragmatică.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-6-q6": `
+    <h2>📈&nbsp;&nbsp;Dezvoltarea competenței: șanse, trăsături, stadii</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>🌱&nbsp;&nbsp;Argumente pentru dezvoltare</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Secvențială și progresivă<span class='tooltip-box'><strong>Formulare academică:</strong> dobândirea deprinderilor de comunicare urmează o secvență de dezvoltare.</span></span></li>
+          <li><span class='tip'>Potențial moștenit, dar nevoie de mediu stimulativ<span class='tooltip-box'><strong>Formulare academică:</strong> abilitatea de comunicare pare moștenită, însă necesită medii stimulative.</span></span></li>
+          <li><span class='tip'>Etape similare indiferent de cultură<span class='tooltip-box'><strong>Formulare academică:</strong> secvențele de dezvoltare ale limbajului verbal sunt similare pentru toți copiii.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>🤝&nbsp;&nbsp;Trăsături ale comunicatorului competent</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Fluență și flexibilitate<span class='tooltip-box'><strong>Formulare academică:</strong> evită sărăcia lingvistică, repetițiile și clișeele.</span></span></li>
+          <li><span class='tip'>Empatie și complexitate cognitivă<span class='tooltip-box'><strong>Formulare academică:</strong> poate elabora scenarii diferite pentru fiecare situație.</span></span></li>
+          <li><span class='tip'>Autoobservare și angajare în relație<span class='tooltip-box'><strong>Formulare academică:</strong> autoevaluare și asumarea rolului în relație.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Apropierea de comunicarea ideală</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Tehnici de anticipare și reglare<span class='tooltip-box'><strong>Formulare academică:</strong> achiziționarea de tehnici de anticipare, reglare, coordonare și control.</span></span></li>
+          <li><span class='tip'>Strategii comunicaționale<span class='tooltip-box'><strong>Formulare academică:</strong> optimizarea capacității de operare cu strategii comunicaționale.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Stadiile performanței în comunicare</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Sensibilizarea startului</h3>
+        <p><span class='tip'>Identificarea elementelor care încurajează actul comunicării<span class='tooltip-box'><strong>Formulare academică:</strong> sensibilizarea startului presupune identificarea elementelor favorabile comunicării.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Stângăcia începutului</h3>
+        <p><span class='tip'>Etapă inevitabilă, condiție de formare<span class='tooltip-box'><strong>Formulare academică:</strong> stadiul stângăciei este inevitabil și necesar acumulării experienței.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Stadiul maestrului</h3>
+        <p><span class='tip'>Întărirea motivației și valorizarea creativă<span class='tooltip-box'><strong>Formulare academică:</strong> stadiul maestrului întărește motivația și susține dezvoltarea instrumentelor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">4️⃣</div>
+        <h3>Stadiul interogației</h3>
+        <p><span class='tip'>Confort în rol, dar deschidere spre îndoială<span class='tooltip-box'><strong>Formulare academică:</strong> persoana simte că știe, dar recunoaște nevoia continuă de dezvoltare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-7-q1": `
+    <h2>🎯&nbsp;&nbsp;Comunicarea eficientă</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Proces complex cu implicare și autodezvăluire<span class='tooltip-box'><strong>Formulare academică:</strong> măsura implicării și disponibilitatea de autodezvăluire pot fi considerate criterii ale calității comunicării.</span></span></p>
+      <p><span class='tip'>Eficiența se leagă de sănătatea mintală (Powell/Shives)<span class='tooltip-box'><strong>Formulare academică:</strong> cele cinci niveluri ale comunicării constituie o garanție a eficienței comunicării și a sănătății mintale.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-7-q2": `
+    <h2>🧭&nbsp;&nbsp;Cele 5 niveluri ale comunicării (Powell/Shives)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">5️⃣</div>
+        <h3>Comunicare tip clișeu</h3>
+        <hr />
+        <p><span class='tip'>Replici goale, fără răspuns așteptat<span class='tooltip-box'><strong>Formulare academică:</strong> propoziții superficiale fără efect de dezvoltare.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">4️⃣</div>
+        <h3>Raportarea de fapte</h3>
+        <hr />
+        <p><span class='tip'>„Doar fapte”, fără interacțiune reală<span class='tooltip-box'><strong>Formulare academică:</strong> vorbitorul spune foarte puțin despre sine și nu așteaptă interacțiune.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Idei și judecăți</h3>
+        <hr />
+        <p><span class='tip'>Interacțiune controlată, căutare de aprobare<span class='tooltip-box'><strong>Formulare academică:</strong> vorbitorul așteaptă acceptare; poate reveni la niveluri „sigure”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Emoții spontane</h3>
+        <hr />
+        <p><span class='tip'>Curajul de a exprima trăiri<span class='tooltip-box'><strong>Formulare academică:</strong> exprimarea emoțiilor implică risc de respingere, poate duce la regresie în conversații superficiale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Comunicare onestă și deschisă</h3>
+        <hr />
+        <p><span class='tip'>Gânduri și emoții exprimate sincer<span class='tooltip-box'><strong>Formulare academică:</strong> comunicare completă, cu maturizare emoțională; necesită încredere între parteneri.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-7-q3": `
+    <h2>✅&nbsp;&nbsp;Condiții ale comunicării eficiente (A. Chiriacescu)</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Canal și empatie</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Alegerea canalului adecvat<span class='tooltip-box'><strong>Formulare academică:</strong> activarea canalului (scris, oral, electronic) adecvat conținutului și interacțiunii.</span></span></li>
+          <li><span class='tip'>Empatie la codarea mesajului<span class='tooltip-box'><strong>Formulare academică:</strong> realizarea stării de empatie în momentul codării mesajului.</span></span></li>
+          <li><span class='tip'>Starea personală a interlocutorului<span class='tooltip-box'><strong>Formulare academică:</strong> luarea în considerare a stării fizice/psihice și ameliorarea ei.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Conținut și expresivitate</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Consistența și inteligibilitatea mesajului<span class='tooltip-box'><strong>Formulare academică:</strong> informație semnificativă, organizată clar, compatibilitate comunicativă.</span></span></li>
+          <li><span class='tip'>Expresivitatea comunicării<span class='tooltip-box'><strong>Formulare academică:</strong> stil, intonație, pauze logice.</span></span></li>
+          <li><span class='tip'>Mesaj corect de la bun început<span class='tooltip-box'><strong>Formulare academică:</strong> odată transmis și receptat, mesajul este ireversibil.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>Nonverbal și feedback</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Decodarea nonverbalului<span class='tooltip-box'><strong>Formulare academică:</strong> receptarea corectă a mesajelor nonverbale.</span></span></li>
+        <li><span class='tip'>Interpretarea corectă a feedback-ului<span class='tooltip-box'><strong>Formulare academică:</strong> feedback-ul poate induce în eroare intenționat/neintenționat.</span></span></li>
+        <li><span class='tip'>Decodarea simbolurilor arbitrare<span class='tooltip-box'><strong>Formulare academică:</strong> necesar pentru înțelegerea corectă a mesajelor.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-1-7-q4": `
+    <h2>🎧&nbsp;&nbsp;Ascultarea activă</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Complex de răspunsuri verbale și nonverbale<span class='tooltip-box'><strong>Formulare academică:</strong> ascultarea activă este un complex de răspunsuri verbale și nonverbale care încurajează explorarea gândurilor și trăirilor vorbitorului.</span></span></p>
+      <p><span class='tip'>Rogers & Farson<span class='tooltip-box'><strong>Formulare academică:</strong> ascultătorul activ recunoaște fapte și sentimente și îl ajută pe vorbitor să-și clarifice problemele.</span></span></p>
+      <p><span class='tip'>Varietate de abilități non-directive<span class='tooltip-box'><strong>Formulare academică:</strong> ascultarea activă constă într-o varietate de abilități asociate care facilitează discuția non-directivă.</span></span></p>
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;De ce este importantă</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>🛠️&nbsp;&nbsp;Reduce neînțelegeri</h3>
+        <p><span class='tip'>Clarifică mesajele<span class='tooltip-box'><strong>Formulare academică:</strong> ascultarea activă reduce neînțelegerile în comunicare.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🤗&nbsp;&nbsp;Sprijin emoțional</h3>
+        <p><span class='tip'>Consiliere și climat empatic<span class='tooltip-box'><strong>Formulare academică:</strong> ascultarea activă susține relații suportive și climat emoțional bazat pe empatie, participare și încredere.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Rezolvare de probleme</h3>
+        <p><span class='tip'>Facilitează explorarea<span class='tooltip-box'><strong>Formulare academică:</strong> ascultarea activă este un ansamblu de tehnici pentru explorarea și rezolvarea problemelor.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-7-q5": `
+    <h2>💗&nbsp;&nbsp;Empatia în comunicare</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>A te pune „în pielea” celuilalt<span class='tooltip-box'><strong>Formulare academică:</strong> empatia este încercarea de a fi în locul interlocutorului, fără a fi neapărat de acord cu el.</span></span></p>
+      <p><span class='tip'>Ajută la înțelegere și răbdare<span class='tooltip-box'><strong>Formulare academică:</strong> empatia sprijină înțelegerea și crește toleranța în comunicare.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-7-q6": `
+    <h2>⚠️&nbsp;&nbsp;Greșeli în ascultarea activă</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Manierele de papagal</h3>
+        <p><span class='tip'>Reformulări repetate fără sens nou<span class='tooltip-box'><strong>Formulare academică:</strong> reformulările mecanice dau doar iluzia ascultării active.<br><br><strong>Exemplu:</strong> „Mă distrez.” – „Te simți excelent.”</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Minimizarea sentimentelor</h3>
+        <p><span class='tip'>Ignorarea intensității emoțiilor<span class='tooltip-box'><strong>Formulare academică:</strong> putem diminua trăirile interlocutorului, blocând comunicarea.<br><br><strong>Exemplu:</strong> „Sunt disperată!” – „Ei și ce?”</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Neconcentrarea</h3>
+        <p><span class='tip'>Mintea o ia înaintea vorbitorului<span class='tooltip-box'><strong>Formulare academică:</strong> vorbim 125 cuvinte/minut, dar putem asculta 400, ceea ce duce la rătăcirea atenției.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-7-q7": `
+    <h2>✅&nbsp;&nbsp;Recomandări pentru ascultare activă</h2>
+    <div class="lesson-card">
+      <ul>
+        <li><span class='tip'>Concentrare pe vorbitor<span class='tooltip-box'><strong>Formulare academică:</strong> arătați interes prin mimică, gestică și cuvinte de sprijin.</span></span></li>
+        <li><span class='tip'>Ascultare pozitivă, fără a critica<span class='tooltip-box'><strong>Formulare academică:</strong> ascultați fără intenția de a contrazice.</span></span></li>
+        <li><span class='tip'>Confirmare și clarificare<span class='tooltip-box'><strong>Formulare academică:</strong> verificați dacă ați înțeles corect; cereți detalii.</span></span></li>
+        <li><span class='tip'>Nu întrerupeți<span class='tooltip-box'><strong>Formulare academică:</strong> mențineți atenția și permiteți exprimarea completă.</span></span></li>
+      </ul>
+    </div>
+    <hr />
+    <h2>🧰&nbsp;&nbsp;Tehnici verbale</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Reflectarea „ca în oglindă”</h3>
+        <p><span class='tip'>Repetarea unei părți semnificative<span class='tooltip-box'><strong>Formulare academică:</strong> accentuează partea centrală a mesajului.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Reformularea</h3>
+        <p><span class='tip'>Aceeași idee, alte cuvinte<span class='tooltip-box'><strong>Formulare academică:</strong> verifică înțelegerea exactă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Parafrazarea</h3>
+        <p><span class='tip'>Repetare interogativă<span class='tooltip-box'><strong>Formulare academică:</strong> încurajează continuarea.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Rezumarea</h3>
+        <p><span class='tip'>Reluare pe scurt („să înțeleg că...”)<span class='tooltip-box'><strong>Formulare academică:</strong> clarifică frazele complexe și fixează informația.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-7-q8": `
+    <h2>👂&nbsp;&nbsp;Tipuri de ascultători și principii</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Tipuri posibile de ascultători<span class='tooltip-box'><strong>Formulare academică:</strong> ascultători neconcentrați, grăbiți, care întrerup, vorbăreți, superficiali, hipersensibili, egoiști.</span></span></p>
+    </div>
+    <div class="lesson-card">
+      <h3>Principiu (Stephen Covey)</h3>
+      <hr />
+      <p><span class='tip'>„Încearcă mai întâi să înțelegi și apoi să fii înțeles”<span class='tooltip-box'><strong>Formulare academică:</strong> după supraviețuirea fizică, cea mai mare nevoie este supraviețuirea psihologică: a fi înțeles, validat și apreciat.</span></span></p>
+    </div>
+    <div class="lesson-card">
+      <h3>Comportamente ale bunului ascultător</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Nu întrerupe, nu judecă, gândește înainte de a răspunde<span class='tooltip-box'><strong>Formulare academică:</strong> ascultă cu atenție și respectă mesajul.</span></span></li>
+        <li><span class='tip'>Contact vizual și comportament nonverbal adecvat<span class='tooltip-box'><strong>Formulare academică:</strong> susține relația și încrederea.</span></span></li>
+        <li><span class='tip'>Conștient de valori și prejudecăți<span class='tooltip-box'><strong>Formulare academică:</strong> filtrele personale influențează ascultarea.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-1-7-q9": `
+    <h2>🗣️&nbsp;&nbsp;Capacitatea de a te face înțeles</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Interlocutorul nu înțelege</h3>
+        <hr />
+        <p><span class='tip'>Cere repetarea și întrebări clarificatoare<span class='tooltip-box'><strong>Formulare academică:</strong> solicită interlocutorului să repete și oferă ocazia de a întreba.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Interlocutorul nu e interesat</h3>
+        <hr />
+        <p><span class='tip'>Ia în calcul motive și nivelul de abilități<span class='tooltip-box'><strong>Formulare academică:</strong> poate exista un motiv contextual sau un nivel diferit de competențe.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Interlocutorul nu vrea să înțeleagă</h3>
+        <hr />
+        <p><span class='tip'>Ascultă și înțelege punctul lui de vedere<span class='tooltip-box'><strong>Formulare academică:</strong> oamenii își schimbă greu convingerile; ascultarea îi face mai puțin defensivi.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-8-q1": `
+    <h2>🏫&nbsp;&nbsp;Comunicarea didactică: sens și diferențe</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Procesul de învățământ = înlănțuire de situații de comunicare<span class='tooltip-box'><strong>Formulare academică:</strong> procesul de învățământ apare ca o înlănțuire de situații de comunicare cu specific didactic (I. Cerghit, 2002).</span></span></p>
+      <p><span class='tip'>Comunicarea educațională vs. didactică<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea pedagogică mijlocește fenomenul educațional în ansamblu; comunicarea didactică este forma particulară, obligatorie în vehicularea conținuturilor unui act de învățare sistematică.</span></span></p>
+      <p><span class='tip'>Schimb informațional instrumental<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea didactică determină schimbări în comportamentul și gândirea elevului și se adaptează receptorului.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-8-q2": `
+    <h2>🧩&nbsp;&nbsp;Caracteristicile comunicării didactice</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Dimensiune explicativă</h3>
+        <p><span class='tip'>Vizează înțelegerea celor transmise<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea didactică este axată pe „deblocarea” potențialității cognitive.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Logică pedagogică</h3>
+        <p><span class='tip'>Facilitatea înțelegerii înaintea enunțării adevărului<span class='tooltip-box'><strong>Formulare academică:</strong> logica pedagogică are prioritate față de logica științifică sau istorică.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Profesorul ca filtru</h3>
+        <p><span class='tip'>Selectează și personalizează conținutul<span class='tooltip-box'><strong>Formulare academică:</strong> profesorul organizează conținuturile în funcție de destinatar și cadru.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">4️⃣</div>
+        <h3>Pericolul autorității</h3>
+        <p><span class='tip'>„E adevărat pentru că a spus profesorul”<span class='tooltip-box'><strong>Formulare academică:</strong> apare riscul transferării autorității de statut asupra conținuturilor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">5️⃣</div>
+        <h3>Oral + scris</h3>
+        <p><span class='tip'>Ritm, formă, conținut diferite<span class='tooltip-box'><strong>Formulare academică:</strong> scrisul e mai lent; se pierde parte din nonverbal.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">6️⃣</div>
+        <h3>Personalizare</h3>
+        <p><span class='tip'>Același conținut, rezultate diferite<span class='tooltip-box'><strong>Formulare academică:</strong> profesorii accentuează diferit dimensiunile comunicării.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-8-q3": `
+    <h2>🧷&nbsp;&nbsp;Trăsături specifice comunicării didactice</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>🔒&nbsp;&nbsp;Ritualizare și norme</h3>
+        <p><span class='tip'>„Nu vorbi neîntrebat!”<span class='tooltip-box'><strong>Formulare academică:</strong> ritualizarea și normele nescrise sunt permanent prezente.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>↕️↔️&nbsp;&nbsp;Vertical + orizontal</h3>
+        <p><span class='tip'>Comunicare combinată în clasă<span class='tooltip-box'><strong>Formulare academică:</strong> combinarea comunicării verticale cu cea orizontală în forme organizate sau spontane.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Finalism accentuat</h3>
+        <p><span class='tip'>Subordonare obiectivului didactic<span class='tooltip-box'><strong>Formulare academică:</strong> libertatea de conținut este limitată de scopul didactic.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧑‍🏫&nbsp;&nbsp;Dominanța profesorului</h3>
+        <p><span class='tip'>60-70% din comunicare aparține profesorului<span class='tooltip-box'><strong>Formulare academică:</strong> dominarea comunicării verbale de către profesor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🔁&nbsp;&nbsp;Redundanță necesară</h3>
+        <p><span class='tip'>Repetiție pentru înțelegere corectă<span class='tooltip-box'><strong>Formulare academică:</strong> redundanța este impusă de necesitatea înțelegerii.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>📝&nbsp;&nbsp;Exemplu</h3>
+      <hr />
+      <p><span class='tip'>„Circuitul” unei fițuici, suflatul<span class='tooltip-box'><strong>Formulare academică:</strong> exemplu de comunicare orizontală spontană în clasă.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-8-q4": `
+    <h2>🔁&nbsp;&nbsp;Retroacțiuni și funcții în comunicarea didactică</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>↩️&nbsp;&nbsp;Feedback</h3>
+        <hr />
+        <p><span class='tip'>Conexiune inversă (elev → profesor)<span class='tooltip-box'><strong>Formulare academică:</strong> feedback-ul reglează și autoreglează procesul de învățământ.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⏩&nbsp;&nbsp;Feed-forward</h3>
+        <hr />
+        <p><span class='tip'>Retroacțiune anticipată<span class='tooltip-box'><strong>Formulare academică:</strong> sarcina precede comunicarea informațiilor, elevul caută și verifică date.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>🎯&nbsp;&nbsp;Funcții în școală</h3>
+      <hr />
+      <p><span class='tip'>Informare-formare, evaluare-controlare, rezolvare de probleme<span class='tooltip-box'><strong>Formulare academică:</strong> funcțiile comunicării în școală acționează pentru autonomie și coerență (M. Năpruiu, 2002).</span></span></p>
+    </div>
+  `,
+  "pedcom-1-8-q5": `
+    <h2>🚧&nbsp;&nbsp;Obstacole în comunicarea profesor–elev</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>🧱&nbsp;&nbsp;Obiective</h3>
+        <hr />
+        <p><span class='tip'>Inteligență, experiență, cultură<span class='tooltip-box'><strong>Formulare academică:</strong> înțelegerea depinde de aceste variabile; apar saturații și pierderi de informație.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Psihologice</h3>
+        <hr />
+        <p><span class='tip'>Trăsături negative ale profesorului<span class='tooltip-box'><strong>Formulare academică:</strong> superficialitate, cinism, rigiditate, autoritarism distorsionează mesajul.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>👥&nbsp;&nbsp;Psihosociale</h3>
+        <hr />
+        <p><span class='tip'>Roluri și atmosferă apăsătoare<span class='tooltip-box'><strong>Formulare academică:</strong> rolul profesorului poate crea bariere și sentiment de inferioritate la elev.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>🛠️&nbsp;&nbsp;Remedii</h3>
+      <hr />
+      <p><span class='tip'>Precizie, convergență, asocierea gestului cu cuvântul<span class='tooltip-box'><strong>Formulare academică:</strong> profesorul trebuie să fie precis și să facă mesajele convergente.</span></span></p>
+      <p><span class='tip'>Empatie, tact pedagogic, acceptarea elevului ca partener<span class='tooltip-box'><strong>Formulare academică:</strong> relația se construiește pe încredere și schimb afectiv.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-8-q6": `
+    <h2>🧭&nbsp;&nbsp;Condiții și variabile în comunicarea didactică</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Context multidimensional<span class='tooltip-box'><strong>Formulare academică:</strong> context fizic (sală, lumină, acustică), sociopsihologic (roluri, norme), temporal (moment istoric, al zilei).</span></span></p>
+      <p><span class='tip'>Zgomot, câmp de experiență, efecte<span class='tooltip-box'><strong>Formulare academică:</strong> zgomotul distorsionează, câmpul de experiență influențează schimbul, efectele sunt cognitive, afective, psihomotorii.</span></span></p>
+    </div>
+    <hr />
+    <h2>🎯&nbsp;&nbsp;Direcții de acțiune</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>👤&nbsp;&nbsp;Interlocutor activ</h3>
+        <p><span class='tip'>Asigură utilizarea aceluiași fond<span class='tooltip-box'><strong>Formulare academică:</strong> profesorul se asigură că partenerii folosesc același fond comunicațional.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🔊&nbsp;&nbsp;Multiple canale</h3>
+        <p><span class='tip'>Lansează și citește mesajele pe canale diverse<span class='tooltip-box'><strong>Formulare academică:</strong> reduce efectul zgomotelor interne și externe.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <h3>🤝&nbsp;&nbsp;Comunicare și metacomunicare</h3>
+      <hr />
+      <p><span class='tip'>Comunicarea spune ceva și califică ceea ce spune<span class='tooltip-box'><strong>Formulare academică:</strong> orice comunicare interumană este și metacomunicare (A. Mucchielli).</span></span></p>
+    </div>
+  `,
+  "pedcom-1-8-q7": `
+    <h2>🧑‍🏫&nbsp;&nbsp;Competențe didactice</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🔍&nbsp;&nbsp;Transparență a scopurilor</h3>
+        <p><span class='tip'>Analiza așteptărilor participanților<span class='tooltip-box'><strong>Formulare academică:</strong> punctul de plecare este analiza așteptărilor și evaluarea prin discuții/chestionare.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>👥&nbsp;&nbsp;Competențe psiho-sociale</h3>
+        <p><span class='tip'>Înțelegerea dinamicii, managementul diversității<span class='tooltip-box'><strong>Formulare academică:</strong> recunoașterea și analiza dinamicii de grup, gestionarea conflictelor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>💬&nbsp;&nbsp;Competențe de comunicare</h3>
+        <p><span class='tip'>Persuasivitate și înțelegerea diversității<span class='tooltip-box'><strong>Formulare academică:</strong> abilitatea de a fi persuasiv și de a înțelege diversitatea interlocutorilor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📚&nbsp;&nbsp;Competențe profesionale</h3>
+        <p><span class='tip'>Cunoașterea mediului de lucru al elevilor<span class='tooltip-box'><strong>Formulare academică:</strong> facilitează înțelegerea întrebărilor și problemelor elevilor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🌟&nbsp;&nbsp;Competențe personale</h3>
+        <p><span class='tip'>Naturalețe, creativitate, stabilitate emoțională<span class='tooltip-box'><strong>Formulare academică:</strong> profesorul trebuie să fie natural, creativ și stabil emoțional în situații dificile.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-9-q1": `
+    <h2>🔄&nbsp;&nbsp;Analiza tranzacțională (E. Berne)</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Teorie dinamic-relațională a personalității<span class='tooltip-box'><strong>Formulare academică:</strong> AT pornește de la psihanaliză, dar susține că stările Eului sunt toate prezente la adult și funcționează diferențiat.</span></span></p>
+      <p><span class='tip'>Postulatele AT<span class='tooltip-box'><strong>Formulare academică:</strong> individul decide asupra destinului său și își poate schimba deciziile; toți oamenii au capacitatea de a gândi.</span></span></p>
+    </div>
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Ce este AT?</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Teorie a personalității<span class='tooltip-box'><strong>Formulare academică:</strong> explică structura și funcționarea personalității.</span></span></li>
+        <li><span class='tip'>Teorie și terapie a comunicării<span class='tooltip-box'><strong>Formulare academică:</strong> explică mecanismele comunicării interpersonale și oferă tehnici de optimizare.</span></span></li>
+        <li><span class='tip'>Teorie psihopatologică și terapie clinică<span class='tooltip-box'><strong>Formulare academică:</strong> explică nevroza și oferă tehnici de restructurare.</span></span></li>
+        <li><span class='tip'>Aplicații moderne (management, relații)<span class='tooltip-box'><strong>Formulare academică:</strong> utilizări în formarea abilităților relaționale.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-1-9-q2": `
+    <h2>🎭&nbsp;&nbsp;Stările Eului</h2>
+    <div class="lesson-grid three colorful">
+      <div class="lesson-card">
+        <h3>👨‍👩‍👧&nbsp;&nbsp;Părintele (P)</h3>
+        <p><span class='tip'>Norma socială, viața învățată de la alții<span class='tooltip-box'><strong>Formulare academică:</strong> Părintele reprezintă normele și regulile internalizate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Adultul (A)</h3>
+        <p><span class='tip'>Gândirea, viața trăită de noi înșine<span class='tooltip-box'><strong>Formulare academică:</strong> Adultul este starea lucidă, rațională, orientată spre rezolvarea problemelor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎈&nbsp;&nbsp;Copilul (C)</h3>
+        <p><span class='tip'>Sentimentul, emoția, visarea<span class='tooltip-box'><strong>Formulare academică:</strong> Copilul exprimă emoțiile și spontaneitatea.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-card">
+      <p><span class='tip'>Toate stările sunt prezente la adult<span class='tooltip-box'><strong>Formulare academică:</strong> personalitatea adultă posedă toate stările Eului și le activează diferențiat.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-9-q3": `
+    <h2>🎭&nbsp;&nbsp;Subtipuri ale stărilor Eului</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>⚖️&nbsp;&nbsp;Părintele dogmatic</h3>
+        <p><span class='tip'>Dirijează, critică, ordonă<span class='tooltip-box'><strong>Formulare academică:</strong> internalizează imperative morale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🤲&nbsp;&nbsp;Părintele grijuliu</h3>
+        <p><span class='tip'>Ajută, susține, încurajează<span class='tooltip-box'><strong>Formulare academică:</strong> exprimă protecție și compasiune.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎠&nbsp;&nbsp;Copilul liber</h3>
+        <p><span class='tip'>Spontan, imaginativ, ilogic<span class='tooltip-box'><strong>Formulare academică:</strong> exprimă dorințe directe și energie.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Copilul adaptat</h3>
+        <p><span class='tip'>Politicos, supus, conformist<span class='tooltip-box'><strong>Formulare academică:</strong> caută aprobarea și afecțiunea celorlalți.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🔥&nbsp;&nbsp;Copilul rebel</h3>
+        <p><span class='tip'>Revolta pentru recunoaștere<span class='tooltip-box'><strong>Formulare academică:</strong> opoziția devine formă de afirmare.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-9-q4": `
+    <h2>🧾&nbsp;&nbsp;Exprimarea stărilor Eului</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>PN – Părintele normativ</h3>
+        <hr />
+        <p><span class='tip'>Cuvinte: „trebuie, întotdeauna”<span class='tooltip-box'><strong>Formulare academică:</strong> dirijează și sancționează.</span></span></p>
+        <p><span class='tip'>Expresii: indignare, arată cu degetul<span class='tooltip-box'><strong>Formulare academică:</strong> gestică autoritară.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>PP – Părintele protector</h3>
+        <hr />
+        <p><span class='tip'>Cuvinte: „lasă-mă să te ajut”<span class='tooltip-box'><strong>Formulare academică:</strong> sprijină și încurajează.</span></span></p>
+        <p><span class='tip'>Expresii: voce caldă, privire blândă<span class='tooltip-box'><strong>Formulare academică:</strong> comunică protecție.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>A – Adultul</h3>
+        <hr />
+        <p><span class='tip'>Cuvinte: „probabil..., dacă am înțeles bine...”<span class='tooltip-box'><strong>Formulare academică:</strong> raționează și testează soluții.</span></span></p>
+        <p><span class='tip'>Expresii: ferm dar flexibil, contact vizual<span class='tooltip-box'><strong>Formulare academică:</strong> calm și lucid.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>CL – Copilul liber</h3>
+        <hr />
+        <p><span class='tip'>Cuvinte: „vreau”, „ce-mi pasă”<span class='tooltip-box'><strong>Formulare academică:</strong> exprimă spontaneitate.</span></span></p>
+        <p><span class='tip'>Expresii: râde, plânge, voce energică<span class='tooltip-box'><strong>Formulare academică:</strong> trăiri intense.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>CA – Copilul adaptat</h3>
+        <hr />
+        <p><span class='tip'>Cuvinte: „cum spui tu”, „iată-mă”<span class='tooltip-box'><strong>Formulare academică:</strong> caută aprobarea.</span></span></p>
+        <p><span class='tip'>Expresii: umeri căzuți, roșește<span class='tooltip-box'><strong>Formulare academică:</strong> supunere și dependență.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-9-q5": `
+    <h2>🔄&nbsp;&nbsp;Tranzacții interpersonale</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Tranzacția = reacția la stimuli sociali<span class='tooltip-box'><strong>Formulare academică:</strong> tranzacția este schimbul dintre stările Eului, cu ST (stimul tranzacțional) și RT (răspuns tranzacțional).</span></span></p>
+      <p><span class='tip'>Relația poate fi echitabilă sau inechitabilă<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea poate fi reciproc gratificantă sau poate duce la destructurarea relației.</span></span></p>
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Tipuri de tranzacții</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Complementare</h3>
+        <p><span class='tip'>Starea vizată e activată de respondent<span class='tooltip-box'><strong>Formulare academică:</strong> pot fi orizontale (A-A, P-P, C-C) sau oblice (P-C etc.), cu schimb durabil.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Încrucișate</h3>
+        <p><span class='tip'>Percepție greșită a stării Eului<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea devine disfuncțională și conflictuală.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Mascate</h3>
+        <p><span class='tip'>Două niveluri: observabil și psihologic<span class='tooltip-box'><strong>Formulare academică:</strong> implică trei sau patru stări; cele cu patru stări sunt cele mai stabile.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-1-9-q6": `
+    <h2>⚡&nbsp;&nbsp;Investirea energetică și programarea</h2>
+    <div class="lesson-card">
+      <h3>Investirea</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Starea investită are puterea executivă<span class='tooltip-box'><strong>Formulare academică:</strong> comportamentul momentului e guvernat de starea investită energetic.</span></span></li>
+        <li><span class='tip'>Fluxul investirii variază între stările Eului<span class='tooltip-box'><strong>Formulare academică:</strong> poate varia brusc sau gradat.</span></span></li>
+        <li><span class='tip'>Ideal: Adultul conduce executiv<span class='tooltip-box'><strong>Formulare academică:</strong> Adultul decide când cedează puterea altor stări.</span></span></li>
+      </ul>
+    </div>
+    <div class="lesson-card">
+      <h3>Programarea</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Internă (Copil)<span class='tooltip-box'><strong>Formulare academică:</strong> susținută de pulsiuni; reinvestește trăiri de satisfacere.</span></span></li>
+        <li><span class='tip'>Probabilistă (Adult)<span class='tooltip-box'><strong>Formulare academică:</strong> prelucrează autonom informațiile; satisfacția e amânată.</span></span></li>
+        <li><span class='tip'>Externă (Părinte)<span class='tooltip-box'><strong>Formulare academică:</strong> influențe familiale, rasiale, naționale.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-1-9-q7": `
+    <h2>🤝&nbsp;&nbsp;Schimburi sociale și ritualuri</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Psihicul are nevoie de stimuli<span class='tooltip-box'><strong>Formulare academică:</strong> lipsa stimulilor este greu de suportat; excesul produce dificultăți.</span></span></p>
+      <p><span class='tip'>Stimulii sociali sunt esențiali<span class='tooltip-box'><strong>Formulare academică:</strong> au valențe structurante și gratificatoare (recunoaștere, acceptare).</span></span></p>
+    </div>
+    <div class="lesson-card">
+      <h3>Ritualuri interpersonale</h3>
+      <hr />
+      <p><span class='tip'>Reglementează schimburile și reduc anxietatea<span class='tooltip-box'><strong>Formulare academică:</strong> salutul, strângerea de mână, fixarea privirii sunt ritualuri securizante.</span></span></p>
+      <p><span class='tip'>Manifestările verbale sunt ritualizate<span class='tooltip-box'><strong>Formulare academică:</strong> ritualizarea face schimbul previzibil.</span></span></p>
+    </div>
+  `,
+  "pedcom-1-9-q8": `
+    <h2>📊&nbsp;&nbsp;Egograma și distribuția energiei</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Ipoteza lui John Dusay<span class='tooltip-box'><strong>Formulare academică:</strong> fiecare persoană are o cantitate constantă de energie repartizată între stările Eului.</span></span></p>
+      <p><span class='tip'>Egograma măsoară investiția în stări<span class='tooltip-box'><strong>Formulare academică:</strong> permite decizii privind activarea stărilor funcționale.</span></span></p>
+    </div>
+    <div class="lesson-card">
+      <h3>Exemplu de interpretare</h3>
+      <hr />
+      <p><span class='tip'>Adult puternic, Copil slab<span class='tooltip-box'><strong>Formulare academică:</strong> poate indica eficiență, dar dificultăți în relații suple; creșterea PP și CL poate îmbunătăți schimburile.</span></span></p>
+    </div>
+  `,
+  "pedcom-2-2-q1": `
+    <h2>🧭&nbsp;&nbsp;Formele comunicării: sens și condiții</h2>
+    <p>Comunicarea nu este doar transfer de informație: contează înțelegerea și răspunsul.</p>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Comunicare socială</h3>
+        <p class="lesson-highlight">Învățată, simbolică</p>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Se învață în interacțiuni sociale
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> înveți regulile și cuvintele din jur.<br><br>
+                <strong>Formulare academică:</strong> comunicarea socială este construită prin norme culturale și folosește simboluri (cuvinte, reguli, convenții).<br><br>
+                <strong>Exemplu:</strong> salutul și formulele de politețe.
+              </span>
+            </span>
+          </li>
+          <li>
+            <span class='tip'>Schimb de informații cu sens
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> nu doar trimiți, ci și înțelegi.<br><br>
+                <strong>Formulare academică:</strong> transferul devine comunicare doar când mesajul este decodificat și urmat de un răspuns adecvat.
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Comunicare spontană</h3>
+        <p class="lesson-highlight">Înăscută, biologică</p>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Se bazează pe semne naturale
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> semne instinctive (plâns, gest reflex).<br><br>
+                <strong>Formulare academică:</strong> comunicarea spontană are determinare biologică și utilizează semne non-simbolice.
+              </span>
+            </span>
+          </li>
+          <li>
+            <span class='tip'>Apare înaintea codurilor lingvistice
+              <span class='tooltip-box'>
+                <strong>Exemplu:</strong> bebelușul transmite nevoi prin vocalize.
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>✔️ Condiții de funcționare</h3>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Interdependență</h3>
+        <hr />
+        <p><span class='tip'>Emițător și receptor egali<span class='tooltip-box'><strong>Spus simplu:</strong> amândoi sunt activi, pe rând.<br><br><strong>Formulare academică:</strong> rolurile sunt complementare și interdependente.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Scop + conștiență</h3>
+        <hr />
+        <p><span class='tip'>Mesajul urmărește un scop<span class='tooltip-box'><strong>Spus simplu:</strong> nu vorbim la întâmplare.<br><br><strong>Formulare academică:</strong> participarea conștientă introduce finalitatea actului comunicativ.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Cod comun</h3>
+        <hr />
+        <p><span class='tip'>Limbaj și interese comune<span class='tooltip-box'><strong>Spus simplu:</strong> vorbim „aceeași limbă”.<br><br><strong>Formulare academică:</strong> codarea și decodarea corectă cer un sistem simbolic comun (Ciofu, 1998).</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-2-q2": `
+    <h2>🗂️&nbsp;&nbsp;Clasificări ale comunicării</h2>
+    <p>Criteriile lui L. Iacob (apud Cucoș, 1998) arată cât de variate sunt formele comunicării.</p>
+
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>După parteneri</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Intrapersonală<span class='tooltip-box'><strong>Spus simplu:</strong> dialog cu tine însuți (gânduri și emoții).<br><br><strong>Formulare academică:</strong> procesarea internă a mesajelor și autoevaluarea influențate de celelalte forme.</span></span></li>
+          <li><span class='tip'>Interpersonală<span class='tooltip-box'><strong>Spus simplu:</strong> schimb între două persoane, cu feedback rapid.<br><br><strong>Exemplu:</strong> conversație față în față.</span></span></li>
+          <li><span class='tip'>Grup mic<span class='tooltip-box'><strong>Spus simplu:</strong> discuție structurată, cu scop clar.<br><br><strong>Formulare academică:</strong> mai formală decât dialogul diadic, cu feedback generos.</span></span></li>
+          <li><span class='tip'>Publică<span class='tooltip-box'><strong>Spus simplu:</strong> mesaj către audiență largă.<br><br><strong>Exemplu:</strong> conferință, miting, media.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>După statut</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Verticală<span class='tooltip-box'><strong>Spus simplu:</strong> statut inegal (profesor-elev).</span></span></li>
+          <li><span class='tip'>Orizontală<span class='tooltip-box'><strong>Spus simplu:</strong> statut egal (colegi).</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>După cod</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Verbală / nonverbală / paraverbală / mixtă<span class='tooltip-box'><strong>Spus simplu:</strong> cuvinte, gesturi, ton sau combinații.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>După finalitate</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Accidentală<span class='tooltip-box'><strong>Spus simplu:</strong> fără intenție clară.</span></span></li>
+          <li><span class='tip'>Subiectivă<span class='tooltip-box'><strong>Spus simplu:</strong> exprimă trăiri personale.</span></span></li>
+          <li><span class='tip'>Instrumentală<span class='tooltip-box'><strong>Spus simplu:</strong> urmărește un scop practic.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>După feedback</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Lateralizată<span class='tooltip-box'><strong>Spus simplu:</strong> fără feedback (film, radio, TV).</span></span></li>
+          <li><span class='tip'>Nelateralizată<span class='tooltip-box'><strong>Spus simplu:</strong> cu feedback direct între emițător și receptor.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>După conținut</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Referențială<span class='tooltip-box'><strong>Spus simplu:</strong> transmite adevăruri/informații.</span></span></li>
+          <li><span class='tip'>Operațional-metodologică<span class='tooltip-box'><strong>Spus simplu:</strong> explică „cum” lucrezi cu informația.</span></span></li>
+          <li><span class='tip'>Atitudinală<span class='tooltip-box'><strong>Spus simplu:</strong> evaluează și valorizează.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Notă didactică</h3>
+      <hr />
+      <p><span class='tip'>În realitate formele coexistă<span class='tooltip-box'><strong>Spus simplu:</strong> nu comunicăm „pur”, ci combinat.<br><br><strong>Formulare academică:</strong> delimitările sunt utile didactic, dar comunicarea este plurideterminată.</span></span></p>
+    </div>
+
+    <h3>📐 Triunghiul comunicării</h3>
+    <div class="lesson-card">
+      <p><span class='tip'>7% ce spui, 38% cum spui, 55% nonverbal<span class='tooltip-box'><strong>Formulare academică:</strong> ponderea canalelor sugerează importanța modului și a expresiei (Iovănuț, 2001).<br><br><strong>Exemplu:</strong> același mesaj poate fi acceptat sau respins în funcție de ton și postură.</span></span></p>
+    </div>
+  `,
+  "pedcom-2-2-q3": `
+    <h2>💭&nbsp;&nbsp;Comunicarea intrapersonală</h2>
+    <p>Comunicarea intrapersonală este dialogul interior prin care îți interpretezi experiențele.</p>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🪞&nbsp;&nbsp;Definiție</h3>
+        <hr />
+        <p><span class='tip'>Gânduri, sentimente, autoevaluare<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea intrapersonală se referă la gândire, la sentimente și la modul în care oamenii se văd pe ei înșiși, fiind simultan emițător și receptor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🔍&nbsp;&nbsp;Procesare internă</h3>
+        <hr />
+        <p><span class='tip'>Mesaje neobservabile extern<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea intrapersonală vizează procesarea mesajelor și semnalelor primite din mediul înconjurător (obiecte, evenimente, persoane).</span></span></p>
+      </div>
+    </div>
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Influențe și complexitate</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>🔗&nbsp;&nbsp;Influența celorlalte forme</h3>
+        <hr />
+        <p><span class='tip'>Interpersonalul modelează dialogul interior<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea interpersonală determină felul în care vorbim cu noi înșine, prin experiențele trăite cu ceilalți.</span></span></p>
+        <p><span class='tip'>Exemplu: zi bună / zi dificilă<span class='tooltip-box'><strong>Exemplu:</strong> după un conflict, ești predispus să te vezi în termeni de eșec; după o reușită, în termeni pozitivi.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Criterii interne</h3>
+        <hr />
+        <p><span class='tip'>Autoevaluare cu repere sociale și personale<span class='tooltip-box'><strong>Formulare academică:</strong> apar criterii obiective (de relevanță socială) și mecanisme interne subiective care structurează valențele individuale.</span></span></p>
+        <p><span class='tip'>Complexitate crescută<span class='tooltip-box'><strong>Formulare academică:</strong> la nivel secundar, comunicarea intrapersonală devine cea mai complexă prin integrarea tuturor influențelor.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-2-q4": `
+    <h2>🤝&nbsp;&nbsp;Comunicarea interpersonală, în grup mic și publică</h2>
+    <p>Formele comunicării diferă prin numărul participanților, feedback și nivelul de formalizare.</p>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>🗣️&nbsp;&nbsp;Interpersonală (diadică)</h3>
+        <hr />
+        <p><span class='tip'>Relație de schimb<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea desemnează o relație de schimb de informații, idei și opinii; este „a avea în comun”.</span></span></p>
+        <p><span class='tip'>Informală, feedback rapid<span class='tooltip-box'><strong>Formulare academică:</strong> folosește toate componentele procesului comunicațional, cu feedback imediat și zgomot minim.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>👥&nbsp;&nbsp;Grup mic</h3>
+        <hr />
+        <p><span class='tip'>Scop clar, structură crescută<span class='tooltip-box'><strong>Formulare academică:</strong> comunicarea de grup mic are loc pentru rezolvarea unei probleme și devine mai formală.</span></span></p>
+        <p><span class='tip'>Feedback generos, risc de confuzie<span class='tooltip-box'><strong>Formulare academică:</strong> mai mulți emițători/receptori cresc complexitatea procesului comunicațional.</span></span></p>
+      </div>
+    </div>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>📣&nbsp;&nbsp;Publică</h3>
+        <hr />
+        <p><span class='tip'>Mesaj structurat, canale amplificate<span class='tooltip-box'><strong>Formulare academică:</strong> vorbitorul utilizează voce amplificată, gesturi extinse și mijloace vizuale.</span></span></p>
+        <p><span class='tip'>Feedback limitat<span class='tooltip-box'><strong>Formulare academică:</strong> audiența oferă feedback mai ales nonverbal sau la final.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚖️&nbsp;&nbsp;Climat relațional</h3>
+        <hr />
+        <p><span class='tip'>Agresiv – pasiv – asertiv<span class='tooltip-box'><strong>Formulare academică:</strong> dominarea sau retragerea afectează participarea; stilul asertiv susține colaborarea și respectul reciproc.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-3-q1": `
+    <h2>🗣️&nbsp;&nbsp;Comunicarea verbală</h2>
+    <p>Limbajul verbal este cel mai important vehicul pentru informații și cunoaștere.</p>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Ce este limbajul verbal?</h3>
+        <hr />
+        <p><span class='tip'>Sistem simbolic specific uman<span class='tooltip-box'><strong>Spus simplu:</strong> folosim cuvinte ca simboluri.<br><br><strong>Formulare academică:</strong> limbajul verbal este un sistem de simboluri pentru stocarea și schimbul de informații.</span></span></p>
+        <p><span class='tip'>Apare întâi ca limbă vorbită, apoi scrisă<span class='tooltip-box'><strong>Spus simplu:</strong> vorbirea apare înaintea scrisului.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Ce este vorbirea?</h3>
+        <hr />
+        <p><span class='tip'>Sunete emise cu intenție de comunicare<span class='tooltip-box'><strong>Spus simplu:</strong> de la vocalize la propoziții.</span></span></p>
+        <p><span class='tip'>Dorința de comunicare este esențială<span class='tooltip-box'><strong>Spus simplu:</strong> nu ajunge să poți vorbi, trebuie să vrei să comunici.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Roluri cheie</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Organizează experiența și gândirea<span class='tooltip-box'><strong>Exemplu:</strong> poți opera cu idei abstracte.</span></span></li>
+        <li><span class='tip'>Permite controlul comportamentului<span class='tooltip-box'><strong>Exemplu:</strong> formulezi cereri și reguli.</span></span></li>
+        <li><span class='tip'>Achiziție timpurie (finalul primului an)<span class='tooltip-box'><strong>Exemplu:</strong> limbajul se învață în familie, rol esențial al mamei.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-3-q2": `
+    <h2>🧪&nbsp;&nbsp;Teorii despre învățarea limbajului</h2>
+
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Skinner (1957)</h3>
+        <hr />
+        <p><span class='tip'>Imitare + întărire<span class='tooltip-box'><strong>Spus simplu:</strong> copilul imită și este corectat.<br><br><strong>Exemplu:</strong> mama corectează greșeli.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Chomsky (1968-1972)</h3>
+        <hr />
+        <p><span class='tip'>Reguli internalizate<span class='tooltip-box'><strong>Spus simplu:</strong> copilul învață reguli, nu doar imită.<br><br><strong>Exemplu:</strong> produce propoziții originale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Lenneberg (1969)</h3>
+        <hr />
+        <p><span class='tip'>Bază genetică specific umană<span class='tooltip-box'><strong>Spus simplu:</strong> limbajul simbolic e un caracter al speciei.<br><br><strong>Exemplu:</strong> primatele nu vorbesc.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Argumente-cheie</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Secvențe relativ standardizate<span class='tooltip-box'><strong>Exemplu:</strong> propoziții din două cuvinte create de copil.</span></span></li>
+        <li><span class='tip'>Necesită nivel cognitiv și motor minim<span class='tooltip-box'><strong>Exemplu:</strong> dezvoltarea neuro-motorie susține vorbirea.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-3-q3": `
+    <h2>🏛️&nbsp;&nbsp;Limbaj, cultură și statut</h2>
+
+    <div class="lesson-card">
+      <h3>Modele culturale</h3>
+      <hr />
+      <p><span class='tip'>Statutul și rolul schimbă vorbirea<span class='tooltip-box'><strong>Spus simplu:</strong> altfel vorbim cu un șef decât cu un prieten.<br><br><strong>Formulare academică:</strong> vocabularul și topica frazei reflectă statutul și relația.</span></span></p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Limbajul modelează gândirea</h3>
+      <hr />
+      <p><span class='tip'>Lera Boroditsky: limbile influențează felul în care gândim<span class='tooltip-box'><strong>Spus simplu:</strong> cuvintele pe care le avem schimbă ce observăm.<br><br><strong>Exemplu:</strong> limbi diferite organizează diferit spațiul sau timpul.</span></span></p>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Adresare</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Persoana a II-a singular<span class='tooltip-box'><strong>Exemplu:</strong> relații apropiate.</span></span></li>
+          <li><span class='tip'>Persoana a II-a plural + titlu<span class='tooltip-box'><strong>Exemplu:</strong> relații formale.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Statut social</h3>
+        <hr />
+        <p><span class='tip'>Cei cu statut înalt vorbesc mai mult și sunt solicitați mai des<span class='tooltip-box'><strong>Exemplu:</strong> liderul își menține statutul prin frecvența vorbirii.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-3-q4": `
+    <h2>✨&nbsp;&nbsp;Calitatea comunicării verbale</h2>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Caracteristici</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Claritate, sinceritate, fluență, ritm<span class='tooltip-box'><strong>Spus simplu:</strong> mesaj ușor de urmărit.</span></span></li>
+          <li><span class='tip'>Corectitudine fără jargon / argou / stereotipii<span class='tooltip-box'><strong>Spus simplu:</strong> limbaj adecvat contextului educațional.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Trăsături favorizante</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Naturalețe, precizie, concizie<span class='tooltip-box'><strong>Exemplu:</strong> exprimi ideea fără divagații.</span></span></li>
+          <li><span class='tip'>Armonie și finețe<span class='tooltip-box'><strong>Exemplu:</strong> formulezi respectuos.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Start de conversație</h3>
+      <hr />
+      <p><span class='tip'>Pornește de la context sau persoană<span class='tooltip-box'><strong>Exemplu:</strong> „Suntem la workshop…” / „Ce platformă ai ales?”.</span></span></p>
+      <p><span class='tip'>Folosirea marcajelor „Înțeleg”, „Chiar așa?”<span class='tooltip-box'><strong>Spus simplu:</strong> încurajează dialogul.</span></span></p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Ce observi la interlocutor</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Nonverbal: distanță, postură, gestică, respirație<span class='tooltip-box'><strong>Spus simplu:</strong> corpul arată starea.</span></span></li>
+        <li><span class='tip'>Paraverbal: ritm, canal dominant<span class='tooltip-box'><strong>Spus simplu:</strong> unii preferă auditivul, alții vizualul.</span></span></li>
+        <li><span class='tip'>Mental: valori, credințe, amintiri<span class='tooltip-box'><strong>Spus simplu:</strong> acestea influențează interpretarea.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Atitudini și climat</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Allport: atitudinea ca stare mentală orientată spre acțiune<span class='tooltip-box'><strong>Formulare academică:</strong> atitudinea pregătește reacțiile în comunicare.</span></span></li>
+        <li><span class='tip'>Abric: interpretare, evaluare, ajutor, chestionare, comprehensiune<span class='tooltip-box'><strong>Spus simplu:</strong> feluri diferite de a răspunde interlocutorului.</span></span></li>
+        <li><span class='tip'>Harris: Eu sunt OK / Tu ești OK (și variantele)<span class='tooltip-box'><strong>Spus simplu:</strong> optimism vs. neîncredere în relație.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-4-q1": `
+    <h2>👀&nbsp;&nbsp;Nonverbal: rol și principii</h2>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Rol general</h3>
+        <hr />
+        <p><span class='tip'>Acompaniază și nuanțează verbalul<span class='tooltip-box'><strong>Spus simplu:</strong> gesturile și expresia dau sens cuvintelor.</span></span></p>
+        <p><span class='tip'>Se învață implicit, prin cultură<span class='tooltip-box'><strong>Exemplu:</strong> copilul copiază gesturi fără instrucțiuni.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Principii</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Determinare culturală<span class='tooltip-box'><strong>Exemplu:</strong> gesturi diferite în culturi diferite.</span></span></li>
+          <li><span class='tip'>Inconștient și uneori conflictual cu verbalul<span class='tooltip-box'><strong>Exemplu:</strong> zâmbești, dar spui „nu”.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Funcții (DeVito)</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Accentuează, completează, contrazice<span class='tooltip-box'><strong>Exemplu:</strong> ton și gest care schimbă sensul.</span></span></li>
+        <li><span class='tip'>Reglează fluxul și poate substitui verbalul<span class='tooltip-box'><strong>Exemplu:</strong> dai din cap în loc să spui „da”.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Impactul percepțiilor rapide</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Amy Cuddy: limbajul trupului influențează judecățile<span class='tooltip-box'><strong>Spus simplu:</strong> reacționăm rapid la postura celuilalt.</span></span></li>
+        <li><span class='tip'>Ambady: 30 sec fără sunet pot prezice reacții sociale<span class='tooltip-box'><strong>Exemplu:</strong> percepția asupra medicului.</span></span></li>
+        <li><span class='tip'>Todorov: o secundă de privire poate prezice impresia politică<span class='tooltip-box'><strong>Spus simplu:</strong> fețele comunică puternic.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-4-q2": `
+    <h2>👁️&nbsp;&nbsp;Privirea și contactul vizual</h2>
+
+    <div class="lesson-card">
+      <h3>Funcții ale privirii</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Regularizează fluxul și monitorizează feedbackul<span class='tooltip-box'><strong>Exemplu:</strong> vezi dacă interlocutorul urmărește.</span></span></li>
+        <li><span class='tip'>Exprimă emoții și relații<span class='tooltip-box'><strong>Exemplu:</strong> privire caldă vs. rece.</span></span></li>
+        <li><span class='tip'>Direcția privirii indică interesul<span class='tooltip-box'><strong>Exemplu:</strong> ezitarea verbală este însoțită de schimbarea privirii.</span></span></li>
+        <li><span class='tip'>Mișcările oculare semnalizează intenții<span class='tooltip-box'><strong>Exemplu:</strong> în subiecte delicate se evită privirea.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Semne afective</h3>
+        <hr />
+        <p><span class='tip'>Frecvența ridicată poate semnala agresivitate<span class='tooltip-box'><strong>Exemplu:</strong> privire insistentă.</span></span></p>
+        <p><span class='tip'>Pupile dilatate = simpatie, contractate = antipatie<span class='tooltip-box'><strong>Spus simplu:</strong> semnale subtile, dar importante.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Norme culturale</h3>
+        <hr />
+        <p><span class='tip'>Vest: privirea directă = deschidere<span class='tooltip-box'><strong>Exemplu:</strong> evitarea pare nesinceră.</span></span></p>
+        <p><span class='tip'>Est: privirea directă poate fi lipsă de respect<span class='tooltip-box'><strong>Exemplu:</strong> față de superiori sau persoane mai în vârstă.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-4-q3": `
+    <h2>📏&nbsp;&nbsp;Proxemică și spații</h2>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Tipuri de distanțe (Hall)</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Intimă (0-40 cm)<span class='tooltip-box'><strong>Spus simplu:</strong> corp la corp, voce joasă.<br><br><strong>Exemplu:</strong> relații apropiate.</span></span></li>
+          <li><span class='tip'>Personală (45-125 cm)<span class='tooltip-box'><strong>Spus simplu:</strong> voce normală, familiară.<br><br><strong>Exemplu:</strong> prieteni, colegi.</span></span></li>
+          <li><span class='tip'>Socială (125-360 cm)<span class='tooltip-box'><strong>Spus simplu:</strong> voce plină, distinctă.<br><br><strong>Exemplu:</strong> relații profesionale.</span></span></li>
+          <li><span class='tip'>Publică (3,6m+)<span class='tooltip-box'><strong>Spus simplu:</strong> discurs formal, gesturi largi.<br><br><strong>Exemplu:</strong> prezentări.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Invadarea spațiului</h3>
+        <hr />
+        <p><span class='tip'>Provoacă tensiune și retragere<span class='tooltip-box'><strong>Exemplu:</strong> interlocutorul se îndepărtează pentru a reface distanța.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Teritorii</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Tribale / familiale / personale<span class='tooltip-box'><strong>Spus simplu:</strong> spații ale grupului, familiei și individului.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-4-q4": `
+    <h2>🎭&nbsp;&nbsp;Mimică și gesturi</h2>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Expresia facială</h3>
+        <hr />
+        <p><span class='tip'>Emoții universale + control cultural<span class='tooltip-box'><strong>Spus simplu:</strong> emoțiile de bază sunt reflexe, dar le putem masca.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Gesturi</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Ilustratoare, adaptoare, embleme<span class='tooltip-box'><strong>Exemplu:</strong> negarea din cap, acoperirea ochilor, semnul V.</span></span></li>
+          <li><span class='tip'>Esteoetzel: autice, obișnuite, simbolice<span class='tooltip-box'><strong>Exemplu:</strong> frământarea mâinilor, ridicatul mâinii.</span></span></li>
+          <li><span class='tip'>Limbajul trupului: puncte, poziții, prezentare<span class='tooltip-box'><strong>Spus simplu:</strong> contează mișcările, postura și aspectul general.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Aparență și ambient</h3>
+      <hr />
+      <p><span class='tip'>Îmbrăcămintea comunică statut și intenții<span class='tooltip-box'><strong>Exemplu:</strong> uniforma sau stilul vestimentar.</span></span></p>
+      <p><span class='tip'>Ambientul reflectă personalitatea<span class='tooltip-box'><strong>Exemplu:</strong> spațiul de lucru ordonat vs. haotic.</span></span></p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Alți vectori nonverbali</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Obiecte, ordine, mărime, distribuție<span class='tooltip-box'><strong>Spus simplu:</strong> lucrurile din jur comunică despre tine.</span></span></li>
+        <li><span class='tip'>Comunicare artistică<span class='tooltip-box'><strong>Spus simplu:</strong> emoția artistică transmite sensuri fără cuvinte.</span></span></li>
+        <li><span class='tip'>Chimică și cromatică<span class='tooltip-box'><strong>Spus simplu:</strong> mirosurile și culorile influențează relația.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-4-q5": `
+    <h2>🎨&nbsp;&nbsp;Culori, atingere și dominanță</h2>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Comunicare cromatică</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Albastru închis = liniște; galben = activitate<span class='tooltip-box'><strong>Spus simplu:</strong> culorile influențează starea și ritmul comunicării.</span></span></li>
+          <li><span class='tip'>Roșu = creativitate; verde = lucru cu idei<span class='tooltip-box'><strong>Exemplu:</strong> roșul energizează, verdele clarifică.</span></span></li>
+          <li><span class='tip'>Culori calde stimulează, reci inhibă<span class='tooltip-box'><strong>Exemplu:</strong> roșu vs. gri.</span></span></li>
+          <li><span class='tip'>Semnificații culturale diferite<span class='tooltip-box'><strong>Exemplu:</strong> roșul = festiv în China, dragoste în Europa.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Comunicare chimică</h3>
+        <hr />
+        <p><span class='tip'>Mirosul influențează percepția<span class='tooltip-box'><strong>Spus simplu:</strong> parfumul poate crea apropiere sau respingere.<br><br><strong>Formulare academică:</strong> semnalele olfactive pot activa reacții afective (ex. feromoni).</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Comunicare tactilă</h3>
+        <hr />
+        <p><span class='tip'>Palma în jos = dominare; palmă în sus = supunere; lateral = egalitate<span class='tooltip-box'><strong>Exemplu:</strong> strângerea de mână.</span></span></p>
+        <p><span class='tip'>Atingeri de control = relație de dominare<span class='tooltip-box'><strong>Exemplu:</strong> superiorul atinge subordonatul.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Salutul: tipuri frecvente</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Mâna menghină / mâna moartă<span class='tooltip-box'><strong>Spus simplu:</strong> prea strâns vs. pasiv.</span></span></li>
+          <li><span class='tip'>Mâna fermă / lipitoarea<span class='tooltip-box'><strong>Spus simplu:</strong> încredere vs. control excesiv.</span></span></li>
+          <li><span class='tip'>Salut invaziv / salut dominant<span class='tooltip-box'><strong>Spus simplu:</strong> invadează spațiul sau pune mâna deasupra.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Indicatori ai dominanței (Collett, 2010)</h3>
+      <hr />
+      <p><span class='tip'>Înălțime, postură, spațiu, orientare, privire, atingere<span class='tooltip-box'><strong>Spus simplu:</strong> corpul „spune” cine conduce.</span></span></p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Beneficii ale decodificării nonverbalului</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Anticiparea stării de spirit<span class='tooltip-box'><strong>Exemplu:</strong> observi tensiune înainte de conflict.</span></span></li>
+        <li><span class='tip'>Adaptarea comunicării și controlul semnalelor proprii<span class='tooltip-box'><strong>Exemplu:</strong> îți reglezi postura.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-5-q1": `
+    <h2>🎧&nbsp;&nbsp;Comunicarea paraverbală</h2>
+
+    <div class="lesson-card">
+      <h3>Elemente paraverbale</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Ritm, ton, volum, pauze, timbru, dicție, accent<span class='tooltip-box'><strong>Spus simplu:</strong> cum sună mesajul.</span></span></li>
+        <li><span class='tip'>Pondere mare în sens (Mehrabian, ~39%)<span class='tooltip-box'><strong>Exemplu:</strong> același „da” schimbă sensul.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Semnificații tipice</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Viteza vorbirii (ritm)<span class='tooltip-box'><strong>Spus simplu:</strong> repede = urgență; lent = monotonie.</span></span></li>
+        <li><span class='tip'>Înălțimea tonului<span class='tooltip-box'><strong>Spus simplu:</strong> ton înalt = iritare; ton scăzut = control.</span></span></li>
+        <li><span class='tip'>Volumul<span class='tooltip-box'><strong>Spus simplu:</strong> volum mare poate părea dominare; mic = nesiguranță.</span></span></li>
+        <li><span class='tip'>Pauzele<span class='tooltip-box'><strong>Spus simplu:</strong> subliniază idei și schimbă ritmul.</span></span></li>
+        <li><span class='tip'>Timbrul, dicția, accentul<span class='tooltip-box'><strong>Spus simplu:</strong> conturează identitatea și influențează sensul.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Tăcerea comunică</h3>
+      <hr />
+      <p><span class='tip'>Tăceri de nedumerire, vinovăție, protest, aprobare<span class='tooltip-box'><strong>Exemplu:</strong> tăcere după o întrebare dificilă.</span></span></p>
+      <p><span class='tip'>Tăceri stimulative, condamnări, obositoare<span class='tooltip-box'><strong>Exemplu:</strong> tăcere care pune presiune.</span></span></p>
+      <p><span class='tip'>Tăceri goale vs. tăceri pline<span class='tooltip-box'><strong>Spus simplu:</strong> unele sunt fără conținut, altele arată gândire intensă.</span></span></p>
+    </div>
+  `,
+  "pedcom-2-6-q1": `
+    <h2>✍️&nbsp;&nbsp;Comunicarea scrisă</h2>
+    <p>Comunicarea scrisă cere cod specific și control riguros al informației.</p>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Obiective centrale</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Niveluri de abstractizare + valori lexicale / sintagmatice<span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi ce e idee și ce e detaliu.<br><br><strong>Formulare academică:</strong> se urmărește corelarea sensului lexical cu structura sintagmatică pentru coerență.</span></span></li>
+          <li><span class='tip'>Punctuație și mijloace grafice<span class='tooltip-box'><strong>Spus simplu:</strong> semnele schimbă sensul.<br><br><strong>Formulare academică:</strong> corectitudinea grafică sprijină interpretarea mesajului.</span></span></li>
+          <li><span class='tip'>Esențial vs. accesoriu + rezumat / concluzie<span class='tooltip-box'><strong>Spus simplu:</strong> extragi ideile-cheie și le sintetizezi.<br><br><strong>Formulare academică:</strong> se urmărește capacitatea de structurare și sinteză.</span></span></li>
+          <li><span class='tip'>Tehnici de lucru cu textul + întrebări<span class='tooltip-box'><strong>Spus simplu:</strong> știi să folosești dicționare, fișe, grafice.<br><br><strong>Formulare academică:</strong> se dezvoltă competențe instrumentale pentru investigarea informației scrise.</span></span></li>
+          <li><span class='tip'>Integrarea în experiența proprie<span class='tooltip-box'><strong>Spus simplu:</strong> legi ce citești de ce trăiești.<br><br><strong>Formulare academică:</strong> cunoașterea devine funcțională prin transfer în situații reale.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Competență textuală</h3>
+        <hr />
+        <p><span class='tip'>Reguli pragmatice → semantice → sintactice<span class='tooltip-box'><strong>Spus simplu:</strong> întâi scopul, apoi sensul, apoi forma.<br><br><strong>Formulare academică:</strong> ordinea pragmatic–semantic–sintactic definește calitatea culturală a textului.</span></span></p>
+        <p><span class='tip'>Roluri comunicative distincte față de oral<span class='tooltip-box'><strong>Spus simplu:</strong> timpul și spațiul sunt diferite la scris.<br><br><strong>Formulare academică:</strong> identitatea actului scris este dată de roluri, timp și coerență textuală.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Cerințe de calitate</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Concizie, claritate, logică internă<span class='tooltip-box'><strong>Spus simplu:</strong> mesaj scurt, limpede, coerent.</span></span></li>
+          <li><span class='tip'>Terminologie adecvată + argumente clare<span class='tooltip-box'><strong>Spus simplu:</strong> cuvinte potrivite și justificare.</span></span></li>
+          <li><span class='tip'>Propoziții rezonabile + ușor de citit<span class='tooltip-box'><strong>Spus simplu:</strong> nu supraîncărci textul.</span></span></li>
+          <li><span class='tip'>Punctuație corectă și emoție controlată<span class='tooltip-box'><strong>Spus simplu:</strong> nuanțezi fără confuzii.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Avantaje</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Organizare clară prin revizuire<span class='tooltip-box'><strong>Exemplu:</strong> îmbunătățești textul în timp.</span></span></li>
+          <li><span class='tip'>Consultare și confruntare<span class='tooltip-box'><strong>Exemplu:</strong> revii la instrucțiuni.</span></span></li>
+          <li><span class='tip'>Argumentare solidă<span class='tooltip-box'><strong>Exemplu:</strong> poți structura dovezi.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Limite</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Lipsa legăturii directe<span class='tooltip-box'><strong>Exemplu:</strong> nu vezi reacția imediată.</span></span></li>
+          <li><span class='tip'>Feedback întârziat<span class='tooltip-box'><strong>Exemplu:</strong> răspunsul vine mai târziu.</span></span></li>
+          <li><span class='tip'>Reducerea informației emoționale<span class='tooltip-box'><strong>Exemplu:</strong> intonația lipsește.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Analiza grafologică</h3>
+      <hr />
+      <p><span class='tip'>Formă, dimensiune, continuitate, înclinare, presiune<span class='tooltip-box'><strong>Spus simplu:</strong> scrisul poate oferi indicii despre stilul personal.<br><br><strong>Formulare academică:</strong> analiza grafologică urmărește parametri formali ai scrisului.</span></span></p>
+    </div>
+  `,
+  "pedcom-2-6-q2": `
+    <h2>🔎&nbsp;&nbsp;Metacomunicarea</h2>
+    <p>Uneori contează la fel de mult <strong>ce</strong> spui, <strong>cum</strong> spui și <strong>de ce</strong> spui.</p>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Ce este metacomunicarea</h3>
+        <hr />
+        <p><span class='tip'>Nivelul sugerat al mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> există un „mesaj din spatele mesajului”.<br><br><strong>Formulare academică:</strong> metacomunicarea vizează implicațiile care nu se reduc la sensul literal al cuvintelor (Neacșu, 1999).</span></span></p>
+        <p><span class='tip'>Distincția: ce / cum / de ce<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași idee poate suna diferit, cu alt scop.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Relația dintre canale</h3>
+        <hr />
+        <p><span class='tip'>Paraverbal + nonverbal = decodare mai rapidă<span class='tooltip-box'><strong>Spus simplu:</strong> reacționăm repede la ton și gesturi.<br><br><strong>Formulare academică:</strong> aceste canale sunt de ~4,5 ori mai rapid decodificate decât verbalul.</span></span></p>
+        <p><span class='tip'>7% verbal / 38% paraverbal / 55% nonverbal<span class='tooltip-box'><strong>Spus simplu:</strong> emoția se transmite mai ales prin cum spui și cum arăți.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Concordanță vs. disonanță</h3>
+        <hr />
+        <p><span class='tip'>Concordant = mesaj unitar<span class='tooltip-box'><strong>Exemplu:</strong> ton calm + expresie calmă.</span></span></p>
+        <p><span class='tip'>Discordant = ironie sau confuzie<span class='tooltip-box'><strong>Exemplu:</strong> „bravo” spus cu ton disprețuitor.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Temporalitate și spontaneitate</h3>
+        <hr />
+        <p><span class='tip'>Nonverbalul poate anticipa / urma verbalul<span class='tooltip-box'><strong>Spus simplu:</strong> reacția apare uneori înaintea cuvintelor.</span></span></p>
+        <p><span class='tip'>Paraverbalul și nonverbalul scapă mai des conștientizării<span class='tooltip-box'><strong>Spus simplu:</strong> sunt mai spontane.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Exemple de metacomunicare</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>„OK?” / „Da?” forțează acordul<span class='tooltip-box'><strong>Spus simplu:</strong> îl împingi pe celălalt spre acceptare.</span></span></li>
+        <li><span class='tip'>„Doar” / „Numai” minimizează<span class='tooltip-box'><strong>Spus simplu:</strong> faci ceva să pară mai mic.</span></span></li>
+        <li><span class='tip'>„Dacă...” condiționează<span class='tooltip-box'><strong>Spus simplu:</strong> totul depinde de o condiție.</span></span></li>
+      </ul>
+    </div>
+  `,
+  "pedcom-2-7-q1": `
+    <h2>🎓&nbsp;&nbsp;Implicații psihopedagogice</h2>
+
+    <div class="lesson-card">
+      <h3>Verbalul în clasă</h3>
+      <hr />
+      <p><span class='tip'>Dialog autentic profesor–elev<span class='tooltip-box'><strong>Formulare academică:</strong> dialogul are efecte formative (Ghivirigă, 1975).</span></span></p>
+      <p><span class='tip'>Expunere, maieutică, dialog<span class='tooltip-box'><strong>Spus simplu:</strong> expunerea nu trebuie să acopere tot timpul.</span></span></p>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Paraverbalul în educație</h3>
+        <hr />
+        <p><span class='tip'>Supracodificare și expresivitate<span class='tooltip-box'><strong>Spus simplu:</strong> același mesaj capătă alt sens prin ton.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Nonverbalul în educație</h3>
+        <hr />
+        <p><span class='tip'>Precocitate și mix înnăscut / învățat<span class='tooltip-box'><strong>Exemplu:</strong> expresii emoționale timpurii.</span></span></p>
+      </div>
+    </div>
+  `,
+  "pedcom-2-8-q1": `
+    <h2>👥&nbsp;&nbsp;Comunicarea de grup</h2>
+
+    <div class="lesson-card">
+      <h3>Baza comunicării în grup</h3>
+      <hr />
+      <p><span class='tip'>Interdependență și mediu psihosocial (Lewin)<span class='tooltip-box'><strong>Spus simplu:</strong> comportamentul depinde de context și de grup.</span></span></p>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Comunicare eficientă</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>Dezvoltarea ideilor și cererea de clarificări<span class='tooltip-box'><strong>Exemplu:</strong> întrebări și propuneri de modificare.</span></span></li>
+          <li><span class='tip'>Participare: atenție, înțelegere, elaborare, modificare<span class='tooltip-box'><strong>Spus simplu:</strong> implicare reală.</span></span></li>
+          <li><span class='tip'>Explorarea consecințelor și găsirea de soluții<span class='tooltip-box'><strong>Exemplu:</strong> se propun alternative viabile.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Climat afectiv</h3>
+        <hr />
+        <p><span class='tip'>Sensibilitate și clarificare reciprocă<span class='tooltip-box'><strong>Exemplu:</strong> parafrazări, acorduri, energie.</span></span></p>
+        <p><span class='tip'>Mai multe adeziuni și eforturi de clarificare<span class='tooltip-box'><strong>Spus simplu:</strong> grupul validează și lămurește.</span></span></p>
+      </div>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Constrângeri și tipologii</h3>
+      <hr />
+      <p><span class='tip'>Constrângeri: spațiu, timp, emoții, raționalitate, imaginație, schimburi multiple<span class='tooltip-box'><strong>Spus simplu:</strong> limitele scad eficiența comunicării.</span></span></p>
+      <p><span class='tip'>Tipologii: certăreți, cooperanți, „știe-tot”, vorbăreți, timizi, necooperanți etc.<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare tip cere o abordare potrivită.</span></span></p>
+    </div>
+
+    <div class="lesson-card">
+      <h3>Abordări recomandate</h3>
+      <hr />
+      <ul>
+        <li><span class='tip'>Certăreți: calm + limitarea monopolului<span class='tooltip-box'><strong>Spus simplu:</strong> nu intri în conflict, păstrezi controlul.</span></span></li>
+        <li><span class='tip'>Timizi: întrebări ușoare + încurajare<span class='tooltip-box'><strong>Spus simplu:</strong> crești încrederea treptat.</span></span></li>
+        <li><span class='tip'>„Știe-tot”: nu escaladezi, lași grupul să verifice<span class='tooltip-box'><strong>Spus simplu:</strong> corectezi fără tensiune.</span></span></li>
+      </ul>
+    </div>
+  `,
+
+  "pedcom-1-3-q1": {
+    title: "Comunicarea: definiții ale conceptului",
+    html: `
+    <h2>🧭&nbsp;&nbsp;Comunicarea: idee de bază</h2>
+    <p>Comunicarea este un proces general, prezent în viața socială și în natură.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Nu doar la oameni</h3>
+        <hr />
+        <p><span class='tip'>Semnalizarea există și la animale<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> și alte viețuitoare trimit și înțeleg semnale.<br><br>
+          <strong>Formulare academică:</strong> comunicarea apare în multiple forme de semnalizare la nivel interspecific, fără a necesita limbaj simbolic uman.<br><br>
+          <strong>Exemplu:</strong> albinele indică sursa de nectar prin „dansul” lor.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>❤️&nbsp;&nbsp;Necesitate vitală</h3>
+        <hr />
+        <p><span class='tip'>Fără comunicare nu există viață socială<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> comunicarea ține oamenii împreună.<br><br>
+          <strong>Formulare academică:</strong> schimbul de informații și semnificații susține existența socială, fiind comparat cu funcții biologice fundamentale.<br><br>
+          <strong>Exemplu:</strong> fără comunicare nu poți coordona munca, regulile sau ajutorul reciproc.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>📜&nbsp;&nbsp;Etimologie și sensuri</h3>
+      <hr />
+      <div class="etymology-flow">
+        <span class='tip etymology-pill'>communis / communicare<span class='tooltip-box'><strong>Spus simplu:</strong> „a face în comun”.<br><br><strong>Formulare academică:</strong> derivarea indică actul de a împărtăși și de a participa la ceva comun.<br><br><strong>Exemplu:</strong> punerea la comun a informațiilor într-un grup.</span></span>
+        <span class="etymology-arrow">→</span>
+        <span class='tip etymology-pill'>cuminecare (sens vechi)<span class='tooltip-box'><strong>Spus simplu:</strong> sens religios, de împărtășire.<br><br><strong>Formulare academică:</strong> termenul desemna împărtășirea unui bun spiritual comun.<br><br><strong>Exemplu:</strong> împărtășirea ca act ritualic.</span></span>
+        <span class="etymology-arrow">→</span>
+        <span class='tip etymology-pill'>comunicare (sens modern)<span class='tooltip-box'><strong>Spus simplu:</strong> relațiile dintre oameni în viața de zi cu zi.<br><br><strong>Formulare academică:</strong> termenul a trecut la sensul laic de organizare a raporturilor interumane.<br><br><strong>Exemplu:</strong> comunicarea în școală și la locul de muncă.</span></span>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <h3>🧭&nbsp;&nbsp;Două tipuri de definiții</h3>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h4>📤&nbsp;&nbsp;Transmitere de mesaj</h4>
+        <hr />
+        <p><span class='tip'>Accent pe emițător, canal și efect<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> mesajul merge de la cineva la altcineva printr-un canal (mijlocul de transmitere: voce, telefon, scris).<br><br>
+          <strong>Formulare academică:</strong> comunicarea este un flux direcționat de la emițător la receptor, cu efect măsurabil.<br><br>
+          <strong>Exemplu:</strong> o știre informativă transmisă la radio.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h4>🤝&nbsp;&nbsp;Negociere de sens</h4>
+        <hr />
+        <p><span class='tip'>Accent pe interpretare și înțelegere comună<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> sensul se construiește împreună.<br><br>
+          <strong>Formulare academică:</strong> semnificația se negociază prin interacțiune și interpretare reciprocă.<br><br>
+          <strong>Exemplu:</strong> clarifici „ce ai vrut să spui” într-o discuție.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-3-q2": {
+    title: "Funcțiile comunicării în modelul lui Roman Jakobson",
+    html: `
+    <h2>🧩&nbsp;&nbsp;Funcțiile comunicării (Jakobson)</h2>
+    <p>Într-un mesaj pot apărea toate funcțiile, dar una devine dominantă.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>😃&nbsp;&nbsp;Funcția expresivă</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre emițător<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> arată starea vorbitorului.<br><br>
+          <strong>Formulare academică:</strong> mesajul exprimă raportarea subiectivă a emițătorului la situație și la conținut.<br><br>
+          <strong>Exemplu:</strong> „Sunt mândru de ce ai făcut.”
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Funcția conativă</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre receptor<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> vrei o reacție de la celălalt.<br><br>
+          <strong>Formulare academică:</strong> mesajul urmărește determinarea unui răspuns sau a unei acțiuni.<br><br>
+          <strong>Exemplu:</strong> „Te rog, închide ușa.”
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📌&nbsp;&nbsp;Funcția referențială</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre referent<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> spui un fapt despre realitate (referent = tema despre care se vorbește).<br><br>
+          <strong>Formulare academică:</strong> mesajul transmite informație factuală despre obiecte, fapte sau situații.<br><br>
+          <strong>Exemplu:</strong> „Afară plouă.”
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📞&nbsp;&nbsp;Funcția fatică</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre canal<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> verifici dacă legătura funcționează.<br><br>
+          <strong>Formulare academică:</strong> inițiază, menține sau întrerupe contactul prin canalul de comunicare (mijlocul de transmitere).<br><br>
+          <strong>Exemplu:</strong> „Alo, mă auzi?”
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Funcția metalingvistică</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre cod<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> explici cuvintele sau regulile limbii.<br><br>
+          <strong>Formulare academică:</strong> mesajul clarifică sensurile codului folosit.<br><br>
+          <strong>Exemplu:</strong> „Prin «verb» înțelegem o acțiune.”
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎵&nbsp;&nbsp;Funcția poetică</h3>
+        <hr />
+        <p><span class='tip'>Orientare spre forma mesajului<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> contează cum sună mesajul.<br><br>
+          <strong>Formulare academică:</strong> mesajul evidențiază organizarea estetică a semnelor (ritm, repetiție, jocuri de cuvinte).<br><br>
+          <strong>Exemplu:</strong> rimele din poezie sau un slogan.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-3-q3": {
+    title: "Factorii determinanți ai comunicării",
+    html: `
+    <h2>🧭&nbsp;&nbsp;Factorii determinanți ai comunicării</h2>
+    <p>Comunicarea este influențată simultan de oameni, de cod și de context.</p>
+
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Actorii comunicării</h3>
+        <hr />
+        <p><span class='tip'>Psihologic, cognitiv, social<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> emoțiile, cunoașterea și rolurile schimbă mesajul.<br><br>
+          <strong>Formulare academică:</strong> actorii comunicării sunt influențați de factori psihologici, cognitivi și sociali care modelează intențiile și interpretările.<br><br>
+          <strong>Exemplu:</strong> un elev timid comunică diferit față de un elev sigur pe sine.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Codul și canalul</h3>
+        <hr />
+        <p><span class='tip'>Limbaj, semne, mediu de transmitere<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> contează ce limbaj folosești și pe ce „drum” trimiți mesajul.<br><br>
+          <strong>Formulare academică:</strong> codul este sistemul de semne și reguli, iar canalul este mijlocul prin care mesajul circulă (voce, scris, online).<br><br>
+          <strong>Exemplu:</strong> un mesaj scris poate fi interpretat altfel decât unul spus pe ton calm.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Mediul și contextul</h3>
+        <hr />
+        <p><span class='tip'>Spațiu, timp, cultură, norme<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> locul și regulile sociale schimbă sensul mesajului.<br><br>
+          <strong>Formulare academică:</strong> factorii materiali, temporali, sociali și culturali influențează interpretarea mesajului.<br><br>
+          <strong>Exemplu:</strong> aceeași frază sună altfel la școală decât între prieteni.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Codul: exemple de factori</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Factori psihici/obiectivi<span class='tooltip-box'><strong>Spus simplu:</strong> cum arată semnele și suportul lor.<br><br><strong>Formulare academică:</strong> caracteristicile formale ale semnelor și ale suportului de comunicare.<br><br><strong>Exemplu:</strong> claritatea unui text scris.</span></span>",
+          "<span class='tip'>Factori psihosemantici<span class='tooltip-box'><strong>Spus simplu:</strong> sensurile pe care le dăm cuvintelor.<br><br><strong>Formulare academică:</strong> interpretarea semnificațiilor influențează înțelegerea mesajului.<br><br><strong>Exemplu:</strong> același cuvânt poate fi înțeles diferit.</span></span>",
+          "<span class='tip'>Canalul comunicării<span class='tooltip-box'><strong>Spus simplu:</strong> drumul mesajului (voce, scris, online).<br><br><strong>Formulare academică:</strong> mediul de transmitere poate facilita sau distorsiona mesajul.<br><br><strong>Exemplu:</strong> microfon slab, conexiune instabilă.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>Context: exemple de factori</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Material și temporal<span class='tooltip-box'><strong>Spus simplu:</strong> spațiu și moment.<br><br><strong>Formulare academică:</strong> condițiile fizice și temporale pot facilita sau bloca comunicarea.<br><br><strong>Exemplu:</strong> zgomot vs. liniște.</span></span>",
+          "<span class='tip'>Social și cultural<span class='tooltip-box'><strong>Spus simplu:</strong> normele grupului contează.<br><br><strong>Formulare academică:</strong> normele sociale și culturale modelează sensul și regulile dialogului.<br><br><strong>Exemplu:</strong> formule de politețe diferite.</span></span>",
+        ])}
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-3-q4": {
+    title: "Schema comunicării",
+    html: `
+    <h2>📡&nbsp;&nbsp;Schema comunicării</h2>
+    <p>Schema clasică explică traseul mesajului și rolul feedbackului.</p>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Elementele schemei</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Emitent<span class='tooltip-box'><strong>Spus simplu:</strong> cel care inițiază mesajul.<br><br><strong>Formulare academică:</strong> produce mesajul și îl codifică.<br><br><strong>Exemplu:</strong> profesorul care explică.</span></span>",
+          "<span class='tip'>Mesaj<span class='tooltip-box'><strong>Spus simplu:</strong> conținutul transmis.<br><br><strong>Formulare academică:</strong> ansamblu de semne care poartă informația.<br><br><strong>Exemplu:</strong> explicația unei reguli.</span></span>",
+          "<span class='tip'>Cod și canal<span class='tooltip-box'><strong>Spus simplu:</strong> limbajul și drumul mesajului.<br><br><strong>Formulare academică:</strong> cod = sistem de semne; canal = mijlocul de transmitere.<br><br><strong>Exemplu:</strong> limba română + vocea.</span></span>",
+          "<span class='tip'>Receptor<span class='tooltip-box'><strong>Spus simplu:</strong> cel care primește mesajul.<br><br><strong>Formulare academică:</strong> decodifică și interpretează mesajul.<br><br><strong>Exemplu:</strong> elevul care ascultă.</span></span>",
+          "<span class='tip'>Feedback<span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul receptorului către emitent.<br><br><strong>Formulare academică:</strong> retroacțiune care reglează comunicarea.<br><br><strong>Exemplu:</strong> „Am înțeles.”</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>Rolul feedbackului</h3>
+        <hr />
+        <p><span class='tip'>Transformă monologul în dialog<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> fără feedback, comunicarea rămâne unilaterală.<br><br>
+          <strong>Formulare academică:</strong> feedbackul validează sau corectează mesajul inițial și reglează procesul comunicativ.<br><br>
+          <strong>Exemplu:</strong> elevul cere clarificări, profesorul reformulează.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+
+  "pedcom-1-3-q5": {
+    title: "Cei „4 C” ai comunicării",
+    html: `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Idee cheie:</strong>
+      Când comunicăm ne focalizăm atenția asupra celor „4 C”.
+    </div>
+    <hr />
+
+    <h2>🧩&nbsp;&nbsp;Cei „4 C”</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Ce dorim să comunicăm?</h3>
+        <hr />
+        <p><span class='tip'>Ce dorim să comunicăm?<span class='tooltip-box'><strong>Spus simplu:</strong> clarifici conținutul mesajului.<br><br><strong>Formulare academică:</strong> „Ce dorim să comunicăm?”.<br><br><strong>Exemplu:</strong> știi exact ce informație vrei să transmiți.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Cum dorim să comunicăm?</h3>
+        <hr />
+        <p><span class='tip'>Cum dorim să comunicăm?<span class='tooltip-box'><strong>Spus simplu:</strong> alegi forma și stilul mesajului.<br><br><strong>Formulare academică:</strong> „Cum dorim să comunicăm?”.<br><br><strong>Exemplu:</strong> decizi dacă spui direct sau formulezi mai diplomatic.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Cui ne adresăm?</h3>
+        <hr />
+        <p><span class='tip'>Cui ne adresăm?<span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la interlocutor.<br><br><strong>Formulare academică:</strong> „Cui ne adresăm?”.<br><br><strong>Exemplu:</strong> adaptezi mesajul la cel care te ascultă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">4️⃣</div>
+        <h3>Ce limbaj vom folosi?</h3>
+        <hr />
+        <p><span class='tip'>Ce limbaj vom folosi?<span class='tooltip-box'><strong>Spus simplu:</strong> alegi cuvintele potrivite.<br><br><strong>Formulare academică:</strong> „Ce limbaj vom folosi?”.<br><br><strong>Exemplu:</strong> eviți jargonul când nu e necesar.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>🧾&nbsp;&nbsp;Și utilizăm</h2>
+    <div class="lesson-card">
+      <ul>
+        <li><span class='tip'>cuvinte și expresii potrivite nivelului de înțelegere al partenerului de dialog<span class='tooltip-box'><strong>Spus simplu:</strong> alegi cuvinte pe care celălalt le înțelege.<br><br><strong>Formulare academică:</strong> „cuvinte și expresii potrivite nivelului de înțelegere al partenerului de dialog”.<br><br><strong>Exemplu:</strong> explici simplu când discuți cu un începător.</span></span></li>
+        <li><span class='tip'>cuvinte și expresii clare, ușor de înțeles, precise și concise<span class='tooltip-box'><strong>Spus simplu:</strong> spui clar și scurt.<br><br><strong>Formulare academică:</strong> „cuvinte și expresii clare, ușor de înțeles, precise și concise”.<br><br><strong>Exemplu:</strong> propoziții scurte, fără ambiguitate.</span></span></li>
+        <li><span class='tip'>evităm limbajul tehnic, de specialitate și frazele prea complicate<span class='tooltip-box'><strong>Spus simplu:</strong> nu folosești jargon inutil.<br><br><strong>Formulare academică:</strong> „evităm limbajul tehnic, de specialitate și frazele prea complicate”.<br><br><strong>Exemplu:</strong> nu aglomerezi mesajul cu termeni rar folosiți.</span></span></li>
+      </ul>
+    </div>
+  `,
+  },
+  "pedcom-1-3-q6": {
+    title: "Întrebări esențiale înainte de comunicare",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📌&nbsp;&nbsp;Idee cheie:</strong>
+      Într-o comunicare este bine să ne răspundem următoarelor întrebări (N. Stanton, 1995, 5-6; de Peretti, 2007):
+    </div>
+    <hr />
+
+    <h2>🧭&nbsp;&nbsp;Întrebările de bază</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">❓</div>
+        <h3>DE CE? (scopul comunicării)</h3>
+        <hr />
+        <ul>
+          <li>„De ce comunicăm?”</li>
+          <li>„Care este scopul meu real de a scrie sau vorbi?”</li>
+          <li>„Ce sper eu să realizez? O schimbare de atitudine? O schimbare de opinie?”</li>
+          <li>„Care este scopul meu? Să informez? Să influenţez? Să fraternizez cu cineva? Să fac conversaţie?”</li>
+        </ul>
+        <p><span class='tip'>Clarificarea scopului<span class='tooltip-box'><strong>Spus simplu:</strong> îți spui clar de ce comunici.<br><br><strong>Formulare academică:</strong> „DE CE? (scopul comunicării)”.<br><br><strong>Exemplu:</strong> vrei să informezi sau să influențezi.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">❓</div>
+        <h3>CINE? (interlocutorul)</h3>
+        <hr />
+        <ul>
+          <li>„Cine este ...?”</li>
+          <li>„Ce fel de persoană este?”</li>
+          <li>„Ce personalitate are?”</li>
+          <li>„Ce educaţie? Vârstă? Statut social?”</li>
+          <li>„Cum va reacţiona la conţinutul mesajului meu?”</li>
+        </ul>
+        <p><span class='tip'>Clarificarea interlocutorului<span class='tooltip-box'><strong>Spus simplu:</strong> te gândești la persoana căreia îi vorbești.<br><br><strong>Formulare academică:</strong> „CINE? (interlocutorul)”.<br><br><strong>Exemplu:</strong> adaptezi limbajul după vârstă și statut.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">❓</div>
+        <h3>UNDE ȘI CÂND? (locul și contextul)</h3>
+        <hr />
+        <ul>
+          <li>„Unde va fi interlocutorul (receptorul) când va primi mesajul meu?”</li>
+          <li>„În birou sau în apropierea altui obiect interesant?”</li>
+          <li>„Ce elemente ale mesajului meu nu sunt cunoscute, astfel încât va fi nevoie să-i reamintesc faptele?”</li>
+          <li>„În ce moment soseşte mesajul meu?”</li>
+          <li>„Pot răspunde la o problemă ridicată de interlocutor? Sau mesajul meu va reprezenta prima informaţie pe care interlocutorul o va auzi despre problema respectivă?”</li>
+          <li>„Care este relaţia mea cu ascultătorul?”</li>
+          <li>„Este subiectul mesajului meu un motiv de controversă între noi?”</li>
+          <li>„Atmosfera este încărcată sau cordială?”</li>
+        </ul>
+        <p><span class='tip'>Clarificarea contextului<span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul schimbă felul în care e primit mesajul.<br><br><strong>Formulare academică:</strong> „UNDE ȘI CÂND? (locul și contextul)”.<br><br><strong>Exemplu:</strong> aceeași frază poate suna diferit în funcție de atmosferă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">❓</div>
+        <h3>CE? (subiectul)</h3>
+        <hr />
+        <ul>
+          <li>„Ce vreau exact să spun?”</li>
+          <li>„Ce aş dori să spun?”</li>
+          <li>„Ce doreşte el să ştie?”</li>
+          <li>„Ce informaţii pot omite?”</li>
+          <li>„Ce informaţii pot da pentru a fi: clar, concis, amabil, constructiv, corect, complet?”</li>
+        </ul>
+        <p><span class='tip'>Clarificarea subiectului<span class='tooltip-box'><strong>Spus simplu:</strong> alegi informațiile pe care le spui.<br><br><strong>Formulare academică:</strong> „CE? (subiectul)”.<br><br><strong>Exemplu:</strong> decizi ce rămâne și ce omiti.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">❓</div>
+        <h3>CUM? (tonul și stilul)</h3>
+        <hr />
+        <ul>
+          <li>„Cum voi comunica mesajul meu? În cuvinte? În imagini? În cuvinte sau imagini?”</li>
+          <li>„Ce cuvinte? Ce imagini? Ce mod de comunicare va fi mai apreciat?”</li>
+          <li>„Scris sau vorbit? O scrisoare, o discuţie personală sau un interviu?”</li>
+          <li>„Cum voi organiza informaţiile pe care vreau să le transmit?”</li>
+          <li>„Voi folosi o prezentare deductivă (încep cu punctul meu de vedere principal şi apoi să continui cu explicaţii, exemple, ilustrări)?”</li>
+          <li>„Sau voi utiliza o prezentare inductivă, în care mesajul meu va fi plasat, la final?”</li>
+          <li>„Cum voi realiza efectul dorit?”</li>
+          <li>„Ce ton trebuie să folosesc pentru a-mi realiza obiectivul?”</li>
+          <li>„Ce cuvinte trebuie să folosesc, sau să evit, pentru a crea o atmosferă potrivită?”</li>
+        </ul>
+        <p><span class='tip'>Clarificarea tonului și a stilului<span class='tooltip-box'><strong>Spus simplu:</strong> alegi cum spui mesajul.<br><br><strong>Formulare academică:</strong> „CUM? (tonul și stilul)”.<br><br><strong>Exemplu:</strong> decizi dacă mesajul e scris sau vorbit.</span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-3-q7": {
+    title: "Intenționalitatea comunicării. Semnal și indiciu",
+    html: `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Idee cheie:</strong>
+      Comunicarea poate fi analizată în funcție de <span class='tip'>intenționalitate<span class='tooltip-box'><strong>Spus simplu:</strong> contează dacă emițătorul a vrut să transmită ceva.<br><br><strong>Formulare academică:</strong> analiza comunicării după intenționalitate delimitează două tipuri: semnalul (intenționat) și indiciul (neintenționat).<br><br><strong>Exemplu:</strong> strigi „Ajutor!” vs. pălești brusc.</span></span>.
+    </div>
+    <hr />
+
+    <h2>🔎&nbsp;&nbsp;Semiologia comunicării</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>Semiologia comunicării (E. Buyssens, J. Martinet, G. Mounin, L. Prieto)<span class='tooltip-box'><strong>Spus simplu:</strong> acești autori separă semnalul de indiciu în funcție de intenție.<br><br><strong>Formulare academică:</strong> „operează o distincţie fundamentală între semnal şi indiciu, considerând că doar semnalul presupune existenţa unei intenţionalităţi din partea emiţătorului”.<br><br><strong>Exemplu:</strong> un gest deliberat vs. o reacție involuntară.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Semnal vs. indiciu</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔔</div>
+        <h3>Semnal</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „semnal explicit, un act deliberat săvârşit într-un scop precis”.</p>
+        <p><span class='tip'>Intenționalitate prezentă<span class='tooltip-box'><strong>Spus simplu:</strong> emițătorul vrea să comunice ceva.<br><br><strong>Formulare academică:</strong> semnalul presupune intenția de comunicare.<br><br><strong>Exemplu:</strong> „Chemare în ajutor”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🫥</div>
+        <h3>Indiciu</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Paloarea bruscă ce invadează chipul cuiva este doar un indiciu al sentimentelor încercate”.</p>
+        <p><span class='tip'>Lipsă de intenționalitate<span class='tooltip-box'><strong>Spus simplu:</strong> apare fără să vrei să comunici.<br><br><strong>Formulare academică:</strong> indiciul este lipsit de intenționalitatea comunicării.<br><br><strong>Exemplu:</strong> paloarea necontrolată.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>⚠️&nbsp;&nbsp;Caz limită</h2>
+    <div class="lesson-card">
+      <p><span class='tip'>„Într-un strigăt de groază, e greu să precizăm ce este reacţie spontană... şi ce – apel ... şi deci comunicare intenţionată.”<span class='tooltip-box'><strong>Spus simplu:</strong> uneori nu poți separa clar indiciul de semnal.<br><br><strong>Formulare academică:</strong> granița dintre reacția reflexă și comunicarea intenționată poate fi neclară.<br><br><strong>Exemplu:</strong> un strigăt poate fi și reflex, și cerere de ajutor.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>🧾&nbsp;&nbsp;Consecința criteriului</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „nu suntem îndreptăţiţi să vorbim de comunicare decât în cazul semnalelor, studiul indiciilor fiind rezervat unei discipline aparte: semiologia semnificării.”</p>
+      <p><span class='tip'>Reacția receptorului poate schimba situația<span class='tooltip-box'><strong>Spus simplu:</strong> chiar un indiciu poate provoca un răspuns.<br><br><strong>Formulare academică:</strong> „decriptarea semnificaţiei acestui indiciu... poate conduce fie la o intervenţie concretă..., fie la solicitarea unor clarificări, fie la acordarea unui suport”.<br><br><strong>Exemplu:</strong> vezi paloarea cuiva și întrebi „Ești bine?”</span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-4-q0": {
+    title: "Intenționalitatea comunicării și Școala de la Palo Alto",
+    html: `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Idee cheie:</strong>
+      La polul opus semiologiei, Școala de la Palo Alto consideră că „comunicare” și „comportament” sunt practic sinonimi.
+    </div>
+    <hr />
+
+    <h2>🏛️&nbsp;&nbsp;Structura Școlii de la Palo Alto</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Primul grup</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Un prim grup ... cuprindea alături de Gregory Bateson ... Jay Haley și Don D. Jackson.”</p>
+        <p><span class='tip'>Nucleul inițial<span class='tooltip-box'><strong>Spus simplu:</strong> primul grup a format baza școlii.<br><br><strong>Formulare academică:</strong> grupul inițial includea Bateson, Haley și Jackson.<br><br><strong>Exemplu:</strong> echipa fondatoare.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Al doilea grup (MRI)</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Un al doilea grup ... este MRI (Mental Research Institute), care cuprindea în jurul lui Jackson pe Ruskin, Virginia Satir, apoi Paul Watzlawick în 1961, care a devenit purtătorul de cuvânt al acestei şcoli.”</p>
+        <p><span class='tip'>MRI și Watzlawick<span class='tooltip-box'><strong>Spus simplu:</strong> MRI e al doilea grup; Watzlawick devine vocea publică.<br><br><strong>Formulare academică:</strong> MRI reunește Ruskin, Satir și Watzlawick (1961), purtător de cuvânt.<br><br><strong>Exemplu:</strong> Watzlawick reprezintă școala.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>🔗&nbsp;&nbsp;Comunicare = comportament</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „cei doi termeni: comunicare şi comportament, sunt practic sinonimi.”</p>
+      <p><span class='tip'>Orice comportament are valoare comunicațională<span class='tooltip-box'><strong>Spus simplu:</strong> chiar fără intenție, comportamentul transmite ceva.<br><br><strong>Formulare academică:</strong> orice comportament considerat indiciu de semioticieni este considerat semnal de către Școala de la Palo Alto.<br><br><strong>Exemplu:</strong> tăcerea poate transmite distanță.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>🤝&nbsp;&nbsp;Interacțiune reală</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „a vorbi despre comunicare în general, fără a face referire la interacţiunile reale dintre participanţi, este lipsit de sens.”</p>
+      <p><span class='tip'>Comunicarea e relațională<span class='tooltip-box'><strong>Spus simplu:</strong> sensul apare în relația dintre oameni.<br><br><strong>Formulare academică:</strong> comunicarea se înțelege doar în interacțiuni reale, nu în abstract.<br><br><strong>Exemplu:</strong> aceeași frază poate avea sens diferit în două relații diferite.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Ipoteza codului comunicării</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „există un cod formalizat al comunicării şi că odată ce regulile acestui cod sunt corect observate comunicarea este bună.”</p>
+      <p><span class='tip'>Încălcarea regulilor poate rupe comunicarea<span class='tooltip-box'><strong>Spus simplu:</strong> dacă regulile sunt încălcate, comunicarea se strică.<br><br><strong>Formulare academică:</strong> „în caz contrar, ea poate fi afectată până la ruptură completă, forma extremă ... în schizofrenie, care se caracterizează prin refuzul de a comunica”.<br><br><strong>Exemplu:</strong> refuzul comunicării.</span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-4-q1": {
+    title: "Comunicarea în educație și pedagogia comunicării",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘&nbsp;&nbsp;Idee de bază:</strong>
+      „Comunicarea a fost dintotdeauna o componentă principală a educaţiei, un suport indispensabil învăţământului.”
+    </div>
+    <hr />
+
+    <h2>🌍&nbsp;&nbsp;Societatea cunoașterii și comunicării generalizate</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Comunicarea peste tot</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „actul comunicării se implică efectiv în toate domeniile vieţii şi activităţii social-umane”.</p>
+        <p><span class='tip'>Rol social extins<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea nu e doar în școală, e în toată viața socială.<br><br><strong>Formulare academică:</strong> comunicarea se implică în toate domeniile vieţii şi activităţii social-umane.<br><br><strong>Exemplu:</strong> familie, muncă, comunitate.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Reînnoirea învățării</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „o schimbare radicală a concepţiei despre comunicare care accentuează actuala tendinţă de reînnoire a modurilor în care elevii învaţă şi sunt învăţaţi.”</p>
+        <p><span class='tip'>Învățământ sensibil la evoluții<span class='tooltip-box'><strong>Spus simplu:</strong> școala se adaptează la noile forme de comunicare.<br><br><strong>Formulare academică:</strong> învăţământul se manifestă mai sensibil la evoluţii şi reînnoieşte modurile de învăţare.<br><br><strong>Exemplu:</strong> metode interactive în clasă.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>📣&nbsp;&nbsp;Învățământul – domeniu puternic comunicant</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „Învăţământul ... este prin excelenţă un domeniu puternic comunicant la toate nivelurile.” (I. Cerghit, 2002)</p>
+      <p><span class='tip'>Comunicarea la toate nivelurile<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e prezentă în toate momentele școlii.<br><br><strong>Formulare academică:</strong> domeniul educaţional este puternic comunicant la toate nivelurile.<br><br><strong>Exemplu:</strong> profesor–elev, elev–elev, elev–conţinut.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>🧩&nbsp;&nbsp;Pedagogia modernă a comunicării (I. Cerghit, 2002)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🔁</div>
+        <h3>Schimb de semnificații</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „relaţia instructivă este una de comunicare, „un schimb de semnificaţii” ce dă naştere unui tip specific de limbaj - limbajul didactic sau pedagogic”.</p>
+        <p><span class='tip'>Limbaj didactic<span class='tooltip-box'><strong>Spus simplu:</strong> școala creează un limbaj propriu pentru a explica.<br><br><strong>Formulare academică:</strong> schimbul de semnificaţii generează limbaj didactic/pedagogic.<br><br><strong>Exemplu:</strong> explici „lecție”, „evaluare”, „feedback”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧭</div>
+        <h3>Condiție fundamentală</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea constituie una dintre condiţiile fundamentale ale bunei desfăşurări a procesului de învăţământ.”</p>
+        <p><span class='tip'>Organizarea comunicărilor din clasă<span class='tooltip-box'><strong>Spus simplu:</strong> dacă nu organizezi comunicarea, nu funcționează învățarea.<br><br><strong>Formulare academică:</strong> a organiza condiţiile învăţării înseamnă a organiza comunicările din clasă.<br><br><strong>Exemplu:</strong> clarifici rolurile și regulile dialogului.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">📚</div>
+        <h3>Sursă de informații și învățare</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea se implică activ şi creator ... ca: sursă de informaţii ...; sursă generatoare de învăţare, care accentuează interacţiunile elev – cunoaştere – profesor”.</p>
+        <p><span class='tip'>Interacțiune elev–cunoaștere–profesor<span class='tooltip-box'><strong>Spus simplu:</strong> învățarea se produce în relația dintre elev, conținut și profesor.<br><br><strong>Formulare academică:</strong> comunicarea accentuează interacţiunile elev–cunoaştere–profesor.<br><br><strong>Exemplu:</strong> întrebări și clarificări în timpul lecției.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🤝</div>
+        <h3>Interactivitate</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea se constituie ca factor de stimulare şi susţinere a interactivităţii... de dezvoltare a contactului, schimbului şi coordonării cu alţii”.</p>
+        <p><span class='tip'>Coordonare cu alții<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ajută colaborarea.<br><br><strong>Formulare academică:</strong> comunicarea promovează contactul, schimbul și coordonarea cu alții.<br><br><strong>Exemplu:</strong> lucru în grup.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🎯</div>
+        <h3>Intervenție și control</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea are rol de intervenţie, de dirijare şi control asupra învăţării”.</p>
+        <p><span class='tip'>Reglarea învățării<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ghidează și corectează învățarea.<br><br><strong>Formulare academică:</strong> comunicarea intervine în dirijarea şi controlul învăţării.<br><br><strong>Exemplu:</strong> profesorul corectează în timp real.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">🧱</div>
+        <h3>Organizarea învățării</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea este un instrument de organizare a învăţării şi a condiţiilor învăţării”.</p>
+        <p><span class='tip'>Instrument de organizare<span class='tooltip-box'><strong>Spus simplu:</strong> fără comunicare, nu poți structura învățarea.<br><br><strong>Formulare academică:</strong> comunicarea organizează învățarea și condițiile ei.<br><br><strong>Exemplu:</strong> explicațiile ordonează pașii unei sarcini.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">💬</div>
+        <h3>Context socio-afectiv</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea ... devine un factor creator de context socio-afectiv, de întărire a coeziunii grupului”.</p>
+        <p><span class='tip'>Coeziunea grupului<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ține clasa unită.<br><br><strong>Formulare academică:</strong> comunicarea întărește coeziunea și favorizează evoluția învățării.<br><br><strong>Exemplu:</strong> climat pozitiv în clasă.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>🏫&nbsp;&nbsp;Instituția de învățământ și comunicarea</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „instituţia de învăţământ constituie locul unde se învaţă comunicarea; unde se deprinde şi se perfecţionează comunicarea; unde se elaborează (creează) comunicarea.”</p>
+      <p><span class='tip'>Valoare umană și socială<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea are valoare pentru oameni și societate.<br><br><strong>Formulare academică:</strong> comunicarea are semnificaţia unei valori umane şi sociale, iar educarea ei este un scop în sine.<br><br><strong>Exemplu:</strong> fiecare disciplină contribuie la educarea comunicării.</span></span></p>
+    </div>
+
+    <hr />
+  `,
+  },
+  "pedcom-1-4-q2": {
+    title: "Axiomele comunicării – Watzlawick, Beavin, Jackson",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📌&nbsp;&nbsp;Context:</strong>
+      „Școala de la Palo Alto prezintă cinci axiome ale comunicării.”
+    </div>
+    <hr />
+
+    <h2>1️⃣–5️⃣&nbsp;&nbsp;Cele cinci axiome (definițiile din text)</h2>
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Nu se poate să nu comunicăm</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Nu se poate să nu comunicăm sau nu există non-comunicare.”</p>
+        <p><span class='tip'>Comportamentul comunică<span class='tooltip-box'><strong>Spus simplu:</strong> chiar fără să vrei, transmiți ceva.<br><br><strong>Formulare academică:</strong> non-comunicarea este imposibilă din momentul în care ne aflăm în prezenţa celuilalt; înfăţişarea, mimica, privirea, mersul, gesturile şi tăcerile dezvăluie condiţia socială, temperamentul, obiceiurile, dispoziţia, atitudinile sau emoţiile.<br><br><strong>Exemplu:</strong> tăcerea și privirea pot arăta disconfort.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Conținut + relație (metacomunicare)</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Orice comunicarea se desfăşoară la două niveluri: informaţional (de conţinut) şi relaţional, cel de-al doilea înglobându-l pe primul şi oferind indicaţii de interpretare a conţinutului celui dintâi, el fiind astfel o metacomunicare.”</p>
+        <p><span class='tip'>Relația dă sens conținutului<span class='tooltip-box'><strong>Spus simplu:</strong> nu contează doar ce spui, ci și relația dintre voi.<br><br><strong>Formulare academică:</strong> nivelul relaţional înglobează conţinutul şi oferă indicaţii de interpretare; trecerea de la conţinut la relaţie este metacomunicare.<br><br><strong>Exemplu:</strong> „De ce încerci mereu să mă contrazici?”; „Observ că nu mai asculţi ce spun”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Punctarea secvențelor</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Natura relaţiei depinde de punctarea secvenţelor de comunicare de către parteneri.”</p>
+        <p><span class='tip'>Perspectiva asupra secvenței<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare vede altfel „cine a început”.<br><br><strong>Formulare academică:</strong> „punctarea nu este o problemă de conţinut, ci de relaţie.”<br><br><strong>Exemplu:</strong> „apăs maneta și primesc mâncare” vs „am dresat șoarecele să apese maneta”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">4️⃣</div>
+        <h3>Digital și analogic</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Fiinţele umane utilizează două moduri de comunicare: digital și analogic.”</p>
+        <p><span class='tip'>Verbal vs. nonverbal<span class='tooltip-box'><strong>Spus simplu:</strong> cuvintele sunt digitale, gesturile sunt analogice.<br><br><strong>Formulare academică:</strong> „Limbajul digital posedă o sintaxă logică foarte complexă și foarte comodă, dar este lipsit de o semantică adecvată relației... Limbajul analogic deţine semantica, dar nu şi sintaxa adecvată unei definiri non-echivoce a naturii relaţiei.”<br><br><strong>Exemplu:</strong> povestești o ceartă, dar intensitatea se vede când plângi fără cuvinte.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">5️⃣</div>
+        <h3>Simetrică sau complementară</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Orice comunicare este simetrică sau complementară, în funcţie de faptul că se bazează pe egalitate sau pe diferenţe.”</p>
+        <p><span class='tip'>Egalitate vs. diferențe de rol<span class='tooltip-box'><strong>Spus simplu:</strong> relațiile pot fi între egali sau pe roluri diferite.<br><br><strong>Formulare academică:</strong> „în relaţia simetrică sunt minimizate diferenţele...”; „o relaţie este complementară dacă natura schimburilor este diferită în funcţie de sensul interacţiunii.”<br><br><strong>Exemplu:</strong> „Ți-am adus un cadou.” / „Și eu ție.” (simetric) și profesor–elev (complementar).</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>🧪&nbsp;&nbsp;Exemple din text</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Metacomunicare</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „Știi bine că am dreptate... / Nu, n-ai dreptate... / De ce încerci mereu să mă contrazici?”</p>
+        <p><span class='tip'>Trecerea la relație<span class='tooltip-box'><strong>Spus simplu:</strong> replica 3 schimbă discuția de la subiect la relație.<br><br><strong>Formulare academică:</strong> a treia replică este o metacomunicare; schimbă nivelul comunicării.<br><br><strong>Exemplu:</strong> „Observ că nu mă asculți.”</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Digital vs. analogic</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> exemplul cu povestirea unei certe și plânsul fără cuvinte.</p>
+        <p><span class='tip'>Cuvinte vs. expresie<span class='tooltip-box'><strong>Spus simplu:</strong> verbalul spune „ce”, nonverbalul arată „cum te simți”.<br><br><strong>Formulare academică:</strong> analogicul e mai semnificativ pentru stările psihice, dar mai slab pentru logica conținutului.<br><br><strong>Exemplu:</strong> plânsul arată tristețea, nu cauza exactă.</span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-4-q3": {
+    title: "Comunicarea ca domeniu: definiții și interacțiune",
+    html: `
+    <div class="lesson-highlight">
+      <strong>🧭&nbsp;&nbsp;Idee de bază:</strong>
+      „Ideea ce stă la baza demersului palo-altiştilor este deci aceea că orice comportament are o valoare comunicativă.”
+    </div>
+    <hr />
+
+    <h2>📚&nbsp;&nbsp;Definiții clasice</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Bougnoux (1998)</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „A comunica înseamnă, înainte de toate, „a pune ceva în comun”.”</p>
+        <p><span class='tip'>Relație de schimb<span class='tooltip-box'><strong>Spus simplu:</strong> comunici când schimbi informații, idei, opinii.<br><br><strong>Formulare academică:</strong> „Comunicarea desemnează o relaţie de schimb, o întreţinere de relaţii de schimb”.<br><br><strong>Exemplu:</strong> împărtășești o opinie și primești una.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Wiener</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicarea este un comportament de schimb.”</p>
+        <p><span class='tip'>Schimb între persoane<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea este interacțiune, nu monolog.<br><br><strong>Formulare academică:</strong> comunicarea este un comportament de schimb.<br><br><strong>Exemplu:</strong> dialog profesor–elev.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Hybels & Weaver</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „actul uneia sau al mai multor persoane ce trimit şi primesc mesaje distorsionate de zgomot... într-un context, are un efect şi furnizează ocazia unui feed-back.”</p>
+        <p><span class='tip'>Mesaj, context, feedback<span class='tooltip-box'><strong>Spus simplu:</strong> mesajele trec prin zgomot și primesc răspuns.<br><br><strong>Formulare academică:</strong> „...mesaje distorsionate de zgomot... într-un context, are un efect şi furnizează ocazia unui feed-back.”<br><br><strong>Exemplu:</strong> clarifici când nu ai înțeles.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>🤝&nbsp;&nbsp;Comunicare interpersonală</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Reciprocitate</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „cei angajaţi... se simt angajaţi... într-o activitate de cooperare verbală... (principiul reciprocităţii).”</p>
+        <p><span class='tip'>Cooperare verbală<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare îl sprijină pe celălalt în dialog.<br><br><strong>Formulare academică:</strong> „enunţul fiecăruia găsind sprijin în enunţul celuilalt (principiul reciprocităţii)”.<br><br><strong>Exemplu:</strong> continui ideea partenerului.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Influență</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „orice schimb comunicativ... este purtător de influenţă ... (principiul influenţei).”</p>
+        <p><span class='tip'>Partener activ<span class='tooltip-box'><strong>Spus simplu:</strong> receptorul nu e pasiv, reacționează și schimbă cursul dialogului.<br><br><strong>Formulare academică:</strong> „se abandonează ideea de receptor pasiv în favoarea acceptării ... a unui partener activ”.<br><br><strong>Exemplu:</strong> intervii cu clarificări.</span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-4-q4": {
+    title: "Dificultatea definirii comunicării și tipuri de definiții",
+    html: `
+    <div class="lesson-highlight">
+      <strong>🧩&nbsp;&nbsp;Idee cheie:</strong>
+      „Nici una din multele definiţii ale comunicării nu epuizează semantic conceptul, ci sunt mai degrabă complementare.”
+    </div>
+    <hr />
+
+    <h2>🔍&nbsp;&nbsp;De ce e greu de definit?</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „Dificultatea definirii comunicării este dată şi de diversitatea unghiurilor de vedere sub care aceasta este privită.”</p>
+      <p><span class='tip'>Delimitări complexe<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea e un concept larg, cu multe interpretări.<br><br><strong>Formulare academică:</strong> delimitările terminologice sunt complexe şi laborioase.<br><br><strong>Exemplu:</strong> autori diferiți pun accente diferite.</span></span></p>
+    </div>
+
+    <hr />
+    <h2>👤&nbsp;&nbsp;Autori și accente</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Gordon</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „percepţia, atribuirea, motivaţia, personalitatea precum şi dezvoltarea fiecăruia dintre comunicatori influenţează modul în care o persoană receptează informaţia.”</p>
+        <p><span class='tip'>Factorii personali contează<span class='tooltip-box'><strong>Spus simplu:</strong> oamenii interpretează diferit mesajele.<br><br><strong>Formulare academică:</strong> variabilele individuale influențează recepționarea informației.<br><br><strong>Exemplu:</strong> aceeași critică poate fi înțeleasă diferit.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Roberts & Hunt</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „dobândirea, transmiterea şi ataşarea unui înţeles informaţiei.”</p>
+        <p><span class='tip'>Înțelesul e esențial<span class='tooltip-box'><strong>Spus simplu:</strong> nu doar trimiți, ci dai sens mesajului.<br><br><strong>Formulare academică:</strong> comunicarea include obținerea și transmiterea cu sens a informației.<br><br><strong>Exemplu:</strong> explici ce înseamnă un termen.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Alți autori</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „opinii, predicţii, sugestii, idei toate sunt cuprinse în comunicare.”</p>
+        <p><span class='tip'>Ce se transmite<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea include idei și sugestii, nu doar fapte.<br><br><strong>Formulare academică:</strong> comunicarea cuprinde opinii, predicţii, sugestii, idei.<br><br><strong>Exemplu:</strong> propui o soluție și o argumentezi.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Luthans</h3>
+        <hr />
+        <p><strong>Definiție (din text):</strong> „comunicare verticală, orizontală, laterală; orală, scrisă, ascultare, citire... interpersonal, intrapersonal, interorganizațional.”</p>
+        <p><span class='tip'>Inventar larg<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea are multe forme și niveluri.<br><br><strong>Formulare academică:</strong> Luthans include direcții, forme, canale și niveluri ale comunicării.<br><br><strong>Exemplu:</strong> comunicare verticală într-o instituție.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <h2>📦&nbsp;&nbsp;Dance & Larson: 126 de definiții, 15 tipuri</h2>
+    <div class="lesson-card">
+      <p><strong>Definiție (din text):</strong> „126 de formulări... clasificate de autori în 15 tipuri de definiţii.”</p>
+      <p><span class='tip'>Definiții complementare<span class='tooltip-box'><strong>Spus simplu:</strong> nici una nu spune tot, împreună acoperă domeniul.<br><br><strong>Formulare academică:</strong> definiţiile sunt complementare și surprind fațete diferite.<br><br><strong>Exemplu:</strong> comunicarea ca proces, transfer, putere.</span></span></p>
+    </div>
+
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Tipuri (1/2)</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Simboluri, vorbire, limbaj<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca limbaj.<br><br><strong>Formulare academică:</strong> tipul simboluri/vorbire/limbaj.<br><br><strong>Exemplu:</strong> cuvinte și semne.</span></span>",
+          "<span class='tip'>Înțelegere (receptare)<span class='tooltip-box'><strong>Spus simplu:</strong> accent pe înțelegere, nu doar transmitere.<br><br><strong>Formulare academică:</strong> „înţelegere – receptarea, nu transmiterea”.<br><br><strong>Exemplu:</strong> contează ce înțelegi.</span></span>",
+          "<span class='tip'>Interacțiune, relație<span class='tooltip-box'><strong>Spus simplu:</strong> schimb activ și coerent.<br><br><strong>Formulare academică:</strong> „interacţiune, relaţie – schimbul activ”.<br><br><strong>Exemplu:</strong> dialog real.</span></span>",
+          "<span class='tip'>Reducerea incertitudinii<span class='tooltip-box'><strong>Spus simplu:</strong> cauți informații pentru adaptare.<br><br><strong>Formulare academică:</strong> „reducerea incertitudinii”.<br><br><strong>Exemplu:</strong> întrebi ca să nu greșești.</span></span>",
+          "<span class='tip'>Procesul<span class='tooltip-box'><strong>Spus simplu:</strong> întreaga secvență a transmiterii.<br><br><strong>Formulare academică:</strong> „procesul – întreaga secvenţă a transmiterii”.<br><br><strong>Exemplu:</strong> de la emitere la recepție.</span></span>",
+          "<span class='tip'>Transfer, transmitere<span class='tooltip-box'><strong>Spus simplu:</strong> mișcare în spațiu sau timp.<br><br><strong>Formulare academică:</strong> „transfer – transmitere”.<br><br><strong>Exemplu:</strong> trimiterea unei scrisori.</span></span>",
+          "<span class='tip'>Legătură, unire<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea conectază oameni.<br><br><strong>Formulare academică:</strong> „legătură, unire – comunicarea ca conector”.<br><br><strong>Exemplu:</strong> creează relații.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>Tipuri (2/2)</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Trăsături comune<span class='tooltip-box'><strong>Spus simplu:</strong> ce e împărtășit de ambele părți.<br><br><strong>Formulare academică:</strong> „trăsături comune – ceea ce e împărtăşit”.<br><br><strong>Exemplu:</strong> valori comune.</span></span>",
+          "<span class='tip'>Canal, purtător, rută<span class='tooltip-box'><strong>Spus simplu:</strong> drumul mesajului.<br><br><strong>Formulare academică:</strong> „canal, purtător, rută”.<br><br><strong>Exemplu:</strong> telefon, email.</span></span>",
+          "<span class='tip'>Memorie, stocare<span class='tooltip-box'><strong>Spus simplu:</strong> acumularea de informații.<br><br><strong>Formulare academică:</strong> „memorie, stocare – acumularea de informaţii”.<br><br><strong>Exemplu:</strong> arhive.</span></span>",
+          "<span class='tip'>Răspuns discriminatoriu<span class='tooltip-box'><strong>Spus simplu:</strong> atenție selectivă și interpretare.<br><br><strong>Formulare academică:</strong> „răspuns discriminatoriu – acordarea selectivă de atenţie”.<br><br><strong>Exemplu:</strong> auzi doar ce te interesează.</span></span>",
+          "<span class='tip'>Stimulii<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul ca declanșator al reacției.<br><br><strong>Formulare academică:</strong> „stimulii – mesajul ca cauză a răspunsului”.<br><br><strong>Exemplu:</strong> un sunet provoacă reacție.</span></span>",
+          "<span class='tip'>Intenție<span class='tooltip-box'><strong>Spus simplu:</strong> actele comunicării au scop.<br><br><strong>Formulare academică:</strong> „intenţie – actele comunicării au un scop”.<br><br><strong>Exemplu:</strong> convingere.</span></span>",
+          "<span class='tip'>Momente și situații<span class='tooltip-box'><strong>Spus simplu:</strong> contextul contează.<br><br><strong>Formulare academică:</strong> „momente şi situaţii – atenţie contextului”.<br><br><strong>Exemplu:</strong> mesaj diferit la clasă vs. acasă.</span></span>",
+          "<span class='tip'>Putere<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea ca influență.<br><br><strong>Formulare academică:</strong> „putere – comunicarea văzută ca mijloc de influenţă”.<br><br><strong>Exemplu:</strong> persuasiune.</span></span>",
+        ])}
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q0": {
+    title: "Introducere în modelele și teoriile comunicării",
+    html: `
+    <h2>🧭&nbsp;&nbsp;Introducere în modelele comunicării</h2>
+    <p>Secțiunea oferă un referențial conceptual, fără a epuiza toate abordările.</p>
+
+    <div class="lesson-card lesson-highlight">
+      <strong>📘&nbsp;&nbsp;Idee-cheie:</strong>
+      „Orice analiză aprofundată a funcţiilor comunicării trebuie să facă referire la diferitele teorii elaborate in acest domeniu, la semnificaţia diverselor componente care se integrează in procesul comunicării şi la factorii determinanţi ai acestui proces deosebit de complex.”
+    </div>
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Referențial conceptual</h3>
+        <hr />
+        <p><span class='tip'>Scurtă prezentare orientativă<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> învățăm câteva modele importante, ca să avem un reper clar.<br><br>
+          <strong>Formulare academică:</strong> „o scurtă prezentare a unor modele conceptuale şi a unor demersuri teoretice, menite a constitui un referenţial conceptual pentru analiza acesteia.”<br><br>
+          <strong>Exemplu:</strong> modelele tehnice, lingvistice și psihosociologice.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Perspectiva inițială</h3>
+        <hr />
+        <p><span class='tip'>Transfer de informație<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> primele teorii vedeau comunicarea ca un traseu simplu între doi oameni.<br><br>
+          <strong>Formulare academică:</strong> „Pentru primii teoreticieni comunicarea se limitează la transferul de informaţie între o sursă si un receptor.”<br><br>
+          <strong>Exemplu:</strong> emițător → mesaj → receptor.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>💡&nbsp;&nbsp;De ce modele?</h3>
+        <hr />
+        <p><span class='tip'>Funcții, componente, factori<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> modelele explică ce se întâmplă în comunicare și ce o influențează.<br><br>
+          <strong>Formulare academică:</strong> „funcţiile comunicării”, „diversele componente” și „factorii determinanţi” sunt analizați împreună într-un proces complex.<br><br>
+          <strong>Exemplu:</strong> același mesaj se schimbă în funcție de context.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Ce nu face secțiunea</h3>
+        <hr />
+        <p><span class='tip'>Nu epuizează toate teoriile<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu sunt prezentate toate modele existente.<br><br>
+          <strong>Formulare academică:</strong> „Fără a avea pretenţia de a epuiza multitudinea abordărilor în cercetarea comunicării...”<br><br>
+          <strong>Exemplu:</strong> sunt prezentate modele reprezentative.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q1": {
+    title: "Modelul tehnic al comunicării: Shannon și Weaver",
+    html: `
+    <h2>📡&nbsp;&nbsp;Modelul Shannon și Weaver</h2>
+    <p>Model tehnic: comunicarea este tratată ca transfer de semnale printr-un canal.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>📘&nbsp;&nbsp;Definiția modelului</h3>
+        <hr />
+        <p><span class='tip'>Transfer de mesaj ca semnal<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> mesajul pleacă de la o sursă, trece printr-un canal și ajunge la destinatar, dar se poate distorsiona.<br><br>
+          <strong>Formulare academică:</strong> „comunicarea este prezentată ca un transfer de mesaj de la o sursă către un destinatar sub forma unor semnale (codare de emiţător şi decodate de receptor) care pot fi afectate de «zgomote» pe canalul de comunicare.”<br><br>
+          <strong>Exemplu:</strong> un apel telefonic întrerupt de bruiaj.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧪&nbsp;&nbsp;Contextul apariției</h3>
+        <hr />
+        <p><span class='tip'>Telecomunicații și probleme tehnice<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> modelul a apărut pentru a rezolva transmiterea clară a semnalelor.<br><br>
+          <strong>Formulare academică:</strong> „Lucrând în domeniul telecomunicaţiilor, unde se confruntau cu problemele tehnice ale transmiterii semnalelor (codaj optim, reducere a zgomotului, maximizare a debitului de informaţie)”.<br><br>
+          <strong>Exemplu:</strong> cum trimiți un semnal fără pierderi.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Elemente esențiale</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Sursă / emițător<span class='tooltip-box'><strong>Spus simplu:</strong> punctul de plecare al mesajului.<br><br><strong>Formulare academică:</strong> mesajul este „generat de emiţător ca sursă de informaţie”.<br><br><strong>Exemplu:</strong> profesorul inițiază explicația.</span></span>",
+          "<span class='tip'>Codare / decodare<span class='tooltip-box'><strong>Spus simplu:</strong> transformi ideea în semne și o refaci la recepție.<br><br><strong>Formulare academică:</strong> „mesajul este codificat de un transmiţător sub forma unui semnal… receptorul îl decodifică”.<br><br><strong>Exemplu:</strong> cuvinte spuse și înțelese.</span></span>",
+          "<span class='tip'>Canal (mijlocul de transmitere)<span class='tooltip-box'><strong>Spus simplu:</strong> drumul pe care merge mesajul (telefon, scris, voce).<br><br><strong>Formulare academică:</strong> semnalul „circulă pe un canal”.<br><br><strong>Exemplu:</strong> telefon, email, clasă.</span></span>",
+          "<span class='tip'>Zgomot (interferență)<span class='tooltip-box'><strong>Spus simplu:</strong> orice „strică” semnalul pe drum.<br><br><strong>Formulare academică:</strong> semnalele „pot fi afectate de «zgomote» pe canalul de comunicare”.<br><br><strong>Exemplu:</strong> conexiune slabă.</span></span>",
+          "<span class='tip'>Destinatar / receptor<span class='tooltip-box'><strong>Spus simplu:</strong> cel care primește și înțelege mesajul.<br><br><strong>Formulare academică:</strong> receptorul „restabileşte forma iniţială a mesajului, făcându-l să parvină la receptor”.<br><br><strong>Exemplu:</strong> elevul care decodează explicația.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Mesajul și sensul</h3>
+        <hr />
+        <p><span class='tip'>Analiză sintactică, nu semantică<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> modelul nu se ocupă de sens, ci de semnale.<br><br>
+          <strong>Formulare academică:</strong> „teoria matematică a comunicării ignoră înţelesul şi utilitatea mesajelor… ceea ce revine la o analiză strict sintactică a comunicării.”<br><br>
+          <strong>Exemplu:</strong> contează dacă mesajul ajunge, nu ce înseamnă.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>✅&nbsp;&nbsp;Valoarea modelului</h3>
+        <hr />
+        <p><span class='tip'>Clarifică esența comunicării și distorsiunile<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> explică traseul mesajului și de ce se strică uneori.<br><br>
+          <strong>Formulare academică:</strong> „Meritul major al schemei este că… permite să înțelegem mai bine esenţa oricărei comunicări… Explică distorsiunea mesajului… ca urmare a acţiunii zgomotelor”.<br><br>
+          <strong>Exemplu:</strong> un mesaj ajunge alterat din cauza interferenței.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚠️&nbsp;&nbsp;Limita modelului</h3>
+        <hr />
+        <p><span class='tip'>Ignoră aspectele psihologice și sociologice<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu ține cont de oameni ca ființe sociale, cu norme și valori.<br><br>
+          <strong>Formulare academică:</strong> „Ignoră aspectele psihologice şi sociologice ale comunicării, considerând indivizii ca entităţi abstracte rupte de mediu.”<br><br>
+          <strong>Exemplu:</strong> același mesaj poate fi interpretat diferit în grupuri diferite.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q2": {
+    title: "Modelul comunicării la Harold D. Lasswell",
+    html: `
+    <h2>🧪&nbsp;&nbsp;Modelul Lasswell</h2>
+    <p>Modelul descrie comunicarea prin 5 întrebări și pune accent pe influență.</p>
+
+    <div class="lesson-card">
+      <h3>📌 Formula Lasswell</h3>
+      <p class="lesson-highlight">„Cine?, spune ce?, pe ce canal? cui? şi cu ce efect?”</p>
+      <hr />
+      ${flashPillList([
+        "<span class='tip'>Cine<span class='tooltip-box'><strong>Spus simplu:</strong> cine transmite mesajul.<br><br><strong>Formulare academică:</strong> „corespunde studiului sociologic al mediilor şi organismelor emiţătoare”.<br><br><strong>Exemplu:</strong> un profesor, un post TV.</span></span>",
+        "<span class='tip'>Spune ce<span class='tooltip-box'><strong>Spus simplu:</strong> conținutul mesajului.<br><br><strong>Formulare academică:</strong> „se raportează la mesaj, la analiza conţinutului său”.<br><br><strong>Exemplu:</strong> informația transmisă.</span></span>",
+        "<span class='tip'>Pe ce canal (mijloc de transmitere)<span class='tooltip-box'><strong>Spus simplu:</strong> drumul pe care trece mesajul: voce, TV, internet.<br><br><strong>Formulare academică:</strong> „ansamblul tehnicilor care… difuzează informaţia şi cultura”.<br><br><strong>Exemplu:</strong> radio, platforme online.</span></span>",
+        "<span class='tip'>Cui<span class='tooltip-box'><strong>Spus simplu:</strong> publicul-țintă.<br><br><strong>Formulare academică:</strong> „vizează audienţa, publicul cu particularităţile sale”.<br><br><strong>Exemplu:</strong> elevi, părinți.</span></span>",
+        "<span class='tip'>Cu ce efect<span class='tooltip-box'><strong>Spus simplu:</strong> impactul mesajului asupra auditoriului.<br><br><strong>Formulare academică:</strong> „presupune o analiză a influenţei mesajului asupra auditoriului”.<br><br><strong>Exemplu:</strong> schimbarea unei opinii.</span></span>",
+      ])}
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>✅&nbsp;&nbsp;Valoare</h3>
+        <hr />
+        <p><span class='tip'>Comunicare ca proces dinamic<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu e doar transmitere, contează efectul și etapele.<br><br>
+          <strong>Formulare academică:</strong> „avantajul esenţial… depăşeşte simpla problematică a transmisiei… pune de asemenea accentul pe finalitatea şi efectele comunicării”.<br><br>
+          <strong>Exemplu:</strong> o campanie urmărește un rezultat concret.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚠️&nbsp;&nbsp;Limite</h3>
+        <hr />
+        <p><span class='tip'>Liniar și fără retroacțiune<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> receptorul apare pasiv, nu există feedback.<br><br>
+          <strong>Formulare academică:</strong> „lipseşte cu desăvârşire orice formă de retroacţiune, iar contextul sociologic şi psihologic nu este luat în considerare”.<br><br>
+          <strong>Exemplu:</strong> modelul nu descrie ajustarea mesajului în dialog.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q3": {
+    title: "Modelul lui Riley și Riley (1959)",
+    html: `
+    <h2>👥&nbsp;&nbsp;Modelul Riley și Riley</h2>
+    <p>Modelul plasează comunicarea în grupuri primare și în context social.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>📘&nbsp;&nbsp;Ideea centrală</h3>
+        <hr />
+        <p><span class='tip'>Grupuri primare și context social<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> grupul din care faci parte schimbă felul în care comunici.<br><br>
+          <strong>Formulare academică:</strong> „Modelul lui Riley şi Riley (1959) încadrează emiţătorul şi receptorul în grupuri primare şi apoi în contextul social.”<br><br>
+          <strong>Exemplu:</strong> același mesaj sună diferit în familie vs. la școală.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Ce surprinde modelul</h3>
+        <hr />
+        <p><span class='tip'>Influența grupului asupra mesajului<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> grupurile de apartenență îți modelează mesajele.<br><br>
+          <strong>Formulare academică:</strong> „grupuri de apartenenţă care influenţează modul de a se implica în situaţia de comunicare, de a transmite, de a recepta şi a procesa un mesaj.”<br><br>
+          <strong>Exemplu:</strong> reguli diferite de comunicare în comunitate vs. la școală.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>✅&nbsp;&nbsp;Valoare</h3>
+        <hr />
+        <p><span class='tip'>Reciprocitate și interinfluență<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> oamenii se influențează reciproc în comunicare.<br><br>
+          <strong>Formulare academică:</strong> „Avantajul acestui model constă în faptul că acesta atestă existenţă unui fenomen de reciprocitate, a unei inter-influenţe între indivizi.”<br><br>
+          <strong>Exemplu:</strong> reacția celuilalt schimbă ce spui mai departe.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚠️&nbsp;&nbsp;Limită</h3>
+        <hr />
+        <p><span class='tip'>Feedback-ul nu e introdus clar<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> comunicarea rămâne liniară, fără reglare explicită.<br><br>
+          <strong>Formulare academică:</strong> „Ignoră noţiunea de feed-back, prezentând comunicarea ca un proces liniar”.<br><br>
+          <strong>Exemplu:</strong> nu explică ajustarea mesajului după reacții.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q4": {
+    title: "Contribuția lui Norbert Wiener și feedback-ul",
+    html: `
+    <h2>🔁&nbsp;&nbsp;Norbert Wiener și feedback-ul</h2>
+    <p>Wiener trece de la comunicare liniară la comunicare circulară.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🔄&nbsp;&nbsp;Rolul feedback-ului</h3>
+        <hr />
+        <p><span class='tip'>De la linear la circular<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> reacția celuilalt schimbă ceea ce spui mai departe.<br><br>
+          <strong>Formulare academică:</strong> „Introducerea noţiunii de feed-back este primul pas de la comunicare către interacţiune, trecând de la viziunea liniară la conceperea unui proces circular.”<br><br>
+          <strong>Exemplu:</strong> îți adaptezi explicația după reacțiile elevilor.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Acțiuni și retroacțiuni</h3>
+        <hr />
+        <p><span class='tip'>Jocul acțiunilor reciproce<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> ce spune unul produce un răspuns, apoi alt răspuns.<br><br>
+          <strong>Formulare academică:</strong> „a vorbi de comunicare în termeni de proces înseamnă a considera comportamentul indivizilor implicaţi ca un joc complex de acţiuni şi de retroacţiuni”.<br><br>
+          <strong>Exemplu:</strong> dialogul se reglează prin reacțiile succesive.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>➕&nbsp;&nbsp;Feedback pozitiv</h3>
+        <hr />
+        <p><span class='tip'>Amplifică fenomenul<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> reacțiile cresc intensitatea schimbului.<br><br>
+          <strong>Formulare academică:</strong> „feed-back-ul pozitiv este cel care conduce la accentuarea unui fenomen asemenea efectului bulgărelui de zăpadă”.<br><br>
+          <strong>Exemplu:</strong> „enervarea progresivă între două persoane”.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>➖&nbsp;&nbsp;Feedback negativ</h3>
+        <hr />
+        <p><span class='tip'>Reglează și stabilizează<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> readuce relația la echilibru.<br><br>
+          <strong>Formulare academică:</strong> „feed-back-ul negativ… un fenomen de reglare care tinde să mențină relaţia într-o stare de stabilitate şi echilibru.”<br><br>
+          <strong>Exemplu:</strong> calmarea unei discuții tensionate.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>⚠️&nbsp;&nbsp;Limită</h3>
+      <hr />
+      <p><span class='tip'>Natura mesajului este neglijată<span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu explică în detaliu cum funcționează limbajul.<br><br>
+        <strong>Formulare academică:</strong> „Principala limită a modelului lui Wiener este faptul că neglijează natura mesajului… limbajul este el însuşi un fenomen complex ce influenţează comunicarea.”<br><br>
+        <strong>Exemplu:</strong> nu explică ambiguitățile din limbaj.
+      </span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q5": {
+    title: "Modelul comunicării la Roman Jakobson",
+    html: `
+    <h2>🗣️&nbsp;&nbsp;Modelul Jakobson</h2>
+    <p>Model lingvistic care descrie elemente și funcții ale comunicării.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🧩&nbsp;&nbsp;Elementele modelului</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Destinator<span class='tooltip-box'><strong>Spus simplu:</strong> cel care comunică.<br><br><strong>Formulare academică:</strong> „destinatorul (cel care comunică)”.<br><br><strong>Exemplu:</strong> profesorul care explică.</span></span>",
+          "<span class='tip'>Mesaj<span class='tooltip-box'><strong>Spus simplu:</strong> conținutul transmis prin semne.<br><br><strong>Formulare academică:</strong> „mesajul - ansamblu de semnale a cărui substanţă este informaţia… punere în formă implică o codare şi o decodare”.<br><br><strong>Exemplu:</strong> explicația unei reguli.</span></span>",
+          "<span class='tip'>Cod comun (parţial)<span class='tooltip-box'><strong>Spus simplu:</strong> limbajul comun al celor doi.<br><br><strong>Formulare academică:</strong> „codul comun, cel puţin parţial”.<br><br><strong>Exemplu:</strong> româna vorbită de amândoi.</span></span>",
+          "<span class='tip'>Destinatar<span class='tooltip-box'><strong>Spus simplu:</strong> cel care primește mesajul.<br><br><strong>Formulare academică:</strong> „destinatarul (cel care primeşte mesajul)”.<br><br><strong>Exemplu:</strong> elevul.</span></span>",
+          "<span class='tip'>Context<span class='tooltip-box'><strong>Spus simplu:</strong> situația și tema despre care se vorbește.<br><br><strong>Formulare academică:</strong> „contextul… fie verbal fie în măsură să fie verbalizat”; dublă semnificaţie: „mediu al unei unităţi determinate” și „ansamblu de condiţii sociale”.<br><br><strong>Exemplu:</strong> „salut” poate însemna Bună ziua sau La revedere.</span></span>",
+          "<span class='tip'>Contact<span class='tooltip-box'><strong>Spus simplu:</strong> legătura fizică și psihologică dintre parteneri.<br><br><strong>Formulare academică:</strong> „legătura fizică (cei doi îşi vorbesc) şi conexiunea psihologică (se ascultă, încearcă să se înţeleagă)”.<br><br><strong>Exemplu:</strong> vă auziți și vă ascultați.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>🎛️&nbsp;&nbsp;Funcțiile comunicării</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Emotivă / expresivă<span class='tooltip-box'><strong>Spus simplu:</strong> arată starea vorbitorului.<br><br><strong>Formulare academică:</strong> „funcţia emotivă (sau expresivă)… destinatorul… angajat afectiv… informează… asupra personalităţii celui care transmite mesajul”.<br><br><strong>Exemplu:</strong> emoția din voce.</span></span>",
+          "<span class='tip'>Conativă<span class='tooltip-box'><strong>Spus simplu:</strong> urmărește un efect asupra destinatarului.<br><br><strong>Formulare academică:</strong> „funcţia conativă… destinatorul vrea să producă anumite efecte… a-l face să acţioneze pe destinatar”.<br><br><strong>Exemplu:</strong> „În privinţa acţiunii x… poţi începe.”</span></span>",
+          "<span class='tip'>Fatică<span class='tooltip-box'><strong>Spus simplu:</strong> menține contactul dintre parteneri.<br><br><strong>Formulare academică:</strong> „provocarea şi menţinerea contactului… utilizată în publicitate… prin mijloace retorice”.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+          "<span class='tip'>Referențială<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul se referă la context (tema/realitatea despre care se vorbește).<br><br><strong>Formulare academică:</strong> „funcţia referenţială vizează contextul, de care va depinde semnificaţia mesajului”.<br><br><strong>Exemplu:</strong> „Mi-ar place ca această treabă să fie rezolvată astăzi”.</span></span>",
+          "<span class='tip'>Metalingvistică<span class='tooltip-box'><strong>Spus simplu:</strong> clarifici codul (limbajul).<br><br><strong>Formulare academică:</strong> „interlocutorii verifică compatibilitatea codurilor”.<br><br><strong>Exemplu:</strong> „Ce vrei să spui?”</span></span>",
+          "<span class='tip'>Poetică<span class='tooltip-box'><strong>Spus simplu:</strong> contează forma mesajului.<br><br><strong>Formulare academică:</strong> „se raportează la însăşi forma mesajului… valoare expresivă proprie”.<br><br><strong>Exemplu:</strong> rima sau jocul de cuvinte.</span></span>",
+        ])}
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🔀&nbsp;&nbsp;Analogic vs. digital</h3>
+        <hr />
+        <p><span class='tip'>Funcții ale relației și ale conținutului<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> unele funcții susțin relația, altele susțin conținutul.<br><br>
+          <strong>Formulare academică:</strong> „funcţiile expresivă, conativă si fatică ţin de limbajul analogic… celelalte trei (referenţială, metalingvistică şi poetică) ţin de limbajul digital”.<br><br>
+          <strong>Exemplu:</strong> tonul arată emoția, cuvintele transmit informația.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚠️&nbsp;&nbsp;Valoare și limită</h3>
+        <hr />
+        <p><span class='tip'>Model lingvistic, context social insuficient<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> modelul explică bine funcțiile, dar nu detaliază suficient socialul.<br><br>
+          <strong>Formulare academică:</strong> „modelul tinde să se degajeze de o viziune mecanicistă… dar… nu ţine cont cu adevărat de condiţiile sociale ale comunicării”.<br><br>
+          <strong>Exemplu:</strong> nu explică rolul instituțiilor sau al statutului.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q6": {
+    title: "Modelul lui Dell Hymes – comunicarea în context social (SPEAKING)",
+    html: `
+    <h2>🧩&nbsp;&nbsp;Modelul SPEAKING (Dell Hymes)</h2>
+    <p>Model pragmatic: comunicarea este analizată prin 8 elemente în context social.</p>
+
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Elementele SPEAKING</h3>
+      <hr />
+      ${flashPillList([
+        "<span class='tip'>Setting (situaţia)<span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul comunicării + „scena” socială.<br><br><strong>Formulare academică:</strong> „situaţia (setting), vizează atât cadrul (momentul şi locul schimburilor) cât şi scena”.<br><br><strong>Exemplu:</strong> o evaluare sau o masă de afaceri.</span></span>",
+        "<span class='tip'>Participants (participanţii)<span class='tooltip-box'><strong>Spus simplu:</strong> cine vorbește și cine asistă.<br><br><strong>Formulare academică:</strong> „destinator şi destinatar şi pe toţi ceilalţi care asistă”.<br><br><strong>Exemplu:</strong> profesor, elevi, observatori.</span></span>",
+        "<span class='tip'>Ends (finalităţile)<span class='tooltip-box'><strong>Spus simplu:</strong> ce urmărești și ce se întâmplă efectiv.<br><br><strong>Formulare academică:</strong> „obiectivele - intenţii” și „obiectivele - rezultat”.<br><br><strong>Exemplu:</strong> vrei să convingi, dar obții doar informare.</span></span>",
+        "<span class='tip'>Acts (actele)<span class='tooltip-box'><strong>Spus simplu:</strong> ce spui și cum structurezi mesajul.<br><br><strong>Formulare academică:</strong> „actele - vizează conţinutul mesajului şi forma sa”.<br><br><strong>Exemplu:</strong> introducere → argument → concluzie.</span></span>",
+        "<span class='tip'>Keys (tonul)<span class='tooltip-box'><strong>Spus simplu:</strong> tonul schimbă sensul mesajului.<br><br><strong>Formulare academică:</strong> „se referă la accent, la maniera sau spiritul în care se produce actul”.<br><br><strong>Exemplu:</strong> ton ironic transformă un compliment în insultă.</span></span>",
+        "<span class='tip'>Instrumentalities (instrumentele)<span class='tooltip-box'><strong>Spus simplu:</strong> canale și forme de vorbire.<br><br><strong>Formulare academică:</strong> „regrupează canalele şi formele vorbirii… cod înţeles de toată lumea sau dialect”.<br><br><strong>Exemplu:</strong> limbă standard vs. dialect.</span></span>",
+        "<span class='tip'>Norms (normele)<span class='tooltip-box'><strong>Spus simplu:</strong> reguli despre cum vorbim și interpretăm.<br><br><strong>Formulare academică:</strong> „norme de interacţiune… şi norme de interpretare”.<br><br><strong>Exemplu:</strong> „Ce mai faci?” ca frază rituală, răspuns „Bine, mulţumesc”.</span></span>",
+        "<span class='tip'>Genre (genul)<span class='tooltip-box'><strong>Spus simplu:</strong> tipul mesajului.<br><br><strong>Formulare academică:</strong> „categoria formală în care se înscrie un mesaj (poem, conferinţă, scrisoare de afaceri)”.<br><br><strong>Exemplu:</strong> conferință vs. scrisoare.</span></span>",
+      ])}
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>✅&nbsp;&nbsp;Valoare</h3>
+        <hr />
+        <p><span class='tip'>Extinde modelul spre norme și finalități<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> explică și scopul, și regulile comunicării.<br><br>
+          <strong>Formulare academică:</strong> „Valoarea acestui model constă în îmbogăţirea modelului precedent, introducând noţiuni noi ca cea de finalităţi… şi de norme”.<br><br>
+          <strong>Exemplu:</strong> scop diferit în conversație vs. evaluare.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>⚠️&nbsp;&nbsp;Limită</h3>
+        <hr />
+        <p><span class='tip'>Perspectivă ideală, nu toate dificultățile reale<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu explică tot ce merge prost în comunicare.<br><br>
+          <strong>Formulare academică:</strong> „modelul rămâne într-o perspectivă… «ideală», şi nu permite explicarea majorităţii dificultăţilor… care nu ţin de aspecte lingvistice”.<br><br>
+          <strong>Exemplu:</strong> conflictul de statut nu e rezolvat doar prin norme.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5-q7": {
+    title: "Modelele psihosociologice ale comunicării",
+    html: `
+    <h2>🌐&nbsp;&nbsp;Modelele psihosociologice</h2>
+    <p>Aceste modele adaugă mesajul nonverbal, relația și contextul social.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>📡&nbsp;&nbsp;Multicanalitate</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Digital (verbal)<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul în cuvinte și semne arbitrare.<br><br><strong>Formulare academică:</strong> „formă «digitală»… se bazează pe semne arbitrare”.<br><br><strong>Exemplu:</strong> definiții, explicații, instrucțiuni.</span></span>",
+          "<span class='tip'>Analogic (nonverbal)<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul în gesturi, mimică, postură.<br><br><strong>Formulare academică:</strong> „formă «analogică»… corespunde expresiei corporale”.<br><br><strong>Exemplu:</strong> tonul schimbă sensul cuvintelor.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>🤝&nbsp;&nbsp;Raport psihosocial</h3>
+        <hr />
+        <p><span class='tip'>Relația determinată de status și rol<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> relația socială schimbă felul în care comunicăm.<br><br>
+          <strong>Formulare academică:</strong> „raport psihosocial… determinat de statusurile şi identităţile sociale… şi de poziţiile lor în actul comunicării”.<br><br>
+          <strong>Exemplu:</strong> nu te comporți la fel cu un superior ca cu un prieten.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🧭&nbsp;&nbsp;Contextul comunicării</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Cadrul<span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul întâlnirii.<br><br><strong>Formulare academică:</strong> „cadrul este compus din aspectele fizice, topografice şi temporale”.<br><br><strong>Exemplu:</strong> birou vs. plajă.</span></span>",
+          "<span class='tip'>Instituția / cultura<span class='tooltip-box'><strong>Spus simplu:</strong> normele culturale și instituționale contează.<br><br><strong>Formulare academică:</strong> „instituţia… face referire la cultura… şi la setul de norme şi constrângerile inerente unor grupuri sociale”.<br><br><strong>Exemplu:</strong> școală, familie, biserică.</span></span>",
+          "<span class='tip'>Numărul de participanți<span class='tooltip-box'><strong>Spus simplu:</strong> comunicarea în doi diferă de comunicarea în grup.<br><br><strong>Formulare academică:</strong> „numărul de indivizi influenţează comunicarea”.<br><br><strong>Exemplu:</strong> intimitate vs. public.</span></span>",
+          "<span class='tip'>Co-textul<span class='tooltip-box'><strong>Spus simplu:</strong> mediul discursiv al mesajului.<br><br><strong>Formulare academică:</strong> co-textul este „mediul discursiv al unei secvenţe de comunicare”.<br><br><strong>Exemplu:</strong> o replică capătă sens în conversația anterioară.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Recepția mesajului</h3>
+        <hr />
+        <p><span class='tip'>Interpretare și inferență<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> receptorul completează sensul folosind contextul.<br><br>
+          <strong>Formulare academică:</strong> „recepţia… activitatea de interpretare a mesajului (noţiunea de inferenţă)… selecţionarea implicaţiilor pertinente în raport cu contextul”.<br><br>
+          <strong>Exemplu:</strong> înțelegi ironia după ton și situație.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>🔗&nbsp;&nbsp;Co-construcția sensului</h3>
+      <hr />
+      <p><span class='tip'>Sensul se construiește în interacțiune<span class='tooltip-box'>
+        <strong>Spus simplu:</strong> mesajul capătă sens prin schimbul dintre cei doi.<br><br>
+        <strong>Formulare academică:</strong> „sensul… nu se naşte doar din sistemul de semne… ci apare ca produs al interacţiunii între mesajul emis şi mesajul primit… o co-construcţie progresivă”.<br><br>
+        <strong>Exemplu:</strong> clarificările reciproce schimbă sensul inițial.
+      </span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-5C-q1": {
+    title: "Modelele psihosociologice – reguli, mize și strategie",
+    html: `
+    <h2>🧭&nbsp;&nbsp;Reguli și mize în comunicare</h2>
+    <p>Comunicarea este guvernată de reguli și susținută de mize.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>📏&nbsp;&nbsp;Tipuri de reguli</h3>
+        <hr />
+        ${flashPillList([
+          "<span class='tip'>Reguli lingvistice<span class='tooltip-box'><strong>Spus simplu:</strong> regulile limbii (cum formăm corect mesajul).<br><br><strong>Formulare academică:</strong> „Comunicarea se supune unor reguli: lingvistice”.<br><br><strong>Exemplu:</strong> acorduri corecte, vocabular adecvat.</span></span>",
+          "<span class='tip'>Reguli conversaţionale<span class='tooltip-box'><strong>Spus simplu:</strong> reguli despre cum începi, continui și închei conversația.<br><br><strong>Formulare academică:</strong> „regulile conversaţionale… «contract de comunicare»… modul de a iniţia… de a modera sau întrerupe o comunicare”.<br><br><strong>Exemplu:</strong> fiecare vorbește pe rând.</span></span>",
+          "<span class='tip'>Reguli rituale<span class='tooltip-box'><strong>Spus simplu:</strong> formule sociale învățate cultural.<br><br><strong>Formulare academică:</strong> „regulile rituale se exprimă printr-un sistem convenţional de prescripţii şi proscripţii… uzuale”.<br><br><strong>Exemplu:</strong> a saluta, a întreba „ce mai faci?”.</span></span>",
+        ])}
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Comunicarea ca negociere</h3>
+        <hr />
+        <p><span class='tip'>Situație strategică<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> fiecare urmărește ceva când comunică.<br><br>
+          <strong>Formulare academică:</strong> „Comunicarea ca proces de negociere… situaţie strategică”.<br><br>
+          <strong>Exemplu:</strong> vrei să convingi sau să faci o impresie bună.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Mizele comunicării (Mucchielli)</h3>
+      <hr />
+      ${flashPillList([
+        "<span class='tip'>Miza informaţională<span class='tooltip-box'><strong>Spus simplu:</strong> transmiterea de informații.<br><br><strong>Formulare academică:</strong> „modalitate de transmitere a informaţiei”.<br><br><strong>Exemplu:</strong> explici o regulă.</span></span>",
+        "<span class='tip'>Miza de poziţionare<span class='tooltip-box'><strong>Spus simplu:</strong> afirmi identitatea și rolul.<br><br><strong>Formulare academică:</strong> „participanţii să îşi afirme o identitate, să-şi definească rolurile şi statuturile”.<br><br><strong>Exemplu:</strong> subliniezi autoritatea ta.</span></span>",
+        "<span class='tip'>Miza de mobilizare<span class='tooltip-box'><strong>Spus simplu:</strong> îl influențezi pe celălalt să reacționeze.<br><br><strong>Formulare academică:</strong> „tentativa de «influenţare a celuilalt»… obiectivul de a provoca o reacţie”.<br><br><strong>Exemplu:</strong> îl determini să acționeze.</span></span>",
+        "<span class='tip'>Miza relaţională<span class='tooltip-box'><strong>Spus simplu:</strong> definești relația dintre voi.<br><br><strong>Formulare academică:</strong> „orice comunicare tinde să precizeze natura relaţiei între interlocutori”.<br><br><strong>Exemplu:</strong> stabilești apropiere sau distanță.</span></span>",
+        "<span class='tip'>Miza normativă<span class='tooltip-box'><strong>Spus simplu:</strong> regula comună a interacțiunii.<br><br><strong>Formulare academică:</strong> „nu poţi comunica fără a te afla într-un sistem minim de reguli împărtăşite”.<br><br><strong>Exemplu:</strong> respectarea rândului la vorbire.</span></span>",
+      ])}
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Strategia comunicării</h3>
+        <hr />
+        <p><span class='tip'>Strategia derivă din mize<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> alegi cum comunici în funcție de ce vrei să obții.<br><br>
+          <strong>Formulare academică:</strong> „strategia derivă din mize… căutarea unei satisfacţii, a unui câştig… maximizarea «profitului» sau minimizarea riscurilor”.<br><br>
+          <strong>Exemplu:</strong> fie „strălucești”, fie ești prudent ca să eviți greșeli.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>✅&nbsp;&nbsp;Reguli rituale în practică</h3>
+        <hr />
+        <p><span class='tip'>Comunicarea nu funcționează fără ritualuri<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> unele formule sunt obligatorii ca să nu deranjezi schimbul.<br><br>
+          <strong>Formulare academică:</strong> „Pentru a nu fi perturbată comunicarea, fiecare trebuie să se plieze acestor reguli (a saluta, a întreba «ce mai faci?», a nu întrerupe etc.).”<br><br>
+          <strong>Exemplu:</strong> salutul deschide conversația.
+        </span></span></p>
+      </div>
+    </div>
+  `,
+  },
+  "pedcom-1-5C-q2": {
+    title: "Teorii ale comunicării – demersul sistemic: interacțiune și context",
+    html: `
+    <h2>🔁&nbsp;&nbsp;Demersul sistemic asupra comunicării</h2>
+    <p>Comunicarea este văzută ca fenomen interacțional, nu doar transfer de informații.</p>
+
+    <div class="lesson-card lesson-highlight">
+      <strong>📘&nbsp;&nbsp;Idee-cheie:</strong>
+      „Demersul sistemic… completează modelul de bază” și privește comunicarea ca relație, context și interacțiune.
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🤝&nbsp;&nbsp;Fenomen interacțional</h3>
+        <hr />
+        <p><span class='tip'>Relația e unitatea de bază<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu individul singur contează, ci relația dintre oameni.<br><br>
+          <strong>Formulare academică:</strong> „comunicarea este un fenomen interacţional în care unitatea de bază nu este atât individul cât relaţia care se instaurează între indivizi”.<br><br>
+          <strong>Exemplu:</strong> dialogul profesor–elev.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>📡&nbsp;&nbsp;Comportament comunicațional</h3>
+        <hr />
+        <p><span class='tip'>Orice comportament social comunică<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> și tăcerea sau gesturile transmit ceva.<br><br>
+          <strong>Formulare academică:</strong> „comunicarea nu se reduce la mesajul verbal ci orice comportament social are o valoare comunicaţională”.<br><br>
+          <strong>Exemplu:</strong> privirea sau postura.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>🧭&nbsp;&nbsp;Rolul contextului</h3>
+      <hr />
+      <p><span class='tip'>Contextul organizează comunicarea<span class='tooltip-box'>
+        <strong>Spus simplu:</strong> contează relația dintre oameni și situația concretă.<br><br>
+        <strong>Formulare academică:</strong> „comunicarea este determinată de context… raporturile care leagă persoanele… cadrul… şi situaţia care pune în relaţie protagoniştii”.<br><br>
+        <strong>Exemplu:</strong> profesor–elev la clasă vs. vecini pe stradă.
+      </span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-5C-q3": {
+    title: "Teorii ale comunicării – interacțiunea și importanța contextului",
+    html: `
+    <h2>🔁&nbsp;&nbsp;Interacțiunea: factor central</h2>
+    <p>Comunicarea este un proces circular de acțiuni și retroacțiuni.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>🔄&nbsp;&nbsp;Proces circular</h3>
+        <hr />
+        <p><span class='tip'>Acțiuni și retroacțiuni<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> fiecare mesaj provoacă un răspuns care devine nou stimul.<br><br>
+          <strong>Formulare academică:</strong> „interacţiunea… jocul de acţiuni şi de retroacţiuni… fiecare intervenţie… constituie la rândul său un stimul”.<br><br>
+          <strong>Exemplu:</strong> întrebare → răspuns → clarificare.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>🎯&nbsp;&nbsp;Feed-back</h3>
+        <hr />
+        <p><span class='tip'>Răspuns comandat de interpretare<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> răspunsul depinde de ce ai înțeles.<br><br>
+          <strong>Formulare academică:</strong> „Feed-back-ul este comandat de interpretarea (semnificaţia subiectivă)”.<br><br>
+          <strong>Exemplu:</strong> reacționezi diferit la același mesaj.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>🧩&nbsp;&nbsp;Co-construcție</h3>
+      <hr />
+      <p><span class='tip'>Sensul se construiește împreună<span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu unul singur controlează comunicarea.<br><br>
+        <strong>Formulare academică:</strong> „o «co-construcţie» progresivă… ea decurge mai puţin din individualitatea fiecăruia cât din relaţia care îi uneşte”.<br><br>
+        <strong>Exemplu:</strong> sensul se ajustează prin intervenții reciproce.
+      </span></span></p>
+    </div>
+  `,
+  },
+  "pedcom-1-5C-q4": {
+    title: "Teorii ale comunicării – contextul ca sistem de norme",
+    html: `
+    <h2>🧭&nbsp;&nbsp;Contextul comunicării</h2>
+    <p>Contextul este cadru simbolic, cu norme, reguli și ritualuri.</p>
+
+    <div class="lesson-grid two colorful">
+      <div class="lesson-card">
+        <h3>📏&nbsp;&nbsp;Norme și reguli</h3>
+        <hr />
+        <p><span class='tip'>Contextul organizează interacțiunea<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> există reguli despre cum începe și cum se încheie schimbul.<br><br>
+          <strong>Formulare academică:</strong> „contextul… cadru simbolic, purtător de norme, reguli, modele şi ritualuri de interacţiune”.<br><br>
+          <strong>Exemplu:</strong> într-un schimb, fiecare vorbește la rândul lui.
+        </span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>👥&nbsp;&nbsp;Raporturi între interlocutori</h3>
+        <hr />
+        <p><span class='tip'>Roluri și poziții<span class='tooltip-box'>
+          <strong>Spus simplu:</strong> raporturile (părinte/copil, profesor/elev) schimbă comunicarea.<br><br>
+          <strong>Formulare academică:</strong> „context înseamnă şi raporturile care leagă interlocutorii… rolul fiind definit printr-un anumit model de conduită”.<br><br>
+          <strong>Exemplu:</strong> profesor–elev vs. coleg–coleg.
+        </span></span></p>
+      </div>
+    </div>
+
+    <hr />
+    <div style="height:12px;"></div>
+
+    <div class="lesson-card">
+      <h3>🎬&nbsp;&nbsp;Situația ca scenariu</h3>
+      <hr />
+      <p><span class='tip'>Interacțiunea are un scenariu<span class='tooltip-box'>
+        <strong>Spus simplu:</strong> există o succesiune de acțiuni așteptate.<br><br>
+        <strong>Formulare academică:</strong> „situaţia implică un scenariu… privind derularea interacţiunii (secvenţe de acţiuni şi de intervenţii comunicaţionale)”.<br><br>
+        <strong>Exemplu:</strong> o reuniune de lucru are pași previzibili.
+      </span></span></p>
+    </div>
+  `,
+  },
+};
 
 window.PEDCOM_FLASHCARDS = {
   "pedcom-u1": [
@@ -3483,8 +7240,381 @@ window.PEDCOM_FLASHCARDS = {
       title: "U1 Flashcards",
       cards: [
         {
-          front: "Defineste comunicarea educationala.",
-          back: "Proces de interactiune si schimb de mesaje in context didactic.",
+          front: "Explică cele două tipuri de definiții ale comunicării",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">📘&nbsp;&nbsp;Definiții ale comunicării</div>
+              <div>Comunicarea este explicată fie ca transmitere de mesaj, fie ca negociere de sens.</div>
+              ${flashPillList([
+                "<span class='tip'>Transmitere de mesaj — accent pe emițător, canal, efect<span class='tooltip-box'><strong>Spus simplu:</strong> important e să ajungi cu informația la receptor.<br><br><strong>Formulare academică:</strong> comunicarea este descrisă ca un traseu: cine transmite ce, cui, prin ce canal și cu ce efect.<br><br><strong>Exemplu:</strong> anunțul de clasă urmărește să fie înțeles rapid de toți.</span></span>",
+                "<span class='tip'>Negociere de sens — accent pe interpretare și înțelegere comună<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul trebuie înțeles și acceptat în același sens.<br><br><strong>Formulare academică:</strong> comunicarea presupune interpretare și acord asupra sensului, nu doar transmitere.<br><br><strong>Exemplu:</strong> „te rog” poate fi rugăminte sau ordin, în funcție de relație.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Enumeră cei 4 C și regulile de formulare a mesajului",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Cei 4 C și reguli</div>
+              <div>În comunicare, ne focalizăm pe întrebări și pe claritatea formulării.</div>
+              ${flashPillList([
+                "<span class='tip'>Cei 4 C — ce, cum, cui, ce limbaj<span class='tooltip-box'><strong>Spus simplu:</strong> stabilești conținutul, modul, publicul și limbajul folosit.<br><br><strong>Formulare academică:</strong> comunicarea eficientă se sprijină pe clarificarea intenției, a destinatarului și a codului.<br><br><strong>Exemplu:</strong> altfel explici la colegi și altfel la părinți.</span></span>",
+                "<span class='tip'>Reguli de formulare — cuvinte potrivite, clare, concise<span class='tooltip-box'><strong>Spus simplu:</strong> alegi cuvinte simple și ușor de înțeles.<br><br><strong>Formulare academică:</strong> se folosesc expresii potrivite nivelului de înțelegere și se evită limbajul tehnic și frazele complicate.<br><br><strong>Exemplu:</strong> „Ai de predat tema până vineri” în loc de formulări ambigue.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Formulează întrebările esențiale ale comunicării",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">❓&nbsp;&nbsp;Întrebări în comunicare</div>
+              <div>Întrebările clarifică scopul, publicul și forma mesajului.</div>
+              ${flashPillList([
+                "<span class='tip'>De ce — scopul comunicării<span class='tooltip-box'><strong>Spus simplu:</strong> clarifici ce vrei să obții.<br><br><strong>Formulare academică:</strong> scopul poate fi informare, influențare, schimbare de atitudine sau fraternizare.<br><br><strong>Exemplu:</strong> vrei să convingi clasa să respecte o regulă.</span></span>",
+                "<span class='tip'>Cine — interlocutorul<span class='tooltip-box'><strong>Spus simplu:</strong> te adaptezi persoanei căreia îi vorbești.<br><br><strong>Formulare academică:</strong> contează personalitatea, statutul social, vârsta și reacțiile posibile ale receptorului.<br><br><strong>Exemplu:</strong> alt discurs pentru elevi decât pentru părinți.</span></span>",
+                "<span class='tip'>Unde și când — contextul<span class='tooltip-box'><strong>Spus simplu:</strong> locul și momentul schimbă mesajul.<br><br><strong>Formulare academică:</strong> contextul poate fi cordial sau încărcat și influențează receptarea mesajului.<br><br><strong>Exemplu:</strong> o discuție în pauză vs. în ședință.</span></span>",
+                "<span class='tip'>Ce — subiectul<span class='tooltip-box'><strong>Spus simplu:</strong> alegi ce e esențial de spus.<br><br><strong>Formulare academică:</strong> clarifici informațiile necesare pentru a fi clar, concis, complet și constructiv.<br><br><strong>Exemplu:</strong> selectezi doar datele relevante pentru sarcină.</span></span>",
+                "<span class='tip'>Cum — tonul și stilul<span class='tooltip-box'><strong>Spus simplu:</strong> alegi forma potrivită de exprimare.<br><br><strong>Formulare academică:</strong> decizi canalul (scris/ vorbit) și organizezi informația pentru eficiență.<br><br><strong>Exemplu:</strong> scrii un e-mail clar în loc de mesaj scurt confuz.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie schema comunicării și rolul fiecărui element",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Schema comunicării</div>
+              <div>Elementele comunicării trebuie să fie compatibile pentru înțelegere.</div>
+              ${flashPillList([
+                "<span class='tip'>Emițător — inițiază mesajul<span class='tooltip-box'><strong>Spus simplu:</strong> cel care transmite informația.<br><br><strong>Formulare academică:</strong> emițătorul codifică mesajul în funcție de scop și context.<br><br><strong>Exemplu:</strong> profesorul care explică o lecție.</span></span>",
+                "<span class='tip'>Receptor — interpretează mesajul<span class='tooltip-box'><strong>Spus simplu:</strong> cel care primește și înțelege.<br><br><strong>Formulare academică:</strong> interpretarea depinde de nivelul de înțelegere și de context.<br><br><strong>Exemplu:</strong> elevul care întreabă pentru clarificare.</span></span>",
+                "<span class='tip'>Mesaj — conținutul transmis<span class='tooltip-box'><strong>Spus simplu:</strong> ceea ce se spune propriu-zis.<br><br><strong>Formulare academică:</strong> mesajul poate fi codificat corect sau distorsionat.<br><br><strong>Exemplu:</strong> instrucțiunile unei teme.</span></span>",
+                "<span class='tip'>Canal — calea de transmitere<span class='tooltip-box'><strong>Spus simplu:</strong> mediul pe care circulă mesajul.<br><br><strong>Formulare academică:</strong> canalul influențează claritatea și eficiența comunicării.<br><br><strong>Exemplu:</strong> vorbire, e-mail, afiș.</span></span>",
+                "<span class='tip'>Cod — limbajul comun<span class='tooltip-box'><strong>Spus simplu:</strong> simbolurile pe care le înțeleg amândoi.<br><br><strong>Formulare academică:</strong> codarea și decodarea corectă cer un sistem comun de semne.<br><br><strong>Exemplu:</strong> folosirea aceleiași limbi.</span></span>",
+                "<span class='tip'>Feedback — răspunsul receptorului<span class='tooltip-box'><strong>Spus simplu:</strong> arată dacă mesajul a fost înțeles.<br><br><strong>Formulare academică:</strong> feedback-ul reglează comunicarea și reduce erorile.<br><br><strong>Exemplu:</strong> elevul răspunde la întrebare.</span></span>",
+                "<span class='tip'>Zgomot — distorsiunea mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> orice perturbă înțelegerea.<br><br><strong>Formulare academică:</strong> zgomotul poate fi extern (bruiaj) sau intern (neatenție).<br><br><strong>Exemplu:</strong> gălăgie în clasă.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Enumeră funcțiile comunicării la Roman Jakobson",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎛️&nbsp;&nbsp;Funcțiile comunicării</div>
+              <div>Într-un mesaj pot coexista toate funcțiile, dar una devine dominantă.</div>
+              ${flashPillList([
+                "<span class='tip'>Expresivă — orientare spre emițător<span class='tooltip-box'><strong>Spus simplu:</strong> arată starea celui care vorbește.<br><br><strong>Formulare academică:</strong> funcția expresivă se centrează pe emițător și pe emoțiile sale.<br><br><strong>Exemplu:</strong> „Sunt foarte bucuros!”</span></span>",
+                "<span class='tip'>Conativă — orientare spre receptor<span class='tooltip-box'><strong>Spus simplu:</strong> urmărește un efect asupra celuilalt.<br><br><strong>Formulare academică:</strong> funcția conativă încearcă să provoace o reacție.<br><br><strong>Exemplu:</strong> „Te rog, închide ușa.”</span></span>",
+                "<span class='tip'>Referențială — orientare spre referent<span class='tooltip-box'><strong>Spus simplu:</strong> spune un fapt despre realitate.<br><br><strong>Formulare academică:</strong> mesajul este orientat spre referent (tema despre care se vorbește).<br><br><strong>Exemplu:</strong> „Plouă afară.”</span></span>",
+                "<span class='tip'>Fatică — orientare spre canal<span class='tooltip-box'><strong>Spus simplu:</strong> verifică dacă legătura funcționează.<br><br><strong>Formulare academică:</strong> funcția fatică menține contactul între parteneri.<br><br><strong>Exemplu:</strong> „Mă auzi?”</span></span>",
+                "<span class='tip'>Metalingvistică — orientare spre cod<span class='tooltip-box'><strong>Spus simplu:</strong> explică limbajul folosit.<br><br><strong>Formulare academică:</strong> funcția metalingvistică clarifică sensul termenilor.<br><br><strong>Exemplu:</strong> „Prin «metaforă» înțelegem…”</span></span>",
+                "<span class='tip'>Poetică — orientare spre forma mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> contează cum sună mesajul.<br><br><strong>Formulare academică:</strong> funcția poetică pune accent pe construcția și stilul mesajului.<br><br><strong>Exemplu:</strong> un slogan sau o rimă.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Enumeră axiomele comunicării în viziunea Palo Alto",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌&nbsp;&nbsp;Axiomele comunicării</div>
+              <div>Axiomele descriu reguli de bază ale comunicării în relații reale.</div>
+              ${flashPillList([
+                "<span class='tip'>Axioma 1 — nu poți să nu comunici<span class='tooltip-box'><strong>Spus simplu:</strong> orice comportament transmite ceva.<br><br><strong>Formulare academică:</strong> non-comunicarea este imposibilă: în prezența celuilalt, orice comportament are valoare comunicativă.<br><br><strong>Exemplu:</strong> tăcerea și evitarea privirii sunt interpretate.</span></span>",
+                "<span class='tip'>Axioma 2 — conținut și relație<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul are informație și atitudine față de celălalt.<br><br><strong>Formulare academică:</strong> comunicarea are un nivel informațional și unul relațional care dă sens conținutului.<br><br><strong>Exemplu:</strong> „Ai întârziat” poate fi reproș sau informare.</span></span>",
+                "<span class='tip'>Axioma 3 — punctarea secvențelor<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare vede altfel începutul conflictului.<br><br><strong>Formulare academică:</strong> natura relației depinde de punctarea secvențelor de comunicare de către parteneri.<br><br><strong>Exemplu:</strong> „Tu ai început” într-o ceartă.</span></span>",
+                "<span class='tip'>Axioma 4 — digital și analogic<span class='tooltip-box'><strong>Spus simplu:</strong> cuvintele și gesturile lucrează împreună.<br><br><strong>Formulare academică:</strong> comunicarea are mod digital (verbal, logic) și analogic (nonverbal, relațional).<br><br><strong>Exemplu:</strong> „Sunt bine” spus cu mimică tristă.</span></span>",
+                "<span class='tip'>Axioma 5 — simetrică sau complementară<span class='tooltip-box'><strong>Spus simplu:</strong> relații între egali sau între roluri diferite.<br><br><strong>Formulare academică:</strong> comunicarea este simetrică dacă se bazează pe egalitate și complementară dacă se bazează pe diferențe de rol/statut.<br><br><strong>Exemplu:</strong> coleg–coleg vs. profesor–elev.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie modelul Shannon și Weaver",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🛰️&nbsp;&nbsp;Shannon și Weaver</div>
+              <div>Model tehnic axat pe transmiterea mesajului.</div>
+              ${flashPillList([
+                "<span class='tip'>Transfer de mesaj — codare, canal, decodare<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul circulă ca un semnal între sursă și destinatar.<br><br><strong>Formulare academică:</strong> comunicarea este un transfer de mesaj între sursă și receptor, prin codare și decodare, afectat de zgomot.<br><br><strong>Exemplu:</strong> o conexiune slabă distorsionează mesajul.</span></span>",
+                "<span class='tip'>Zgomot — distorsiune a semnalului<span class='tooltip-box'><strong>Spus simplu:</strong> orice perturbă claritatea mesajului.<br><br><strong>Formulare academică:</strong> zgomotul reduce fidelitatea transmiterii și poate modifica sensul.<br><br><strong>Exemplu:</strong> sunete puternice într-o sală.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie modelul Lasswell",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">📣&nbsp;&nbsp;Lasswell</div>
+              <div>Modelul pune accent pe influență și efect.</div>
+              ${flashPillList([
+                "<span class='tip'>Cine spune ce cui prin ce canal cu ce efect<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești traseul și impactul mesajului.<br><br><strong>Formulare academică:</strong> modelul analizează comunicarea prin roluri, canal și efect asupra receptorului.<br><br><strong>Exemplu:</strong> o campanie care schimbă o atitudine.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie modelul Riley și Riley",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">👥&nbsp;&nbsp;Riley și Riley</div>
+              <div>Comunicarea este influențată de grupuri și context.</div>
+              ${flashPillList([
+                "<span class='tip'>Emițător și receptor în grupuri primare<span class='tooltip-box'><strong>Spus simplu:</strong> mesajele sunt filtrate de familie, grup, comunitate.<br><br><strong>Formulare academică:</strong> emițătorul și receptorul sunt integrați în grupuri primare care condiționează comunicarea.<br><br><strong>Exemplu:</strong> același mesaj e interpretat diferit acasă și la școală.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie contribuția lui Wiener și rolul feedbackului",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔁&nbsp;&nbsp;Wiener și feedbackul</div>
+              <div>Comunicarea devine circulară prin retroacțiuni.</div>
+              ${flashPillList([
+                "<span class='tip'>Feedback pozitiv și negativ — reglare<span class='tooltip-box'><strong>Spus simplu:</strong> răspunsurile corectează sau întăresc mesajul.<br><br><strong>Formulare academică:</strong> comunicarea este un joc de acțiuni și retroacțiuni, cu feedback pozitiv sau negativ.<br><br><strong>Exemplu:</strong> profesorul reformulează după reacțiile clasei.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Enumeră elementele modelului Jakobson",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Modelul Jakobson</div>
+              <div>Modelul descrie elementele unei comunicări complete.</div>
+              ${flashPillList([
+                "<span class='tip'>Destinator și destinatar — emițător și receptor<span class='tooltip-box'><strong>Spus simplu:</strong> cine transmite și cine primește.<br><br><strong>Formulare academică:</strong> comunicarea presupune un emițător și un receptor activ.<br><br><strong>Exemplu:</strong> profesor–elev.</span></span>",
+                "<span class='tip'>Mesaj — conținutul transmis<span class='tooltip-box'><strong>Spus simplu:</strong> informația propriu-zisă.<br><br><strong>Formulare academică:</strong> mesajul este purtătorul sensului.<br><br><strong>Exemplu:</strong> explicația unei reguli.</span></span>",
+                "<span class='tip'>Cod și contact — limbaj comun și legătură funcțională<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași limbă și atenție reciprocă.<br><br><strong>Formulare academică:</strong> codul și contactul asigură transmiterea eficientă.<br><br><strong>Exemplu:</strong> clarificarea termenilor în discuție.</span></span>",
+                "<span class='tip'>Context — situația de referință<span class='tooltip-box'><strong>Spus simplu:</strong> în ce situație are loc mesajul.<br><br><strong>Formulare academică:</strong> contextul dă sens mesajului și îl ancorează în realitate.<br><br><strong>Exemplu:</strong> aceeași formulă într-o oră vs. în pauză.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Prezintă modelul SPEAKING al lui Dell Hymes",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;SPEAKING</div>
+              <div>Modelul descrie comunicarea ca interacțiune situată social.</div>
+              ${flashPillList([
+                "<span class='tip'>S & P — setting și participants<span class='tooltip-box'><strong>Spus simplu:</strong> locul și oamenii implicați contează.<br><br><strong>Formulare academică:</strong> cadrul și participanții influențează interpretarea mesajului.<br><br><strong>Exemplu:</strong> discurs public vs. discuție privată.</span></span>",
+                "<span class='tip'>E & A — ends și act sequence<span class='tooltip-box'><strong>Spus simplu:</strong> scopul și ordinea actelor comunicative.<br><br><strong>Formulare academică:</strong> intențiile și succesiunea actelor structurează interacțiunea.<br><br><strong>Exemplu:</strong> întrebare → răspuns → clarificare.</span></span>",
+                "<span class='tip'>K I N G — key, instrumentalities, norms, genre<span class='tooltip-box'><strong>Spus simplu:</strong> tonul, canalele, regulile și tipul mesajului.<br><br><strong>Formulare academică:</strong> maniera, mediul, normele și genul dau sens social actului.<br><br><strong>Exemplu:</strong> ton ironic + reguli rituale + gen „conferință”.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică demersul sistemic în comunicare",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔗&nbsp;&nbsp;Demersul sistemic</div>
+              <div>Comunicarea este un proces interactiv complex, nu doar transfer de informații.</div>
+              ${flashPillList([
+                "<span class='tip'>Interacțiune — acțiuni și reacții<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare mesaj este și răspuns și stimul.<br><br><strong>Formulare academică:</strong> comunicarea este un ansamblu dinamic de relații, nu sumă de factori izolați.<br><br><strong>Exemplu:</strong> reacțiile elevilor modifică explicația profesorului.</span></span>",
+                "<span class='tip'>Context — determină semnificația mesajelor<span class='tooltip-box'><strong>Spus simplu:</strong> același mesaj capătă alt sens în altă situație.<br><br><strong>Formulare academică:</strong> contextul și relațiile dintre interlocutori influențează interacțiunea.<br><br><strong>Exemplu:</strong> feedback diferit într-o clasă tensionată.</span></span>",
+                "<span class='tip'>Feedback — reglare și autoreglare<span class='tooltip-box'><strong>Spus simplu:</strong> răspunsul modifică direcția comunicării.<br><br><strong>Formulare academică:</strong> procesul comunicării include mecanisme de reglare care susțin dinamica relației.<br><br><strong>Exemplu:</strong> profesorul reformulează după neînțelegeri.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică diferența dintre sociabil și comunicativ",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Sociabil vs comunicativ</div>
+              <div>Plăcerea de relaționare nu garantează eficiența comunicării.</div>
+              ${flashPillList([
+                "<span class='tip'>Sociabil — plăcut, lipsit de inhibiții<span class='tooltip-box'><strong>Spus simplu:</strong> e ușor să vorbești cu el.<br><br><strong>Formulare academică:</strong> sociabilitatea conservă nuanțe egocentrice și nu implică neapărat schimb eficient.<br><br><strong>Exemplu:</strong> cineva vorbește mult, dar nu clarifică nimic.</span></span>",
+                "<span class='tip'>Comunicativ — eficient în actul comunicării<span class='tooltip-box'><strong>Spus simplu:</strong> se face înțeles și creează relație reală.<br><br><strong>Formulare academică:</strong> comunicativitatea înseamnă eficiență, nu doar plăcere în relaționare.<br><br><strong>Exemplu:</strong> explică simplu și obține răspuns adecvat.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Prezintă stadiile comunicării eficiente la Powell și Shives",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">📶&nbsp;&nbsp;Cele 5 niveluri</div>
+              <div>Comunicarea eficientă crește prin deschidere și asumare.</div>
+              ${flashPillList([
+                "<span class='tip'>Nivel 5 — clișeu<span class='tooltip-box'><strong>Spus simplu:</strong> replici goale fără răspuns real.<br><br><strong>Formulare academică:</strong> comunicare superficială fără efect de dezvoltare.<br><br><strong>Exemplu:</strong> „Ce mai faci?” spus din reflex.</span></span>",
+                "<span class='tip'>Nivel 4 — raportare de fapte<span class='tooltip-box'><strong>Spus simplu:</strong> spui fapte, fără implicare personală.<br><br><strong>Formulare academică:</strong> lipsă de interacțiune reală și de schimb personal.<br><br><strong>Exemplu:</strong> „Doar fapte”.</span></span>",
+                "<span class='tip'>Nivel 3 — idei și judecăți<span class='tooltip-box'><strong>Spus simplu:</strong> interacțiune controlată, căutare de aprobare.<br><br><strong>Formulare academică:</strong> vorbitorul se retrage dacă nu primește acceptare.<br><br><strong>Exemplu:</strong> spune doar ce „se potrivește”.</span></span>",
+                "<span class='tip'>Nivel 2 — emoții spontane<span class='tooltip-box'><strong>Spus simplu:</strong> îți exprimi trăirile și îți asumi riscul.<br><br><strong>Formulare academică:</strong> exprimarea emoțiilor cere curaj și poate fi respinsă.<br><br><strong>Exemplu:</strong> „Mă simt rănit”.</span></span>",
+                "<span class='tip'>Nivel 1 — comunicare onestă și deschisă<span class='tooltip-box'><strong>Spus simplu:</strong> partenerii își exprimă gândurile și emoțiile sincer.<br><br><strong>Formulare academică:</strong> comunicare completă ce susține maturizarea emoțională.<br><br><strong>Exemplu:</strong> dialog deschis într-un grup de încredere.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică comunicarea didactică și specificul ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🏫&nbsp;&nbsp;Comunicarea didactică</div>
+              <div>Este forma particulară a comunicării în actul de învățare sistematică.</div>
+              ${flashPillList([
+                "<span class='tip'>Definiție — schimb informațional instrumental<span class='tooltip-box'><strong>Spus simplu:</strong> profesorul transmite pentru a produce schimbare la elev.<br><br><strong>Formulare academică:</strong> comunicarea didactică determină schimbări în comportamentul și gândirea elevului și se adaptează receptorului.<br><br><strong>Exemplu:</strong> explicație urmată de exercițiu.</span></span>",
+                "<span class='tip'>Caracteristici — explicativă, logică pedagogică, personalizare<span class='tooltip-box'><strong>Spus simplu:</strong> contează înțelegerea, nu doar enunțarea adevărului.<br><br><strong>Formulare academică:</strong> discursul didactic vizează înțelegerea, e structurat după logica pedagogică și e filtrat de profesor.<br><br><strong>Exemplu:</strong> profesorul adaptează conținutul la nivelul clasei.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică obstacolele și remediile în comunicarea profesor–elev",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🚧&nbsp;&nbsp;Obstacole și remedii</div>
+              <div>Barierele pot fi obiective, psihologice sau psihosociale.</div>
+              ${flashPillList([
+                "<span class='tip'>Obiective — inteligență, experiență, cultură<span class='tooltip-box'><strong>Spus simplu:</strong> elevii înțeleg diferit același mesaj.<br><br><strong>Formulare academică:</strong> pot apărea saturații, oboseală și pierderi de informație în mesaje prea lungi.<br><br><strong>Exemplu:</strong> mesajul devine neclar prin supraîncărcare.</span></span>",
+                "<span class='tip'>Psihologice — trăsături negative ale profesorului<span class='tooltip-box'><strong>Spus simplu:</strong> rigiditatea sau cinismul blochează relația.<br><br><strong>Formulare academică:</strong> superficialitatea, autoritarismul, apatia distorsionează mesajul și descurajează elevii.<br><br><strong>Exemplu:</strong> elevii evită întrebările de teamă.</span></span>",
+                "<span class='tip'>Psihosociale — roluri și atmosferă apăsătoare<span class='tooltip-box'><strong>Spus simplu:</strong> elevul se simte inferior și se apără.<br><br><strong>Formulare academică:</strong> rolurile pot crea bariere și contestări, mai ales în climat rigid.<br><br><strong>Exemplu:</strong> indisciplină ca reacție la presiune.</span></span>",
+                "<span class='tip'>Remedii — empatie, tact, convergență a mesajelor<span class='tooltip-box'><strong>Spus simplu:</strong> profesorul creează un climat sigur și clar.<br><br><strong>Formulare academică:</strong> precizie în gândire, asocierea gestului cu cuvântul, acceptarea elevului ca partener.<br><br><strong>Exemplu:</strong> încurajare și feedback pozitiv.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică analiza tranzacțională și stările Eului",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔄&nbsp;&nbsp;Analiza tranzacțională</div>
+              <div>AT descrie personalitatea prin stări ale Eului și schimburi relaționale.</div>
+              ${flashPillList([
+                "<span class='tip'>Postulate — destinul poate fi schimbat<span class='tooltip-box'><strong>Spus simplu:</strong> omul decide și poate corecta deciziile sale.<br><br><strong>Formulare academică:</strong> individul își poate schimba propriile decizii; toți oamenii au capacitatea de a gândi.<br><br><strong>Exemplu:</strong> schimbarea unui tipar de reacție prin reflecție.</span></span>",
+                "<span class='tip'>Stări ale Eului — Părinte, Adult, Copil<span class='tooltip-box'><strong>Spus simplu:</strong> reguli, rațiune și emoție.<br><br><strong>Formulare academică:</strong> personalitatea funcționează cu trei stări distincte, activate diferit în situații diverse.<br><br><strong>Exemplu:</strong> Adultul analizează, Copilul reacționează afectiv.</span></span>",
+                "<span class='tip'>Tranzacții — schimburi între stări<span class='tooltip-box'><strong>Spus simplu:</strong> fiecare răspuns devine un nou stimul.<br><br><strong>Formulare academică:</strong> tranzacția este schimbul dintre stările Eului, cu stimul și răspuns tranzacțional.<br><br><strong>Exemplu:</strong> ton autoritar (Părinte) → răspuns supus (Copil).</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+      ],
+    },
+  ],
+  "pedcom-u2": [
+    {
+      id: "pedcom-u2-deck1",
+      title: "UI2 Flashcards",
+      cards: [
+        {
+          front: "Explică formele comunicării după criterii și dă exemple",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🗂️&nbsp;&nbsp;Forme și criterii</div>
+              <div>Comunicarea se clasifică după parteneri, statut, cod, scop, feedback și conținut.</div>
+              ${flashPillList([
+                "<span class='tip'>După parteneri<span class='tooltip-box'><strong>Spus simplu:</strong> intrapersonală, interpersonală, grup mic, publică.<br><br><strong>Exemplu:</strong> dialog interior vs. conferință.</span></span>",
+                "<span class='tip'>După cod<span class='tooltip-box'><strong>Spus simplu:</strong> verbală, nonverbală, paraverbală, mixtă.</span></span>",
+                "<span class='tip'>După feedback<span class='tooltip-box'><strong>Spus simplu:</strong> lateralizată (fără), nelateralizată (cu).</span></span>",
+                "<span class='tip'>După conținut<span class='tooltip-box'><strong>Spus simplu:</strong> referențială, operațional-metodologică, atitudinală.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie comunicarea verbală și rolul ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🗣️&nbsp;&nbsp;Comunicare verbală</div>
+              <div>Limbajul verbal este principalul vehicul al informației și al gândirii.</div>
+              ${flashPillList([
+                "<span class='tip'>Definiție<span class='tooltip-box'><strong>Spus simplu:</strong> comunicare prin cuvinte și reguli.<br><br><strong>Exemplu:</strong> explicații, argumente, definiții.</span></span>",
+                "<span class='tip'>Vorbirea<span class='tooltip-box'><strong>Spus simplu:</strong> sunete emise cu intenție de comunicare.</span></span>",
+                "<span class='tip'>Rol cognitiv<span class='tooltip-box'><strong>Spus simplu:</strong> organizează experiența și permite abstractizarea.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Compară teoriile achiziției limbajului",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧪&nbsp;&nbsp;Teorii ale limbajului</div>
+              <div>Există explicații comportamentale și mentaliste.</div>
+              ${flashPillList([
+                "<span class='tip'>Skinner (1957)<span class='tooltip-box'><strong>Spus simplu:</strong> imitație + întărire.<br><br><strong>Exemplu:</strong> corectarea greșelilor.</span></span>",
+                "<span class='tip'>Chomsky (1968-1972)<span class='tooltip-box'><strong>Spus simplu:</strong> reguli internalizate.</span></span>",
+                "<span class='tip'>Lenneberg (1969)<span class='tooltip-box'><strong>Spus simplu:</strong> bază genetică specific umană.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică nonverbalul și canalele sale",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">👀&nbsp;&nbsp;Nonverbal</div>
+              <div>Nonverbalul nuanțează și poate contrazice verbalul.</div>
+              ${flashPillList([
+                "<span class='tip'>Privire și proxemică<span class='tooltip-box'><strong>Spus simplu:</strong> distanța și contactul vizual reglează relația.</span></span>",
+                "<span class='tip'>Mimică și gesturi<span class='tooltip-box'><strong>Spus simplu:</strong> emoții și intenții se văd pe față și în corp.</span></span>",
+                "<span class='tip'>Aparență și ambient<span class='tooltip-box'><strong>Spus simplu:</strong> îmbrăcămintea și spațiul comunică statut și valori.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică paraverbalul și elementele lui",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🎧&nbsp;&nbsp;Paraverbal</div>
+              <div>Este „cum spui”, nu „ce spui”.</div>
+              ${flashPillList([
+                "<span class='tip'>Ritm, ton, volum, pauze<span class='tooltip-box'><strong>Spus simplu:</strong> schimbă sensul cuvintelor.</span></span>",
+                "<span class='tip'>Timbru, dicție, accent<span class='tooltip-box'><strong>Spus simplu:</strong> oferă indicii despre vorbitor.</span></span>",
+                "<span class='tip'>Tăceri semnificative<span class='tooltip-box'><strong>Spus simplu:</strong> tăcerea poate fi aprobare, protest, nedumerire.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Descrie comunicarea scrisă și regulile ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">✍️&nbsp;&nbsp;Comunicare scrisă</div>
+              <div>Scrisul cere structură și claritate.</div>
+              ${flashPillList([
+                "<span class='tip'>Competență textuală<span class='tooltip-box'><strong>Spus simplu:</strong> reguli pragmatice, semantice, sintactice.</span></span>",
+                "<span class='tip'>Avantaje<span class='tooltip-box'><strong>Exemplu:</strong> revizuire, argumentare, organizare.</span></span>",
+                "<span class='tip'>Limite<span class='tooltip-box'><strong>Exemplu:</strong> feedback întârziat, emoție redusă.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică metacomunicarea și relația dintre canale",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔎&nbsp;&nbsp;Metacomunicare</div>
+              <div>Nu contează doar „ce” spui, ci și „cum” și „de ce”.</div>
+              ${flashPillList([
+                "<span class='tip'>Nivel sugerat al mesajului<span class='tooltip-box'><strong>Spus simplu:</strong> mesajul din spatele mesajului.</span></span>",
+                "<span class='tip'>Concordanță / discordanță<span class='tooltip-box'><strong>Exemplu:</strong> ironia: laudă + ton disprețuitor.</span></span>",
+                "<span class='tip'>7% / 38% / 55%<span class='tooltip-box'><strong>Spus simplu:</strong> emoția se transmite mai ales nonverbal și paraverbal.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică comunicarea de grup și eficiența ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">👥&nbsp;&nbsp;Comunicare de grup</div>
+              <div>Grupul funcționează prin interdependență.</div>
+              ${flashPillList([
+                "<span class='tip'>Lewin: mediu + interdependență<span class='tooltip-box'><strong>Spus simplu:</strong> contextul modelează comunicarea.</span></span>",
+                "<span class='tip'>Participare eficientă<span class='tooltip-box'><strong>Spus simplu:</strong> atenție, înțelegere, elaborare, modificare.</span></span>",
+                "<span class='tip'>Climat afectiv<span class='tooltip-box'><strong>Spus simplu:</strong> sensibilitate și clarificare reciprocă.</span></span>",
+              ])}
+            </div>
+          </div>`,
         },
       ],
     },

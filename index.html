@@ -929,14 +929,14 @@
         color: #6d1616;
       }
       .card.fped .progress-bar {
-        --bar-base: #a85b00;
+        --bar-base: #b55e05;
         --bar-glow: rgba(226, 141, 26, 1);
       }
       .card.fped h3 {
         color: #6b3a00;
       }
       .card.pdezv .progress-bar {
-        --bar-base: #828a43;
+        --bar-base: #7b751e;
         --bar-glow: rgba(190, 200, 130, 1);
       }
       .card.pdezv h3 {
@@ -1342,6 +1342,144 @@
         border: 1px solid rgba(255, 255, 255, 0.12);
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
           0 12px 28px rgba(0, 0, 0, 0.25);
+      }
+
+      .capitol-locked .capitol-header,
+      .capitol-locked .pill-course,
+      .capitol-locked .capitol-actions .toggle-btn {
+        cursor: default;
+      }
+
+      .capitol-locked .pill-course {
+        background: rgba(255, 255, 255, 0.0025);
+        border-color: rgba(255, 255, 255, 0.006);
+      }
+
+      .capitol-locked .pill-course > :not(.cap-lock-btn) {
+        opacity: 0.35;
+      }
+
+      .capitol-locked .pill-percent {
+        display: none !important;
+      }
+
+      .capitol-locked .toggle-btn {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+
+      .capitol-locked .cap-lock-btn {
+        opacity: 1;
+      }
+
+      .cap-lock-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        transition: transform 0.2s ease, box-shadow 0.2s ease,
+          background 0.2s ease;
+      }
+
+      .cap-lock-btn:hover {
+        transform: translateY(-1px) scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      }
+
+      .cap-lock-btn .lock-closed,
+      .cap-lock-btn .lock-open {
+        position: absolute;
+        transition: opacity 0.18s ease, transform 0.18s ease;
+      }
+
+      .cap-lock-btn.locked .lock-open {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+
+      .cap-lock-btn.locked .lock-closed {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      .cap-lock-btn.locked:hover .lock-open {
+        opacity: 1;
+        transform: scale(1.04);
+      }
+
+      .cap-lock-btn.locked:hover .lock-closed {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+
+      .cap-lock-btn.unlocked .lock-open {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      .cap-lock-btn.unlocked .lock-closed {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+
+      .cap-lock-btn.unlocked:hover .lock-closed {
+        opacity: 1;
+        transform: scale(1.02);
+      }
+
+      .cap-lock-btn.unlocked:hover .lock-open {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+
+      .cap-lock-btn.locked:hover .lock-open,
+      .cap-lock-btn.locked:hover .lock-closed,
+      .cap-lock-btn.unlocked:hover .lock-open,
+      .cap-lock-btn.unlocked:hover .lock-closed {
+        animation: none;
+      }
+
+      @keyframes lockPulseOpen {
+        0%,
+        68%,
+        100% {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        72%,
+        88% {
+          opacity: 1;
+          transform: scale(1.06);
+        }
+      }
+
+      @keyframes lockPulseClosed {
+        0%,
+        68%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        72%,
+        88% {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+      }
+
+      .cap-lock-btn.locked .lock-open {
+        animation: lockPulseOpen 3s ease-in-out infinite;
+      }
+
+      .cap-lock-btn.locked .lock-closed {
+        animation: lockPulseClosed 3s ease-in-out infinite;
       }
 
       .pill-course .pill-percent {
@@ -1905,9 +2043,9 @@
         height: 160px;
         background: radial-gradient(
           circle at 40% 35%,
-          rgba(16, 26, 44, 0.92),
-          rgba(10, 16, 30, 0.95) 55%,
-          rgba(8, 12, 24, 0.98) 78%
+          rgba(16, 26, 44, 0.02),
+          rgba(10, 16, 30, 0.05) 55%,
+          rgba(8, 12, 24, 0.08) 78%
         );
         border-radius: 46% 54% 60% 40% / 58% 42% 55% 45%;
         transform: translate(-50%, -50%) scale(0);
@@ -2111,15 +2249,178 @@
         padding: 24px 16px;
         border-radius: 12px;
         border: 1px solid rgba(148, 163, 184, 0.2);
-        background: rgba(30, 41, 59, 0.4);
+        background: rgb(39 51 69 / 40%);
+      }
+      .lesson-grid + .lesson-card {
+        margin-top: 18px;
+      }
+
+      .lesson-grid.colorful .lesson-card {
+        background: linear-gradient(
+          135deg,
+          rgba(56, 189, 248, 0.16),
+          rgba(56, 189, 248, 0.04)
+        );
+        border-color: rgba(56, 189, 248, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n + 2) {
+        background: linear-gradient(
+          135deg,
+          rgba(99, 102, 241, 0.16),
+          rgba(99, 102, 241, 0.04)
+        );
+        border-color: rgba(99, 102, 241, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n + 3) {
+        background: linear-gradient(
+          135deg,
+          rgba(34, 197, 94, 0.16),
+          rgba(34, 197, 94, 0.04)
+        );
+        border-color: rgba(34, 197, 94, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n + 4) {
+        background: linear-gradient(
+          135deg,
+          rgba(251, 191, 36, 0.16),
+          rgba(251, 191, 36, 0.04)
+        );
+        border-color: rgba(251, 191, 36, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n + 5) {
+        background: linear-gradient(
+          135deg,
+          rgba(244, 114, 182, 0.16),
+          rgba(244, 114, 182, 0.04)
+        );
+        border-color: rgba(244, 114, 182, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n + 6) {
+        background: linear-gradient(
+          135deg,
+          rgba(168, 85, 247, 0.16),
+          rgba(168, 85, 247, 0.04)
+        );
+        border-color: rgba(168, 85, 247, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(7n) {
+        background: linear-gradient(
+          135deg,
+          rgba(148, 163, 184, 0.16),
+          rgba(148, 163, 184, 0.04)
+        );
+        border-color: rgba(148, 163, 184, 0.24);
+      }
+
+      .etymology-flow {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .etymology-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .etymology-arrow {
+        opacity: 0.7;
+        font-weight: 700;
+      }
+
+      @media (max-width: 720px) {
+        .etymology-flow {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .etymology-arrow {
+          display: none;
+        }
+
+        .etymology-pill {
+          width: 100%;
+        }
+
+        .etymology-pill:not(:last-child)::after {
+          content: "→";
+          margin-left: 10px;
+          opacity: 0.7;
+          font-weight: 700;
+        }
       }
 
       .lesson-card h3 {
-        margin-bottom: 8px;
+        margin-bottom: 6px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 4px 12px;
+        border-radius: 8px;
+        margin: 2px 0 6px 0;
+        justify-content: center;
       }
 
       .lesson-card p:last-child {
         margin-bottom: 0;
+      }
+
+      .lesson-card ul {
+        margin: 10px 0 0;
+        padding-left: 18px;
+        display: grid;
+        gap: 8px;
+        list-style: disc;
+      }
+
+      .lesson-card li {
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      .lesson-step-emoji {
+        font-size: 72px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+        align-self: center;
+        opacity: 0.9;
+        filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.35));
+      }
+
+      .lesson-mech-emoji {
+        width: 88px;
+        height: 88px;
+        border-radius: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 46px;
+        margin: 0 auto 16px;
+        align-self: center;
+        background: linear-gradient(
+          140deg,
+          rgba(56, 189, 248, 0.18),
+          rgba(99, 102, 241, 0.12)
+        );
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08),
+          0 6px 14px rgba(0, 0, 0, 0.22);
+      }
+
+      .lesson-card hr {
+        margin: 6px 0 12px;
+        border: none;
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
       }
 
       .lesson-grid:has(.lesson-card:nth-child(4)),
@@ -2254,12 +2555,12 @@
         border-radius: 14px;
         padding: 16px 18px;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
-        max-height: 300px;
-        overflow: auto;
+        max-height: none;
+        overflow: visible;
       }
 
       .deck-back-content {
-        font-weight: 600;
+        font-weight: 350;
         color: #e6edf3;
         font-size: 1.02rem;
         display: grid;
@@ -2293,6 +2594,16 @@
         .lesson-flow-sep {
           font-size: 0.9rem;
           padding-left: 0;
+        }
+
+        .lesson-flow-sep::before {
+          content: "⌄";
+          font-size: 1rem;
+          color: rgba(226, 232, 240, 0.65);
+        }
+
+        .lesson-flow-sep {
+          font-size: 0;
         }
 
         .lesson-arrow-row {
@@ -2553,15 +2864,18 @@
         }
         .pill-course {
           width: 100%;
-          margin-bottom: 4px;
-          padding: 16px 6px;
-          margin-right: -4px;
-          gap: 0px;
-          background: transparent !important;
-          border: none !important;
-          border-color: transparent !important;
-          box-shadow: none !important;
-          grid-template-columns: 1fr auto;
+          margin-bottom: 6px;
+          padding: 14px 12px;
+          gap: 10px;
+          background: rgba(255, 255, 255, 0.05) !important;
+          border: 1px solid rgba(255, 255, 255, 0.12) !important;
+          border-color: rgba(255, 255, 255, 0.12) !important;
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+            0 12px 28px rgba(0, 0, 0, 0.25) !important;
+          grid-template-columns: auto 1fr auto;
+        }
+        .pill-course .cap-lock-btn {
+          justify-self: start;
         }
         .pill-course .pill-percent {
           margin-left: 10px;
@@ -2824,8 +3138,8 @@
           border-radius: 14px;
           padding: 16px 18px;
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
-          max-height: 300px;
-          overflow: auto;
+          max-height: none;
+          overflow: visible;
         }
 
         .deck-back-content .flash-pill-list {
@@ -2841,21 +3155,6 @@
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
-        }
-
-        .flash-pill {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          padding: 6px 10px;
-          border-radius: 999px;
-          border: 1px solid rgba(148, 163, 184, 0.2);
-          background: rgba(148, 163, 184, 0.14);
-          color: #e2e8f0;
-          font-weight: 700;
-          font-size: 0.94rem;
-          max-width: 100%;
-          white-space: normal;
         }
 
         .flash-pill-list .flash-pill:nth-child(3n + 1) {
@@ -3109,7 +3408,8 @@
         color: #e6f2ff;
         text-decoration: none;
         border-bottom: none;
-        padding-bottom: 4px;
+        padding-bottom: 6px;
+        font-weight: 500;
       }
 
       /* Pointer doar în context de quiz */
@@ -3119,10 +3419,18 @@
       }
 
       .tip:not(.help-tip) {
-        background-image: linear-gradient(to right, #315565, #2a3549);
+        background-image: linear-gradient(to right, #415b6778, #60677558);
         background-position: 0 100%;
         background-repeat: no-repeat;
         background-size: 100% 2px;
+        margin-top: 6px;
+      }
+
+      .flash-pill .tip:not(.help-tip),
+      .flash-pill.tip:not(.help-tip) {
+        background-image: none;
+        padding-bottom: 0;
+        margin-top: 0;
       }
 
       /* In quiz, avoid underlining the tooltip icon */
@@ -3137,7 +3445,7 @@
         justify-content: center;
         width: 16px;
         height: 16px;
-        margin-left: 6px;
+        margin-left: 0;
         margin-right: 6px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.18);
@@ -3221,6 +3529,35 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         z-index: 12000;
         pointer-events: none;
+      }
+
+      .flash-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(148, 163, 184, 0.14);
+        color: #e2e8f0;
+        font-weight: 700;
+        font-size: 0.94rem;
+        line-height: 1.2;
+        max-width: 100%;
+        white-space: normal;
+        height: 50px;
+        min-height: 50px;
+      }
+
+      .flash-pill-underline .tip:not(.help-tip),
+      .flash-pill-underline .flash-pill .tip:not(.help-tip),
+      .flash-pill-underline .tip:not(.help-tip) .tip {
+        background: none !important;
+        text-decoration: underline !important;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(223, 227, 234, 0.2) !important;
+        text-underline-offset: 6px !important;
+        text-decoration-skip-ink: none;
       }
 
       /* Show tooltip on hover / tap (disabled – handled by floating tooltip) */
@@ -3703,23 +4040,9 @@
         return st;
       }
 
-      function getSubjectDeckStats(subject) {
+      function getSubjectDeckStats(subject, allowedCapitolIds = null) {
         if (!subject) return { count: 0, sum: 0 };
-        let decks = [];
-        if (subject.id === "fph" && window.FPH_FLASHCARDS) {
-          decks = Object.values(window.FPH_FLASHCARDS).flat();
-        } else if (subject.id === "fped" && window.FPED_FLASHCARDS) {
-          decks = Object.values(window.FPED_FLASHCARDS).flat();
-        } else if (subject.id === "pdezv" && window.PDEZV_FLASHCARDS) {
-          decks = Object.values(window.PDEZV_FLASHCARDS).flat();
-        } else if (subject.id === "lr" && window.LR_FLASHCARDS) {
-          decks = Object.values(window.LR_FLASHCARDS).flat();
-        } else if (subject.id === "pedcom" && window.PEDCOM_FLASHCARDS) {
-          decks = Object.values(window.PEDCOM_FLASHCARDS).flat();
-        }
-        if (subject.id === "phed" && window.PHED_FLASHCARDS) {
-          decks = Object.values(window.PHED_FLASHCARDS).flat();
-        }
+        const decks = getSubjectDecks(subject, allowedCapitolIds);
         let count = 0;
         let sum = 0;
         decks.forEach((deck) => {
@@ -3777,6 +4100,8 @@
             : window.FPH_CONTENT?.capitole || [];
         const cap = caps.find((c) => c.id === capitolId);
         if (!cap) return;
+        const subject = subjects.find((s) => s.id === subjectId);
+        const locked = subject ? isCapitolLocked(subject, cap) : false;
         const allTopicIds = cap.subcapitole.flatMap((s) => s.quizuri || []);
         const deckStats = getCapitolDeckStats(capitolId, subjectId);
         const quizCount = allTopicIds.length;
@@ -3789,7 +4114,9 @@
           ? deckStats.sum / deckStats.count
           : null;
         let capProgress = 0;
-        if (quizAvg != null && deckAvg != null) {
+        if (locked) {
+          capProgress = 0;
+        } else if (quizAvg != null && deckAvg != null) {
           capProgress = Math.round(0.5 * quizAvg + 0.5 * deckAvg);
         } else if (quizAvg != null) {
           capProgress = Math.round(quizAvg);
@@ -3839,6 +4166,7 @@
         lr: { base: "#165CBA", glow: "rgba(77, 141, 240, 0.8)" },
       };
       const subjectCompletionState = {};
+      const capitolLockState = loadCapitolLockState();
 
       if (startBtn) {
         startBtn.addEventListener("click", () => {
@@ -3876,6 +4204,57 @@
       renderCardProgress();
       initSubjectCompletionState();
       wireTooltips(document);
+
+      function loadCapitolLockState() {
+        try {
+          return JSON.parse(localStorage.getItem("capitolLockV1")) || {};
+        } catch {
+          return {};
+        }
+      }
+
+      function saveCapitolLockState() {
+        localStorage.setItem("capitolLockV1", JSON.stringify(capitolLockState));
+      }
+
+      function isCapitolLockable(subject, capitol) {
+        return !!(subject && capitol && capitol.Locked);
+      }
+
+      function isCapitolLocked(subject, capitol) {
+        if (!isCapitolLockable(subject, capitol)) return false;
+        const state = capitolLockState?.[subject.id]?.[capitol.id];
+        return state !== false;
+      }
+
+      function setCapitolLocked(subject, capitol, locked) {
+        if (!isCapitolLockable(subject, capitol)) return;
+        if (!capitolLockState[subject.id]) {
+          capitolLockState[subject.id] = {};
+        }
+        capitolLockState[subject.id][capitol.id] = locked;
+        saveCapitolLockState();
+      }
+
+      function getUnlockedCapitolIds(subject) {
+        if (!subject?.capitole?.length) return null;
+        const hasLocks = subject.capitole.some((c) => c.Locked);
+        if (!hasLocks) return subject.capitole.map((c) => c.id);
+        return subject.capitole
+          .filter((c) => !isCapitolLocked(subject, c))
+          .map((c) => c.id);
+      }
+
+      function getUnlockedTopicIds(subject) {
+        if (!subject) return [];
+        if (!subject.capitole?.length) {
+          return subject.topics?.map((t) => t.id) || [];
+        }
+        const unlockedCaps = new Set(getUnlockedCapitolIds(subject));
+        return subject.capitole
+          .filter((c) => unlockedCaps.has(c.id))
+          .flatMap((c) => c.subcapitole.flatMap((s) => s.quizuri || []));
+      }
 
       function loadProgress() {
         try {
@@ -4099,13 +4478,18 @@
         ensurePdezvData(subject);
         ensureLrData(subject);
         ensurePedcomData(subject);
-        const topicCount = subject.topics?.length || 0;
-        const topicSum =
-          subject.topics?.reduce((sum, t) => sum + getTopicProgress(t.id), 0) ||
-          0;
+        const unlockedTopicIds = getUnlockedTopicIds(subject);
+        const topicCount = unlockedTopicIds.length;
+        const topicSum = unlockedTopicIds.reduce(
+          (sum, id) => sum + getTopicProgress(id),
+          0
+        );
         const topicAvg = topicCount ? topicSum / topicCount : null;
 
-        const deckStats = getSubjectDeckStats(subject);
+        const deckStats = getSubjectDeckStats(
+          subject,
+          getUnlockedCapitolIds(subject)
+        );
         const deckAvg = deckStats.count
           ? deckStats.sum / deckStats.count
           : null;
@@ -4118,24 +4502,30 @@
         return 0;
       }
 
-      function getSubjectDecks(subject) {
+      function getSubjectDecks(subject, allowedCapitolIds = null) {
         if (!subject) return [];
+        const allowed = Array.isArray(allowedCapitolIds)
+          ? new Set(allowedCapitolIds)
+          : null;
+        let source = null;
         if (subject.id === "fph" && window.FPH_FLASHCARDS) {
-          return Object.values(window.FPH_FLASHCARDS).flat();
+          source = window.FPH_FLASHCARDS;
+        } else if (subject.id === "fped" && window.FPED_FLASHCARDS) {
+          source = window.FPED_FLASHCARDS;
+        } else if (subject.id === "pdezv" && window.PDEZV_FLASHCARDS) {
+          source = window.PDEZV_FLASHCARDS;
+        } else if (subject.id === "lr" && window.LR_FLASHCARDS) {
+          source = window.LR_FLASHCARDS;
+        } else if (subject.id === "pedcom" && window.PEDCOM_FLASHCARDS) {
+          source = window.PEDCOM_FLASHCARDS;
+        } else if (subject.id === "phed" && window.PHED_FLASHCARDS) {
+          source = window.PHED_FLASHCARDS;
         }
-        if (subject.id === "pdezv" && window.PDEZV_FLASHCARDS) {
-          return Object.values(window.PDEZV_FLASHCARDS).flat();
-        }
-        if (subject.id === "lr" && window.LR_FLASHCARDS) {
-          return Object.values(window.LR_FLASHCARDS).flat();
-        }
-        if (subject.id === "pedcom" && window.PEDCOM_FLASHCARDS) {
-          return Object.values(window.PEDCOM_FLASHCARDS).flat();
-        }
-        if (subject.id === "phed" && window.PHED_FLASHCARDS) {
-          return Object.values(window.PHED_FLASHCARDS).flat();
-        }
-        return [];
+        if (!source) return [];
+        const entries = Object.entries(source).filter(([capId]) =>
+          allowed ? allowed.has(capId) : true
+        );
+        return entries.flatMap(([, decks]) => decks || []);
       }
 
       function initSubjectCompletionState() {
@@ -4390,6 +4780,17 @@
 
         capitoleContainer.innerHTML = subject.capitole
           .map((capitol, idx) => {
+            const lockable = isCapitolLockable(subject, capitol);
+            const locked = isCapitolLocked(subject, capitol);
+            const capIconHtml = lockable
+              ? `<button class="cap-lock-btn ${
+                  locked ? "locked" : "unlocked"
+                }" data-cap-lock="${capitol.id}" data-subject="${
+                  subject.id
+                }" aria-label="${
+                  locked ? "Deblochează capitolul" : "Blochează capitolul"
+                }"><span class="lock-closed">🔒</span><span class="lock-open">🔓</span></button>`
+              : `<span class="cap-icon" style="font-size:1.1rem;">📑</span>`;
             const allTopicIds = capitol.subcapitole.flatMap(
               (s) => s.quizuri || []
             );
@@ -4405,7 +4806,9 @@
               : null;
             const deckComplete = isCapitolDeckComplete(capitol.id, subject.id);
             let capProgress = 0;
-            if (quizAvg != null && deckAvg != null) {
+            if (locked) {
+              capProgress = 0;
+            } else if (quizAvg != null && deckAvg != null) {
               capProgress = Math.round(0.5 * quizAvg + 0.5 * deckAvg);
             } else if (quizAvg != null) {
               capProgress = Math.round(quizAvg);
@@ -4414,11 +4817,15 @@
             }
 
             return `
-                    <div class="capitol" data-capitol="${capitol.id}">
+                    <div class="capitol ${
+                      locked ? "capitol-locked" : ""
+                    }" data-capitol="${
+              capitol.id
+            }" data-capitol-locked="${locked}">
                         <div class="capitol-header">
                           <div style="flex:1; display:flex; align-items:center; gap:8px; min-width:0; width:100%;">
                             <div class="pill pill-course" style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.12); width:100%; justify-content:space-between;">
-                              <span class="cap-icon" style="font-size:1.1rem;">📑</span>
+                              ${capIconHtml}
                               <span style="font-weight:800; flex:1; min-width:0;">${
                                 capitol.titlu
                               }</span>
@@ -4432,7 +4839,7 @@
                           <div class="capitol-actions" style="justify-content:flex-end;">
                           <button class="quiz-btn toggle-btn" data-toggle="${
                             capitol.id
-                          }">
+                          }" ${locked ? "disabled" : ""}>
                             <span>Subcapitole</span>
                             <span class="chevron">🔽</span>
                           </button>
@@ -4547,6 +4954,23 @@
               topicsContainer.classList.add("hidden");
               quizPanel.classList.add("hidden");
             }
+          });
+        });
+
+        capitoleContainer.querySelectorAll("[data-cap-lock]").forEach((btn) => {
+          btn.addEventListener("click", (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            const capId = btn.dataset.capLock;
+            const subjectId = btn.dataset.subject;
+            const subject = subjects.find((s) => s.id === subjectId);
+            const capitol = subject?.capitole?.find((c) => c.id === capId);
+            if (!subject || !capitol) return;
+            const locked = isCapitolLocked(subject, capitol);
+            setCapitolLocked(subject, capitol, !locked);
+            renderCapitole(subject);
+            applySubjectBar(subject);
+            renderCardProgress();
           });
         });
 
@@ -5307,12 +5731,35 @@
         if (subjectId === "fped" && window.FPED_LESSONS) {
           return window.FPED_LESSONS[topicId] || null;
         }
+        if (subjectId === "pdezv" && window.PDEZV_LESSONS) {
+          return window.PDEZV_LESSONS[topicId] || null;
+        }
+        if (subjectId === "lr" && window.LR_LESSONS) {
+          return window.LR_LESSONS[topicId] || null;
+        }
+        if (subjectId === "pedcom" && window.PEDCOM_LESSONS) {
+          return window.PEDCOM_LESSONS[topicId] || null;
+        }
+        if (subjectId === "fph" && window.FPH_LESSONS) {
+          return window.FPH_LESSONS[topicId] || null;
+        }
+        if (subjectId === "phed" && window.PHED_LESSONS) {
+          return window.PHED_LESSONS[topicId] || null;
+        }
         return null;
       }
 
       function openLesson(subjectId, topicId, triggerEl) {
         const lesson = getLessonForTopic(subjectId, topicId);
         if (!lesson || !lessonOverlay) return;
+        const lessonData =
+          typeof lesson === "string" ? { html: lesson } : lesson;
+        const subject = subjects.find((s) => s.id === subjectId);
+        let topic = subject?.topics?.find((t) => t.id === topicId);
+        if (!topic && subjectId === "fph") {
+          topic = window.FPH_CONTENT?.topics?.find((t) => t.id === topicId);
+        }
+        const fallbackTitle = topic?.title || lessonData.title || "Lecție";
         const modalEl = detailOverlay.querySelector(".modal");
         if (!modalEl) return;
         const modalRect = modalEl.getBoundingClientRect();
@@ -5324,8 +5771,9 @@
         lessonOverlay.dataset.lessonX = `${x}`;
         lessonOverlay.dataset.lessonY = `${y}`;
         lessonLastTrigger = triggerEl || null;
-        lessonTitle.textContent = lesson.title || "Lecție";
-        lessonText.innerHTML = lesson.html || "";
+        lessonTitle.textContent = fallbackTitle;
+        lessonText.innerHTML =
+          lessonData.html ?? lessonData.content ?? lessonData.body ?? "";
         wireTooltips(lessonText);
         lessonOverlay.classList.remove("hidden", "exit");
         requestAnimationFrame(() => {
@@ -5368,7 +5816,7 @@
             if (modal) {
               const rect = lessonLastTrigger.getBoundingClientRect();
               const mRect = modal.getBoundingClientRect();
-              const targetTop = modal.scrollTop + (rect.top - mRect.top) - 16;
+              const targetTop = modal.scrollTop + (rect.top - mRect.top) - 184;
               modal.scrollTo({
                 top: Math.max(targetTop, 0),
                 behavior: "smooth",
@@ -5428,15 +5876,15 @@
 
       function pillColorClass(val) {
         if (val >= 100) return "green";
-        if (val >= 60) return "yellow";
-        if (val >= 10) return "orange";
+        if (val >= 50) return "yellow";
+        if (val >= 1) return "orange";
         return "red";
       }
 
       function pillIcon(val) {
         if (val >= 100) return "✅";
-        if (val >= 60) return "💡";
-        if (val >= 10) return "🤓";
+        if (val >= 50) return "💡";
+        if (val >= 1) return "🤓";
         return "💤";
       }
 
@@ -5511,7 +5959,13 @@
               icon = document.createElement("span");
               icon.className = "tooltip-icon";
               icon.setAttribute("aria-hidden", "true");
-              tip.appendChild(icon);
+              if (box) {
+                tip.insertBefore(document.createTextNode("\u00a0"), box);
+                tip.insertBefore(icon, box);
+              } else {
+                tip.appendChild(document.createTextNode("\u00a0"));
+                tip.appendChild(icon);
+              }
             }
           } else if (icon) {
             icon.remove();
@@ -5871,7 +6325,10 @@
           .map((q, qIdx) => {
             const isMulti = Array.isArray(q.answer);
             const inputType = isMulti ? "checkbox" : "radio";
-            const order = shuffleIndices(q.options.length);
+            const order =
+              q.shuffle === false
+                ? Array.from({ length: q.options.length }, (_, i) => i)
+                : shuffleIndices(q.options.length);
             const optionsHtml = order
               .map(
                 (idx) => `

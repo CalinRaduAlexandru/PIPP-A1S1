@@ -90,8 +90,33 @@ window.LR_CONTENT = {
       subcapitole: [
         {
           id: "lr-u4-s1",
-          titlu: "Mijloace interne de imbogatire a vocabularului",
-          quizuri: ["lr-u4-q1"],
+          titlu: "Clasificare, formații analitice, familie lexicală",
+          quizuri: ["lr-u4-s1-q1", "lr-u4-s1-q2", "lr-u4-s1-q3"],
+        },
+        {
+          id: "lr-u4-s2",
+          titlu: "Derivarea: tipuri și prefixe",
+          quizuri: ["lr-u4-s2-q1", "lr-u4-s2-q2"],
+        },
+        {
+          id: "lr-u4-s3",
+          titlu: "Sufixe: tipuri, valori, reguli",
+          quizuri: ["lr-u4-s3-q1", "lr-u4-s3-q2", "lr-u4-s3-q3"],
+        },
+        {
+          id: "lr-u4-s4",
+          titlu: "Structura morfologică a cuvântului",
+          quizuri: ["lr-u4-s4-q1", "lr-u4-s4-q2", "lr-u4-s4-q3"],
+        },
+        {
+          id: "lr-u4-s5",
+          titlu: "Compunerea și abrevierea",
+          quizuri: ["lr-u4-s5-q1", "lr-u4-s5-q2", "lr-u4-s5-q3"],
+        },
+        {
+          id: "lr-u4-s6",
+          titlu: "Conversiunea și metalimbajul",
+          quizuri: ["lr-u4-s6-q1", "lr-u4-s6-q2", "lr-u4-s6-q3"],
         },
       ],
     },
@@ -1760,13 +1785,637 @@ window.LR_QUIZ = [
     ],
   },
   {
-    id: "lr-u4-q1",
-    title: "Mijloace interne de imbogatire a vocabularului",
+    id: "lr-u4-s1-q1",
+    title: "Clasificarea mijloacelor de îmbogățire",
     questions: [
       {
-        text: "Un mijloc intern de imbogatire a vocabularului este:",
-        options: ["Derivarea", "Imprumutul", "Calchierea"],
+        text: "Care sunt tipurile de <span class='tip'><strong>mijloace de îmbogățire a vocabularului?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți crea cuvinte noi în interiorul limbii, poți împrumuta din alte limbi sau poți combina cele două.<br><br><strong>Exemplu:</strong> derivarea (intern), împrumutul (extern), calculul lingvistic (mixt).</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Mijloace interne</strong><span class='tooltip-box'><strong>Spus simplu:</strong> formezi cuvinte noi din resursele limbii.<br><br><strong>Exemplu:</strong> derivarea, compunerea.</span></span>",
+          "<span class='tip'><strong>Mijloace externe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> preiei cuvinte din alte limbi.<br><br><strong>Exemplu:</strong> împrumuturi directe sau indirecte.</span></span>",
+          "<span class='tip'><strong>Mijloace mixte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> combini internul cu externul.<br><br><strong>Exemplu:</strong> calcul lingvistic.</span></span>",
+          "<span class='tip'><strong>Mijloace fonetice</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este o categorie de îmbogățire a vocabularului.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Enumeră <span class='tip'><strong>mijloacele interne de îmbogățire a vocabularului.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt procedee prin care limba își creează singură cuvinte noi.<br><br><strong>Exemplu:</strong> derivarea sau compunerea.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Derivarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> adaugi prefixe sau sufixe la un cuvânt de bază.<br><br><strong>Exemplu:</strong> ne- + adevăr → neadevăr.</span></span>",
+          "<span class='tip'><strong>Compunerea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unești două cuvinte.<br><br><strong>Exemplu:</strong> floarea-soarelui, binevoitor.</span></span>",
+          "<span class='tip'><strong>Abrevierea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> scurtezi cuvinte sau expresii.<br><br><strong>Exemplu:</strong> O.N.U., TAROM.</span></span>",
+          "<span class='tip'><strong>Formațiile analitice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> structuri stabile de cuvinte care funcționează împreună.<br><br><strong>Exemplu:</strong> a face față, a pune la cale.</span></span>",
+          "<span class='tip'><strong>Conversiunea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un cuvânt își schimbă partea de vorbire.<br><br><strong>Exemplu:</strong> verde → verdele.</span></span>",
+          "<span class='tip'><strong>Împrumutul direct</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de mijloacele externe.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "Ce sunt <span class='tip'><strong>mijloacele externe?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> împrumuți cuvinte din alte limbi.<br><br><strong>Exemplu:</strong> cuvinte preluate direct sau indirect.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Împrumuturi directe și indirecte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cuvinte aduse din alte limbi.</span></span>",
+          "<span class='tip'><strong>Derivarea și compunerea</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea sunt interne.</span></span>",
+          "<span class='tip'><strong>Conversiunea și formațiile analitice</strong><span class='tooltip-box'><strong>Distractor:</strong> sunt procedee interne.</span></span>",
+        ],
         answer: 0,
+      },
+      {
+        text: "Ce este <span class='tip'><strong>calculul lingvistic?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> traduci structura unui cuvânt străin cu elemente românești.<br><br><strong>Exemplu:</strong> model extern + elemente interne.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Mijloc mixt de îmbogățire</strong><span class='tooltip-box'><strong>Spus simplu:</strong> combină internul cu externul.</span></span>",
+          "<span class='tip'><strong>Mijloc strict intern</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este doar intern.</span></span>",
+          "<span class='tip'><strong>Mijloc strict extern</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este doar împrumut.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s1-q2",
+    title: "Formații analitice",
+    questions: [
+      {
+        text: "Ce sunt <span class='tip'><strong>formațiile analitice?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mai multe cuvinte stau împreună și dau un sens comun, ca un singur cuvânt.<br><br><strong>Exemplu:</strong> locuțiunile și expresiile.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Structuri stabile de cuvinte cu sens comun</strong><span class='tooltip-box'><strong>Exemplu:</strong> „a face față”, „a pune la cale”.</span></span>",
+          "<span class='tip'><strong>Un singur cuvânt cu prefix</strong><span class='tooltip-box'><strong>Distractor:</strong> acesta este un cuvânt derivat, nu formație analitică.</span></span>",
+          "<span class='tip'><strong>Un împrumut din altă limbă</strong><span class='tooltip-box'><strong>Distractor:</strong> împrumutul este mijloc extern.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Alege exemple de <span class='tip'><strong>formații analitice.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt locuțiuni sau expresii stabile.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>a face față</strong><span class='tooltip-box'><strong>Exemplu:</strong> „A făcut față examenului.”</span></span>",
+          "<span class='tip'><strong>a pune la cale</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Au pus la cale o întâlnire.”</span></span>",
+          "<span class='tip'><strong>binevoitor</strong><span class='tooltip-box'><strong>Distractor:</strong> este cuvânt compus, nu formație analitică.</span></span>",
+          "<span class='tip'><strong>neadevăr</strong><span class='tooltip-box'><strong>Distractor:</strong> este derivare cu prefix.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s1-q3",
+    title: "Familia lexicală",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>familia lexicală?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un grup de cuvinte înrudite, formate din aceeași bază.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Mulțimea cuvintelor înrudite ca sens și formă</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumos, frumușel, frumusețe.</span></span>",
+          "<span class='tip'><strong>Lista cuvintelor împrumutate</strong><span class='tooltip-box'><strong>Distractor:</strong> nu ține de împrumuturi.</span></span>",
+          "<span class='tip'><strong>Un singur cuvânt cu prefix</strong><span class='tooltip-box'><strong>Distractor:</strong> familia lexicală are mai multe cuvinte.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Familia lexicală include cuvinte formate prin <span class='tip'><strong>ce procedee?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> orice procedeu intern care pornește de la aceeași bază.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Derivare</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumos → frumușel.</span></span>",
+          "<span class='tip'><strong>Compunere</strong><span class='tooltip-box'><strong>Exemplu:</strong> Târgu-Frumos.</span></span>",
+          "<span class='tip'><strong>Conversiune</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumos → frumosul.</span></span>",
+          "<span class='tip'><strong>Împrumut</strong><span class='tooltip-box'><strong>Distractor:</strong> împrumutul nu pornește din aceeași bază.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Alege cuvintele din aceeași <span class='tip'><strong>familie lexicală.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> au aceeași rădăcină.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>frumos</strong><span class='tooltip-box'><strong>Exemplu:</strong> bază comună.</span></span>",
+          "<span class='tip'><strong>frumușel</strong><span class='tooltip-box'><strong>Exemplu:</strong> derivat diminutival.</span></span>",
+          "<span class='tip'><strong>frumusețe</strong><span class='tooltip-box'><strong>Exemplu:</strong> substantiv abstract.</span></span>",
+          "<span class='tip'><strong>frunză</strong><span class='tooltip-box'><strong>Distractor:</strong> altă rădăcină.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s2-q1",
+    title: "Derivarea: definiție și tipuri",
+    questions: [
+      {
+        text: "Ce înseamnă <span class='tip'><strong>derivarea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> adaugi prefixe sau sufixe la un cuvânt ca să obții altul.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Formarea unui cuvânt nou cu prefixe sau sufixe</strong><span class='tooltip-box'><strong>Exemplu:</strong> adevăr → neadevăr.</span></span>",
+          "<span class='tip'><strong>Formarea prin împrumut</strong><span class='tooltip-box'><strong>Distractor:</strong> împrumutul este mijloc extern.</span></span>",
+          "<span class='tip'><strong>Formarea prin unirea a două cuvinte</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este compunerea.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Alege tipurile de <span class='tip'><strong>derivare.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți adăuga sau elimina afixe.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Progresivă (propriu-zisă)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> adaugi afixe.<br><br><strong>Exemplu:</strong> fericire → nefericire.</span></span>",
+          "<span class='tip'><strong>Regresivă (inversă)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> elimini afixe.<br><br><strong>Exemplu:</strong> a zbura → zbor.</span></span>",
+          "<span class='tip'><strong>Parasintetică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pui prefix și sufix împreună.<br><br><strong>Exemplu:</strong> închipui.</span></span>",
+          "<span class='tip'><strong>Împrumutată</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este tip de derivare.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Alege exemple de <span class='tip'><strong>derivare regresivă.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se elimină un afix dintr-un cuvânt mai lung.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>a plăcea → plac</strong><span class='tooltip-box'><strong>Exemplu:</strong> verb → substantiv postverbal.</span></span>",
+          "<span class='tip'><strong>a fugi → fugă</strong><span class='tooltip-box'><strong>Exemplu:</strong> eliminarea afixului verbal.</span></span>",
+          "<span class='tip'><strong>închipui</strong><span class='tooltip-box'><strong>Distractor:</strong> derivare parasintetică.</span></span>",
+          "<span class='tip'><strong>neadevăr</strong><span class='tooltip-box'><strong>Distractor:</strong> derivare cu prefix.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s2-q2",
+    title: "Prefixe și derivare cu prefixe",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>prefixul?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un sunet sau grup de sunete pus înaintea rădăcinii.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Un element adăugat înaintea rădăcinii</strong><span class='tooltip-box'><strong>Exemplu:</strong> ne-adevăr.</span></span>",
+          "<span class='tip'><strong>Un element adăugat după rădăcină</strong><span class='tooltip-box'><strong>Distractor:</strong> acesta este sufixul.</span></span>",
+          "<span class='tip'><strong>O desinență gramaticală</strong><span class='tooltip-box'><strong>Distractor:</strong> desinența marchează flexiunea.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum este descrisă derivarea cu <span class='tip'><strong>prefixe?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> există, dar e mai puțin folosită decât cea cu sufixe.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Este mai puțin productivă decât derivarea cu sufixe</strong><span class='tooltip-box'><strong>Exemplu:</strong> neadevăr, inegal, dezgust.</span></span>",
+          "<span class='tip'><strong>Este mai productivă decât derivarea cu sufixe</strong><span class='tooltip-box'><strong>Distractor:</strong> textul spune invers.</span></span>",
+          "<span class='tip'><strong>Nu creează cuvinte noi</strong><span class='tooltip-box'><strong>Distractor:</strong> prefixele creează cuvinte noi.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Alege cuvintele formate prin <span class='tip'><strong>prefixe.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> au un element înaintea rădăcinii.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>neadevăr</strong><span class='tooltip-box'><strong>Exemplu:</strong> ne- + adevăr.</span></span>",
+          "<span class='tip'><strong>inegal</strong><span class='tooltip-box'><strong>Exemplu:</strong> in- + egal.</span></span>",
+          "<span class='tip'><strong>dezgust</strong><span class='tooltip-box'><strong>Exemplu:</strong> dez- + gust.</span></span>",
+          "<span class='tip'><strong>băutor</strong><span class='tooltip-box'><strong>Distractor:</strong> sufix, nu prefix.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s3-q1",
+    title: "Sufixe: tipuri și criterii",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>sufixul?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un sunet sau grup de sunete pus după rădăcină.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Un element adăugat după rădăcină</strong><span class='tooltip-box'><strong>Exemplu:</strong> bău-tor.</span></span>",
+          "<span class='tip'><strong>Un element adăugat înaintea rădăcinii</strong><span class='tooltip-box'><strong>Distractor:</strong> acesta este prefixul.</span></span>",
+          "<span class='tip'><strong>O desinență gramaticală</strong><span class='tooltip-box'><strong>Distractor:</strong> desinența nu creează cuvinte noi.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care sunt tipurile de <span class='tip'><strong>sufixe?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele fac cuvinte noi, altele doar forme gramaticale, altele fac ambele.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Sufixe lexicale</strong><span class='tooltip-box'><strong>Exemplu:</strong> băutor, fricos.</span></span>",
+          "<span class='tip'><strong>Sufixe gramaticale</strong><span class='tooltip-box'><strong>Exemplu:</strong> sufixe de timp și mod.</span></span>",
+          "<span class='tip'><strong>Sufixe lexico-gramaticale</strong><span class='tooltip-box'><strong>Exemplu:</strong> sufixe moționale.</span></span>",
+          "<span class='tip'><strong>Sufixe ortografice</strong><span class='tooltip-box'><strong>Distractor:</strong> nu există această categorie.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "După ce criterii se clasifică <span class='tip'><strong>sufixele?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fie după partea de vorbire, fie după sens.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Criteriul morfologic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> după partea de vorbire rezultată.</span></span>",
+          "<span class='tip'><strong>Criteriul semantic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> după sensul nou creat.</span></span>",
+          "<span class='tip'><strong>Criteriul fonetic</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este menționat.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Sufixele gramaticale au rolul de a crea <span class='tip'><strong>forme gramaticale.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu schimbă sensul, ci forma (timp, mod).</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Forme de timp și mod</strong><span class='tooltip-box'><strong>Exemplu:</strong> timpuri verbale.</span></span>",
+          "<span class='tip'><strong>Numai substantive noi</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea sunt sufixe lexicale.</span></span>",
+          "<span class='tip'><strong>Doar pronume noi</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este rolul lor.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Cum este caracterizată <span class='tip'><strong>derivarea cu sufixe?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se folosește foarte des.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Este foarte productivă</strong><span class='tooltip-box'><strong>Exemplu:</strong> multe sufixe și multe cuvinte noi.</span></span>",
+          "<span class='tip'><strong>Este mai rară decât derivarea cu prefixe</strong><span class='tooltip-box'><strong>Distractor:</strong> textul spune invers.</span></span>",
+          "<span class='tip'><strong>Nu creează cuvinte noi</strong><span class='tooltip-box'><strong>Distractor:</strong> tocmai creează multe.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s3-q2",
+    title: "Sufixe lexicale: valori și exemple",
+    questions: [
+      {
+        text: "Alege valorile pe care le pot denumi <span class='tip'><strong>sufixele lexicale.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată „ce fel de lucru” devine cuvântul nou.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Agentul (autor al acțiunii)</strong><span class='tooltip-box'><strong>Exemplu:</strong> băutor, cizmar.</span></span>",
+          "<span class='tip'><strong>Însușirea</strong><span class='tooltip-box'><strong>Exemplu:</strong> fricos, auriu.</span></span>",
+          "<span class='tip'><strong>Colectivitatea</strong><span class='tooltip-box'><strong>Exemplu:</strong> studențime, turcime.</span></span>",
+          "<span class='tip'><strong>Instrumentul</strong><span class='tooltip-box'><strong>Exemplu:</strong> alfabetar, piperniță.</span></span>",
+          "<span class='tip'><strong>Noțiuni abstracte</strong><span class='tooltip-box'><strong>Exemplu:</strong> răceală, siguranță.</span></span>",
+          "<span class='tip'><strong>Timpul verbal</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de sufixe gramaticale.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "Sufixele lexicale pot denumi și <span class='tip'><strong>modalitatea, locul, originea.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> arată „cum” sau „de unde”.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Modalitatea</strong><span class='tooltip-box'><strong>Exemplu:</strong> bărbătește, pieptiș.</span></span>",
+          "<span class='tip'><strong>Locul și originea</strong><span class='tooltip-box'><strong>Exemplu:</strong> benzinărie, someșean.</span></span>",
+          "<span class='tip'><strong>Funcția sintactică</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta nu este valoare lexicală.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce exprimă sufixele <span class='tip'><strong>diminutivale și augmentative?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mic vs. mare.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Obiecte sau însușiri mici</strong><span class='tooltip-box'><strong>Exemplu:</strong> căluț, vânticel.</span></span>",
+          "<span class='tip'><strong>Obiecte sau însușiri mari</strong><span class='tooltip-box'><strong>Exemplu:</strong> pietroi, lădoaie.</span></span>",
+          "<span class='tip'><strong>Schimbarea timpului verbal</strong><span class='tooltip-box'><strong>Distractor:</strong> nu ține de diminutiv/augmentativ.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Sufixele lexicale pot forma mai multe <span class='tip'><strong>părți de vorbire.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cu același tip de sufix poți obține substantive, adjective, adverbe etc.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Substantive</strong><span class='tooltip-box'><strong>Exemplu:</strong> gălbenuș.</span></span>",
+          "<span class='tip'><strong>Verbe</strong><span class='tooltip-box'><strong>Exemplu:</strong> a ciocăni.</span></span>",
+          "<span class='tip'><strong>Adjective</strong><span class='tooltip-box'><strong>Exemplu:</strong> vișiniu.</span></span>",
+          "<span class='tip'><strong>Adverbe</strong><span class='tooltip-box'><strong>Exemplu:</strong> vitejește.</span></span>",
+          "<span class='tip'><strong>Pronume și interjecții</strong><span class='tooltip-box'><strong>Exemplu:</strong> mătălică, aolică.</span></span>",
+          "<span class='tip'><strong>Doar articole</strong><span class='tooltip-box'><strong>Distractor:</strong> articolele nu se formează prin sufixe lexicale.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s3-q3",
+    title: "Reguli și observații (DOOM3)",
+    questions: [
+      {
+        text: "Care sunt formele corecte în DOOM3 după radicale în <span class='tip'><strong>-ș / -j?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu folosim -an după -ș/-j.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>someșean, clujean, oltean</strong><span class='tooltip-box'><strong>Exemplu:</strong> se folosește -ean.</span></span>",
+          "<span class='tip'><strong>someșan, clujan, maramureșan</strong><span class='tooltip-box'><strong>Distractor:</strong> forme neadmise.</span></span>",
+          "<span class='tip'><strong>someșian, clujian, oltean</strong><span class='tooltip-box'><strong>Distractor:</strong> nu sunt recomandate.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Alege perechile corecte <span class='tip'><strong>diminutiv / augmentativ.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unul mic, unul mare.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>căluț / pietroi</strong><span class='tooltip-box'><strong>Exemplu:</strong> mic vs. mare.</span></span>",
+          "<span class='tip'><strong>vânticel / lădoaie</strong><span class='tooltip-box'><strong>Exemplu:</strong> mic vs. mare.</span></span>",
+          "<span class='tip'><strong>neadevăr / adevăr</strong><span class='tooltip-box'><strong>Distractor:</strong> nu sunt diminutiv/augmentativ.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s4-q1",
+    title: "Rădăcina, morfemul, tema",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>rădăcina (radicalul)?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> partea comună cu sens dintr-o familie de cuvinte.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Partea comună și purtătoare de sens</strong><span class='tooltip-box'><strong>Exemplu:</strong> „frumos” în frumos, frumușel, frumusețe.</span></span>",
+          "<span class='tip'><strong>Desinența unui cuvânt</strong><span class='tooltip-box'><strong>Distractor:</strong> desinența marchează flexiunea.</span></span>",
+          "<span class='tip'><strong>Un cuvânt independent întreg</strong><span class='tooltip-box'><strong>Distractor:</strong> rădăcina nu e, de obicei, un cuvânt întreg.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce este <span class='tip'><strong>morfemul?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cea mai mică parte cu sens dintr-un cuvânt.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Unitatea minimă cu sens dintr-un cuvânt</strong><span class='tooltip-box'><strong>Exemplu:</strong> rădăcina + afixe.</span></span>",
+          "<span class='tip'><strong>Ultima literă din cuvânt</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este terminația.</span></span>",
+          "<span class='tip'><strong>Un cuvânt format din două propoziții</strong><span class='tooltip-box'><strong>Distractor:</strong> nu are legătură cu morfologia.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce reprezintă <span class='tip'><strong>tema cuvântului?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rădăcină + sufix (sau prefix), partea comună a formelor unui cuvânt.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Îmbinarea morfemelor comune formelor aceluiași cuvânt</strong><span class='tooltip-box'><strong>Exemplu:</strong> tema + desinențe.</span></span>",
+          "<span class='tip'><strong>Partea care include desinența</strong><span class='tooltip-box'><strong>Distractor:</strong> desinența nu intră în temă.</span></span>",
+          "<span class='tip'><strong>Un cuvânt de bază fără morfeme</strong><span class='tooltip-box'><strong>Distractor:</strong> tema este alcătuită din morfeme.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce se întâmplă cu <span class='tip'><strong>tema</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără sufix, tema poate fi egală cu rădăcina.</span></span> când nu există sufix?",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Tema devine egală cu rădăcina</strong><span class='tooltip-box'><strong>Exemplu:</strong> rădăcina singură poate fi tema.</span></span>",
+          "<span class='tip'><strong>Tema dispare complet</strong><span class='tooltip-box'><strong>Distractor:</strong> tema nu dispare.</span></span>",
+          "<span class='tip'><strong>Tema devine desinență</strong><span class='tooltip-box'><strong>Distractor:</strong> desinența este alt morfem.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s4-q2",
+    title: "Morfeme și desinențe",
+    questions: [
+      {
+        text: "Morfemele se împart în <span class='tip'><strong>lexicale și gramaticale.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele dau sens, altele arată forma gramaticală.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Lexicale: rădăcina + afixe lexicale</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumos + -ețe.</span></span>",
+          "<span class='tip'><strong>Gramaticale: sufixe gramaticale + desinențe</strong><span class='tooltip-box'><strong>Exemplu:</strong> -a (infinitiv), -am (persoană).</span></span>",
+          "<span class='tip'><strong>Grafice: cratima și punctul</strong><span class='tooltip-box'><strong>Distractor:</strong> nu sunt morfeme.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+      {
+        text: "Ce arată <span class='tip'><strong>desinențele?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> forma gramaticală a cuvântului.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Numărul și cazul la substantiv</strong><span class='tooltip-box'><strong>Exemplu:</strong> copil / copii.</span></span>",
+          "<span class='tip'><strong>Genul, numărul și cazul la adjectiv</strong><span class='tooltip-box'><strong>Exemplu:</strong> bun / bună / buni.</span></span>",
+          "<span class='tip'><strong>Persoana și numărul la verb</strong><span class='tooltip-box'><strong>Exemplu:</strong> eu cânt / noi cântăm.</span></span>",
+          "<span class='tip'><strong>Doar sensul lexical</strong><span class='tooltip-box'><strong>Distractor:</strong> sensul lexical ține de rădăcină.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce înseamnă <span class='tip'><strong>desinență zero?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> uneori nu se adaugă nimic, dar tot există o desinență.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Formă fără sunet adăugat, dar cu valoare gramaticală</strong><span class='tooltip-box'><strong>Exemplu:</strong> rădăcină + ∅.</span></span>",
+          "<span class='tip'><strong>Lipsa oricărei valori gramaticale</strong><span class='tooltip-box'><strong>Distractor:</strong> valoarea gramaticală există.</span></span>",
+          "<span class='tip'><strong>Prefixul zero</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este despre prefixe.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Terminația unui cuvânt <span class='tip'><strong>este sau nu este morfem?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> terminația poate fi desinență sau sufix, dar nu e un morfem separat.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Nu este morfem în sine</strong><span class='tooltip-box'><strong>Exemplu:</strong> poate coincide cu desinența sau sufixul.</span></span>",
+          "<span class='tip'><strong>Este mereu un morfem lexical</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este regulă.</span></span>",
+          "<span class='tip'><strong>Este întotdeauna un prefix</strong><span class='tooltip-box'><strong>Distractor:</strong> prefixul este la început, nu la final.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s4-q3",
+    title: "Alte marcaje gramaticale",
+    questions: [
+      {
+        text: "Pe lângă desinențe, categoriile gramaticale pot fi marcate prin <span class='tip'><strong>ce elemente?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunete schimbate, accent sau cuvinte ajutătoare.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Alternanțe fonetice</strong><span class='tooltip-box'><strong>Exemplu:</strong> pot → poți.</span></span>",
+          "<span class='tip'><strong>Accentul</strong><span class='tooltip-box'><strong>Exemplu:</strong> cântă (prezent) / cântă (perfect simplu).</span></span>",
+          "<span class='tip'><strong>Cuvinte ajutătoare (verbe auxiliare)</strong><span class='tooltip-box'><strong>Exemplu:</strong> am cântat, voi cânta.</span></span>",
+          "<span class='tip'><strong>Doar cratima</strong><span class='tooltip-box'><strong>Distractor:</strong> cratima nu marchează categoria gramaticală.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Ce fel de alternanță este în <span class='tip'><strong>pot → poți?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă consoana.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Alternanță consonantică</strong><span class='tooltip-box'><strong>Exemplu:</strong> t → ț.</span></span>",
+          "<span class='tip'><strong>Alternanță vocalică</strong><span class='tooltip-box'><strong>Distractor:</strong> aici se schimbă consoana.</span></span>",
+          "<span class='tip'><strong>Nu este alternanță</strong><span class='tooltip-box'><strong>Distractor:</strong> este alternanță fonetică.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s5-q1",
+    title: "Compunerea: definiție și procedee",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>compunerea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unirea a două sau mai multe cuvinte într-un cuvânt nou.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Formarea de cuvinte noi prin unire/alăturare/abreviere</strong><span class='tooltip-box'><strong>Exemplu:</strong> binevoitor, blocnotes, ONU.</span></span>",
+          "<span class='tip'><strong>Formarea prin prefixe și sufixe</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este derivarea.</span></span>",
+          "<span class='tip'><strong>Schimbarea clasei morfologice</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este conversiunea.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Alege <span class='tip'><strong>procedeele compunerii.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alăturare, unire, abreviere.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Alăturarea / juxtapunerea</strong><span class='tooltip-box'><strong>Exemplu:</strong> câine-lup, de pe.</span></span>",
+          "<span class='tip'><strong>Subordonarea</strong><span class='tooltip-box'><strong>Exemplu:</strong> gura-leului.</span></span>",
+          "<span class='tip'><strong>Unirea / sudarea</strong><span class='tooltip-box'><strong>Exemplu:</strong> fărădelege, untdelemn.</span></span>",
+          "<span class='tip'><strong>Abrevierea</strong><span class='tooltip-box'><strong>Exemplu:</strong> O.N.U., TAROM.</span></span>",
+          "<span class='tip'><strong>Conversiunea</strong><span class='tooltip-box'><strong>Distractor:</strong> este alt procedeu.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s5-q2",
+    title: "Scrierea cuvintelor compuse",
+    questions: [
+      {
+        text: "Cum se pot scrie <span class='tip'><strong>cuvintele compuse?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> într-un cuvânt, cu cratimă sau separat.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Într-un cuvânt</strong><span class='tooltip-box'><strong>Exemplu:</strong> primăvara.</span></span>",
+          "<span class='tip'><strong>Cu cratimă</strong><span class='tooltip-box'><strong>Exemplu:</strong> vorbă-lungă.</span></span>",
+          "<span class='tip'><strong>Separat</strong><span class='tooltip-box'><strong>Exemplu:</strong> de lângă.</span></span>",
+          "<span class='tip'><strong>Doar cu spațiere dublă</strong><span class='tooltip-box'><strong>Distractor:</strong> nu există această scriere.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Alege exemple de <span class='tip'><strong>compunere prin unire (sudare).</strong><span class='tooltip-box'><strong>Spus simplu:</strong> elementele se contopesc într-un singur cuvânt.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>blocnotes</strong><span class='tooltip-box'><strong>Exemplu:</strong> unire într-un cuvânt.</span></span>",
+          "<span class='tip'><strong>fărădelege</strong><span class='tooltip-box'><strong>Exemplu:</strong> contopire.</span></span>",
+          "<span class='tip'><strong>floarea-soarelui</strong><span class='tooltip-box'><strong>Distractor:</strong> este alăturare cu cratimă.</span></span>",
+        ],
+        answer: [0, 1],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s5-q3",
+    title: "Abrevierea: tipuri și exemple",
+    questions: [
+      {
+        text: "Care sunt tipurile de <span class='tip'><strong>abreviere?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți folosi inițiale, fragmente sau combinații.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Inițiale</strong><span class='tooltip-box'><strong>Exemplu:</strong> C.E.C., O.N.U.</span></span>",
+          "<span class='tip'><strong>Inițiale + fragmente</strong><span class='tooltip-box'><strong>Exemplu:</strong> TAROM.</span></span>",
+          "<span class='tip'><strong>Fragmente de cuvinte</strong><span class='tooltip-box'><strong>Exemplu:</strong> PLAFAR, ASIROM.</span></span>",
+          "<span class='tip'><strong>Fragmente + cuvinte întregi</strong><span class='tooltip-box'><strong>Exemplu:</strong> Romarta.</span></span>",
+          "<span class='tip'><strong>Prefixare</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de derivare.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s6-q1",
+    title: "Conversiunea și metalimbajul",
+    questions: [
+      {
+        text: "Ce este <span class='tip'><strong>conversiunea?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un cuvânt își schimbă partea de vorbire.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Schimbarea clasei morfologice a unui cuvânt</strong><span class='tooltip-box'><strong>Exemplu:</strong> verde → verdele.</span></span>",
+          "<span class='tip'><strong>Unirea a două cuvinte</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este compunerea.</span></span>",
+          "<span class='tip'><strong>Adăugarea unui sufix</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este derivarea.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Care este cel mai frecvent procedeu de <span class='tip'><strong>conversiune?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pui articol și cuvântul devine substantiv.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Articularea</strong><span class='tooltip-box'><strong>Exemplu:</strong> verde → verdele.</span></span>",
+          "<span class='tip'><strong>Abrevierea</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de compunere.</span></span>",
+          "<span class='tip'><strong>Prefixarea</strong><span class='tooltip-box'><strong>Distractor:</strong> ține de derivare.</span></span>",
+        ],
+        answer: 0,
+      },
+      {
+        text: "Ce este <span class='tip'><strong>metalimbajul?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prin ghilimele, orice cuvânt devine substantiv.</span></span>",
+        multiple: false,
+        options: [
+          "<span class='tip'><strong>Procedeu prin care orice parte de vorbire devine substantiv</strong><span class='tooltip-box'><strong>Exemplu:</strong> „Frumos” este adjectiv.</span></span>",
+          "<span class='tip'><strong>Un tip de compunere</strong><span class='tooltip-box'><strong>Distractor:</strong> nu are legătură cu compunerea.</span></span>",
+          "<span class='tip'><strong>O regulă de ortografie</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este regulă ortografică.</span></span>",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s6-q2",
+    title: "Observații despre conversiune",
+    questions: [
+      {
+        text: "Prin conversiune, cuvântul preia <span class='tip'><strong>caracteristicile părții de vorbire în care a trecut.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se comportă ca noua parte de vorbire.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Ca adjectiv, se acordă cu substantivul</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumos / frumoasă.</span></span>",
+          "<span class='tip'><strong>Ca adverb, este invariabil și determină verbul</strong><span class='tooltip-box'><strong>Exemplu:</strong> vorbește frumos.</span></span>",
+          "<span class='tip'><strong>Ca substantiv, poate primi articol și funcții sintactice</strong><span class='tooltip-box'><strong>Exemplu:</strong> frumosul, binele.</span></span>",
+          "<span class='tip'><strong>Ca adjectiv, rămâne invariabil</strong><span class='tooltip-box'><strong>Distractor:</strong> adjectivul se acordă.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+    ],
+  },
+  {
+    id: "lr-u4-s6-q3",
+    title: "Exemple de conversiune",
+    questions: [
+      {
+        text: "Prin articulare se obțin <span class='tip'><strong>substantive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pui articol și cuvântul devine substantiv.</span></span> din:",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Adjective</strong><span class='tooltip-box'><strong>Exemplu:</strong> verde → verdele.</span></span>",
+          "<span class='tip'><strong>Pronume</strong><span class='tooltip-box'><strong>Exemplu:</strong> eu → eul.</span></span>",
+          "<span class='tip'><strong>Numerale</strong><span class='tooltip-box'><strong>Exemplu:</strong> doi → doiul.</span></span>",
+          "<span class='tip'><strong>Adverbe</strong><span class='tooltip-box'><strong>Exemplu:</strong> aproape → aproapele.</span></span>",
+          "<span class='tip'><strong>Interjecții</strong><span class='tooltip-box'><strong>Exemplu:</strong> of → oful.</span></span>",
+          "<span class='tip'><strong>Prefixe</strong><span class='tooltip-box'><strong>Distractor:</strong> prefixele nu sunt părți de vorbire.</span></span>",
+        ],
+        answer: [0, 1, 2, 3, 4],
+      },
+      {
+        text: "Alege forme verbale care pot deveni <span class='tip'><strong>substantive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele forme verbale se substantivizează.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Participiu</strong><span class='tooltip-box'><strong>Exemplu:</strong> rătăciții.</span></span>",
+          "<span class='tip'><strong>Supin</strong><span class='tooltip-box'><strong>Exemplu:</strong> mersul.</span></span>",
+          "<span class='tip'><strong>Gerunziu</strong><span class='tooltip-box'><strong>Exemplu:</strong> suferindul.</span></span>",
+          "<span class='tip'><strong>Infinitiv</strong><span class='tooltip-box'><strong>Distractor:</strong> nu apare în exemplele din text.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Alege exemple corecte de <span class='tip'><strong>conversiune spre adjectiv.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cuvântul descrie un substantiv.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Adjectiv din participiu</strong><span class='tooltip-box'><strong>Exemplu:</strong> lumina filtrată.</span></span>",
+          "<span class='tip'><strong>Adjectiv din gerunziu</strong><span class='tooltip-box'><strong>Exemplu:</strong> pletele fluturânde.</span></span>",
+          "<span class='tip'><strong>Adjectiv din pronume</strong><span class='tooltip-box'><strong>Exemplu:</strong> acești brazi.</span></span>",
+          "<span class='tip'><strong>Adjectiv din adverb</strong><span class='tooltip-box'><strong>Exemplu:</strong> haine gata.</span></span>",
+          "<span class='tip'><strong>Prefix din verb</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este conversiune.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+      {
+        text: "Alege exemple corecte de <span class='tip'><strong>conversiune spre adverb.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cuvântul determină verbul și rămâne invariabil.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Adverb din adjectiv</strong><span class='tooltip-box'><strong>Exemplu:</strong> vorbește frumos.</span></span>",
+          "<span class='tip'><strong>Adverb din participiu</strong><span class='tooltip-box'><strong>Exemplu:</strong> cântă îngânat.</span></span>",
+          "<span class='tip'><strong>Adverb din substantiv (anotimpuri)</strong><span class='tooltip-box'><strong>Exemplu:</strong> învață noaptea.</span></span>",
+          "<span class='tip'><strong>Adverb din prepoziție</strong><span class='tooltip-box'><strong>Distractor:</strong> nu apare în exemple.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+      {
+        text: "Se pot obține <span class='tip'><strong>prepoziții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele cuvinte ajung să funcționeze ca prepoziții.</span></span> din:",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Adverbe</strong><span class='tooltip-box'><strong>Exemplu:</strong> deasupra crengii.</span></span>",
+          "<span class='tip'><strong>Substantive</strong><span class='tooltip-box'><strong>Exemplu:</strong> grație talentului.</span></span>",
+          "<span class='tip'><strong>Participii</strong><span class='tooltip-box'><strong>Exemplu:</strong> mulțumită ajutorului.</span></span>",
+          "<span class='tip'><strong>Adjective</strong><span class='tooltip-box'><strong>Distractor:</strong> nu acesta este exemplul din text.</span></span>",
+        ],
+        answer: [0, 1, 2],
       },
     ],
   },
@@ -1916,6 +2565,786 @@ window.LR_QUIZ = [
   },
 ];
 
+window.LR_LESSONS = {
+  "lr-u4-s1-q1": {
+    title: "Clasificarea mijloacelor de îmbogățire",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Vocabularul crește prin mijloace <strong>interne</strong>, <strong>externe</strong> și <strong>mixte</strong>.
+    </div>
+
+    <hr />
+
+    <h2>📦 Tipuri de mijloace</h2>
+    <div class="lesson-grid colorful three">
+      <div class="lesson-card">
+        <h3>Interne</h3>
+        <p><strong>Formate în interiorul limbii.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>Derivarea<span class='tooltip-box'><strong>Spus simplu:</strong> adaugi prefixe/sufixe.<br /><br /><strong>Exemplu:</strong> adevăr → neadevăr.</span></span></li>
+          <li><span class='tip'>Compunerea<span class='tooltip-box'><strong>Spus simplu:</strong> unești două cuvinte.<br /><br /><strong>Exemplu:</strong> binevoitor, floarea-soarelui.</span></span></li>
+          <li><span class='tip'>Abrevierea<span class='tooltip-box'><strong>Spus simplu:</strong> scurtezi cuvinte/expresii.<br /><br /><strong>Exemplu:</strong> O.N.U., TAROM.</span></span></li>
+          <li><span class='tip'>Formațiile analitice<span class='tooltip-box'><strong>Spus simplu:</strong> grupuri stabile de cuvinte cu sens comun.<br /><br /><strong>Exemplu:</strong> a face față.</span></span></li>
+          <li><span class='tip'>Conversiunea<span class='tooltip-box'><strong>Spus simplu:</strong> un cuvânt își schimbă partea de vorbire.<br /><br /><strong>Exemplu:</strong> verde → verdele.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Externe</h3>
+        <p><strong>Împrumuturi din alte limbi.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>Împrumut direct<span class='tooltip-box'><strong>Spus simplu:</strong> iei cuvântul ca atare.<br /><br /><strong>Exemplu:</strong> termeni străini integrați.</span></span></li>
+          <li><span class='tip'>Împrumut indirect<span class='tooltip-box'><strong>Spus simplu:</strong> preluare printr-o altă limbă.<br /><br /><strong>Exemplu:</strong> cuvânt trecut prin mai multe limbi.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Mixte</h3>
+        <p><strong>Îmbină internul cu externul.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>Calcul lingvistic<span class='tooltip-box'><strong>Spus simplu:</strong> traduci modelul străin cu elemente românești.<br /><br /><strong>Exemplu:</strong> structură copiată, cu cuvinte românești.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s1-q2": {
+    title: "Formații analitice",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Formațiile analitice sunt structuri stabile de cuvinte cu sens comun.
+    </div>
+
+    <hr />
+
+    <h2>🧩 Cum le recunoști</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Locuțiuni</h3>
+        <p><strong>Unități fixe de cuvinte.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>a face față<span class='tooltip-box'><strong>Spus simplu:</strong> înseamnă „a reuși”.<br /><br /><strong>Exemplu:</strong> A făcut față examenului.</span></span></li>
+          <li><span class='tip'>a pune la cale<span class='tooltip-box'><strong>Spus simplu:</strong> înseamnă „a organiza”.<br /><br /><strong>Exemplu:</strong> Au pus la cale o întâlnire.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Expresii</h3>
+        <p><strong>Au sens global, nu literal.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>sens comun<span class='tooltip-box'><strong>Spus simplu:</strong> nu traduci cuvânt cu cuvânt.</span></span></li>
+          <li><span class='tip'>stabilitate<span class='tooltip-box'><strong>Spus simplu:</strong> nu schimbi ușor cuvintele din expresie.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s1-q3": {
+    title: "Familia lexicală",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Familia lexicală reunește toate cuvintele formate de la aceeași bază.
+    </div>
+
+    <hr />
+
+    <h2>🧬 Ce include familia lexicală</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Definiție</h3>
+        <p><strong>Cuvinte înrudite ca sens și formă.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>aceeași rădăcină<span class='tooltip-box'><strong>Spus simplu:</strong> pornesc de la aceeași bază.<br /><br /><strong>Exemplu:</strong> frumos, frumușel, frumusețe.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Procedee interne</h3>
+        <p><strong>Le găsești împreună.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>derivare<span class='tooltip-box'><strong>Exemplu:</strong> frumos → frumușel.</span></span></li>
+          <li><span class='tip'>compunere<span class='tooltip-box'><strong>Exemplu:</strong> Târgu-Frumos.</span></span></li>
+          <li><span class='tip'>conversiune<span class='tooltip-box'><strong>Exemplu:</strong> frumos → frumosul.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s2-q1": {
+    title: "Derivarea: tipuri",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Derivarea formează cuvinte noi prin adăugarea sau eliminarea afixelor.
+    </div>
+
+    <hr />
+
+    <h2>🔢 Tipuri de derivare</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Progresivă</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>adăugare de afixe<span class='tooltip-box'><strong>Spus simplu:</strong> pui ceva în plus.<br /><br /><strong>Exemplu:</strong> ne- + adevăr → neadevăr.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Regresivă</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>eliminarea afixelor<span class='tooltip-box'><strong>Spus simplu:</strong> scoți o parte din cuvânt.<br /><br /><strong>Exemplu:</strong> a zbura → zbor.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Parasintetică</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>prefix + sufix<span class='tooltip-box'><strong>Spus simplu:</strong> le pui pe amândouă.<br /><br /><strong>Exemplu:</strong> în-chipui, îm-bărbăta.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s2-q2": {
+    title: "Prefixe și derivarea cu prefixe",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Prefixele se adaugă înaintea rădăcinii și sunt mai puțin productive decât sufixele.
+    </div>
+
+    <hr />
+
+    <h2>🧱 Prefixul, pe scurt</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Definiție</h3>
+        <p><strong>Înaintea rădăcinii.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>ne- + adevăr<span class='tooltip-box'><strong>Spus simplu:</strong> prefixul schimbă sensul.<br /><br /><strong>Exemplu:</strong> neadevăr.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Productivitate</h3>
+        <p><strong>Mai redusă decât la sufixe.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>inegal / dezgust<span class='tooltip-box'><strong>Spus simplu:</strong> există, dar mai puține decât sufixele.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧭 Prefixe frecvente</h2>
+    <div class="lesson-grid colorful three">
+      <div class="lesson-card">
+        <h3>Negare / opoziție</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>a-, an-, anti-<span class='tooltip-box'><strong>Exemplu:</strong> amoral, anormal, antifonare.</span></span></li>
+          <li><span class='tip'>ne-, non-<span class='tooltip-box'><strong>Exemplu:</strong> nevăzut, nonsens.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Relație / repetare</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>co-, com-, con-<span class='tooltip-box'><strong>Exemplu:</strong> cooperare, consătean.</span></span></li>
+          <li><span class='tip'>re-, răs-<span class='tooltip-box'><strong>Exemplu:</strong> recunoaștere, răscopt.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Intensitate / depășire</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>supra-, ultra-<span class='tooltip-box'><strong>Exemplu:</strong> supracopertă, ultraviolet.</span></span></li>
+          <li><span class='tip'>trans-, pre-<span class='tooltip-box'><strong>Exemplu:</strong> transcarpatic, preșcolar.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s3-q1": {
+    title: "Sufixe: tipuri și criterii",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Sufixele pot crea cuvinte noi sau doar forme gramaticale. Derivarea cu sufixe este foarte productivă.
+    </div>
+
+    <hr />
+
+    <h2>📚 Tipuri de sufixe</h2>
+    <div class="lesson-grid colorful three">
+      <div class="lesson-card">
+        <h3>Lexicale</h3>
+        <p><strong>Cuvinte noi.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>bău-tor<span class='tooltip-box'><strong>Exemplu:</strong> sufix pentru agent.</span></span></li>
+          <li><span class='tip'>fric-os<span class='tooltip-box'><strong>Exemplu:</strong> sufix pentru însușire.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Gramaticale</h3>
+        <p><strong>Forme verbale.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>timp și mod<span class='tooltip-box'><strong>Exemplu:</strong> sufixe verbale.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Lexico-gramaticale</h3>
+        <p><strong>Sens + categorie.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>moționale<span class='tooltip-box'><strong>Exemplu:</strong> forme de gen.</span></span></li>
+          <li><span class='tip'>participiale<span class='tooltip-box'><strong>Exemplu:</strong> funcție dublă.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧭 Criterii de clasificare</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Morfologic</h3>
+        <p><strong>Partea de vorbire rezultată.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>substantivale / adjectivale<span class='tooltip-box'><strong>Exemplu:</strong> -ărie, -esc.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Semantic</h3>
+        <p><strong>Sensul nou creat.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>agent, însușire, loc<span class='tooltip-box'><strong>Exemplu:</strong> băutor, auriu, benzinărie.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s3-q2": {
+    title: "Sufixe lexicale: valori",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Sufixele lexicale denumesc tipuri de sens: agent, însușire, loc etc.
+    </div>
+
+    <hr />
+
+    <h2>🎯 Valori principale</h2>
+    <div class="lesson-grid colorful">
+      <div class="lesson-card">
+        <h3>Agent</h3>
+        <p><strong>Autorul acțiunii.</strong></p>
+        <hr />
+        <p><span class='tip'>băutor, cizmar<span class='tooltip-box'><strong>Spus simplu:</strong> „cine face”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Însușire</h3>
+        <p><strong>Calitate / trăsătură.</strong></p>
+        <hr />
+        <p><span class='tip'>fricos, auriu<span class='tooltip-box'><strong>Spus simplu:</strong> „cum e”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Colectivitate</h3>
+        <p><strong>Grupuri.</strong></p>
+        <hr />
+        <p><span class='tip'>studențime, turcime<span class='tooltip-box'><strong>Spus simplu:</strong> „mulți la un loc”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Instrument</h3>
+        <p><strong>Obiect folosit.</strong></p>
+        <hr />
+        <p><span class='tip'>alfabetar, piperniță<span class='tooltip-box'><strong>Spus simplu:</strong> „cu ce faci”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Noțiuni abstracte</h3>
+        <p><strong>Idei / stări.</strong></p>
+        <hr />
+        <p><span class='tip'>răceală, siguranță<span class='tooltip-box'><strong>Spus simplu:</strong> nu sunt obiecte concrete.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Modalitate</h3>
+        <p><strong>Felul acțiunii.</strong></p>
+        <hr />
+        <p><span class='tip'>bărbătește, pieptiș<span class='tooltip-box'><strong>Spus simplu:</strong> „cum se face”.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Loc / origine</h3>
+        <p><strong>Unde / de unde.</strong></p>
+        <hr />
+        <p><span class='tip'>benzinărie, someșean<span class='tooltip-box'><strong>Spus simplu:</strong> loc sau proveniență.</span></span></p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧸 Diminutive vs. augmentative</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Diminutive</h3>
+        <p><strong>Obiecte mici, afective.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>căluț<span class='tooltip-box'><strong>Spus simplu:</strong> mic, drăguț.</span></span></li>
+          <li><span class='tip'>vânticel<span class='tooltip-box'><strong>Exemplu:</strong> vânt mic.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Augmentative</h3>
+        <p><strong>Obiecte mari, intense.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>pietroi<span class='tooltip-box'><strong>Spus simplu:</strong> foarte mare.</span></span></li>
+          <li><span class='tip'>lădoaie<span class='tooltip-box'><strong>Exemplu:</strong> ladă mare.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s3-q3": {
+    title: "Reguli și observații (DOOM3)",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      După radicale în -ș / -j se folosește sufixul -ean.
+    </div>
+
+    <hr />
+
+    <h2>✅ Forme corecte</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Corect</h3>
+        <p><strong>Cu -ean.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>someșean<span class='tooltip-box'><strong>Exemplu:</strong> după -ș.</span></span></li>
+          <li><span class='tip'>clujean<span class='tooltip-box'><strong>Exemplu:</strong> după -j.</span></span></li>
+          <li><span class='tip'>oltean<span class='tooltip-box'><strong>Exemplu:</strong> formă corectă.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Incorect</h3>
+        <p><strong>Cu -an.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>someșan<span class='tooltip-box'><strong>Spus simplu:</strong> nu este admis.</span></span></li>
+          <li><span class='tip'>clujan<span class='tooltip-box'><strong>Spus simplu:</strong> formă greșită.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s4-q1": {
+    title: "Rădăcina, morfemul, tema",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Cuvântul are părți mici (morfeme) care poartă sens.
+    </div>
+
+    <hr />
+
+    <h2>🧩 Părțile cu sens</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Rădăcina</h3>
+        <p><strong>Partea comună cu sens.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>frumos / frumușel<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași bază.</span></span></li>
+          <li><span class='tip'>nu se confundă mereu cu cuvântul de bază<span class='tooltip-box'><strong>Spus simplu:</strong> rădăcina poate fi doar o parte din cuvânt.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Morfemul</h3>
+        <p><strong>Cea mai mică parte cu sens.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>rădăcină + afixe<span class='tooltip-box'><strong>Exemplu:</strong> prefixe și sufixe.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Tema</h3>
+        <p><strong>Rădăcină + sufix/prefix.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>tema poate fi egală cu rădăcina<span class='tooltip-box'><strong>Spus simplu:</strong> dacă nu ai sufix.</span></span></li>
+          <li><span class='tip'>tema poate avea alternanțe fonetice<span class='tooltip-box'><strong>Spus simplu:</strong> sunete care se schimbă în forme diferite.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s4-q2": {
+    title: "Morfeme și desinențe",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Morfemele pot fi lexicale sau gramaticale; desinențele arată flexiunea.
+    </div>
+
+    <hr />
+
+    <h2>⚙️ Tipuri de morfeme</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Lexicale</h3>
+        <p><strong>Poartă sensul de bază.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>rădăcina<span class='tooltip-box'><strong>Exemplu:</strong> frumos.</span></span></li>
+          <li><span class='tip'>afixe lexicale<span class='tooltip-box'><strong>Exemplu:</strong> -os, -tor.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Gramaticale</h3>
+        <p><strong>Arată forma gramaticală.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>sufixe gramaticale<span class='tooltip-box'><strong>Exemplu:</strong> timp, mod.</span></span></li>
+          <li><span class='tip'>desinențe<span class='tooltip-box'><strong>Exemplu:</strong> persoană, număr, caz.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧭 Ce indică desinențele</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Substantiv</h3>
+        <p><strong>Număr și caz.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>copil → copii<span class='tooltip-box'><strong>Exemplu:</strong> plural.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Adjectiv</h3>
+        <p><strong>Gen, număr, caz.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>bun → bună<span class='tooltip-box'><strong>Exemplu:</strong> acord.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Verb</h3>
+        <p><strong>Persoană și număr.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>cânt → cântăm<span class='tooltip-box'><strong>Exemplu:</strong> persoana I plural.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s4-q3": {
+    title: "Alte marcaje gramaticale",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Nu doar desinențele marchează forma gramaticală.
+    </div>
+
+    <hr />
+
+    <h2>🧩 Alte marcaje</h2>
+    <div class="lesson-grid colorful three">
+      <div class="lesson-card">
+        <h3>Alternanțe fonetice</h3>
+        <p><strong>Schimbări în rădăcină.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>pot → poți<span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă consoana.</span></span></li>
+          <li><span class='tip'>poate → putem<span class='tooltip-box'><strong>Spus simplu:</strong> se schimbă vocala.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Accent</h3>
+        <p><strong>Diferență de formă.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>cântă / cântă<span class='tooltip-box'><strong>Exemplu:</strong> valori gramaticale diferite.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Auxiliare</h3>
+        <p><strong>Cuvinte ajutătoare.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>am cântat<span class='tooltip-box'><strong>Exemplu:</strong> perfect compus.</span></span></li>
+          <li><span class='tip'>voi cânta<span class='tooltip-box'><strong>Exemplu:</strong> viitor.</span></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>✅ Două note importante</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Desinență zero</h3>
+        <p><strong>Există, chiar dacă nu se vede.</strong></p>
+        <hr />
+        <p><span class='tip'>∅ (zero)<span class='tooltip-box'><strong>Spus simplu:</strong> nu adaugi nimic, dar forma gramaticală rămâne.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Terminația</h3>
+        <p><strong>Nu este morfem.</strong></p>
+        <hr />
+        <p><span class='tip'>nu are sens propriu<span class='tooltip-box'><strong>Spus simplu:</strong> poate coincide cu desinența sau sufixul.</span></span></p>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s5-q1": {
+    title: "Compunerea: procedee",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Compunerea formează cuvinte noi prin alăturare, unire sau abreviere.
+    </div>
+
+    <hr />
+
+    <h2>🧩 Procedeele compunerii</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Alăturare</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>câine-lup<span class='tooltip-box'><strong>Exemplu:</strong> două cuvinte alăturate.</span></span></li>
+          <li><span class='tip'>de pe<span class='tooltip-box'><strong>Exemplu:</strong> alăturare fără sudare.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Unire (sudare)</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>fărădelege<span class='tooltip-box'><strong>Exemplu:</strong> contopire.</span></span></li>
+          <li><span class='tip'>untdelemn<span class='tooltip-box'><strong>Exemplu:</strong> cuvânt nou sudat.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Abreviere</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>O.N.U.<span class='tooltip-box'><strong>Exemplu:</strong> inițiale.</span></span></li>
+          <li><span class='tip'>TAROM<span class='tooltip-box'><strong>Exemplu:</strong> inițiale + fragmente.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s5-q2": {
+    title: "Scrierea compuselor",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Compusele se pot scrie într-un cuvânt, cu cratimă sau separat.
+    </div>
+
+    <hr />
+
+    <h2>✍️ Forme de scriere</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <h3>Într-un cuvânt</h3>
+        <p><strong>Sudare completă.</strong></p>
+        <hr />
+        <p><span class='tip'>primăvara<span class='tooltip-box'><strong>Exemplu:</strong> cuvânt unic.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Cu cratimă</h3>
+        <p><strong>Legate prin „-”.</strong></p>
+        <hr />
+        <p><span class='tip'>vorbă-lungă<span class='tooltip-box'><strong>Exemplu:</strong> compus cu cratimă.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Separat</h3>
+        <p><strong>Alăturare fără cratimă.</strong></p>
+        <hr />
+        <p><span class='tip'>de lângă<span class='tooltip-box'><strong>Exemplu:</strong> compus scris separat.</span></span></p>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s5-q3": {
+    title: "Abrevierea: tipuri",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Abrevierea formează cuvinte noi prin prescurtare.
+    </div>
+
+    <hr />
+
+    <h2>🔤 Tipuri de abreviere</h2>
+    <div class="lesson-grid colorful">
+      <div class="lesson-card">
+        <h3>Inițiale</h3>
+        <p><strong>Doar literele inițiale.</strong></p>
+        <hr />
+        <p><span class='tip'>C.E.C. / O.N.U.<span class='tooltip-box'><strong>Exemplu:</strong> abreviere prin inițiale.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Inițiale + fragmente</h3>
+        <p><strong>Combinare.</strong></p>
+        <hr />
+        <p><span class='tip'>TAROM<span class='tooltip-box'><strong>Exemplu:</strong> inițiale + parte de cuvânt.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Fragmente</h3>
+        <p><strong>Doar părți de cuvinte.</strong></p>
+        <hr />
+        <p><span class='tip'>PLAFAR, ASIROM<span class='tooltip-box'><strong>Exemplu:</strong> fragmente de cuvinte.</span></span></p>
+      </div>
+      <div class="lesson-card">
+        <h3>Fragmente + cuvinte</h3>
+        <p><strong>Combinație mixtă.</strong></p>
+        <hr />
+        <p><span class='tip'>Romarta<span class='tooltip-box'><strong>Exemplu:</strong> fragment + cuvânt întreg.</span></span></p>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s6-q1": {
+    title: "Conversiunea și metalimbajul",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Conversiunea schimbă partea de vorbire, iar metalimbajul transformă cuvinte în substantive.
+    </div>
+
+    <hr />
+
+    <h2>🔁 Procedee cheie</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card">
+        <h3>Conversiunea</h3>
+        <p><strong>Schimbarea clasei morfologice.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>verde → verdele<span class='tooltip-box'><strong>Exemplu:</strong> adjectiv → substantiv.</span></span></li>
+          <li><span class='tip'>a răni → rănitul<span class='tooltip-box'><strong>Exemplu:</strong> verb → substantiv.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Metalimbaj</h3>
+        <p><strong>Prin ghilimele.</strong></p>
+        <hr />
+        <ul>
+          <li><span class='tip'>„Frumos”<span class='tooltip-box'><strong>Spus simplu:</strong> cuvântul e tratat ca substantiv.</span></span></li>
+          <li><span class='tip'>propoziții ca substantive<span class='tooltip-box'><strong>Exemplu:</strong> „Mi se pare” devine substantivizat.</span></span></li>
+          <li><span class='tip'>conversiune sintactică<span class='tooltip-box'><strong>Spus simplu:</strong> după conversiunea morfologică poate apărea și una sintactică.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s6-q2": {
+    title: "Observații despre conversiune",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      După conversiune, cuvântul se comportă ca noua parte de vorbire.
+    </div>
+
+    <hr />
+
+    <h2>🧷 Ce se schimbă</h2>
+    <div class="lesson-grid three">
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">1️⃣</div>
+        <h3>Ca adjectiv</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>se acordă cu substantivul<span class='tooltip-box'><strong>Exemplu:</strong> băiat harnic / fată harnică.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">2️⃣</div>
+        <h3>Ca adverb</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>este invariabil și determină verbul<span class='tooltip-box'><strong>Exemplu:</strong> vorbește frumos.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-step-emoji">3️⃣</div>
+        <h3>Ca substantiv</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>primește articol și funcții sintactice<span class='tooltip-box'><strong>Exemplu:</strong> frumosul, binele.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+  "lr-u4-s6-q3": {
+    title: "Exemple de conversiune",
+    html: `
+    <div class="lesson-highlight">
+      <strong>📘 Idee centrală</strong><br />
+      Conversiunea poate produce substantive, adjective, adverbe și prepoziții.
+    </div>
+
+    <hr />
+
+    <h2>📌 Exemple frecvente</h2>
+    <div class="lesson-grid colorful three">
+      <div class="lesson-card">
+        <h3>Substantive</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>verde → verdele<span class='tooltip-box'><strong>Exemplu:</strong> adjectiv → substantiv.</span></span></li>
+          <li><span class='tip'>eu → eul<span class='tooltip-box'><strong>Exemplu:</strong> pronume → substantiv.</span></span></li>
+          <li><span class='tip'>a răni → rănitul<span class='tooltip-box'><strong>Exemplu:</strong> verb → substantiv.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Adjective</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>lumina filtrată<span class='tooltip-box'><strong>Exemplu:</strong> participiu → adjectiv.</span></span></li>
+          <li><span class='tip'>pletele fluturânde<span class='tooltip-box'><strong>Exemplu:</strong> gerunziu → adjectiv.</span></span></li>
+        </ul>
+      </div>
+      <div class="lesson-card">
+        <h3>Adverbe / prepoziții</h3>
+        <hr />
+        <ul>
+          <li><span class='tip'>vorbește frumos<span class='tooltip-box'><strong>Exemplu:</strong> adjectiv → adverb.</span></span></li>
+          <li><span class='tip'>deasupra crengii<span class='tooltip-box'><strong>Exemplu:</strong> adverb → prepoziție.</span></span></li>
+        </ul>
+      </div>
+    </div>
+    `,
+  },
+};
 window.LR_FLASHCARDS = {
   "lr-u1": [
     {
@@ -1959,8 +3388,174 @@ window.LR_FLASHCARDS = {
       title: "U4 Flashcards",
       cards: [
         {
-          front: "Da un exemplu de mijloc intern de imbogatire.",
-          back: "Derivarea este un mijloc intern de imbogatire.",
+          front: "Enumeră mijloacele interne de îmbogățire a vocabularului",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">📘&nbsp;&nbsp;Mijloace interne</div>
+              <div>Fiecare mijloc creează cuvinte noi în interiorul limbii.</div>
+              ${flashPillList([
+                "<span class='tip'>Derivarea<span class='tooltip-box'><strong>Spus simplu:</strong> adaugi prefixe/sufixe.<br /><br /><strong>Exemplu:</strong> adevăr → neadevăr.</span></span>",
+                "<span class='tip'>Compunerea<span class='tooltip-box'><strong>Spus simplu:</strong> unești două cuvinte.<br /><br /><strong>Exemplu:</strong> floarea-soarelui.</span></span>",
+                "<span class='tip'>Abrevierea<span class='tooltip-box'><strong>Spus simplu:</strong> scurtezi o expresie.<br /><br /><strong>Exemplu:</strong> O.N.U., TAROM.</span></span>",
+                "<span class='tip'>Formațiile analitice<span class='tooltip-box'><strong>Spus simplu:</strong> grupuri fixe cu sens comun.<br /><br /><strong>Exemplu:</strong> a face față.</span></span>",
+                "<span class='tip'>Conversiunea<span class='tooltip-box'><strong>Spus simplu:</strong> schimbi partea de vorbire.<br /><br /><strong>Exemplu:</strong> verde → verdele.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică formațiile analitice și dă două exemple",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Formații analitice</div>
+              <div>Structuri stabile de cuvinte care funcționează ca o unitate.</div>
+              ${flashPillList([
+                "<span class='tip'>Definiție<span class='tooltip-box'><strong>Spus simplu:</strong> mai multe cuvinte, un singur sens.</span></span>",
+                "<span class='tip'>a face față<span class='tooltip-box'><strong>Exemplu:</strong> înseamnă «a reuși».</span></span>",
+                "<span class='tip'>a pune la cale<span class='tooltip-box'><strong>Exemplu:</strong> înseamnă «a organiza».</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică derivarea și tipurile ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧪&nbsp;&nbsp;Derivarea</div>
+              <div>De la un cuvânt-bază se obține un cuvânt nou cu ajutorul afixelor.</div>
+              ${flashPillList([
+                "<span class='tip'>Progresivă<span class='tooltip-box'><strong>Spus simplu:</strong> adaugi afixe.<br /><br /><strong>Exemplu:</strong> ne- + adevăr.</span></span>",
+                "<span class='tip'>Regresivă<span class='tooltip-box'><strong>Spus simplu:</strong> elimini afixe.<br /><br /><strong>Exemplu:</strong> a zbura → zbor.</span></span>",
+                "<span class='tip'>Parasintetică<span class='tooltip-box'><strong>Spus simplu:</strong> prefix + sufix.<br /><br /><strong>Exemplu:</strong> închipui.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică prefixul și sufixul",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧱&nbsp;&nbsp;Prefix / sufix</div>
+              <div>Ambele sunt afixe, dar poziția lor diferă.</div>
+              ${flashPillList([
+                "<span class='tip'>Prefixul<span class='tooltip-box'><strong>Spus simplu:</strong> stă înaintea rădăcinii.<br /><br /><strong>Exemplu:</strong> ne-adevăr.</span></span>",
+                "<span class='tip'>Sufixul<span class='tooltip-box'><strong>Spus simplu:</strong> stă după rădăcină.<br /><br /><strong>Exemplu:</strong> bău-tor.</span></span>",
+                "<span class='tip'>Derivare cu prefixe<span class='tooltip-box'><strong>Spus simplu:</strong> este mai puțin productivă decât cu sufixe.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică tipurile de sufixe și criteriile de clasificare",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🏷️&nbsp;&nbsp;Tipuri de sufixe</div>
+              <div>Se clasifică după rol și după sens.</div>
+              ${flashPillList([
+                "<span class='tip'>Lexicale / gramaticale / lexico-gramaticale<span class='tooltip-box'><strong>Spus simplu:</strong> cuvinte noi vs. forme gramaticale.<br /><br /><strong>Exemplu:</strong> băutor, sufixe de timp.</span></span>",
+                "<span class='tip'>Criteriul morfologic<span class='tooltip-box'><strong>Spus simplu:</strong> după partea de vorbire rezultată.<br /><br /><strong>Exemplu:</strong> sufixe substantivale.</span></span>",
+                "<span class='tip'>Criteriul semantic<span class='tooltip-box'><strong>Spus simplu:</strong> după sensul creat.<br /><br /><strong>Exemplu:</strong> agent, însușire, loc.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică valorile sufixelor lexicale",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Valori lexicale</div>
+              <div>Arată tipul de sens al cuvântului nou.</div>
+              ${flashPillList([
+                "<span class='tip'>Agent / însușire<span class='tooltip-box'><strong>Exemplu:</strong> băutor, fricos.</span></span>",
+                "<span class='tip'>Colectivitate / instrument<span class='tooltip-box'><strong>Exemplu:</strong> studențime, piperniță.</span></span>",
+                "<span class='tip'>Abstract / modalitate<span class='tooltip-box'><strong>Exemplu:</strong> răceală, bărbătește.</span></span>",
+                "<span class='tip'>Loc / origine<span class='tooltip-box'><strong>Exemplu:</strong> benzinărie, someșean.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică diminutivele, augmentativele și regula DOOM3",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧸&nbsp;&nbsp;Diminutive și augmentative</div>
+              <div>Exprimă mic vs. mare și au reguli de scriere.</div>
+              ${flashPillList([
+                "<span class='tip'>Diminutive<span class='tooltip-box'><strong>Exemplu:</strong> căluț, vânticel.</span></span>",
+                "<span class='tip'>Augmentative<span class='tooltip-box'><strong>Exemplu:</strong> pietroi, lădoaie.</span></span>",
+                "<span class='tip'>DOOM3: -ean după -ș/-j<span class='tooltip-box'><strong>Exemplu:</strong> someșean, clujean, oltean.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică rădăcina, morfemul și tema",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Structura cuvântului</div>
+              <div>Acestea sunt părțile cu sens ale cuvântului.</div>
+              ${flashPillList([
+                "<span class='tip'>Rădăcina<span class='tooltip-box'><strong>Spus simplu:</strong> partea comună cu sens.<br /><br /><strong>Exemplu:</strong> frumos / frumușel.</span></span>",
+                "<span class='tip'>Morfemul<span class='tooltip-box'><strong>Spus simplu:</strong> cea mai mică unitate cu sens.</span></span>",
+                "<span class='tip'>Tema<span class='tooltip-box'><strong>Spus simplu:</strong> rădăcină + sufix/prefix.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică desinențele și celelalte marcaje gramaticale",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔧&nbsp;&nbsp;Marcaje gramaticale</div>
+              <div>Forma gramaticală se vede în mai multe feluri.</div>
+              ${flashPillList([
+                "<span class='tip'>Desinențe<span class='tooltip-box'><strong>Exemplu:</strong> copil / copii; cânt / cântăm.</span></span>",
+                "<span class='tip'>Alternanțe fonetice<span class='tooltip-box'><strong>Exemplu:</strong> pot → poți.</span></span>",
+                "<span class='tip'>Accent și auxiliare<span class='tooltip-box'><strong>Exemplu:</strong> cântă; am cântat.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică compunerea și procedeele ei",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Compunerea</div>
+              <div>Formezi cuvinte noi din două sau mai multe cuvinte.</div>
+              ${flashPillList([
+                "<span class='tip'>Alăturare / subordonare<span class='tooltip-box'><strong>Exemplu:</strong> câine-lup, gura-leului.</span></span>",
+                "<span class='tip'>Unire (sudare)<span class='tooltip-box'><strong>Exemplu:</strong> fărădelege, untdelemn.</span></span>",
+                "<span class='tip'>Abreviere<span class='tooltip-box'><strong>Exemplu:</strong> O.N.U., TAROM.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică conversiunea, metalimbajul și efectele lor",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔁&nbsp;&nbsp;Conversiunea</div>
+              <div>Cuvântul trece într-o altă parte de vorbire.</div>
+              ${flashPillList([
+                "<span class='tip'>Conversiune prin articulare<span class='tooltip-box'><strong>Exemplu:</strong> verde → verdele.</span></span>",
+                "<span class='tip'>Metalimbaj<span class='tooltip-box'><strong>Exemplu:</strong> „Frumos” devine substantiv.</span></span>",
+                "<span class='tip'>Comportament gramatical nou<span class='tooltip-box'><strong>Exemplu:</strong> ca adjectiv se acordă, ca adverb e invariabil, ca substantiv primește articol.</span></span>",
+              ])}
+            </div>
+          </div>`,
+        },
+        {
+          front: "Explică familia lexicală și ce include",
+          back: `<div class='flash-back'>
+            <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+              <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧬&nbsp;&nbsp;Familia lexicală</div>
+              <div>Toate cuvintele înrudite formate de la aceeași bază.</div>
+              ${flashPillList([
+                "<span class='tip'>Definiție<span class='tooltip-box'><strong>Exemplu:</strong> frumos, frumușel, frumusețe.</span></span>",
+                "<span class='tip'>Procedee incluse<span class='tooltip-box'><strong>Exemplu:</strong> derivare, compunere, conversiune.</span></span>",
+              ])}
+            </div>
+          </div>`,
         },
       ],
     },
