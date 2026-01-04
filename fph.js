@@ -27,54 +27,53 @@ window.FLASH_PILL_VARIANTS = window.FLASH_PILL_VARIANTS || [
 ];
 
 window.flashPillList = function (items) {
-    const colorMap = (window.FLASH_PILL_COLOR_MAP =
-      window.FLASH_PILL_COLOR_MAP || {});
-    const namedVariants = (window.FLASH_PILL_NAMED_VARIANTS =
-      window.FLASH_PILL_NAMED_VARIANTS || {
-        cyan: window.FLASH_PILL_VARIANTS[0],
-        indigo: window.FLASH_PILL_VARIANTS[1],
-        emerald: window.FLASH_PILL_VARIANTS[2],
-        amber: window.FLASH_PILL_VARIANTS[3],
-        pink: window.FLASH_PILL_VARIANTS[4],
-        violet: window.FLASH_PILL_VARIANTS[5],
-        slate: window.FLASH_PILL_VARIANTS[6],
-        teal: window.FLASH_PILL_VARIANTS[7],
-        coral: window.FLASH_PILL_VARIANTS[8],
-      });
-    const getVariantForKey = (key) => {
-      if (!key) {
-        return null;
-      }
-      if (namedVariants[key]) {
-        return namedVariants[key];
-      }
-      if (!colorMap[key]) {
-        let hash = 0;
-        for (let i = 0; i < key.length; i += 1) {
-          hash = (hash * 31 + key.charCodeAt(i)) % 2147483647;
-        }
-        const index = Math.abs(hash) % window.FLASH_PILL_VARIANTS.length;
-        colorMap[key] = window.FLASH_PILL_VARIANTS[index];
-      }
-      return colorMap[key];
-    };
-    const variants = [...window.FLASH_PILL_VARIANTS];
-    for (let i = variants.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [variants[i], variants[j]] = [variants[j], variants[i]];
+  const colorMap = (window.FLASH_PILL_COLOR_MAP =
+    window.FLASH_PILL_COLOR_MAP || {});
+  const namedVariants = (window.FLASH_PILL_NAMED_VARIANTS =
+    window.FLASH_PILL_NAMED_VARIANTS || {
+      cyan: window.FLASH_PILL_VARIANTS[0],
+      indigo: window.FLASH_PILL_VARIANTS[1],
+      emerald: window.FLASH_PILL_VARIANTS[2],
+      amber: window.FLASH_PILL_VARIANTS[3],
+      pink: window.FLASH_PILL_VARIANTS[4],
+      violet: window.FLASH_PILL_VARIANTS[5],
+      slate: window.FLASH_PILL_VARIANTS[6],
+      teal: window.FLASH_PILL_VARIANTS[7],
+      coral: window.FLASH_PILL_VARIANTS[8],
+    });
+  const getVariantForKey = (key) => {
+    if (!key) {
+      return null;
     }
-    const pills = items
-      .map((item, index) => {
-        const text = typeof item === "string" ? item : item.text;
-        const key =
-          typeof item === "string" ? "" : item.key || item.color || "";
-        const variant =
-          getVariantForKey(key) || variants[index % variants.length];
-        return `<span class="flash-pill" style="${window.FLASH_PILL_BASE}${variant}">${text}</span>`;
-      })
-      .join("");
-    return `<div style="${window.FLASH_PILL_LIST_STYLE}">${pills}</div>`;
+    if (namedVariants[key]) {
+      return namedVariants[key];
+    }
+    if (!colorMap[key]) {
+      let hash = 0;
+      for (let i = 0; i < key.length; i += 1) {
+        hash = (hash * 31 + key.charCodeAt(i)) % 2147483647;
+      }
+      const index = Math.abs(hash) % window.FLASH_PILL_VARIANTS.length;
+      colorMap[key] = window.FLASH_PILL_VARIANTS[index];
+    }
+    return colorMap[key];
   };
+  const variants = [...window.FLASH_PILL_VARIANTS];
+  for (let i = variants.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [variants[i], variants[j]] = [variants[j], variants[i]];
+  }
+  const pills = items
+    .map((item, index) => {
+      const text = typeof item === "string" ? item : item.text;
+      const key = typeof item === "string" ? "" : item.key || item.color || "";
+      const variant =
+        getVariantForKey(key) || variants[index % variants.length];
+      return `<span class="flash-pill" style="${window.FLASH_PILL_BASE}${variant}">${text}</span>`;
+    })
+    .join("");
+  return `<div style="${window.FLASH_PILL_LIST_STYLE}">${pills}</div>`;
+};
 
 window.FPH_CONTENT = {
   capitole: [
@@ -3102,10 +3101,10 @@ window.FPH_CONTENT = {
 
     {
       id: "fph-t9e1",
-      title: "Teoria auto determinării (Deci și Ryan)",
+      title: "Teoria auto-determinării (Deci și Ryan)",
       questions: [
         {
-          text: "Teoria auto determinării pornește de la ideea că oamenii sunt <span class='tip'><strong>agenți activi ai propriei schimbări.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar reacționează la mediu, ci își organizează și dirijează dezvoltarea.</span></span> Ce exprimă cel mai bine această idee?",
+          text: "Teoria auto-determinării pornește de la ideea că oamenii sunt <span class='tip'><strong>agenți activi ai propriei schimbări.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar reacționează la mediu, ci își organizează și dirijează dezvoltarea.</span></span> Ce exprimă cel mai bine această idee?",
           options: [
             "<span class='tip'><strong>Oamenii tind să învețe, să se dezvolte și să își organizeze comportamentul în mod activ</strong><span class='tooltip-box'><strong>Corect:</strong> accent pe inițiativă și auto-organizare.</span></span>",
             "<span class='tip'><strong>Oamenii tind să evite, să blocheze și să își dezorganizeze comportamentul în mod activ</strong><span class='tooltip-box'><strong>Distractor:</strong> contrazice ideea de agent activ al propriei schimbări.</span></span>",
@@ -3114,7 +3113,7 @@ window.FPH_CONTENT = {
         },
 
         {
-          text: "Conform teoriei auto determinării, oamenii au o <span class='tip'><strong>tendință naturală de explorare și învățare.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> curiozitate și dorință internă de a înțelege, fără recompense permanente.</span></span> Ce rezultă de aici?",
+          text: "Conform teoriei auto-determinării, oamenii au o <span class='tip'><strong>tendință naturală de explorare și învățare.</strong><span class='tooltip-box'><strong>Spus simplu:</strong> curiozitate și dorință internă de a înțelege, fără recompense permanente.</span></span> Ce rezultă de aici?",
           options: [
             "<span class='tip'><strong>Multe comportamente sunt motivate intern, prin plăcerea de a cunoaște și de a progresa</strong><span class='tooltip-box'><strong>Corect:</strong> susține motivația intrinsecă.</span></span>",
             "<span class='tip'><strong>Multe comportamente sunt motivate extern, prin plăcerea de a cunoaște și de a progresa</strong><span class='tooltip-box'><strong>Distractor:</strong> „plăcerea de a cunoaște” indică sursă internă, nu control extern.</span></span>",
@@ -7455,7 +7454,7 @@ window.FPH_LESSONS = {
   `,
   "fph-t9e1": `
     <div class="lesson-highlight">
-      <strong>🎯&nbsp;&nbsp;Teoria auto determinării (Deci & Ryan):</strong>
+      <strong>🎯&nbsp;&nbsp;Teoria auto-determinării (Deci & Ryan):</strong>
       oamenii sunt <span class='tip'>agenți activi ai propriei schimbări<span class='tooltip-box'><strong>Spus simplu:</strong> nu doar reacționează, ci se auto‑organizează.<br /><br /><strong>Formulare academică:</strong> individul are inițiativă și tendință de dezvoltare autonomă.<br /><br /><strong>Exemplu:</strong> înveți pentru că vrei să înțelegi, nu doar pentru notă.</span></span>.
     </div>
     <hr />
@@ -8300,7 +8299,7 @@ window.FPH_LESSONS = {
     </div>
     <hr />
 
-    <h2>🧩&nbsp;&nbsp;Cele trei tipuri</h2>
+    <h2>🧩&nbsp;&nbsp;Cele trei tipuri principale</h2>
     <div class="lesson-grid three colorful">
       <div class="lesson-card">
         <h3>📝&nbsp;&nbsp;Verbal</h3>
@@ -8315,6 +8314,16 @@ window.FPH_LESSONS = {
         <p><strong>Ton, ritm, volum, intonație.</strong></p>
       </div>
     </div>
+
+     <hr />
+
+    <h2>🧩&nbsp;&nbsp;Toate tipurile de limbaj</h2>
+    <img
+  src="Assets/Schema tipurilor de limbaj.png"
+  alt="Schema tipurilor de limbaj"
+  style="max-width:720px;height:auto;display:block;margin:0 auto;"
+/>
+
   `,
   "fph-t12e": `
     <div class="lesson-highlight">
@@ -9000,12 +9009,10 @@ window.FPH_FLASHCARDS = {
           back: `<div class='flash-back'>
   <div class='flash-block' style="${window.FLASH_BLOCK_STYLE}">
     <div><strong>În modelul lui Carl Gustav Jung</strong>, psihicul este organizat în <strong>conștiință</strong> și <strong>inconștient</strong>.</div>
-    <div style="margin-top:10px;">Repere:</div>
     ${window.flashPillList([
-      "🪞&nbsp;&nbsp;<span class='tip'><strong>Egoul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> centrul conștiinței, instanța care spune „eu”.<br /><br /><strong>Exemplu:</strong> îți recunoști gândurile și deciziile ca fiind „ale tale”.</span></span>",
-      "📦&nbsp;&nbsp;<span class='tip'><strong>inconștientul personal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> amintiri, experiențe și conținuturi reprimate/uitate din istoria individuală.<br /><br /><strong>Exemplu:</strong> o experiență veche influențează reacții emoționale în prezent.</span></span>",
-      "🌌&nbsp;&nbsp;<span class='tip'><strong>inconștientul colectiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nivel profund al psihicului, comun tuturor oamenilor.<br /><br /><strong>Exemplu:</strong> teme similare în mituri și simboluri din culturi diferite.</span></span>",
-      "🧿&nbsp;&nbsp;<span class='tip'><strong>arhetipuri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> modele/imagini universale (înnăscute) care structurează experiența și simbolurile.<br /><br /><strong>Exemplu:</strong> „eroul”, „mama”, „înțeleptul” apar recurent în povești și mituri.</span></span>",
+      "🪞<span class='tip'><strong>Egoul (centrul conștiinței)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> centrul conștiinței, instanța care spune „eu”.<br /><br /><strong>Exemplu:</strong> îți recunoști gândurile și deciziile ca fiind „ale tale”.</span></span>",
+      "📦<span class='tip'><strong>inconștientul personal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> amintiri, experiențe și conținuturi reprimate/uitate din istoria individuală.<br /><br /><strong>Exemplu:</strong> o experiență veche influențează reacții emoționale în prezent.</span></span>",
+      "🌌<span class='tip'><strong>inconștientul colectiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nivel profund al psihicului, comun tuturor oamenilor.<br /><br /><strong>Include:</strong> <strong>arhetipuri</strong> modele/imagini universale înnăscute care structurează experiența și simbolurile.<br /><br /><strong>Exemplu:</strong> eroul mama înțeleptul apar recurent în povești și mituri din culturi diferite.</span></span>",
     ])}
   </div>
 </div>`,
@@ -9046,8 +9053,8 @@ window.FPH_FLASHCARDS = {
   <div class='flash-block' style="${window.FLASH_BLOCK_STYLE}">
     <div><strong>Conștientul</strong>, <strong>subconștientul</strong> și <strong>inconștientul</strong> sunt repere ale unui <strong>continuum funcțional</strong> al vieții psihice: nu sunt complet separate, ci se susțin și se influențează reciproc. Idee-cheie:</div>
     ${window.flashPillList([
-      "🧭&nbsp;&nbsp;<span class='tip'><strong>niveluri de accesibilitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele conținuturi sunt disponibile imediat (conștient), altele pot fi aduse relativ ușor în conștiință (subconștient/ preconștient), iar altele nu sunt accesibile direct și se manifestă mai ales indirect (inconștient).<br /><br /><strong>Exemplu:</strong> îți amintești rapid o definiție (conștient) vs. îți explici greu „de ce am reacționat așa” și ai nevoie de reflecție/ indicii (inconștient).</span></span>",
-      "🔁&nbsp;&nbsp;<span class='tip'><strong>influență reciprocă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conținuturile din <strong>subconștient (preconștient)</strong> și <strong>inconștient</strong> pot orienta conduita, iar efortul <strong>conștient</strong> poate modifica treptat deprinderi și reacții automate.<br /><br /><strong>Exemplu:</strong> înveți conștient o abilitate (de ex., condusul). După exercițiu, pașii devin <strong>deprinderi/automatisme</strong> care țin de <strong>subconștient (preconștient)</strong> și pot fi aduse ușor în conștient când ai nevoie (de ex., explici cuiva „cum schimbi viteza”).</span></span>",
+      "🧭&nbsp;&nbsp;<span class='tip'><strong>niveluri de accesibilitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele conținuturi sunt disponibile imediat (conștient), altele pot fi aduse relativ ușor în conștiință (preconștient sau subconștient), iar altele nu sunt accesibile direct și se manifestă mai ales indirect (inconștient).<br /><br /><strong>Exemple:</strong><br />&nbsp;&nbsp;• <strong>Conștient:</strong> îți amintești rapid o definiție sau repeți o idee pe loc.<br />&nbsp;&nbsp;• <strong>Preconștient sau subconștient:</strong> îți vine în minte după câteva secunde un nume un citat sau un detaliu dacă te concentrezi puțin.<br />&nbsp;&nbsp;• <strong>Inconștient:</strong> îți este greu să spui imediat de ce ai reacționat așa iar motivele apar mai degrabă prin indicii precum vise asocieri emoții sau tipare repetate.</span></span>",
+      "🔁&nbsp;&nbsp;<span class='tip'><strong>influență reciprocă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conținuturile din <strong>preconștient sau subconștient</strong> și <strong>inconștient</strong> pot orienta conduita, iar efortul <strong>conștient</strong> poate modifica treptat deprinderi și reacții automate.<br /><br /><strong>Exemple:</strong><br />&nbsp;&nbsp;• <strong>Conștient → preconștient sau subconștient:</strong> înveți conștient condusul. După exercițiu, pașii devin <strong>automatisme</strong> care rulează fără atenție, dar pot fi aduse ușor în conștient când ai nevoie (de ex., explici cuiva cum schimbi viteza).<br />&nbsp;&nbsp;• <strong>Inconștient → conștient:</strong> ai o reacție disproporționată la o observație minoră și abia după reflecție îți dai seama că atinge o teamă sau o rană veche, care nu era accesibilă direct.</span></span>",
     ])}
   </div>
 </div>`,
@@ -10117,7 +10124,7 @@ window.FPH_FLASHCARDS = {
         },
         {
           front:
-            "Memorarea se îmbunătățește prin reguli aplicabile în învățare. Definește principiile de optimizare",
+            "Memorarea se îmbunătățește prin reguli aplicabile în învățare. Definește principiile de optimizare a memoriei",
           back: `<div class='flash-back'>
   <div class='flash-block' style="${window.FLASH_BLOCK_STYLE}">
     <div><strong>Memorarea eficientă</strong> crește când informația este organizată, înțeleasă și repetată controlat.</div>
@@ -10201,8 +10208,7 @@ window.FPH_FLASHCARDS = {
         },
 
         {
-          front:
-            "Definește operațiile gândirii și descrie diferența dintre operațiile de bază și operațiile derivate",
+          front: "Definește operațiile gândirii",
           back: `<div class='flash-back'>
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">⚡&nbsp;&nbsp;Dintr-o privire</div>
@@ -10213,7 +10219,7 @@ window.FPH_FLASHCARDS = {
   </div>
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧱&nbsp;&nbsp;Operații de bază</div>
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧱&nbsp;&nbsp;Operații</div>
     ${window.flashPillList([
       {
         text: "🔍&nbsp;&nbsp;<span class='tip'><strong>analiza</strong><span class='tooltip-box'><strong>Definiție:</strong> descompune mental o unitate (obiect, fenomen, idee, problemă) pentru a identifica structura și relațiile interne dintre componente.<br/><br/><strong>Aplicare:</strong> separi datele esențiale de cele secundare înainte de soluționare.<br/><br/><strong>Exemplu:</strong> într-o problemă, delimitezi cerința, condițiile și resursele disponibile.</span></span>",
@@ -10223,12 +10229,6 @@ window.FPH_FLASHCARDS = {
         text: "🧩&nbsp;&nbsp;<span class='tip'><strong>sinteza</strong><span class='tooltip-box'><strong>Definiție:</strong> reunește sau reorganizează elementele analizate într-o structură coerentă (schemă), construind întregul explicativ.<br/><br/><strong>Aplicare:</strong> formulezi explicația sau planul de acțiune pe baza relațiilor dintre elemente.<br/><br/><strong>Exemplu:</strong> după ce identifici factorii, construiești soluția și justificarea ei.</span></span>",
         key: "pink",
       },
-    ])}
-  </div>
-
-  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧰&nbsp;&nbsp;Operații derivate</div>
-    ${window.flashPillList([
       {
         text: "⚖️&nbsp;&nbsp;<span class='tip'><strong>comparația</strong><span class='tooltip-box'><strong>Definiție:</strong> stabilește asemănări și deosebiri între unități <strong>pe baza unui criteriu</strong>.<br/><br/><strong>Exemplu:</strong> compari motivația intrinsecă și extrinsecă după sursa susținerii.</span></span>",
         key: "cyan",
@@ -10304,8 +10304,8 @@ window.FPH_FLASHCARDS = {
         key: "cyan",
       },
       {
-        text: "🔴&nbsp;&nbsp;<span class='tip'><strong>judecată predicativă</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> ce face.<br/><br/><strong>Spus simplu:</strong> atribui o acțiune sau un proces.<br/><br/><strong>Exemplu:</strong> „X produce efecte”.</span></span>",
-        key: "coral",
+        text: "🟣&nbsp;&nbsp;<span class='tip'><strong>judecată predicativă</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> ce face.<br/><br/><strong>Spus simplu:</strong> atribui o acțiune sau un proces.<br/><br/><strong>Exemplu:</strong> „X produce efecte”.</span></span>",
+        key: "pink",
       },
     ])}
   </div>
@@ -10315,7 +10315,8 @@ window.FPH_FLASHCARDS = {
 
     <div style="margin-bottom:10px;">
       <span class='tip'><strong>Definiție</strong><span class='tooltip-box'>
-        <strong>Formulare din lecție:</strong> forme logice fundamentale care constau într-o înlănțuire de judecăți.
+        <strong>Raționamentul</strong> reprezintă o formă logică fundamentală a gândirii, constând într-o înlănțuire organizată de judecăți, în cadrul căreia, pe baza unor <strong>premise</strong>, printr-o <strong>operație de inferență</strong>, se obține o <strong>concluzie</strong>.<br /><br />
+În funcție de direcția și modul de derivare a concluziei, raționamentele pot fi <strong>deductive</strong>, când se pornește de la enunțuri generale pentru a ajunge la cazuri particulare, <strong>inductive</strong>, când se generalizează pe baza unor cazuri particulare, sau <strong>ipotetico-deductive</strong>, când concluzia rezultă din testarea unor ipoteze formulate condițional (formulate condițional, în structuri de tipul „dacă X este adevărat, atunci rezultă Y”, în care validitatea concluziei depinde de acceptarea ipotezei inițiale).
       </span></span>
     </div>
 
@@ -10335,7 +10336,7 @@ window.FPH_FLASHCARDS = {
       },
     ])}
 
-    <div class="pill-header" style="margin-top:12px;"><strong>Tipuri</strong></div>
+    <div class="pill-header" style="margin-top:12px;"><strong>Tipuri de reționamente</strong></div>
     ${window.flashPillList([
       {
         text: "⬇️&nbsp;&nbsp;<span class='tip'><strong>deductive</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> pornesc de la general și ajung la un nivel mai scăzut de generalitate, către particular, aplicarea regulii la caz concret.<br/><br/><strong>Spus simplu:</strong> aplici o regulă generală la un caz.</span></span>",
@@ -10361,31 +10362,64 @@ window.FPH_FLASHCARDS = {
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">⚡&nbsp;&nbsp;Dintr-o privire</div>
     <div style="display:grid;gap:6px;">
-      <div><strong>Activitatea gândirii</strong> = utilizarea aplicată a operațiilor pentru sarcini reale</div>
-      <div><strong>Două forme</strong> = conceptualizarea și înțelegerea</div>
-    </div>
-    <div style="margin-top:10px;">
-<span class='tip'><strong>Au o dimensiune socioculturală</strong><span class='tooltip-box'><strong>Formulare de examen:</strong> operațiile gândirii se aplică pe criterii și categorii învățate. Limbajul, educația și normele unei comunități stabilesc definițiile, sensurile și criteriile de clasificare, deci influențează ce comparăm, cum analizăm și cum sintetizăm.<br/><br/><strong>Legătură cu conceptualizarea:</strong> conceptele se formează prin învățare și se stabilizează prin uzul comun și prin validarea instituțională, de exemplu școala și comunitatea academică.<br/><br/><strong>Legătură cu înțelegerea:</strong> integrarea informațiilor noi depinde de cadrele de sens deja interiorizate, adică de cunoștințe și semnificații transmise cultural.<br/><br/><strong>Exemplu:</strong> în știință, ceea ce numim definiție corectă și criteriu relevant este stabilit prin manuale, cursuri, articole și consensul comunității. De aceea, același fenomen poate fi conceptualizat diferit în contexte culturale sau disciplinare diferite.</span></span>
-    </div>
-  </div>
+   <div>
+   
+  <span class='tip'>
+    <strong>Activitatea gândirii:</strong> utilizarea aplicată a operațiilor gândirii
+    <span class='tooltip-box'>
+      <strong>Formulare de examen:</strong> activitatea gândirii constă în folosirea coordonată a operațiilor fundamentale ale gândirii în vederea rezolvării de sarcini cognitive reale și a construirii de semnificații.
+    </span>
+  </span>
+</div>
+<div style="margin-top:10px;">
+<div>
+  <span class='tip'>
+    <strong>Două forme aplicative:</strong> conceptualizarea și înțelegerea
+    <span class='tooltip-box'>
+      <strong>Formulare de examen:</strong> conceptualizarea și înțelegerea sunt moduri de organizare a activității gândirii în care operațiile gândirii sunt utilizate pentru construirea conceptelor și pentru integrarea informațiilor într un sens coerent.
+    </span>
+  </span>
+</div>
+</div>
+
+<div style="margin-top:10px; margin-bottom:20px;">
+  <span class='tip'>
+    <strong>Dimensiune socioculturală:</strong> criterii și sensuri învățate
+    <span class='tooltip-box'>
+      <strong>Formulare de examen:</strong> deși operațiile gândirii sunt mecanisme cognitive generale, ele sunt puse în lucru în conceptualizare și în înțelegere prin criterii și categorii dobândite social. Limbajul educația și normele comunității stabilesc sensuri definiții și criterii de clasificare influențând selecția relevanței și interpretarea informației.<br/><br/>
+      <strong>Conceptualizare:</strong> conceptele se formează prin învățare și se stabilizează prin uz comun și validare instituțională.<br/><br/>
+      <strong>Înțelegere:</strong> integrarea informațiilor noi depinde de cadre de sens interiorizate cultural care ghidează interpretarea și explicarea.
+    </span>
+  </span>
+</div>
+</div>
+
 
   <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
     <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧱&nbsp;&nbsp;Conceptualizarea</div>
     <div style="margin-bottom:10px;">
-      <strong>Conceptualizarea</strong> organizează conceptele în structuri (adesea ierarhice) prin <span class='tip'><strong>relații necesare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> legături logice stabile bazate pe trăsături esențiale și definiții.</span></span>
+      <strong>Conceptualizarea</strong> organizează conceptele în structuri (adesea ierarhice) prin 
+<span class='tip'><strong>relații necesare</strong>
+  <span class='tooltip-box'>
+    <strong>Formulare de examen:</strong> relațiile sunt numite necesare deoarece decurg din trăsăturile esențiale ale conceptelor și din definițiile lor, nu din asocieri întâmplătoare. Dacă aceste relații sunt ignorate sau schimbate arbitrar, conceptele își pierd coerența și nu mai pot fi clasificate sau utilizate corect.<br/><br/>
+    <strong>Spus simplu:</strong> nu sunt alese la întâmplare ci sunt impuse de ce este un lucru în mod esențial.<br/><br/>
+    <strong>Exemplu:</strong> „câine” este subordonat lui „mamifer” pentru că posedă trăsăturile definitorii ale mamiferelor nu pentru că seamănă accidental cu ele.
+  </span>
+</span>
+
     </div>
 
     ${window.flashPillList([
       {
-        text: "⬇️&nbsp;&nbsp;<span class='tip'><strong>subordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> un concept particular este inclus într-un concept mai general.<br/><br/><strong>Exemplu:</strong> „câine” este subordonat lui „mamifer”.</span></span>",
+        text: "⬇️<span class='tip'><strong>subordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> un concept particular este inclus într-un concept mai general.<br/><br/><strong>Exemplu:</strong> „câine” este subordonat lui „mamifer”.</span></span>",
         key: "teal",
       },
       {
-        text: "↔️&nbsp;&nbsp;<span class='tip'><strong>coordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> două concepte sunt la același nivel de generalitate.<br/><br/><strong>Exemplu:</strong> „câine” și „pisică” sunt coordonate.</span></span>",
+        text: "↔️<span class='tip'><strong>coordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> două concepte sunt la același nivel de generalitate.<br/><br/><strong>Exemplu:</strong> „câine” și „pisică” sunt coordonate.</span></span>",
         key: "pink",
       },
       {
-        text: "⬆️&nbsp;&nbsp;<span class='tip'><strong>supraordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> un concept general include concepte particulare.<br/><br/><strong>Exemplu:</strong> „mamifer” este supraordonat lui „câine”.</span></span>",
+        text: "⬆️<span class='tip'><strong>supraordonare</strong><span class='tooltip-box'><strong>Definiție:</strong> un concept general include concepte particulare.<br/><br/><strong>Exemplu:</strong> „mamifer” este supraordonat lui „câine”.</span></span>",
         key: "violet",
       },
     ])}
@@ -10405,15 +10439,15 @@ window.FPH_FLASHCARDS = {
 
 ${window.flashPillList([
   {
-    text: "🎯&nbsp;&nbsp;<span class='tip'><strong>identificarea unui obiect</strong><span class='tooltip-box'><strong>Spus simplu:</strong> recunoști ce este ceva după trăsături definitorii.<br/><br/><strong>Exemplu:</strong> identifici un tip de judecată după structură.</span></span>",
+    text: "🎯<span class='tip'><strong>identificarea unui obiect</strong><span class='tooltip-box'><strong>Spus simplu:</strong> recunoști ce este ceva după trăsături definitorii.<br/><br/><strong>Exemplu:</strong> identifici un tip de judecată după structură.</span></span>",
     key: "cyan",
   },
   {
-    text: "🎯&nbsp;&nbsp;<span class='tip'><strong>descoperirea principiului de funcționare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi cum funcționează o regulă sau un mecanism.<br/><br/><strong>Exemplu:</strong> vezi cum se ajunge de la premise la concluzie.</span></span>",
+    text: "🎯<span class='tip'><strong>descoperirea principiului de funcționare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi cum funcționează o regulă sau un mecanism.<br/><br/><strong>Exemplu:</strong> vezi cum se ajunge de la premise la concluzie.</span></span>",
     key: "indigo",
   },
   {
-    text: "🎯&nbsp;&nbsp;<span class='tip'><strong>surprinderea relațiilor</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> surprinderea relațiilor dintre obiecte, idei, fenomene.<br/><br/><strong>Spus simplu:</strong> legi idei și fenomene prin relații (de exemplu cauză și efect, condiție și rezultat).<br/><br/><strong>Exemplu:</strong> explici de ce o creștere a motivației poate schimba performanța în funcție de dificultate.</span></span>",
+    text: "🎯<span class='tip'><strong>surprinderea relațiilor</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> surprinderea relațiilor dintre obiecte, idei, fenomene.<br/><br/><strong>Spus simplu:</strong> legi idei și fenomene prin relații (de exemplu cauză și efect, condiție și rezultat).<br/><br/><strong>Exemplu:</strong> explici de ce o creștere a motivației poate schimba performanța în funcție de dificultate.</span></span>",
     key: "emerald",
   },
 ])}
@@ -10428,15 +10462,87 @@ ${window.flashPillList([
 
 ${window.flashPillList([
   {
-    text: "⚡&nbsp;&nbsp;<span class='tip'><strong>înțelegere spontană</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> simplu, spontan.<br/><br/><strong>Spus simplu:</strong> apare rapid, fără pași expliciți.<br/><br/><strong>Exemplu:</strong> prinzi imediat sensul unui enunț clar.</span></span>",
+    text: "⚡<span class='tip'><strong>înțelegere spontană</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> simplu, spontan.<br/><br/><strong>Spus simplu:</strong> apare rapid, fără pași expliciți.<br/><br/><strong>Exemplu:</strong> prinzi imediat sensul unui enunț clar.</span></span>",
     key: "amber",
   },
   {
-    text: "🧾&nbsp;&nbsp;<span class='tip'><strong>înțelegere discursivă</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> discursiv, treptat, prin efort de explorare.<br/><br/><strong>Spus simplu:</strong> se construiește pas cu pas, prin analiză și verificare.<br/><br/><strong>Exemplu:</strong> justifici de ce o concluzie rezultă din premise.</span></span>",
+    text: "🧾<span class='tip'><strong>înțelegere discursivă</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> discursiv, treptat, prin efort de explorare.<br/><br/><strong>Spus simplu:</strong> se construiește pas cu pas, prin analiză și verificare.<br/><br/><strong>Exemplu:</strong> justifici de ce o concluzie rezultă din premise.</span></span>",
     key: "coral",
   },
 ])}
 
+    </div>
+  </div>
+</div>`,
+        },
+        {
+          front:
+            "Definește algoritmica și euristica ca strategii de operare intelectuală și explică diferența dintre ele",
+          back: `<div class='flash-back'>
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">⚡&nbsp;&nbsp;Dintr-o privire</div>
+    <div style="display:grid;gap:8px;">
+      <div><strong>Algoritmica</strong> = pași fixați, reguli precise, soluție sigură</div>
+      <div><strong>Euristica</strong> = explorare flexibilă, ipoteze, ajustări, creativitate</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">💡&nbsp;&nbsp;Strategii de operare intelectuală</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧱&nbsp;&nbsp;<span class='tip'><strong>algoritmica</strong><span class='tooltip-box'><strong>Formulare de examen:</strong> strategie standardizată, alcătuită din operații succesive stabilite prin reguli precise, aplicabilă repetitiv pentru a obține o soluție determinată.<br/><br/><strong>Spus simplu:</strong> urmezi aceeași rețetă de pași și ajungi sigur la rezultat.<br/><br/><strong>Exemplu:</strong> aplici metoda fixă de rezolvare pentru un tip de ecuație.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧩&nbsp;&nbsp;<span class='tip'><strong>euristica</strong><span class='tooltip-box'><strong>Formulare de examen:</strong> strategie flexibilă de explorare a posibilităților, bazată pe încercări, ipoteze și ajustări, orientată spre descoperire și soluții originale, fără garanția unui rezultat unic.<br/><br/><strong>Spus simplu:</strong> cauți prin probe și idei diferite pînă găsești ceva viabil.<br/><br/><strong>Exemplu:</strong> încerci mai multe abordări ca să găsești o soluție creativă.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔁&nbsp;&nbsp;Diferența esențială</div>
+    <div style="display:grid;gap:6px;">
+      <div><strong>Algoritmica</strong> reduce incertitudinea prin reguli și pași fixați</div>
+      <div><strong>Euristica</strong> acceptă incertitudinea și o gestionează prin explorare și ajustare</div>
+    </div>
+  </div>
+</div>`,
+        },
+        {
+          front:
+            "Compară gândirea convergentă cu gândirea divergentă și dă un exemplu pentru fiecare",
+          back: `<div class='flash-back'>
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">⚡&nbsp;&nbsp;Dintr-o privire</div>
+    <div style="display:grid;gap:8px;">
+      <div><strong>Convergentă</strong> = restrînge opțiunile către o soluție corectă</div>
+      <div><strong>Divergentă</strong> = deschide opțiunile și produce alternative multiple</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Definiții</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯&nbsp;&nbsp;<span class='tip'><strong>gândire convergentă</strong><span class='tooltip-box'><strong>Formulare de examen:</strong> orientare cognitivă spre identificarea unei soluții valide unice, prin aplicarea regulilor, analiza condițiilor și verificarea rezultatului.<br/><br/><strong>Spus simplu:</strong> cauți răspunsul corect dintre variante și îl confirmi.<br/><br/><strong>Exemplu:</strong> rezolvi un exercițiu cu răspuns unic, aplicînd o regulă și verificînd dacă rezultatul respectă condițiile.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "💡&nbsp;&nbsp;<span class='tip'><strong>gândire divergentă</strong><span class='tooltip-box'><strong>Formulare de examen:</strong> orientare cognitivă spre generarea mai multor soluții posibile, prin flexibilitate asociativă, variație și explorarea alternativelor înaintea selecției.<br/><br/><strong>Spus simplu:</strong> produci multe idei diferite înainte să alegi una.<br/><br/><strong>Exemplu:</strong> inventezi mai multe utilizări pentru un obiect obișnuit, fără să te oprești la prima idee.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔍&nbsp;&nbsp;Cum le recunoști rapid</div>
+    <div style="display:grid;gap:6px;">
+      <div><strong>Convergentă</strong> întreabă care este soluția corectă</div>
+      <div><strong>Divergentă</strong> întreabă ce alte soluții ar putea exista</div>
     </div>
   </div>
 </div>`,
@@ -10450,79 +10556,387 @@ ${window.flashPillList([
       title: "Curs 9 FLASHCARDS – Motivația",
       cards: [
         {
-          front: "Explică motivația",
-          back: "<strong>Motivația</strong> este un <span class='tip'><span class='tooltip-box'>Nevoi interne fiziologice sau psihologice.</span><strong>ansamblu de stări de necesitate</strong></span> cu <span class='tip'><span class='tooltip-box'>Pun organismul în mișcare.</span><strong>proprietate de activare</strong></span> și <span class='tip'><span class='tooltip-box'>Orientează acțiunea spre satisfacerea nevoii.</span><strong>stimulare a comportamentului</strong></span>, determinând conduita orientată spre scop.",
+          front: "Definește motivația și prezintă pe scurt funcțiile ei",
+          back: `<div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div>
+    <span class='tip'><strong>Motivația</strong>
+      <span class='tooltip-box'>
+        <strong>Formulare academică:</strong> ansamblu de stări interne de necesitate, exprimate ca lipsuri sau tensiuni, care declanșează și susțin conduite orientate spre satisfacerea lor.<br/><br/>
+        <strong>Spus simplu:</strong> nevoile interne pun organismul în mișcare.<br/><br/>
+        <strong>Exemplu:</strong> foamea te mobilizează să cauți mâncare.
+      </span>
+    </span>
+  </div>
+
+  <div class="pill-header" style="margin-top:12px;">
+    <strong>Două elemente cheie</strong>: componente interne ale motivației
+  </div>
+
+  ${window.flashPillList([
+    {
+      text: "⚡<span class='tip'><strong>activare internă</strong><span class='tooltip-box'><strong>Ce este:</strong> componenta energetică a motivației.<br/><br/><strong>Spus simplu:</strong> energia care pornește acțiunea.<br/><br/><strong>Stare de tensiune:</strong> apare o lipsă care cere rezolvare.<br/><br/><strong>Formulare academică:</strong> tensiunea internă activează conduita.<br/><br/><strong>Legătură:</strong> oferă energia pe care direcționarea o canalizează spre scop.<br/><br/><strong>Exemplu:</strong> nevoia de somn te împinge să te odihnești.</span></span>",
+      key: "amber",
+    },
+    {
+      text: "🧭<span class='tip'><strong>direcționare</strong><span class='tooltip-box'><strong>Ce este:</strong> componenta de orientare a motivației.<br/><br/><strong>Spus simplu:</strong> comportamentul capătă scop.<br/><br/><strong>Orientare spre satisfacere:</strong> nu faci orice, ci ceea ce rezolvă nevoia.<br/><br/><strong>Formulare academică:</strong> motivația organizează conduita către scopuri.<br/><br/><strong>Legătură:</strong> dă sens energiei activate și o conduce către satisfacere.<br/><br/><strong>Exemplu:</strong> alegi acțiuni care chiar reduc tensiunea.</span></span>",
+      key: "cyan",
+    },
+  ])}
+</div>
+
+<div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Funcțiile motivației</div>
+
+  ${window.flashPillList([
+    {
+      text: "🔔<span class='tip'><strong>activare și semnalizare</strong><span class='tooltip-box'><strong>Ce face:</strong> face vizibil dezechilibrul și pornește reacția.<br/><br/><strong>Spus simplu:</strong> indică dezechilibrul intern, e ceva de rezolvat.<br/><br/><strong>Formulare academică:</strong> semnalizează starea de necesitate și activează organismul.<br/><br/><strong>Exemplu:</strong> disconfortul foamei.</span></span>",
+      key: "teal",
+    },
+    {
+      text: "⚙️<span class='tip'><strong>energizare și direcționare</strong><span class='tooltip-box'><strong>Ce face:</strong> menține intensitatea efortului și îl orientează spre scop.<br/><br/><strong>Spus simplu:</strong> am energie și știu unde merg.<br/><br/><strong>Formulare academică:</strong> intensitatea și direcția conduitei sunt susținute motivațional.<br/><br/><strong>Exemplu:</strong> studiezi constant pentru un examen.</span></span>",
+      key: "violet",
+    },
+    {
+      text: "🧭<span class='tip'><strong>autoreglare</strong><span class='tooltip-box'><strong>Ce face:</strong> selectează și ajustează conduita în funcție de scop.<br/><br/><strong>Spus simplu:</strong> alegi ce e potrivit scopului, reduci distragerile și ajustezi acțiunea.<br/><br/><strong>Formulare academică:</strong> controlează și ajustează comportamentul în funcție de scopuri.<br/><br/><strong>Exemplu:</strong> îți reorganizezi timpul când apar obstacole.</span></span>",
+      key: "emerald",
+    },
+  ])}
+</div>`,
         },
 
         {
-          front: "Explică funcțiile fundamentale ale motivației",
-          back: "Motivația îndeplinește <span class='tip'><span class='tooltip-box'>Semnalează apariția unei stări de lipsă.</span><strong>funcția de activare internă și semnalizare a dezechilibrului</strong></span>, <span class='tip'><span class='tooltip-box'>Furnizează energie și orientare.</span><strong>funcția de energizare și direcționare</strong></span> și <span class='tip'><span class='tooltip-box'>Controlează și ajustează conduita.</span><strong>funcția de autoreglare a conduitei</strong></span>.",
+          front: "Definește structurile motivației",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div>
+      <span class='tip'><strong>Structuri motivaționale</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu sunt impulsuri trecătoare ci forme care ghidează conduita pe termen lung.<br/><br/>
+          <strong>Formulare academică:</strong> structuri care mențin orientarea către scopuri și dau coerență acțiunii.<br/><br/>
+          <strong>Exemplu:</strong> interesele și convingerile te fac să alegi constant domenii asemănătoare.
+        </span>
+      </span>
+    = forme relativ stabile prin care motivația se organizează în timp</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌&nbsp;&nbsp;Structuri principale</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔥<span class='tip'><strong>trebuințe</strong><span class='tooltip-box'><strong>Formulare academică:</strong> forțe motrice fundamentale care mențin echilibrul bio-psiho-social și mobilizează conduite de satisfacere.<br/><br/><strong>Tipuri:</strong> <strong>primare</strong> înnăscute, biologice (foame, sete, somn, mișcare). <strong>secundare</strong> dobândite, psiho-sociale (comunicare, confort, autoactualizare).<br/><br/><strong>Când nu sunt satisfăcute:</strong> tensiune crescută și pot apărea inhibare sau compensare.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🎯<span class='tip'><strong>motive</strong><span class='tooltip-box'><strong>Formulare academică:</strong> forțe motrice care declanșează, susțin și direcționează acțiunea.<br/><br/><strong>Rol:</strong> declanșează acțiunea, susține energetic efortul și îl direcționează către scop.<br/><br/><strong>Constelații motivaționale</strong> (moduri de relaționare între motive): <strong>optare și coroborare</strong> (alegere sau combinare) apar atunci când selectezi un motiv dominant sau când mai multe motive se sprijină reciproc și sunt urmărite împreună. <strong>conflict</strong> apare atunci când două motive intră în opoziție și solicită alegeri incompatibile.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🔎<span class='tip'><strong>interese</strong><span class='tooltip-box'><strong>Formulare academică:</strong> orientări selective și relativ stabile către anumite activități și domenii, reprezentând formațiuni motivaționale complexe, cu durată și consistență în timp.<br/><br/><strong>Caracteristici:</strong> <strong>selectivitate</strong> (nu orice activitate atrage în aceeași măsură) și <strong>stabilitate</strong> (se mențin pe termen lung).<br/><br/><strong>Efect formativ:</strong> favorizează dezvoltarea competențelor și crește persistența în activitate.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧷<span class='tip'><strong>convingeri</strong><span class='tooltip-box'><strong>Formulare academică:</strong> judecăți puternic impregnate afectiv, legate de valori, care mobilizează și orientează comportamentul prin semnificația lor personală.<br/><br/><strong>Trăsături principale:</strong> <strong>încărcătură afectivă</strong> (sunt trăite intens) și <strong>legătură cu valori</strong> (devin criterii de decizie și acțiune).</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏔️<span class='tip'><strong>idealuri</strong><span class='tooltip-box'><strong>Formulare academică:</strong> modele valorice de perfecțiune către care individul aspiră și care exercită un rol de ghidare pe termen lung asupra conduitei.<br/><br/><strong>Structură:</strong> idealul integrează un scop sau sens al vieții, formulat la un anumit nivel de aspirații și reprezentat printr un model idealizat care ghidează conduita.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică structurile motivaționale",
-          back: "<strong>Structurile motivaționale</strong> sunt <span class='tip'><span class='tooltip-box'>Forme relativ stabile ale motivației.</span><strong>modalități de organizare și exprimare a motivației</strong></span> în conduită, incluzând <strong>trebuințe</strong>, <strong>motive</strong>, <strong>interese</strong>, <strong>convingeri</strong> și <strong>idealuri</strong>.",
-        },
+          front: "Prezintă formele motivației și explică optimul motivațional",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Explică trebuințele",
-          back: "<strong>Trebuințele</strong> sunt <span class='tip'><span class='tooltip-box'>Surse interne de energie.</span><strong>forțe motrice fundamentale</strong></span> care mențin <span class='tip'><span class='tooltip-box'>Echilibrul fiziologic psihic și social.</span><strong>echilibrul bio-psiho-social</strong></span>. Ele pot fi <strong>primare</strong> (foame sete somn mișcare) sau <strong>secundare</strong> (comunicare confort autoactualizare). Nesatisfacerea lor amplifică tensiunea sau duce la mecanisme de apărare.",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div><strong> <span class='tip'><strong>Forme ale motivației</strong>
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> formele descriu moduri diferite de susținere și orientare a conduitei prin criterii de clasificare precum sursa (intrinsecă vs extrinsecă), direcția (pozitivă vs negativă) și conținutul (cognitiv vs afectiv).
+        </span>
+      </span></strong> = moduri de orientare a conduitei după diverse criterii</div>
+      <div><strong>Optimum motivațional</strong> = potrivirea intensității și motivației cu dificultatea sarcinii</div>
+    </div>
+  </div>
 
-        {
-          front: "Explică motivele",
-          back: "<strong>Motivul</strong> este o <span class='tip'><span class='tooltip-box'>Trebuință devenită conștientă.</span><strong>trebuință conștientizată</strong></span> care <span class='tip'><span class='tooltip-box'>Inițiază și menține acțiunea.</span><strong>declanșează susține și direcționează comportamentul</strong></span>. Motivele se organizează în <span class='tip'><span class='tooltip-box'>Configurații dinamice.</span><strong>constelații motivaționale</strong></span> de tip <strong>optare</strong>, <strong>coroborare</strong> și <strong>conflict</strong>.",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Perechi fundamentale ale formelor motivației (raportat la sursa, direcția și conținutul ei)</div>
+    ${window.flashPillList([
+      {
+        text: "🎁<span class='tip'><strong>intrinsecă vs extrinsecă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți place activitatea sau o faci pentru beneficii externe.<br/><br/><strong>Exemplu:</strong> citești din interes sau pentru notă.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "➕<span class='tip'><strong>pozitivă vs negativă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mergi spre ceva dorit sau eviți ceva neplăcut.<br/><br/><strong>Exemplu:</strong> cauți recompensă sau eviți pedeapsă.</span></span>",
+        key: "teal",
+      },
 
-        {
-          front: "Explică interesele",
-          back: "<strong>Interesele</strong> sunt <span class='tip'><span class='tooltip-box'>Orientări stabile către domenii de activitate.</span><strong>formațiuni motivaționale complexe</strong></span> cu componentă <span class='tip'><span class='tooltip-box'>Gândire afect și voință.</span><strong>cognitivă afectivă și volitivă</strong></span>, având <span class='tip'><span class='tooltip-box'>Contribuie la dezvoltarea personalității.</span><strong>efect formativ</strong></span>.",
-        },
+      {
+        text: "💡<span class='tip'><strong>cognitivă vs afectivă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vrei să cunoști sau să te simți bine cu ceilalți.<br/><br/><strong>Exemplu:</strong> curiozitate sau nevoia de atașament.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
 
-        {
-          front: "Explică convingerile",
-          back: "<strong>Convingerile</strong> sunt <span class='tip'><span class='tooltip-box'>Idei încărcate emoțional.</span><strong>judecăți puternic impregnate afectiv</strong></span>, legate de <span class='tip'><span class='tooltip-box'>Setul personal de valori.</span><strong>sistemul valoric</strong></span>, care <span class='tip'><span class='tooltip-box'>Mobilizează conduita.</span><strong>orientează comportamentul</strong></span>.",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Definiție:</strong> optimum motivațional
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> performanța maximă se obține prin potrivirea motivației cu cerințele sarcinii astfel încât intensitatea motivației să se potrivească dificultății.<br/><br/>
+          <strong>Spus simplu:</strong> nici prea mult, nici prea puțin, pentru ce ai de făcut.
+        </span>
+      </span>
+    </div>
+    <hr class="hr-flash">
 
-        {
-          front: "Explică idealurile",
-          back: "<strong>Idealurile</strong> sunt <span class='tip'><span class='tooltip-box'>Modele de perfecțiune.</span><strong>formațiuni motivaționale puternice</strong></span> care ghidează viața individului. Ele includ <strong>sensul vieții</strong>, <strong>nivelul de aspirații</strong> și <strong>modelul idealizat</strong>.",
-        },
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">⚖️&nbsp;&nbsp;Evaluarea dificultății</div>
+    ${window.flashPillList([
+      {
+        text: "✅&nbsp;&nbsp;<span class='tip'><strong>percepție corectă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ajustezi efortul potrivit sarcinii.<br/><br/><strong>Exemplu:</strong> îți organizezi timpul realist pentru o sarcină dificilă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⚠️&nbsp;&nbsp;<span class='tip'><strong>sub sau supraapreciere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare dezechilibrul motivației fie te relaxezi prea mult fie te blochezi prin stres.<br/><br/><strong>Exemplu:</strong> subestimezi sarcina și nu mai performezi.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
 
-        {
-          front: "Explică formele motivației",
-          back: "Motivația poate fi <span class='tip'><span class='tooltip-box'>Bazată pe recompense sau evitarea pedepsei.</span><strong>pozitivă și negativă</strong></span>, <span class='tip'><span class='tooltip-box'>Plăcerea activității versus recompense externe.</span><strong>intrinsecă și extrinsecă</strong></span> și <span class='tip'><span class='tooltip-box'>Nevoia de cunoaștere sau de relaționare.</span><strong>cognitivă și afectivă</strong></span>.",
-        },
-
-        {
-          front: "Explică optimumul motivațional",
-          back: "<strong>Optimumul motivațional</strong> apare când <span class='tip'><span class='tooltip-box'>Efortul este proporțional cu dificultatea.</span><strong>intensitatea motivației este adecvată dificultății sarcinii</strong></span>. Supraaprecierea sau subaprecierea dificultății produce dezechilibru și scade performanța.",
-        },
-
-        {
-          front: "Explică teoria autodeterminării",
-          back: "<strong>Teoria autodeterminării</strong> afirmă că oamenii sunt <span class='tip'><span class='tooltip-box'>Își dirijează propria dezvoltare.</span><strong>agenți activi ai schimbării</strong></span>, având o <span class='tip'><span class='tooltip-box'>Curiozitate și dorință internă.</span><strong>tendință naturală de explorare și învățare</strong></span>. Comportamentul se reglează pe un continuum de la <strong>reglare externă</strong> la <strong>reglare internă</strong>.",
-        },
-
-        {
-          front: "Explică teoria expectanță valoare",
-          back: "<strong>Teoria expectanță valoare</strong> susține că motivația depinde de <span class='tip'><span class='tooltip-box'>Credința în reușită.</span><strong>expectanță</strong></span> și de <span class='tip'><span class='tooltip-box'>Importanța și atractivitatea sarcinii.</span><strong>valoarea activității</strong></span>, influențate de credințe personale experiențe afective și dificultatea percepută.",
-        },
-
-        {
-          front: "Explică scopurile motivaționale în reușita academică",
-          back: "În reușita academică apar <span class='tip'><span class='tooltip-box'>Accent pe progres și înțelegere.</span><strong>scopuri de perfecționare</strong></span> și <span class='tip'><span class='tooltip-box'>Accent pe comparație socială.</span><strong>scopuri de performanță</strong></span>, care sunt relativ stabile și influențează implicarea în învățare.",
+</div>`,
         },
 
         {
           front:
-            "Explică rolul mediului educațional în motivația pentru învățare",
-          back: "Conform <strong>Carole Ames</strong>, motivația pentru învățare este influențată de <span class='tip'><span class='tooltip-box'>Tipul și sensul activităților.</span><strong>sarcinile de învățare</strong></span>, <span class='tip'><span class='tooltip-box'>Nivelul de autonomie.</span><strong>autoritatea exercitată</strong></span> și <span class='tip'><span class='tooltip-box'>Feedback și accent pe progres.</span><strong>modalitatea de evaluare</strong></span>.",
+            "Explică teoria auto-determinării (Deci și Ryan) și diferența dintre reglare externă și reglare internă",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div><span class='tip'><strong>Teoria auto-determinării</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> nu doar reacționezi, ci te auto organizezi.<br/><br/>
+          <strong>Formulare academică:</strong> individul are inițiativă și tendință de dezvoltare autonomă, fiind agent activ al propriei schimbări.<br/><br/>
+          <strong>Exemplu:</strong> înveți pentru că vrei să înțelegi, nu doar pentru notă.
+        </span>
+      </span>
+     = oamenii sunt agenți activi ai propriei schimbări</div>
+       <div>
+      <span class='tip'><strong>Reglare</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> modul în care este controlată și asumată motivația.<br/><br/>
+          <strong>Formulare academică:</strong> reglarea motivațională descrie gradul în care comportamentul este determinat din exterior sau este interiorizat și asumat de individ.<br/><br/>
+          <strong>Continuu motivațional:</strong> de la reglare externă, bazată pe presiuni, recompense sau constrângeri, la reglare internă, bazată pe autonomie, sens personal și asumare.<br/><br/>
+          <strong>Formulare de examen:</strong> motivația nu este doar externă sau internă, ci se distribuie pe un continuum al reglării, în funcție de nivelul de interiorizare.
+        </span>
+      </span>
+      = continuum de la reglare externă (presiune) la reglare internă (asumare)
+    </div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌 Idei cheie</div>
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>agent activ</strong><span class='tooltip-box'><strong>Spus simplu:</strong> inițiativă și auto organizare.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🔎<span class='tip'><strong>explorare și învățare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> curiozitate internă.</span></span>",
+        key: "cyan",
+      },
+    ])}
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧾 Reglare externă și reglare internă (continuum-ul reglării)</div>
+    ${window.flashPillList([
+      {
+        text: "📢<span class='tip'><strong>reglare externă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> presiuni, recompense și cerințe, faci ceva pentru că trebuie.<br/><br/><strong>Exemplu:</strong> înveți doar pentru notă.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🌱<span class='tip'><strong>reglare internă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> autonomie și asumare, faci ceva pentru că are sens pentru tine.<br/><br/><strong>Exemplu:</strong> studiezi din interes real.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică abordarea umanistă a motivației",
-          back: "<strong>Teoriile umaniste</strong> văd motivația ca <span class='tip'><span class='tooltip-box'>Tendință spre dezvoltare și sens.</span><strong>nevoie de autoactualizare</strong></span>. La <strong>Maslow</strong>, motivația pentru învățare este susținută de nevoi superioare, iar la <strong>Rogers</strong> de un climat bazat pe acceptare empatie și autenticitate.",
+          front: "Explică teoria expectanță-valoare (Wigfield și Eccles)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div> <span class='tip'><strong>Teoria expectanță-valoare</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> dacă crezi că poți și îți pasă, te implici mai mult.<br/><br/>
+<strong>Formulare academică:</strong> teoria expectanță-valoare susține că implicarea în sarcină este determinată de două componente: expectanța de reușită, adică evaluarea probabilității personale de succes, și valoarea acordată sarcinii, adică importanța, utilitatea și interesul percepute; cu cât ambele sunt mai ridicate, cu atât efortul, persistența și angajarea cresc.
+          <strong>Exemplu:</strong> te pregătești intens când îți pasă și crezi că poți reuși.
+        </span>
+      </span> = motivația depinde de credința în reușită și de valoarea acordată sarcinii</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩 Componente</div>
+    ${window.flashPillList([
+      {
+        text: "🎯<span class='tip'><strong>expectanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „pot reuși”, adică încredere în succes și evaluarea propriei competențe.<br/><br/><strong>Exemplu:</strong> te apuci de un proiect dacă simți că îl poți duce.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "⭐<span class='tip'><strong>valoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „merită pentru mine”, adică importanță, utilitate și interes.<br/><br/><strong>Exemplu:</strong> înveți mai mult la ceva care contează pentru viitorul tău.</span></span>",
+        key: "amber",
+      },
+    ])}
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌 Ce le influențează</div>
+    ${window.flashPillList([
+      {
+        text: "📍<span class='tip'><strong>credințe și imagine de sine</strong><span class='tooltip-box'><strong>Spus simplu:</strong> autoevaluarea competenței schimbă atât expectanța, cât și implicarea.<br/><br/><strong>Exemplu:</strong> dacă te consideri bun la un domeniu, investești mai mult.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⚙️<span class='tip'><strong>dificultatea percepută și experiențe anterioare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dificultatea percepută și istoricul emoțional influențează așteptările de reușită.<br/><br/><strong>Exemplu:</strong> eșecurile repetate reduc expectanța.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Raportat la teoriile motivaționale privind reușita academică, diferențiază scopurile de perfecționare și scopurile de performanță",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div>🏆&nbsp;&nbsp;<span class='tip'><strong>Reușita academică</strong>
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> orientările motivaționale în context educațional au o stabilitate relativă între situații de învățare, deoarece elevul sau studentul tinde să urmărească în mod repetat aceleași tipuri de scopuri, care devin repere relativ stabile ale conduitei academice.
+        </span>
+      </span> = scopuri relativ stabile în context educațional</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="\${FLASH_TITLE_STYLE}">🎯&nbsp;&nbsp;
+  <span class='tip'><strong>Scopuri de învățare</strong><span class='tooltip-box'>
+    <strong>Diferențiere (formulare de examen):</strong> scopurile de învățare se organizează în două orientări principale: <strong>scopuri de perfecționare</strong>, centrate pe progres, înțelegere și dezvoltare personală, respectiv <strong>scopuri de performanță</strong>, centrate pe rezultate, comparație socială și evitarea evaluării negative.<br/><br/>
+    <strong>Criteriul distinctiv:</strong> la perfecționare contează îmbunătățirea competenței proprii, iar la performanță contează poziționarea față de ceilalți și validarea prin evaluare.<br/><br/>
+    <strong>Exemplu sintetic:</strong> „învăț ca să înțeleg și să devin mai bun” (perfecționare) vs „învăț ca să obțin o notă mai mare decât ceilalți și să nu fiu evaluat negativ” (performanță).
+  </span></span>
+</div>
+    ${window.flashPillList([
+      {
+        text: "🧩<span class='tip'><strong>perfecționare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează să înțelegi și să devii mai bun, cu accent pe dezvoltare personală.<br/><br/><strong>Exemplu:</strong> înveți pentru claritate și competență.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏆<span class='tip'><strong>performanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează rezultatele și comparația, vrei să fii mai bun decât ceilalți și să eviți evaluarea negativă.<br/><br/><strong>Exemplu:</strong> te compari constant cu colegii.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Prezintă teorii umaniste ale motivației (Maslow, Rogers)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div><span class='tip'><strong>Teorii umaniste ale motivației</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> oamenii sunt motivați să crească și să se împlinească, nu doar să obțină recompense.<br/><br/>
+          <strong>Academic:</strong> teoriile umaniste definesc motivația ca tendință orientată spre dezvoltare personală, sens și autoactualizare, prin care individul urmărește împlinirea potențialului propriu și construirea unei vieți cu semnificație.<br/><br/>
+          <strong>Exemplu:</strong> înveți susținut pentru a deveni mai competent și mai autentic, nu doar pentru o notă.
+        </span>
+      </span> = tendință spre creștere, sens și autoactualizare</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌 Repere umaniste</div>
+    ${window.flashPillList([
+      {
+        text: "🗻<span class='tip'><strong>Maslow</strong> - ierarhia nevoilor<span class='tooltip-box'><strong>Simplu spus:</strong> nevoile se organizează pe niveluri, iar motivația urcă spre nevoi mai înalte.<br/><br/><strong>Academic:</strong> perspectiva lui Maslow descrie o ierarhie a nevoilor, în care, pe măsură ce nevoile de bază sunt satisfăcute, devin dominante nevoile superioare, precum apartenența, stima și autoactualizarea, care pot susține implicarea în învățare ca formă de împlinire.<br/><br/><strong>Exemplu:</strong> când te simți acceptat și valorizat, studiezi pentru dezvoltare și autoactualizare.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🤝<span class='tip'><strong>Rogers</strong> - climat relațional favorabil<span class='tooltip-box'><strong>Simplu spus:</strong> înveți mai bine când mediul te acceptă și te înțelege.<br/><br/><strong>Academic:</strong> perspectiva lui Rogers accentuează rolul climatului relațional favorabil în susținerea dezvoltării, prin acceptare, empatie și autenticitate, condiții care reduc anxietatea și facilitează asumarea învățării și creșterea motivației interne.<br/><br/><strong>Exemplu:</strong> un profesor empatic și autentic crește implicarea, pentru că elevul se simte în siguranță să încerce și să greșească.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+        {
+          front:
+            "Explică importanța mediului educațional în motivația pentru învățare",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:8px;">
+      <div><span class='tip'><strong>Mediul educațional</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> motivația pentru învățare depinde de sarcini, de cât control ai și de cum ești evaluat.<br/><br/>
+          <strong>Academic:</strong> mediul educațional modelează orientarea motivațională prin dimensiuni didactice specifice, întrucât tipul sarcinilor, distribuția autorității și forma evaluării influențează inițierea, intensitatea și autoreglarea conduitei de învățare.<br/><br/>
+          <strong>Exemplu:</strong> sarcini relevante, autonomie în lucru și feedback constructiv cresc implicarea și persistența.
+        </span>
+      </span> influențează orientarea motivațională prin sarcini, autoritate și evaluare</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩 Cele trei dimensiuni</div>
+    ${window.flashPillList([
+      {
+        text: "📚<span class='tip'><strong>sarcinile</strong><span class='tooltip-box'><strong>Simplu spus:</strong> ce ai de făcut și cât sens are pentru tine.<br/><br/><strong>Academic:</strong> sarcinile definesc tipul, nivelul de provocare și relevanța activităților, orientând implicarea spre învățare semnificativă sau spre executare formală.<br/><br/><strong>Exemplu:</strong> proiecte aplicate, legate de viața reală, cresc interesul și efortul susținut.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧭<span class='tip'><strong>autoritatea</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cât control ai și câtă autonomie primești.<br/><br/><strong>Academic:</strong> autoritatea exprimă modul de distribuire a controlului didactic și gradul de autonomie acordat, ceea ce influențează asumarea sarcinii și interiorizarea motivației.<br/><br/><strong>Exemplu:</strong> când poți alege strategia sau tema, crește motivația internă și persistența.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "✅<span class='tip'><strong>evaluarea</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cum primești feedback și după ce criterii ești judecat.<br/><br/><strong>Academic:</strong> evaluarea stabilește criteriile de reușită și tipul de feedback, influențând orientarea spre progres sau spre protejarea imaginii, precum și reglarea efortului în învățare.<br/><br/><strong>Exemplu:</strong> feedbackul clar, orientat pe îmbunătățire, susține implicarea și reduce anxietatea.</span></span>",
+        key: "violet",
+      },
+    ])}
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🌱 Efect asupra motivației</div>
+    ${window.flashPillList([
+      {
+        text: "📚<span class='tip'><strong>sarcini semnificative</strong><span class='tooltip-box'><strong>Simplu spus:</strong> când sarcina are sens, te implici mai mult.<br/><br/><strong>Academic:</strong> sarcinile semnificative, prin relevanță și provocare adecvată, cresc interesul, intensifică implicarea și susțin motivația intrinsecă pentru învățare.<br/><br/><strong>Exemplu:</strong> proiecte legate de situații reale, care cer aplicare și reflecție.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "✅<span class='tip'><strong>evaluare constructivă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> feedbackul te ajută să știi cum să progresezi.<br/><br/><strong>Academic:</strong> evaluarea constructivă oferă feedback orientat spre îmbunătățire și oportunități de revizuire, ceea ce susține autoreglarea învățării și diminuează anxietatea asociată evaluării.<br/><br/><strong>Exemplu:</strong> corecții explicite, însoțite de pași de remediere și posibilitatea de refacere.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -10533,53 +10947,285 @@ ${window.flashPillList([
       title: "Curs 10 FLASHCARDS – Afectivitatea",
       cards: [
         {
-          front: "Explică afectivitatea",
-          back: "<strong>Afectivitatea</strong> reprezintă <span class='tip'><span class='tooltip-box'>Modul subiectiv în care individul trăiește relația cu lumea.</span><strong>rezonanța internă</strong></span> a relației dintre individ și mediu.<br><br>Rezultă din aprecierea <span class='tip'><span class='tooltip-box'>Potrivirea dintre ce vrea așteaptă și ce se întâmplă.</span><strong>concordanței</strong></span> dintre <span class='tip'><span class='tooltip-box'>Motive interese așteptări.</span><strong>stările interne</strong></span> și <span class='tip'><span class='tooltip-box'>Cerințe evenimente condiții.</span><strong>situația externă</strong></span>.",
+          front: "Definește afectivitatea și explică procesele ei de bază",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:10px;">
+      <div>
+        <span class='tip'><strong>Definiție:</strong> afectivitatea
+          <span class='tooltip-box'>
+            <strong>Formulare academică:</strong> afectivitatea reprezintă rezonanța internă a relației individului cu realitatea, exprimată ca trăire subiectivă și semnificare personală a situațiilor, în funcție de relevanța lor pentru trebuințe, motive și valori.<br/><br/>
+            <strong>Spus simplu:</strong> felul în care trăiești pe dinăuntru ceea ce ți se întâmplă.<br/><br/>
+            <strong>Exemplu:</strong> aceeași situație poate fi trăită ca plăcută sau amenințătoare.
+          </span>
+        </span>
+      </div>
+
+      <div><strong>Idee cheie</strong>: trăirea apare din potrivirea sau nepotrivirea dintre ce contează pentru tine și ce se întâmplă în exterior.</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Concordanță sau neconcordanță</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯<span class='tip'><strong>raport intern</strong><span class='tooltip-box'><strong>Ce include:</strong> motive, interese, așteptări.<br/><br/><strong>Formulare academică:</strong> procesele afective sunt condiționate de sistemul motivațional și de așteptările individului, deoarece acestea stabilesc semnificația personală a situațiilor.<br/><br/><strong>Spus simplu:</strong> ce contează pentru tine în interior.<br/><br/><strong>Exemplu:</strong> dacă îți pasă de rezultat, trăiești mai intens.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🌍<span class='tip'><strong>situația externă</strong><span class='tooltip-box'><strong>Ce include:</strong> contextul real, evenimentul, cerințele și consecințele.<br/><br/><strong>Formulare academică:</strong> afectivitatea reflectă concordanța sau neconcordanța dintre cerințele situației și raportarea internă a individului, generând trăiri pozitive când există potrivire și trăiri negative când apare nepotrivire.<br/><br/><strong>Spus simplu:</strong> ce se întâmplă în exterior.<br/><br/><strong>Exemplu:</strong> când realitatea se potrivește cu așteptările, trăirea tinde să fie pozitivă.</span></span>",
+        key: "teal",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică natura proceselor afective",
-          back: "<strong>Procesele afective</strong> sunt <span class='tip'><span class='tooltip-box'>Trăiri subiective în interacțiunea semnificativă cu mediul.</span><strong>experiențe subiective</strong></span> și se asociază cu <span class='tip'><span class='tooltip-box'>Reacții corporale și modificări interne.</span><strong>modificări fiziologice ample</strong></span>.<br><br>Evaluarea afectivă are caracter <span class='tip'><span class='tooltip-box'>Plăcut sau neplăcut.</span><strong>polar</strong></span> și poate avea rol <span class='tip'><span class='tooltip-box'>Poate porni sau poate opri conduita.</span><strong>activator sau inhibitor</strong></span> al comportamentului.",
+          front:
+            "Descrie specificul afectivității prin natura și trăsăturile ei",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Natura proceselor afective</strong>
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> procesele afective sunt experiențe subiective cu sens personal, apărute în interacțiunea semnificativă a individului cu mediul, prin evaluarea situațiilor în raport cu trebuințele, motivele și valorile proprii.<br/><br/>
+          <strong>Spus simplu:</strong> trăiri care apar când evaluezi o situație ca importantă pentru tine.<br/><br/>
+          <strong>Exemplu:</strong> aceeași critică poate fi trăită ca utilă sau ca dureroasă.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Trăsături de bază</div>
+
+    ${window.flashPillList([
+      {
+        text: "🫀<span class='tip'><strong>componentă fiziologică</strong><span class='tooltip-box'><strong>Formulare academică:</strong> trăirile afective se însoțesc de reacții fiziologice și somatice semnificative, care susțin adaptarea și pregătirea organismului pentru acțiune.<br/><br/><strong>Spus simplu:</strong> corpul reacționează când simți ceva.<br/><br/><strong>Exemplu:</strong> crește pulsul când apare teama.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "⚖️<span class='tip'><strong>polaritate</strong><span class='tooltip-box'><strong>Formulare academică:</strong> evaluarea afectivă are caracter polar, organizând trăirea pe axa plăcut neplăcut, în funcție de concordanța sau neconcordanța cu ceea ce este relevant pentru individ.<br/><br/><strong>Spus simplu:</strong> simți ca bine sau ca rău.<br/><br/><strong>Exemplu:</strong> bucurie și teamă.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🔋<span class='tip'><strong>rol activator sau inhibitor</strong><span class='tooltip-box'><strong>Formulare academică:</strong> afectivitatea poate mobiliza sau poate frâna conduita, influențând inițierea, intensitatea și persistența acțiunii prin valoarea subiectivă atribuită situației.<br/><br/><strong>Spus simplu:</strong> te împinge să acționezi sau te oprește.<br/><br/><strong>Exemplu:</strong> entuziasmul mobilizează, frica poate bloca.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică manifestarea și expresivitatea proceselor afective",
-          back: "Procesele afective sunt <span class='tip'><span class='tooltip-box'>Exprimate prin cuvinte gesturi mimicǎ semne.</span><strong>codificate simbolic</strong></span> prin <span class='tip'><span class='tooltip-box'>Comunicare emoțională cu rol adaptativ.</span><strong>limbaj emoțional</strong></span>.<br><br>Caracterul expresiv presupune <span class='tip'><span class='tooltip-box'>Pot fi observate și interpretate între culturi.</span><strong>interpretare transculturală</strong></span>.<br><br><strong>Contagiunea afectivă</strong> înseamnă că <span class='tip'><span class='tooltip-box'>O stare poate cuprinde emoțional mai mulți oameni.</span><strong>o stare se transmite</strong></span> și angrenează mai mulți indivizi.",
+          front:
+            "Explică expresivitatea afectivă și modul de manifestare socială",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:10px;">
+      <div>
+        <span class='tip'><strong>Expresivitate</strong>
+          <span class='tooltip-box'>
+            <strong>Formulare academică:</strong> expresivitatea afectivă reprezintă ansamblul semnelor verbale și nonverbale prin care trăirile se exteriorizează, devin comunicabile și îndeplinesc funcții adaptative și comunicaționale în interacțiunea socială.<br/><br/>
+            <strong>Spus simplu:</strong> ceea ce simți se vede și se poate transmite.<br/><br/>
+            <strong>Exemplu:</strong> spui „sunt frustrat”, îți schimbă tonul vocii și mimica.
+          </span>
+        </span>
+        = limbaj emoțional comunicabil
+      </div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Cum se manifestă</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌍<span class='tip'><strong>recunoaștere largă</strong><span class='tooltip-box'><strong>Formulare academică:</strong> o parte a expresiilor afective are caracter relativ general, fiind recognoscibilă în contexte culturale diferite, ceea ce facilitează coordonarea socială și reacția rapidă la semnale emoționale.<br/><br/><strong>Spus simplu:</strong> unele expresii sunt ușor de recunoscut aproape oriunde.<br/><br/><strong>Exemplu:</strong> frica și bucuria sunt interpretate rapid.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌊<span class='tip'><strong>contagiune afectivă</strong><span class='tooltip-box'><strong>Formulare academică:</strong> trăirile afective pot fi transmise în grup prin mecanisme de influență socială, contribuind la formarea unei atmosfere emoționale comune și la reglarea comportamentului colectiv.<br/><br/><strong>Spus simplu:</strong> emoția unuia poate cuprinde și pe ceilalți.<br/><br/><strong>Exemplu:</strong> entuziasmul dintr o echipă se răspândește.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică dinamica proceselor afective",
-          back: "<strong>Intensitatea</strong> depinde de <span class='tip'><span class='tooltip-box'>Cât de ușor reacționează afectiv persoana.</span><strong>reactivitatea afectivă</strong></span> și de <span class='tip'><span class='tooltip-box'>Cât de important este pentru motivele persoanei.</span><strong>semnificația motivațională</strong></span>.<br><br><strong>Durata</strong> variază de la <span class='tip'><span class='tooltip-box'>Trăiri scurte.</span><strong>stări trecătoare</strong></span> la <span class='tip'><span class='tooltip-box'>Structuri stabile.</span><strong>sentimente</strong></span>.<br><br><strong>Mobilitatea afectivă</strong> este <span class='tip'><span class='tooltip-box'>Schimbarea de la o stare la alta.</span><strong>trecerea între stări afective</strong></span>.",
+          front: "Explică dinamica afectivă și rolurile afectivității",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dinamica afectivă</strong>
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> dinamica afectivă descrie variația trăirilor după intensitate, durată și mobilitate, determinată de reactivitatea individuală și de semnificația motivațională a situației pentru persoană.<br/><br/>
+          <strong>Spus simplu:</strong> trăirile diferă ca forță, cât țin și cât de repede se schimbă.<br/><br/>
+          <strong>Exemplu:</strong> unii se supără rapid, alții rămân calmi.
+        </span>
+      </span>
+    </div>
+
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">⏱️&nbsp;&nbsp;Indicatori</div>
+    ${window.flashPillList([
+      {
+        text: "🔥<span class='tip'><strong>intensitate</strong><span class='tooltip-box'><strong>Formulare academică:</strong> intensitatea exprimă nivelul de activare afectivă și depinde de reactivitatea persoanei și de importanța situației pentru sistemul său motivațional.<br/><br/><strong>Spus simplu:</strong> cât de puternic simți.<br/><br/><strong>Exemplu:</strong> același eveniment produce reacții diferite la persoane diferite.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🕒<span class='tip'><strong>durată</strong><span class='tooltip-box'><strong>Formulare academică:</strong> durata indică persistența trăirii, de la reacții afective trecătoare la formațiuni relativ stabile, care pot organiza conduita în timp.<br/><br/><strong>Spus simplu:</strong> de la scurt la stabil.<br/><br/><strong>Exemplu:</strong> o supărare trece, atașamentul rămâne.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🔁<span class='tip'><strong>mobilitate</strong><span class='tooltip-box'><strong>Formulare academică:</strong> mobilitatea exprimă rapiditatea și frecvența trecerilor între stări afective, în funcție de schimbarea contextului și de reevaluarea semnificației situației.<br/><br/><strong>Spus simplu:</strong> cât de ușor schimbi starea când se schimbă situația.<br/><br/><strong>Exemplu:</strong> teamă urmată de ușurare când dispare pericolul.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Roluri afective</strong>
+        <span class='tooltip-box'>
+          <strong>Formulare academică:</strong> afectivitatea îndeplinește funcții comunicaționale, cathartice și energizante, influențând relațiile sociale, reducerea tensiunii interne și mobilizarea resurselor pentru adaptare și acțiune.<br/><br/>
+          <strong>Spus simplu:</strong> afectele transmit, descarcă și mobilizează.<br/><br/>
+          <strong>Exemplu:</strong> plânsul descarcă, entuziasmul mobilizează.
+        </span>
+      </span>
+    </div>
+
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Roluri principale</div>
+    ${window.flashPillList([
+      {
+        text: "🗣️<span class='tip'><strong>Persuasiune</strong><span class='tooltip-box'><strong>Formulare academică:</strong> expresiile afective funcționează ca semnale sociale care modelează percepțiile și reacțiile celorlalți, facilitând coordonarea și influența interpersonală.<br/><br/><strong>Spus simplu:</strong> trăirea ta influențează pe ceilalți.<br/><br/><strong>Exemplu:</strong> zâmbetul invită la apropiere.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧹<span class='tip'><strong>Efect de eliberare (catharsis)</strong><span class='tooltip-box'><strong>Formulare academică:</strong> exprimarea afectivă poate reduce tensiunea psihică prin descărcare emoțională și reorganizare internă, contribuind la restabilirea echilibrului.<br/><br/><strong>Spus simplu:</strong> te descarci și te reglezi.<br/><br/><strong>Exemplu:</strong> vorbești despre problemă și te simți mai ușurat.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🔋<span class='tip'><strong>Oferă energie psihică</strong><span class='tooltip-box'><strong>Formulare academică:</strong> afectele pot furniza energie psihică, susținând inițiativa, efortul și persistența prin intensificarea orientării către acțiune și adaptare.<br/><br/><strong>Spus simplu:</strong> afectele pot fi combustibil pentru acțiune.<br/><br/><strong>Exemplu:</strong> pasiunea crește perseverența.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică rolurile proceselor afective",
-          back: "Procesele afective pot influența comportamentul prin <span class='tip'><span class='tooltip-box'>Exprimări afective folosite pentru a influența reacțiile altora.</span><strong>intenții persuasive</strong></span>.<br><br><strong>Catharsisul afectiv</strong> înseamnă <span class='tip'><span class='tooltip-box'>Descărcarea și reducerea tensiunii.</span><strong>eliberarea tensiunii afective</strong></span>.<br><br>Procesele afective furnizează <span class='tip'><span class='tooltip-box'>Resurse pentru adaptare și funcționare psihică.</span><strong>energie pentru viața psihică și adaptare</strong></span>.",
-        },
+          front: "Explică structurile afectogene specifice",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Identifică structurile afectogene",
-          back: "<strong>Structurile afectogene</strong> sunt <span class='tip'><span class='tooltip-box'>Forme prin care afectivitatea se generează se organizează și se manifestă.</span><strong>structuri psihice ale afectivității</strong></span> și includ <strong>ton afectiv</strong>, <strong>emoții</strong>, <strong>dispoziții</strong>, <strong>sentimente</strong>, <strong>pasiuni</strong>.",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div style="display:grid;gap:10px;">
+      <div>
+        <span class='tip'><strong>Structuri afectogene</strong>
+          <span class='tooltip-box'>
+            <strong>Formulare academică:</strong> structurile afectogene sunt forme de organizare a afectivității, prin care trăirile se generează, se diferențiază și se stabilizează la niveluri distincte de intensitate, durată și complexitate, influențând conduita și adaptarea.<br/><br/>
+            <strong>Spus simplu:</strong> forme diferite ale trăirilor, de la nuanțe discrete la trăiri stabile și intense.<br/><br/>
+            <strong>Exemplu:</strong> de la o stare ușor plăcută la o pasiune puternică.
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
 
-        {
-          front: "Explică tonul afectiv emoțiile și dispozițiile afective",
-          back: "<strong>Tonul afectiv</strong> însoțește <span class='tip'><span class='tooltip-box'>Percepție reprezentare gândire amintire.</span><strong>actul cunoașterii</strong></span> ca <span class='tip'><span class='tooltip-box'>Plăcere sau neplăcere discretă.</span><strong>colorare afectivă</strong></span>.<br><br><strong>Emoția</strong> este <span class='tip'><span class='tooltip-box'>Popescu Neveanu 1978.</span><strong>fenomen afectiv fundamental</strong></span> care poate fi <span class='tip'><span class='tooltip-box'>Reacție spontană și primară.</span><strong>afect</strong></span> sau <span class='tip'><span class='tooltip-box'>Proces mai elaborat legat de motivație secundară.</span><strong>proces complex</strong></span>.<br><br><strong>Emoțiile simple</strong> sunt <span class='tip'><span class='tooltip-box'>Intense scurte legate de context concret cu orientare clară.</span><strong>intense dinamice contextuale</strong></span> și pot fi <strong>bucurie</strong> <strong>tristețe</strong> <strong>entuziasm</strong> <strong>dezgust</strong>.<br><br><strong>Emoțiile complexe</strong> implică <span class='tip'><span class='tooltip-box'>Evaluare și sens valoric plus control conștient mai mare.</span><strong>interpretare și semnificare valorică</strong></span> și sunt influențate de <span class='tip'><span class='tooltip-box'>Reguli sociale învățate.</span><strong>convenții socioculturale</strong></span> precum <strong>speranță</strong> <strong>admirație</strong> <strong>dispreț</strong>.<br><br><strong>Dispozițiile afective</strong> sunt <span class='tip'><span class='tooltip-box'>Durată și intensitate medie caracter vag și slab conștientizat.</span><strong>fundal afectiv</strong></span> al activității psihice.",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">📌&nbsp;&nbsp;Structuri principale</div>
 
-        {
-          front: "Explică sentimentele și tipurile de sentimente",
-          back: "<strong>Sentimentele</strong> sunt <span class='tip'><span class='tooltip-box'>Integrare și stabilizare a emoțiilor complexe.</span><strong>formațiuni afective complexe</strong></span> cu <span class='tip'><span class='tooltip-box'>Se mențin și se organizează coerent în timp.</span><strong>organizare superioară și stabilitate mare</strong></span>.<br><br>Ca <span class='tip'><span class='tooltip-box'>Raportări afective stabile organizate valoric.</span><strong>formațiuni atitudinale</strong></span>, exprimă <span class='tip'><span class='tooltip-box'>Legătura cu valori și evaluări.</span><strong>raportare valorică</strong></span>.<br><br>După direcție există <span class='tip'><span class='tooltip-box'>Centrare pe propria persoană.</span><strong>sentimente relative la sine</strong></span> precum <strong>stima de sine</strong> <strong>eficacitatea de sine</strong> <strong>orgoliul</strong> <strong>vanitatea</strong>, <span class='tip'><span class='tooltip-box'>Orientare către oameni.</span><strong>sentimente relative la ceilalți</strong></span> precum <strong>dragostea</strong> <strong>respectul</strong> <strong>invidia</strong> <strong>admirația</strong>, <span class='tip'><span class='tooltip-box'>Orientare către valori morale.</span><strong>sentimente morale</strong></span> precum <strong>datoria</strong> <strong>patriotismul</strong> <strong>onoarea</strong>, și <span class='tip'><span class='tooltip-box'>Raportare la frumos și expresie artistică.</span><strong>sentimente estetice</strong></span>.",
-        },
+   ${window.flashPillList([
+     {
+       text: "🎨<span class='tip'><strong>ton afectiv</strong><span class='tooltip-box'><strong>Formulare academică:</strong> reacție afectivă primară, spontană, supusă unui control conștient redus, care însoțește actul cunoașterii (percepții, reprezentări, idei, amintiri) și colorează evaluarea cognitivă pe axa plăcut–neplăcut.<br/><br/><strong>Spus simplu:</strong> o nuanță afectivă fină atașată gândurilor și percepțiilor.<br/><br/><strong>Exemplu:</strong> o amintire este trăită ca plăcută sau neplăcută.</span></span>",
+       key: "teal",
+     },
+     {
+       text: "⚡<span class='tip'><strong>emoții</strong><span class='tooltip-box'><strong>Formulare academică:</strong> fenomen afectiv fundamental care se manifestă fie ca emoții simple (afecte), intense, dinamice și contextuale, cu orientare clar determinată, fie ca emoții complexe, aflate sub control conștient mai ridicat, bazate pe interpretare intelectuală și semnificare valorică, legate de motivații secundare și supuse convențiilor sociale și culturale.<br/><br/><strong>Spus simplu:</strong> emoțiile pot fi rapide și brute sau elaborate și interpretate.<br/><br/><strong>Exemplu:</strong> bucurie, teamă (simple); speranță, admirație (complexe).</span></span>",
+       key: "coral",
+     },
+     {
+       text: "🌤️<span class='tip'><strong>dispoziții</strong><span class='tooltip-box'><strong>Formulare academică:</strong> structuri afectogene cu intensitate și durată medie, cu caracter vag și slab conștientizat, care constituie un fond afectiv al activității psihice; au surse adesea difuze și se raportează la disponibilitatea emoțional–reactivă a persoanei în interacțiunea cu mediul.<br/><br/><strong>Spus simplu:</strong> starea generală care îți colorează o perioadă.<br/><br/><strong>Exemplu:</strong> bună dispoziție, iritabilitate.</span></span>",
+       key: "amber",
+     },
+     {
+       text: "💞<span class='tip'><strong>sentimente</strong><span class='tooltip-box'><strong>Formulare academică:</strong> formațiuni afective complexe, cu organizare superioară și stabilitate mare, care funcționează ca formațiuni atitudinale și exprimă o raportare valorică relativ stabilă față de sine, ceilalți sau valori; reprezintă condensări afectogene automatizate, cu activări periodice.<br/><br/><strong>Spus simplu:</strong> trăiri durabile care includ valori și atitudini.<br/><br/><strong>Exemplu:</strong> dragoste, respect, stimă de sine.</span></span>",
+       key: "cyan",
+     },
+     {
+       text: "🔥<span class='tip'><strong>pasiuni</strong><span class='tooltip-box'><strong>Formulare academică:</strong> structuri afectogene de intensitate și stabilitate înalte, cu caracter unilateral evident, capabile să disloce cantități mari de energie dinamizatoare și să orienteze persistent conduita; pot fi pozitive sau negative (patimi) și pot avea atât efecte adaptative majore, cât și efecte dezadaptative prin îngustarea câmpului de interacțiune socială.<br/><br/><strong>Spus simplu:</strong> trăiri extrem de puternice care pot domina viața psihică.<br/><br/><strong>Exemplu:</strong> pasiunea pentru artă, pentru putere.</span></span>",
+       key: "violet",
+     },
+   ])}
 
-        {
-          front: "Explică pasiunile",
-          back: "<strong>Pasiunile</strong> sunt <span class='tip'><span class='tooltip-box'>Structuri care concentrează și susțin trăiri foarte puternice.</span><strong>structuri afectogene</strong></span> cu <span class='tip'><span class='tooltip-box'>Se mențin și mobilizează multă energie.</span><strong>intensitate și stabilitate înalte</strong></span>.<br><br>Caracterul <span class='tip'><span class='tooltip-box'>Domină viața psihică printr o singură direcție.</span><strong>unilateral</strong></span> înseamnă <span class='tip'><span class='tooltip-box'>Interesele și resursele se concentrează într un obiect.</span><strong>concentrare într o singură direcție</strong></span>.<br><br>Pasiunile pot fi <strong>pozitive</strong> și <strong>negative</strong>. Cele pozitive <span class='tip'><span class='tooltip-box'>Susțin activități îndelungate și realizări mari.</span><strong>pot conduce la realizări majore</strong></span>, dar pot avea și efect <span class='tip'><span class='tooltip-box'>Îngustează relațiile și flexibilitatea socială.</span><strong>dezadaptativ</strong></span>.",
+  </div>
+
+</div>`,
         },
 
         {
           front: "Explică relația dintre afectivitate și motivație",
-          back: "Relația dintre <strong>afectivitate</strong> și <strong>motivație</strong> este <span class='tip'><span class='tooltip-box'>Se condiționează reciproc.</span><strong>indisolubilă</strong></span>.<br><br><strong>Structurile afectogene</strong> sunt <span class='tip'><span class='tooltip-box'>Trăiri ale împlinirii sau neîmplinirii trebuințelor și motivelor.</span><strong>manifestări ale satisfacerii sau frustrării</strong></span>.<br><br><strong>Constelațiile motivaționale</strong> sunt <span class='tip'><span class='tooltip-box'>Motive care cooperează sau intră în conflict.</span><strong>ansambluri de motive în interacțiune</strong></span>.<br><br><span class='tip'><span class='tooltip-box'>Motivele generează trăiri iar trăirile pot alimenta motivele.</span><strong>Structurile afectogene sunt generate de constelații și pot deveni activatoare ale acestora</strong></span>.",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div>
+        <span class='tip'><strong>Afectivitate</strong>
+          <span class='tooltip-box'>
+            <strong>Emoții</strong>: reacții afective intense și de durată scurtă, legate de o situație concretă.<br/>
+            <strong>Exemplu:</strong> teamă înainte de test, bucurie după reușită.<br/><br/>
+            <strong>Trăiri</strong>: experiența subiectivă resimțită aici și acum, cu nuanțe diferite ca intensitate și durată.<br/>
+            <strong>Exemplu:</strong> neliniște, ușurare, dezamăgire.<br/><br/>
+            <strong>Structuri afectogene</strong>: forme organizate ale afectivității rezultate din raportarea la situație, cu intensitate și durată diferite.<br/>
+            <strong>Exemplu:</strong> emoții rapide, dispoziții de fond, sentimente stabile.
+          </span>
+        </span> - emoții, trăiri, structuri afectogene
+      </div>
+    <div>
+        <span class='tip'><strong>Motivație</strong>
+          <span class='tooltip-box'>
+            <strong>Trebuințe</strong>: stări de necesitate care cer satisfacere.<br/>
+            <strong>Exemplu:</strong> odihnă, siguranță, apartenență.<br/><br/>
+            <strong>Motive</strong>: forțe interne care declanșează și susțin acțiunea către un scop.<br/>
+            <strong>Exemplu:</strong> dorința de reușită, nevoia de apreciere.<br/><br/>
+            <strong>Scopuri</strong>: rezultate urmărite, care organizează acțiunea.<br/>
+            <strong>Exemplu:</strong> să iau notă mare, să termin proiectul.<br/><br/>
+            <strong>Constelații motivaționale</strong>: mai multe motive active simultan, care se susțin sau intră în conflict și determină conduita.<br/>
+            <strong>Exemplu:</strong> dorința de reușită + teama de eșec + dorința de relaxare.
+          </span>
+        </span>
+        - trebuințe, motive, scopuri, constelații motivaționale
+      </div>
+<hr class="hr-flash">
+    <div style="display:grid;gap:10px;">
+      <div>
+      <span class='tip'><strong>Relația afectivitate-motivație</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> motivele într-o situație produc trăiri, iar trăirile pot întări sau slăbi motivele.<br/><br/>
+          <strong>Formulare academică:</strong> între afectivitate și motivație există o relație indisolubilă și bidirecțională: motivele raportate la o situație se exprimă afectiv, iar trăirile rezultate pot modifica ulterior activarea motivelor și desfășurarea conduitei.<br/><br/>
+          <strong>Exemplu:</strong> dacă examenul contează pentru tine, apare emoția; emoția te poate mobiliza sau te poate bloca.
+        </span>
+      </span>
+    </div>
+    Ex. motive într-o situație  →  emoții și alte trăiri (afectivitate)  →  alimentare/frânare a motivelor</div>
+  </div>
+
+  
+
+</div>`,
         },
       ],
     },
@@ -10590,34 +11236,164 @@ ${window.flashPillList([
       title: "Curs 11A FLASHCARDS",
       cards: [
         {
-          front: "Explică voința și caracteristicile reglajului voluntar",
-          back: "<strong>Voința</strong> este un <span class='tip'><span class='tooltip-box'>Formă avansată de reglare a conduitei bazată pe scop deliberare și control conștient</span><strong>proces psihic de autoreglare superioară</strong></span> care <span class='tip'><span class='tooltip-box'>Organizează mobilizează și controlează acțiunea orientată spre un rezultat anticipat</span><strong>orientează acțiunea spre scop</strong></span> prin <span class='tip'><span class='tooltip-box'>Analiza conștientă a alternativelor</span><strong>deliberare</strong></span> și ducerea la îndeplinire a activității<br><br><strong>Reglajul voluntar</strong> presupune <span class='tip'><span class='tooltip-box'>Conducere conștientă a acțiunii</span><strong>control conștient</strong></span> realizat prin <span class='tip'><span class='tooltip-box'>Autoreglare prin limbaj interior</span><strong>mijloace verbale</strong></span> și implică <span class='tip'><span class='tooltip-box'>Mobilizare conștientă pentru atingerea scopului</span><strong>efort voluntar</strong></span><br><br><strong>Efortul voluntar</strong> are <span class='tip'><span class='tooltip-box'>Consum energetic mai mare</span><strong>consum energetic crescut</strong></span> și este <span class='tip'><span class='tooltip-box'>Nu poate fi susținut nelimitat din cauza încordării</span><strong>limitat temporal</strong></span><br><br><strong>Mobilizarea voluntară</strong> crește când <span class='tip'><span class='tooltip-box'>Dificultatea percepută în calea acțiunii</span><strong>obstacolul</strong></span> este perceput ca mai mare",
-        },
-
-        {
           front:
-            "Explică puterea voinței perseverența independența promptitudinea și dezvoltarea efortului voluntar",
-          back: "<strong>Puterea voinței</strong> este <span class='tip'><span class='tooltip-box'>Cât de intens este efortul mobilizat</span><strong>intensitatea mobilizării voluntare</strong></span><br><br><strong>Perseverența</strong> este <span class='tip'><span class='tooltip-box'>Susținerea efortului în timp în ciuda dificultăților</span><strong>menținerea efortului voluntar</strong></span><br><br><strong>Independența voinței</strong> înseamnă <span class='tip'><span class='tooltip-box'>Decizii proprii și asumarea consecințelor</span><strong>decizie personală și responsabilitate</strong></span><br><br><strong>Promptitudinea deciziei</strong> este <span class='tip'><span class='tooltip-box'>Rapiditatea luării unei decizii adecvate situației</span><strong>rapiditatea deciziei oportune</strong></span><br><br><strong>Dezvoltarea efortului voluntar</strong> este favorizată de <span class='tip'><span class='tooltip-box'>Analiza propriei mobilizări</span><strong>autoreflecție</strong></span><br><span class='tip'><span class='tooltip-box'>Întâlniri repetate cu dificultăți</span><strong>confruntare repetată cu obstacole</strong></span><br><span class='tip'><span class='tooltip-box'>Antrenarea deliberată în sarcini</span><strong>exersare conștientă</strong></span>",
-        },
+            "Definirea, caracteristicile și concepte esențiale despre voință",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Explică etapele actului voluntar",
-          back: "<strong>Actul voluntar</strong> organizează și controlează conștient <span class='tip'><span class='tooltip-box'>Acțiunea orientată spre scop</span><strong>conduita</strong></span> prin etape succesive<br><br><strong>Activare motivațională</strong> <span class='tip'><span class='tooltip-box'>Apare intenția de acțiune orientarea spre scop și planul mintal</span><strong>intenție și orientare spre scop</strong></span><br><br><strong>Confruntarea motivelor</strong> prin <span class='tip'><span class='tooltip-box'>Analiza conștientă a motivelor concurente</span><strong>deliberare</strong></span><br><br><strong>Decizia</strong> <span class='tip'><span class='tooltip-box'>Alegerea unui motiv sau scop și amânarea altora</span><strong>alegere și renunțare temporară</strong></span><br><br><strong>Aplicarea deciziei</strong> <span class='tip'><span class='tooltip-box'>Punerea în practică a planului prin acțiuni controlate voluntar</span><strong>execuție voluntară</strong></span><br><br><strong>Verificare și concluzii</strong> <span class='tip'><span class='tooltip-box'>Evaluarea rezultatelor și formularea concluziilor când activitatea este complexă</span><strong>evaluare finală</strong></span>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Voința:</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> îți controlezi conștient conduita ca să atingi un scop, chiar când e greu.<br/><br/>
+          <strong>Formulare academică:</strong> voința este proces psihic de semnalizare și autoreglare superioară, care implică scop, deliberare, elaborare, organizare, mobilizare și ducere la îndeplinire a activității (PopescuNeveanu, 1978)<br/><br/>
+          <strong>Exemplu:</strong> continui să lucrezi deși ești obosit.
+        </span>
+      </span> - procesul psihic de autoreglare conștientă a acțiunii orientate spre scop
+    </div>
+</div>
+<div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Reglajul voluntar se face prin:</div>
+    ${window.flashPillList([
+      {
+        text: "💡<span class='tip'><strong>control conștient</strong><span class='tooltip-box'><strong>Simplu spus:</strong> îți ghidezi intenționat comportamentul.<br/><br/><strong>Formulare academică:</strong> conduita voluntară este ghidată conștient prin reprezentarea scopului și monitorizarea pașilor de realizare.<br/><br/><strong>Exemplu:</strong> îți oprești distragerile ca să termini o sarcină.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🗣️<span class='tip'><strong>limbaj interior</strong><span class='tooltip-box'><strong>Simplu spus:</strong> îți dai instrucțiuni și îți faci planul în minte.<br/><br/><strong>Formulare academică:</strong> limbajul interior funcționează ca mecanism de auto instruire, planificare și menținere a direcției spre scop.<br/><br/><strong>Exemplu:</strong> îți spui ce ai de făcut pas cu pas.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "⚙️<span class='tip'><strong>efort voluntar</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te mobilizezi când apare obstacolul.<br/><br/><strong>Formulare academică:</strong> efortul voluntar reprezintă mobilizarea conștientă suplimentară necesară pentru a depăși rezistențe interne sau externe și pentru a susține acțiunea până la scop.<br/><br/><strong>Exemplu:</strong> continui chiar când ai tentația de a renunța.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
 
-        {
-          front: "Explică atenția și specificul ei",
-          back: "<strong>Atenția</strong> este <span class='tip'><span class='tooltip-box'>Mobilizează și organizează funcționarea altor procese psihice fără a adăuga informație nouă</span><strong>proces psihic de activare și orientare</strong></span> care realizează <span class='tip'><span class='tooltip-box'>Activare tonificare mobilizare și orientare selectivă</span><strong>selectarea și focalizarea</strong></span> proceselor psihocomportamentale<br><br>Nu are <span class='tip'><span class='tooltip-box'>Nu furnizează informații despre obiecte ci reglează prelucrarea lor</span><strong>conținut informațional specific</strong></span> și se sprijină pe <span class='tip'><span class='tooltip-box'>Reacție automată către un stimul nou sau semnificativ</span><strong>reflexul de orientare</strong></span><br><br>Se realizează prin <span class='tip'><span class='tooltip-box'>Sistemul reticulat activator ascendent</span><strong>SRAA</strong></span> care produce <span class='tip'><span class='tooltip-box'>Alertarea cortexului și declanșarea orientării</span><strong>activare corticală</strong></span><br><br>Atenția focalizează <span class='tip'><span class='tooltip-box'>Resursele funcționale ale sistemului nervos</span><strong>energia neuropsihică</strong></span> prin <span class='tip'><span class='tooltip-box'>Promovează unele tendințe prin excitație și inhibă altele</span><strong>excitație și inhibiție selectivă</strong></span><br><br>Implică <strong>starea de veghe</strong> <span class='tip'><span class='tooltip-box'>Activare difuză disponibilitate generală așteptare pasivă</span><strong>disponibilitate</strong></span> și <strong>starea de vigilență</strong> <span class='tip'><span class='tooltip-box'>Activare crescută explorare activă orientare intenționată</span><strong>explorare</strong></span><br><br>Este <span class='tip'><span class='tooltip-box'>Energizează și susține alte procese</span><strong>factor dinamogen</strong></span>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Efortul voluntar</div>
+    ${window.flashPillList([
+      {
+        text: "🔋<span class='tip'><strong>consum energetic</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cere energie suplimentară.<br/><br/><strong>Formulare academică:</strong> efortul voluntar presupune încordare și consum energetic crescut în vederea menținerii conduitei orientate spre scop.<br/><br/><strong>Exemplu:</strong> lucrezi încă o oră deși ești obosit.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⏱️<span class='tip'><strong>limitat temporal</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu poate fi menținut la infinit.<br/><br/><strong>Formulare academică:</strong> efortul voluntar are limită de durată deoarece încordarea și consumul energetic crescut conduc la oboseală și scăderea randamentului.<br/><br/><strong>Exemplu:</strong> după mult efort continuu, performanța scade.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🧗<span class='tip'><strong>depinde de obstacol</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cu cât obstacolul e mai mare, cu atât te mobilizezi mai mult.<br/><br/><strong>Formulare academică:</strong> mobilizarea voluntară este proporțională cu obstacolul perceput, întrucât dificultatea solicită creșterea controlului conștient și a efortului pentru menținerea conduitei orientate spre scop.<br/><br/><strong>Exemplu:</strong> o sarcină dificilă cere mai mult efort voluntar decât una ușoară.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
 
-        {
-          front: "Explică tipurile de atenție și atenția postvoluntară",
-          back: "Formele principale sunt <strong>atenția involuntară</strong> <strong>atenția voluntară</strong> <strong>atenția postvoluntară</strong><br><br><strong>Atenția involuntară</strong> este <span class='tip'><span class='tooltip-box'>Formă primară declanșată spontan</span><strong>spontană</strong></span> și apare sub influența <span class='tip'><span class='tooltip-box'>Intensitate noutate mișcare complexitate</span><strong>stimulilor intensi noi mobili complecși</strong></span><br><br><strong>Atenția voluntară</strong> este <span class='tip'><span class='tooltip-box'>Formă superioară cu intenție scop și control conștient</span><strong>intențională</strong></span> și se autoreglează prin <span class='tip'><span class='tooltip-box'>Mecanisme verbale</span><strong>limbaj interior</strong></span> realizând <span class='tip'><span class='tooltip-box'>Focalizare energetică și menținere până la finalizare</span><strong>concentrare susținută</strong></span><br><br><strong>Atenția postvoluntară</strong> apare prin <span class='tip'><span class='tooltip-box'>Efortul inițial scade când activitatea devine familiară</span><strong>automatizarea atenției voluntare</strong></span> și are avantaje <span class='tip'><span class='tooltip-box'>Mai puțin consum nervos și eficiență mai mare</span><strong>consum redus și eficiență crescută</strong></span>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Caracteristici ale voinței</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> voința se vede în cât te mobilizezi, cât reziști, cât de autonom decizi și cât de repede alegi potrivit.<br/><br/>
+          <strong>Formulare academică:</strong> voința se descrie prin indicatori precum puterea, perseverența, independența și promptitudinea deciziei, care exprimă intensitatea mobilizării, menținerea efortului, autonomia decizională și rapiditatea alegerii adecvate în raport cu scopul.<br/><br/>
+          <strong>Exemplu:</strong> continui să muncești și iei decizii clare sub presiune.
+        </span>
+      </span>
+    </div>
 
+    <hr class="hr-flash">
+
+    ${window.flashPillList([
+      {
+        text: "💪<span class='tip'><strong>puterea voinței</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cât de intens te mobilizezi.<br/><br/><strong>Formulare academică:</strong> intensitatea mobilizării voluntare în raport cu obstacolele și cerințele sarcinii.<br/><br/><strong>Exemplu:</strong> îți menții efortul deși apare disconfort.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧱<span class='tip'><strong>perseverența</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cât reziști în timp.<br/><br/><strong>Formulare academică:</strong> menținerea efortului voluntar și a direcției spre scop pe durată îndelungată, în pofida dificultăților.<br/><br/><strong>Exemplu:</strong> lucrezi constant până finalizezi.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭<span class='tip'><strong>independența</strong><span class='tooltip-box'><strong>Simplu spus:</strong> decizi pe cont propriu și îți asumi.<br/><br/><strong>Formulare academică:</strong> autonomia în deliberare și decizie, cu asumarea consecințelor conduitei orientate spre scop.<br/><br/><strong>Exemplu:</strong> alegi strategia ta chiar sub presiune socială.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "⚡<span class='tip'><strong>promptitudinea deciziei</strong><span class='tooltip-box'><strong>Simplu spus:</strong> decizi rapid și potrivit.<br/><br/><strong>Formulare academică:</strong> capacitatea de a formula și aplica o decizie adecvată într un timp oportun, după o deliberare suficientă.<br/><br/><strong>Exemplu:</strong> alegi repede opțiunea corectă când timpul este limitat.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
         {
-          front: "Explică favorizarea și educarea atenției voluntare",
-          back: "<strong>Favorizarea atenției voluntare</strong> înseamnă <span class='tip'><span class='tooltip-box'>Măsuri imediate pentru concentrare intenționată</span><strong>crearea condițiilor de concentrare</strong></span> prin<br><span class='tip'><span class='tooltip-box'>Clarificarea țintei</span><strong>stabilirea scopurilor</strong></span><br><span class='tip'><span class='tooltip-box'>Sensul și câștigul personal</span><strong>evidențierea semnificației și beneficiilor</strong></span><br><span class='tip'><span class='tooltip-box'>Anticiparea segmentelor grele</span><strong>identificarea momentelor dificile</strong></span><br><span class='tip'><span class='tooltip-box'>Cadru propice</span><strong>ambianță stimulativă</strong></span><br><span class='tip'><span class='tooltip-box'>Zgomot notificări întreruperi</span><strong>reducerea factorilor perturbatori</strong></span> care scade competiția dintre stimuli și susține concentrarea<br><br><strong>Educarea atenției voluntare</strong> înseamnă <span class='tip'><span class='tooltip-box'>Construire treptată prin exercițiu</span><strong>consolidare pe termen lung</strong></span> prin<br><span class='tip'><span class='tooltip-box'>Structuri logice</span><strong>organizarea materialelor cu sens</strong></span><br><span class='tip'><span class='tooltip-box'>Motivare</span><strong>sublinierea semnificației</strong></span><br><span class='tip'><span class='tooltip-box'>Ce contează în sarcină</span><strong>evidențierea elementelor importante</strong></span><br><span class='tip'><span class='tooltip-box'>Prezentări diferite</span><strong>modalități variate</strong></span><br><br><strong>Cunoașterea fiziologiei atenției</strong> ajută la <span class='tip'><span class='tooltip-box'>Adaptarea duratei și a pauzelor la limite reale</span><strong>dozarea activităților</strong></span> iar stabilitatea este aproximativ <span class='tip'><span class='tooltip-box'>Preșcolari 10 minute adulți până la 30 minute</span><strong>10 minute la preșcolari și până la 30 minute la adulți</strong></span>",
+          front: "Dezvoltarea capacității efortului voluntar",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Dezvoltarea capacității efortului voluntar</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔍<span class='tip'><strong>autoreflecție</strong> <span style='opacity:.9'>(observare a mobilizării)</span><span class='tooltip-box'><strong>Simplu spus:</strong> îți observi felul în care te mobilizezi și înveți ce te ajută.<br/><br/><strong>Formulare academică:</strong> dezvoltarea capacității de efort voluntar presupune autoreflecția asupra propriilor mecanisme de mobilizare, prin identificarea condițiilor care cresc sau reduc menținerea conduitei orientate spre scop.<br/><br/><strong>Exemplu:</strong> îți dai seama când obosești, ce te distrage și ce îți crește randamentul.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧗<span class='tip'><strong>confruntare frecventă și îndelungată cu obstacole</strong> <span style='opacity:.9'>(expunere la dificultate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> te obișnuiești să continui când apare greu.<br/><br/><strong>Formulare academică:</strong> capacitatea de efort voluntar se consolidează prin confruntarea repetată și prelungită cu obstacole, care solicită mobilizare conștientă și antrenează rezistența la dificultate.<br/><br/><strong>Exemplu:</strong> îți asumi sarcini dificile constant, nu doar ocazional.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🛠️<span class='tip'><strong>exersare prin mobilizare conștientă</strong> <span style='opacity:.9'>(exerciții de voință)</span><span class='tooltip-box'><strong>Simplu spus:</strong> îți antrenezi voința prin practică deliberată.<br/><br/><strong>Formulare academică:</strong> efortul voluntar se dezvoltă prin exersare deliberată, constând în mobilizare conștientă a resurselor în activități specifice, cu repetare și creștere graduală a cerințelor.<br/><br/><strong>Exemplu:</strong> îți impui un interval zilnic de lucru fără întreruperi.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📈<span class='tip'><strong>progres pas cu pas susținut</strong> <span style='opacity:.9'>(dificultăți diverse + aprecierea progresului)</span><span class='tooltip-box'><strong>Simplu spus:</strong> crești treptat dificultatea și îți susții progresul prin apreciere și feedback.<br/><br/><strong>Formulare academică:</strong> dezvoltarea capacității de efort voluntar este facilitată prin implicarea în activități cu niveluri variate de dificultate și prin susținerea progresului gradual, prin apreciere și feedback orientat spre pași concreți.<br/><br/><strong>Exemplu:</strong> începi cu 20 de minute de concentrare și crești treptat, notând îmbunătățirile.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+        {
+          front: "Etapele actului voluntar",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Actul voluntar</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> vrei, cântărești, alegi, faci și verifici.<br/><br/>
+          <strong>Formulare academică:</strong> actul voluntar este o succesiune de etape prin care intenția se transformă în acțiune controlată, de la activarea motivațională și deliberare până la decizie, execuție și evaluarea rezultatului.<br/><br/>
+          <strong>Exemplu:</strong> îți propui o sarcină, o planifici, o execuți și apoi verifici rezultatul.
+        </span>
+      </span>
+    </div>
+
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Etapele actului voluntar</div>
+    ${window.flashPillList([
+      {
+        text: "1<span class='tip'><strong>activare motivațională</strong><span class='tooltip-box'><strong>Simplu spus:</strong> apare intenția și un plan inițial.<br/><br/><strong>Formulare academică:</strong> se activează motivul și se formulează intenția orientată spre un scop, împreună cu schița inițială a acțiunii.<br/><br/><strong>Exemplu:</strong> îți propui să înveți pentru test.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "2<span class='tip'><strong>confruntarea motivelor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> compari alternativele și cântărești.<br/><br/><strong>Formulare academică:</strong> are loc deliberarea prin evaluarea alternativelor și a consecințelor, în condițiile concurenței dintre motive.<br/><br/><strong>Exemplu:</strong> alegi între a învăța și a ieși cu prietenii.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "3<span class='tip'><strong>decizia</strong><span class='tooltip-box'><strong>Simplu spus:</strong> alegi un scop și un plan.<br/><br/><strong>Formulare academică:</strong> se stabilește hotărârea de a urma o alternativă, fixând scopul și direcția conduitei.<br/><br/><strong>Exemplu:</strong> decizi să înveți în seara asta.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "4<span class='tip'><strong>aplicarea deciziei</strong><span class='tooltip-box'><strong>Simplu spus:</strong> execuți acțiunea, menții efortul.<br/><br/><strong>Formulare academică:</strong> se trece la realizarea efectivă a acțiunii, cu mobilizare voluntară și control conștient, mai ales în prezența obstacolelor.<br/><br/><strong>Exemplu:</strong> începi să înveți și continui chiar când obosești.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "5<span class='tip'><strong>verificare și concluzii</strong><span class='tooltip-box'><strong>Simplu spus:</strong> verifici dacă a ieșit și tragi concluzii.<br/><br/><strong>Formulare academică:</strong> se evaluează rezultatul în raport cu scopul, se extrag concluzii și se ajustează conduita viitoare.<br/><br/><strong>Exemplu:</strong> vezi ce ai reținut și îți schimbi metoda dacă a fost nevoie.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -10628,23 +11404,178 @@ ${window.flashPillList([
       title: "Curs 11B FLASHCARDS",
       cards: [
         {
-          front: "Explică atenția și specificul ei",
-          back: "<strong>Atenția</strong> este <span class='tip'><span class='tooltip-box'>Nu adaugă informație nouă ci mobilizează și organizează funcționarea altor procese psihice</span><strong>proces psihic de activare și orientare</strong></span> care înseamnă <span class='tip'><span class='tooltip-box'>Activare tonificare mobilizare și orientare selectivă</span><strong>orientare selectivă a proceselor psihocomportamentale</strong></span><br><br>Se spune că <strong>atenția nu are conținut informațional specific</strong> fiindcă <span class='tip'><span class='tooltip-box'>Susține și organizează alte procese psihice orientându le prin reflexul de orientare fără a produce informații proprii</span><strong>reglează prelucrarea fără a furniza informații proprii</strong></span><br><br>Atenția se realizează prin <span class='tip'><span class='tooltip-box'>Sistemul reticulat activator ascendent care alertează cortexul și declanșează orientarea</span><strong>SRAA</strong></span> cu efect de <span class='tip'><span class='tooltip-box'>Alertare corticală și declanșarea reflexului de orientare</span><strong>activare a cortexului</strong></span><br><br>Atenția selectează și focalizează <span class='tip'><span class='tooltip-box'>Resursele funcționale ale sistemului nervos</span><strong>energia neuropsihică</strong></span> prin <span class='tip'><span class='tooltip-box'>Promovarea unor tendințe prin excitație și inhibarea altora</span><strong>excitație și inhibiție selectivă</strong></span><br><br>Atenția implică <span class='tip'><span class='tooltip-box'>Activare difuză disponibilitate generală așteptare pasivă</span><strong>starea de veghe</strong></span> și <span class='tip'><span class='tooltip-box'>Activare crescută explorare activă orientare intenționată</span><strong>starea de vigilență</strong></span><br><br>Atenția este <span class='tip'><span class='tooltip-box'>Factor care energizează și susține alte procese psihice</span><strong>factor dinamogen</strong></span>",
+          front: "Definirea și specificul atenției",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div>
+    <span class='tip'><strong>Atenția</strong>
+      <span class='tooltip-box'>
+        <strong>Simplu spus:</strong> concentrezi activ mintea pe ce este important acum, pentru a înțelege mai bine sau a acționa mai eficient.<br/><br/>
+        <strong>Formulare academică:</strong> atenția este proces psihic de activare, tonificare, mobilizare, orientare selectivă și concentrare focalizată a proceselor psihocomportamentale, în vederea unei reflectări optime și facile și sau a unei intervenții eficiente (Popescu Neveanu, 1978, p. 69).<br/><br/>
+        <strong>Exemplu:</strong> te concentrezi pe explicația profesorului și reții ideile esențiale.
+      </span>
+    </span> - capacitatea de a te concentra selectiv pe ce este important acum, ca să înțelegi mai bine sau să acționezi mai eficient.
+  </div>
+</div>
+
+ <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div class='flash-title' style="${FLASH_TITLE_STYLE}">Specificul atenției</div>
+
+  ${window.flashPillList([
+    {
+      text: "🧭<span class='tip'><strong>fără conținut informațional propriu</strong><span class='tooltip-box'><strong>Simplu spus:</strong> atenția nu produce informație, ci selectează și organizează ce procesezi deja.<br/><br/><strong>Formulare academică:</strong> atenția nu are conținut informațional specific, funcționând ca mecanism de orientare și reglare a activității psihice prin selecția și susținerea proceselor relevante.<br/><br/><strong>Exemplu:</strong> sprijină percepția și gândirea când rezolvi o problemă.</span></span>",
+      key: "teal",
+    },
+    {
+      text: "🔔<span class='tip'><strong>alertare și reflex de orientare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te pune rapid în stare de „gata de reacție” și te îndreaptă spre ceva nou sau important.<br/><br/><strong>Formulare academică:</strong> atenția implică mecanisme de alertare care cresc nivelul de activare și declanșează reflexul de orientare către stimuli noi sau semnificativi.<br/><br/><strong>Exemplu:</strong> întorci capul imediat la un zgomot neașteptat.</span></span>",
+      key: "amber",
+    },
+    {
+      text: "🎯<span class='tip'><strong>selectează și focalizează energia</strong> <span style='opacity:.9'>(favorizează unele, inhibă altele)</span><span class='tooltip-box'><strong>Simplu spus:</strong> întărește ce e relevant și slăbește ce distrage.<br/><br/><strong>Formulare academică:</strong> atenția selectează și focalizează energia neuropsihică, facilitând procesele relevante și inhibând tendințele concurente, pentru eficientizarea activității.<br/><br/><strong>Exemplu:</strong> rămâi pe text și nu mai reacționezi la conversațiile din jur.</span></span>",
+      key: "violet",
+    },
+    {
+      text: "🌊<span class='tip'><strong>stabilitate variabilă</strong> <span style='opacity:.9'>(fluctuații și concentrare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> atenția urcă și coboară natural, apoi revine când te reconcentrezi.<br/><br/><strong>Formulare academică:</strong> atenția prezintă grade diferite de stabilitate, manifestând fluctuații ale intensității concentrării și episoade de refocalizare în funcție de sarcină și context.<br/><br/><strong>Exemplu:</strong> după câteva minute de lucru, simți o scădere și apoi te readuci pe sarcină.</span></span>",
+      key: "coral",
+    },
+    {
+      text: "🌤️<span class='tip'><strong>veghe</strong> <span style='opacity:.9'>(activare difuză)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ești treaz și disponibil, fără o țintă precisă.<br/><br/><strong>Formulare academică:</strong> starea de veghe reprezintă activare difuză și disponibilitate generală, care pregătește organismul pentru recepție și reacție.<br/><br/><strong>Exemplu:</strong> stai atent „în general” în clasă, înainte să înceapă sarcina.</span></span>",
+      key: "cyan",
+    },
+    {
+      text: "🔍<span class='tip'><strong>vigilență</strong> <span style='opacity:.9'>(explorare activă)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cauți intenționat și monitorizezi activ ce e important.<br/><br/><strong>Formulare academică:</strong> starea de vigilență constă în explorare activă și orientare intenționată către semnale relevante, cu monitorizare susținută a mediului sau a sarcinii.<br/><br/><strong>Exemplu:</strong> urmărești constant indicii într-un test sau într-o situație de supraveghere.</span></span>",
+      key: "emerald",
+    },
+    {
+      text: "⚙️<span class='tip'><strong>factor dinamogen</strong> <span style='opacity:.9'>(susține cognitivul și afectivul)</span><span class='tooltip-box'><strong>Simplu spus:</strong> crește energia și eficiența, atât în înțelegere, cât și în trăiri și control.<br/><br/><strong>Formulare academică:</strong> atenția funcționează ca factor dinamogen (dinamogen - dă energie și crește randamentul), susținând și amplificând activitatea cognitivă și afectivă prin creșterea energiei disponibile și a eficienței funcționale.<br/><br/><strong>Exemplu:</strong> înțelegi mai bine și îți gestionezi mai bine reacțiile când ești atent.</span></span>",
+      key: "amber",
+    },
+  ])}
+
+</div>
+
+
+</div>`,
         },
 
         {
-          front: "Explică tipurile de atenție",
-          back: "Formele principale sunt <strong>atenția involuntară</strong> <strong>atenția voluntară</strong> <strong>atenția postvoluntară</strong><br><br><strong>Atenția involuntară</strong> este <span class='tip'><span class='tooltip-box'>Formă primară declanșată spontan fără control conștient</span><strong>spontană</strong></span> și apare sub influența <span class='tip'><span class='tooltip-box'>Stimulilor intensi noi mobili sau complecși</span><strong>stimulilor intensi noi mobili complecși</strong></span><br><br><strong>Atenția voluntară</strong> este <span class='tip'><span class='tooltip-box'>Formă superioară cu intenție scop și control conștient</span><strong>intenționată</strong></span> și se autoreglează prin <span class='tip'><span class='tooltip-box'>Mecanisme verbale</span><strong>mijloace verbale</strong></span><br><br>Se manifestă prin <span class='tip'><span class='tooltip-box'>Orientare intenționată focalizare energetică și menținere până la final</span><strong>concentrare până la finalizarea sarcinii</strong></span><br><br><strong>Atenția postvoluntară</strong> apare prin <span class='tip'><span class='tooltip-box'>Automatizarea atenției voluntare prin exercițiu repetat</span><strong>automatizare prin exercițiu</strong></span> adică <span class='tip'><span class='tooltip-box'>Efortul inițial scade când activitatea devine familiară și bine stăpânită</span><strong>scăderea efortului inițial</strong></span> și are avantaj <span class='tip'><span class='tooltip-box'>Consum redus de energie nervoasă și eficiență crescută</span><strong>eficiență mai mare cu consum redus</strong></span>",
+          front: "Tipuri de atenție",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Tipuri de atenție</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> atenția poate fi spontană, controlată sau ajunge aproape automată prin exercițiu.<br/><br/>
+          <strong>Formulare academică:</strong> atenția se organizează în trei forme principale, diferențiate prin gradul de control conștient și prin rolul scopului: involuntară, voluntară și postvoluntară.<br/><br/>
+          <strong>Exemplu:</strong> un zgomot te atrage singur, apoi te concentrezi intenționat, iar după exercițiu rămâi concentrat cu efort mic.
+        </span>
+      </span>
+    </div>
+
+    <hr class="hr-flash">
+
+    ${window.flashPillList([
+      {
+        text: "⚡<span class='tip'><strong>involuntară</strong><span class='tooltip-box'><strong>Simplu spus:</strong> apare singură, când ceva e nou sau puternic.<br/><br/><strong>Formulare academică:</strong> atenția involuntară este declanșată spontan de stimuli noi, intensi sau semnificativi, fără intenție și fără control conștient stabil.<br/><br/><strong>Exemplu:</strong> te întorci imediat la un sunet neașteptat.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🎯<span class='tip'><strong>voluntară</strong><span class='tooltip-box'><strong>Simplu spus:</strong> o controlezi, pentru că ai un scop clar.<br/><br/><strong>Formulare academică:</strong> atenția voluntară este orientarea selectivă realizată prin control conștient, susținută de scop și de efort de menținere a concentrării în pofida distragerilor.<br/><br/><strong>Exemplu:</strong> rămâi la învățat chiar dacă ai telefonul lângă tine.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🔁<span class='tip'><strong>postvoluntară</strong><span class='tooltip-box'><strong>Simplu spus:</strong> după exercițiu, te concentrezi ușor, aproape fără efort.<br/><br/><strong>Formulare academică:</strong> atenția postvoluntară este forma stabilizată prin exercițiu, în care concentrarea se menține cu consum energetic redus, datorită interiorizării și automatizării modului de lucru.<br/><br/><strong>Exemplu:</strong> după practică, citești concentrat fără să te forțezi.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <hr class="hr-flash">
+
+    <div>
+      <span class='tip'><strong>Avantajul atenției postvoluntare</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> rămâi atent cu efort mai mic și eficiență mai mare.<br/><br/>
+          <strong>Formulare academică:</strong> atenția postvoluntară asigură concentrare stabilă cu consum energetic redus, crescând randamentul activității prin menținerea selectivității fără efort voluntar intens.<br/><br/>
+          <strong>Exemplu:</strong> lucrezi fluent după ce ai prins rutina.
+        </span>
+      </span>
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică favorizarea atenției voluntare",
-          back: "<strong>Favorizarea atenției voluntare</strong> înseamnă <span class='tip'><span class='tooltip-box'>Măsuri imediate care susțin concentrarea intenționată asupra unei sarcini</span><strong>crearea condițiilor pentru concentrare</strong></span><br><br>Se face prin <span class='tip'><span class='tooltip-box'>Clarificarea țintei</span><strong>stabilirea clară a scopurilor</strong></span><br><span class='tip'><span class='tooltip-box'>Sens și câștig personal</span><strong>evidențierea semnificației și beneficiilor</strong></span><br><span class='tip'><span class='tooltip-box'>Anticiparea segmentelor dificile</span><strong>identificarea momentelor dificile</strong></span><br><span class='tip'><span class='tooltip-box'>Cadru propice</span><strong>ambianță stimulativă</strong></span><br><span class='tip'><span class='tooltip-box'>Zgomot notificări întreruperi</span><strong>reducerea factorilor perturbatori</strong></span><br><br>Reducerea factorilor perturbatori ajută fiindcă <span class='tip'><span class='tooltip-box'>Scade competiția dintre stimuli și permite menținerea concentrării asupra sarcinii</span><strong>reduce competiția stimulilor</strong></span>",
-        },
+          front: "Modalități de favorizare și educare a atenției voluntare",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Explică educarea atenției voluntare și stabilitatea atenției",
-          back: "<strong>Educarea atenției voluntare</strong> înseamnă <span class='tip'><span class='tooltip-box'>Formarea și consolidarea capacității de concentrare prin metode și exercițiu pe termen mai lung</span><strong>construire treptată prin exersare</strong></span><br><br>Condiții care o susțin <br><span class='tip'><span class='tooltip-box'>Structuri logice și legături</span><strong>organizarea materialelor și sarcinilor cu sens</strong></span><br><span class='tip'><span class='tooltip-box'>Motivare și relevanță</span><strong>sublinierea semnificației sarcinii</strong></span><br><span class='tip'><span class='tooltip-box'>Ce este esențial</span><strong>evidențierea elementelor importante</strong></span><br><span class='tip'><span class='tooltip-box'>Prezentări diferite</span><strong>modalități variate</strong></span><br><br><strong>Cunoașterea fiziologiei atenției</strong> este utilă pentru <span class='tip'><span class='tooltip-box'>Adaptarea duratei activităților și pauzelor la capacitatea reală de concentrare</span><strong>dozarea duratei și a pauzelor</strong></span><br><br><strong>Stabilitatea atenției</strong> este aproximativ <span class='tip'><span class='tooltip-box'>La preșcolari aproximativ 10 minute la adulți până la aproximativ 30 de minute</span><strong>10 minute la preșcolari și până la 30 de minute la adulți</strong></span>",
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Favorizarea atenției voluntare</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯<span class='tip'><strong>scopuri clare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> știi exact ce urmărești în activitate.<br/><br/><strong>Formulare academică:</strong> stabilirea unui scop explicit structurează orientarea selectivă și susține menținerea atenției voluntare prin clarificarea criteriilor de relevanță.<br/><br/><strong>Exemplu:</strong> îți propui să rezolvi 10 itemi, nu doar să citești la întâmplare.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧩<span class='tip'><strong>semnificație personală</strong><span class='tooltip-box'><strong>Simplu spus:</strong> înțelegi de ce contează pentru tine.<br/><br/><strong>Formulare academică:</strong> atribuirea de semnificație personală crește implicarea și stabilizează atenția voluntară prin întărirea valorii scopului și a motivației de menținere.<br/><br/><strong>Exemplu:</strong> rămâi atent când vezi legătura cu un obiectiv important pentru tine.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "⚠️<span class='tip'><strong>momente dificile anticipate</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te pregătești dinainte pentru obstacole și căderi de concentrare.<br/><br/><strong>Formulare academică:</strong> anticiparea dificultăților permite planificarea strategiilor de reglare și reduce impactul perturbatorilor asupra menținerii atenției voluntare.<br/><br/><strong>Exemplu:</strong> știi că obosești după 20 de minute și planifici o pauză scurtă.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🌿<span class='tip'><strong>ambianță favorabilă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> îți construiești un context care te ajută să te concentrezi.<br/><br/><strong>Formulare academică:</strong> organizarea ambianței reduce stimulii concurenți și susține orientarea selectivă prin condiții stabile de lucru.<br/><br/><strong>Exemplu:</strong> lumină bună, spațiu ordonat, materiale pregătite.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🔕<span class='tip'><strong>reducerea perturbatorilor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> tai distragerile ca să nu concureze cu sarcina.<br/><br/><strong>Formulare academică:</strong> reducerea perturbatorilor scade competiția dintre stimuli și optimizează selecția informației relevante pentru sarcină, crescând stabilitatea atenției voluntare.<br/><br/><strong>Exemplu:</strong> oprești notificările când înveți.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Educarea atenției voluntare</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧱<span class='tip'><strong>organizare cu sens</strong><span class='tooltip-box'><strong>Simplu spus:</strong> materialul este structurat clar și logic.<br/><br/><strong>Formulare academică:</strong> structurarea cu sens a conținutului sprijină orientarea selectivă și reduce încărcarea inutilă, facilitând menținerea atenției voluntare.<br/><br/><strong>Exemplu:</strong> înveți pe idei principale și subidei, nu pe fragmente izolate.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🎯<span class='tip'><strong>semnificație și motivare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> legi activitatea de un scop personal și motivant.<br/><br/><strong>Formulare academică:</strong> motivarea și semnificația scopului susțin persistența atenției voluntare prin creșterea valorii sarcinii și a disponibilității pentru efort conștient.<br/><br/><strong>Exemplu:</strong> stabilești pentru ce anume îți folosește ce înveți.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🔦<span class='tip'><strong>elemente importante evidențiate</strong><span class='tooltip-box'><strong>Simplu spus:</strong> știi care sunt punctele cheie pe care trebuie să le urmărești.<br/><br/><strong>Formulare academică:</strong> evidențierea elementelor esențiale clarifică ținta atențională și optimizează selecția informației relevante.<br/><br/><strong>Exemplu:</strong> subliniezi definiții și criterii, nu tot paragraful.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🎛️<span class='tip'><strong>varietate controlată</strong><span class='tooltip-box'><strong>Simplu spus:</strong> schimbi forma activității fără să pierzi firul sarcinii.<br/><br/><strong>Formulare academică:</strong> varietatea controlată menține interesul și reduce monotonia, fără a fragmenta sarcina, susținând stabilitatea atenției voluntare.<br/><br/><strong>Exemplu:</strong> alternezi cititul cu rezolvarea de itemi pe aceeași temă.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <hr class="hr-flash">
+
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Fiziologia atenției</div>
+    ${window.flashPillList([
+      {
+        text: "⏱️<span class='tip'><strong>stabilitate limitată</strong><span class='tooltip-box'><strong>Simplu spus:</strong> concentrarea are fluctuații normale, nu poate rămâne constantă mult timp.<br/><br/><strong>Formulare academică:</strong> stabilitatea atenției este limitată fiziologic, manifestând fluctuații ale intensității concentrării, cu scădere a randamentului în absența pauzelor.<br/><br/><strong>Exemplu:</strong> după o perioadă continuă, devii mai ușor distras.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "📏<span class='tip'><strong>durată orientativă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> durata concentrării crește cu vârsta, dar rămâne limitată.<br/><br/><strong>Formulare academică:</strong> durata orientativă a menținerii atenției voluntare variază cu vârsta și nivelul de dezvoltare, fiind aproximativ de 10 minute la preșcolari și de aproximativ 30 de minute la adulți, în condiții obișnuite.<br/><br/><strong>Exemplu:</strong> planifici pauze scurte după intervale de lucru.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -10655,39 +11586,249 @@ ${window.flashPillList([
       title: "Curs 12 FLASHCARDS",
       cards: [
         {
-          front: "Explică limbajul și limba",
-          back: "<strong>Limbajul</strong> este <span class='tip'><span class='tooltip-box'>Popescu Neveanu</span><strong>sistem și activitate de comunicare cu ajutorul limbii</strong></span><br><br><strong>Limba</strong> este <span class='tip'><span class='tooltip-box'>Instrumentul principal al limbajului structură împărtășită social</span><strong>sistem evolutiv hipercomplex de simboluri și semne</strong></span> cu rol în cultură<br><br>Componentele limbii sunt <span class='tip'><span class='tooltip-box'>Cuvinte reguli de combinare sensuri</span><strong>lexic sintactică semantică</strong></span>",
+          front: "Definirea și caracteristicile limbajului și a limbii",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Limbajul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> folosim cuvinte și reguli comune ca să comunicăm.<br/><br/>
+          <strong>Formulare academică:</strong> limbajul este sistem și activitate de comunicare realizată cu ajutorul limbii, prin care se transmit și se prelucrează semnificații în interacțiune socială.<br/><br/>
+          <strong>Exemplu:</strong> când vorbești, scrii sau explici ceva.
+        </span>
+      </span>
+      = sistem și activitate de comunicare prin limbă
+    </div>
+
+    <hr class="hr-flash">
+
+    <div>
+      <span class='tip'><strong>Limba</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> codul comun al unei comunități, cu semne și reguli.<br/><br/>
+          <strong>Formulare academică:</strong> limba este un sistem evolutiv hipercomplex de semne și simboluri, constituit social și transmis cultural, care face posibilă comunicarea și organizarea experienței.<br/><br/>
+          <strong>Exemplu:</strong> româna, franceza, engleza.
+        </span>
+      </span>
+      = sistem de semne și reguli
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componentele limbii</div>
+
+    ${window.flashPillList([
+      {
+        text: "📚<span class='tip'><strong>lexic</strong><span class='tooltip-box'><strong>Simplu spus:</strong> totalul cuvintelor unei limbi.<br/><br/><strong>Formulare academică:</strong> componenta limbii care include unitățile lexicale și relațiile dintre ele, constituind repertoriul de cuvinte utilizabile în comunicare.<br/><br/><strong>Exemplu:</strong> cuvinte precum „carte”, „idee”, „a învăța”.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧱<span class='tip'><strong>sintactică</strong><span class='tooltip-box'><strong>Simplu spus:</strong> regulile prin care combini cuvintele în propoziții.<br/><br/><strong>Formulare academică:</strong> ansamblul regulilor de combinare a unităților lingvistice în structuri gramaticale corecte, necesare construirii enunțurilor.<br/><br/><strong>Exemplu:</strong> „Eu citesc o carte”, nu „Eu carte citesc o”.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "💬<span class='tip'><strong>semantică</strong><span class='tooltip-box'><strong>Simplu spus:</strong> sensurile cuvintelor și ale propozițiilor.<br/><br/><strong>Formulare academică:</strong> componenta care studiază și organizează semnificațiile unităților lingvistice și relațiile de sens dintre ele, la nivel lexical și propozițional.<br/><br/><strong>Exemplu:</strong> diferența dintre „rece” ca temperatură și „rece” ca atitudine.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Caracteristici ale limbajului</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚙️<span class='tip'><strong>dinamic</strong><span class='tooltip-box'><strong>Simplu spus:</strong> se adaptează contextului și situației.<br/><br/><strong>Formulare academică:</strong> limbajul are caracter dinamic, actualizându-se diferențiat în funcție de context, scop și interlocutor, prin selectarea și ajustarea mijloacelor expresive.<br/><br/><strong>Exemplu:</strong> vorbești diferit la examen decât cu prietenii.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💡<span class='tip'><strong>interdependent cu gândirea</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te ajută să gândești mai clar, iar gândirea îl structurează.<br/><br/><strong>Formulare academică:</strong> limbajul mediază gândirea, oferind instrumente de reprezentare, categorizare și raționare, iar structurile cognitive influențează producerea și înțelegerea enunțurilor.<br/><br/><strong>Exemplu:</strong> când formulezi în cuvinte, îți ordonezi ideile.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧩<span class='tip'><strong>condensarea informației</strong><span class='tooltip-box'><strong>Simplu spus:</strong> spui mult prin forme scurte.<br/><br/><strong>Formulare academică:</strong> limbajul permite condensarea informației prin simbolizare și economie expresivă, astfel încât conținuturi complexe pot fi comprimate în unități scurte, ușor de operat cognitiv.<br/><br/><strong>Exemplu:</strong> un termen precum „democrație” comprimă un set mare de idei.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "👶<span class='tip'><strong>dezvoltare progresivă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> se formează treptat, de la simplu la complex.<br/><br/><strong>Formulare academică:</strong> limbajul se dezvoltă progresiv, prin trecerea de la structuri elementare la enunțuri complexe, pe măsura maturizării și a experienței socio-culturale.<br/><br/><strong>Exemplu:</strong> de la „mami apă” la propoziții compuse.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică caracteristicile limbajului",
-          back: "<strong>Limbajul</strong> este <span class='tip'><span class='tooltip-box'>Organizează și actualizează în vorbire resursele personalității</span><strong>fenomen psihologic dinamic</strong></span> și exprimă <span class='tip'><span class='tooltip-box'>Exprimare personală unică</span><strong>specificul individului</strong></span><br><br><strong>Limbajul și gândirea</strong> sunt în <span class='tip'><span class='tooltip-box'>Se influențează reciproc</span><strong>interdependență indisolubilă</strong></span><br><br>Conform <strong>Miller 1931</strong> tendința evolutivă este <span class='tip'><span class='tooltip-box'>Mai multă informație în forme mai scurte</span><strong>condensarea informației</strong></span><br><br>La copii limbajul devine funcțional prin <span class='tip'><span class='tooltip-box'>De la cuvinte propoziție la propoziții complexe prin interacțiune</span><strong>trecere progresivă prin socializare</strong></span>",
+          front: "Funcțiile limbajului",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Funcțiile limbajului</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> limbajul transmite, organizează gândirea și ghidează acțiunea.<br/><br/>
+          <strong>Formulare academică:</strong> limbajul îndeplinește funcții comunicative, cognitive și reglatorii, susținând atât schimbul social de semnificații, cât și reprezentarea și conducerea comportamentului orientat spre scop.<br/><br/>
+          <strong>Exemplu:</strong> explici o idee, îți clarifici un plan și apoi îl urmezi.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Funcții principale</div>
+
+    ${window.flashPillList([
+      {
+        text: "🤝<span class='tip'><strong>comunicativă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> transmiți informații și construiești relații.<br/><br/><strong>Formulare academică:</strong> funcția comunicativă permite schimbul de semnificații, coordonarea interacțiunilor și transmiterea intențiilor, emoțiilor și cunoștințelor între interlocutori.<br/><br/><strong>Exemplu:</strong> dai instrucțiuni sau explici ce simți.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💡<span class='tip'><strong>cognitivă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te ajută să gândești, să înțelegi și să raționezi.<br/><br/><strong>Formulare academică:</strong> funcția cognitivă susține reprezentarea mentală, formarea conceptelor, judecățile și raționamentele, fiind instrument central al prelucrării cognitive.<br/><br/><strong>Exemplu:</strong> formulezi o concluzie după ce compari idei.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭<span class='tip'><strong>reglatorie</strong><span class='tooltip-box'><strong>Simplu spus:</strong> îți conduce acțiunea și autocontrolul.<br/><br/><strong>Formulare academică:</strong> funcția reglatorie direcționează și controlează conduita prin formularea scopurilor, planificare, auto-instrucțiuni și monitorizarea execuției, facilitând autoreglarea comportamentală.<br/><br/><strong>Exemplu:</strong> îți spui „pas cu pas” și continui să lucrezi.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică funcțiile limbajului",
-          back: "<strong>Funcția comunicativă</strong> înseamnă <span class='tip'><span class='tooltip-box'>Emoții idei persuasiune relații</span><strong>exprimare influențare și relaționare</strong></span><br><br><strong>Funcția cognitivă</strong> înseamnă <span class='tip'><span class='tooltip-box'>Instrument al gândirii pentru reprezentare semnificații judecăți raționamente</span><strong>reprezentare și raționare</strong></span><br><br><strong>Funcția reglatorie</strong> înseamnă <span class='tip'><span class='tooltip-box'>Ghidează acțiunea mintală și activitatea include ludic cathartic și relații</span><strong>calibrare a acțiunii și a conduitei</strong></span>",
+          front: "Tipuri de limbaj",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Tipuri de limbaj</div>
+    <img
+  src="Assets/Schema tipurilor de limbaj.png"
+  alt="Schema tipurilor de limbaj"
+  style="max-width:100%;height:auto;display:block;margin:0 auto;"
+/>
+
+
+    ${window.flashPillList([
+      {
+        text: "🗣️<span class='tip'><strong>limbaj oral</strong> <span style='opacity:.9'>comunicare prin vorbire</span><span class='tooltip-box'><strong>Simplu spus:</strong> vorbești direct și primești reacție imediat.<br/><br/><strong>Formulare academică:</strong> formă de limbaj verbal realizată prin sunete articulate, în situații de comunicare directă, cu feedback imediat și adaptare rapidă la interlocutor.<br/><br/><strong>Exemplu:</strong> discuție față în față.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "✍️<span class='tip'><strong>limbaj scris</strong> <span style='opacity:.9'>comunicare prin text</span><span class='tooltip-box'><strong>Simplu spus:</strong> transmiți idei prin scriere, fără prezență directă.<br/><br/><strong>Formulare academică:</strong> formă de limbaj verbal mediat grafic, caracterizată prin stabilitate a mesajului, organizare sintactică mai riguroasă și posibilitate de revizuire.<br/><br/><strong>Exemplu:</strong> eseu, email, notițe.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💬<span class='tip'><strong>limbaj verbal</strong> <span style='opacity:.9'>cuvinte și reguli</span><span class='tooltip-box'><strong>Simplu spus:</strong> comunici prin cuvinte, vorbite sau scrise.<br/><br/><strong>Formulare academică:</strong> utilizarea limbii ca sistem de semne verbale, în formă orală sau scrisă, pentru transmiterea explicită a semnificațiilor.<br/><br/><strong>Exemplu:</strong> explici o idee în propoziții.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🎙️<span class='tip'><strong>limbaj paraverbal</strong> <span style='opacity:.9'>cum spui cuvintele</span><span class='tooltip-box'><strong>Simplu spus:</strong> tonul și ritmul schimbă cum e înțeles mesajul.<br/><br/><strong>Formulare academică:</strong> ansamblu de caracteristici vocale ale enunțului, precum intonația, accentul, ritmul și intensitatea, care nuanțează și modifică sensul mesajului verbal.<br/><br/><strong>Exemplu:</strong> aceeași propoziție spusă calm sau iritat.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🙌<span class='tip'><strong>limbaj nonverbal</strong> <span style='opacity:.9'>mesaje prin corp</span><span class='tooltip-box'><strong>Simplu spus:</strong> comunici fără cuvinte, prin gesturi și mimică.<br/><br/><strong>Formulare academică:</strong> transmiterea semnificațiilor prin expresii faciale, gesturi, postură și comportamente corporale, care completează sau contrazic mesajul verbal.<br/><br/><strong>Exemplu:</strong> zâmbet, ridicat din umeri, privire evitantă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌍<span class='tip'><strong>limbaj extern</strong> <span style='opacity:.9'>adresat altora</span><span class='tooltip-box'><strong>Simplu spus:</strong> tot ce exprimi spre exterior, pentru comunicare.<br/><br/><strong>Formulare academică:</strong> limbaj produs în interacțiune socială, orientat către interlocutori, în formă orală sau scrisă, cu funcție predominant comunicativă.<br/><br/><strong>Exemplu:</strong> prezentare, conversație, mesaj.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "💭<span class='tip'><strong>limbaj intern</strong> <span style='opacity:.9'>vorbirea din minte</span><span class='tooltip-box'><strong>Simplu spus:</strong> îți vorbești în gând ca să te organizezi.<br/><br/><strong>Formulare academică:</strong> formă concentrată și tăcută de limbaj, specifică existenței mintale, cu rol central în autoreglarea gândirii și a conduitei, prin auto-instrucțiuni și planificare.<br/><br/><strong>Exemplu:</strong> „acum fac pasul unu, apoi pasul doi”.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+        {
+          front: "Descrie limbajul intern",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Limbajul intern</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> vorbirea din minte, prin care îți organizezi gândirea și îți controlezi acțiunile.<br/><br/>
+          <strong>Formulare academică:</strong> limbajul intern este o modalitate esențială, specifică existenței mintale a omului, vehicul de sens în formă pură și concentrată și actualizator de semnificații, având rol central în autoreglarea acțiunilor și comportamentelor (Popescu Neveanu, 1978).<br/><br/>
+          <strong>Exemplu:</strong> îți spui în gând pașii unei rezolvări și te corectezi pe parcurs.
+        </span>
+      </span> - vorbirea din minte care ghidează gândirea și autoreglează acțiunea
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Idei cheie</div>
+
+    ${window.flashPillList([
+      {
+        text: "🚗<span class='tip'><strong>vehicul de sens</strong> <span style='opacity:.9'>miezul ideii</span><span class='tooltip-box'><strong>Simplu spus:</strong> în minte păstrezi esența, nu formulezi tot enunțul.<br/><br/><strong>Formulare academică:</strong> limbajul intern funcționează ca vehicul de sens în formă concentrată, orientat spre semnificație, nu spre enunț complet.<br/><br/><strong>Exemplu:</strong> îți spui doar verific, nu o propoziție întreagă.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💡<span class='tip'><strong>caracter predicativ</strong> <span style='opacity:.9'>condensat în sens</span><span class='tooltip-box'><strong>Simplu spus:</strong> exprimă rapid ce contează pentru acțiune, fără detalii inutile.<br/><br/><strong>Formulare academică:</strong> limbajul intern are caracter predicativ, fiind comprimat și orientat către sens, ceea ce îi crește eficiența ca instrument al gândirii (Vîgotski).<br/><br/><strong>Exemplu:</strong> îți spui gata, rezolv și treci la execuție.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🔃<span class='tip'><strong>autoreglare</strong> <span style='opacity:.9'>control și autocontrol</span><span class='tooltip-box'><strong>Simplu spus:</strong> îți dai instrucțiuni și îți ajustezi comportamentul ca să rămâi pe scop.<br/><br/><strong>Formulare academică:</strong> limbajul intern susține reglajul voluntar prin monitorizarea conștientă a acțiunii și corectarea conduitei în funcție de criterii interne.<br/><br/><strong>Exemplu:</strong> îți spui calm, continuă, verifică și îți menții controlul.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⚙️<span class='tip'><strong>mecanism general al conștiinței</strong> <span style='opacity:.9'>punct nodal</span><span class='tooltip-box'><strong>Simplu spus:</strong> leagă mai multe procese psihice într un mod unitar.<br/><br/><strong>Formulare academică:</strong> limbajul intern este punct nodal al relațiilor dintre diverse procese și fenomene psihice, având funcție integratoare la nivelul conștiinței (Ananiev).<br/><br/><strong>Exemplu:</strong> îți clarifici un plan și îți coordonezi atenția, memoria și acțiunea.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică tipurile de limbaj",
-          back: "<strong>Limbaj verbal</strong> <span class='tip'><span class='tooltip-box'>Vorbire și scriere</span><strong>comunicare prin cuvinte</strong></span><br><br><strong>Limbaj nonverbal</strong> <span class='tip'><span class='tooltip-box'>Mimică gesturi postură</span><strong>expresie corporală</strong></span><br><br><strong>Limbaj paraverbal</strong> <span class='tip'><span class='tooltip-box'>Ton volum ritm intonație</span><strong>caracteristici ale vocii</strong></span>",
-        },
+          front: "Descrie dezvoltarea limbajului la Vîgotski",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Explică limbajul intern și rolul lui",
-          back: "<strong>Limbajul intern</strong> este <span class='tip'><span class='tooltip-box'>Formă concentrată tăcută de gândire în cuvinte</span><strong>modalitate specifică existenței mintale</strong></span><br><br>Are funcție de <span class='tip'><span class='tooltip-box'>Ghidează acțiunile și conștiința</span><strong>autoreglare</strong></span><br><br>La <strong>Vîgotski</strong> este <span class='tip'><span class='tooltip-box'>Exprimă condensat o judecată sau relație între concepte</span><strong>predicativ vehicul de sens și semnificație</strong></span>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dezvoltarea limbajului la Vîgotski</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> vorbirea cu voce tare se interiorizează treptat și devine limbaj intern, care susține gândirea și autocontrolul.<br/><br/>
+          <strong>Formulare academică:</strong> limbajul extern se transformă progresiv, prin internalizare, în limbaj intern, care devine instrument al gândirii, al autoreflecției și al reglării conduitei, în context socio cultural, prin interacțiunea cu Altul (Vîgotski).<br/><br/>
+          <strong>Exemplu:</strong> acum fac asta spus cu voce tare devine un ghidaj tăcut al acțiunii.
+        </span>
+      </span>
+    </div>
 
-        {
-          front:
-            "Explică perspectiva lui Vîgotski despre limbajul intern și efectele lui",
-          back: "Conform lui <strong>Vîgotski</strong> limbajul intern <span class='tip'><span class='tooltip-box'>Rezultă din internalizarea vorbirii cu voce tare</span><strong>se formează prin transformarea limbajului extern</strong></span><br><br>Are rol de <span class='tip'><span class='tooltip-box'>Leagă învățarea socială de gândirea individuală</span><strong>mediere socio culturală</strong></span> în <span class='tip'><span class='tooltip-box'>Învățare influențată de interacțiuni norme valori limbaj</span><strong>învățarea condiționată socio cultural</strong></span><br><br>Conștientizarea proceselor psihice prin limbaj intern produce <span class='tip'><span class='tooltip-box'>Gestionare conștientă a conduitei</span><strong>control și autocontrol</strong></span>",
-        },
+    <hr class="hr-flash">
 
-        {
-          front: "Explică dezvoltarea vorbirii la copil la Vîgotski",
-          back: "<strong>Egocentric speech</strong> <span class='tip'><span class='tooltip-box'>Vorbire cu voce tare pentru sine fără orientare către ceilalți</span><strong>vorbit pentru sine</strong></span><br><br><strong>Awareness of others</strong> <span class='tip'><span class='tooltip-box'>Copilul începe să țină cont de receptor</span><strong>conștientizarea celorlalți</strong></span><br><br><strong>Social speech</strong> <span class='tip'><span class='tooltip-box'>Vorbirea devine adresată altora și interactivă</span><strong>comunicare reală</strong></span><br><br><strong>Inner speech</strong> <span class='tip'><span class='tooltip-box'>Vorbirea devine internă tăcută copilul gândește cu cuvinte</span><strong>gândire în cuvinte fără sunet</strong></span><br><br>Ordinea corectă este <span class='tip'><span class='tooltip-box'>De la vorbire pentru sine la vorbire socială apoi internalizare</span><strong>Egocentric speech apoi Social speech apoi Inner speech</strong></span>",
+    <div style="display:grid;gap:10px;">
+      <div><strong>Progresul</strong>: vorbire cu voce tare pentru sine → vorbire socială → limbaj intern</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Etapele</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>vorbire egocentrică</strong> <span style='opacity:.9'>pentru sine</span><span class='tooltip-box'><strong>Simplu spus:</strong> copilul își spune pașii cu voce tare ca să se conducă singur.<br/><br/><strong>Formulare academică:</strong> vorbirea egocentrică funcționează ca instrument de organizare a acțiunii și pregătește trecerea spre autoreglarea internă.<br/><br/><strong>Exemplu:</strong> acum pun piesa aici.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "<span class='tip'><strong>vorbire socială</strong> <span style='opacity:.9'>către celălalt</span><span class='tooltip-box'><strong>Simplu spus:</strong> vorbirea devine comunicare reală și se modelează după interlocutor.<br/><br/><strong>Formulare academică:</strong> interacțiunea socială structurează vorbirea și o face dependentă de reguli, feedback și context, susținând învățarea socio culturală.<br/><br/><strong>Exemplu:</strong> explici și ajustezi ce spui după reacția celuilalt.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>limbaj intern</strong> <span style='opacity:.9'>interiorizat</span><span class='tooltip-box'><strong>Simplu spus:</strong> vorbirea se mută în minte și devine ghidaj rapid al gândirii și acțiunii.<br/><br/><strong>Formulare academică:</strong> prin internalizare, vorbirea externă se transformă în limbaj intern, instrument al conștiinței, al controlului și al autocontrolului (Vîgotski).<br/><br/><strong>Exemplu:</strong> îți spui în gând fă pasul următor și execuți.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -10698,73 +11839,498 @@ ${window.flashPillList([
       title: "Curs 13 Personalitatea FLASHCARDS",
       cards: [
         {
-          front: "Definește personalitatea la Popescu Neveanu 1978",
-          back: "<strong>Personalitatea</strong> este un <span class='tip'><span class='tooltip-box'>Un sistem complex și integrat format din mai multe componente interconectate</span><strong>macrosistem</strong></span> de <span class='tip'><span class='tooltip-box'>Elemente stabile care nu se schimbă în timp</span><strong>invarianți</strong></span> <span class='tip'><span class='tooltip-box'>Legate de conținutul cunoștințelor ideilor și reprezentărilor mentale</span><strong>informaționali</strong></span> și <span class='tip'><span class='tooltip-box'>Legate de modul în care individul acționează sau procesează informațiile în mod practic</span><strong>operaționali</strong></span> exprimați în <span class='tip'><span class='tooltip-box'>Comportamentul observabil al unei persoane</span><strong>conduită</strong></span><br><br>Conform definiției reunește <span class='tip'><span class='tooltip-box'>Trăsături constante definitorii și operaționale</span><strong>trăsături definitorii și constante</strong></span> care se exprimă stabil în comportament",
+          front: "Definește personalitatea",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Personalitatea</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> ceea ce rămâne relativ stabil la o persoană și se vede în felul ei de a gândi, simți și acționa.<br/><br/>
+          <strong>Formulare academică:</strong> personalitatea este un macrosistem de invarianți informaționali și operaționali, relativ stabili, exprimați în conduită, care asigură unitatea și specificul individului în raport cu mediul (Popescu Neveanu, 1978).<br/><br/>
+          <strong>Exemplu:</strong> un stil constant de relaționare și reacție în situații diferite.
+        </span>
+      </span>
+      = macrosistem de invarianți exprimați în conduită
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Caracteristici esențiale</div>
+
+    ${window.flashPillList([
+      {
+        text: "📌<span class='tip'><strong>stabilitate relativă</strong> <span style='opacity:.9'>(invarianți în timp)</span><span class='tooltip-box'><strong>Simplu spus:</strong> se repetă în timp, nu se schimbă de la o zi la alta.<br/><br/><strong>Formulare academică:</strong> personalitatea include structuri relativ stabile care conferă continuitate și predictibilitate conduitei.<br/><br/><strong>Exemplu:</strong> reacționezi consecvent la critică sau la presiune.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧭<span class='tip'><strong>exprimare în conduită</strong> <span style='opacity:.9'>(se vede în comportament)</span><span class='tooltip-box'><strong>Simplu spus:</strong> nu e doar în cap, se observă în acțiuni.<br/><br/><strong>Formulare academică:</strong> trăsăturile și structurile personalității devin observabile prin alegeri, reacții și stiluri de comportament în contexte reale.<br/><br/><strong>Exemplu:</strong> modul în care iei decizii și îți ții promisiunile.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică teoria trăsăturilor la Allport",
-          back: "Allport definește <span class='tip'><span class='tooltip-box'>Predispoziții relativ stabile de a reacționa într un mod specific în diverse situații</span><strong>trăsăturile de personalitate</strong></span> ca <strong>predispoziții stabile de răspuns comportamental</strong><br><br>Trăsăturile se combină într o <span class='tip'><span class='tooltip-box'>Tipar individual unic care caracterizează personalitatea unei persoane</span><strong>configurație unică</strong></span> pentru fiecare individ<br><br>Niveluri ierarhice <strong>cardinale</strong> <strong>centrale</strong> <strong>secundare</strong><br><br><span class='tip'><span class='tooltip-box'>Trăsături dominante pervazive definitorii pentru un individ nu sunt prezente la toți</span><strong>Trăsăturile cardinale</strong></span> sunt <span class='tip'><span class='tooltip-box'>Pătrund toate aspectele vieții psihice și comportamentale</span><strong>pervazive</strong></span> și <span class='tip'><span class='tooltip-box'>Fac un individ unic îl diferențiază clar de alții</span><strong>particularizează</strong></span> persoana<br><br><span class='tip'><span class='tooltip-box'>Trăsăturile importante pentru comunitate sunt codificate în limbaj și păstrate în vocabular</span><strong>Ipoteza lexicală</strong></span> afirmă că <strong>trăsăturile importante devin parte din limbajul grupului</strong>",
+          front:
+            "Explică Teoria trăsăturilor de personalitate (Gordon Allport)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teoria trăsăturilor de personalitate</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea se descrie prin trăsături, adică predispoziții stabile de a reacționa într un anumit fel.<br/><br/>
+          <strong>Formulare academică:</strong> trăsăturile sunt predispoziții relativ stabile de răspuns, care organizează conduita și fac comportamentul coerent și predictibil în contexte variate.<br/><br/>
+          <strong>Exemplu:</strong> sociabilitate constantă în grupuri diferite.
+        </span>
+      </span> - predispoziții stabile de reacție care organizează comportamentul și îl fac coerent și predictibil în situații diverse.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ierarhia trăsăturilor</div>
+
+    ${window.flashPillList([
+      {
+        text: "🏔️<span class='tip'><strong>trăsături cardinale</strong> <span style='opacity:.9'>dominante</span><span class='tooltip-box'><strong>Simplu spus:</strong> o trăsătură foarte puternică, care colorează aproape tot.<br/><br/><strong>Formulare academică:</strong> trăsături rare, pervazive, care pot organiza major conduita și identitatea persoanei.<br/><br/><strong>Exemplu:</strong> ambiție care domină constant alegerile.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧩<span class='tip'><strong>trăsături centrale</strong> <span style='opacity:.9'>importante</span><span class='tooltip-box'><strong>Simplu spus:</strong> trăsături principale, observabile frecvent.<br/><br/><strong>Formulare academică:</strong> trăsături stabile și relevante, care descriu profilul de bază al persoanei.<br/><br/><strong>Exemplu:</strong> responsabil, calm, cooperant.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🪶<span class='tip'><strong>trăsături secundare</strong> <span style='opacity:.9'>contextuale</span><span class='tooltip-box'><strong>Simplu spus:</strong> apar în anumite situații, nu mereu.<br/><br/><strong>Formulare academică:</strong> dispoziții mai puțin stabile și mai dependente de context, cu rol descriptiv limitat.<br/><br/><strong>Exemplu:</strong> timiditate doar în situații publice.</span></span>",
+        key: "amber",
+      },
+    ])}
+
+</div>`,
         },
 
         {
-          front: "Explică modelul lui Cattell 16 factori",
-          back: "Cei 16 factori sunt un <span class='tip'><span class='tooltip-box'>Structuri stabile de comportament care caracterizează un individ și pot fi observate repetat în contexte diferite</span><strong>sistem de deprinderi proprii</strong></span> care permite <strong>predicția comportamentului</strong><br><br><span class='tip'><span class='tooltip-box'>Metodă statistică prin care reduce multe trăsături la un set de factori esențiali</span><strong>Analiza factorială</strong></span> are scopul de <strong>reducere a trăsăturilor la factori esențiali</strong><br><br>Scorurile pe factori indică <span class='tip'><span class='tooltip-box'>Predispoziții comportamentale stabile cu polaritate între două extreme</span><strong>un continuum între două extreme</strong></span><br><br>Scor ridicat la <span class='tip'><span class='tooltip-box'>Persoană suportivă afectuoasă confortabilă pentru ceilalți</span><strong>Warmth</strong></span> înseamnă <strong>sprijin emoțional și confort oferit celorlalți</strong><br><br>Scor scăzut la <span class='tip'><span class='tooltip-box'>Scoruri joase pot indica iritabilitate și instabilitate emoțională</span><strong>Emotional Stability</strong></span> poate arăta <strong>iritabilitate și schimbări de dispoziție</strong><br><br>Scor înalt la <span class='tip'><span class='tooltip-box'>Imaginație neconvențional gândire simbolică</span><strong>Abstractness</strong></span> indică <strong>imaginație creativitate și gândire neobișnuită</strong>",
+          front: "Expune „Cei 16 factori ai personalității” (Cattell)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Cei 16 factori ai personalității</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> în loc să memorezi 16 etichete, reții ideea că personalitatea poate fi descrisă prin câteva dimensiuni stabile, iar fiecare persoană se poziționează între doi poli opuși pe fiecare dimensiune.<br/><br/>
+          <strong>Formulare academică:</strong> modelul lui Cattell descrie personalitatea prin factori primari extrași prin analiză factorială, înțeleși ca dimensiuni relativ stabile, bipolare, care sintetizează regularități comportamentale și permit descrierea și predicția conduitei prin scoruri de poziționare între poli.<br/><br/>
+          <strong>Exemplu:</strong> două persoane pot fi la poli diferiți pe aceeași dimensiune, una mai rezervată, alta mai sociabilă.
+        </span>
+      </span> - Personalitatea este descrisă prin dimensiuni stabile, cu doi poli opuși, identificate statistic, iar comportamentul se anticipează din poziția ta pe aceste dimensiuni.
+    </div>
+
+    <hr class="hr-flash">
+
+    <div style="display:grid;gap:10px;">
+      <div><strong>Vizual</strong>: observații multe de comportament → grupare prin analiză → dimensiuni stabile (factori) → poziționare între doi poli → predicție a stilului de reacție</div>
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Secțiune explicativă</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣<span class='tip'><strong>De unde vin factorii</strong> <span style='opacity:.9'>comportamente grupate</span><span class='tooltip-box'><strong>Simplu spus:</strong> pornești de la multe descrieri și vezi ce se repetă împreună.<br/><br/><strong>Formulare academică:</strong> factorii sunt extrași prin analiză factorială ca nuclee comune care explică variația covariantă dintre multe comportamente și descrieri psihologice.<br/><br/><strong>Exemplu:</strong> dacă mai multe reacții sociale apar împreună, ele indică o dimensiune comună.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "2️⃣<span class='tip'><strong>Ce este un factor</strong> <span style='opacity:.9'>dimensiune stabilă</span><span class='tooltip-box'><strong>Simplu spus:</strong> un factor este o axă de personalitate care se menține relativ stabilă în timp.<br/><br/><strong>Formulare academică:</strong> factorul reprezintă o dimensiune latentă relativ stabilă ce organizează regularități ale conduitei și diferențiază indivizii prin niveluri distincte.<br/><br/><strong>Exemplu:</strong> un stil constant de interacțiune, observabil în contexte variate.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "3️⃣<span class='tip'><strong>De ce sunt bipolari</strong> <span style='opacity:.9'>doi poli opuși</span><span class='tooltip-box'><strong>Simplu spus:</strong> fiecare dimensiune are două extreme, iar tu ești undeva între ele.<br/><br/><strong>Formulare academică:</strong> dimensiunile sunt descrise prin poli opuși care exprimă variația continuă a unei trăsături, permițând măsurarea poziționării individuale pe un continuum.<br/><br/><strong>Exemplu:</strong> rezervat ↔ sociabil, relaxat ↔ tensionat.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "4️⃣<span class='tip'><strong>Cum se folosesc</strong> <span style='opacity:.9'>profil, nu etichetă</span><span class='tooltip-box'><strong>Simplu spus:</strong> important e profilul tău pe mai multe axe, nu un singur cuvânt.<br/><br/><strong>Formulare academică:</strong> descrierea personalității rezultă din configurația scorurilor pe mai multe dimensiuni, care împreună conturează un profil individual diferențiat și relativ coerent.<br/><br/><strong>Exemplu:</strong> poți fi sociabil, dar și prudent și foarte organizat.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "5️⃣<span class='tip'><strong>De ce ajută</strong> <span style='opacity:.9'>predicție de stil</span><span class='tooltip-box'><strong>Simplu spus:</strong> factorii sugerează cum reacționezi de obicei, mai ales în situații tipice.<br/><br/><strong>Formulare academică:</strong> scorurile pe dimensiuni permit estimarea probabilității unor tipare de răspuns și a compatibilității dintre cerințele situației și stilul personal de funcționare.<br/><br/><strong>Exemplu:</strong> un scor ridicat la tensiune indică predispoziția la agitație sub presiune.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum înțelegi fără memorare</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>Principiul cheie</strong> <span style='opacity:.9'>16 axe, un profil</span><span class='tooltip-box'><strong>Simplu spus:</strong> fiecare factor este o axă, iar personalitatea ta este combinația pozițiilor pe axe.<br/><br/><strong>Formulare academică:</strong> personalitatea este descrisă ca un sistem de dimensiuni intercorelate, în care profilul factorial oferă o reprezentare sintetică și comparabilă între indivizi.<br/><br/><strong>Exemplu:</strong> doi oameni pot avea același scor la sociabilitate, dar diferă prin stabilitate emoțională și perfecționism.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică teoria psihosocială a lui Erikson",
-          back: "Erikson explică dezvoltarea personalității prin <strong>8 stadii</strong> fiecare definit de un <span class='tip'><span class='tooltip-box'>Tensiune între două tendințe opuse a cărei rezolvare influențează personalitatea</span><strong>conflict psihosocial</strong></span><br><br>Un <span class='tip'><span class='tooltip-box'>Criză esențială care trebuie rezolvată pentru dezvoltare sănătoasă</span><strong>stadiu psihosocial</strong></span> este <strong>o criză de rezolvat</strong> cu efecte asupra formării personalității<br><br>În copilărie primele trei stadii vizează <strong>atașamentul și autonomia</strong> în raport cu părinții<br><br>Conflictul adolescenței este <span class='tip'><span class='tooltip-box'>Căutarea valorilor direcției și locului în lume lipsa clarității duce la incertitudine</span><strong>identitate vs confuzie de rol</strong></span><br><br><span class='tip'><span class='tooltip-box'>Sentimentul unui sine coerent și stabil care leagă trecutul prezentul și viitorul</span><strong>Unitatea identității</strong></span> înseamnă <strong>identitate clară coerentă care ghidează deciziile și relațiile</strong><br><br>Etapele adulte pun accent pe <strong>relații afective</strong> și <strong>contribuția la binele generațiilor următoare</strong><br><br><span class='tip'><span class='tooltip-box'>Dorinta de a contribui la binele celorlalți prin copii muncă implicare socială transmiterea valorilor</span><strong>Generativitatea</strong></span> înseamnă <strong>a crea a produce și a transmite mai departe grijă valori și cunoștințe</strong><br><br>Ultima etapă are conflictul <span class='tip'><span class='tooltip-box'>Reflecție asupra vieții trăite sens versus regret</span><strong>integritate a Eului vs deznădejde</strong></span><br><br>Rezolvarea cu succes a stadiilor <span class='tip'><span class='tooltip-box'>Consolidarea personalității și a sentimentului de identitate</span><strong>formează identitate solidă și adaptare sănătoasă</strong></span>",
+          front: "Descrie Teoria psihosocială a lui Erik Erikson",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teoria psihosocială (Erikson)</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> viața are etape, iar fiecare etapă are un conflict care îți modelează personalitatea.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea personalității se desfășoară în 8 stadii psihosociale, fiecare definit de un conflict central; modul de rezolvare a conflictului produce achiziții psihosociale care susțin adaptarea ulterioară.<br/><br/>
+          <strong>Exemplu:</strong> în adolescență, conflictul identitate versus confuzie de rol.
+        </span>
+      </span> - dezvoltarea personalității trece prin 8 etape, fiecare cu un conflict central, iar felul în care îl rezolvi produce resurse psihosociale pentru etapele următoare.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele 8 stadii</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣<span class='tip'><strong>încredere versus neîncredere</strong> <span style='opacity:.9'>(Infantil 0-1 an)</span><span class='tooltip-box'><strong>Simplu spus:</strong> lumea e sigură sau nu.<br/><br/><strong>Formulare academică:</strong> calitatea îngrijirii structurează sentimentul de bază al securității și al predictibilității mediului.<br/><br/><strong>Exemplu:</strong> atașament sigur când nevoile sunt împlinite consecvent.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "2️⃣<span class='tip'><strong>autonomie versus rușine și îndoială</strong> <span style='opacity:.9'>(Copilăria mică 1-3 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> pot singur sau mă simt incapabil.<br/><br/><strong>Formulare academică:</strong> exersarea controlului personal produce autonomie, iar criticarea excesivă produce rușine și îndoială.<br/><br/><strong>Exemplu:</strong> învață să se îmbrace singur.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "3️⃣<span class='tip'><strong>inițiativă versus vinovăție</strong> <span style='opacity:.9'>(Copilăria mijlocie 3-6 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> încerc și inițiez sau mă opresc de frică.<br/><br/><strong>Formulare academică:</strong> explorarea și inițierea acțiunii dezvoltă inițiativa, iar sancționarea rigidă produce vinovăție inhibitoare.<br/><br/><strong>Exemplu:</strong> propune jocuri și reguli.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "4️⃣<span class='tip'><strong>hărnicie versus inferioritate</strong> <span style='opacity:.9'>(Copilăria mare 6-12 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> pot face bine sau mă simt slab.<br/><br/><strong>Formulare academică:</strong> succesul în sarcini și recunoașterea competenței produc hărnicie, iar eșecul repetat produce inferioritate.<br/><br/><strong>Exemplu:</strong> mândrie după o temă reușită.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "5️⃣<span class='tip'><strong>identitate versus confuzie de rol</strong> <span style='opacity:.9'>(Adolescența 12-18 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cine sunt sau mă pierd în roluri.<br/><br/><strong>Formulare academică:</strong> integrarea experiențelor și a valorilor conduce la identitate coerentă, iar lipsa integrării produce confuzie de rol.<br/><br/><strong>Exemplu:</strong> își clarifică direcția profesională.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "6️⃣<span class='tip'><strong>intimitate versus izolare</strong> <span style='opacity:.9'>(Adultul tânăr 18-35)</span><span class='tooltip-box'><strong>Simplu spus:</strong> pot construi relații profunde sau mă retrag.<br/><br/><strong>Formulare academică:</strong> capacitatea de angajament emoțional produce intimitate, iar evitarea vulnerabilității produce izolare.<br/><br/><strong>Exemplu:</strong> relație stabilă cu atașament matur.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "7️⃣<span class='tip'><strong>generativitate versus stagnare</strong> <span style='opacity:.9'>(Adultul mijlociu 35-55)</span><span class='tooltip-box'><strong>Simplu spus:</strong> contribui și las ceva sau mă blochez.<br/><br/><strong>Formulare academică:</strong> orientarea către creare, îngrijire și contribuție socială produce generativitate, iar centrare pe sine produce stagnare.<br/><br/><strong>Exemplu:</strong> mentorat sau creșterea copiilor.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "8️⃣<span class='tip'><strong>integritatea eului versus deznădejde</strong> <span style='opacity:.9'>(Maturitate 55+)</span><span class='tooltip-box'><strong>Simplu spus:</strong> îmi accept viața sau regret profund.<br/><br/><strong>Formulare academică:</strong> evaluarea vieții ca sens și coerență produce integritate, iar evaluarea ca eșec produce deznădejde.<br/><br/><strong>Exemplu:</strong> sentiment de împăcare cu propria biografie.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică Big Five",
-          back: "<span class='tip'><span class='tooltip-box'>Model factorial cu 5 dimensiuni majore ale trăsăturilor stabile</span><strong>Big Five</strong></span> propune <strong>cinci dimensiuni fundamentale</strong><br><br>Dimensiuni <strong>Conștiinciozitate</strong> <strong>Extraversie</strong> <strong>Neuroticism</strong> <strong>Deschidere către experiență</strong> <strong>Agreabilitate</strong><br><br>Deschidere ridicată <strong>curioasă creativă deschisă la idei abstracte</strong><br><br>Conștiinciozitate ridicată <strong>responsabilă planificată își respectă angajamentele</strong><br><br>Agreabilitate ridicată <strong>cooperantă empatică dornică să ajute</strong><br><br>Extraversie ridicată <strong>activă entuziastă energizată de prezența celorlalți</strong><br><br>Neuroticism ridicat <strong>îngrijorare iritabilitate instabilitate emoțională</strong>",
+          front:
+            "Explică cele cinci dimensiuni ale personalității din modelul „The Big Five”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>„The Big Five”</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea poate fi descrisă prin cinci dimensiuni mari.<br/><br/>
+          <strong>Formulare academică:</strong> modelul Big Five descrie personalitatea prin cinci dimensiuni largi, relativ stabile, care sintetizează diferențele individuale și permit descriere comparabilă între persoane.<br/><br/>
+          <strong>Exemplu:</strong> unii sunt mai organizați, alții mai spontani.
+        </span>
+      </span> - Personalitatea este descrisă prin cinci dimensiuni mari și stabile, care permit compararea oamenilor între ei.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele cinci dimensiuni</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌱<span class='tip'><strong>deschidere</strong> <span style='opacity:.9'>(curiozitate și idei)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de mult îți plac noutatea și explorarea.<br/><br/><strong>Formulare academică:</strong> reflectă receptivitatea la experiențe noi, flexibilitatea cognitivă și interesul pentru idei și estetică.<br/><br/><strong>Exemplu:</strong> îți place să încerci metode noi.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧭<span class='tip'><strong>conștiinciozitate</strong> <span style='opacity:.9'>(organizare și autocontrol)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de planificat și disciplinat ești.<br/><br/><strong>Formulare academică:</strong> reflectă autodisciplină, orientare spre scop și control al impulsurilor, asociate cu performanță și perseverență.<br/><br/><strong>Exemplu:</strong> îți faci plan și îl urmezi.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🎉<span class='tip'><strong>extraversie</strong> <span style='opacity:.9'>(energie socială)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de energic și orientat spre oameni ești.<br/><br/><strong>Formulare academică:</strong> reflectă activitate, asertivitate și căutarea stimulării sociale, cu afect pozitiv frecvent.<br/><br/><strong>Exemplu:</strong> te încarci din interacțiuni.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🤝<span class='tip'><strong>agreabilitate</strong> <span style='opacity:.9'>(cooperare și empatie)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de cooperant și binevoitor ești.<br/><br/><strong>Formulare academică:</strong> reflectă orientarea prosocială, încrederea, altruismul și disponibilitatea pentru cooperare interpersonală.<br/><br/><strong>Exemplu:</strong> ajuți și negociezi calm.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⚡<span class='tip'><strong>neuroticism</strong> <span style='opacity:.9'>(reactivitate emoțională)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de ușor apar anxietatea și stresul.<br/><br/><strong>Formulare academică:</strong> reflectă predispoziția către afect negativ, instabilitate emoțională și vulnerabilitate la stres.<br/><br/><strong>Exemplu:</strong> te îngrijorezi ușor înainte de evaluări.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică HEXACO",
-          back: "<span class='tip'><span class='tooltip-box'>Model cu 6 dimensiuni derivat lexical adaugă o trăsătură etică la Big Five</span><strong>HEXACO</strong></span> adaugă <span class='tip'><span class='tooltip-box'>Tendința de a fi sincer modest etic lipsit de manipulare</span><strong>onestitate umilință</strong></span><br><br>Dimensiuni <strong>Extraversie</strong> <strong>Conștiinciozitate</strong> <strong>Onestitate umilință</strong> <strong>Agreabilitate</strong> <strong>Deschidere către experiență</strong> <span class='tip'><span class='tooltip-box'>Include sensibilitate emoțională și atașament echivalent parțial cu neuroticismul</span><strong>Emoționalitate</strong></span>",
+          front: "Descrie Modelul HEXACO și spune diferența cu „The Big Five”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>HEXACO</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> seamănă cu Big Five, dar adaugă o dimensiune esențială legată de corectitudine și modestie.<br/><br/>
+          <strong>Formulare academică:</strong> modelul HEXACO descrie personalitatea prin șase dimensiuni largi, introducând onestitate umilință ca factor distinct, relevant pentru comportamente etice și evitarea exploatării celorlalți.<br/><br/>
+          <strong>Exemplu:</strong> cineva poate fi sociabil, dar diferă mult la corectitudine.
+        </span>
+      </span> - Personalitatea este descrisă prin șase dimensiuni majore, dintre care onestitatea/ umilința explică comportamentele etice și evitarea exploatării celorlalți.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele șase dimensiuni</div>
+
+    ${window.flashPillList([
+      {
+        text: "🤲<span class='tip'><strong>onestitate umilință</strong> <span style='opacity:.9'>(corectitudine și modestie)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de sincer și neexploatator ești.<br/><br/><strong>Formulare academică:</strong> reflectă sinceritate, corectitudine și lipsa tendinței de manipulare ori de obținere a avantajelor prin înșelare.<br/><br/><strong>Exemplu:</strong> refuzi să trișezi chiar când ai de câștigat.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💓<span class='tip'><strong>emoționalitate</strong> <span style='opacity:.9'>(sensibilitate și atașament)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de intens trăiești frica și atașamentul.<br/><br/><strong>Formulare academică:</strong> reflectă sensibilitatea la amenințare, atașamentul și nevoia de sprijin, cu reacții afective mai pronunțate.<br/><br/><strong>Exemplu:</strong> te neliniștești ușor în situații riscante.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🎉<span class='tip'><strong>extraversie</strong> <span style='opacity:.9'>(energie socială)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de activ social ești.<br/><br/><strong>Formulare academică:</strong> reflectă sociabilitate, asertivitate și afect pozitiv în interacțiune.<br/><br/><strong>Exemplu:</strong> inițiezi conversații ușor.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🤝<span class='tip'><strong>agreabilitate</strong> <span style='opacity:.9'>(toleranță și calm)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de iertător și neconflictual ești.<br/><br/><strong>Formulare academică:</strong> reflectă tendința de a evita ostilitatea și de a gestiona conflictele cu toleranță și cooperare.<br/><br/><strong>Exemplu:</strong> nu reacționezi agresiv la provocări.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧭<span class='tip'><strong>conștiinciozitate</strong> <span style='opacity:.9'>(ordine și disciplină)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de bine îți gestionezi sarcinile.<br/><br/><strong>Formulare academică:</strong> reflectă organizare, perseverență și autocontrol orientat spre obiective.<br/><br/><strong>Exemplu:</strong> îți termini proiectele la timp.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🌱<span class='tip'><strong>deschidere</strong> <span style='opacity:.9'>(curiozitate și idei)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de mult cauți noul și complexul.<br/><br/><strong>Formulare academică:</strong> reflectă interesul pentru idei, creativitate și receptivitate la experiențe noi.<br/><br/><strong>Exemplu:</strong> îți plac domeniile abstracte și creative.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  
+
+</div>
+
+ <hr class="hr-flash">
+
+    <div><strong>Pe scurt</strong>: Big Five = 5 dimensiuni → HEXACO = 6 dimensiuni (în plus: onestitate/ umilință)</div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Diferența HEXACO față de Big Five</div>
+
+    ${window.flashPillList([
+      {
+        text: "➕<span class='tip'><strong>în plus la HEXACO</strong> <span style='opacity:.9'>(onestitate/ umilință)</span><span class='tooltip-box'><strong>Simplu spus:</strong> separă clar corectitudinea și modestia ca dimensiune proprie, nu doar ca nuanțe ale altor trăsături.<br/><br/><strong>Formulare academică:</strong> HEXACO diferențiază onestitate/ umilință ca factor distinct, cu valoare explicativă pentru comportamente etice.<br/><br/><strong>Exemplu:</strong> cineva poate fi agreabil, dar totuși oportunist, dacă onestitate umilință este scăzută.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "❤️‍🔥<span class='tip'><strong>(nevrotism vs emoționalitate)</strong> <span style='opacity:.9'>instabilitate vs sensibilitate</span><span class='tooltip-box'><strong>Simplu spus:</strong> Big Five pune accent pe pierderea controlului emoțional, HEXACO pe modul în care trăiești frica, atașamentul și nevoia de protecție.<br/><br/><strong>Formulare academică:</strong> în Big Five, nevrotismul descrie instabilitatea emoțională și vulnerabilitatea la stres, în timp ce în HEXACO dimensiunea emoționalitate reconceptualizează aceste aspecte, integrând frica, sensibilitatea la pericol și atașamentul, iar controlul emoțional apare ca pol opus al acestei dimensiuni.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>`,
         },
 
         {
-          front: "Explică abordarea structural sistemică a personalității",
-          back: "În viziune structural sistemică personalitatea include <strong>temperament</strong> <strong>aptitudini</strong> <strong>caracter</strong> <span class='tip'><span class='tooltip-box'>Procese psihice precum atenția gândirea voința memoria de lucru implicate în folosirea aptitudinilor</span><strong>sisteme operaționale</strong></span> și <span class='tip'><span class='tooltip-box'>Componente înnăscute ce determină ritmul intensitatea expresivitatea reacțiilor</span><strong>aspecte dinamico energetice</strong></span><br><br><span class='tip'><span class='tooltip-box'>Latura înnăscută care influențează energia reactivitatea ritmul</span><strong>Temperamentul</strong></span> este <strong>latura dinamico energetică înnăscută</strong><br><br><span class='tip'><span class='tooltip-box'>Capacități instrumentale care permit activități eficiente</span><strong>Aptitudinile</strong></span> sunt <strong>capacități potențiale de performanță</strong><br><br><span class='tip'><span class='tooltip-box'>Raportarea la valori reguli relații modelată prin socializare</span><strong>Caracterul</strong></span> reflectă <strong>modul de raportare la valori și relații umane</strong><br><br><span class='tip'><span class='tooltip-box'>Credințe valori atitudini față de sine ceilalți activitate societate</span><strong>Aspecte atitudinal valorice</strong></span> sunt <strong>orientări stabile față de valori și sensuri</strong><br><br><span class='tip'><span class='tooltip-box'>Mecanisme psihice implicate în activarea și utilizarea aptitudinilor</span><strong>Sisteme operaționale</strong></span> sunt <strong>procese cognitive care susțin aplicarea aptitudinilor</strong>",
+          front:
+            "Explică personalitatea din punctul de vedere al abordării structural-sistemice",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Abordarea structural-sistemică</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea e un sistem, cu părți diferite care lucrează împreună.<br/><br/>
+          <strong>Formulare academică:</strong> personalitatea este un sistem integrat de structuri și procese, în care componentele relativ stabile și mecanismele funcționale se organizează ierarhic și se influențează reciproc, producând conduită coerentă și adaptativă.<br/><br/>
+          <strong>Exemplu:</strong> temperamentul influențează ritmul, aptitudinile susțin performanța, caracterul orientează valoric.
+        </span>
+      </span> - Personalitatea este un sistem integrat de structuri stabile și procese funcționale, organizate ierarhic, care se influențează reciproc și generează comportamente coerente și adaptative.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componente principale</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚡<span class='tip'><strong>temperament</strong> <span style='opacity:.9'>(cum reacționezi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ritm, energie, reactivitate.<br/><br/><strong>Formulare academică:</strong> componenta dinamico energetică ce descrie stilul de reacție și intensitatea răspunsurilor.<br/><br/><strong>Exemplu:</strong> reacții rapide sau lente.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧰<span class='tip'><strong>aptitudini</strong> <span style='opacity:.9'>(cu ce poți performa)</span><span class='tooltip-box'><strong>Simplu spus:</strong> capacități care fac posibilă performanța.<br/><br/><strong>Formulare academică:</strong> componenta instrumental operațională care susține eficiența în activități și învățare.<br/><br/><strong>Exemplu:</strong> aptitudini pentru analiză sau muzică.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭<span class='tip'><strong>caracter</strong> <span style='opacity:.9'>(valori și principii)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cum te raportezi stabil la valori și reguli.<br/><br/><strong>Formulare academică:</strong> componenta relațional valorică ce organizează atitudini și conduită în raport cu norme și idealuri.<br/><br/><strong>Exemplu:</strong> responsabilitate și corectitudine.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Definește temperamentul și ANS",
-          back: "<span class='tip'><span class='tooltip-box'>Modul în care reacționăm ca intensitate ritm echilibru emoțional și comportamental</span><strong>Temperamentul</strong></span> este <strong>latura dinamico energetică a personalității</strong><br><br><span class='tip'><span class='tooltip-box'>Forța mobilitatea echilibrul proceselor nervoase</span><strong>Activitatea nervoasă superioară ANS</strong></span> se referă la <strong>energia mobilitatea și echilibrul proceselor nervoase</strong><br><br><span class='tip'><span class='tooltip-box'>Capacitatea neuronilor de a susține activitate intensă rezistență psihică</span><strong>Energia forța</strong></span> înseamnă <strong>capacitatea funcțională a neuronilor de a susține activitate intensă</strong><br><br><span class='tip'><span class='tooltip-box'>Viteza de consum și regenerare a resurselor flexibilitate psihică</span><strong>Mobilitatea</strong></span> înseamnă <strong>rapiditatea de adaptare emoțională și comportamentală</strong><br><br><span class='tip'><span class='tooltip-box'>Raportul dintre excitație și inhibiție stabilitate autocontrol</span><strong>Echilibrul</strong></span> înseamnă <strong>distribuție între impuls și autocontrol</strong>",
+          front:
+            "Oferă definiția temperamentului și caractersticile activității nervoase superioare (ANS)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Temperamentul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> stilul tău de reacție, cât de repede și cât de intens răspunzi.<br/><br/>
+          <strong>Formulare academică:</strong> temperamentul este latura dinamico energetică a personalității, exprimată prin intensitatea, ritmul, reactivitatea și mobilitatea răspunsurilor în situații variate.<br/><br/>
+          <strong>Exemplu:</strong> unii reacționează rapid și intens, alții lent și moderat.
+        </span>
+      </span> - latura dinamico energetică a personalității, exprimată prin intensitatea, ritmul, reactivitatea și mobilitatea răspunsurilor în situații variate.
+    </div>
+  </div>
+
+ <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div class='flash-title' style="${FLASH_TITLE_STYLE}">Caracteristicile activității nervoase superioare</div>
+
+  ${window.flashPillList([
+    {
+      text: "💪<span class='tip'><strong>energie sau forță</strong> <span style='opacity:.9'>(substanțe funcționale ale neuronului)</span><span class='tooltip-box'><strong>Simplu spus:</strong> câtă „rezervă” ai ca să susții efortul.<br/><br/><strong>Formulare academică:</strong> forța activității nervoase se referă la potențialul funcțional al neuronului și la capacitatea de a susține solicitări fără epuizare rapidă.<br/><br/><strong>Exemplu:</strong> poți lucra mult timp fără să cazi brusc în oboseală.</span></span>",
+      key: "teal",
+    },
+    {
+      text: "⚡<span class='tip'><strong>mobilitate</strong> <span style='opacity:.9'>(viteza de consum și regenerare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de repede te „consumi” și îți revii.<br/><br/><strong>Formulare academică:</strong> mobilitatea exprimă viteza de consum și regenerare a resurselor funcționale, susținând trecerea rapidă între stări și activități.<br/><br/><strong>Exemplu:</strong> te adaptezi repede când se schimbă sarcina și îți revii după efort.</span></span>",
+      key: "amber",
+    },
+    {
+      text: "⚖️<span class='tip'><strong>echilibru</strong> <span style='opacity:.9'>(excitație și inhibiție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de bine ții balanța între a porni și a te opri.<br/><br/><strong>Formulare academică:</strong> echilibrul reprezintă distribuția relativ stabilă a forței între tendințe de excitație și de inhibiție, cu rol în reglajul reacțiilor.<br/><br/><strong>Exemplu:</strong> nu reacționezi impulsiv, dar nici nu rămâi blocat.</span></span>",
+      key: "violet",
+    },
+  ])}
+</div>
+
+
+</div>`,
         },
 
         {
-          front: "Explică tipurile temperamentale la Eysenck",
-          back: "Modelul Eysenck folosește axele <span class='tip'><span class='tooltip-box'>Sociabilitate și orientare spre exterior</span><strong>E extraversie</strong></span> și <span class='tip'><span class='tooltip-box'>Stabilitate versus instabilitate emoțională</span><strong>N neuroticism</strong></span> care indică <strong>poziționarea între introversie extraversie și stabilitate instabilitate emoțională</strong><br><br><span class='tip'><span class='tooltip-box'>Extravertit instabil emoțional activ impulsiv energic iritabil</span><strong>Coleric</strong></span> înseamnă <strong>extravertire plus instabilitate emoțională</strong><br><br><span class='tip'><span class='tooltip-box'>Introvertit stabil emoțional calm echilibrat fiabil rezervat</span><strong>Flegmatic</strong></span> înseamnă <strong>introversie plus stabilitate emoțională</strong><br><br><span class='tip'><span class='tooltip-box'>Introvertit instabil emoțional anxios pesimist sensibil</span><strong>Melancolic</strong></span> înseamnă <strong>introversie plus instabilitate emoțională</strong><br><br><span class='tip'><span class='tooltip-box'>Extravertit stabil emoțional energic sociabil relaxat entuziast</span><strong>Sanguinic</strong></span> înseamnă <strong>extravertire plus stabilitate emoțională</strong>",
+          front: "Definește aptitudinile și evidențiază tipurile sale",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Aptitudinile</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> capacități care te ajută să faci bine o activitate.<br/><br/>
+          <strong>Formulare academică:</strong> aptitudinile reprezintă latura instrumental operațională a personalității, constând în capacități relativ stabile care condiționează eficiența și nivelul performanței în activități, prin potențial de învățare și execuție.<br/><br/>
+          <strong>Exemplu:</strong> aptitudini pentru matematică, limbă, muzică.
+        </span>
+      </span> - capacități relativ stabile care te ajută să înveți și să execuți bine o activitate, susținând performanța.
+    </div>
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Tipuri de aptitudini</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌐<span class='tip'><strong>generale</strong> <span style='opacity:.9'>(larg aplicabile)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajută în multe domenii.<br/><br/><strong>Formulare academică:</strong> aptitudini cu aplicabilitate extinsă, implicate în o gamă largă de activități și situații de învățare.<br/><br/><strong>Exemplu:</strong> inteligență, spirit de observație.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🎵<span class='tip'><strong>speciale</strong> <span style='opacity:.9'>(domeniu specific)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajută puternic într un domeniu anume.<br/><br/><strong>Formulare academică:</strong> aptitudini cu aplicabilitate restrânsă, care susțin performanța într un domeniu particular prin mecanisme specifice.<br/><br/><strong>Exemplu:</strong> aptitudini muzicale, tehnice, sportive.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Definește aptitudinile și relația cu performanța",
-          back: "<span class='tip'><span class='tooltip-box'>Capacitatea de a desfășura eficient o activitate latura instrumental operațională</span><strong>Aptitudinile</strong></span> sunt <strong>latura instrumental operațională a personalității</strong><br><br><span class='tip'><span class='tooltip-box'>Capacitatea internă de a susține performanțe în funcție de structura sistemului psihic</span><strong>Potențialul operațional</strong></span> înseamnă <strong>posibilitatea sistemului psihic de a susține performanțe</strong><br><br>Aptitudinile includ <span class='tip'><span class='tooltip-box'>Bază genetică pentru dezvoltarea ulterioară</span><strong>premise ereditare</strong></span> și <strong>împlinirea lor prin educație și experiență</strong><br><br>Legătura cu <span class='tip'><span class='tooltip-box'>Nivelul de realizare influențat și de motivație instruire condiții</span><strong>performanța</strong></span> este că <strong>aptitudinile oferă potențialul dar nu garantează performanța fără formare și practică</strong>",
+          front: "Descrie caracterul și relația sa cu atitudinea",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Caracterul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> felul stabil în care te raportezi la valori, reguli și oameni.<br/><br/>
+          <strong>Formulare academică:</strong> caracterul este latura relațional valorică a personalității, constituită din orientări și norme interiorizate, care organizează conduita în raport cu valori, obligații și idealuri.<br/><br/>
+          <strong>Exemplu:</strong> corectitudine, responsabilitate, respect.
+        </span>
+      </span> - este felul stabil în care te raportezi la valori și reguli, iar asta îți organizează comportamentul.
+    </div>
+
+    <hr class="hr-flash">
+
+    <div>
+      <span class='tip'><strong>Relația caracter atitudine</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> atitudinile sunt forme concrete prin care caracterul se vede în situații.<br/><br/>
+          <strong>Formulare academică:</strong> caracterul se exprimă printr un sistem de atitudini relativ stabile față de sine, ceilalți și activitate, atitudinile funcționând ca mecanisme de orientare și reglare a conduitei în contexte specifice.<br/><br/>
+          <strong>Exemplu:</strong> caracter responsabil se vede prin atitudine constantă de seriozitate față de muncă.
+        </span>
+      </span> - caracterul se vede prin atitudinile tale stabile, care îți orientează și îți reglează comportamentul în situații concrete.
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Diferențiază aptitudinile generale și speciale",
-          back: "<span class='tip'><span class='tooltip-box'>Aplicabile într o gamă largă de activități</span><strong>Aptitudinile generale</strong></span> se aplică în <strong>varietate de activități</strong><br><br><span class='tip'><span class='tooltip-box'>Aplicabile în domenii specifice</span><strong>Aptitudinile speciale</strong></span> se aplică în <strong>domenii specifice</strong><br><br>Exemple generale <strong>inteligența</strong> <strong>creativitatea</strong> <strong>spiritul de observație</strong><br><br>Exemple speciale <strong>pedagogice</strong> <strong>literare</strong> <strong>tehnice</strong> <strong>muzicale</strong>",
-        },
+          front: "Explică Modelul ABC al atitudinii",
+          back: `<div class='flash-back'>
 
-        {
-          front: "Definește caracterul și enculturația",
-          back: "<span class='tip'><span class='tooltip-box'>Modul de raportare la ceilalți activitate sine lume impregnat valoric</span><strong>Caracterul</strong></span> este <strong>latura relațional valorică a personalității</strong><br><br>Se manifestă prin <strong>raportare constantă și valorică</strong> la ceilalți la activitate și la sine<br><br><span class='tip'><span class='tooltip-box'>Asimilarea valorilor normelor și practicilor culturale ale grupului</span><strong>Enculturația</strong></span> implică <strong>interiorizarea valorilor culturale prin educație și interacțiune socială</strong>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Modelul ABC</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> o atitudine are ce simți, ce crezi și cum te porți.<br/><br/>
+          <strong>Formulare academică:</strong> atitudinea este o structură psihică relativ stabilă, descrisă prin trei componente corelate: componenta afectivă, componenta cognitivă și componenta comportamentală, care împreună orientează și reglează conduita față de un obiect.<br/><br/>
+          <strong>Exemplu:</strong> îți place un domeniu, crezi că e util și te implici în el.
+        </span>
+      </span> - explică atitudinea prin trei componente: ce simți, ce crezi și cum acționezi față de un obiect.
+    </div>
+  </div>
 
-        {
-          front: "Definește atitudinea și tipurile de atitudini",
-          back: "<span class='tip'><span class='tooltip-box'>Modalitate relativ stabilă de raportare orientare și reglare a acțiunii</span><strong>Atitudinea</strong></span> este <strong>o modalitate stabilă de raportare și orientare față de lume</strong><br><br>Tipuri de atitudini <strong>față de sine</strong> <strong>față de ceilalți</strong> <strong>față de activitate</strong> <strong>față de mediul ecologic</strong> <strong>față de realitățile sociale</strong>",
-        },
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componentele ABC</div>
 
-        {
-          front: "Explică modelul ABC al atitudinii",
-          back: "Modelul <strong>ABC</strong> descrie atitudinea ca interacțiunea dintre <br><br><span class='tip'><span class='tooltip-box'>Ceea ce o persoană simte în legătură cu un obiect situație experiență</span><strong>A Affect emoții</strong></span><br><br><span class='tip'><span class='tooltip-box'>Modul în care o persoană se comportă față de un aspect al lumii</span><strong>B Behavior comportament</strong></span><br><br><span class='tip'><span class='tooltip-box'>Credințe convingeri idei despre un aspect al realității</span><strong>C Cognition cogniții</strong></span><br><br>În ansamblu modelul reflectă <strong>interacțiunea dintre emoții comportamente și convingeri</strong> în construirea atitudinii",
+    ${window.flashPillList([
+      {
+        text: "❤️<span class='tip'><strong>Affect (emoții)</strong> <span style='opacity:.9'>- ce simți</span><span class='tooltip-box'><strong>Simplu spus:</strong> emoțiile față de obiect.<br/><br/><strong>Formulare academică:</strong> componenta afectivă reprezintă evaluarea emoțională pozitivă sau negativă a obiectului atitudinii.<br/><br/><strong>Exemplu:</strong> îți place sau îți displace un curs.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "💭<span class='tip'><strong>Cognition (credințe)</strong> <span style='opacity:.9'>- ce crezi</span><span class='tooltip-box'><strong>Simplu spus:</strong> ideile și convingerile despre obiect.<br/><br/><strong>Formulare academică:</strong> componenta cognitivă cuprinde credințe, reprezentări și judecăți despre obiect, care îi justifică evaluarea.<br/><br/><strong>Exemplu:</strong> crezi că un curs e util pentru carieră.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🏃<span class='tip'><strong>Behavior (comportamente)</strong> <span style='opacity:.9'>- ce faci</span><span class='tooltip-box'><strong>Simplu spus:</strong> tendința de a acționa într un fel.<br/><br/><strong>Formulare academică:</strong> componenta comportamentală exprimă intenții și conduite orientate către obiect, în acord cu evaluarea afectivă și cognitivă.<br/><br/><strong>Exemplu:</strong> participi, înveți, cauți materiale.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },

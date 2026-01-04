@@ -38,6 +38,17 @@ window.PDEZV_CONTENT = {
             "pdezv-u1-s2-q3", // Principiul respectării specificităţii fiecărui stadiu al dezvoltării psihice
           ],
         },
+        {
+          id: "pdezv-u1-s3",
+          titlu: "Metodologia cercetării în psihologia vârstelor",
+          quizuri: [
+            "pdezv-u1-s3-q1", // 1.5. Metode de colectare a datelor: observație, interviu, chestionar, teste
+            "pdezv-u1-s3-q2", // Designuri generale de cercetare (forme de experimentare)
+            "pdezv-u1-s3-q3", // Designuri generale de cercetare (în funcție de criteriul temporal)
+            "pdezv-u1-s3-q4", // Designuri generale de cercetare (în funcție de scopul cercetării)
+            "pdezv-u1-s3-q5", // Designuri generale de cercetare (în funcție de gradul de intervenție al cercetătorului)
+          ],
+        },
       ],
     },
     {
@@ -90,29 +101,8 @@ window.PDEZV_CONTENT = {
       ],
     },
     {
-      id: "pdezv-u1 - Subcapitol extra",
-      Locked: true,
-      titlu:
-        "U.I.1 Subcapitol extra despre metodologia cercetării (nu cred că intră la examen)",
-      subcapitole: [
-        {
-          id: "pdezv-u1-s3",
-          titlu: "Metodologia cercetării în psihologia vârstelor",
-          quizuri: [
-            "pdezv-u1-s3-q1", // 1.5. Metode de colectare a datelor: observație, interviu, chestionar, teste
-            "pdezv-u1-s3-q2", // Designuri generale de cercetare (forme de experimentare)
-            "pdezv-u1-s3-q3", // Designuri generale de cercetare (în funcție de criteriul temporal)
-            "pdezv-u1-s3-q4", // Designuri generale de cercetare (în funcție de scopul cercetării)
-            "pdezv-u1-s3-q5", // Designuri generale de cercetare (în funcție de gradul de intervenție al cercetătorului)
-          ],
-        },
-      ],
-    },
-
-    {
       id: "pdezv-u3",
       titlu: "U.I.3 Factorii dezvoltării psihice",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u3-s0",
@@ -135,7 +125,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u4",
       titlu: "U.I.4 Dezvoltarea prenatală",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u4-s1",
@@ -164,7 +153,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u5",
       titlu: "U.I.5 Nașterea",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u5-s1",
@@ -196,7 +184,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u6",
       titlu: "U.I.6 Nou născutul și sugarul 0-1 ani",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u6-s1",
@@ -228,7 +215,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u7",
       titlu: "U.I.7 Copilăria mică perioada antepreșcolară 1-3 ani",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u7-s1",
@@ -251,7 +237,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u8",
       titlu: "U.I.8 A doua copilărie perioada preșcolară 3-6 ani",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u8-s1",
@@ -279,7 +264,6 @@ window.PDEZV_CONTENT = {
     {
       id: "pdezv-u9",
       titlu: "U.I.9 A treia copilărie perioada școlară mică 6-11 ani",
-      Locked: true,
       subcapitole: [
         {
           id: "pdezv-u9-s1",
@@ -11016,7 +11000,7 @@ window.PDEZV_LESSONS = {
       <div class="lesson-card">
         <div class="lesson-step-emoji">📏</div>
         <h3>📏 Distanța dintre actual și potențial</h3>
-        <p><strong>Distanța dintre ceea ce o persoană poate face singură și ceea ce poate realiza cu sprijin</strong></p>
+        <p><strong>Definește ZPD.</strong></p>
         <hr />
         <ul>
           <li>
