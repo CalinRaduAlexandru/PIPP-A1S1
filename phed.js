@@ -220,13 +220,13 @@ window.PHED_CONTENT = {
           // Clar derivat din modelul lui Pintrich
         },
 
-        {
-          id: "phed-u8-s6",
-          titlu: "Reglarea contextului de învățare (Pintrich, 2000)",
-          scop: "Conștientizarea rolului contextului și a percepției acestuia în autoreglare.",
-          quizuri: ["phed-u8-q13"],
-          // Componentă specifică Pintrich: contextul ca obiect al autoreglării
-        },
+        // {
+        //   id: "phed-u8-s6",
+        //   titlu: "Reglarea contextului de învățare (Pintrich, 2000)",
+        //   scop: "Conștientizarea rolului contextului și a percepției acestuia în autoreglare.",
+        //   quizuri: ["phed-u8-q13"],
+        //   // Componentă specifică Pintrich: contextul ca obiect al autoreglării
+        // },
 
         {
           id: "phed-u8-s7",
@@ -235,7 +235,7 @@ window.PHED_CONTENT = {
           scop: "Înțelegerea modalităților de formare a autoreglării și a impactului ei educațional.",
           quizuri: [
             "phed-u8-q14", // Programul de împuternicire (Cleary & Zimmerman)
-            // "phed-u8-q15", Importanța autoreglării pentru performanță și adaptare
+            // "phed-u8-q15", // Importanța autoreglării pentru performanță și adaptare
           ],
           // Accent pe ciclu, feedback, speranță, împuternicire
         },
@@ -6236,40 +6236,291 @@ window.PHED_FLASHCARDS = {
       title: "U2 Flashcards",
       cards: [
         {
-          front:
-            "Explică conceptele fundamentale la Piaget și relația dintre ele",
-          back: "La Piaget, copilul își construiește cunoașterea prin <span class='tip'><span class='tooltip-box'>Structuri mentale prin care copilul organizează și interpretează experiența.</span><strong>scheme</strong></span> care se schimbă prin două procese complementare: <span class='tip'><span class='tooltip-box'>Integrarea informației noi în schemele deja existente.</span><strong>asimilare</strong></span> și <span class='tip'><span class='tooltip-box'>Modificarea schemelor când informația nouă nu se potrivește.</span><strong>acomodare</strong></span>.<br><br>Între ele apare o tendință de <span class='tip'><span class='tooltip-box'>Căutarea unei stabilități între ce știe copilul deja și ce cere situația nouă.</span><strong>echilibrare</strong></span> iar rezultatul global este <span class='tip'><span class='tooltip-box'>Echilibrarea continuă dintre asimilare și acomodare pentru a face față mediului.</span><strong>adaptarea</strong></span> susținută de <span class='tip'><span class='tooltip-box'>Ordonarea și legarea experiențelor într-un sistem coerent.</span><strong>organizare</strong></span>.<br><br><strong>Exemplu:</strong> copilul numește calul câine prin asimilare apoi își schimbă schema prin acomodare.",
+          front: "Descrie dezvoltarea cognitivă la Piaget",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dezvoltarea cognitivă (Piaget)</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> copilul își construiește cunoașterea activ, folosind scheme pe care le ajustează când întâlnește ceva nou.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea cognitivă este un proces constructiv intern, în care structurile cognitive se reorganizează prin asimilare și acomodare, în vederea adaptării la mediu.<br/><br/>
+          <strong>Exemplu:</strong> după ce confundă inițial o pisică cu un câine, își rafinează modul de clasificare.
+        </span>
+      </span> - copilul își construiește activ cunoașterea prin scheme, asimilare, acomodare și adaptare.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Mecanisme centrale</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧩<span class='tip'><strong>scheme</strong> <span style='opacity:.9'>(rame mentale)</span><span class='tooltip-box'><strong>Simplu spus:</strong> structuri cu care înțelegi lumea.<br/><br/><strong>Formulare academică:</strong> schemele sunt structuri mentale relativ stabile care organizează și interpretează informațiile.<br/><br/><strong>Exemplu:</strong> etichetează inițial orice animal cu patru picioare ca fiind câine.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🔄<span class='tip'><strong>asimilare</strong> <span style='opacity:.9'>(noul intră în ce știi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> integrezi informația nouă fără să schimbi schema.<br/><br/><strong>Formulare academică:</strong> informația nouă este integrată în schemele existente fără modificarea lor structurală.<br/><br/><strong>Exemplu:</strong> folosește eticheta câine pentru animale similare.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🛠️<span class='tip'><strong>acomodare</strong> <span style='opacity:.9'>(schema se schimbă)</span><span class='tooltip-box'><strong>Simplu spus:</strong> modifici schema ca să se potrivească realității.<br/><br/><strong>Formulare academică:</strong> schemele existente se modifică pentru a se adapta informației noi.<br/><br/><strong>Exemplu:</strong> creează o schemă separată pentru pisică.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧭<span class='tip'><strong>adaptare</strong> <span style='opacity:.9'>(echilibru între asimilare și acomodare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> își ajustează continuu gândirea ca să se potrivească mediului.<br/><br/><strong>Formulare academică:</strong> adaptarea este echilibrarea continuă dintre asimilare și acomodare în raport cu mediul.<br/><br/><strong>Exemplu:</strong> își schimbă așteptările după ce observă reguli noi.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Stadii ale dezvoltării</div>
+
+    ${window.flashPillList([
+      {
+        text: "👶<span class='tip'><strong>senzoriomotor</strong> <span style='opacity:.9'>(0 până la 2 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cunoaștere prin simțuri și acțiune.<br/><br/><strong>Formulare academică:</strong> activitatea cognitivă este legată de acțiuni senzorio motorii directe, apar reprezentări precum permanența obiectului.<br/><br/><strong>Exemplu:</strong> caută o jucărie ascunsă.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧸<span class='tip'><strong>preoperator</strong> <span style='opacity:.9'>(2 până la 7 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> gândire simbolică, dar cu limitări.<br/><br/><strong>Formulare academică:</strong> apar reprezentări simbolice, dar persistă egocentrismul cognitiv și tendința de animism.<br/><br/><strong>Exemplu:</strong> crede că toți văd exact ce vede el.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧱<span class='tip'><strong>operații concrete</strong> <span style='opacity:.9'>(7 până la 12 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> logică aplicată pe situații concrete.<br/><br/><strong>Formulare academică:</strong> se consolidează conservarea și reversibilitatea, permițând operații logice legate de obiecte și situații observabile.<br/><br/><strong>Exemplu:</strong> înțelege că aceeași apă rămâne aceeași în pahare diferite.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧪<span class='tip'><strong>operații formale</strong> <span style='opacity:.9'>(12 până la 16 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> gândire abstractă și ipotetică.<br/><br/><strong>Formulare academică:</strong> se dezvoltă raționamentul ipotetico-deductiv, cu formulare de ipoteze și deducere de consecințe.<br/><br/><strong>Exemplu:</strong> gândește în dacă atunci și planifică mental.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
+
         {
-          front:
-            "Care sunt stadiile dezvoltării cognitive la Piaget și ce le diferențiază esențial",
-          back: "Piaget descrie o succesiune de stadii care apar în aceeași ordine, cu vârste orientative.<br><br>• <span class='tip'><span class='tooltip-box'><strong>0–2 ani</strong>. Cunoaștere prin simțuri și acțiune, inteligență preverbală.</span><strong>senzoriomotor</strong> (0–2 ani)</span> cu <span class='tip'><span class='tooltip-box'>Înțelegerea că obiectele există și când nu sunt văzute, apare în jurul a 8 luni.</span><strong>permanența obiectului</strong></span><br>• <span class='tip'><span class='tooltip-box'><strong>2–7 ani</strong>. Apar simbolurile și limbajul, dar gândirea este centrată pe percepție.</span><strong>preoperator</strong> (2–7 ani)</span> cu <span class='tip'><span class='tooltip-box'>Dificultatea de a adopta perspectiva altuia.</span><strong>egocentrism cognitiv</strong></span> și <span class='tip'><span class='tooltip-box'>Atribuirea de viață, intenții sau conștiință obiectelor neînsuflețite.</span><strong>animism</strong></span><br>• <span class='tip'><span class='tooltip-box'><strong>7–12 ani</strong>. Logică aplicată pe situații concrete.</span><strong>operații concrete</strong> (7–12 ani)</span> cu <span class='tip'><span class='tooltip-box'>Înțelege că forma se schimbă dar cantitatea rămâne aceeași.</span><strong>conservare</strong></span> și <span class='tip'><span class='tooltip-box'>Poate inversa mental o acțiune.</span><strong>reversibilitate</strong></span><br>• <span class='tip'><span class='tooltip-box'><strong>12–16 ani</strong>. Gândire abstractă și raționament ipotetic.</span><strong>operații formale</strong> (12–16 ani)</span>",
+          front: "Descrie dezvoltarea cognitivă la Vîgotski",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dezvoltarea cognitivă (Vîgotski)</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> copilul se dezvoltă prin interacțiune cu alții, iar limbajul și cultura îi modelează gândirea.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea cognitivă este mediată sociocultural prin interacțiuni, instrumente simbolice și sprijin ghidat, în care învățarea poate conduce dezvoltarea.<br/><br/>
+          <strong>Exemplu:</strong> cu ghidaj verbal, copilul rezolvă o sarcină pe care singur nu o poate finaliza.
+        </span>
+      </span> - este modelată de contextul sociocultural, medierea adultului și limbaj.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Idei cheie</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌍<span class='tip'><strong>context sociocultural</strong> <span style='opacity:.9'>(cultură, norme, instrumente)</span><span class='tooltip-box'><strong>Simplu spus:</strong> oamenii și cultura îi arată copilului cum să gândească.<br/><br/><strong>Formulare academică:</strong> instrumentele culturale și normele mediază procesele cognitive și traseele de dezvoltare.<br/><br/><strong>Exemplu:</strong> limbajul folosit pentru a planifica pașii unei sarcini.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "📈<span class='tip'><strong>învățarea conduce dezvoltarea</strong> <span style='opacity:.9'>(nu doar maturizarea)</span><span class='tooltip-box'><strong>Simplu spus:</strong> copilul crește cognitiv când învață cu sprijin.<br/><br/><strong>Formulare academică:</strong> învățarea ghidată activează potențialul de dezvoltare și poate preceda dezvoltarea observabilă.<br/><br/><strong>Exemplu:</strong> după rezolvare ghidată, reușește ulterior singur.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "📏<span class='tip'><strong>zona proximei dezvoltări</strong> <span style='opacity:.9'>(singur versus cu ajutor)</span><span class='tooltip-box'><strong>Simplu spus:</strong> distanța dintre ce poate face singur și ce poate face cu ajutor competent.<br/><br/><strong>Formulare academică:</strong> distanța dintre nivelul actual și nivelul potențial de dezvoltare, accesibil prin sprijin social.<br/><br/><strong>Exemplu:</strong> rezolvă o problemă cu ghidaj, apoi o rezolvă independent.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🤝<span class='tip'><strong>eșafodaj</strong> <span style='opacity:.9'>(sprijin temporar)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajuți cât e nevoie, apoi retragi ajutorul treptat.<br/><br/><strong>Formulare academică:</strong> suport adaptat nivelului copilului, oferit în faze și retras pe măsură ce competența crește.<br/><br/><strong>Exemplu:</strong> profesorul dă indicii, apoi doar observă.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🔤<span class='tip'><strong>limbaj</strong> <span style='opacity:.9'>(instrument de gândire)</span><span class='tooltip-box'><strong>Simplu spus:</strong> limbajul devine ghid interior pentru acțiuni și gândire.<br/><br/><strong>Formulare academică:</strong> limbajul se internalizează din formă exterioară în limbaj interior și funcționează ca mecanism de autoreglare cognitivă.<br/><br/><strong>Exemplu:</strong> își spune în gând pașii când rezolvă o sarcină.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Care sunt caracteristicile centrale ale teoriei lui Piaget și care sunt limitele discutate frecvent",
-          back: "Caracteristici: teoria este <span class='tip'><span class='tooltip-box'>Cunoașterea este construită activ de copil prin interacțiune cu mediul.</span><strong>constructivistă</strong></span> și propune <span class='tip'><span class='tooltip-box'>Stadii calitativ diferite care se succed într-o ordine stabilă și se construiesc unul pe baza celuilalt.</span><strong>dezvoltare stadială</strong></span>.<br><br>Limite frecvente: <span class='tip'><span class='tooltip-box'>Copiii pot manifesta competențe cognitive mai devreme dacă sarcinile sunt adaptate contextului.</span><strong>subestimarea capacităților</strong></span>, <span class='tip'><span class='tooltip-box'>Vârstele asociate stadiilor sunt orientative și mai flexibile decât schema clasică.</span><strong>rigiditatea stadiilor</strong></span> și <span class='tip'><span class='tooltip-box'>Concluziile au fost formulate pe baza unui context sociocultural restrâns, ceea ce ridică problema universalității lor.</span><strong>limitarea generalizării culturale</strong></span>.",
+            "Fă o analiză comparativă între dezvoltarea cognitivă la Piaget și Vîgotski",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Comparativ Piaget și Vîgotski</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> Piaget pune accent pe construcția internă a gândirii, Vîgotski pe sprijinul social și pe rolul limbajului și culturii.<br/><br/>
+          <strong>Formulare academică:</strong> Piaget explică dezvoltarea prin restructurări cognitive interne organizate stadial, în timp ce Vîgotski o explică prin mediere socioculturală, învățare ghidată și internalizarea limbajului.<br/><br/>
+          <strong>Exemplu:</strong> aceeași sarcină poate fi rezolvată la Piaget când copilul ajunge la un stadiu, iar la Vîgotski mai devreme prin eșafodaj.
+        </span>
+      </span> - ambele teorii sunt constructiviste, dar diferă prin motorul principal al schimbării cognitive.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Asemănări și diferențe cheie</div>
+
+    ${window.flashPillList([
+      {
+        text: "🏗️<span class='tip'><strong>cum se construiește cunoașterea</strong> <span style='opacity:.9'>(intern versus social)</span><span class='tooltip-box'><strong>Simplu spus:</strong> Piaget spune că copilul construiește din interior, Vîgotski spune că interacțiunea socială modelează construcția.<br/><br/><strong>Formulare academică:</strong> la Piaget predomină mecanismele interne de asimilare și acomodare, la Vîgotski predomină medierea prin instrumente culturale și dialog.<br/><br/><strong>Exemplu:</strong> la Vîgotski, un adult ghidează verbal pentru a susține progresul.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧭<span class='tip'><strong>învățare și dezvoltare</strong> <span style='opacity:.9'>(urmează versus conduce)</span><span class='tooltip-box'><strong>Simplu spus:</strong> la Piaget, predarea se aliniază stadiului atins, la Vîgotski, învățarea ghidată poate trage dezvoltarea înainte.<br/><br/><strong>Formulare academică:</strong> Piaget privilegiază nivelul actual al structurilor cognitive, Vîgotski privilegiază potențialul exprimat în zona proximei dezvoltări.<br/><br/><strong>Exemplu:</strong> copilul rezolvă ghidat o problemă, apoi o rezolvă singur.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧩<span class='tip'><strong>organizarea schimbării</strong> <span style='opacity:.9'>(stadii versus progres asistat)</span><span class='tooltip-box'><strong>Simplu spus:</strong> Piaget descrie stadii calitativ diferite, Vîgotski descrie pași susținuți de sprijin și internalizare.<br/><br/><strong>Formulare academică:</strong> Piaget propune o succesiune relativ invariantă de reorganizări, Vîgotski pune accent pe variația culturală și pe rolul instruirii în traseul dezvoltării.<br/><br/><strong>Exemplu:</strong> trecerea de la logică concretă la gândire ipotetică este stadială la Piaget.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🗣️<span class='tip'><strong>egocentrism</strong> <span style='opacity:.9'>(limită versus funcție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> la Piaget egocentrismul este dificultate de a lua perspectiva altuia, la Vîgotski limbajul egocentric ajută autoreglarea și devine limbaj interior.<br/><br/><strong>Formulare academică:</strong> Piaget îl tratează ca limitare cognitivă a decentrării, Vîgotski îl tratează ca etapă funcțională de mediere a acțiunii prin limbaj.<br/><br/><strong>Exemplu:</strong> copilul arată un desen și spune „uite ce frumos e”, presupunând că adultul vede și înțelege exact ca el (Piaget), versus copilul, în timp ce construiește un puzzle, își spune cu voce tare „întâi colțurile, apoi marginile”, ca să își ghideze acțiunea și să nu se piardă (Vîgotski).</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div>
+    <span class='tip'><strong>Concluzie operațională</strong>
+      <span class='tooltip-box'>
+        <strong>Simplu spus:</strong> Piaget te ajută să alegi sarcini potrivite nivelului, Vîgotski te ajută să proiectezi sprijin ca să ridici nivelul.<br/><br/>
+        <strong>Formulare academică:</strong> perspectiva piagetiană optimizează potrivirea dintre cerință și structurile cognitive actuale, iar perspectiva vîgotskiană optimizează progresul prin eșafodaj și mediere în zona proximei dezvoltări.<br/><br/>
+        <strong>Exemplu:</strong> îi ceri copilului să înțeleagă conservarea turnând aceeași apă în două pahare diferite și îl lași să descopere singur regula, pentru că este la vârsta operațiilor concrete și poate ajunge la concluzie prin explorare (Piaget), versus îi dai aceeași sarcină, dar îl conduci prin întrebări vizate de tipul „cantitatea s-a schimbat sau doar forma”, îi modelezi pașii de comparație, apoi reduci treptat întrebările până când explică singur de ce cantitatea rămâne aceeași (Vîgotski).
+      </span>
+    </span> - Piaget este util pentru calibrarea cerințelor la stadiul de dezvoltare, Vîgotski pentru proiectarea sprijinului care produce progres.
+  </div>
+</div>
+
+
+</div>`,
         },
+
         {
           front:
-            "Explică dezvoltarea cognitivă la Vîgotski și diferența de principiu față de Piaget",
-          back: "La Vîgotski, dezvoltarea este <span class='tip'><span class='tooltip-box'>Influențată decisiv de interacțiuni sociale, cultură și instrumente simbolice precum limbajul.</span><strong>sociocultural mediată</strong></span>.<br><br>Diferența de principiu este relația dintre învățare și dezvoltare: la Vîgotski <span class='tip'><span class='tooltip-box'>Învățarea ghidată poate precede și conduce dezvoltarea către niveluri superioare.</span><strong>învățarea stimulează dezvoltarea</strong></span>, spre deosebire de Piaget, unde <span class='tip'><span class='tooltip-box'>Dezvoltarea cognitivă atinsă prin maturizare condiționează ce poate fi învățat.</span><strong>dezvoltarea precede învățarea</strong></span>.",
+            "Definește limbajul prin factorii dezvoltării și setul de convenții care îl compun",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Limbajul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> limbajul este un sistem de simboluri și reguli prin care construiești mesaje.<br/><br/>
+          <strong>Formulare academică:</strong> limbajul este un sistem convențional de simboluri și reguli de combinare, stabilite cultural, care permit producerea și înțelegerea mesajelor.<br/><br/>
+          <strong>Exemplu:</strong> schimbarea ordinii cuvintelor poate schimba sensul propoziției.
+        </span>
+      </span> este un sistem de simboluri și reguli, organizat prin convenții specifice unei comunități.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Setul de convenții care compun limbajul</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔊<span class='tip'><strong>fonologie</strong> <span style='opacity:.9'>(sunete distinctive)</span><span class='tooltip-box'><strong>Simplu spus:</strong> sistemul de sunete care diferențiază cuvintele.<br/><br/><strong>Formulare academică:</strong> descrie organizarea sunetelor distinctive ale limbii.<br/><br/><strong>Exemplu:</strong> p versus b schimbă sensul.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧱<span class='tip'><strong>morfologie</strong> <span style='opacity:.9'>(forma cuvintelor)</span><span class='tooltip-box'><strong>Simplu spus:</strong> părți mici de cuvânt schimbă sensul.<br/><br/><strong>Formulare academică:</strong> studiază structura internă a cuvintelor și unitățile de construcție a sensului.<br/><br/><strong>Exemplu:</strong> copil versus copilărie.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧩<span class='tip'><strong>sintaxă</strong> <span style='opacity:.9'>(reguli de combinare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cum pui cuvintele în propoziții.<br/><br/><strong>Formulare academică:</strong> stabilește regulile de organizare în propoziții și fraze.<br/><br/><strong>Exemplu:</strong> ordinea poate schimba sensul.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📚<span class='tip'><strong>semantică</strong> <span style='opacity:.9'>(înțelesuri)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ce înseamnă cuvintele și frazele.<br/><br/><strong>Formulare academică:</strong> studiază sensurile și relațiile dintre ele.<br/><br/><strong>Exemplu:</strong> cuvinte apropiate nu sunt identice.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🎯<span class='tip'><strong>pragmatică</strong> <span style='opacity:.9'>(potrivire cu contextul)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cum folosești limbajul în situații reale.<br/><br/><strong>Formulare academică:</strong> urmărește adecvarea mesajului la situație și la intenția comunicativă.<br/><br/><strong>Exemplu:</strong> vorbești diferit cu prietenii față de un examen.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Factori de bază ai dezvoltării limbajului</div>
+
+   ${window.flashPillList([
+     {
+       text: "🧬<span class='tip'><strong>substrat biologic</strong> <span style='opacity:.9'>(potențial neurobiologic)</span><span class='tooltip-box'><strong>Simplu spus:</strong> creierul este pregătit să construiască limbaj, chiar înainte de a auzi o limbă anume.<br/><br/><strong>Formulare academică:</strong> substratul biologic desemnează organizarea neurofuncțională centrală care face posibilă achiziția limbajului, independent de limba specifică și de experiența senzorială imediată.<br/><br/><strong>Exemplu:</strong> copilul are capacitatea de a structura limbajul, dar fără input din mediu această capacitate nu se actualizează.</span></span>",
+       key: "teal",
+     },
+     {
+       text: "👂<span class='tip'><strong>integritate senzorială</strong> <span style='opacity:.9'>(canale de recepție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> copilul trebuie să poată auzi și distinge sunetele limbii pentru a le învăța.<br/><br/><strong>Formulare academică:</strong> integritatea senzorială vizează funcționarea adecvată a sistemelor de recepție auditivă și vizuală, care permit accesul la inputul lingvistic necesar achiziției.<br/><br/><strong>Exemplu:</strong> o dificultate auditivă împiedică diferențierea sunetelor, chiar dacă structurile cognitive sunt intacte.</span></span>",
+       key: "amber",
+     },
+   ])}
+
+  </div>
+
+</div>`,
         },
+
         {
-          front:
-            "Compară Piaget și Vîgotski pe ideile cheie și dă o implicație didactică",
-          back: "Piaget pune accent pe <span class='tip'><span class='tooltip-box'>Scheme, asimilare, acomodare, adaptare.</span><strong>mecanisme cognitive interne</strong></span> și pe stadii ale dezvoltării. Vîgotski pune accent pe <span class='tip'><span class='tooltip-box'>Învățare mediată social, limbaj și sprijin educațional.</span><strong>mediere și context</strong></span> prin <span class='tip'><span class='tooltip-box'>Distanța dintre nivelul actual și cel potențial de dezvoltare.</span><strong>zona proximei dezvoltări</strong></span> și <span class='tip'><span class='tooltip-box'>Sprijin temporar oferit de adult sau coleg mai competent.</span><strong>eșafodaj</strong></span>.<br><br>Egocentrism: la Piaget este <span class='tip'><span class='tooltip-box'>Limită a gândirii centrate pe sine și dificultate de decentrări.</span><strong>limită cognitivă</strong></span>, iar la Vîgotski limbajul egocentric este <span class='tip'><span class='tooltip-box'>Vorbire cu sine care sprijină controlul și organizarea acțiunii.</span><strong>autoreglare</strong></span>.<br><br>Implicație didactică: <span class='tip'><span class='tooltip-box'>Profesorul adaptează sarcinile la nivelul actual de dezvoltare al elevului (Piaget)</span><strong>adaptare</strong></span> și <span class='tip'><span class='tooltip-box'>oferă sprijin ghidat, temporar, pentru a valorifica potențialul de dezvoltare (Vîgotski)</span><strong>ghidare</strong></span>.",
-        },
-        {
-          front:
-            "Definește dezvoltarea limbajului și precizează componentele esențiale ale sistemului de limbaj",
-          back: "Dezvoltarea limbajului include forme <span class='tip'><span class='tooltip-box'>Limbaj oral și limbaj scris.</span><strong>verbale</strong></span> dar și dimensiuni <span class='tip'><span class='tooltip-box'>Mimică, gesturi, postură, privire.</span><strong>nonverbale</strong></span> și <span class='tip'><span class='tooltip-box'>Intonație, ritm, volum, pauze.</span><strong>paraverbale</strong></span>.<br><br>Ca sistem, limbajul se bazează pe convenții: <span class='tip'><span class='tooltip-box'>Sunete și foneme.</span><strong>fonologie</strong></span>, <span class='tip'><span class='tooltip-box'>Forma cuvintelor și morfeme.</span><strong>morfologie</strong></span>, <span class='tip'><span class='tooltip-box'>Combinarea cuvintelor în propoziții.</span><strong>sintaxă</strong></span>, <span class='tip'><span class='tooltip-box'>Sensuri ale cuvintelor și frazelor.</span><strong>semantică</strong></span>, <span class='tip'><span class='tooltip-box'>Adecvarea limbajului la context.</span><strong>pragmatică</strong></span>.",
-        },
-        {
-          front:
-            "Explică achiziția limbajului prin factori determinanți și regularități concrete de dezvoltare",
-          back: "Factori determinanți: <span class='tip'><span class='tooltip-box'>Disponibilitate biologică generală pentru însușirea limbajului.</span><strong>substrat biologic</strong></span> și <span class='tip'><span class='tooltip-box'>Auz și văz funcționale pentru recepție și diferențiere.</span><strong>integritate senzorială</strong></span> plus <span class='tip'><span class='tooltip-box'>Stimulare verbală și interacțiune cu adulți.</span><strong>mediu sociocultural</strong></span>.<br><br>Repere de dezvoltare: la <strong>2 ani</strong></span><strong>~150 de cuvinte</strong></span> iar la <strong>6 ani</strong><strong>~8.000–14.000</strong></span>.<br><br>Regularități: se învață mai ușor cuvinte <span class='tip'><span class='tooltip-box'>Auzite des.</span><strong>frecvente</strong></span>, se rețin mai bine <span class='tip'><span class='tooltip-box'>În contexte și activități cu sens.</span><strong>în context</strong></span>, dialogul cu adultul este mai eficient decât <span class='tip'><span class='tooltip-box'>Expunerea pasivă.</span><strong>pasivitatea</strong></span>, iar <strong>vocabularul și gramatica se dezvoltă simultan și interdependent</strong></span>.",
+          front: "Explică achiziția limbajului și regularitățiile sale",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Achiziția limbajului</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> copiii dobândesc limbajul urmând tipare comune, iar interacțiunea reală contează mai mult decât expunerea pasivă.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea limbajului prezintă regularități universale, influențate de frecvența inputului, contextul semnificativ și interacțiunea socială, cu eficiență redusă a expunerii pasive.<br/><br/>
+          <strong>Exemplu:</strong> cuvintele des auzite și folosite în contexte clare sunt învățate mai repede.
+        </span>
+      </span> urmează regularități relativ universale, vizibile în felul în care se consolidează vocabularul și utilizarea lui.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Regularități în achiziția limbajului</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔁<span class='tip'><strong>frecvența cuvintelor</strong> <span style='opacity:.9'>(repetiție naturală)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ce aude des, învață mai ușor.<br/><br/><strong>Formulare academică:</strong> frecvența utilizării favorizează memorarea lexicală și accesul rapid la cuvinte.<br/><br/><strong>Exemplu:</strong> apar devreme cuvinte precum mamă, apă, nu.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧩<span class='tip'><strong>contextul de învățare</strong> <span style='opacity:.9'>(sens în situații reale)</span><span class='tooltip-box'><strong>Simplu spus:</strong> reține mai bine când cuvântul este legat de o situație clară.<br/><br/><strong>Formulare academică:</strong> achiziția este facilitată de contexte semnificative, care leagă forma de sens și de referent.<br/><br/><strong>Exemplu:</strong> minge spus când copilul se joacă.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "💬<span class='tip'><strong>interacțiunea activă</strong> <span style='opacity:.9'>(dialog real)</span><span class='tooltip-box'><strong>Simplu spus:</strong> conversația cu adultul accelerează limbajul.<br/><br/><strong>Formulare academică:</strong> dialogul activ stimulează dezvoltarea comunicării și extinderea vocabularului, prin feedback și co construcție.<br/><br/><strong>Exemplu:</strong> adultul reformulează și completează enunțul copilului.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📺<span class='tip'><strong>expunerea pasivă</strong> <span style='opacity:.9'>(doar auzi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> este mai puțin eficientă decât dialogul.<br/><br/><strong>Formulare academică:</strong> expunerea pasivă are efecte limitate asupra dezvoltării limbajului, în lipsa interacțiunii contingente.<br/><br/><strong>Exemplu:</strong> televiziunea nu înlocuiește conversația reală.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -6281,41 +6532,315 @@ window.PHED_FLASHCARDS = {
       cards: [
         {
           front:
-            "Explică teoria ecologică a dezvoltării la Bronfenbrenner și cum sunt organizate sistemele",
-          back: "Bronfenbrenner explică dezvoltarea ca rezultat al relației dintre copil și <span class='tip'><span class='tooltip-box'>Modelul descrie contexte de mediu organizate pe niveluri, care se influențează reciproc, de la experiențe zilnice până la cultura societății.</span><strong>sisteme ecologice</strong></span>.<br><br>• <span class='tip'><strong>microsistem</strong> – relații directe și cotidiene<span class='tooltip-box'><strong>Ce este:</strong> cadrul social în care copilul petrece timp considerabil și unde apar interacțiuni față în față, cu influență bidirecțională.<br><br><strong>Exemplu:</strong> relația elev–profesor, regulile din familie, grupul de prieteni.</span></span><br>• <span class='tip'><strong>mezosistem</strong> – legături între contexte apropiate<span class='tooltip-box'><strong>Ce este:</strong> conexiunile dintre microsisteme, care pot sprijini sau bloca dezvoltarea prin coerență sau conflict.<br><br><strong>Exemplu:</strong> colaborarea familie–școală la teme și comportament, sau tensiunea dintre regulile de acasă și cele din clasă.</span></span><br>• <span class='tip'><strong>exosistem</strong> – influențe indirecte asupra copilului<span class='tooltip-box'><strong>Ce este:</strong> contexte sociale în care copilul nu are rol activ, dar care îi afectează viața prin efecte asupra adulților sau asupra resurselor disponibile.<br><br><strong>Exemplu:</strong> programul de muncă al părinților, accesul la bibliotecă, facilități de recreere, decizii administrative ale școlii.</span></span><br>• <span class='tip'><strong>macrosistem</strong> – valori și cadre sociale largi<span class='tooltip-box'><strong>Ce este:</strong> cultura și sistemul de valori al societății, ideologii, norme și condiții socioeconomice care structurează viața comunității.<br><br><strong>Exemplu:</strong> atitudini față de educație, credințe despre disciplină, inegalități de resurse în funcție de statut socioeconomic.</span></span><br>• <span class='tip'><strong>cronosistem</strong> – schimbări în timp și tranziții<span class='tooltip-box'><strong>Ce este:</strong> dimensiunea temporală a dezvoltării, evenimente de viață și schimbări socio-istorice care modifică celelalte sisteme și experiența copilului.<br><br><strong>Exemplu:</strong> divorțul părinților, mutarea în alt oraș, schimbarea școlii, perioade de criză socială care afectează familia și educația.</span></span>.",
+            "Definește Teoria ecologică a dezvoltării (Urie Bronfenbrenner)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teoria ecologică a dezvoltării</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> copilul se dezvoltă în mai multe cercuri sociale care se influențează între ele, de la familie până la cultură și schimbările de timp.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea este explicată prin interacțiunea dintre individ și sisteme de mediu interconectate, relaționale și instituționale, care acționează simultan și se influențează reciproc.<br/><br/>
+          <strong>Exemplu:</strong> o colaborare bună între părinți și profesori poate susține progresul, iar un conflict poate să îl blocheze.
+        </span>
+      </span> explică că dezvoltarea copilului este influențată de sisteme de mediu interconectate.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Sisteme ecologice</div>
+
+    ${window.flashPillList([
+      {
+        text: "①➡🏠<span class='tip'><strong>microsistem</strong> <span style='opacity:.9'>(context imediat)</span><span class='tooltip-box'><strong>Simplu spus:</strong> oamenii și locurile cu care copilul interacționează zilnic.<br/><br/><strong>Formulare academică:</strong> include familia, școala, grupul de prieteni și relațiile directe față în față.<br/><br/><strong>Exemplu:</strong> relația copil părinte.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "②➡🔗<span class='tip'><strong>mezosistem</strong> <span style='opacity:.9'>(legături între microsisteme)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cum se leagă între ele mediile apropiate.<br/><br/><strong>Formulare academică:</strong> conexiunile dintre microsisteme care pot amplifica sau reduce efectele lor.<br/><br/><strong>Exemplu:</strong> colaborarea părinți profesori.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "③➡🏢<span class='tip'><strong>exosistem</strong> <span style='opacity:.9'>(influențe indirecte)</span><span class='tooltip-box'><strong>Simplu spus:</strong> contexte în care copilul nu este prezent, dar care îl afectează.<br/><br/><strong>Formulare academică:</strong> sisteme instituționale sau sociale care influențează copilul prin intermediul adulților și deciziilor lor.<br/><br/><strong>Exemplu:</strong> programul de lucru al părintelui.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "④➡🌍<span class='tip'><strong>macrosistem</strong> <span style='opacity:.9'>(valori și norme)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cultura, regulile și așteptările societății.<br/><br/><strong>Formulare academică:</strong> ideologii, valori, legi și condiții socioeconomice care structurează viața socială.<br/><br/><strong>Exemplu:</strong> așteptările culturale despre educație.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "⑤➡⏳<span class='tip'><strong>cronosistem</strong> <span style='opacity:.9'>(timp și tranziții)</span><span class='tooltip-box'><strong>Simplu spus:</strong> contează când apar schimbările și ce perioadă istorică este.<br/><br/><strong>Formulare academică:</strong> dimensiunea temporală care modifică influențele celorlalte sisteme prin tranziții de viață și schimbări istorice.<br/><br/><strong>Exemplu:</strong> mutarea într o altă țară la vârste diferite are efecte diferite.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Descrie Teoria dezvoltării psihosociale (Erik Erikson)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teoria dezvoltării psihosociale</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> viața are etape, iar în fiecare etapă există un conflict între două tendințe, iar dacă îl gestionezi bine câștigi o resursă psihică.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea are loc printr o succesiune de crize psihosociale, a căror rezolvare predominant pozitivă produce virtuți relativ stabile ale eului, utile adaptării pe parcursul vieții.<br/><br/>
+          <strong>Exemplu:</strong> în primul an se formează încrederea sau neîncrederea de bază, în funcție de calitatea îngrijirii.
+        </span>
+      </span> = dezvoltarea este o succesiune de crize psihosociale care produc virtuți.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Etape, crize și virtuți</div>
+
+    ${window.flashPillList([
+      {
+        text: "👶<span class='tip'><strong>0 până la 1 ani</strong> <span style='opacity:.9'>(încredere vs. neîncredere)</span><span class='tooltip-box'><strong>Simplu spus:</strong> lumea este sigură sau periculoasă.<br/><br/><strong>Formulare academică:</strong> calitatea îngrijirii modelează sentimentul de încredere de bază.<br/><br/><strong>Exemplu:</strong> răspuns constant la nevoi produce speranță.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🚶<span class='tip'><strong>1 până la 3 ani</strong> <span style='opacity:.9'>(autonomie vs rușine îndoială)</span><span class='tooltip-box'><strong>Simplu spus:</strong> învață să facă singur fără să se simtă rușinat.<br/><br/><strong>Formulare academică:</strong> controlul de sine și independența se dezvoltă prin susținere adecvată.<br/><br/><strong>Exemplu:</strong> copilul este lăsat să încerce și primește limite ferme dar calme.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧒<span class='tip'><strong>3 până la 6 ani</strong> <span style='opacity:.9'>(inițiativă vs vinovăție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> inițiază acțiuni fără frică de pedeapsă morală excesivă.<br/><br/><strong>Formulare academică:</strong> copilul dezvoltă scopul prin explorare și asumare de inițiative.<br/><br/><strong>Exemplu:</strong> inventează jocuri și își asumă roluri.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📚<span class='tip'><strong>6 până la 12 ani</strong> <span style='opacity:.9'>(hărnicie vs inferioritate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> capătă competență prin sarcini și feedback.<br/><br/><strong>Formulare academică:</strong> succesul în activități școlare și sociale consolidează sentimentul de competență.<br/><br/><strong>Exemplu:</strong> își îmbunătățește performanța prin exercițiu și apreciere realistă.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "🧑<span class='tip'><strong>12 până la 18 ani</strong> <span style='opacity:.9'>(identitate vs confuzie de rol)</span><span class='tooltip-box'><strong>Simplu spus:</strong> își clarifică cine este și ce vrea.<br/><br/><strong>Formulare academică:</strong> integrarea experiențelor și rolurilor produce identitate coerentă și fidelitate.<br/><br/><strong>Exemplu:</strong> explorează valori și direcții înainte de angajamente stabile.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🤝<span class='tip'><strong>18 până la 35 ani</strong> <span style='opacity:.9'>(intimitate vs izolare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> construiește relații apropiate fără să se piardă pe sine.<br/><br/><strong>Formulare academică:</strong> capacitatea de angajament și mutualitate susține intimitatea matură.<br/><br/><strong>Exemplu:</strong> relații stabile bazate pe încredere și reciprocitate.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "🌱<span class='tip'><strong>35 până la 55 ani</strong> <span style='opacity:.9'>(generativitate vs stagnare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> contribuie la ceva care depășește interesul personal.<br/><br/><strong>Formulare academică:</strong> orientarea către îngrijire și creație socială susține generativitatea.<br/><br/><strong>Exemplu:</strong> mentorat, creșterea copiilor, proiecte cu sens.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧭<span class='tip'><strong>55+ ani</strong> <span style='opacity:.9'>(integritate vs deznădejde)</span><span class='tooltip-box'><strong>Simplu spus:</strong> își acceptă viața ca întreg sau rămâne în regret.<br/><br/><strong>Formulare academică:</strong> integrarea narativă a vieții produce înțelepciune, iar eșecul produce disperare.<br/><br/><strong>Exemplu:</strong> poate privi trecutul cu împăcare.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Rezolvare pozitivă</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> nu înseamnă că partea negativă dispare, ci că partea pozitivă devine predominantă și gestionabilă.<br/><br/>
+          <strong>Formulare academică:</strong> crizele rămân polarități funcționale ale dezvoltării, dar rezolvarea predominant pozitivă generează virtuți care stabilizează eul și îmbunătățesc adaptarea.<br/><br/>
+          <strong>Exemplu:</strong> dacă încrederea domină, persoana poate construi relații chiar dacă uneori se teme.
+        </span>
+      </span> (virtuțile se acumulează ca resurse, iar conflictele pot reapărea în forme noi).
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Explică Dezvoltarea judecății morale (Jean Piaget)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Judecata morală la Piaget</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> copilul trece de la reguli impuse de autoritate la reguli înțelese, negociabile, în care contează intenția.<br/><br/>
+          <strong>Formulare academică:</strong> moralitatea evoluează de la heteronomie la autonomie, pe măsură ce se dezvoltă gândirea și cooperarea socială, iar evaluarea faptelor se mută de la consecințe la intenții și context.<br/><br/>
+          <strong>Exemplu:</strong> la început consideră grav răul în funcție de pagubă, apoi evaluează dacă a fost intenționat.
+        </span>
+      </span> este trecerea de la reguli impuse, la reguli negociabile și autonomie morală.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Stadii ale judecății morale</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎲<span class='tip'><strong>premoralitate</strong> <span style='opacity:.9'>(2 până la 6 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> regulile nu sunt stabile, sunt percepute ca rutine de joc.<br/><br/><strong>Formulare academică:</strong> nu există reguli morale interiorizate, iar regulile sunt flexibile și dependente de situație.<br/><br/><strong>Exemplu:</strong> schimbă regulile jocului când pierde.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "⚖️<span class='tip'><strong>heteronomie morală</strong> <span style='opacity:.9'>(6 până la 10 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> regulile vin de la autoritate și sunt obligatorii.<br/><br/><strong>Formulare academică:</strong> moralitatea este rigidă, centrată pe consecințe și pe respectul față de autoritate, cu credință în pedeapsă inevitabilă.<br/><br/><strong>Exemplu:</strong> consideră mai gravă o faptă cu pagubă mare chiar dacă a fost accidentală.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🤝<span class='tip'><strong>autonomie morală</strong> <span style='opacity:.9'>(10 până la 12 plus)</span><span class='tooltip-box'><strong>Simplu spus:</strong> regulile pot fi discutate, iar intenția devine centrală.<br/><br/><strong>Formulare academică:</strong> judecata morală devine relativă la context și intenție, iar regulile sunt înțelese ca acorduri între persoane.<br/><br/><strong>Exemplu:</strong> diferențiază clar între accident și acțiune intenționată.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Care este implicația didactică principală a teoriei ecologice pentru școală",
-          back: "Implicația didactică este că elevul este influențat simultan de mai multe contexte, deci profesorul trebuie să țină cont de:<br><br>• <span class='tip'><span class='tooltip-box'>Relația directă: profesor, elev și climatul clasei.</span><strong>microsistemul școlar</strong></span><br>• <span class='tip'><span class='tooltip-box'>Colaborarea familie-școală și coerența mesajelor educaționale.</span><strong>mezosistem</strong></span><br>• <span class='tip'><span class='tooltip-box'>Factori indirecți, de exemplu programul părinților sau resursele comunității.</span><strong>exosistem</strong></span><br><strong>Ideea cheie:</strong> intervenția eficientă nu vizează doar elevul, ci și mediile relevante.",
+            "Definește Dezvoltarea raționamentului moral (Lawrence Kohlberg)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Raționamentul moral la Kohlberg</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> oamenii justifică deciziile morale diferit pe măsură ce cresc, trecând de la frica de pedeapsă la principii interne.<br/><br/>
+          <strong>Formulare academică:</strong> dezvoltarea morală urmează o ierarhie a argumentării, organizată în trei niveluri și șase stadii, de la control extern și interes personal la norme internalizate și principii etice universalizabile.<br/><br/>
+          <strong>Exemplu:</strong> două persoane pot alege aceeași acțiune, dar o justifică prin motive morale diferite.
+        </span>
+      </span> = un model care descrie cum evoluează justificarea morală, nu doar comportamentul.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Niveluri ale raționamentului moral</div>
+
+    ${window.flashPillList([
+      {
+        text: "🚫<span class='tip'><strong>preconvențional</strong> <span style='opacity:.9'>(4 până la 9 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> binele este ce evită pedeapsa sau aduce câștig personal.<br/><br/><strong>Formulare academică:</strong> moralitatea este definită de consecințe și beneficii directe, cu orientare către autoritate și schimb reciproc.<br/><br/><strong>Exemplu:</strong> nu fac asta ca să nu fiu pedepsit.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🏛️<span class='tip'><strong>convențional</strong> <span style='opacity:.9'>(9 până la 14 ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> binele este ce este acceptat și ce menține ordinea.<br/><br/><strong>Formulare academică:</strong> moralitatea se bazează pe aprobarea socială și respectul față de reguli, roluri și autoritatea legitimă.<br/><br/><strong>Exemplu:</strong> fac asta pentru că așa e corect și așa se face.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭<span class='tip'><strong>postconvențional</strong> <span style='opacity:.9'>(13+ ani)</span><span class='tooltip-box'><strong>Simplu spus:</strong> binele este ce respectă drepturi și principii, chiar împotriva unei reguli nedrepte.<br/><br/><strong>Formulare academică:</strong> moralitatea este ghidată de principii internalizate și drepturi, iar legile pot fi evaluate critic în raport cu justiția.<br/><br/><strong>Exemplu:</strong> poți contesta o regulă dacă încalcă un drept fundamental.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+  <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele 6 stadii în 3 niveluri</div>
+
+  <div>
+    <span class='tip'><strong>Structura nivelurilor</strong>
+      <span class='tooltip-box'>
+        <strong>Simplu spus:</strong> fiecare nivel are două stadii, adică două moduri distincte de a justifica moral aceeași acțiune.<br/><br/>
+        <strong>Formulare academică:</strong> modelul este organizat ierarhic în trei niveluri, fiecare cu două stadii succesive, definite prin tipul dominant de justificare morală, de la orientare externă la principii internalizate.<br/><br/>
+        <strong>Exemplu:</strong> aceeași regulă poate fi respectată fie ca să eviți pedeapsa, fie ca să menții ordinea socială, fie pentru că protejează drepturi.
+      </span>
+    </span>
+  </div>
+
+  ${window.flashPillList([
+    {
+      text: "1️⃣<span class='tip'><strong>preconvențional - stadiul 1</strong> <span style='opacity:.9'>(evitarea pedepsei)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce evită pedeapsa.<br/><br/><strong>Formulare academică:</strong> orientare către pedeapsă și ascultare, în care moralitatea este definită prin consecințe externe și autoritate.<br/><br/><strong>Exemplu:</strong> nu fac asta ca să nu fiu pedepsit.</span></span>",
+      key: "cyan",
+    },
+    {
+      text: "2️⃣<span class='tip'><strong>preconvențional - stadiul 2</strong> <span style='opacity:.9'>(interes personal)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce îmi aduce un câștig sau un schimb avantajos.<br/><br/><strong>Formulare academică:</strong> orientare instrumentală și de schimb, în care decizia morală urmărește interesul personal și reciprocitatea pragmatică.<br/><br/><strong>Exemplu:</strong> fac asta dacă primesc ceva în schimb.</span></span>",
+      key: "teal",
+    },
+    {
+      text: "3️⃣<span class='tip'><strong>convențional - stadiul 3</strong> <span style='opacity:.9'>(aprobarea celorlalți)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce primește aprobare și arată că ești o persoană bună.<br/><br/><strong>Formulare academică:</strong> orientare către concordanță interpersonală, în care moralitatea este legată de acceptare socială, loialitate și intenția de a menține relații bune.<br/><br/><strong>Exemplu:</strong> fac asta ca să nu dezamăgesc pe cei apropiați.</span></span>",
+      key: "emerald",
+    },
+    {
+      text: "4️⃣<span class='tip'><strong>convențional - stadiul 4</strong> <span style='opacity:.9'>(lege și ordine)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce respectă regulile și menține ordinea socială.<br/><br/><strong>Formulare academică:</strong> orientare către lege și ordine, în care moralitatea este definită de respectul față de reguli, datorii și instituții.<br/><br/><strong>Exemplu:</strong> fac asta pentru că regula trebuie respectată.</span></span>",
+      key: "amber",
+    },
+    {
+      text: "5️⃣<span class='tip'><strong>postconvențional - stadiul 5</strong> <span style='opacity:.9'>(contract social și drepturi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce protejează drepturile și binele comun, chiar dacă o regulă particulară trebuie schimbată.<br/><br/><strong>Formulare academică:</strong> orientare către contract social, în care legile sunt evaluate critic în raport cu drepturile și utilitatea lor socială, fiind legitime dacă servesc binele comun.<br/><br/><strong>Exemplu:</strong> susțin schimbarea unei reguli dacă încalcă un drept important.</span></span>",
+      key: "indigo",
+    },
+    {
+      text: "6️⃣<span class='tip'><strong>postconvențional - stadiul 6</strong> <span style='opacity:.9'>(principii etice universale)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corect este ce respectă principii morale universale, chiar împotriva unei legi nedrepte.<br/><br/><strong>Formulare academică:</strong> orientare către principii etice universalizabile, în care conștiința și principiile precum demnitatea și dreptatea prevalează asupra conformării la norme externe.<br/><br/><strong>Exemplu:</strong> refuz să aplic o regulă care produce nedreptate, chiar dacă risc sancțiuni.</span></span>",
+      key: "pink",
+    },
+  ])}
+</div>
+
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Piaget versus Kohlberg</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> Piaget descrie cum se schimbă înțelegerea regulilor, Kohlberg descrie cum se schimbă tipul de argumentare morală.<br/><br/>
+          <strong>Formulare academică:</strong> Piaget pune accent pe trecerea de la heteronomie la autonomie, iar Kohlberg operationalizează progresul moral prin structura justificărilor, în niveluri și stadii ierarhizate.<br/><br/>
+          <strong>Exemplu:</strong> aceeași alegere poate fi justificată prin frică de pedeapsă sau prin principii, în funcție de nivel.
+        </span>
+      </span> diferența centrală este criteriul: reguli și intenții la Piaget, argumentare ierarhizată la Kohlberg.
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
-          front:
-            "Explică teoria dezvoltării psihosociale la Erikson ca model de crize și rezolvări",
-          back: "Erikson descrie dezvoltarea prin <span class='tip'><span class='tooltip-box'>Conflicte psihosociale între două tendințe, rezolvate prin experiențe și relații.</span><strong>crize</strong></span> care apar de a lungul vieții și formează <span class='tip'><span class='tooltip-box'>Calități psihosociale dobândite prin rezolvare adaptativă.</span><strong>virtuți</strong></span>.<br><br><strong>Principiu:</strong> fiecare etapă poate sprijini sau vulnerabiliza etapele următoare, în funcție de cum este gestionată criza.",
-        },
+          front: "Descrie Dezvoltarea morală la Carol Gilligan",
+          back: `<div class='flash-back'>
 
-        {
-          front:
-            "Enumeră stadiile lui Erikson până la maturitate și spune conflictul central și vârstele orientative",
-          back: "• <strong>0–1 an</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central al stadiului constă în rezolvarea tensiunii dintre perceperea lumii ca sigură sau nesigură prin relația cu mama sau substitutul matern.</span><strong>încredere vs neîncredere</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Capacitatea de a avea așteptări pozitive față de lume pe baza experiențelor constante de grijă.</span><strong>speranța</strong></span>.<br>• <strong>1–3 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre afirmarea autonomiei personale și apariția rușinii sau îndoielii atunci când controlul este excesiv limitat.</span><strong>autonomie vs îndoială și rușine</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Sentimentul că acțiunile proprii pot fi inițiate și susținute fără rușine excesivă.</span><strong>voința</strong></span>.<br>• <strong>3–6 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre inițierea acțiunilor proprii și sentimentul de vinovăție generat de reacțiile mediului.</span><strong>inițiativă vs vinovăție</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Capacitatea de a formula și urmări scopuri fără inhibare internă.</span><strong>scopul</strong></span>.<br>• <strong>6–12 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre dezvoltarea sentimentului de eficiență prin muncă și trăirea inferiorității în urma evaluării sociale.</span><strong>hărnicie, străduință vs inferioritate</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Convingerea că efortul personal duce la rezultate valoroase.</span><strong>competența</strong></span>.<br>• <strong>12–18 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre construirea unei identități coerente și confuzia de roluri valori și așteptări.</span><strong>identitate vs confuzie de rol</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Coerența internă a sinelui și stabilitatea valorilor personale.</span><strong>unitatea</strong></span>.<br>• <strong>18–35 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre capacitatea de angajament emoțional profund și tendința de izolare pentru protejarea sinelui.</span><strong>intimitate vs izolare</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Capacitatea de relaționare profundă fără pierderea identității personale.</span><strong>mutualitatea afectivă</strong></span>.<br>• <strong>35–55 ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre orientarea spre contribuție și grijă pentru ceilalți și stagnarea centrată pe sine.</span><strong>generativitate vs stagnare</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Orientarea către susținerea altora și a generațiilor următoare.</span><strong>grija responsabilă</strong></span>.<br>• <strong>55+ ani</strong>: <span class='tip'><span class='tooltip-box'>Conflictul central dintre acceptarea propriei vieți ca întreg coerent și trăirea regretului și a deznădejdii în fața limitelor și a apropierii sfârșitului vieții.</span><strong>integritatea eului vs deznădejde</strong></span>, calitate dezvoltată: <span class='tip'><span class='tooltip-box'>Capacitatea de a privi viața cu acceptare, sens și împăcare, integrând atât reușitele cât și eșecurile.</span><strong>înțelepciunea</strong></span>.",
-        },
-        {
-          front:
-            "Explică dezvoltarea judecății morale la Piaget și diferența dintre heteronomie și autonomie",
-          back: "Piaget descrie trecerea de la moralitatea fără reguli internalizate, la moralitatea regulilor impuse din exterior, apoi la moralitatea cooperării și a intențiilor.<br><br>• <strong>2–6 ani</strong>: <span class='tip'><span class='tooltip-box'><strong>Premoral</strong> înseamnă înainte de moralitate. Etimologie: pre înseamnă înainte și moral se referă la reguli de conduită. Copilul nu folosește încă reguli morale stabile pentru a judeca.</span><strong>premoral</strong></span> sau <span class='tip'><span class='tooltip-box'><strong>Anomie</strong> înseamnă lipsa regulii. Etimologie: a înseamnă fără și nomos înseamnă lege, regulă. Regulile nu sunt trăite ca obligatorii și apar mai ales ca obiceiuri de joc sau cerințe locale.</span><strong>anomie morală</strong></span>.<br>• <strong>6–10 ani</strong>: <span class='tip'><span class='tooltip-box'><strong>Heteronomie</strong> înseamnă lege venită din afară. Etimologie: heteros înseamnă altul și nomos înseamnă lege regulă. Morala este centrată pe reguli fixe impuse de autoritate, iar respectarea lor contează mai mult decât intenția.</span><strong>heteronomie morală</strong></span> cu <span class='tip'><span class='tooltip-box'>Gravitatea faptei este judecată după consecințe, nu după intenție. Exemplu: copilul care sparge 5 farfurii din greșeală este considerat mai rău decât copilul care sparge 1 farfurie intenționat.</span><strong>justiție imanentă</strong></span>.<br>• <strong>10–12+ ani</strong>: <span class='tip'><span class='tooltip-box'><strong>Autonomie</strong> înseamnă lege proprie. Etimologie: autos înseamnă sine și nomos înseamnă lege regulă. Regulile sunt înțelese ca acorduri între oameni și pot fi negociate în funcție de echitate.</span><strong>autonomie morală</strong></span> cu accent pe <span class='tip'><span class='tooltip-box'>Intenția contează mai mult decât rezultatul accidental. Exemplu: cineva varsă din greșeală un pahar în timp ce ajută este judecat mai puțin sever decât cineva care strică intenționat un obiect chiar dacă paguba este mai mică.</span><strong>intenție</strong></span>.",
-        },
-        {
-          front:
-            "Explică nivelurile dezvoltării raționamentului moral la Kohlberg și descrie fiecare nivel",
-          back: "• <strong>4–9 ani</strong>: <span class='tip'><span class='tooltip-box'>Regulile sunt stabilite de alții și respectate pentru a evita consecințe negative sau pentru beneficiu personal.</span><strong>preconvențional</strong></span> (S1: <span class='tip'><span class='tooltip-box'>Stadiul orientării spre ascultare și pedeapsă. Binele și răul sunt judecate în funcție de consecințele fizice ale acțiunii. Exemplu: un copil consideră că a spart din greșeală mai multe pahare este mai grav decât a spart unul intenționat.</span><strong>ascultare și pedeapsă</strong></span>; S2: <span class='tip'><span class='tooltip-box'>Stadiul orientării spre satisfacerea propriilor nevoi. Corect este ceea ce aduce un beneficiu personal sau un schimb avantajos. Exemplu: copilul ajută doar dacă primește ceva în schimb.</span><strong>propriile nevoi</strong></span>)<br>• <strong>9–14 ani</strong>: <span class='tip'><span class='tooltip-box'>Morala conformării la norme și a menținerii relațiilor și ordinii sociale.</span><strong>convențional</strong></span> (S3: <span class='tip'><span class='tooltip-box'>Stadiul orientării după relațiile interpersonale. Comportamentul bun este cel care îi ajută pe ceilalți și este aprobat social. Exemplu: un copil spune adevărul pentru a fi considerat bun de către ceilalți.</span><strong>relațiile interpersonale</strong></span>; S4: <span class='tip'><span class='tooltip-box'>Stadiul orientării după autoritate și ordine socială. Corect este să respecți regulile și legile pentru menținerea ordinii. Exemplu: respectarea regulilor școlii pentru că așa trebuie.</span><strong>autoritate și ordine</strong></span>)<br>• <strong>13+ ani</strong>: <span class='tip'><span class='tooltip-box'>Morala autonomiei și a principiilor morale alese conștient.</span><strong>postconvențional</strong></span> (S5: <span class='tip'><span class='tooltip-box'>Stadiul orientării după contractul social și drepturi individuale. Legile sunt importante dar pot fi schimbate dacă sunt nedrepte. Exemplu: o lege este respectată doar dacă protejează drepturile fundamentale.</span><strong>contract social</strong></span>; S6: <span class='tip'><span class='tooltip-box'>Stadiul orientării după principii etice universale internalizate. Deciziile morale sunt luate conform conștiinței personale. Exemplu: cineva încalcă o lege pentru a salva o viață.</span><strong>principii etice universale</strong></span>)",
-        },
-        {
-          front:
-            "Ce aduce Gilligan diferit față de Kohlberg când vorbește despre dezvoltarea morală",
-          back: "Gilligan pornește de la critica faptului că teoria lui Kohlberg a fost construită în principal pe studii realizate pe băieți și bărbați, valorizând <span class='tip'><span class='tooltip-box'>Judecata morală bazată pe reguli abstracte, drepturi și principii impersonale.</span><strong>etica justiției</strong></span>, și propune ca alternativă <span class='tip'><span class='tooltip-box'>O perspectivă morală centrată pe relații, responsabilitate și evitarea producerii de rău.</span><strong>etica grijii</strong></span>.<br><br>Stadii orientative în etica grijii (Gilligan) în raport cu Kohlberg:<br>• <strong>Preconvențional</strong> <span class='tip'><span class='tooltip-box'>La Kohlberg: orientare spre pedeapsă și interes personal. La Gilligan: focalizare pe supraviețuire și protejarea sinelui într-un context relațional perceput ca amenințător. Exemplu: o persoană ia o decizie morală pentru a evita să fie rănită sau abandonată.</span>(Kohlberg vs Gilligan)</span><br>• <strong>Convențional</strong> <span class='tip'><span class='tooltip-box'>La Kohlberg: moralitatea conformării la norme și a aprobării sociale. La Gilligan: a fi moral înseamnă sacrificiu de sine și grijă pentru ceilalți, chiar cu cost personal. Exemplu: cineva acceptă o situație nedreaptă pentru a menține relația sau armonia.</span>(Kohlberg vs Gilligan)</span><br>• <strong>Postconvențional</strong> <span class='tip'><span class='tooltip-box'>La Kohlberg: orientare după principii etice universale și drepturi individuale. La Gilligan: echilibru între grija față de sine și față de ceilalți, cu accent pe responsabilitate și nonviolență. Exemplu: o decizie morală caută soluția care minimizează răul pentru toate persoanele implicate.</span>(Kohlberg vs Gilligan)</span>",
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dezvoltarea morală la Gilligan</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> moralitatea nu înseamnă doar dreptate și reguli, ci și grijă, relații și responsabilitate față de oameni concreți.<br/><br/>
+          <strong>Formulare academică:</strong> Gilligan propune etica grijii ca perspectivă morală centrată pe relații, responsabilitate și evitarea răului, criticând supraaccentul pe justiție și abstractizare din unele modele stadiale.<br/><br/>
+          <strong>Exemplu:</strong> o decizie morală poate urmări să protejeze o persoană vulnerabilă, chiar dacă regula generală ar sugera altceva.
+        </span>
+      </span> - moralitatea include și dimensiunea grijii, nu doar a justiției.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Niveluri ale eticii grijii</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧍<span class='tip'><strong>preconvențional</strong> <span style='opacity:.9'>(supraviețuire individuală)</span><span class='tooltip-box'><strong>Simplu spus:</strong> decizia urmărește protecția de sine și evitarea pierderii.<br/><br/><strong>Formulare academică:</strong> moralitatea este ghidată de nevoi personale și siguranță, cu evaluări centrate pe sine.<br/><br/><strong>Exemplu:</strong> aleg varianta care mă protejează cel mai mult.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🤲<span class='tip'><strong>convențional</strong> <span style='opacity:.9'>(sacrificiu de sine)</span><span class='tooltip-box'><strong>Simplu spus:</strong> a fi bun înseamnă să pui pe alții înaintea ta.<br/><br/><strong>Formulare academică:</strong> moralitatea se asociază cu abnegație și asumarea responsabilității pentru binele celorlalți.<br/><br/><strong>Exemplu:</strong> renunț la ceva important ca să nu rănesc pe cineva.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "⚖️<span class='tip'><strong>postconvențional</strong> <span style='opacity:.9'>(echilibru și nonviolență)</span><span class='tooltip-box'><strong>Simplu spus:</strong> caută soluții care reduc răul pentru toți, inclusiv pentru sine.<br/><br/><strong>Formulare academică:</strong> moralitatea vizează responsabilitate reciprocă și echilibru între sine și ceilalți, orientată spre minimizarea suferinței și nonviolență.<br/><br/><strong>Exemplu:</strong> aleg o soluție care minimizează suferința tuturor, nu doar a unei părți.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Gilligan versus Kohlberg</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔁<span class='tip'><strong>aceleași niveluri</strong> <span style='opacity:.9'>(dar orientări diferite)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ambele modele vorbesc despre progresul nivelurilor preconvențional/ convențional și postconvențional, dar criteriul progresului diferă: reguli și dreptate la Kohlberg, relații și grijă la Gilligan.<br/><br/><strong>Formulare academică:</strong> deși sunt folosite etichete similare de nivel, Kohlberg descrie o ierarhie a raționamentului moral orientată spre justiție, drepturi și principii, iar Gilligan descrie o orientare morală centrată pe grijă, responsabilitate și context relațional, unde maturizarea înseamnă echilibru între nevoile proprii și ale celorlalți și minimizarea răului.<br/><br/><strong>Exemplu:</strong> la același nivel de vârstă, o persoană poate spune este corect pentru că legea trebuie respectată (Kohlberg), versus este corect pentru că îi protejează pe cei vulnerabili și evită suferința (Gilligan).</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -6327,75 +6852,412 @@ window.PHED_FLASHCARDS = {
       cards: [
         {
           front:
-            "Definește personalitatea ca sistem dinamic și modul ei de formare și cunoaștere",
-          back: "Personalitatea reprezintă un <span class='tip'><strong>sistem dinamic și interacționist</strong><span class='tooltip-box'>Personalitatea nu este o realitate fixă, dată integral la naștere, ci se construiește progresiv prin interacțiunea continuă dintre factori biologici, psihologici, sociali și culturali, fiind relativ stabilă dar modelabilă pe parcursul vieții.<br><br><strong>Exemplu:</strong> aceeași predispoziție temperamentală poate conduce la autocontrol sau impulsivitate, în funcție de educație și contexte.</span></span>, ceea ce explică <span class='tip'><strong>unicitatea fiecărei persoane</strong><span class='tooltip-box'>Unicitatea personalității rezultă din combinarea potențialului ereditar, constituției fizice, istoriei de viață, experiențelor acumulate și filozofiei personale, combinație care diferă de la un individ la altul.<br><br><strong>Exemplu:</strong> persoane crescute în medii similare pot dezvolta valori și stiluri de viață diferite.</span></span>. <br><br>În structura personalității există <span class='tip'><strong>componente cu ritmuri diferite de dezvoltare</strong><span class='tooltip-box'>Temperamentul apare timpuriu și are bază biologică, în timp ce aptitudinile și caracterul se dezvoltă gradual prin educație, exercițiu și experiențe sociale.<br><br><strong>Exemplu:</strong> un copil cu reactivitate emoțională ridicată poate învăța treptat perseverența și autocontrolul.</span></span>. <br><br>Cunoașterea personalității are ca scop <span class='tip'><strong>descrierea, explicarea și predicția comportamentului</strong><span class='tooltip-box'>Analiza personalității urmărește să înțeleagă modul în care persoana relaționează cu mediul, nu să eticheteze rigid individul pe baza unor trăsături presupus imuabile.<br><br><strong>Exemplu:</strong> anticiparea modului în care o persoană reacționează la stres, eșec sau cooperare.</span></span>.",
+            "Explică relația dintre personalitate, temperament și caracter",
+          back: `<div class='flash-back'>
+
+ <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Relația dintre concepte</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea este întregul, iar temperamentul și caracterul sunt două componente majore care se combină și se influențează reciproc în comportamentul real.<br/><br/>
+          <strong>Formulare academică:</strong> relația poate fi exprimată ca integrare sistemică: personalitatea reprezintă organizarea relativ stabilă a dispozițiilor individului, în care predispozițiile biologice și achizițiile socio culturale se articulează funcțional în patternuri de conduită.<br/><br/>
+          <strong>Exemplu:</strong> aceeași situație poate activa reactivitatea temperamentală, iar modul final de reacție depinde de standardele și autocontrolul caracterial.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Schemă de integrare</div>
+
+    <div style="display:flex; flex-wrap:wrap; align-items:center; gap:10px; font-weight:700; line-height:1.25;">
+      <span class='tip'>Personalitate
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> profilul coerent care rezultă din cum reacționezi, ce valori ai și cum te autoreglezi în timp.<br/><br/>
+          <strong>Formulare academică:</strong> ansamblu organizat de dispoziții relativ stabile care structurează conduita, prin integrarea componentelor biologice și socio culturale într o unitate funcțională.<br/><br/>
+          <strong>Exemplu:</strong> aceeași persoană tinde să aibă un stil recognoscibil de a face față stresului, relațiilor și sarcinilor.
+        </span>
+      </span>
+
+      <span class='tip'>=
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> semnul egal arată integrare, nu o sumă mecanică. Componentele se combină și se modelează reciproc.<br/><br/>
+          <strong>Formulare academică:</strong> relație de organizare funcțională, în care componentele contribuie diferențiat la stabilitatea și variabilitatea comportamentului în contexte.<br/><br/>
+          <strong>Exemplu:</strong> temperamentul poate intensifica reacția, iar caracterul poate regla exprimarea ei.
+        </span>
+      </span>
+
+      <span class='tip'>Temperament
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> „cum pornește reacția” ca energie și intensitate, mai vizibil devreme și mai stabil în timp.<br/><br/>
+          <strong>Formulare academică:</strong> componentă biologic fundamentată a personalității, exprimată prin reactivitate și autoreglare, cu manifestare timpurie și stabilitate relativă, influențând stilul răspunsurilor la stimuli.<br/><br/>
+          <strong>Exemplu:</strong> reacționează rapid și intens la frustrare versus reacționează lent și moderat.
+        </span>
+      </span>
+
+      <span class='tip'>+
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> plusul indică aport complementar. Temperamentul dă tonul reacției, caracterul dă direcția și controlul.<br/><br/>
+          <strong>Formulare academică:</strong> complementaritate: predispozițiile temperamentale furnizează dinamica răspunsului, iar achizițiile caracteriale furnizează criterii normative și control volitiv asupra conduitei.<br/><br/>
+          <strong>Exemplu:</strong> aceeași reactivitate poate fi exprimată impulsiv sau canalizată disciplinat.
+        </span>
+      </span>
+
+      <span class='tip'>Caracter
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> „cum alegi să te porți” pe baza valorilor, regulilor și autocontrolului învățat.<br/><br/>
+          <strong>Formulare academică:</strong> componentă axiologic volitivă a personalității, formată prin internalizarea normelor și valorilor, reflectată în orientarea spre scop, autocontrol și conduite stabile în raport cu standarde sociale și personale.<br/><br/>
+          <strong>Exemplu:</strong> respectă o regulă și își amână impulsul, chiar când este frustrat.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Conceptele vizate:</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚡<span class='tip'><strong>temperament</strong> <span style='opacity:.9'>(reactivitate și energie)</span><span class='tooltip-box'><strong>Simplu spus:</strong> modul de reacție de bază, vizibil devreme.<br/><br/><strong>Formulare academică:</strong> predispoziții neurofiziologice care condiționează intensitatea reacțiilor și pragurile de activare, cu expresie relativ stabilă.<br/><br/><strong>Exemplu:</strong> reacționează rapid la frustrare sau rămâne calm.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧭<span class='tip'><strong>caracter</strong> <span style='opacity:.9'>(valori și voință)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cum alegi să te porți în funcție de valori și reguli interiorizate.<br/><br/><strong>Formulare academică:</strong> organizarea relativ stabilă a valorilor, normelor internalizate și a mecanismelor de autocontrol, care susțin consecvența conduitei și responsabilitatea personală.<br/><br/><strong>Exemplu:</strong> își respectă promisiunile chiar când e dificil.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧩<span class='tip'><strong>personalitate</strong> <span style='opacity:.9'>(integrare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> profilul coerent rezultat din temperament, caracter și alte componente.<br/><br/><strong>Formulare academică:</strong> sistem integrativ de trăsături, motive, valori și stiluri de adaptare, care conferă coerență identității și predictibilitate conduitei în timp și contexte.<br/><br/><strong>Exemplu:</strong> aceeași persoană își păstrează stilul general, dar se adaptează situațiilor.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
         {
-          front:
-            "Definește personalitatea ca structură în sens larg și restrâns",
-          back: "<span class='tip'><strong>Sens larg</strong> = temperament + caracter + aptitudini<span class='tooltip-box'>În sens larg, personalitatea include totalitatea componentelor psihice relativ stabile: stilul de reacție emoțională și energetică, sistemul de valori și norme, precum și capacitățile și competențele individului.<br><br><strong>Exemplu:</strong> un elev poate fi calm sau impulsiv, responsabil sau conformist și performant sau slab la anumite discipline.</span></span><br><br><span class='tip'><strong>Sens restrâns</strong> = doar temperament și caracter<span class='tooltip-box'>În sens restrâns, personalitatea se referă doar la stilul de reacție și la sistemul de valori și reguli internalizate, excluzând aptitudinile și inteligența.<br><br><strong>Exemplu:</strong> doi elevi cu aceeași inteligență pot avea stiluri de reacție și orientări valorice diferite.</span></span>",
+          front: "Explică formarea și unicitatea personalității",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Personalitatea</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea nu este dată complet de la început, ci se construiește în timp din predispoziții și experiențe.<br/><br/>
+          <strong>Formulare academică:</strong> personalitatea reprezintă organizarea relativ stabilă a trăsăturilor, motivațiilor, valorilor și stilurilor de adaptare, rezultată din interacțiunea dintre potențialul ereditar și influențele socio culturale, prin care individul își reglează conduita și relația cu mediul.<br/><br/>
+          <strong>Exemplu:</strong> aceeași predispoziție temperamentală poate conduce la profiluri diferite în funcție de climatul educațional și de istoricul relațional.
+        </span>
+      </span> explică de ce oamenii au coerență internă și diferențe individuale între ei.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Factori ai unicitații</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧬<span class='tip'><strong>potențial ereditar</strong> <span style='opacity:.9'>(predispoziții)</span><span class='tooltip-box'><strong>Simplu spus:</strong> unele reacții apar mai ușor încă de la început.<br/><br/><strong>Formulare academică:</strong> ereditatea furnizează predispoziții biologice care condiționează reactivitatea și unele tendințe de comportament, fără a determina singură forma finală a personalității.<br/><br/><strong>Exemplu:</strong> niveluri diferite de activitate sau sensibilitate la stimuli.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📚<span class='tip'><strong>istorie de viață</strong> <span style='opacity:.9'>(experiențe și contexte)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ceea ce trăiești te modelează.<br/><br/><strong>Formulare academică:</strong> experiențele de viață și mediile de dezvoltare structurează tiparele de adaptare și consolidează trăsături prin învățare, roluri și consecințe sociale.<br/><br/><strong>Exemplu:</strong> sprijinul familial constant poate consolida încrederea și perseverența.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧭<span class='tip'><strong>filozofie personală</strong> <span style='opacity:.9'>(valori și sens)</span><span class='tooltip-box'><strong>Simplu spus:</strong> fiecare își formează o perspectivă despre sine și lume.<br/><br/><strong>Formulare academică:</strong> sistemul de valori, credințe și sensuri personale contribuie la coerența identitară și la orientarea comportamentului în situații de alegere și evaluare morală sau socială.<br/><br/><strong>Exemplu:</strong> își definește identitatea prin ideea de muncă bine făcută.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Ritmuri diferite de dezvoltare</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> unele componente apar devreme, altele se construiesc mai lent.<br/><br/>
+          <strong>Formulare academică:</strong> temperamentul are expresie timpurie și bază biologică, în timp ce caracterul și aptitudinile se structurează progresiv prin educație, experiență și autoreglare, ceea ce explică atât stabilitatea cât și schimbarea personalității în timp.<br/><br/>
+          <strong>Exemplu:</strong> un copil energic își păstrează nivelul de energie, dar învață reguli de autocontrol în mediul școlar.
+        </span>
+      </span> personalitatea combină continuitate și transformare de a lungul dezvoltării.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Descrie structura și dinamica personalității",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Structură și dinamică</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea are părți relativ stabile, dar funcționează flexibil în situații diferite.<br/><br/>
+          <strong>Formulare academică:</strong> personalitatea include o componentă structurală relativ stabilă, care asigură coerența identității, și o componentă dinamică interacționistă, prin care individul se adaptează cerințelor mediului, integrând experiențe noi și autoreglând conduita.<br/><br/>
+          <strong>Exemplu:</strong> aceeași persoană își menține valorile, dar își ajustează stilul de comunicare în funcție de context.
+        </span>
+      </span> explică simultan stabilitatea și adaptarea.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Niveluri de analiză</div>
+
+    ${window.flashPillList([
+      {
+        text: "👁️<span class='tip'><strong>nivel comportamental</strong> <span style='opacity:.9'>(observabil)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ce se vede direct în conduită.<br/><br/><strong>Formulare academică:</strong> descrie manifestările observabile ale persoanei în situații concrete, ca expresie contextuală a trăsăturilor și a autoreglării.<br/><br/><strong>Exemplu:</strong> participă activ la clasă sau evită expunerea.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🧩<span class='tip'><strong>nivelul trăsăturilor</strong> <span style='opacity:.9'>(patternuri stabile)</span><span class='tooltip-box'><strong>Simplu spus:</strong> tendințe care se repetă în timp.<br/><br/><strong>Formulare academică:</strong> surprinde regularități relativ stabile ale comportamentului și reacțiilor, care conferă predictibilitate inter individuală și intra individuală.<br/><br/><strong>Exemplu:</strong> conștiinciozitate ridicată sau impulsivitate.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧱<span class='tip'><strong>structuri profunde</strong> <span style='opacity:.9'>(organizare internă)</span><span class='tooltip-box'><strong>Simplu spus:</strong> motive, valori și mecanisme interne mai greu de observat.<br/><br/><strong>Formulare academică:</strong> include motivații, scopuri, convingeri și organizări interne care explică sensul conduitei și direcția adaptării personale în timp.<br/><br/><strong>Exemplu:</strong> nevoia de reușită sau sensul personal al performanței.</span></span>",
+        key: "coral",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Concluzie funcțională</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> personalitatea este coerentă, dar nu rigidă.<br/><br/>
+          <strong>Formulare academică:</strong> structura personalității susține continuitatea identității, iar dinamica ei reflectă adaptarea la mediu prin autoreglare, feedback social și integrarea experiențelor, ceea ce permite variații situaționale fără pierderea coerenței personale.<br/><br/>
+          <strong>Exemplu:</strong> își păstrează standardele personale, dar își schimbă strategia când contextul se schimbă.
+        </span>
+      </span> stabilitate și adaptare apar împreună, nu se exclud.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Definește temperamentul și explică rolul său adaptativ",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Temperamentul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> descrie cât de repede și cât de intens reacționezi și câtă energie ai, iar asta se vede devreme.<br/><br/>
+          <strong>Formulare academică:</strong> temperamentul reprezintă componenta biologic fundamentată a personalității, exprimată prin reactivitate emoțională, nivel de activitate și particularități de autoreglare, relativ stabile în timp, dar variabile în expresie în funcție de cerințele situaționale.<br/><br/>
+          <strong>Exemplu:</strong> doi copii pot avea aceeași vârstă, dar niveluri diferite de reactivitate și calm.
+        </span>
+      </span> este baza timpurie a stilului de reacție și autoreglare.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Bază și stabilitate</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧬<span class='tip'><strong>bază biologică</strong> <span style='opacity:.9'>(sistem nervos și endocrin)</span><span class='tooltip-box'><strong>Simplu spus:</strong> corpul influențează reacțiile.<br/><br/><strong>Formulare academică:</strong> particularitățile neurofiziologice și endocrine condiționează intensitatea reactivității, pragurile de activare și eficiența autoreglării emoționale.<br/><br/><strong>Exemplu:</strong> nivel diferit de excitabilitate și recuperare după stres.</span></span>",
+        key: "indigo",
+      },
+      {
+        text: "⏳<span class='tip'><strong>stabilitate relativă</strong> <span style='opacity:.9'>(predispoziții persistente)</span><span class='tooltip-box'><strong>Simplu spus:</strong> rămâne, dar se rafinează în exprimare.<br/><br/><strong>Formulare academică:</strong> trăsăturile temperamentale tind să se mențină ca predispoziții, în timp ce exprimarea lor este modelată prin învățare, norme și contexte, mai ales prin dezvoltarea controlului voluntar.<br/><br/><strong>Exemplu:</strong> copilul impulsiv poate învăța strategii de amânare a reacției.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Rol adaptativ</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> nu există temperament bun sau rău, depinde de context.<br/><br/>
+          <strong>Formulare academică:</strong> semnificația adaptativă a trăsăturilor temperamentale este contextuală, rezultând din potrivirea dintre predispoziții și cerințele mediului, precum și din nivelul de autoreglare dobândit, ceea ce poate transforma aceeași predispoziție într un avantaj sau într o vulnerabilitate.<br/><br/>
+          <strong>Exemplu:</strong> energia ridicată poate susține performanța sportivă, dar poate perturba activitatea de studiu fără strategii de reglare.
+        </span>
+      </span> valoarea temperamentului depinde de potrivirea persoană context.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Descrie modelul temperamental al lui Eysenck",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Modelul temperamental al lui Eysenck</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> Eysenck descrie temperamentul prin trei dimensiuni relativ stabile care se combină într un profil: extraversie introversie, nevrotism stabilitate și psihoticism.<br/><br/>
+          <strong>Formulare academică:</strong> modelul lui Eysenck conceptualizează temperamentul ca structură dimensională cu fundament biologic, în care diferențele interindividuale sunt organizate pe trei axe principale: extraversie introversie, nevrotism stabilitate și psihoticism. Aceste dimensiuni funcționează ca dispoziții relativ stabile care influențează probabilistic reactivitatea, stilul de autoreglare și adaptarea la contexte sociale și stresori.<br/><br/>
+          <strong>Exemplu:</strong> două persoane pot avea aceeași conduită la suprafață, dar profiluri diferite de extraversie și nevrotism, ceea ce schimbă modul în care își mențin comportamentul în situații solicitante.
+        </span>
+      </span> descrie temperamentul prin dimensiuni continue, nu prin etichete absolute.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Dimensiuni temperamentale</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚡<span class='tip'><strong>extraversie/ introversie</strong> <span style='opacity:.9'>(activare și stimulare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> arată câtă stimulare cauți și cât de confortabil te simți în interacțiuni sociale.<br/><br/><strong>Formulare academică:</strong> dimensiunea exprimă diferențe stabile în orientarea către stimulare și sociabilitate, corelate cu variații ale nivelului de activare bazală, având consecințe asupra inițierii interacțiunilor și a preferinței pentru medii mai mult sau mai puțin stimulante.<br/><br/><strong>Exemplu:</strong> persoana cu extraversie ridicată preferă activități de grup și situații dinamice, iar persoana cu introversie ridicată preferă activități solitare și medii predictibile.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🌊<span class='tip'><strong>nevrotism/ stabilitate</strong> <span style='opacity:.9'>(reactivitate emoțională)</span><span class='tooltip-box'><strong>Simplu spus:</strong> arată cât de ușor apar emoții negative și cât de intens reacționezi la stres.<br/><br/><strong>Formulare academică:</strong> dimensiunea reflectă predispoziția către labilitate afectivă și reacții emoționale intense la stresori, cu diferențe interindividuale în pragurile de activare emoțională și în persistența răspunsului afectiv.<br/><br/><strong>Exemplu:</strong> în evaluări, o persoană cu nevrotism ridicat poate resimți anxietate și tensiune accentuate, în timp ce o persoană stabilă emoțional își menține mai ușor calmul.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧷<span class='tip'><strong>psihoticism</strong> <span style='opacity:.9'>(duritate și impulsivitate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> la nivel ridicat poate apărea stil relațional mai dur și control mai slab al impulsurilor.<br/><br/><strong>Formulare academică:</strong> dimensiunea descrie tendințe către duritate relațională, impulsivitate și conformare socială redusă, cu impact asupra comportamentului interpersonal, inclusiv cooperare, toleranță la frustrare și gestionarea conflictului.<br/><br/><strong>Exemplu:</strong> în conflict, o persoană cu psihoticism ridicat poate răspunde abrupt și poate accepta mai greu negocierea, în timp ce una cu nivel scăzut păstrează mai ușor cooperarea.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum se folosește modelul</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧩<span class='tip'><strong>profil dimensional</strong> <span style='opacity:.9'>(combinații între dimensiuni)</span><span class='tooltip-box'><strong>Simplu spus:</strong> nu ești un singur tip, ci o combinație de niveluri pe cele trei axe.<br/><br/><strong>Formulare academică:</strong> interpretarea se realizează prin poziționarea individului pe fiecare dimensiune, profilul rezultat având valoare predictivă probabilistică pentru patternuri de conduită și vulnerabilități contextuale.<br/><br/><strong>Exemplu:</strong> extraversie ridicată și nevrotism ridicat poate însemna sociabilitate mare, dar reactivitate ridicată la respingere sau critică.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🎯<span class='tip'><strong>manifestare contextuală</strong> <span style='opacity:.9'>(probabilistic, nu determinist)</span><span class='tooltip-box'><strong>Simplu spus:</strong> dimensiunile cresc probabilitatea unor reacții, dar regulile, învățarea și autocontrolul pot schimba comportamentul în situații concrete.<br/><br/><strong>Formulare academică:</strong> dimensiunile temperamentale funcționează ca predispoziții care interacționează cu cerințele situației și cu mecanismele de autoreglare, astfel încât conduita rezultată este dependentă de context și de experiență.<br/><br/><strong>Exemplu:</strong> o persoană cu nevrotism ridicat poate performa bine la examen dacă are strategii de reglare și un mediu predictibil.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
         {
-          front: "Menționează nivelurile de analiză ale personalității",
-          back: "• <span class='tip'><strong>nivel genetic</strong> – bază ereditară<span class='tooltip-box'>Explică diferențele individuale pornind de la zestrea ereditară și de la modul diferit de activare și exprimare a genelor. Codul genetic este comun speciei, dar exprimarea lui variază între indivizi.<br><br><strong>Exemplu:</strong> predispoziții diferite pentru reactivitate emoțională sau sensibilitate la stres.</span></span><br>• <span class='tip'><strong>nivel neurofiziologic și biochimic</strong> – funcționare biologică<span class='tooltip-box'>Explică personalitatea prin funcționarea sistemului nervos central, limbic și endocrin, precum și prin rolul neurotransmițătorilor.<br><br><strong>Exemplu:</strong> niveluri diferite de activare corticală sau răspunsuri fiziologice diferite în situații stresante.</span></span><br>• <span class='tip'><strong>nivel evoluționist</strong> – adaptare de specie<span class='tooltip-box'>Explică trăsături comune oamenilor ca rezultat al selecției naturale și al valorii adaptive pentru specie.<br><br><strong>Exemplu:</strong> tendința spre cooperare și altruism ca mecanisme favorabile supraviețuirii grupului.</span></span><br>• <span class='tip'><strong>nivel de trăsătură</strong> – organizare individuală<span class='tooltip-box'>Explică personalitatea ca o rețea organizată de trăsături stabile, cu ponderi diferite, care conferă unicitate și putere predictivă.<br><br><strong>Exemplu:</strong> o trăsătură centrală precum conștiinciozitatea poate influența performanța în contexte variate.</span></span>",
-        },
-        {
-          front:
-            "Menționează tipurile de abordări teoretice ale personalității",
-          back: "• <span class='tip'><strong>abordări psihanalitice și neopsihanalitice</strong> – conflict intrapsihic<span class='tooltip-box'>Explică personalitatea prin conflicte interne dintre pulsiuni, trebuințe și constrângeri sociale, cu accent pe importanța experiențelor timpurii și a dezvoltării stadiale.<br><br><strong>Exemplu:</strong> influența relației cu figurile parentale asupra structurii personalității adulte (Freud, Jung, Adler, Horney, Fromm).</span></span><br>• <span class='tip'><strong>abordări behavioriste și socio-cognitive</strong> – învățare și autoreglare<span class='tooltip-box'>Explică personalitatea prin mecanisme de învățare, întăriri, feedback și autoreglare comportamentală, punând accent pe interacțiunea dintre comportament și mediu.<br><br><strong>Exemplu:</strong> comportamente consolidate prin recompensă sau modelare socială (Skinner, Rotter, Bandura).</span></span><br>• <span class='tip'><strong>abordări umaniste</strong> – auto realizare<span class='tooltip-box'>Pun accent pe autenticitate, experiența subiectivă și tendința naturală a individului spre dezvoltare personală și împlinire.<br><br><strong>Exemplu:</strong> orientarea spre sens, congruență și creștere personală (Rogers, Maslow).</span></span><br>• <span class='tip'><strong>abordări cognitive</strong> – interpretare personală<span class='tooltip-box'>Văd individul ca interpret activ al realității, care construiește sens prin scheme și constructe personale.<br><br><strong>Exemplu:</strong> aceeași situație este interpretată diferit de persoane diferite în funcție de constructele lor cognitive (Kelly).</span></span><br>• <span class='tip'><strong>abordări ale trăsăturilor</strong> – regularități comportamentale<span class='tooltip-box'>Descriu personalitatea prin trăsături relativ stabile, organizate factorial, cu valoare predictivă pentru comportamentele viitoare.<br><br><strong>Exemplu:</strong> consistența comportamentală explicată prin factori de personalitate (Allport, Cattell, Eysenck, Costa și McCrae).</span></span>",
-        },
-        {
-          front: "Menționează rolul și organizarea trăsăturilor la Allport",
-          back: "<span class='tip'><strong>Rolul trăsăturilor</strong> – descriere și predicție comportamentală<span class='tooltip-box'>Trăsăturile permit descrierea regularităților comportamentale și predicția reacțiilor unei persoane în situații diferite.<br><br><strong>Exemplu:</strong> o persoană consecvent responsabilă tinde să respecte sarcinile indiferent de context.</span></span><br><br><span class='tip'><strong>Organizarea trăsăturilor</strong><span class='tooltip-box'>Allport propune o organizare ierarhică a trăsăturilor în funcție de rolul lor în structurarea personalității.</span></span> – ierarhică (<span class='tip'><strong>trăsături cardinale</strong><span class='tooltip-box'>Trăsături dominante, rare, care organizează aproape întreaga personalitate.<br><br><strong>Exemplu:</strong> ambiția extremă care ghidează toate deciziile de viață.</span></span>, <span class='tip'><strong>trăsături principale</strong><span class='tooltip-box'>Trăsături centrale, frecvent observabile, care definesc stilul general al persoanei.<br><br><strong>Exemplu:</strong> sociabilitate, perseverență, responsabilitate.</span></span>, <span class='tip'><strong>trăsături secundare</strong><span class='tooltip-box'>Trăsături contextuale, slab exprimate, activate doar în anumite situații.<br><br><strong>Exemplu:</strong> timiditate manifestată doar în contexte sociale noi.</span></span>)",
-        },
-        {
-          front:
-            "Definește CAPS (cognitive-affect personality system) și contribuția sa (Mischel și Shoda, 1995)",
-          back: "<span class='tip'><strong>CAPS (cognitive-affect personality system)</strong> – personalitatea ca sistem dinamic<span class='tooltip-box'>CAPS explică personalitatea ca un sistem dinamic de procese cognitive și afective care interacționează cu situațiile pentru a produce comportamentul. Spre deosebire de teoriile centrate exclusiv pe trăsături, care presupun că trăsăturile acționează direct asupra comportamentului, CAPS arată că trăsăturile influențează comportamentul prin interpretări, emoții, scopuri și autoreglare activate contextual.<br><br><strong>Exemplu:</strong> aceeași persoană poate reacționa calm sau defensiv la critică, în funcție de modul în care o interpretează și de scopurile active.</span></span><br><br><span class='tip'><strong>Unități CAPS (cognitive-affect personality system)</strong><span class='tooltip-box'>Unități interne care interacționează între ele și cu situațiile, generând tipare stabile, dar dependente de context.</span></span><br>• <span class='tip'><strong>Coduri (encodări)</strong><span class='tooltip-box'>Constructe cognitive despre sine, ceilalți, evenimente și situații, interne sau externe.<br><br><strong>Exemplu:</strong> interpretarea unei observații ca atac personal, versus feedback constructiv.</span></span><br>• <span class='tip'><strong>Așteptări și credințe</strong><span class='tooltip-box'>Credințe despre lume, consecințele comportamentelor și eficacitatea de sine.<br><br><strong>Exemplu:</strong> convingerea că efortul duce la progres susține perseverența după eșec.</span></span><br>• <span class='tip'><strong>Afecte</strong><span class='tooltip-box'>Emoții, sentimente și reacții fiziologice asociate situațiilor.<br><br><strong>Exemplu:</strong> anxietate și tensiune corporală înainte de o evaluare.</span></span><br>• <span class='tip'><strong>Scopuri</strong><span class='tooltip-box'>Obiective și proiecte personale care direcționează comportamentul.<br><br><strong>Exemplu:</strong> dorința de a învăța versus dorința de a evita eșecul.</span></span><br>• <span class='tip'><strong>Sistem de valori</strong><span class='tooltip-box'>Principii și criterii personale care orientează alegerile și prioritățile.<br><br><strong>Exemplu:</strong> alegerea cooperării pentru că relațiile sunt valorizate.</span></span><br>• <span class='tip'><strong>Competențe și abilități de autoreglare</strong><span class='tooltip-box'>Planuri și strategii de control al acțiunii, emoțiilor și atenției.<br><br><strong>Exemplu:</strong> stabilirea pașilor de lucru și amânarea recompensei pentru finalizarea unei sarcini.</span></span>",
-        },
-        {
-          front: "Definește relația dintre ereditate și mediu în personalitate",
-          back: "<span class='tip'><strong>Relația ereditate–mediu</strong> – ereditatea oferă predispoziții, mediul modelează exprimarea lor. Nici ereditatea, nici mediul nu determină singure personalitatea.<span class='tooltip-box'>Personalitatea se dezvoltă prin interacțiunea continuă dintre predispozițiile biologice moștenite și influențele mediului, care pot amplifica, tempera sau redirecționa aceste predispoziții.<br><br><strong>Exemplu:</strong> un copil cu reactivitate emoțională ridicată poate deveni impulsiv sau, într-un mediu structurat, poate învăța autoreglarea.</span></span>",
-        },
-        {
-          front:
-            "Definește temperamentul, baza sa și modul de manifestare și adaptare",
-          back: "Temperamentul reprezintă <span class='tip'><strong>latura reactivă a personalității</strong><span class='tooltip-box'>Temperamentul descrie modul caracteristic în care o persoană reacționează emoțional și energetic, nivelul de activitate, sociabilitatea și capacitatea de autoreglare, fără a include inteligența sau valorile morale.<br><br><strong>Exemplu:</strong> două persoane pot avea aceleași capacități cognitive, dar reacții emoționale diferite.</span></span>, având un <span class='tip'><strong>substrat biologic</strong><span class='tooltip-box'>Baza funcțională a temperamentului este dată de particularități anatomo fiziologice ale sistemului nervos și endocrin, nu de educație sau norme culturale.<br><br><strong>Exemplu:</strong> diferențe individuale în reactivitatea sistemului nervos la stres.</span></span>. <br><br>Temperamentul este <span class='tip'><strong>relativ stabil în timp</strong><span class='tooltip-box'>Temperamentul se menține relativ constant de-a lungul vieții, mai ales când trăsăturile sunt intense, chiar dacă exprimarea comportamentală se poate modifica odată cu vârsta.</span></span>, are o <span class='tip'><strong>ereditate înaltă</strong><span class='tooltip-box'>Temperamentul este considerat înalt eritabil, cu o contribuție genetică semnificativă, mediul influențând în special reglarea și exprimarea predispozițiilor.<br><br><strong>Exemplu:</strong> gemenii pot prezenta reacții emoționale similare chiar în contexte diferite.</span></span> și se manifestă ca <span class='tip'><strong>predispoziții contextuale</strong><span class='tooltip-box'>Temperamentul nu determină comportamente fixe, ci o constelație de predispoziții care se exprimă diferit în funcție de situație.<br><br><strong>Exemplu:</strong> aceeași persoană poate fi energică într-un context familiar și rezervată într-unul nou.</span></span>, fiind <span class='tip'><strong>adaptativ sau dezadaptativ</strong><span class='tooltip-box'>Trăsăturile temperamentale nu sunt bune sau rele în sine, ci devin adaptative sau dezadaptative în funcție de context și de capacitatea de autoreglare.<br><br><strong>Exemplu:</strong> impulsivitatea poate fi utilă în situații de reacție rapidă, dar problematică în contexte ce cer control.</span></span>.",
-        },
-        {
-          front:
-            "Explică temperamentul în copilărie: definiție, stabilitate, tipare și implicații educaționale",
-          back: "Temperamentul în copilărie reprezintă <span class='tip'><strong>latura reactivă timpurie</strong><span class='tooltip-box'>Temperamentul copilului se referă la reactivitatea emoțională, nivelul de activitate, sociabilitate și autoreglare. Nu se confundă cu inteligența sau cu valorile morale.<br><br><strong>Exemplu:</strong> un copil poate fi foarte activ și emoțional intens indiferent de nivelul său cognitiv.</span></span> și are ca o <span class='tip'><strong>caracteristică esențială apariția timpurie și stabilitatea relativă</strong><span class='tooltip-box'>Temperamentul apare încă din perioada de sugar și se menține relativ constant de a lungul dezvoltării, deși modul de exprimare comportamentală se poate modifica odată cu vârsta.<br><br><strong>Exemplu:</strong> un copil inhibat poate deveni mai sociabil, dar rămâne mai rezervat comparativ cu alții.</span></span>.<br><br><span class='tip'><strong>Tipare temperamentale</strong> – Thomas și Chess<span class='tooltip-box'>Thomas și Chess clasifică copiii în trei tipuri temperamentale pe baza regularității, adaptabilității și reactivității emoționale.<br><br><strong>Exemplu:</strong> copil calm adaptabil, copil dificil cu reacții intense, copil lent care se adaptează greu la schimbări.</span></span><br>• <span class='tip'><strong>copii calmi adaptabili</strong><span class='tooltip-box'>Ritmuri regulate, adaptare ușoară, reacții emoționale moderate.<br><br><strong>Exemplu:</strong> acceptă schimbările fără opoziție majoră.</span></span><br>• <span class='tip'><strong>copii dificili</strong><span class='tooltip-box'>Reactivitate emoțională ridicată, adaptare dificilă, ritmuri neregulate.<br><br><strong>Exemplu:</strong> reacții intense la frustrare sau schimbare.</span></span><br>• <span class='tip'><strong>copii lenți, dificil de activat</strong><span class='tooltip-box'>Nivel scăzut de activitate, reacții emoționale slabe, adaptare lentă.<br><br><strong>Exemplu:</strong> evită noutatea și au nevoie de timp pentru acomodare.</span></span><br><br><span class='tip'><strong>Stabilitatea temperamentului</strong> – stabilitate mai mare la extremele temperamentale<span class='tooltip-box'>Cercetările lui Kagan arată că stabilitatea temperamentului este mai mare la extremele temperamentale, în timp ce manifestările moderate pot varia în timp.<br><br><strong>Exemplu:</strong> copiii foarte inhibați sau foarte dezinhibați tind să își păstreze profilul reactiv.</span></span><br><br><span class='tip'><strong>Implicație educațională</strong> – adaptarea cerințelor la predispozițiile temperamentale<span class='tooltip-box'>Comportamentele copilului trebuie înțelese în raport cu predispozițiile temperamentale, iar cerințele educaționale adaptate acestora, nu folosite pentru etichetare sau predicții rigide.<br><br><strong>Exemplu:</strong> aceeași sarcină este formulată diferit pentru copii cu temperamente diferite.</span></span>",
-        },
-        {
-          front:
-            "Explică modelul temperamentului la Eysenck, dimensiuni, baze și temperamentele clasice",
-          back: "<span class='tip'><strong>Relevanță</strong></span> – <span class='tip'><strong>model dimensional cu bază neurofiziologică</strong><span class='tooltip-box'>Modelul lui Eysenck explică temperamentul prin dimensiuni continue fundamentate pe mecanisme neurofiziologice de activare, permițând înțelegerea stabilității și variației temperamentului din adolescență până la vârsta adultă.<br><br><strong>Exemplu:</strong> diferențe stabile în nivelul de activare explică preferința pentru stimulare intensă sau redusă.</span></span> și <span class='tip'><strong>adaptativ contextual</strong><span class='tooltip-box'>Dimensiunile temperamentale (extraversie/introversie, nevrotism/stabilitate emoțională, psihoticism) și temperamentele clasice (sangvinic, coleric, flegmatic, melancolic) nu sunt bune sau rele în sine, ci devin adaptative sau dezadaptative în funcție de context și de capacitatea de autoreglare.<br><br><strong>Exemplu:</strong> extraversia poate fi avantajoasă în contexte sociale, dar dezavantajoasă în situații ce cer inhibiție.</span></span><br><br><span class='tip'><strong>Dimensiuni</strong><span class='tooltip-box'>Eysenck propune trei dimensiuni temperamentale majore: extraversie/introversie, nevrotism/stabilitate emoțională și psihoticism.</span></span><br>• <span class='tip'><strong>Extraversie/introversie</strong> – activare corticală bazală<span class='tooltip-box'>Diferențe în nivelul de activare corticală bazală și în raportarea la stimularea externă. Extraverșii caută stimulare pentru a atinge nivelul optim, introverșii tind să evite suprastimularea.<br><br><strong>Exemplu:</strong> extravertul preferă contexte sociale intense, introvertul preferă activități mai liniștite.</span></span><br>• <span class='tip'><strong>Nevrotism/stabilitate emoțională</strong> – reactivitate limbică<span class='tooltip-box'>Gradul de reactivitate emoțională și activarea sistemului limbic, mai ales în situații stresante. Nevrotismul ridicat presupune emoții intense și instabilitate afectivă.<br><br><strong>Exemplu:</strong> reacții puternice la critică și revenire mai lentă la calm.</span></span><br>• <span class='tip'><strong>Psihoticism</strong> – duritate și empatie scăzută<span class='tooltip-box'>Tendințe spre agresivitate, impulsivitate, egocentrism și empatie redusă. Scorurile scăzute indică cooperare și sensibilitate socială.<br><br><strong>Exemplu:</strong> comportament dur și lipsă de considerare pentru impactul asupra altora.</span></span><br><br><span class='tip'><strong>Temperamente clasice</strong><span class='tooltip-box'>Temperamentele clasice se obțin prin combinarea a două dimensiuni: extraversie/introversie și nevrotism/stabilitate emoțională. Dimensiunea psihoticism nu intră în formarea temperamentelor clasice.</span></span><br>O combinație între Extraversie/introversie - Nevrotism/stabilitate emoțională<br><span class='tip'><span class='tooltip-box'><strong>Exemplu:</strong> sangvinic extraversie plus stabilitate, coleric extraversie plus nevrotism, flegmatic introversie plus stabilitate, melancolic introversie plus nevrotism.</span></span>",
-        },
-        {
-          front:
-            "Explică conceptul de sine: definiție, formare și structura generală",
-          back: "Conceptul de sine reprezintă <span class='tip'><strong>imaginea mentală despre sine</strong><span class='tooltip-box'>Conceptul de sine răspunde la întrebarea „cine sunt eu?” și include percepțiile, credințele și descrierile pe care o persoană le are despre propria identitate, fără a include evaluarea valorii personale.<br><br><strong>Exemplu:</strong> a te percepe ca fiind sociabil, timid sau perseverent.</span></span>, construit pe baza <span class='tip'><strong>conștiinței de sine</strong><span class='tooltip-box'>Conștiința de sine reprezintă recunoașterea propriei identități ca individ distinct și autonom și constituie fundamentul dezvoltării conceptului de sine.<br><br><strong>Exemplu:</strong> copilul se recunoaște în oglindă și folosește pronumele „eu”.</span></span> și a <span class='tip'><strong>interacțiunilor sociale</strong><span class='tooltip-box'>Reacțiile celorlalți, comparațiile sociale și rolurile asumate contribuie la formarea modului în care persoana se percepe pe sine.<br><br><strong>Exemplu:</strong> feedbackul profesorilor și relațiile cu colegii influențează imaginea de sine.</span></span>. <br><br>Conceptul de sine are o <span class='tip'><strong>structură diferențiată</strong><span class='tooltip-box'>Conceptul de sine nu este unitar, ci include mai multe fațete și roluri, care pot varia în funcție de contextul social și relațional.<br><br><strong>Exemplu:</strong> o persoană se poate percepe diferit în mediul școlar și în cel familial.</span></span>, incluzând o <span class='tip'><strong>fațetă publică</strong><span class='tooltip-box'>Fațeta publică este imaginea de sine afișată social și adaptată contextelor.</span></span> și o <span class='tip'><strong>fațetă intimă</strong><span class='tooltip-box'>Fațeta intimă este rezervată sinelui și persoanelor apropiate și poate conține trăiri sau evaluări mai puțin vizibile social.</span></span>.",
-        },
-        {
-          front: "Explică evoluția conceptului de sine la diferite vârste",
-          back: "<span class='tip'><strong>În jur de 1 an și jumătate</strong> – apariția conștiinței de sine<span class='tooltip-box'>Apare recunoașterea propriei identități ca individ distinct, inclusiv recunoașterea propriei imagini și folosirea pronumelui personal „eu”.<br><br><strong>Exemplu:</strong> copilul se recunoaște în oglindă și spune „eu”.</span></span><br><br><span class='tip'><strong>Între 2 ani jumătate și 6 ani</strong> – sine concret și nerealist pozitiv<span class='tooltip-box'>Conceptul de sine este definit prin acțiuni concrete, judecăți simple și preferințe declarate, cu o autoevaluare foarte ridicată și lipsa comparațiilor sociale reale. <br><br><strong>Rolul feedbackului adultului:</strong> influență redusă, deoarece copilul menține o imagine de sine pozitivă chiar și în fața evaluărilor negative.<br><br><strong>Exemplu:</strong> „sunt cel mai bun”, „pot orice”, indiferent de performanță.</span></span><br><br><span class='tip'><strong>Între 7 și 10 ani</strong> – conceptul de sine devine mai realist<span class='tooltip-box'>Conceptul de sine se bazează tot mai mult pe comparații sociale și feedback, devenind mai realist și diferențiat. <br><br><strong>Autoreglare:</strong> apare controlul conștient al comportamentului prin limbaj internalizat, planificare și strategii deliberate, inclusiv capacitatea de a amâna recompensa.<br><br><strong>Exemplu:</strong> copilul se compară cu colegii și își ajustează așteptările față de sine.</span></span><br><br><span class='tip'><strong>După vârsta de 10 ani</strong> – roluri sociale și perspective multiple<span class='tooltip-box'>Conceptul de sine include roluri sociale distincte și criterii autonome de evaluare, precum și capacitatea de a accepta perspective diferite de cea proprie.<br><br><strong>Exemplu:</strong> copilul înțelege că poate fi perceput diferit de profesori și de colegi.</span></span><br><br><span class='tip'><strong>După 14 ani adolescență</strong> – sine multidimensional<span class='tooltip-box'>Conceptul de sine se structurează pe mai multe domenii: competență academică, acceptare socială, conduită, competență sportivă și înfățișare fizică. <br><br><strong>Diferențe de gen:</strong> fetele tind să aibă o stimă de sine mai scăzută în domeniul aspectului fizic și al competențelor atletice, dar mai ridicată în ceea ce privește conduita.<br><br><strong>Exemplu:</strong> adolescentul se evaluează diferit în funcție de domeniul vieții.</span></span>",
-        },
-        {
-          front:
-            "Definește stima de sine: ce este, cum se formează și cum evoluează",
-          back: "Stima de sine reprezintă <span class='tip'><strong>evaluarea afectivă a valorii personale</strong><span class='tooltip-box'>Stima de sine este felul în care o persoană se evaluează pe sine la nivel emoțional, construită pe baza conceptului de sine. Nu este același lucru cu nivelul real al competențelor sau cu descrierea obiectivă a trăsăturilor.<br><br><strong>Exemplu:</strong> doi elevi cu rezultate similare pot avea stime de sine foarte diferite.</span></span>, formată prin <span class='tip'><strong>acceptare socială, comparații și autoevaluări</strong><span class='tooltip-box'>Stima de sine se construiește prin reacțiile celorlalți, comparațiile cu alții și autoevaluările repetate, influențate de feedback și experiențe relaționale, nu doar de succesul școlar.<br><br><strong>Exemplu:</strong> sprijinul colegilor poate susține stima de sine chiar când apar dificultăți academice.</span></span>. <br><br>O stimă de sine înaltă apare când există <span class='tip'><strong>congruență între competența percepută și importanța domeniului</strong><span class='tooltip-box'>Stima de sine nu cere performanță maximă în toate domeniile, ci potrivire între cât de competent te simți și cât contează domeniul pentru tine.<br><br><strong>Exemplu:</strong> un elev poate avea stimă de sine bună dacă se simte competent într-un domeniu pe care îl valorizează.</span></span>, iar în dezvoltare stima de sine este <span class='tip'><strong>mai ridicată în copilăria mică și scade relativ odată cu comparațiile sociale</strong><span class='tooltip-box'>Copilul mic tinde să se supraevalueze, iar odată cu școala și comparațiile sociale, autoevaluarea devine mai realistă și poate apărea o scădere relativă a stimei de sine.<br><br><strong>Exemplu:</strong> școlarul devine mai critic față de sine decât preșcolarul.</span></span>.",
-        },
-        {
-          front:
-            "Explică acceptarea socială raportată la stima de sine: rol în adolescență și categorii de elevi (Woolfolk)",
-          back: "În adolescență, <span class='tip'><strong>acceptarea socială devine un predictor major al stimei de sine</strong><span class='tooltip-box'>Odată cu creșterea importanței grupului de egali, statutul și apartenența influențează stima de sine mai mult decât feedbackul adultului.<br><br><strong>Exemplu:</strong> respingerea de către colegi poate afecta stima de sine chiar la elevi cu rezultate bune.</span></span>, iar elevii pot fi descriși prin <span class='tip'><strong>categorii de acceptare socială</strong><span class='tooltip-box'>Woolfolk descrie categorii frecvente de status social în grup: populari, respinși, neglijați, controversați și medii.</span></span>:<br>• <span class='tip'><strong>elevi populari</strong><span class='tooltip-box'>Sunt acceptați de grup și pot fi prosociali sau uneori dominanți antisociali, dar au vizibilitate socială ridicată.<br><br><strong>Exemplu:</strong> sunt invitați des și influențează activitățile grupului.</span></span><br>• <span class='tip'><strong>elevi respinși</strong><span class='tooltip-box'>Sunt evitați activ de colegi, uneori din cauza agresivității impulsive sau a retragerii accentuate.<br><br><strong>Exemplu:</strong> colegii nu îi aleg în echipe și îi exclud din jocuri.</span></span><br>• <span class='tip'><strong>elevi neglijați</strong><span class='tooltip-box'>Au o rețea socială minimă, sunt rar menționați, dar nu sunt respinși activ.<br><br><strong>Exemplu:</strong> stau singuri, dar nu provoacă antipatie directă.</span></span><br>• <span class='tip'><strong>elevi controversați</strong><span class='tooltip-box'>Sunt simultan apreciați și respinși, având combinații de trăsături valorizate și problematice.<br><br><strong>Exemplu:</strong> pot fi carismatici, dar conflictuali.</span></span><br>• <span class='tip'><strong>elevi medii</strong><span class='tooltip-box'>Sunt adaptați, fără extreme de popularitate sau respingere, cu integrare relativ stabilă în grup.<br><br><strong>Exemplu:</strong> au câțiva prieteni și interacțiuni normale în clasă.</span></span>",
+          front: "Explică conceptul de sine și stima de sine",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Conceptul de sine</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> este imaginea pe care o ai despre cine ești și ce poți.<br/><br/>
+          <strong>Formulare academică:</strong> conceptul de sine reprezintă ansamblul reprezentărilor cognitive despre propriile caracteristici, competențe, roluri și valori, construit prin conștiință de sine, comparații sociale și feedback, devenind treptat mai complex, diferențiat și realist odată cu vârsta.<br/><br/>
+          <strong>Exemplu:</strong> sunt bun la matematică, dar timid în grupuri.
+        </span>
+      </span> organizează auto percepția și direcția comportamentului.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Structură și formare</div>
+
+    ${window.flashPillList([
+      {
+        text: "🪞<span class='tip'><strong>conștiința de sine</strong> <span style='opacity:.9'>(recunoaștere și identitate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> copilul înțelege că este o persoană distinctă.<br/><br/><strong>Formulare academică:</strong> conștiința de sine susține apariția autoreprezentării și delimitarea dintre sine și ceilalți, fiind bază pentru organizarea ulterioară a identității.<br/><br/><strong>Exemplu:</strong> se recunoaște în oglindă.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "👥<span class='tip'><strong>feedback social</strong> <span style='opacity:.9'>(oglindire și comparații)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ne vedem prin reacțiile altora.<br/><br/><strong>Formulare academică:</strong> evaluările și comparațiile sociale furnizează informații despre competență și statut, modelând conținutul conceptului de sine și realismul autoaprecierilor.<br/><br/><strong>Exemplu:</strong> se percepe bun după feedback repetat de la profesori.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Stima de sine</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> este cât de valoros te simți.<br/><br/>
+          <strong>Formulare academică:</strong> stima de sine este componenta evaluativă a conceptului de sine, rezultată din acceptare socială și din congruența dintre competența percepută și importanța domeniilor valorizate, fiind sensibilă la feedback, comparații și roluri sociale.<br/><br/>
+          <strong>Exemplu:</strong> dacă performanța academică este importantă și se percepe competent, stima de sine crește.
+        </span>
+      </span> exprimă evaluarea globală a propriei valori.
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Explică rolul feedbackului, a laudei și strategiile educaționale pentru încrederea în sine",
-          back: "Feedbackul are rol de <span class='tip'><strong>reglare a stimei de sine</strong><span class='tooltip-box'>Feedbackul susține formarea și reglarea stimei de sine prin informații despre competență, progres și pași de îmbunătățire. Nu fixează rigid valoarea personală și nu determină inteligența.<br><br><strong>Exemplu:</strong> elevul își ajustează percepția despre sine pe baza progresului observat, nu doar a rezultatului final.</span></span>, fiind cel mai eficient când este <span class='tip'><strong>centrat pe proces</strong><span class='tooltip-box'>Feedbackul centrat pe proces pune accent pe strategie, efort și pașii concreți care pot fi îmbunătățiți, susținând perseverența și motivația.<br><br><strong>Exemplu:</strong> „Ai încercat mai multe variante și ai corectat greșelile pe parcurs.”</span></span>. <br><br>Lauda are un <span class='tip'><strong>efect condiționat de formulare</strong><span class='tooltip-box'>Lauda poate sprijini sau fragiliza stima de sine în funcție de conținut: lauda globală, centrată pe persoană, poate duce la dependență de validare și evitare a eșecului, iar lauda specifică, centrată pe proces, susține dezvoltarea.<br><br><strong>Exemplu:</strong> „Ai perseverat și ai ales o strategie eficientă” versus „Ești foarte inteligent.”</span></span>, iar formularea optimă pune accent pe <span class='tip'><strong>strategie și efort</strong><span class='tooltip-box'>Formulările orientate spre strategie, efort și perseverență susțin cel mai bine încrederea în sine și autoreglarea.<br><br><strong>Exemplu:</strong> „Ai ales o strategie bună și ai continuat chiar când a fost dificil.”</span></span>. <br><br>Profesorul poate construi un <span class='tip'><strong>climat educațional de sprijin</strong><span class='tooltip-box'>Strategii eficiente: oportunitatea de a alege, activități cu reușită și complexitate graduală, monitorizarea progresului, obiective realiste și individualizate, toleranță față de greșeli cu corectare, promovarea punctelor de vedere diferite. Compararea publică este contraindicată.<br><br><strong>Exemplu:</strong> sarcini diferențiate și feedback individualizat pe pași de îmbunătățire.</span></span> și poate gestiona eșecul prin <span class='tip'><strong>reîncadrare și normalizare</strong><span class='tooltip-box'>Sprijinul în eșec se face prin reîncadrare cognitivă, exemple relevante și normalizarea dificultăților, nu prin sancționare sau ignorare.<br><br><strong>Exemplu:</strong> „E normal să fie greu la început, hai să vedem ce pas putem schimba.”</span></span>.",
+            "Descrie rolul și tipurile de feedback în formarea și reglarea stimei de sine",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Feedbackul</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> modul în care primești feedback îți schimbă încrederea și perseverența.<br/><br/>
+          <strong>Formulare academică:</strong> feedbackul funcționează ca mecanism de reglare a învățării și a imaginii de sine, influențând atribuirea cauzelor succesului și eșecului, persistența în sarcină și nivelul stimei de sine, în funcție de specificitate, focalizare și valoarea socială a mesajului.<br/><br/>
+          <strong>Exemplu:</strong> feedbackul pe strategie sprijină îmbunătățirea și reduce anxietatea față de evaluare.
+        </span>
+      </span> poate stabiliza motivația sau poate fragiliza stima de sine, în funcție de cum este formulat.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Tipuri de feedback relevante</div>
+
+    ${window.flashPillList([
+      {
+        text: "🛠️<span class='tip'><strong>feedback centrat pe proces</strong> <span style='opacity:.9'>(strategie și efort)</span><span class='tooltip-box'><strong>Simplu spus:</strong> îi arată ce a făcut bine și ce poate ajusta.<br/><br/><strong>Formulare academică:</strong> feedbackul informativ, focalizat pe strategie, pași și efort, susține autoreglarea și învățarea, consolidând o evaluare de sine ancorată în control și progres.<br/><br/><strong>Exemplu:</strong> ai ales o strategie eficientă, data viitoare verifică și pasul de calcul.</span></span>",
+        key: "teal",
+      },
+      {
+        text: "🏷️<span class='tip'><strong>feedback centrat pe persoană</strong> <span style='opacity:.9'>(etichete globale)</span><span class='tooltip-box'><strong>Simplu spus:</strong> pare plăcut, dar poate rigidiza imaginea de sine.<br/><br/><strong>Formulare academică:</strong> lauda globală sau etichetarea persoanei poate crește vulnerabilitatea la eșec, prin asocierea valorii personale cu performanța punctuală și prin evitarea sarcinilor dificile.<br/><br/><strong>Exemplu:</strong> ești genial poate conduce la frică de greșeală.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Strategii de sprijin</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>autonomie</strong> <span style='opacity:.9'>(alegeri și responsabilizare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> elevul simte că are control și sens.<br/><br/><strong>Formulare academică:</strong> oferirea de alegeri și responsabilități crește auto eficacitatea și stabilizează stima de sine prin experiențe de control personal.<br/><br/><strong>Exemplu:</strong> alege ordinea în care rezolvă subiectele.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📈<span class='tip'><strong>complexitate graduală</strong> <span style='opacity:.9'>(progres realist)</span><span class='tooltip-box'><strong>Simplu spus:</strong> sarcinile cresc treptat ca dificultate.<br/><br/><strong>Formulare academică:</strong> secvențierea progresivă a sarcinilor susține percepția competenței și reduce eșecul repetat, protejând stima de sine.<br/><br/><strong>Exemplu:</strong> de la exerciții ghidate la probleme independente.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "📊<span class='tip'><strong>monitorizare a progresului</strong> <span style='opacity:.9'>(accent pe îmbunătățire)</span><span class='tooltip-box'><strong>Simplu spus:</strong> vede clar că avansează.<br/><br/><strong>Formulare academică:</strong> evidențierea progresului orientează evaluarea de sine către criterii de dezvoltare, nu către comparații rigide, susținând perseverența.<br/><br/><strong>Exemplu:</strong> compară rezultatul actual cu cel anterior.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -6406,35 +7268,377 @@ window.PHED_FLASHCARDS = {
       title: "U6 Flashcards",
       cards: [
         {
-          front: "Explică condiționarea operantă la B. F. Skinner",
-          back: "În <span class='tip'><strong>condiționarea operantă</strong><span class='tooltip-box'>La B. F. Skinner, condiționarea operantă este un cadru experimental care studiază comportamentul în funcție de efectele sale. Întrebarea centrală este: „Ce se întâmplă după comportament?”</span></span>, comportamentul este analizat ca <strong>acțiune activă</strong> a organismului asupra mediului. Această acțiune se numește <span class='tip'><strong>operant</strong><span class='tooltip-box'><strong>Operant</strong> înseamnă comportament emis voluntar, nu reflex. De exemplu: rezolvi o sarcină, apeși un buton, ridici mâna.</span></span> și este urmată de <span class='tip'><strong>o consecință</strong><span class='tooltip-box'><strong>Consecința</strong> este orice apare după comportament: feedback, punctaj, recompensă, sancțiune, dispariția unei sarcini neplăcute sau lipsa reacției.</span></span>.<br><br><span class='tip'><strong>Consecințele</strong><span class='tooltip-box'>În condiționarea operantă, comportamentul nu este explicat prin intenții sau motivații interne, ci prin efectele observabile ale consecințelor.</span></span> modifică probabilitatea apariției viitoare a comportamentului. <span class='tip'><strong>Întărirea</strong><span class='tooltip-box'><strong>Întărirea</strong> este o consecință care face comportamentul mai probabil în viitor. Nu contează ce intenție are adultul, ci ce se întâmplă efectiv cu comportamentul.</span></span> este <strong>tipul de consecință</strong> care <span class='tip'><strong>crește</strong><span class='tooltip-box'>Criteriul este frecvența: dacă după consecință comportamentul apare mai des, consecința a funcționat ca întărire.</span></span> frecvența comportamentului. Dacă o consecință <strong>nu</strong> crește comportamentul, atunci <strong>nu</strong> este întărire, chiar dacă este percepută ca „recompensă”.<span class='tip'><strong> Pe scurt</strong><span class='tooltip-box'>Consecință = ce urmează după comportament.<br>Întărire = consecință care crește comportamentul.<br>Pedeapsă = consecință care scade comportamentul.<br>Stingere = comportamentul scade deoarece nu mai este urmat de consecințe relevante.</span></span><br><br><span class='tip'><strong>Programele de întărire</strong><span class='tooltip-box'><strong>Program de întărire</strong> înseamnă regula după care apar consecințele: la fiecare răspuns, după un anumit număr de răspunsuri sau după un interval de timp. <br><br><strong>Exemplu:</strong> la început, feedback după fiecare temă rezolvată. Ulterior, feedback mai rar, dar suficient pentru a menține comportamentul.</span></span> descriu modul în care consecințele sunt organizate pentru a forma și menține comportamentele.",
-        },
-        {
           front:
-            "Compară constructivismul cognitiv la Jean Piaget cu constructivismul social la Lev Vîgotski",
-          back: "<span class='tip'><strong>Jean Piaget</strong><span class='tooltip-box'>În constructivismul cognitiv, dezvoltarea cognitivă precede învățarea: copilul poate învăța eficient doar ceea ce este compatibil cu nivelul său actual de dezvoltare intelectuală.</span></span> vede învățarea ca <span class='tip'><strong>descoperire și reconstrucție internă</strong><span class='tooltip-box'>Cunoașterea se construiește prin dezechilibru și echilibrare: când realitatea nu mai poate fi explicată cu schemele existente, acestea sunt reorganizate.</span></span>, iar profesorul este mai ales <span class='tip'><strong>creator de contexte de explorare</strong><span class='tooltip-box'>Profesorul propune situații problematice adecvate nivelului de dezvoltare, fără a accelera artificial procesele cognitive.</span></span>.<br><br><span class='tip'><strong>Lev Vîgotski</strong><span class='tooltip-box'>În constructivismul social, învățarea poate preceda și stimula dezvoltarea cognitivă atunci când este sprijinită social.</span></span> pune accent pe <span class='tip'><strong>mediere socială</strong><span class='tooltip-box'>Învățarea are loc prin limbaj, cooperare și ghidaj, fiind internalizată treptat de elev.</span></span>, iar profesorul este <span class='tip'><strong>mediator și ghid</strong><span class='tooltip-box'>Profesorul intervine în <strong>zona proximei dezvoltări</strong>: spațiul dintre ceea ce elevul poate face singur și ceea ce poate face cu ajutor, retrăgând sprijinul progresiv.</span></span>.<br><br><span class='tip'><strong>Diferența cheie</strong><span class='tooltip-box'>La Piaget, dezvoltarea stabilește limitele învățării. La Vîgotski, învățarea ghidată poate antrena și accelera dezvoltarea cognitivă.</span></span> este relația dintre dezvoltare și învățare.",
+            "Clasifică teoriile învățării după mecanismul explicativ dominant",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Clasificarea teoriilor învățării</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> recunoști o teorie după răspunsul ei la întrebarea: ce produce învățarea în mod principal.<br/><br/>
+          <strong>Formulare academică:</strong> teoriile învățării se grupează în familii teoretice în funcție de mecanismul explicativ dominant al schimbării: consecințe asupra comportamentului, construcție activă a sensului, procese cognitive, motivație și nevoi, respectiv transformarea cadrului de referință.<br/><br/>
+          <strong>Exemplu:</strong> dacă mecanismul central este întărirea, clasificarea este behavioristă; dacă este construirea sensului prin scheme sau mediere socială, clasificarea este constructivistă.
+        </span>
+      </span> oferă o hartă rapidă: ce pune teoria în centru.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Familii teoretice după mecanism</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯<span class='tip'><strong>behavioriste</strong> <span style='opacity:.9'>(consecințe)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți când consecințele cresc sau scad probabilitatea unui comportament.<br/><br/><strong>Formulare academică:</strong> învățarea constă în modificarea probabilității răspunsului observabil prin controlul consecințelor, în special prin întărire, pedeapsă și extincție, care selectează și mențin conduitele în timp.<br/><br/><strong>Exemple:</strong><br/>&nbsp;&nbsp;• <strong>Condiționarea operantă (B. F. Skinner)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– comportamentul de a lucra la sarcină crește când este urmat de întărire (laudă, puncte)<br/>&nbsp;&nbsp;&nbsp;&nbsp;– scade când întărirea este retrasă (extincție)</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧩<span class='tip'><strong>constructiviste</strong> <span style='opacity:.9'>(construirea sensului)</span><span class='tooltip-box'><strong>Simplu spus:</strong> elevul construiește cunoașterea activ, prin experiență și interacțiune, nu o preia mecanic.<br/><br/><strong>Formulare academică:</strong> învățarea este un proces constructiv de elaborare a sensului, realizat prin reorganizarea schemelor cognitive și prin mediere socioculturală, în care cunoașterea se formează prin activitate, reflecție și dialog.<br/><br/><strong>Exemple:</strong><br/>&nbsp;&nbsp;• <strong>Constructivism cognitiv (Jean Piaget)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– elevul își ajustează schemele prin asimilare și acomodare<br/><br/>&nbsp;&nbsp;• <strong>Constructivism social (Lev Vîgotski)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– elevul progresează prin sprijin ghidat și limbaj în zona proximei dezvoltări</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧭<span class='tip'><strong>cognitive</strong> <span style='opacity:.9'>(procese mentale)</span><span class='tooltip-box'><strong>Simplu spus:</strong> învățarea depinde de cum percepi, organizezi și înțelegi informația, nu doar de recompense.<br/><br/><strong>Formulare academică:</strong> învățarea este explicată prin procese interne de organizare a informației și restructurare a câmpului perceptiv, cu accent pe înțelegere, formarea de relații de sens și rezolvarea de probleme.<br/><br/><strong>Exemple:</strong><br/>&nbsp;&nbsp;• <strong>Teoriile gestaltiste</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– apare insightul când elevul reorganizează mental situația și identifică relația esențială</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🌱<span class='tip'><strong>umaniste</strong> <span style='opacity:.9'>(nevoi și sens personal)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți mai bine când te simți acceptat, ai autonomie și vezi un sens personal în ce faci.<br/><br/><strong>Formulare academică:</strong> învățarea este facilitată de satisfacerea nevoilor psihologice și de un climat relațional suportiv, care susține autonomia, implicarea și orientarea spre dezvoltare personală și autorealizare.<br/><br/><strong>Exemple:</strong><br/>&nbsp;&nbsp;• <strong>Învățare centrată pe persoană (Carl Rogers)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– climat de acceptare și relație facilitativă, care susține implicarea autentică<br/><br/>&nbsp;&nbsp;• <strong>Ierarhia nevoilor (Abraham Maslow)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– progresul devine probabil când nevoile de bază sunt suficient de satisfăcute pentru a susține motivația de creștere</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🔄<span class='tip'><strong>contemporane</strong> <span style='opacity:.9'>(transformare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți profund când îți schimbi felul în care interpretezi experiențele și îți actualizezi convingerile.<br/><br/><strong>Formulare academică:</strong> învățarea este conceptualizată ca transformare a cadrului de referință prin reflecție critică asupra presupozițiilor și prin dialog, rezultând perspective mai incluzive, mai diferențiate și mai adaptabile care reorganizează sensul și orientarea acțiunii.<br/><br/><strong>Exemple:</strong><br/>&nbsp;&nbsp;• <strong>Învățarea transformatoare (Jack Mezirow)</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;– după reflecție critică și discuție argumentată, cursantul își reformulează o convingere rigidă și adoptă o perspectivă mai flexibilă</span></span>",
+        key: "pink",
+      },
+    ])}
+
+  </div>
+
+</div>`,
         },
+
         {
-          front:
-            "Explică învățarea transformatoare la Jack Mezirow, ce se transformă și de ce contează discursul ideal la habermas",
-          back: "<span class='tip'><strong>Învățarea transformatoare</strong><span class='tooltip-box'>La Jack Mezirow, învățarea profundă nu înseamnă doar informație nouă, ci schimbarea felului în care interpretăm lumea și pe noi înșine.</span></span> apare când se schimbă <span class='tip'><strong>cadrele de referință</strong><span class='tooltip-box'><strong>Cadre de referință</strong> înseamnă lentilele culturale și de limbaj prin care dăm sens lucrurilor. Ele filtrează ce observăm, cum gândim și cum simțim și preformează intenții, credințe și așteptări.</span></span>, mai ales cele problematice, rigide sau prea înguste. Scopul este ca aceste cadre să devină <span class='tip'><strong>mai cuprinzătoare, mai deschise și mai reflexive</strong><span class='tooltip-box'>Rezultatul dorit este o perspectivă mai flexibilă și mai realistă, capabilă să se ajusteze când apar dovezi noi sau situații noi.</span></span>.<br><br>Legătura cu <span class='tip'><strong>Habermas</strong><span class='tooltip-box'>Mezirow susține că transformarea are nevoie de discuție rațională și reflecție critică. Ideea de discurs ideal la Habermas explică ce condiții trebuie să existe ca oamenii să poată verifica argumente fără frică și fără presiune, altfel nu își pot pune la îndoială presupunerile în mod real.</span></span> este că transformarea se sprijină pe <span class='tip'><strong>discurs informat</strong><span class='tooltip-box'>Un discurs bun înseamnă informații corecte, libertate de exprimare, șanse egale de participare și evaluarea critică a argumentelor. Fără asta, oamenii rămân blocați în poziții apărate emoțional sau impuse social.</span></span>.<br><br><span class='tip'><strong>Rolul profesorului</strong><span class='tooltip-box'>Profesorul oferă sprijin pentru reflecție și dialog, pune întrebări care scot la suprafață presupuneri și antrenează abilități de argumentare și evaluare critică.</span></span> este să ajute elevul să poată intra în acest tip de reflecție și discuție.",
+          front: "Descrie condiționarea operantă (B. F. Skinner)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Condiționarea operantă</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> un comportament apare mai des dacă este urmat de o consecință favorabilă și apare mai rar dacă este urmat de o consecință nefavorabilă sau dacă nu mai este întărit.<br/><br/>
+          <strong>Formulare academică:</strong> condiționarea operantă explică învățarea ca selecție a comportamentelor emise activ, prin consecințele lor, în care întărirea crește probabilitatea răspunsului, pedeapsa o reduce, iar extincția produce diminuarea răspunsului când întărirea este retrasă, efectele fiind modulate de programele de întărire.<br/><br/>
+          <strong>Exemplu:</strong> răspunsul la ore crește când este urmat consecvent de feedback pozitiv și scade când nu mai este urmat de consecințe.
+        </span>
+      </span> explică învățarea prin rolul consecințelor asupra comportamentului.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Concepte operative</div>
+
+    ${window.flashPillList([
+      {
+        text: "➕<span class='tip'><strong>întărire</strong> <span style='opacity:.9'>(crește comportamentul)</span><span class='tooltip-box'><strong>Simplu spus:</strong> după consecința favorabilă, comportamentul se repetă mai des.<br/><br/><strong>Formulare academică:</strong> întărirea este consecința care crește probabilitatea răspunsului operant, prin consolidarea legăturii dintre răspuns și efectele sale.<br/><br/><strong>Exemplu:</strong> laudă, puncte, timp pentru o activitate preferată.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "➖<span class='tip'><strong>pedeapsă</strong> <span style='opacity:.9'>(scade comportamentul)</span><span class='tooltip-box'><strong>Simplu spus:</strong> după consecința nefavorabilă, comportamentul apare mai rar.<br/><br/><strong>Formulare academică:</strong> pedeapsa reduce probabilitatea răspunsului prin asocierea acestuia cu consecințe aversive sau cu pierderea unei consecințe favorabile.<br/><br/><strong>Exemplu:</strong> pierderea unui privilegiu după încălcarea regulii.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "⏸️<span class='tip'><strong>extincție</strong> <span style='opacity:.9'>(retragerea întăririi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> dacă nu mai întărești, comportamentul slăbește în timp.<br/><br/><strong>Formulare academică:</strong> extincția este diminuarea progresivă a răspunsului când consecința întăritoare nu mai urmează comportamentul, până la stingerea lui.<br/><br/><strong>Exemplu:</strong> întrerupi atenția oferită unei întreruperi și ea apare mai rar.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧾<span class='tip'><strong>programe de întărire</strong> <span style='opacity:.9'>(când întărești)</span><span class='tooltip-box'><strong>Simplu spus:</strong> regula frecvenței schimbă viteza și rezistența învățării.<br/><br/><strong>Formulare academică:</strong> programele de întărire determină rata achiziției și persistența răspunsului, întărirea variabilă crescând rezistența la extincție.<br/><br/><strong>Exemplu:</strong> întărirea variabilă menține comportamentul mai durabil decât întărirea continuă.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Definește învățarea integrată, ce dimensiuni combină și de ce e considerată premisă pentru competențe",
-          back: "<span class='tip'><strong>Învățarea integrată</strong><span class='tooltip-box'>Învățarea integrată descrie învățarea ca proces complex, legat de experiență și de implicarea reală a persoanei într-un mediu social, nu doar ca acumulare de informație.</span></span> este o premisă pentru competențe deoarece îmbină simultan <span class='tip'><strong>dimensiunea cognitivă</strong><span class='tooltip-box'>Ce înțeleg și cum organizez ideile.</span></span>, <span class='tip'><strong>dimensiunea emoțională</strong><span class='tooltip-box'>Ce simt și cum influențează asta atenția, motivația și perseverența.</span></span>, <span class='tip'><strong>dimensiunea socială</strong><span class='tooltip-box'>Cum învăț în interacțiune cu alții, prin colaborare, feedback și norme de grup.</span></span> și <span class='tip'><strong>dimensiunea acțională</strong><span class='tooltip-box'>Ce fac efectiv, aplicare, practică, comportamente observabile.</span></span>.<br><br>Acționează atât la nivelul <span class='tip'><strong>solicitărilor</strong><span class='tooltip-box'>Adică felul în care sunt construite sarcinile, ce cer ele simultan, gândire, emoție, cooperare, acțiune.</span></span>, cât și la nivelul <span class='tip'><strong>rezultatelor așteptate</strong><span class='tooltip-box'>Rezultatele nu sunt doar cunoștințe, ci și valori, atitudini, competențe și comportamente.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un proiect de echipă cere înțelegerea ideilor, gestionarea emoțiilor, cooperare și livrarea unui produs concret, iar rezultatul se vede în competențe, nu doar în răspunsuri la test.</span></span>",
+            "Fă o paralelă între constructivismul cognitiv (Piaget) și constructivismul social (Vîgotski)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Paralelă Piaget și Vîgotski</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> ambii văd elevul ca activ, dar Piaget explică învățarea prin restructurări cognitive interne, iar Vîgotski prin mediere socială și limbaj.<br/><br/>
+          <strong>Formulare academică:</strong> constructivismul cognitiv explică învățarea prin reorganizarea schemelor prin asimilare și acomodare în raport cu nivelul de dezvoltare, în timp ce constructivismul social explică învățarea prin interacțiune socioculturală, mediere prin limbaj și sprijin calibrat în zona proximei dezvoltări, în care învățarea ghidată poate preceda dezvoltarea.<br/><br/>
+          <strong>Exemplu:</strong> aceeași sarcină poate fi abordată prin descoperire autonomă la nivelul stadiului atins versus prin sprijin verbal gradat care este retras treptat.
+        </span>
+      </span> - diferența centrală este motorul schimbării: structură internă versus mediere socială.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Criterii de comparație</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧱<span class='tip'><strong>mecanism</strong> <span style='opacity:.9'>(scheme versus mediere)</span><span class='tooltip-box'><strong>Simplu spus:</strong> Piaget: scheme care se schimbă; Vîgotski: dialog și instrumente culturale.<br/><br/><strong>Formulare academică:</strong> la Piaget predomină asimilarea și acomodarea; la Vîgotski predomină internalizarea prin limbaj și instrumente simbolice.<br/><br/><strong>Exemplu:</strong> copilul își ajustează regula după eroare versus își ghidează pașii prin îndrumare verbală.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "📈<span class='tip'><strong>dezvoltare și învățare</strong> <span style='opacity:.9'>(condiționează versus conduce)</span><span class='tooltip-box'><strong>Simplu spus:</strong> Piaget: trebuie structuri deja formate; Vîgotski: sprijinul poate trage înainte.<br/><br/><strong>Formulare academică:</strong> la Piaget dezvoltarea cognitivă este premisă a achizițiilor; la Vîgotski învățarea ghidată activează potențialul de dezvoltare în zona proximei dezvoltări.<br/><br/><strong>Exemplu:</strong> aceeași problemă devine rezolvabilă mai devreme prin sprijin adecvat.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🎯<span class='tip'><strong>implicație didactică</strong> <span style='opacity:.9'>(calibrare versus eșafodaj)</span><span class='tooltip-box'><strong>Simplu spus:</strong> Piaget: alegi sarcini potrivite nivelului; Vîgotski: proiectezi sprijin și îl retragi treptat.<br/><br/><strong>Formulare academică:</strong> perspectiva piagetiană optimizează potrivirea dintre cerință și structurile cognitive actuale, iar perspectiva vîgotskiană optimizează progresul prin eșafodaj și mediere în zona proximei dezvoltări.<br/><br/><strong>Exemplu:</strong> descoperire autonomă versus ghidaj prin întrebări și indicii retrase gradual.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Explică teoria învățării prin experiență la David Kolb și stilurile de învățare",
-          back: "<span class='tip'><strong>Învățarea prin experiență</strong><span class='tooltip-box'>Kolb definește învățarea ca proces în care cunoștințele sunt create prin transformarea experienței. Practic, trăiești ceva, te gândești la ce s-a întâmplat, scoți idei mai generale, apoi testezi ideile înapoi în realitate.</span></span> este organizată pe <span class='tip'><strong>două axe fundamentale</strong><span class='tooltip-box'>Kolb descrie învățarea ca rezultatul intersectării dintre modul în care este trăită experiența și modul în care este prelucrată.</span></span>:<br><span class='tip'>Experiență concretă<span class='tooltip-box'>Trăiesc efectiv situația, fac, particip, simt contextul.</span></span> ↔ <span class='tip'>conceptualizare abstractă<span class='tooltip-box'>Formez idei, reguli, explicații, generalizez ca să pot aplica și în alte situații.</span></span><br><span class='tip'>Reflecție<span class='tooltip-box'>Mă uit înapoi, observ consecințe, îmi dau seama ce a mers și ce nu.</span></span> ↔ <span class='tip'>experimentare activă<span class='tooltip-box'>Testez ideile prin acțiune, aplic, verific dacă funcționează.</span></span>.<br><br>Din combinarea acestor axe rezultă <span class='tip'><strong>stiluri de învățare</strong><span class='tooltip-box'>Inițial, Kolb a presupus că fiecare persoană este caracterizată predominant de un singur stil de învățare.</span></span>.<br>Ulterior, Kolb a susținut că <span class='tip'><strong>învățarea este integrată</strong><span class='tooltip-box'>Oamenii pot activa toate stilurile, în funcție de context, sarcină și experiență. Dezvoltarea optimă presupune utilizarea flexibilă a tuturor modurilor de învățare.</span></span> și poate antrena toate stilurile:<br><span class='tip'><strong> divergent</strong><span class='tooltip-box'>Experiență concretă plus reflecție. Bun la brainstorming și la văzut perspective multiple. Exemplu, adună idei dintr o discuție de grup și le leagă creativ.</span></span>, <span class='tip'><strong> asimilator</strong><span class='tooltip-box'>Conceptualizare abstractă plus reflecție. Preferă teorii coerente și modele logice. Exemplu, organizează informația într-o schemă și caută consistență.</span></span>, <span class='tip'><strong> convergent</strong><span class='tooltip-box'>Conceptualizare abstractă plus experimentare activă. Caută soluția practică și testarea ei. Exemplu, folosește o regulă ca să rezolve rapid o problemă.</span></span>, <span class='tip'><strong> acomodator</strong><span class='tooltip-box'>Experiență concretă plus experimentare activă. Învață făcând și ajustând pe parcurs. Exemplu, încearcă direct mai multe variante până găsește ce funcționează.</span></span>",
+            "Explică teoria contemporană Învățarea transformatoare (Jack Mezirow)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Învățarea transformatoare</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> învățarea importantă nu înseamnă doar să adaugi informații, ci să îți schimbi felul în care interpretezi experiența.<br/><br/>
+          <strong>Formulare academică:</strong> teoria lui Mezirow definește învățarea ca transformare a cadrului de referință prin reflecție critică asupra presupozițiilor și prin dialog, rezultând perspective mai incluzive, mai diferențiate, mai reflexive și mai adaptabile, care reorganizează modul de atribuire a sensului.<br/><br/>
+          <strong>Exemplu:</strong> după o analiză critică și o discuție argumentată, îți schimbi convingerea rigidă despre ce înseamnă succesul și îți reorganizezi deciziile.
+        </span>
+      </span> descrie schimbarea de perspectivă ca rezultat al reflecției critice.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componente ale transformării</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>cadru de referință</strong> <span style='opacity:.9'>(lentile de interpretare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> regulile interne după care interpretezi lumea.<br/><br/><strong>Formulare academică:</strong> structuri de sens relativ stabile care organizează percepția, evaluarea și acțiunea, dar pot deveni rigide.<br/><br/><strong>Exemplu:</strong> credința că greșeala este dovada lipsei de valoare.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🔍<span class='tip'><strong>reflecție critică</strong> <span style='opacity:.9'>(testarea presupozițiilor)</span><span class='tooltip-box'><strong>Simplu spus:</strong> te întrebi de ce crezi ce crezi.<br/><br/><strong>Formulare academică:</strong> examinarea critică a presupozițiilor, a validității și a consecințelor interpretărilor personale.<br/><br/><strong>Exemplu:</strong> identifici o regulă moștenită care nu mai funcționează în prezent.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "💬<span class='tip'><strong>dialog</strong> <span style='opacity:.9'>(argumentare și sprijin)</span><span class='tooltip-box'><strong>Simplu spus:</strong> discuția autentică te ajută să vezi alternative.<br/><br/><strong>Formulare academică:</strong> discursul rațional susține validarea și reformularea sensului prin argumentare și schimb de perspective.<br/><br/><strong>Exemplu:</strong> o conversație ghidată îți schimbă interpretarea unei dileme.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧩<span class='tip'><strong>schimbare de perspectivă</strong> <span style='opacity:.9'>(reorganizare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajungi la o vedere mai flexibilă și mai realistă.<br/><br/><strong>Formulare academică:</strong> rezultatul este un cadru de referință mai incluziv și mai adaptabil, care reorientează deciziile și conduita.<br/><br/><strong>Exemplu:</strong> îți redefinești criteriile de succes și îți ajustezi planul de acțiune.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
+
+        {
+          front: "Definește conceptul de învățare integrată",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Învățarea integrată</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> învățarea bună leagă gândirea, emoțiile, relațiile și acțiunea într un tot coerent, ancorat în context real.<br/><br/>
+          <strong>Formulare academică:</strong> învățarea integrată desemnează un proces multidimensional în care dimensiunile cognitivă, emoțională, socială și acțională funcționează interdependent în raport cu mediul, generând rezultate educaționale integrate în cunoștințe, competențe, atitudini, valori și conduite.<br/><br/>
+          <strong>Exemplu:</strong> un proiect autentic solicită înțelegere conceptuală, cooperare, implicare afectivă și aplicare practică, producând schimbări observabile.
+        </span>
+      </span> descrie învățarea ca integrare a mai multor dimensiuni într un context.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Dimensiuni ale integrării</div>
+
+    ${window.flashPillList([
+      {
+        text: "🤲<span class='tip'><strong>cognitiv</strong> <span style='opacity:.9'>(înțelegere)</span><span class='tooltip-box'><strong>Simplu spus:</strong> construiești sens și organizezi idei.<br/><br/><strong>Formulare academică:</strong> dimensiunea cognitivă susține conceptualizarea și structurarea cunoașterii.<br/><br/><strong>Exemplu:</strong> formulezi o regulă după analiză.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "💛<span class='tip'><strong>emoțional</strong> <span style='opacity:.9'>(implicare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> interesul și trăirile susțin atenția și perseverența.<br/><br/><strong>Formulare academică:</strong> emoțiile modulează motivația, atenția și persistența în sarcină.<br/><br/><strong>Exemplu:</strong> curiozitatea crește efortul.</span></span>",
+        key: "coral",
+      },
+      {
+        text: "👥<span class='tip'><strong>social</strong> <span style='opacity:.9'>(colaborare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți prin discuție și coordonare cu alții.<br/><br/><strong>Formulare academică:</strong> interacțiunea socială mediază construirea sensului și consolidarea competențelor.<br/><br/><strong>Exemplu:</strong> negocierea rolurilor într o echipă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🛠️<span class='tip'><strong>acțional</strong> <span style='opacity:.9'>(aplicare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> testezi și ajustezi prin practică.<br/><br/><strong>Formulare academică:</strong> dimensiunea acțională ancorează învățarea în performanțe și conduite observabile, prin aplicare și reglaj.<br/><br/><strong>Exemplu:</strong> exersezi și corectezi după feedback.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
         {
           front:
-            "Definește învățarea personalizată, ce se adaptează, ce pași are și de ce ajută autoreglarea și potențialul elevului",
-          back: "<span class='tip'><strong>Învățarea personalizată</strong><span class='tooltip-box'>Învățarea personalizată înseamnă că demersul educațional este adaptat fiecărui elev, iar obiectivele, metodele și conținutul variază în funcție de ritm, nevoi și interese.</span></span> pune elevul în centru, cu ritmul lui, interesele lui și strategiile lui de gestionare a învățării.<br><br>Ideea cheie este plasarea potențialului în <span class='tip'><strong>zona proximei dezvoltări</strong><span class='tooltip-box'>Adică acel nivel la care elevul poate reuși cu sprijin potrivit, iar apoi devine autonom. Nu e prea ușor, nu e imposibil.</span></span>.<br><br><span class='tip'><strong>Pași tipici</strong><span class='tooltip-box'>Toți elevii sunt implicați în experiențe personalizate, se măsoară performanța în funcție de situație, se raportează la standarde academice și personale sociale, se personalizează după nevoi reale, apoi se reevaluează pentru ajustare.</span></span> includ participare, măsurare, raportare la standarde, adaptare și reevaluare.<span class='tip'><strong> De ce funcționează?</strong><span class='tooltip-box'>Crește relevanța și sensul, permite alegere și control, susține autoreglarea, iar tehnologia poate oferi feedback imediat și frecvent. Exemplu, elevul alege sarcina potrivită nivelului lui și primește feedback rapid ca să își corecteze strategia.</span></span>",
+            "Descrie învățarea prin experiență plecând de la bazele teoretice (David Kolb)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Învățarea prin experiență</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> nu experiența în sine produce învățarea, ci felul în care o transformi prin reflecție, înțelegere și aplicare.<br/><br/>
+          <strong>Formulare academică:</strong> teoria lui Kolb conceptualizează învățarea ca proces ciclic de creare a cunoașterii prin transformarea experienței, în care experiența concretă este reflectată, abstractizată în concepte și testată prin experimentare activă, ciclul având caracter continuu și autoreglat.<br/><br/>
+          <strong>Exemplu:</strong> după o activitate practică, analizezi ce s a întâmplat, extragi o regulă și o aplici într o situație nouă.
+        </span>
+      </span> definește învățarea ca transformare sistematică a experienței în cunoaștere.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Baze teoretice</div>
+
+    ${window.flashPillList([
+      {
+        text: "📘<span class='tip'><strong>Dewey</strong> <span style='opacity:.9'>(experiență și sens)</span><span class='tooltip-box'><strong>Simplu spus:</strong> învățarea devine relevantă când pornește din situații reale.<br/><br/><strong>Formulare academică:</strong> experiența anterioară condiționează învățarea nouă, iar sensul apare prin continuitate și reflecție asupra acțiunii.<br/><br/><strong>Exemplu:</strong> proiectele autentice cresc înțelegerea.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📗<span class='tip'><strong>Lewin</strong> <span style='opacity:.9'>(ciclu acțiune reflecție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> acționezi, observi, ajustezi și reiei.<br/><br/><strong>Formulare academică:</strong> învățarea este un proces dinamic în care acțiunea și analiza se succed și se corectează reciproc.<br/><br/><strong>Exemplu:</strong> aplici o soluție, evaluezi efectul, modifici strategia.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ciclul lui Kolb</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣<span class='tip'><strong>experiență concretă</strong> <span style='opacity:.9'>(trăire directă)</span><span class='tooltip-box'><strong>Simplu spus:</strong> intri într o situație reală.<br/><br/><strong>Formulare academică:</strong> contact direct cu evenimentele, care furnizează materialul prim pentru învățare.<br/><br/><strong>Exemplu:</strong> participi la o activitate practică.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "2️⃣<span class='tip'><strong>observație reflexivă</strong> <span style='opacity:.9'>(analiză)</span><span class='tooltip-box'><strong>Simplu spus:</strong> te uiți înapoi și înțelegi ce a mers și ce nu.<br/><br/><strong>Formulare academică:</strong> interpretarea experienței prin analiză a diferențelor dintre intenție, acțiune și rezultat.<br/><br/><strong>Exemplu:</strong> notezi erorile și condițiile care le au produs.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "3️⃣<span class='tip'><strong>conceptualizare abstractă</strong> <span style='opacity:.9'>(regulă)</span><span class='tooltip-box'><strong>Simplu spus:</strong> extragi o idee generală din ce ai observat.<br/><br/><strong>Formulare academică:</strong> formularea de concepte, principii sau explicații care organizează experiența în cunoaștere transferabilă.<br/><br/><strong>Exemplu:</strong> construiești o regulă de lucru pentru data viitoare.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "4️⃣<span class='tip'><strong>experimentare activă</strong> <span style='opacity:.9'>(testare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> aplici regula și verifici dacă funcționează.<br/><br/><strong>Formulare academică:</strong> testarea ipotezelor în acțiune, cu ajustări pe baza feedbackului rezultat.<br/><br/><strong>Exemplu:</strong> aplici strategia într o sarcină nouă și o optimizezi.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Evidențiază stilurile de învățare în teoria lui David Kolb",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Stilurile de învățare la Kolb</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> stilul rezultă din preferința pentru un mod de a trăi experiența și un mod de a o transforma, prin reflecție sau acțiune.<br/><br/>
+          <strong>Formulare academică:</strong> stilurile de învățare derivă din intersectarea a două axe: experiență concretă versus conceptualizare abstractă și observație reflexivă versus experimentare activă, generând patru profiluri care descriu preferințe de procesare, nu categorii rigide.<br/><br/>
+          <strong>Exemplu:</strong> aceeași persoană poate reflecta pentru a înțelege și apoi poate experimenta pentru a valida.
+        </span>
+      </span> descriu preferințe de procesare a experienței în cadrul ciclului.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele patru stiluri</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>divergent</strong> <span style='opacity:.9'>(concret plus reflecție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> vede multe perspective și generează idei.<br/><br/><strong>Formulare academică:</strong> combină experiența concretă cu observația reflexivă, favorizând explorarea alternativelor și interpretarea contextuală.<br/><br/><strong>Exemplu:</strong> brainstorming și discuții care compară puncte de vedere.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📚<span class='tip'><strong>asimilator</strong> <span style='opacity:.9'>(abstract plus reflecție)</span><span class='tooltip-box'><strong>Simplu spus:</strong> preferă concepte și coerență logică.<br/><br/><strong>Formulare academică:</strong> combină conceptualizarea abstractă cu observația reflexivă, privilegiind modele teoretice și organizarea sistematică a ideilor.<br/><br/><strong>Exemplu:</strong> scheme conceptuale și sinteze teoretice.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🎯<span class='tip'><strong>convergent</strong> <span style='opacity:.9'>(abstract plus acțiune)</span><span class='tooltip-box'><strong>Simplu spus:</strong> aplică ideile pentru soluții precise.<br/><br/><strong>Formulare academică:</strong> combină conceptualizarea abstractă cu experimentarea activă, orientându se spre rezolvarea de probleme și aplicare practică eficientă.<br/><br/><strong>Exemplu:</strong> sarcini tehnice și decizii bazate pe criterii.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🛠️<span class='tip'><strong>acomodator</strong> <span style='opacity:.9'>(concret plus acțiune)</span><span class='tooltip-box'><strong>Simplu spus:</strong> învață făcând și ajustând din mers.<br/><br/><strong>Formulare academică:</strong> combină experiența concretă cu experimentarea activă, preferând acțiunea, explorarea și adaptarea rapidă pe baza feedbackului.<br/><br/><strong>Exemplu:</strong> proiecte practice și învățare prin încercare.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Elaborează conceptul de învățarea personalizată",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Învățarea personalizată</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> profesorul adaptează obiectivele, sarcinile și sprijinul la nivelul și nevoile fiecărui elev, astfel încât progresul să fie realizabil și relevant.<br/><br/>
+          <strong>Formulare academică:</strong> învățarea personalizată este un demers de proiectare și reglare a procesului didactic prin adaptarea obiectivelor, conținuturilor, strategiilor, ritmului și evaluării la profilul elevului, astfel încât să se maximizeze progresul prin sarcini diferențiate și sprijin calibrat, inclusiv prin creșterea autonomiei și a autoreglării.<br/><br/>
+          <strong>Exemplu:</strong> doi elevi lucrează pe același obiectiv, dar cu sarcini de dificultăți diferite și cu tipuri diferite de sprijin.
+        </span>
+      </span> urmărește progres realist, autonomie și sens pentru elev.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Proces operațional</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣<span class='tip'><strong>evaluare inițială</strong> <span style='opacity:.9'>(nivel și nevoi)</span><span class='tooltip-box'><strong>Simplu spus:</strong> afli unde este elevul și ce îl blochează.<br/><br/><strong>Formulare academică:</strong> identificarea nivelului actual, a dificultăților și a resurselor pentru a defini punctul de pornire al intervenției.<br/><br/><strong>Exemplu:</strong> probe scurte și observație asupra strategiilor.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "2️⃣<span class='tip'><strong>adaptare</strong> <span style='opacity:.9'>(sarcini diferențiate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> schimbi dificultatea, ritmul sau suportul fără să pierzi obiectivul.<br/><br/><strong>Formulare academică:</strong> proiectarea de sarcini și resurse diferențiate, menținând obiectivul de învățare, cu ajustarea cerințelor și a mediului de lucru.<br/><br/><strong>Exemplu:</strong> aceeași competență, exerciții cu complexitate gradată.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "3️⃣<span class='tip'><strong>sprijin calibrat</strong> <span style='opacity:.9'>(ghidaj retras treptat)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajuți cât trebuie, apoi reduci ajutorul.<br/><br/><strong>Formulare academică:</strong> suport temporar ajustat performanței, retras gradual pe măsură ce crește competența, pentru a consolida autonomia.<br/><br/><strong>Exemplu:</strong> întâi indicii, apoi doar verificare punctuală.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "4️⃣<span class='tip'><strong>reevaluare</strong> <span style='opacity:.9'>(reglaj continuu)</span><span class='tooltip-box'><strong>Simplu spus:</strong> verifici progresul și ajustezi din nou planul.<br/><br/><strong>Formulare academică:</strong> monitorizarea progresului și recalibrarea cerințelor și a suportului pentru menținerea provocării optime.<br/><br/><strong>Exemplu:</strong> crești treptat dificultatea când elevul devine independent.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -6445,59 +7649,390 @@ window.PHED_FLASHCARDS = {
       title: "U7 Flashcards",
       cards: [
         {
-          front: "Explică factorii non cognitivi și rolul lor în învățare",
-          back: "Factorii <span class='tip'><strong>non cognitivi</strong><span class='tooltip-box'>Sunt influențe care nu țin direct de procesele de gândire, dar schimbă masiv rezultatele învățării.<br><br><strong>Exemplu:</strong> doi elevi cu nivel cognitiv similar pot avea rezultate diferite din cauza motivației, emoțiilor sau atitudinilor.</span></span> includ <span class='tip'><strong>motivația</strong><span class='tooltip-box'>Dorință plus energie pentru a acționa și a continua.</span></span>, <span class='tip'><strong>emoțiile</strong><span class='tooltip-box'>Stări care pot facilita sau bloca implicarea.</span></span>, <span class='tip'><strong>atitudinile</strong><span class='tooltip-box'>Dispoziții stabile favorabile sau nefavorabile față de sarcini.</span></span> și <span class='tip'><strong>metacogniția</strong><span class='tooltip-box'>Monitorizare și reglare conștientă a învățării.</span></span>. Ei interacționează cu factorii cognitivi și pot susține sau sabota performanța.",
+          front:
+            "Definește factorii cognitivi și cei non cognitivi în învățare",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Factorii în învățare</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> învățarea depinde de procese mentale, motivație și emoții, controlul propriei învățări și context.<br/><br/>
+          <strong>Formulare academică:</strong> performanța rezultă din interacțiunea dintre resurse cognitive, variabile afective, procese metacognitive și condiționări de context și resurse, care împreună explică diferențele interindividuale.<br/><br/>
+          <strong>Exemplu:</strong> doi elevi cu pregătire similară pot avea rezultate diferite din cauza anxietății, a autoreglării sau a resurselor disponibile.
+        </span>
+      </span>
+      se organizează în categorii.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Categorii de factori</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>Cognitivi</strong><span class='tooltip-box'><strong>Simplu spus:</strong> uneltele mentale cu care înțelegi și reții.<br/><br/><strong>Formulare academică:</strong> includ procese și resurse de procesare a informației care susțin înțelegerea și rezolvarea sarcinilor.<br/><br/><strong>Conținut:</strong><br/>inteligență, memorie, strategii.<br/><br/><strong>Etichetă din lecție:</strong><br/>Procese mentale directe</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>Afectivi</strong><span class='tooltip-box'><strong>Simplu spus:</strong> ceea ce îți dă energie sau îți taie energia pentru sarcină.<br/><br/><strong>Formulare academică:</strong> includ variabile afective care susțin sau inhibă implicarea și persistența în activitatea de învățare.<br/><br/><strong>Conținut:</strong><br/>motivație, emoții, atitudini.<br/><br/><strong>Etichetă din lecție:</strong><br/>Energia internă a învățării</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>Metacognitivi</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cum îți conduci conștient învățarea.<br/><br/><strong>Formulare academică:</strong> includ planificarea, monitorizarea și reglarea proceselor cognitive și a strategiilor în raport cu obiectivele și feedbackul.<br/><br/><strong>Conținut:</strong><br/>monitorizare și autoreglare.<br/><br/><strong>Etichetă din lecție:</strong><br/>Controlul propriei învățări</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>Demografici</strong><span class='tooltip-box'><strong>Simplu spus:</strong> mediul de viață și resursele care pot ajuta sau limita învățarea.<br/><br/><strong>Formulare academică:</strong> includ condiții socio economice și culturale și accesul la resurse, care influențează oportunitățile de învățare și sprijinul disponibil.<br/><br/><strong>Conținut:</strong><br/>context social și resurse.<br/><br/><strong>Etichetă din lecție:</strong><br/>Condiții de viață și cultură</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică teoria expectanță - valoare la Eccles",
-          back: "În teoria <span class='tip'><strong>expectanță - valoare</strong><span class='tooltip-box'>Motivația depinde de două evaluări: probabilitatea percepută de succes și valoarea atribuită sarcinii.</span></span>, elevul se implică dacă <span class='tip'><strong>se așteaptă să reușească</strong><span class='tooltip-box'>Dacă probabilitatea percepută este zero, motivația devine zero.</span></span> și dacă <span class='tip'><strong>sarcina are valoare</strong><span class='tooltip-box'>Valoarea poate fi interes, importanță personală, utilitate sau atractivitate.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Dacă elevul crede că poate lua o notă decentă și vede sensul lecției, e mult mai probabil să depună efort.</span></span>",
+          front:
+            "Descrie conceptul de motivație și explică Teoria expectanță-valoare (Eccles, 1983)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Motivația</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> este de ce ul care te face să începi și să continui.<br/><br/>
+          <strong>Formulare academică:</strong> motivația reprezintă ansamblul proceselor care inițiază, direcționează și susțin comportamentul de învățare, influențând alegerea sarcinii, intensitatea efortului și persistența.<br/><br/>
+          <strong>Exemplu:</strong> elevul persistă când scopul este clar și sarcina are valoare pentru el.
+        </span>
+      </span> - forța care inițiază și menține învățarea
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}"></div>
+    <div>
+      <span class='tip'><strong>Teoria expectanță valoare (Eccles, 1983)</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> te implici când crezi că poți reuși și când sarcina merită.<br/><br/>
+          <strong>Formulare academică:</strong> angajarea este determinată de expectanța de reușită și de valoarea percepută a sarcinii, care prezic alegerea, efortul și persistența.<br/><br/>
+          <strong>Exemplu:</strong> elevul muncește la o disciplină când se consideră capabil și vede utilitate sau interes.
+        </span>
+      </span>
+      - implicarea se realizează prin două componente:
+    </div>
+
+    <hr class="hr-flash">
+
+    ${window.flashPillList([
+      {
+        text: "📈<span class='tip'><strong>expectanță</strong> <span style='opacity:.9'>(pot reuși)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de sigur sunt că pot face sarcina.<br/><br/><strong>Formulare academică:</strong> credința privind probabilitatea de succes, construită din experiențe anterioare și feedback.<br/><br/><strong>Exemplu:</strong> după reușite și feedback clar, elevul anticipează succes.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🎯<span class='tip'><strong>valoare</strong> <span style='opacity:.9'>(merită)</span><span class='tooltip-box'><strong>Simplu spus:</strong> cât de importantă, utilă sau interesantă este sarcina.<br/><br/><strong>Formulare academică:</strong> evaluarea utilității, interesului și relevanței personale a sarcinii, care justifică investiția de efort.<br/><br/><strong>Exemplu:</strong> elevul investește mai mult când vede legătura cu obiectivele lui.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
+
         {
-          front: "Rezuma teoria auto-determinării la Ryan și Deci",
-          back: "Teoria <span class='tip'><strong>auto-determinării</strong><span class='tooltip-box'>Spune că oamenii sunt orientați spre creștere psihologică, iar motivația sănătoasă apare când sunt satisfăcute nevoi psihologice de bază.</span></span> cere trei nevoi: <span class='tip'><strong>autonomie</strong><span class='tooltip-box'>Inițiativă și control asupra acțiunilor.<br><br><strong>Exemplu:</strong> elevul are opțiuni reale în cum lucrează.</span></span>, <span class='tip'><strong>competență</strong><span class='tooltip-box'>Sentimentul că poate reuși.<br><br><strong>Exemplu:</strong> provocări potrivite plus feedback pozitiv.</span></span>, <span class='tip'><strong>relaționare</strong><span class='tooltip-box'>Apartenență și conexiune.<br><br><strong>Exemplu:</strong> respect și grijă în clasă.</span></span>.<br><br>Motivația merge de la <span class='tip'><strong>amotivație</strong><span class='tooltip-box'>Lipsă de competență, valoare și relevanță.</span></span> spre forme tot mai <span class='tip'><strong>internalizate</strong><span class='tooltip-box'>Reguli externe sunt asumate ca fiind proprii, treptat.</span></span> până la <span class='tip'><strong>motivație intrinsecă</strong><span class='tooltip-box'>Interes, plăcere, satisfacție inerentă activității.</span></span>.",
-        },
-        {
-          front: "Explică gamification și starea de flux în învățare",
-          back: "<span class='tip'><strong>Gamification</strong><span class='tooltip-box'>Folosirea elementelor motivaționale ale jocurilor în contexte non joc, ca învățarea.</span></span> poate susține <span class='tip'><strong>autonomia</strong><span class='tooltip-box'>Alegere și inițiativă în sarcină.</span></span> și <span class='tip'><strong>competența</strong><span class='tooltip-box'>Progres vizibil și feedback imediat.</span></span> dacă obiectivele sunt <span class='tip'><strong>provocatoare dar gestionabile</strong><span class='tooltip-box'>Dacă e prea greu sau prea ușor apare apatie sau plictiseală.</span></span>.<br><br><span class='tip'><strong>Flux - absorbție în activitate</strong><span class='tooltip-box'>Absorbție profundă într-o activitate intrinsec plăcută, când provocarea și abilitățile sunt în echilibru.<br><br><strong>Exemplu:</strong> elevul uită de timp în timp ce rezolvă un nivel sau o problemă.</span></span>",
-        },
-        {
-          front: "Explică Piramida nevoilor la Maslow și frustrarea",
-          back: "Maslow vede motivația ca activarea unui <span class='tip'><strong>sistem ierarhic de nevoi</strong><span class='tooltip-box'>De la fiziologice și securitate, la afiliere, stimă și actualizare a sinelui.</span></span>. Nevoile de sus se activează după satisfacerea celor de jos într-o anumită măsură.<span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un elev flămând sau obosit nu poate susține nevoi cognitive.</span></span><br><br><span class='tip'><strong>Frustrarea - nevoile sau obiectivele nu sunt îndeplinite.</strong><span class='tooltip-box'>Tensiune când nevoile nu sunt satisfăcute sau obiectivele nu sunt atinse. În doze moderate poate crește toleranța și motivația de a depăși obstacolul.<br><br><strong>Exemplu:</strong> o problemă grea poate motiva insistența dacă există sprijin.</span></span>",
-        },
-        {
-          front: "Introducere în teoriile cognitive ale motivației",
-          back: "Teoriile <span class='tip'><strong>cognitive ale motivației</strong><span class='tooltip-box'>Văd motivația ca rezultat al gândirii și credințelor, nu ca nevoie sau stare. Ce crezi că poți face schimbă cum vezi sarcina și cât efort pui.</span></span> pun accent pe <span class='tip'><strong>interpretare</strong><span class='tooltip-box'>Cum explici succesul și eșecul, cât control crezi că ai.</span></span> și pe <span class='tip'><strong>credințe despre competență</strong><span class='tooltip-box'>Convingeri despre posibilitatea de reușită.</span></span>.<br><br>Weiner grupează aici <span class='tip'><strong>teoria atribuirii</strong><span class='tooltip-box'>Cum explici cauzele succesului și eșecului.</span></span> și <span class='tip'><strong>neajutorarea învățată</strong><span class='tooltip-box'>Resemnare când succesul pare imposibil.</span></span>, dezvoltate separat.",
+          front: "Explică Teoria auto-determinării (Ryan și Deci, 2000)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Motivația crește când sunt satisfăcute
+      <span class='tip'><strong>nevoile de autonomie, competență și relaționare</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> ai nevoie să alegi, să te simți capabil și conectat.<br/><br/>
+          <strong>Formulare academică:</strong> teoria auto-determinării explică calitatea motivației prin satisfacerea nevoilor psihologice de autonomie, competență și relaționare, care susțin motivația intrinsecă și internalizarea motivelor extrinseci.<br/><br/>
+          <strong>Exemplu:</strong> elevul se implică mai mult când are opțiuni reale, feedback informativ și relații de sprijin.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele trei nevoi</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>autonomie</strong> <span style='opacity:.9'>(aleg)</span><span class='tooltip-box'><strong>Simplu spus:</strong> simt că decizia îmi aparține.<br/><br/><strong>Formulare academică:</strong> experiența auto-determinării activității, adică percepția că acțiunea este asumată intern.<br/><br/><strong>Exemplu:</strong> aleg tema proiectului sau modul de rezolvare.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧩<span class='tip'><strong>competență</strong> <span style='opacity:.9'>(pot)</span><span class='tooltip-box'><strong>Simplu spus:</strong> simt că reușesc prin efort și strategie.<br/><br/><strong>Formulare academică:</strong> percepția eficacității în sarcini, susținută de feedback informativ și provocări calibrate.<br/><br/><strong>Exemplu:</strong> primesc feedback clar despre ce ajustez.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🤝<span class='tip'><strong>relaționare</strong> <span style='opacity:.9'>(aparțin)</span><span class='tooltip-box'><strong>Simplu spus:</strong> mă simt acceptat și sprijinit.<br/><br/><strong>Formulare academică:</strong> nevoia de legături sociale semnificative care susțin siguranța psihologică și implicarea.<br/><br/><strong>Exemplu:</strong> climat în care întrebările sunt încurajate.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
         {
           front:
-            "Explică teoria atribuirii la Weiner și clasificările cauzelor",
-          back: "<span class='tip'><strong>Atribuirea</strong><span class='tooltip-box'>Este explicația pe care elevul o dă succesului sau eșecului, iar această explicație schimbă așteptările viitoare.</span></span> clasifică cauzele în <span class='tip'><strong>interne vs externe</strong><span class='tooltip-box'><strong>Exemplu:</strong> efort intern, noroc extern.</span></span>, <span class='tip'><strong>stabile vs instabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> abilitate stabilă, efort instabil.</span></span>, <span class='tip'><strong>controlabile vs incontrolabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> strategii controlabile, boală incontrolabilă.</span></span>.<br><br>Cu cât controlul este perceput mai intern și mai controlabil, cu atât crește efortul și perseverența.",
+            "Definește teoriile cognitive ale motivației (accent pe teoria atribuirii și neajutorarea învățată)",
+          back: `<div class='flash-back'>
+
+  <!-- BLOCK 1: TEORII COGNITIVE ALE MOTIVAȚIEI -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teorii cognitive ale motivației</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> motivația depinde de cum interpretezi situațiile și rezultatele.<br/><br/>
+          <strong>Formulare academică:</strong> teoriile cognitive explică motivația prin evaluările cognitive ale sarcinii și ale sinelui, precum interpretarea succesului și eșecului, așteptările de reușită și sensul personal atribuit activității.<br/><br/>
+          <strong>Exemplu:</strong> aceeași notă poate fi interpretată ca semn de progres sau ca eșec definitiv.
+        </span>
+      </span>
+      - motivația se construiește prin explicațiile pe care le dai experiențelor tale.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <!-- BLOCK 2: TEORIA ATRIBUIRII -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Teoria atribuirii</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> contează ce crezi că a cauzat succesul sau eșecul.<br/><br/>
+          <strong>Formulare academică:</strong> teoria atribuirii descrie modul în care cauza percepută a rezultatelor influențează emoțiile, așteptările de reușită și persistența în activitatea de învățare.<br/><br/>
+          <strong>Exemplu:</strong> „am reușit pentru că am muncit” crește motivația viitoare.
+        </span>
+      </span>
+      explică legătura dintre cauză percepută și implicare.
+    </div>
+
+
+   ${window.flashPillList([
+     {
+       text: "🧭<span class='tip'><strong>intern / extern</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cauza e în mine sau în context.<br/><br/><strong>Formulare academică:</strong> locusul cauzal descrie sursa percepută a rezultatului.<br/><br/><strong>Exemplu:</strong> „nu am exersat” vs „testul a fost prea greu”.</span></span>",
+       key: "emerald",
+     },
+     {
+       text: "⏳<span class='tip'><strong>stabil / instabil</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cauza rămâne sau se poate schimba.<br/><br/><strong>Formulare academică:</strong> stabilitatea influențează așteptările viitoare de reușită.<br/><br/><strong>Exemplu:</strong> „nu sunt bun” vs „am avut o zi proastă”.</span></span>",
+       key: "slate",
+     },
+     {
+       text: "🎛️<span class='tip'><strong>controlabil / necontrolabil</strong><span class='tooltip-box'><strong>Simplu spus:</strong> pot influența cauza sau nu.<br/><br/><strong>Formulare academică:</strong> controlabilitatea determină dacă elevul investește efort ulterior.<br/><br/><strong>Exemplu:</strong> „nu am învățat” vs „am fost bolnav”.</span></span>",
+       key: "cyan",
+     },
+   ])}
+  </div>
+
+  </div>
+
+  <!-- BLOCK 3: NEAJUTORAREA ÎNVĂȚATĂ -->
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Neajutorarea învățată</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> profeție autoîmplinită prin autosugestii precum „nu contează ce fac, tot nu voi reuși.”<br/><br/>
+          <strong>Formulare academică:</strong> neajutorarea învățată apare ca urmare a atribuirilor stabile și necontrolabile ale eșecului, care conduc la scăderea inițierii, persistenței și implicării în sarcină.<br/><br/>
+          <strong>Exemplu:</strong> după eșecuri repetate, elevul renunță să mai încerce.
+        </span>
+      </span>
+      apare când elevul crede că nu are control asupra rezultatului și descrie un risc major pentru motivație.
+    </div>
+
+    <div>
+      ${window.flashPillList([
+        {
+          text: "🧊<span class='tip'><strong>pasivitate</strong><span class='tooltip-box'><strong>Simplu spus:</strong> evită sarcinile și nu mai începe.<br/><br/><strong>Formulare academică:</strong> scade inițierea și persistența în activitate.<br/><br/><strong>Exemplu:</strong> nu mai începe tema.</span></span>",
+          key: "amber",
         },
         {
-          front: "Ce înseamnă grit și de ce contează pentru performanță",
-          back: "<span class='tip'><strong>Grit</strong><span class='tooltip-box'>Combinație dintre pasiune și perseverență pe termen lung, chiar când apar obstacole și eșecuri.</span></span> spune că performanța depinde mult de efort susținut, nu doar de talent.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul lucrează zilnic, își ajustează strategiile și continuă deși progresul este lent.</span></span>",
+          text: "📉<span class='tip'><strong>reducerea efortului</strong><span class='tooltip-box'><strong>Simplu spus:</strong> „nu are rost să încerc”.<br/><br/><strong>Formulare academică:</strong> percepția lipsei de control conduce la retragere motivațională.<br/><br/><strong>Exemplu:</strong> renunță după primele dificultăți.</span></span>",
+          key: "violet",
         },
         {
-          front: "Explică neajutorarea învățată și efectele ei în educație",
-          back: "<span class='tip'><strong>Neajutorarea învățată</strong><span class='tooltip-box'>Stare de resemnare când elevul vrea să reușească dar simte că succesul este imposibil.</span></span> apare după experiențe repetate percepute ca <span class='tip'><strong>inevitabile și incontrolabile</strong><span class='tooltip-box'><strong>Exemplu:</strong> oricât încearcă, rezultatele nu se schimbă, deci concluzionează că nu are control.</span></span> și duce la <span class='tip'><strong>scăderea inițiativei</strong><span class='tooltip-box'>Elevul nu mai încearcă nici când apar oportunități reale de succes.</span></span> și la evitarea sarcinilor.",
+          text: "🔁<span class='tip'><strong>cerc vicios</strong><span class='tooltip-box'><strong>Simplu spus:</strong> efort mai mic → rezultate mai slabe → confirmă „nu pot”.<br/><br/><strong>Formulare academică:</strong> performanța scăzută întărește atribuirea negativă inițială și stabilizează evitarea.<br/><br/><strong>Exemplu:</strong> nota mică confirmă „nu sunt bun”.</span></span>",
+          key: "pink",
+        },
+      ])}
+    </div>
+  </div>
+
+</div>`,
         },
         {
-          front: "Descrie fazele procesului motivațional la Mih",
-          back: "Procesul motivațional are patru faze: <span class='tip'><strong>orientare</strong><span class='tooltip-box'>Decizia de a începe.<br><br><strong>Exemplu:</strong> aleg să mă apuc de învățat.</span></span>, <span class='tip'><strong>declanșare</strong><span class='tooltip-box'>Mobilizez resurse cognitive, emoționale, comportamentale.<br><br><strong>Exemplu:</strong> îmi organizez materialele și încep.</span></span>, <span class='tip'><strong>susținere</strong><span class='tooltip-box'>Perseverență, focalizare, monitorizare.<br><br><strong>Exemplu:</strong> continui și îmi verific progresul.</span></span>, <span class='tip'><strong>dezangajare</strong><span class='tooltip-box'>Defocalizare după finalizare sau blocaj major.<br><br><strong>Exemplu:</strong> mă opresc după ce am terminat sau renunț la un obstacol mare.</span></span>.",
+          front: "Explică Piramida nevoilor (Maslow) în raport cu motivația",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Piramida nevoilor (Maslow)</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> când nevoile de bază sunt nesatisfăcute, învățarea devine secundară.<br/><br/>
+          <strong>Formulare academică:</strong> motivația este influențată de prioritizarea nevoilor, în care nevoile de bază tind să condiționeze disponibilitatea pentru angajare în obiective de nivel superior, precum performanța, stima și dezvoltarea personală.<br/><br/>
+          <strong>Exemplu:</strong> lipsa somnului sau insecuritatea cresc riscul de neimplicare și scad atenția.
+        </span>
+      </span>
+      conectează motivația la condiții de funcționare și sens personal.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Niveluri și efect educațional</div>
+
+    ${window.flashPillList([
+      {
+        text: "🍽️<span class='tip'><strong>1.fiziologice</strong> <span style='opacity:.9'>(energie)</span><span class='tooltip-box'><strong>Simplu spus:</strong> fără hrană și somn, nu funcționezi bine.<br/><br/><strong>Formulare academică:</strong> satisfacerea nevoilor fiziologice susține resursele de atenție și reglare necesare învățării.<br/><br/><strong>Exemplu:</strong> oboseala reduce memoria de lucru și autocontrolul.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🛡️<span class='tip'><strong>2.securitate</strong> <span style='opacity:.9'>(siguranță)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți mai bine când te simți în siguranță.<br/><br/><strong>Formulare academică:</strong> securitatea psihologică reduce anxietatea și permite implicarea stabilă în sarcini și evaluări.<br/><br/><strong>Exemplu:</strong> un climat de clasă predictibil crește participarea.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🤝<span class='tip'><strong>3.apartenență</strong> <span style='opacity:.9'>(conectare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> când aparții unui grup, ai mai multă energie să înveți.<br/><br/><strong>Formulare academică:</strong> relațiile de sprijin susțin persistența și toleranța la efort, reducând evitarea socială a sarcinii.<br/><br/><strong>Exemplu:</strong> elevul lucrează mai constant într un grup care îl acceptă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏆<span class='tip'><strong>4.stimă</strong> <span style='opacity:.9'>(valoare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> când te simți capabil și apreciat, te implici mai mult.<br/><br/><strong>Formulare academică:</strong> stima de sine și recunoașterea competenței cresc aspirațiile și angajarea în sarcini mai dificile.<br/><br/><strong>Exemplu:</strong> feedbackul informativ consolidează încrederea în reușită.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🌟<span class='tip'><strong>5.autorealizare</strong> <span style='opacity:.9'>(dezvoltare)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înveți pentru a deveni cine vrei să fii.<br/><br/><strong>Formulare academică:</strong> orientarea spre dezvoltare personală susține motivația de creștere și angajarea în proiecte cu sens și autonomie ridicată.<br/><br/><strong>Exemplu:</strong> elevul învață independent pentru un obiectiv propriu.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
+
+        {
+          front: "Evidențiază fazele procesului motivațional",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Procesul motivațional</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> motivația pornește dintr o nevoie, devine scop, apoi acțiune și evaluare.<br/><br/>
+          <strong>Formulare academică:</strong> procesul motivațional reprezintă succesiunea prin care o nevoie generează un motiv orientat spre scop, urmat de decizie, mobilizarea resurselor, acțiune și evaluarea rezultatului, cu ajustări ulterioare ale conduitelor.<br/><br/>
+          <strong>Exemplu:</strong> elevul își stabilește un scop de performanță, alege o strategie de studiu, acționează și își evaluează progresul.
+        </span>
+      </span>
+      are faze care explică inițierea și menținerea efortului.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Faze</div>
+
+    ${window.flashPillList([
+      {
+        text: "①<span class='tip'><strong>apariția nevoii</strong><span class='tooltip-box'><strong>Simplu spus:</strong> apare o lipsă sau o dorință.<br/><br/><strong>Formulare academică:</strong> nevoia generează tensiune motivațională care solicită reducere prin acțiune orientată spre scop.<br/><br/><strong>Exemplu:</strong> vreau să înțeleg o lecție pentru evaluare.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "②<span class='tip'><strong>formarea motivului și a scopului</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nevoia devine obiectiv concret.<br/><br/><strong>Formulare academică:</strong> motivul structurează orientarea spre scop și justifică investiția de resurse în sarcină.<br/><br/><strong>Exemplu:</strong> îmi propun să rezolv un set de exerciții.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "③<span class='tip'><strong>decizie și plan</strong><span class='tooltip-box'><strong>Simplu spus:</strong> aleg cum procedez.<br/><br/><strong>Formulare academică:</strong> se selectează strategia, se planifică pașii și se anticipează costuri și beneficii.<br/><br/><strong>Exemplu:</strong> stabilesc intervale de lucru și pauze.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "④<span class='tip'><strong>acțiune și mobilizare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> muncesc efectiv și îmi țin atenția pe scop.<br/><br/><strong>Formulare academică:</strong> resursele sunt activate și susținute pentru execuția sarcinii, cu reglarea efortului în funcție de dificultate.<br/><br/><strong>Exemplu:</strong> rezolv exerciții și cer ajutor când mă blochez.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⑤<span class='tip'><strong>evaluare și ajustare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> văd ce a mers și schimb ce nu merge.<br/><br/><strong>Formulare academică:</strong> rezultatul este apreciat, iar feedbackul actualizează expectanțele, valoarea sarcinii și strategiile folosite, influențând motivația viitoare.<br/><br/><strong>Exemplu:</strong> refac ce am greșit și schimb metoda de studiu.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
         {
           front:
-            "Definește atitudinile și cum se formează în contexte educaționale",
-          back: "<span class='tip'><strong>Atitudinile</strong><span class='tooltip-box'>Dispoziții interne stabile care susțin răspunsuri favorabile sau nefavorabile față de un obiect sau o situație.</span></span> sunt puternice predictori ai comportamentului, fiind învățate prin experiențe.<span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Un prim contact frustrant cu o materie poate construi o atitudine negativă care reduce implicarea.</span></span><br><br>Atitudinile se pot forma într-un context și se pot transfera către contexte similare.",
-        },
-        {
-          front: "Explică afectivitatea și rolul emoțiilor în învățare",
-          back: "<span class='tip'><strong>Afectivitatea</strong><span class='tooltip-box'>Ansamblul reacțiilor psihice ale individului față de lumea exterioară, incluzând emoții și dispoziții.</span></span> influențează performanța: emoțiile pozitive cresc implicarea, iar emoțiile negative pot declanșa pe termen scurt comportamente motivate extrinsec dar duc în timp la evitarea activității.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul poate învăța de teamă pentru o vreme, apoi începe să evite materia. Un climat suportiv poate cultiva speranța și plăcerea de a învăța.</span></span>",
-        },
-        {
-          front: "Definește metacogniția și principalele ei componente",
-          back: "<span class='tip'><strong>Metacogniția</strong><span class='tooltip-box'>Cunoaștere despre propria gândire și control conștient al învățării. Include întrebări de tipul ce înțeleg, cum învăț, de ce aleg o strategie.</span></span> cuprinde <span class='tip'><strong>experiențe</strong><span class='tooltip-box'>Trăiri conștiente precum nu înțeleg.</span></span>, <span class='tip'><strong>cunoștințe</strong><span class='tooltip-box'>Ce știu despre cum învăț eu și alții.</span></span>, <span class='tip'><strong>obiective</strong><span class='tooltip-box'>Ce vreau să obțin.</span></span> și <span class='tip'><strong>strategii</strong><span class='tooltip-box'>Planificare, monitorizare, evaluare.</span></span>.<br><br><span class='tip'><strong>Exemplu</strong><span class='tooltip-box'>Elevul își face plan, verifică dacă a înțeles, schimbă metoda și evaluează rezultatul.</span></span>",
+            "Clarifică atitudinile și afectivitatea ca factori ai comportamentului de învățare și explică importanța metacogniției în învățare",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Atitudini, afectivitate, metacogniție</strong>
+        <span class='tooltip-box'>
+          <strong>Simplu spus:</strong> atitudinile și emoțiile îți pot crește sau bloca implicarea, iar metacogniția te ajută să îți conduci eficient învățarea.<br/><br/>
+          <strong>Formulare academică:</strong> atitudinile și afectivitatea modulează inițierea, persistența și calitatea angajării în sarcină, iar metacogniția optimizează performanța prin planificare, monitorizare și reglare strategică, reducând riscul de efort ineficient și abandon.<br/><br/>
+          <strong>Exemplu:</strong> anxietatea poate reduce accesul la resurse cognitive, dar monitorizarea și schimbarea strategiei pot susține reluarea controlului.
+        </span>
+      </span>
+      explică de ce elevii reacționează diferit la aceeași sarcină.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Atitudinile au:</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭<span class='tip'><strong>componente specifice</strong> <span style='opacity:.9'>(cred, simt, acționez)</span><span class='tooltip-box'><strong>Simplu spus:</strong> atitudinea are o parte de gândire, una emoțională și una de comportament.<br/><br/><strong>Formulare academică:</strong> atitudinea include componenta cognitivă, afectivă și comportamentală, care împreună orientează intenția și conduita de învățare.<br/><br/><strong>Exemplu:</strong> dacă apreciez disciplina, accept mai ușor efortul și persist.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🎯<span class='tip'><strong>efect în învățare</strong> <span style='opacity:.9'>(direcție și intensitate)</span><span class='tooltip-box'><strong>Simplu spus:</strong> o atitudine pozitivă crește implicarea, una negativă crește evitarea.<br/><br/><strong>Formulare academică:</strong> atitudinile influențează alegerea sarcinilor, nivelul de efort și persistența, funcționând ca filtru evaluativ al utilității și relevanței.<br/><br/><strong>Exemplu:</strong> elevul cu atitudine negativă amână și renunță mai ușor.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Afectivitatea are:</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌊<span class='tip'><strong>rol funcțional</strong> <span style='opacity:.9'>(atenție și memorie)</span><span class='tooltip-box'><strong>Simplu spus:</strong> emoțiile pot ajuta concentrarea sau o pot rupe.<br/><br/><strong>Formulare academică:</strong> afectivitatea influențează atenția, selecția informației și persistența, iar emoțiile negative intense pot reduce eficiența prelucrării prin supraîncărcare și evitare.<br/><br/><strong>Exemplu:</strong> interesul crește timpul de lucru, anxietatea poate bloca răspunsul.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Metacogniția (cogniția despre modul de învățare):</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧰<span class='tip'><strong>de ce este importantă</strong> <span style='opacity:.9'>(control)</span><span class='tooltip-box'><strong>Simplu spus:</strong> îți dai seama când nu merge și schimbi.<br/><br/><strong>Formulare academică:</strong> metacogniția crește performanța prin planificare, monitorizare și reglare, permițând ajustarea strategiilor în raport cu obiectivele și feedbackul, ceea ce optimizează efortul și reduce erorile persistente.<br/><br/><strong>Exemplu:</strong> dacă nu înțeleg, schimb din repetare în explicație și aplicații.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "🔁<span class='tip'><strong>procese</strong> <span style='opacity:.9'>(planific, monitorizez, reglez, evaluez)</span><span class='tooltip-box'><strong>Simplu spus:</strong> înainte, în timpul și după studiu verific și corectez.<br/><br/><strong>Formulare academică:</strong> include planificarea strategiei, monitorizarea înțelegerii, reglarea acțiunii și evaluarea rezultatului, constituind baza autoreglării învățării.<br/><br/><strong>Exemplu:</strong> îmi verific răspunsul, identific eroarea și refac pașii corect.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -6505,42 +8040,2839 @@ window.PHED_FLASHCARDS = {
   "phed-u8": [
     {
       id: "phed-u8-deck1",
-      title: "U8 Flashcards – Autoreglarea învățării",
+      title: "U8 Flashcards",
       cards: [
         {
-          front: "Definește învățarea autoreglată și rolul elevului",
-          back: "Învățarea autoreglată presupune că elevul este <span class='tip'><strong>agent activ al propriei învățări</strong><span class='tooltip-box'>Atât Pintrich cât și Zimmerman pornesc de la ideea că elevul nu este un simplu receptor de informație, ci își stabilește obiective, își monitorizează progresul și își ajustează strategiile.</span></span>, implicând procese <span class='tip'><strong>cognitive, motivaționale, comportamentale și contextuale</strong><span class='tooltip-box'>Autoreglarea nu se limitează la gândire, ci include motivația, emoțiile, efortul, gestionarea timpului și relația cu mediul de învățare.</span></span> orientate spre atingerea obiectivelor de învățare.",
+          front: "Definește învățarea autoreglată",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Învățarea autoreglată este
+      <span class='tip'><strong>un proces activ de planificare, monitorizare și control</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> elevul își conduce propria învățare.<br/><br/>
+          <strong>Formulare academică:</strong> învățarea autoreglată reprezintă un proces intenționat prin care elevul stabilește obiective, monitorizează progresul și controlează strategiile și condițiile de lucru, pentru a menține activitatea orientată spre obiectiv.<br/><br/>
+          <strong>Exemplu:</strong> elevul își planifică studiul, verifică dacă înțelege și își ajustează metoda.
+        </span>
+      </span>.
+    </div>
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Cheia autoreglării</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> știu ce urmăresc, cum lucrez și după ce criterii verific.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea se sprijină pe articularea dintre obiective, strategii și criterii de evaluare, care ghidează monitorizarea și controlul învățării.<br/><br/>
+          <strong>Exemplu:</strong> „vreau înțelegere profundă” + „folosesc scheme și exemple” + „verific dacă pot explica ideea cu cuvintele mele”.
+        </span>
+      </span>: <strong>obiective + strategii + criterii de evaluare</strong>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce poate regla elevul</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>Cunoașterea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum procesez informația și ce metode aleg.<br/><br/><strong>Formulare academică:</strong> elevul monitorizează și controlează strategiile cognitive utilizate pentru înțelegere și memorare.<br/><br/><strong>Exemplu:</strong> rezumare, scheme, exemple.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>Motivația</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi gestionez energia și interesul ca să continui.<br/><br/><strong>Formulare academică:</strong> autoreglarea motivației susține menținerea efortului și a perseverenței în sarcină.<br/><br/><strong>Exemplu:</strong> îmi reamintesc scopul când apare oboseala.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>Comportamentul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi organizez timpul și mediul de studiu.<br/><br/><strong>Formulare academică:</strong> autoreglarea comportamentală include planificarea și controlul contextului de învățare (timp, spațiu, rutine).<br/><br/><strong>Exemplu:</strong> îmi setez intervale de studiu și pauze.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Explică Modelul învățării autoreglate la Pintrich (2000)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Pintrich (2000) – învățarea autoreglată</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> elevul stabilește obiective și își urmărește și ajustează învățarea, intenționat.<br/><br/>
+          <strong>Formulare academică:</strong> învățarea autoreglată este un proces activ prin care elevii își stabilesc obiective și își monitorizează, reglează și controlează cunoașterea, motivația și comportamentul, în funcție de obiective și de mediul în care învață.<br/><br/>
+          <strong>Exemplu:</strong> „nu înțeleg → schimb strategia + cresc efortul + reduc distragerile”.
+        </span>
+      </span>
+    </div>
+
+    <div style="margin-top:10px;">
+      Activitățile de autoreglare
+      <span class='tip'><strong>mediază relația dintre elev, context și performanță</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> aceeași situație produce rezultate diferite în funcție de cât de bine se autoreglează elevul.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea funcționează ca mecanism de legătură între caracteristicile elevului și ale contextului și performanța obținută, prin monitorizare și ajustare.<br/><br/>
+          <strong>Exemplu:</strong> în același context, elevul care monitorizează și ajustează obține rezultate mai bune.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele 4 faze - flexibile,  <span class='tip'><strong>neliniare</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> poți reveni la planificare după ce monitorizezi.<br/><br/>
+          <strong>Formulare academică:</strong> fazele nu sunt ierarhice/liniare; se pot relua și reordona în funcție de necesitățile activității.<br/><br/>
+          <strong>Exemplu:</strong> după ce observ o dificultate, reformulez obiectivul și planul.
+        </span>
+      </span></div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣ <span class='tip'><strong>Planificare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> stabilesc ce urmăresc și cum încep.<br/><br/><strong>Formulare academică:</strong> implică obiective și plan, plus activarea cunoștințelor anterioare relevante pentru sarcină.<br/><br/><strong>Exemplu:</strong> „astăzi înțeleg conceptul X; pornesc de la ce știu deja și aleg o metodă potrivită”.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "2️⃣ <span class='tip'><strong>Monitorizare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> observ ce se întâmplă în timp ce lucrez.<br/><br/><strong>Formulare academică:</strong> constă în conștientizarea metacognitivă a înțelegerii, a efortului, a stărilor și a cerințelor sarcinii.<br/><br/><strong>Exemplu:</strong> îmi dau seama ce înțeleg/nu înțeleg și cât de sigur sunt.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "3️⃣ <span class='tip'><strong>Control și reglare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fac ajustări ca să rămân pe obiectiv.<br/><br/><strong>Formulare academică:</strong> presupune schimbarea strategiilor, a timpului, a efortului sau a condițiilor de lucru pentru a susține atingerea obiectivului.<br/><br/><strong>Exemplu:</strong> schimb metoda, redistribui timpul, reduc distragerile.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "4️⃣ <span class='tip'><strong>Reacții și reflecții</strong><span class='tooltip-box'><strong>Spus simplu:</strong> evaluez ce a mers și ce schimb data viitoare.<br/><br/><strong>Formulare academică:</strong> elevul formulează evaluări despre sine, sarcină și context, care ghidează ajustările ulterioare.<br/><br/><strong>Exemplu:</strong> „metoda A nu a funcționat; data viitoare folosesc B”.</span></span>",
+        key: "pink",
+      },
+    ])}
+
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Explică Modelul ciclic al autoreglării la Zimmerman (2000)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Zimmerman (2000) – modelul ciclic</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> elevul își produce și își ajustează continuu modul de lucru, pe baza feedback-ului.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea constă în gânduri, sentimente și comportamente auto-generate, care sunt planificate și adaptate ciclic pentru atingerea obiectivelor.<br/><br/>
+          <strong>Exemplu:</strong> îmi fac plan, verific progresul, apoi schimb strategia în funcție de rezultat.
+        </span>
+      </span>
+    </div>
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Cursantul autoreglat</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> este proactiv: își stabilește obiective, se observă și se ajustează.<br/><br/>
+          <strong>Formulare academică:</strong> cursantul autoreglat stabilește obiective, se auto-observă și se autoevaluează, apoi își adaptează strategiile în raport cu feedback-ul din performanță.<br/><br/>
+          <strong>Exemplu:</strong> schimb metoda după ce observ că nu respect planul sau că nu înțeleg.
+        </span>
+      </span>
+      folosește atât strategii legate de sarcină (timp, organizare, metode), cât și convingeri auto-motivaționale (autoeficacitate, motivație intrinsecă).
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cele 3 faze ciclice</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣ <span class='tip'><strong>Gândirea anticipatoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> decid ce urmăresc și cum încep, plus „pot?” și „merită?”.<br/><br/><strong>Formulare academică:</strong> include obiective și plan, împreună cu convingeri motivaționale despre reușită și valoarea sarcinii.<br/><br/><strong>Exemplu:</strong> aleg strategia și îmi clarific așteptările.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "2️⃣ <span class='tip'><strong>Monitorizarea performanței</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mă observ în timp ce lucrez și mă autocontrolez.<br/><br/><strong>Formulare academică:</strong> presupune auto-observare și autocontrol în timpul sarcinii, pentru a menține execuția în acord cu planul.<br/><br/><strong>Exemplu:</strong> verific dacă respect pașii și dacă înțeleg.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "3️⃣ <span class='tip'><strong>Auto-reflecția</strong><span class='tooltip-box'><strong>Spus simplu:</strong> evaluez și decid ce schimb.<br/><br/><strong>Formulare academică:</strong> include evaluarea performanței și formularea de ajustări pentru încercarea următoare, pe baza feedback-ului obținut.<br/><br/><strong>Exemplu:</strong> „rezultatul e slab → schimb strategia data viitoare”.</span></span>",
+        key: "pink",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>De ce „ciclic”?</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> finalul influențează începutul următoarei încercări.<br/><br/>
+          <strong>Formulare academică:</strong> feedback-ul din performanță actualizează obiectivele și strategiile utilizate în tentativa următoare, închizând și reluând ciclul autoreglării.<br/><br/>
+          <strong>Exemplu:</strong> după o dificultate, reformulez planul pentru următorul studiu.
+        </span>
+      </span>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Fă o paralelă între Autoreglarea la Pintrich și Zimmerman",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Ideea comună</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> elevul este agent activ, nu executant pasiv.<br/><br/>
+          <strong>Formulare academică:</strong> ambele modele descriu elevul ca agent activ care își stabilește obiective și utilizează strategii pentru a-și controla învățarea, integrând cogniția, motivația, comportamentul și relația cu mediul.<br/><br/>
+          <strong>Exemplu:</strong> elevul își fixează un obiectiv, își urmărește progresul și își ajustează metoda.
+        </span>
+      </span> - elevul este un agent activ care își controlează învățarea.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce au în comun</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯 <span class='tip'><strong>Obiectivele ghidează autoreglarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fără obiectiv, nu ai reper de monitorizare.<br/><br/><strong>Formulare academică:</strong> obiectivele funcționează ca reper pentru monitorizare, control și evaluare în ambele modele.<br/><br/><strong>Exemplu:</strong> verific progresul în raport cu obiectivul stabilit.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🔥⏱️ <span class='tip'><strong>Mai mult decât cogniție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> include și energie, obiceiuri, context.<br/><br/><strong>Formulare academică:</strong> ambele modele includ motivația, comportamentul și relația cu mediul, nu doar strategiile de procesare a informației.<br/><br/><strong>Exemplu:</strong> ajustez efortul și reduc distragerile, nu doar schimb metoda.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Diferența de accent</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>Pintrich</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pune accent pe reglarea situată, „aici și acum”, în raport cu sarcina și contextul.<br/><br/><strong>Formulare academică:</strong> autoreglarea este descrisă ca activități de monitorizare–control–reglare care mediază relația individ–context–performanță, prin adaptare în timp real la cerințe și condiții.<br/><br/><strong>Exemplu:</strong> observ cerințele și ajustez strategia pe parcurs.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "<span class='tip'><strong>Zimmerman</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pune accent pe ciclul „încercare → feedback → următoarea încercare”.<br/><br/><strong>Formulare academică:</strong> autoreglarea este conceptualizată ca procese auto-generate, ajustate ciclic pe baza feedback-ului din performanță, cu legătură explicită între final și inițierea următoarei tentative.<br/><br/><strong>Exemplu:</strong> după evaluare, schimb obiectivele și strategia pentru data viitoare.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Organizarea fazelor</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>Pintrich: 4 faze</strong><span class='tooltip-box'><strong>Spus simplu:</strong> planificare → monitorizare → control/reglare → reacții/reflecții.<br/><br/><strong>Formulare academică:</strong> faze flexibile și neliniare, reluabile în funcție de necesități.<br/><br/><strong>Exemplu:</strong> revin la planificare după ce identific o problemă în monitorizare.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>Zimmerman: 3 faze</strong><span class='tooltip-box'><strong>Spus simplu:</strong> anticipare → monitorizarea performanței → auto-reflecție.<br/><br/><strong>Formulare academică:</strong> secvență ciclică centrată pe feedback-ul care inițiază următorul ciclu.<br/><br/><strong>Exemplu:</strong> evaluarea de la final modifică planul inițial al tentativei următoare.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
           front:
-            "Compară pe scurt modelele de autoreglare ale lui Pintrich și Zimmerman",
-          back: "<span class='tip'><strong>Pintrich</strong><span class='tooltip-box'>Definește autoreglarea ca un set de procese de planificare, monitorizare, control și reflecție care mediază relația individ–context–performanță. Faze flexibile, neliniare, accent pe sarcină și context.</span></span> versus <span class='tip'><strong>Zimmerman</strong><span class='tooltip-box'>Descrie autoreglarea ca un proces explicit ciclic: anticipare, performanță, auto-reflecție, în care feedbackul din performanță este central pentru ajustările viitoare.</span></span>. Ambele modele subliniază rolul obiectivelor și al feedbackului, dar diferă prin organizarea proceselor.",
+            "Descrie autoreglarea cogniției (Pintrich, 2000) (planificarea, monitorizarea și controlul)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În autoreglarea cogniției, elevul își conduce învățarea prin
+      <span class='tip'><strong>planificare, monitorizare și control/reglare</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> stabilesc direcția, verific în timp ce lucrez, apoi schimb când nu merge.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea cognitivă include stabilirea obiectivelor și activarea cunoștințelor relevante, conștientizarea metacognitivă a progresului și ajustarea strategiilor în raport cu cerințele sarcinii și obiectivele stabilite.<br/><br/>
+          <strong>Exemplu:</strong> renunț la „doar citit” și trec la scheme + exerciții când observ că nu înțeleg.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">1️⃣ Planificarea cogniției</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯 <span class='tip'><strong>stabilirea obiectivelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarific ce vreau să obțin.<br/><br/><strong>Formulare academică:</strong> obiectivele ghidează monitorizarea și evaluarea, determinând ce resurse și strategii sunt activate.<br/><br/><strong>Exemplu:</strong> „vreau înțelegere profundă” → verific sensul, nu doar memorarea.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📌 <span class='tip'><strong>activarea cunoștințelor relevante</strong><span class='tooltip-box'><strong>Spus simplu:</strong> scot „în față” ce știu deja și ce mi-a mers.<br/><br/><strong>Formulare academică:</strong> activarea cunoștințelor anterioare devine autoreglare atunci când este intenționată și conștientă, orientată de obiectivul sarcinii.<br/><br/><strong>Exemplu:</strong> recitesc noțiuni vechi și aleg strategii înainte de a începe.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>obiectivele pot fi ajustate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi reformulez ținta pe parcurs.<br/><br/><strong>Formulare academică:</strong> obiectivele pot fi ajustate/reformulate în timpul activității, deoarece autoreglarea este adaptativă.<br/><br/><strong>Exemplu:</strong> „termin tema” → devine „clarific conceptul dificil”.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Țintă vs. direcție</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> „ce finalizez” vs. „de ce urmăresc”.<br/><br/>
+          <strong>Formulare academică:</strong> obiectivul-țintă vizează un rezultat concret al sarcinii, iar obiectivul de direcție exprimă motivul general care justifică urmărirea sarcinii.<br/><br/>
+          <strong>Exemplu:</strong> țintă: „rezolv corect exercițiile”; direcție: „vreau să înțeleg mai bine materia”.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">2️⃣ Monitorizarea cogniției</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔎 <span class='tip'><strong>conștientizarea propriei cunoașteri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> observ ce înțeleg, ce nu înțeleg, cât de sigur sunt.<br/><br/><strong>Formulare academică:</strong> monitorizarea cogniției reprezintă conștientizarea metacognitivă a stării propriei cunoașteri, componentă centrală a metacogniției.<br/><br/><strong>Exemplu:</strong> îmi dau seama că pot explica o idee sau că doar o recunosc.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "📚 <span class='tip'><strong>cunoștințe metacognitive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> știu dacă știu, știu cum, știu când și de ce.<br/><br/><strong>Formulare academică:</strong> monitorizarea se sprijină pe cunoștințe declarative („știu dacă știu”), procedurale („știu cum”) și condiționale („știu când și de ce”).<br/><br/><strong>Exemplu:</strong> aleg recitirea sau exercițiile în funcție de sarcină.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "📝 <span class='tip'><strong>Judgement of Learning (JOL) și Feeling of Knowing (FOK)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> estimări despre cât voi ști (JOL) și „nu-mi vine acum, dar știu că știu” (FOK).<br/><br/><strong>Formulare academică:</strong> judecățile metacognitive (JOL și FOK) ghidează deciziile de studiu; o limită frecventă este supraevaluarea în FOK („voi recupera”, dar la test nu reușesc).<br/><br/><strong>Exemplu:</strong> decid să reiau materia când JOL e scăzut.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">3️⃣ Control și reglare cognitivă</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎛️ <span class='tip'><strong>ajustarea strategiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu continui la fel dacă nu funcționează.<br/><br/><strong>Formulare academică:</strong> controlul/reglarea cognitivă constă în adaptarea strategiilor la cerințele sarcinii și la obiective, prin păstrarea, schimbarea sau combinarea strategiilor.<br/><br/><strong>Exemplu:</strong> trec de la citit la scheme + exerciții.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧰 <span class='tip'><strong>strategii cognitive vs. metacognitive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „fac” (cognitive) vs. „decid și schimb” (metacognitive).<br/><br/><strong>Formulare academică:</strong> strategiile cognitive vizează prelucrarea directă (memorare, rezolvare), iar strategiile metacognitive reglează utilizarea lor prin decizie și schimbare strategică.<br/><br/><strong>Exemplu:</strong> aleg să schimb metoda când observ blocaj.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🔁 <span class='tip'><strong>reflecție și evaluare permanentă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> analizez ce a funcționat și corectez devreme.<br/><br/><strong>Formulare academică:</strong> reflecția implică judecăți și evaluări ale performanței, iar autoreglarea eficientă atribuie succesul/eșecul strategiilor, susținând ajustarea continuă a acestora.<br/><br/><strong>Exemplu:</strong> „strategia nu a fost bună” → schimb imediat metoda.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică autoreglarea cogniției în modelul lui Pintrich",
-          back: "Autoreglarea cogniției include <span class='tip'><strong>planificarea și activarea</strong><span class='tooltip-box'>Stabilirea obiectivelor, activarea cunoștințelor cognitive și metacognitive relevante.</span></span>, <span class='tip'><strong>monitorizarea</strong><span class='tooltip-box'>Conștientizarea nivelului de înțelegere prin judecăți precum JOL și FOK.</span></span>, <span class='tip'><strong>controlul</strong><span class='tooltip-box'>Alegerea și ajustarea strategiilor cognitive și metacognitive.</span></span> și <span class='tip'><strong>reflecția</strong><span class='tooltip-box'>Evaluarea performanței și atribuirea succesului sau eșecului strategiilor, nu abilităților fixe.</span></span>.",
+          front:
+            "Explică autoreglarea motivației și a stărilor afective prin planificare",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Autoreglarea motivației și a stărilor afective vizează
+      <span class='tip'><strong>convingeri, scopuri și emoții legate de sarcină</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> îmi organizez „energia internă” înainte și în timpul sarcinii.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea motivației și afectului presupune planificarea și gestionarea convingerilor (autoeficacitate, așteptări), a scopurilor (de direcție) și a emoțiilor asociate sarcinii, pentru a susține inițierea și persistența în activitate.<br/><br/>
+          <strong>Exemplu:</strong> îmi reamintesc scopul și îmi reduc evitarea când apare anxietatea.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componente în planificarea motivațională</div>
+
+    ${window.flashPillList([
+      {
+        text: "💪 <span class='tip'><strong>Autoeficacitatea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> convingerea că pot reuși (nu măsură obiectivă a abilităților).<br/><br/><strong>Formulare academică:</strong> autoeficacitatea reprezintă credința elevului că poate reuși într-o sarcină și influențează alegerea sarcinii, efortul și persistența.<br/><br/><strong>Exemplu:</strong> dacă „cred că pot”, muncesc mai mult și rezist mai bine la dificultate.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📏 <span class='tip'><strong>EOL (Ease of Learning)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> judecăți înainte de învățare: „cât de ușor/dificil va fi?”.<br/><br/><strong>Formulare academică:</strong> EOL sunt estimări anticipative ale dificultății, care corelează doar moderat cu performanța reală și pot ghida planificarea efortului.<br/><br/><strong>Exemplu:</strong> dacă anticipez dificultate, aloc mai mult timp.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "💎 <span class='tip'><strong>Valoarea sarcinii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dacă e importantă/utilă/relevantă pentru mine, mă implic mai ușor.<br/><br/><strong>Formulare academică:</strong> valoarea percepută (importanță, utilitate, relevanță) crește probabilitatea de angajare în sarcină.<br/><br/><strong>Exemplu:</strong> „are sens pentru obiectivele mele” → mă apuc mai repede.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🌟 <span class='tip'><strong>Interesul și emoțiile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pot fi interesat, dar să simt și anxietate/frică când miza e mare.<br/><br/><strong>Formulare academică:</strong> interesul personal poate facilita implicarea, dar poate coexista cu emoții negative (anxietate/frică) care interferează cu performanța.<br/><br/><strong>Exemplu:</strong> „e foarte important” → emoțiile pot bloca atenția.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică autoreglarea motivației și a stărilor afective",
-          back: "Autoreglarea motivației vizează <span class='tip'><strong>autoeficacitatea</strong><span class='tooltip-box'>Credința în capacitatea proprie de a duce la bun sfârșit o sarcină influențează efortul și persistența.</span></span>, <span class='tip'><strong>valoarea sarcinii</strong><span class='tooltip-box'>Importanța, utilitatea și relevanța percepută a sarcinii conform modelului expectanță–valoare.</span></span> și <span class='tip'><strong>controlul emoțiilor</strong><span class='tooltip-box'>Strategii volitive, vorbire pentru sine, recompense și reîncadrarea atribuțiilor pentru protejarea motivației.</span></span>.",
+          front:
+            "Explică autoreglarea motivației și a stărilor afective prin valoarea sarcinii și modelul expectanță–valoare",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Modelul expectanță–valoare</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> mă apuc când cred că pot reuși și când merită pentru mine.<br/><br/>
+          <strong>Formulare academică:</strong> implicarea în sarcină este susținută de combinația dintre șansele percepute de succes și valoarea sarcinii, care acționează anticipativ asupra inițierii activității.<br/><br/>
+          <strong>Exemplu:</strong> „pot reuși” + „are sens pentru viitorul meu” → încep mai ușor.
+        </span>
+      </span> - „pot și merită”
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Componentele modelului expectanță–valoare</div>
+
+    ${window.flashPillList([
+      {
+        text: "📈 <span class='tip'><strong>șansele percepute de succes</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „cred că pot reuși?”.<br/><br/><strong>Formulare academică:</strong> elevul estimează probabilitatea reușitei, ceea ce susține decizia de a începe și de a continua sarcina.<br/><br/><strong>Exemplu:</strong> dacă mă percep capabil, investesc efort.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "💎 <span class='tip'><strong>valoarea sarcinii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „merită pentru mine?”.<br/><br/><strong>Formulare academică:</strong> valoarea sarcinii include relevanța pentru obiectivele personale și utilitatea/importanța pentru scopuri școlare sau viitoare.<br/><br/><strong>Exemplu:</strong> văd legătura cu obiectivele mele → cresc implicarea.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <hr class="hr-flash">
+
+     <div class='flash-title' style="${FLASH_TITLE_STYLE}">Valoarea modelului</div>
+    ${window.flashPillList([
+      {
+        text: "📌 <span class='tip'><strong>relevanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> are legătură cu ce urmăresc eu.<br/><br/><strong>Formulare academică:</strong> relevanța exprimă congruența dintre sarcină și obiectivele personale ale elevului.<br/><br/><strong>Exemplu:</strong> „mă ajută la ce îmi propun”.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🛠️ <span class='tip'><strong>utilitate și importanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi folosește la un scop concret.<br/><br/><strong>Formulare academică:</strong> utilitatea și importanța justifică investiția de efort prin raportare la scopuri școlare sau viitoare.<br/><br/><strong>Exemplu:</strong> „îmi trebuie pentru examen/viitor”.</span></span>",
+        key: "amber",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Atenție: valoare mare, dar...</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> dacă miza e mare, pot apărea anxietate/frică și îmi scade performanța.<br/><br/>
+          <strong>Formulare academică:</strong> o valoare percepută foarte ridicată poate coexista cu anxietate/frică, care interferează cu performanța prin perturbarea atenției și a execuției sarcinii.<br/><br/>
+          <strong>Exemplu:</strong> „e foarte important” → emoțiile îmi blochează atenția.
+        </span>
+      </span>
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică autoreglarea comportamentului",
-          back: "Autoreglarea comportamentului implică <span class='tip'><strong>gestionarea timpului și efortului</strong><span class='tooltip-box'>Planificarea activității și dozarea resurselor în funcție de cerințele sarcinii.</span></span>, <span class='tip'><strong>monitorizarea comportamentului</strong><span class='tooltip-box'>Conștientizarea modului de lucru și a implicării.</span></span>, <span class='tip'><strong>ajustări în timpul sarcinii</strong><span class='tooltip-box'>Modificarea efortului, căutarea ajutorului, schimbarea strategiilor.</span></span> și <span class='tip'><strong>reflecția comportamentală</strong><span class='tooltip-box'>Evaluarea modului de lucru și a deciziilor comportamentale.</span></span>.",
+          front: "Definește autoreglarea comportamentului (Pintrich, 2000)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În autoreglarea comportamentală, elevul își gestionează activitatea prin
+      <span class='tip'><strong>planificare, monitorizare, control și reflecție</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> îmi organizez timpul și metodele, urmăresc cum lucrez și ajustez când e nevoie.<br/><br/>
+          <strong>Formulare academică:</strong> autoreglarea comportamentului constă în planificarea și monitorizarea timpului și a strategiilor de studiu, precum și în controlul prin ajustarea timpului și efortului în funcție de reevaluarea dificultății sarcinii, urmate de judecăți reflexive despre propriile obiceiuri de lucru.<br/><br/>
+          <strong>Exemplu:</strong> redistribui timpul când o parte devine mai dificilă decât anticipasem.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Planificare și monitorizare</div>
+
+    ${window.flashPillList([
+      {
+        text: "🗓️ <span class='tip'><strong>planificarea activității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> stabilesc programul și metodele potrivite.<br/><br/><strong>Formulare academică:</strong> planificarea/activarea comportamentală presupune organizarea timpului și selectarea metodelor de lucru adecvate cerințelor sarcinii.<br/><br/><strong>Exemplu:</strong> „azi 45 min recapitulare + 30 min exerciții”.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "👀 <span class='tip'><strong>monitorizarea comportamentului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> urmăresc timpul și efortul, ca să nu pierd ritmul.<br/><br/><strong>Formulare academică:</strong> monitorizarea urmărește timpul și efortul investit și permite redistribuirea resurselor când apar devieri de la plan.<br/><br/><strong>Exemplu:</strong> „am stat prea mult pe o parte → redistribui timpul”.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Control și reflecție</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎛️ <span class='tip'><strong>controlul comportamentului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ajustez timpul și efortul, nu țin rigid de plan.<br/><br/><strong>Formulare academică:</strong> controlul constă în ajustarea timpului și efortului în funcție de reevaluarea dificultății sarcinii, prin recalibrare pe parcurs.<br/><br/><strong>Exemplu:</strong> aloc mai mult timp unei părți dificile.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🤝 <span class='tip'><strong>căutarea ajutorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cer sprijin când mă blochez.<br/><br/><strong>Formulare academică:</strong> solicitarea ajutorului de la profesor/colegi este o strategie comportamentală eficientă pentru depășirea aspectelor dificile și menținerea progresului.<br/><br/><strong>Exemplu:</strong> „nu înțeleg pasul 3 → cer o explicație/un exemplu rezolvat”.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🪞 <span class='tip'><strong>reacție și reflecție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> analizez cum am lucrat și ce obiceiuri m-au ajutat/încurcat.<br/><br/><strong>Formulare academică:</strong> reflecția comportamentală implică judecăți despre propriile comportamente de lucru și despre motivația care le-a susținut, orientând schimbări ale rutinei.<br/><br/><strong>Exemplu:</strong> „am amânat prea mult → schimb rutina”.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Explică reglarea contextului de învățare",
-          back: "Reglarea contextului presupune <span class='tip'><strong>perceperea și reinterpretarea contextului</strong><span class='tooltip-box'>Norme ale clasei, cerințe ale sarcinilor și climat educațional pot fi percepute diferit și influențează autoreglarea.</span></span>, <span class='tip'><strong>monitorizarea oportunităților și constrângerilor</strong><span class='tooltip-box'>Reguli, evaluare, recompense.</span></span> și <span class='tip'><strong>control limitat al contextului</strong><span class='tooltip-box'>Negocierea sarcinilor și structurarea mediului, când este posibil.</span></span>.",
+          front:
+            "Cum se poate face îmbunătățirea abilităților autoreglatorii (Zimmerman, Cleary & Zimmerman)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Programul Cleary & Zimmerman</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> elevul poate învăța strategii mai bune și devine mai independent.<br/><br/>
+          <strong>Formulare academică:</strong> intervenția vizează dezvoltarea abilităților de autoreglare pornind de la premisa că succesul este, în mare măsură, sub controlul elevului prin utilizarea și ajustarea strategiilor de învățare.<br/><br/>
+          <strong>Exemplu:</strong> elevul înlocuiește strategii ineficiente cu unele eficiente și își crește independența.
+        </span>
+      </span>
+    </div>
+
+    <div style="margin-top:10px;">
+      Mesaj central:
+      <span class='tip'><strong>sentimentul de control</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> „pot influența rezultatul”.<br/><br/>
+          <strong>Formulare academică:</strong> consolidarea percepției de control susține motivația și rezultatele, deoarece elevul persevereză mai mult când vede o cale realistă de îmbunătățire prin strategii.<br/><br/>
+          <strong>Exemplu:</strong> după un rezultat slab, elevul caută o metodă mai eficientă în loc să renunțe.
+        </span>
+      </span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Două componente principale</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣ <span class='tip'><strong>evaluare inițială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> văd ce face elevul acum și ce îl blochează.<br/><br/><strong>Formulare academică:</strong> se evaluează strategiile de studiu utilizate, motivația elevului și capacitatea de ajustare (poate schimba strategia când nu funcționează).<br/><br/><strong>Exemplu:</strong> identific dacă elevul repetă mecanic și dacă poate trece la o strategie mai bună.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "2️⃣ <span class='tip'><strong>formare autoreglată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> transform strategii ineficiente în unele eficiente, spre independență.<br/><br/><strong>Formulare academică:</strong> componenta de formare urmărește înlocuirea strategiilor ineficiente cu strategii eficiente și creșterea independenței elevului în învățare.<br/><br/><strong>Exemplu:</strong> elevul învață să își planifice și să își monitorizeze studiul.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum se învață strategiile</div>
+
+    ${window.flashPillList([
+      {
+        text: "👥 <span class='tip'><strong>modelare socială</strong><span class='tooltip-box'><strong>Spus simplu:</strong> observ și imit din surse sociale.<br/><br/><strong>Formulare academică:</strong> strategiile sunt învățate inițial prin observarea și imitarea modelelor relevante.<br/><br/><strong>Exemplu:</strong> văd cum un coleg își structurează rezolvarea și preiau pașii.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🪜 <span class='tip'><strong>practică ghidată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> exersez cu sprijin.<br/><br/><strong>Formulare academică:</strong> elevul aplică strategiile sub ghidaj, cu suport și corecții care facilitează reglarea progresivă.<br/><br/><strong>Exemplu:</strong> rezolv cu feedback pe pași.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>utilizare independentă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aplic singur în situații noi.<br/><br/><strong>Formulare academică:</strong> elevul transferă și utilizează strategiile autonom, în contexte și sarcini noi.<br/><br/><strong>Exemplu:</strong> își face singur planul pentru un capitol nou.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Rolul feedback-ului</strong>
+        <span class='tooltip-box'>
+          <strong>Spus simplu:</strong> feedback-ul îmi spune ce ajustez data viitoare.<br/><br/>
+          <strong>Formulare academică:</strong> feedback-ul susține ajustările strategice prin ciclul obiective → monitorizare → evaluare → ajustare, orientând îmbunătățirea în sarcina următoare.<br/><br/>
+          <strong>Exemplu:</strong> rezultat slab → schimb strategia pentru sarcina următoare.
+        </span>
+      </span>
+    </div>
+  </div>
+
+</div>`,
+        },
+      ],
+    },
+  ],
+  "phed-u10": [
+    {
+      id: "phed-u10-deck1",
+      title: "U10 Flashcards",
+      cards: [
+        {
+          front: "Definiția grupului (De Visscher)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Pentru <span class='tip'><strong>De Visscher</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> ca să existe „grup”, nu ajunge să fii pe aceeași listă; trebuie contact direct, aici-și-acum.<br/><br/>
+        <strong>Formulare academică:</strong> definirea grupului restrâns accentuează criteriile minime de interacțiune nemijlocită și recunoaștere reciprocă, ca bază pentru apariția structurii și dinamicii de grup.<br/><br/>
+        <strong>Exemplu:</strong> o clasă care lucrează față în față dezvoltă rapid norme și roluri; o „listă” de elevi fără contact direct nu produce aceeași dinamică.
+      </span></span>,
+      <span class='tip'><strong>grupul restrâns</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> un grup mic, cu interacțiune directă.<br/><br/>
+        <strong>Formulare academică:</strong> grupul restrâns este o unitate socială de dimensiune mică, definită prin prezență concomitentă, comunicare și influență reciprocă directă.<br/><br/>
+        <strong>Exemplu:</strong> echipă de proiect care lucrează în aceeași sală, în același interval.
+      </span></span>
+      este un ansamblu de <span class='tip'><strong>minimum cinci persoane</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> suficienți membri pentru relații variate, nu doar „unu la unu”.<br/><br/>
+        <strong>Formulare academică:</strong> pragul minim permite apariția unei rețele de relații interpersonale și a unei structuri relaționale, nu doar relații de tip diadă/triadă.<br/><br/>
+        <strong>Exemplu:</strong> într-un grup de 5+, apar rapid alianțe, subgrupuri și roluri informale.
+      </span></span>
+      care sunt <span class='tip'><strong>împreună</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> în același loc și timp.<br/><br/>
+        <strong>Formulare academică:</strong> prezența efectivă și concomitentă face posibilă reglarea reciprocă imediată și feedback-ul social în timp real.<br/><br/>
+        <strong>Exemplu:</strong> discuție față în față, nu doar mesaje asimetrice.
+      </span></span>,
+      se <span class='tip'><strong>percep</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> se recunosc ca persoane prezente.<br/><br/>
+        <strong>Formulare academică:</strong> perceperea reciprocă susține recunoașterea identității sociale minimale („cine este cine”) și anticiparea reacțiilor celorlalți.<br/><br/>
+        <strong>Exemplu:</strong> îi identifici și știi „cum reacționează de obicei”.
+      </span></span>,
+      <span class='tip'><strong>comunică</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> schimb direct de mesaje verbale și nonverbale.<br/><br/>
+        <strong>Formulare academică:</strong> comunicarea directă constituie canalul prin care se construiesc norme, se negociază sensuri și se reglează acțiunile comune.<br/><br/>
+        <strong>Exemplu:</strong> întrebări, clarificări, acord/dezacord vizibil.
+      </span></span>
+      și <span class='tip'><strong>interacționează direct</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> ce face unul îi influențează pe ceilalți imediat.<br/><br/>
+        <strong>Formulare academică:</strong> interacțiunea directă implică influență reciprocă, în care acțiunile și reacțiile se condiționează mutual în cadrul activității comune.<br/><br/>
+        <strong>Exemplu:</strong> o inițiativă schimbă ritmul și deciziile întregului grup.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce NU e suficient</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>apartenență formală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> a fi în aceeași instituție nu înseamnă automat grup.<br/><br/><strong>Formulare academică:</strong> apartenența administrativă poate exista fără interacțiune directă; rolurile/statuturile formale pot apărea ulterior, dar nu constituie criteriul minim.<br/><br/><strong>Exemplu:</strong> ești „în listă”, dar nu ai contact nemijlocit cu ceilalți.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "<span class='tip'><strong>participare doar la distanță</strong><span class='tooltip-box'><strong>Spus simplu:</strong> interacțiunea mediată poate crea comunități, dar nu îndeplinește criteriul clasic de prezență efectivă.<br/><br/><strong>Formulare academică:</strong> în definirea clasică, absența co-prezenței reduce caracterul nemijlocit al perceperii și al interacțiunii, criterii centrale pentru grupul restrâns.<br/><br/><strong>Exemplu:</strong> mesaje asimetrice, fără reglaj imediat în timp real.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Durabilitatea</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> grupul trebuie să „țină” suficient ca să se stabilizeze relațiile.<br/><br/>
+        <strong>Formulare academică:</strong> persistența în timp permite apariția și consolidarea rolurilor, regulilor și relațiilor interpersonale stabile, care dau structură grupului.<br/><br/>
+        <strong>Exemplu:</strong> întâlniri repetate → rutine și norme; o întâlnire ocazională nu produce structuri de grup.
+      </span></span>
+      face posibilă formarea de <strong>roluri</strong>, <strong>reguli</strong> și <strong>relații</strong>.
+    </div>
+  </div>
+
+</div>`,
         },
 
         {
-          front: "Cum se pot dezvolta abilitățile de autoreglare",
-          back: "Conform lui <span class='tip'><strong>Cleary și Zimmerman</strong><span class='tooltip-box'>Autoreglarea se dezvoltă prin instruire directă în strategii de învățare, cultivarea autoeficacității și utilizarea ciclului de feedback.</span></span>, printr un proces de <span class='tip'><strong>împuternicire</strong><span class='tooltip-box'>Elevii învață că succesul depinde în mare măsură de modul în care folosesc strategiile, nu de factori externi fixați.</span></span>, ceea ce crește motivația, speranța și performanța.",
+          front: "Expune categorii de grupuri și clasificări relevante",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Grupurile pot fi înțelese pe un
+      <span class='tip'><strong>continuum al organizării</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> de la „mulți oameni laolaltă” (structură minimă) la grupuri cu roluri, reguli și planificare (structură ridicată).<br/><br/>
+        <strong>Formulare academică:</strong> clasificarea urmărește gradul de structurare (norme, roluri, coeziune și planificare), care diferențiază formele de agregare socială de grupurile instituționalizate.<br/><br/>
+        <strong>Exemplu:</strong> un public la un eveniment vs. o organizație cu proceduri.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Anzieu & Martin: 5 tipuri (după nivelul de organizare)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌊 <span class='tip'><strong>mulțimea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> număr foarte mare, întâlnire adesea întâmplătoare, fără „noi” stabil.<br/><br/><strong>Formulare academică:</strong> agregare cu organizare foarte scăzută, contact slab și coeziune minimă.<br/><br/><strong>Exemplu:</strong> public la spectacole/competiții.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧢 <span class='tip'><strong>banda</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grup mic, întâlniri intenționate, plăcerea de a fi împreună.<br/><br/><strong>Formulare academică:</strong> organizare scăzută, centrată pe întâlniri voluntare și preocupări similare, fără structură formală.<br/><br/><strong>Exemplu:</strong> grup de prieteni care se întâlnește regulat.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>gruparea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> întâlniri periodice, relații mai degrabă superficiale.<br/><br/><strong>Formulare academică:</strong> organizare medie, continuitate relativă, scopuri mai stabile, dar intimitate relațională redusă.<br/><br/><strong>Exemplu:</strong> grup care se întâlnește periodic pentru o activitate.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🤝 <span class='tip'><strong>grupul primar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grup restrâns, relații apropiate, comunicare directă.<br/><br/><strong>Formulare academică:</strong> organizare ridicată, cunoaștere reciprocă și interacțiune frecventă; echivalent cu grupul restrâns.<br/><br/><strong>Exemplu:</strong> familia, clasa de elevi, grup apropiat de prieteni.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏛️ <span class='tip'><strong>grupul secundar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> instituționalizat: reguli, roluri, ierarhii, acțiuni planificate.<br/><br/><strong>Formulare academică:</strong> organizare foarte ridicată, număr mare și funcționare formalizată, cu scopuri și proceduri explicite.<br/><br/><strong>Exemplu:</strong> școala, universitatea, organizații mari.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Clasificări utile în educație</div>
+
+    ${window.flashPillList([
+      {
+        text: "🏷️ <span class='tip'><strong>grup de apartenență</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „unde sunt” și particip efectiv.<br/><br/><strong>Formulare academică:</strong> grupul în care persoana trăiește direct interacțiunile și normele cotidiene.<br/><br/><strong>Exemplu:</strong> clasa, familia.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🎯 <span class='tip'><strong>grup de referință</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „cu cine vreau să semăn”.<br/><br/><strong>Formulare academică:</strong> grupul ale cărui valori și modele orientează evaluările și conduitele individului, chiar dacă nu aparține efectiv.<br/><br/><strong>Exemplu:</strong> un grup cu care elevul se identifică aspirațional.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📌 <span class='tip'><strong>grup formal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> organizare explicită: roluri, reguli, ierarhii.<br/><br/><strong>Formulare academică:</strong> structură instituționalizată, definită prin norme și roluri prescrise.<br/><br/><strong>Exemplu:</strong> clasa ca structură oficială.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🔗 <span class='tip'><strong>grup informal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rețeaua reală de popularități, alianțe, conflicte.<br/><br/><strong>Formulare academică:</strong> structură spontană a relațiilor, care poate susține sau sabota funcționarea formală.<br/><br/><strong>Exemplu:</strong> subgrupuri de prieteni din clasă.</span></span>",
+        key: "amber",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Idee importantă - efiență crescută când tipurile de organizare se suprapun</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> un grup merge bine când „oficialul” și „neoficialul” nu se sabotează.<br/><br/>
+        <strong>Formulare academică:</strong> eficiența crește când structura formală și organizarea informală sunt congruente și se susțin reciproc.<br/><br/>
+        <strong>Exemplu:</strong> echipele stabilite de profesor nu intră în conflict cu relațiile de cooperare existente.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Descrie caracteristicile grupurilor eficiente (Zlate, McGregor)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Un <span class='tip'><strong>grup eficient</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> relațiile din grup ajută sarcina și bunăstarea, nu le blochează.<br/><br/>
+        <strong>Formulare academică:</strong> eficiența de grup rezultă din funcționarea relațiilor (norme, roluri, coeziune, climat, influență reciprocă) care pot amplifica sau diminua performanța, dincolo de nivelul individual al membrilor.<br/><br/>
+        <strong>Exemplu:</strong> aceeași componență poate performa diferit în funcție de climat și norme.
+      </span></span>
+      produce <span class='tip'><strong>fenomene psihologice de grup</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> apar reguli, roluri, coeziune, presiuni și un climat propriu.<br/><br/>
+        <strong>Formulare academică:</strong> din interacțiune rezultă proprietăți emergente (norme, roluri, coeziune, leadership informal) care modelează conduita colectivă.<br/><br/>
+        <strong>Exemplu:</strong> „așa se face la noi” devine normă și schimbă comportamente.
+      </span></span>.
+    </div>
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Neglijarea analizei relaționale</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> dacă ignori relațiile, nu înțelegi grupul.<br/><br/>
+        <strong>Formulare academică:</strong> neglijarea analizei relaționale reprezintă o limită majoră, deoarece împiedică explicarea consolidării, menținerii și gestionării dinamicii de grup, mai ales în contexte educaționale.<br/><br/>
+        <strong>Exemplu:</strong> intervențiile doar „pe conținut” pot eșua dacă tensiunile relaționale rămân neadresate.
+      </span></span>
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum arată un grup eficient (McGregor)</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>climat confortabil</strong><span class='tooltip-box'><strong>Spus simplu:</strong> atmosferă destinsă, tensiuni vizibile reduse.<br/><br/><strong>Formulare academică:</strong> climat socio-emoțional care încurajează participarea și cooperarea, cu rigiditate și tensiuni manifeste scăzute.<br/><br/><strong>Exemplu:</strong> oamenii vorbesc fără teamă, iar discuția rămâne constructivă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>participare reală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> discută mai mulți, nu doar 1–2, fără să se piardă sarcina.<br/><br/><strong>Formulare academică:</strong> implicare distribuită a membrilor în interacțiuni, menținând focalizarea pe obiectiv.<br/><br/><strong>Exemplu:</strong> ideile circulă între toți, nu sunt monopolizate.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>obiectiv clar și acceptat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> știm ce facem și suntem de acord.<br/><br/><strong>Formulare academică:</strong> obiectivul este bine înțeles și legitimat prin acceptare, nu doar impus formal, ceea ce stabilizează orientarea comună.<br/><br/><strong>Exemplu:</strong> există consens asupra sarcinii și criteriilor.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>libertate de exprimare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pot exprima idei și sentimente, ceea ce ajută rezolvarea problemelor.<br/><br/><strong>Formulare academică:</strong> climat de comunicare care permite exprimarea ideilor și a trăirilor, facilitând clarificarea și integrarea perspectivelor în decizii.<br/><br/><strong>Exemplu:</strong> dezacordul este exprimat și lucrat, nu suprimat.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum arată un grup ineficient</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>obiective confuze</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu e clar ce urmărim; apar scopuri personale în conflict.<br/><br/><strong>Formulare academică:</strong> neclaritatea obiectivelor și competiția scopurilor individuale slăbesc coordonarea și performanța colectivă.<br/><br/><strong>Exemplu:</strong> discuțiile se risipesc pentru că nu există direcție comună.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "<span class='tip'><strong>ascultare slabă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> oamenii nu se ascultă; conversația devine incoerentă.<br/><br/><strong>Formulare academică:</strong> lipsa ascultării și a integrării contribuțiilor produce fragmentare și scade calitatea deciziilor.<br/><br/><strong>Exemplu:</strong> se sare de la o idee la alta fără clarificare.</span></span>",
+        key: "pink",
+      },
+      {
+        text: "<span class='tip'><strong>dezacord prost gestionat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conflictul se „închide” rapid, fără clarificare reală.<br/><br/><strong>Formulare academică:</strong> soluționarea superficială (de ex., prin vot rapid al unei mici majorități) împiedică integrarea perspectivelor și menține tensiuni latente.<br/><br/><strong>Exemplu:</strong> decizia se ia „ca să terminăm”, nu ca să înțelegem.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Explică dinamica grupurilor (Kurt Lewin, 1947)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Pentru <span class='tip'><strong>Kurt Lewin (1947)</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> grupul este un întreg care schimbă membrii și relațiile dintre ei.<br/><br/>
+        <strong>Formulare academică:</strong> grupul este mai mult decât suma indivizilor: interacțiunea produce proprietăți emergente și transformă comportamentele și atitudinile membrilor prin influență reciprocă.<br/><br/>
+        <strong>Exemplu:</strong> norme și presiune de grup apar și modifică felul în care oamenii participă.
+      </span></span>,
+      grupul este <span class='tip'><strong>mai mult decât suma indivizilor</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> „împreună” apar efecte care nu existau separat.<br/><br/>
+        <strong>Formulare academică:</strong> din interacțiune rezultă fenomene emergente (norme, roluri, coeziune, leadership informal) care nu pot fi explicate doar prin nivelul individual.<br/><br/>
+        <strong>Exemplu:</strong> un lider informal poate apărea fără să fie numit oficial.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce aduce perspectiva lui Lewin</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>proprietăți emergente</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apar norme, coeziune, roluri, presiune de grup.<br/><br/><strong>Formulare academică:</strong> structura și funcționarea grupului generează proprietăți colective care organizează conduita membrilor.<br/><br/><strong>Exemplu:</strong> normele implicite („așa facem aici”) reglează participarea.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>caracter dinamic și transformator</strong><span class='tooltip-box'><strong>Spus simplu:</strong> interacțiunea schimbă oameni și relații.<br/><br/><strong>Formulare academică:</strong> grupul are caracter dinamic: interacțiunea generează schimbări în atitudini și comportamente, iar schimbările structurale sunt resimțite de membrii săi.<br/><br/><strong>Exemplu:</strong> schimbarea climatului modifică participarea.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ipoteze despre grup (Lewin)</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>grupul = spațiul vital</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mediul psihosocial imediat al individului.<br/><br/><strong>Formulare academică:</strong> grupul constituie terenul psihosocial ocupat de individ, care definește posibilități, constrângeri și influențe directe asupra conduitei.<br/><br/><strong>Exemplu:</strong> clasa ca mediu imediat al elevului.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>instrument de satisfacere a trebuințelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prin grup îmi împlinesc nevoi de apartenență și recunoaștere.<br/><br/><strong>Formulare academică:</strong> grupul funcționează ca mediu de satisfacere a trebuințelor psihosociale (apartenență, recunoaștere, afirmare).<br/><br/><strong>Exemplu:</strong> elevul caută validare și sprijin în colectiv.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>schimbările de grup sunt resimțite de individ</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dacă se schimbă grupul, se schimbă și cum mă simt/lucrez.<br/><br/><strong>Formulare academică:</strong> modificările din structura și dinamica grupului afectează direct membrul, deoarece acesta este parte integrantă a întregului.<br/><br/><strong>Exemplu:</strong> schimbarea normelor modifică participarea.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "<span class='tip'><strong>grupul susține dezvoltarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> grupul mă ajută să mă integrez și să evoluez social.<br/><br/><strong>Formulare academică:</strong> grupul aparține universului social al individului și oferă cadrul integrării și dezvoltării personale prin interacțiune și apartenență.<br/><br/><strong>Exemplu:</strong> competențe relaționale formate în clasă.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Raportul individ–grup</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> individul influențează grupul și grupul influențează individul.<br/><br/>
+        <strong>Formulare academică:</strong> influența este reciprocă: schimbările în grup produc efecte asupra individului, iar schimbările în individ se reflectă asupra grupului.<br/><br/>
+        <strong>Exemplu:</strong> o normă nouă schimbă conduita elevilor; un elev nou poate schimba echilibrul relațional.
+      </span></span>.
+      <div style="margin-top:10px;">
+        <span class='tip'><strong>Implicație educațională</strong><span class='tooltip-box'>
+          <strong>Spus simplu:</strong> dacă schimbi norme, roluri sau climat, schimbi comportamentele elevilor.<br/><br/>
+          <strong>Formulare academică:</strong> intervenția asupra normelor, rolurilor și climatului produce modificări comportamentale, deoarece conduita este organizată de dinamica de grup.<br/><br/>
+          <strong>Exemplu:</strong> reguli clare + climat cooperant → crește participarea.
+        </span></span>
+      </div>
+      <div style="margin-top:10px;">
+        <span class='tip'><strong>Greșeală frecventă</strong><span class='tooltip-box'>
+          <strong>Spus simplu:</strong> să tratezi clasa ca indivizi izolați.<br/><br/>
+          <strong>Formulare academică:</strong> ignorarea dinamicii relaționale reduce capacitatea de a explica și gestiona comportamentele colective și conflictele educaționale.<br/><br/>
+          <strong>Exemplu:</strong> sancțiuni individuale fără adresarea normelor de grup.
+        </span></span>
+      </div>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Descrie conceptul de „comunitatea de învățare”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      O <span class='tip'><strong>comunitate de învățare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> clasa devine un spațiu al învățării autentice, nu doar al predării.<br/><br/>
+        <strong>Formulare academică:</strong> comunitatea de învățare apare când gestionarea interacțiunii, scopurilor, rolurilor, normelor și coeziunii creează condiții pentru achiziții durabile, susținute de cooperare și mediere socială.<br/><br/>
+        <strong>Exemplu:</strong> elevii învață prin dialog, feedback și rezolvare de probleme împreună, nu doar prin recepție.
+      </span></span>
+      se construiește prin gestionarea bună a <strong>interacțiunii</strong>, <strong>scopurilor</strong>, <strong>rolurilor</strong>, <strong>normelor</strong> și <strong>coeziunii</strong>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce exprimă</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>achiziții durabile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> susține învățarea pe termen lung și învățarea pe tot parcursul vieții.<br/><br/><strong>Formulare academică:</strong> comunitatea de învățare maximizează efectele educaționale ale activităților de grup, orientând spre achiziții stabile și transferabile.<br/><br/><strong>Exemplu:</strong> elevul păstrează strategii și în contexte noi.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>învățarea rămâne individuală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare învață personal, dar este ajutat de ceilalți.<br/><br/><strong>Formulare academică:</strong> învățarea este personală, însă este facilitată prin mediere socială (cooperare, dialog, feedback, modele).<br/><br/><strong>Exemplu:</strong> colegii oferă perspective și clarificări care accelerează înțelegerea.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">De ce e importantă în educația contemporană</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>reponderarea competențelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu doar note: și competențe academice, profesionale, personale.<br/><br/><strong>Formulare academică:</strong> integrează competențe academice, profesionale și personale, depășind reducerea educației la performanțe punctuale.<br/><br/><strong>Exemplu:</strong> colaborare, argumentare, responsabilitate în sarcini.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>flexibilitate și adaptabilitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ajută perfecționarea și reconversia prin colaborare și rezolvare de probleme.<br/><br/><strong>Formulare academică:</strong> susține adaptarea prin practici de cooperare și rezolvare de probleme în echipă, relevante pentru învățarea continuă.<br/><br/><strong>Exemplu:</strong> echipe care își împart roluri și își ajustează strategiile.</span></span>",
+        key: "amber",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Munca în echipă (Ciolan)</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> schimbul de idei și feedback-ul accelerează învățarea.<br/><br/>
+        <strong>Formulare academică:</strong> cooperarea facilitează achiziții durabile prin schimb de perspective, negociere de sens, feedback și aplicare, integrând experiențele individuale în rezultate comune.<br/><br/>
+        <strong>Exemplu:</strong> soluțiile diferite sunt comparate și integrate într-un răspuns mai bun.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Spune mai multe despre lecția „Vechi în cunoaștere. Instinctul social, curiozitatea și jocul. (Peter Gray)”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În perspectiva lui <span class='tip'><strong>Peter Gray</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> oamenii au mecanisme naturale care îi împing să învețe prin explorare și relații.<br/><br/>
+        <strong>Formulare academică:</strong> învățarea este susținută de mecanisme evolutive care orientează individul spre explorare, exersare și integrare socială, iar aceste mecanisme funcționează ca motoare naturale ale achizițiilor.<br/><br/>
+        <strong>Exemplu:</strong> copiii învață reguli, roluri și cooperare în jocuri, fără predare directă.
+      </span></span>,
+      oamenii sunt „vechi în cunoaștere”: avem mecanisme evolutive care ne împing să învățăm prin <strong>curiozitate</strong>, <strong>joc</strong> și <strong>sociabilitate</strong>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Triada: curiozitate – joc – sociabilitate</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>curiozitatea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> susține explorarea; nu dispare odată cu vârsta.<br/><br/><strong>Formulare academică:</strong> curiozitatea menține orientarea spre explorare și permite dezvoltarea unor investigații tot mai complexe și rafinate.<br/><br/><strong>Exemplu:</strong> elevul caută explicații și pune întrebări din inițiativă.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>spiritul ludic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prin joc folosesc creativ aptitudinile noi.<br/><br/><strong>Formulare academică:</strong> jocul completează curiozitatea prin exersare creativă și flexibilă a aptitudinilor, în contexte cu risc scăzut.<br/><br/><strong>Exemplu:</strong> joc de rol care dezvoltă comunicarea și negocierea.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>funcția evoluționistă a jocului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> jocul exersează aptitudini utile adaptării.<br/><br/><strong>Formulare academică:</strong> jocul are rol adaptativ: antrenează și îmbunătățește aptitudini necesare pentru integrare și eficiență în medii variate.<br/><br/><strong>Exemplu:</strong> jocuri cu reguli dezvoltă autocontrolul și cooperarea.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>sociabilitatea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conectează mințile copiilor și susține învățarea prin schimb.<br/><br/><strong>Formulare academică:</strong> sociabilitatea facilitează învățarea prin interacțiune cu parteneri de vârstă apropiată, prin schimb de idei și coordonare socială.<br/><br/><strong>Exemplu:</strong> elevii învață strategii unii de la alții într-o activitate comună.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Implicație pentru educație</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> învățarea devine mai solidă când valorifici explorarea, jocul și cooperarea.<br/><br/>
+        <strong>Formulare academică:</strong> educația produce achiziții mai robuste atunci când integrează explorarea, activitățile ludice și cooperarea ca medii legitime de învățare, nu ca simple pauze de la învățare.<br/><br/>
+        <strong>Exemplu:</strong> sarcini de explorare și proiecte colaborative care cer negociere de sens.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Spune mai multe despre lecția „Nou în cunoaștere. Avansul tehnologic și cercetarea creierului uman”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Noutatea cercetării contemporane constă în
+      <span class='tip'><strong>cartografierea detaliată a circuitelor neuronale</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> se construiesc „hărți” ale rețelelor și conexiunilor (connectomics).<br/><br/>
+        <strong>Formulare academică:</strong> programele de tip connectomics urmăresc descrierea rețelelor de conexiuni și a circuitelor, depășind explicarea prin „zone izolate” și oferind un tablou relațional fin al funcționării.<br/><br/>
+        <strong>Exemplu:</strong> analiza conexiunilor pentru a înțelege mai bine cum se organizează funcțiile.
+      </span></span>,
+      posibilă prin <span class='tip'><strong>avans tehnologic</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> tehnologia permite analiză foarte fină a țesutului și a conexiunilor.<br/><br/>
+        <strong>Formulare academică:</strong> instrumentele moderne permit investigații microscopice precise ale țesutului și conectivității, oferind date noi despre organizarea rețelelor.<br/><br/>
+        <strong>Exemplu:</strong> secționare ultra-fină și analiză cu microscopie electronică.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce e „nou” față de explicațiile clasice</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>hartă a conexiunilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se studiază rețele, nu doar „locuri”.<br/><br/><strong>Formulare academică:</strong> accentul trece de la localizare simplă la descrierea rețelelor de conexiuni dintre neuroni și circuite.<br/><br/><strong>Exemplu:</strong> aceeași funcție poate implica mai multe conexiuni, nu o singură zonă.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>dezvoltare dependentă de utilizare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rețelele se modifică în funcție de experiență și mediu.<br/><br/><strong>Formulare academică:</strong> se subliniază modificarea rețelelor neuronale în funcție de dezvoltare și utilizare, prin influența experienței și a mediului.<br/><br/><strong>Exemplu:</strong> practici repetitive consolidează anumite conexiuni.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>educația creierului e îndelungată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> maturizarea continuă mult după copilărie (până în jurul vârstei de ~20 ani).<br/><br/><strong>Formulare academică:</strong> reorganizarea și maturizarea se extind până aproximativ în jurul vârstei de 20 de ani, indicând un interval larg de plasticitate și influență educațională.<br/><br/><strong>Exemplu:</strong> intervențiile educaționale au relevanță și în adolescență târzie.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cercetare și semnificație educațională</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>scopul programelor de cercetare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> crearea unei hărți detaliate a circuitelor și conexiunilor (nu „standardizarea” educației).<br/><br/><strong>Formulare academică:</strong> obiectivul este descrierea detaliată a circuitelor și conexiunilor pentru o înțelegere mai bună a funcționării, fără a anula teoriile clasice, ci oferind date complementare.<br/><br/><strong>Exemplu:</strong> date noi care rafinează explicațiile despre dezvoltare.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "<span class='tip'><strong>datele completează explicațiile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> completează, nu înlocuiesc automat psihologia educației.<br/><br/><strong>Formulare academică:</strong> datele neuroștiințifice completează și pot rafina explicațiile despre dezvoltare și învățare, fără a substitui prin ele însele cadrele psihologice și pedagogice.<br/><br/><strong>Exemplu:</strong> proiectarea educațională poate fi mai bine fundamentată.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>ATLUM</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aparat care secționează extrem de fin țesutul, pentru analiză detaliată.<br/><br/><strong>Formulare academică:</strong> ATLUM recoltează și secționează ultra-fin țesutul, iar secțiunile pot fi analizate ulterior (de exemplu, prin microscopie electronică) pentru studierea conectivității.<br/><br/><strong>Exemplu:</strong> „felii” foarte subțiri care permit observarea conexiunilor.</span></span>",
+        key: "amber",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Semnificație educațională</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> poate susține demersuri educaționale mai bine fundamentate pentru dezvoltare pe termen lung.<br/><br/>
+        <strong>Formulare academică:</strong> cunoașterea despre funcționarea și dezvoltarea rețelelor poate sprijini proiectarea demersurilor educaționale orientate spre dezvoltarea personalității și a competențelor, pe termen lung.<br/><br/>
+        <strong>Exemplu:</strong> practici care țin cont de dezvoltare și de rolul experienței.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Definește metodele de cunoaștere și analiză a grupului",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În orice grup apar <span class='tip'><strong>preferințe</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> apropieri/alegeri pozitive.<br/><br/>
+        <strong>Formulare academică:</strong> alegerile pozitive indică atracții relaționale și pot anticipa cooperarea și alianțele funcționale.<br/><br/>
+        <strong>Exemplu:</strong> „aș lucra cu X”.
+      </span></span>,
+      <span class='tip'><strong>respingeri</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> evitări/alegeri negative.<br/><br/>
+        <strong>Formulare academică:</strong> alegerile negative indică tensiuni, evitări și pot semnala risc de excludere sau conflict relațional.<br/><br/>
+        <strong>Exemplu:</strong> „aș evita să lucrez cu Y”.
+      </span></span>
+      și procese de stratificare; profesorul are nevoie să le cunoască pentru intervenții educaționale adecvate.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Metoda sociometrică</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>definiție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cunoaște relațiile din grup prin întrebări de alegere/evitare.<br/><br/><strong>Formulare academică:</strong> metoda sociometrică oferă informații rapide despre structura relațiilor interpersonale, identificând atracții și respingeri dintre membri pe baza răspunsurilor la itemi situaționali.<br/><br/><strong>Exemplu:</strong> „cu cine ai prefera să lucrezi?” / „pe cine ai evita?”.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>de ce e utilă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vezi izolare, subgrupuri, tensiuni și potențial de cooperare.<br/><br/><strong>Formulare academică:</strong> permite identificarea nodurilor centrale/periferice, a subgrupurilor și a tensiunilor relaționale, sprijinind decizii pedagogice informate (nu evaluare academică).<br/><br/><strong>Exemplu:</strong> observi cine este ales reciproc și cine este evitat frecvent.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum funcționează (pe scurt)</div>
+
+    ${window.flashPillList([
+      {
+        text: "1️⃣ <span class='tip'><strong>întrebări simple</strong><span class='tooltip-box'><strong>Spus simplu:</strong> itemi clari, în contexte definite.<br/><br/><strong>Formulare academică:</strong> se formulează itemi situaționali de alegere/evitare, ancorați într-o activitate (sarcină) pentru a crește relevanța răspunsurilor.<br/><br/><strong>Exemplu:</strong> „pentru un proiect, cu cine ai lucra?”.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "2️⃣ <span class='tip'><strong>alegeri și respingeri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apar preferințe, respingeri și reciprocități.<br/><br/><strong>Formulare academică:</strong> se obțin alegeri pozitive/negative și reciprocități (A îl alege pe B și B îl alege pe A), care descriu structura relațională.<br/><br/><strong>Exemplu:</strong> perechi de alegeri reciproce indică legături stabile.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "3️⃣ <span class='tip'><strong>sociograma</strong><span class='tooltip-box'><strong>Spus simplu:</strong> diagramă a relațiilor din grup.<br/><br/><strong>Formulare academică:</strong> reprezentarea grafică face vizibile nodurile centrale, periferice și izolarea, facilitând interpretarea structurii interpersonale.<br/><br/><strong>Exemplu:</strong> un elev cu multe săgeți spre el apare central.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "4️⃣ <span class='tip'><strong>decizii pedagogice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> organizezi echipe și previi excluderea pe baza datelor.<br/><br/><strong>Formulare academică:</strong> datele sociometrice fundamentează organizarea activităților de grup și intervenții pentru incluziune și cooperare.<br/><br/><strong>Exemplu:</strong> rotație de parteneri, echipe echilibrate, sprijin pentru elevii izolați.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Clarifică conceptul „coeziunea grupului”. Ce este, de ce contează, cum o recunoști",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Coeziunea</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> cât de uniți și cooperanți sunt membrii grupului pentru sarcini comune.<br/><br/>
+        <strong>Formulare academică:</strong> coeziunea reprezintă măsura solidarității și cooperării în jurul sarcinilor și obiectivelor comune, funcționând ca indicator al stării relaționale a grupului.<br/><br/>
+        <strong>Exemplu:</strong> elevii se sprijină, își coordonează efortul și respectă reguli împărtășite.
+      </span></span>
+      este un indicator esențial al „stării” grupului.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cum o recunoști</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>definiție operațională</strong><span class='tooltip-box'><strong>Spus simplu:</strong> solidaritate + direcție comună.<br/><br/><strong>Formulare academică:</strong> coeziunea este măsura solidarității și a cooperării susținute în jurul sarcinilor, reflectată în sprijin reciproc și în menținerea unei orientări comune.<br/><br/><strong>Exemplu:</strong> colegii se ajută și rămân pe obiectiv.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>semne observabile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> participare, sprijin, reguli împărtășite, cooperare, mai puține rupturi între subgrupuri.<br/><br/><strong>Formulare academică:</strong> coeziunea se exprimă prin participare activă, suport între membri, conformare la norme comune și colaborare, cu fragmentare redusă.<br/><br/><strong>Exemplu:</strong> elevii își împart sarcinile și se consultă fără tensiuni persistente.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce crește coeziunea</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>valori împărtășite</strong><span class='tooltip-box'><strong>Spus simplu:</strong> avem repere comune despre ce e important.<br/><br/><strong>Formulare academică:</strong> valorile comune stabilizează așteptările și cresc disponibilitatea de cooperare.<br/><br/><strong>Exemplu:</strong> „ne respectăm și ne ajutăm” devine normă de grup.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "<span class='tip'><strong>interese similare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> direcție comună, competiție distructivă mai mică.<br/><br/><strong>Formulare academică:</strong> convergența intereselor reduce conflictul de scopuri și susține coordonarea în sarcină.<br/><br/><strong>Exemplu:</strong> toți urmăresc reușita proiectului.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>comunicare directă și echilibrată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarificări, feedback, schimb relativ egal.<br/><br/><strong>Formulare academică:</strong> comunicarea echilibrată reduce tensiunile latente și crește coerența normelor și a cooperării.<br/><br/><strong>Exemplu:</strong> problemele se discută, nu se evită.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>nu evitarea comunicării</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dacă evităm discuțiile „ca să nu fie conflict”, coeziunea scade.<br/><br/><strong>Formulare academică:</strong> evitarea comunicării slăbește coeziunea și crește fragmentarea, deoarece reduce reglarea și clarificarea normelor.<br/><br/><strong>Exemplu:</strong> tensiunile rămân nespuse și se transformă în subgrupuri ostile.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>De ce contează pentru profesor</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> coeziunea susține cooperarea și organizarea activităților.<br/><br/>
+        <strong>Formulare academică:</strong> coeziunea facilitează managementul activităților comune și cooperarea, reducând fragmentarea relațională, fără a înlocui normele și regulile explicite.<br/><br/>
+        <strong>Exemplu:</strong> echipele lucrează mai stabil când există sprijin reciproc.
+      </span></span>
+      <div style="margin-top:10px;">
+        Legătură cu sociometria:
+        <span class='tip'><strong>atracțiile și respingerile</strong><span class='tooltip-box'>
+          <strong>Spus simplu:</strong> relațiile pozitive/negative pot întări sau slăbi coeziunea.<br/><br/>
+          <strong>Formulare academică:</strong> distribuția alegerilor și respingerilor (mai ales reciprocitățile sau concentrarea în jurul unor persoane) poate susține sau afecta coeziunea grupului.<br/><br/>
+          <strong>Exemplu:</strong> multe respingeri concentrate → risc de fragmentare.
+        </span></span>
+      </div>
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Elaborează asupra conceptului de „Indici sociometrici individuali”",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Indici sociometrici individuali</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> numere care rezumă „cum stă” fiecare elev în rețeaua de preferințe și respingeri.<br/><br/>
+        <strong>Formulare academică:</strong> indicii sociometrici individuali sunt măsuri sintetice calculate din alegerile pozitive și negative obținute prin metoda sociometrică, folosite pentru descrierea poziției relaționale a fiecărui membru în grup.<br/><br/>
+        <strong>Exemplu:</strong> doi elevi pot avea performanțe similare, dar poziții relaționale diferite: unul este ales frecvent, altul este evitat.
+      </span></span>
+      se bazează pe datele despre <strong>preferințe</strong>, <strong>respingeri</strong> și <strong>reciprocități</strong>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce surprind, în practică</div>
+
+    ${window.flashPillList([
+      {
+        text: "<span class='tip'><strong>alegeri pozitive primite</strong><span class='tooltip-box'><strong>Spus simplu:</strong> de câte ori este ales cineva.<br/><br/><strong>Formulare academică:</strong> frecvența alegerilor pozitive primite indică nivelul de acceptare relațională în contextul sarcinii formulate.<br/><br/><strong>Exemplu:</strong> elevul este preferat în echipe de proiect.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "<span class='tip'><strong>alegeri negative primite</strong><span class='tooltip-box'><strong>Spus simplu:</strong> de câte ori este evitat cineva.<br/><br/><strong>Formulare academică:</strong> frecvența alegerilor negative primite semnalează dificultăți relaționale și risc de excludere în situația analizată.<br/><br/><strong>Exemplu:</strong> elevul este evitat constant la lucru în perechi.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "<span class='tip'><strong>reciprocități</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegeri care se întorc (A îl alege pe B și B pe A).<br/><br/><strong>Formulare academică:</strong> reciprocitățile indică legături stabile și potențial de cooperare funcțională în grup.<br/><br/><strong>Exemplu:</strong> perechi care lucrează eficient împreună, pentru că se aleg reciproc.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "<span class='tip'><strong>poziție în sociogramă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> central, periferic sau izolat.<br/><br/><strong>Formulare academică:</strong> poziția rezultată din sociogramă (centralitate/periferie/izolare) sintetizează conectarea relațională a individului în rețea.<br/><br/><strong>Exemplu:</strong> elevul izolat are puține legături și necesită sprijin de incluziune.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Utilitate educațională</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> te ajută să organizezi echipe și să previi excluderea.<br/><br/>
+        <strong>Formulare academică:</strong> indicii individuali sprijină decizii pedagogice privind organizarea activităților (perechi/echipe, rotație, roluri) și intervenții de incluziune, reducând riscul de marginalizare și conflict.<br/><br/>
+        <strong>Exemplu:</strong> elevul izolat este integrat treptat în activități cu sprijin și parteneri compatibili.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+      ],
+    },
+  ],
+  "phed-u11": [
+    {
+      id: "phed-u11-deck1",
+      title: "U11 Flashcards",
+      cards: [
+        {
+          front: "Descrie succesul în învățare: definiții și perspective",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Succesul în învățare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu este doar „note mari”, ci progres real și o potrivire bună între elev și cerințe.<br/><br/>
+        <strong>Formulare academică:</strong> succesul în învățare reprezintă rezultanta activității de învățare, exprimată prin progresul realizat în raport cu obiectivele educaționale, și reflectă un echilibru funcțional între resursele și aspirațiile elevului și solicitările școlare, cu efecte asupra dezvoltării personale.<br/><br/>
+        <strong>Exemplu:</strong> elevul își fixează obiective realiste, progresează constant și își asumă treptat sarcini mai dificile.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Perspective din lecție</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯 <span class='tip'><strong>Succes ca rezultantă a activității de învățare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se vede în progres raportat la obiective.<br/><br/><strong>Formulare academică:</strong> succesul este efectul observabil al activității de învățare, evaluabil prin progres constant în raport cu obiectivele propuse.<br/><br/><strong>Exemplu:</strong> îmbunătățire treptată a performanței la același tip de sarcină.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⚖️ <span class='tip'><strong>Radu (1983): succes ca echilibru</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare când capacitățile + aspirațiile se potrivesc cu cerințele școlare.<br/><br/><strong>Formulare academică:</strong> succesul școlar apare când există echilibru între capacitățile și aspirațiile elevului și solicitările școlare, astfel încât acestea să fie accesibile și stimulative.<br/><br/><strong>Exemplu:</strong> elev cu nivel mediu își fixează obiective accesibile și le atinge.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🔁 <span class='tip'><strong>Ghiță (2019): succes ca experiență motivatoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reușita îl împinge pe elev spre autodepășire.<br/><br/><strong>Formulare academică:</strong> succesul este o experiență motivatoare care stimulează autodepășirea și crește treptat nivelul provocărilor asumate de elev.<br/><br/><strong>Exemplu:</strong> după o reușită, elevul alege o sarcină ușor mai dificilă.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📌 <span class='tip'><strong>Ghiță (2019): echilibrul aspirații–cerințe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi fixez așteptările în funcție de cerințe și resurse.<br/><br/><strong>Formulare academică:</strong> elevul își stabilește așteptările (obiective și strategii) în funcție de cerințele școlare și de resursele proprii, realizând o calibrare adaptativă a efortului.<br/><br/><strong>Exemplu:</strong> dacă miza și dificultatea cresc, elevul își ajustează strategia și timpul de studiu.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Succesul are impact <span class='tip'><strong>psihologic</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> susține încrederea și reglarea așteptărilor.<br/><br/>
+        <strong>Formulare academică:</strong> reușitele susțin încrederea în sine și reglajul așteptărilor prin autoevaluare mai bună și disponibilitate crescută pentru sarcini viitoare.<br/><br/>
+        <strong>Exemplu:</strong> elevul se implică mai stabil după ce vede că progresează.
+      </span></span>
+      și poate influența <span class='tip'><strong>succesul profesional, managerial și social</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> poate ajuta reușita în alte domenii, fără să o garanteze automat.<br/><br/>
+        <strong>Formulare academică:</strong> succesul școlar poate contribui la succesul profesional, managerial și social, fără a determina în mod necesar reușita în toate domeniile vieții.<br/><br/>
+        <strong>Exemplu:</strong> încrederea formată în școală poate sprijini integrarea profesională.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+        {
+          front: "Explică indicatorii și conceptele asociate succesului",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Succesul în învățare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu înseamnă doar „note mari”, ci progres real și potrivire între elev și cerințe.<br/><br/>
+        <strong>Formulare academică:</strong> succesul în învățare reprezintă rezultatul activității de învățare, exprimat ca progres raportat la obiective, și reflectă potrivirea dintre resursele elevului și solicitările școlare.<br/><br/>
+        <strong>Exemplu:</strong> elevul își atinge obiectivele propuse și își poate crește treptat nivelul provocărilor.
+      </span></span>
+      poate fi înțeles atât ca <span class='tip'><strong>rezultantă a activității de învățare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> un efect observabil al implicării și efortului.<br/><br/>
+        <strong>Etimologie scurtă:</strong> „rezultantă” (lat. <em>resultare</em>) sugerează „ce rezultă” dintr-un proces.<br/><br/>
+        <strong>Formulare academică:</strong> succesul este efectul observabil al implicării elevului în sarcini, evaluabil prin progresul față de obiectivele educaționale.<br/><br/>
+        <strong>Exemplu:</strong> progres constant în raport cu obiectivele propuse.
+      </span></span>,
+      cât și ca <span class='tip'><strong>echilibru</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> potrivirea dintre cât pot/îmi doresc și ce îmi cere școala.<br/><br/>
+        <strong>Formulare academică:</strong> succesul apare când există un echilibru funcțional între capacități și aspirații și solicitările școlare, astfel încât dezvoltarea să fie susținută, nu blocată.<br/><br/>
+        <strong>Exemplu:</strong> elev cu nivel mediu își fixează obiective accesibile și le atinge.
+      </span></span> (Radu, 1983).
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Perspective asupra succesului (din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯 <span class='tip'><strong>succes ca progres</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se vede în rezultate raportate la obiective.<br/><br/><strong>Formulare academică:</strong> succesul se definește ca progres observabil în raport cu obiectivele stabilite, ca efect al activității de învățare.<br/><br/><strong>Exemplu:</strong> îmbunătățire treptată a performanței la același tip de sarcină.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⚖️ <span class='tip'><strong>succes ca echilibru</strong><span class='tooltip-box'><strong>Spus simplu:</strong> capacități + aspirații potrivite cu cerințele școlare.<br/><br/><strong>Formulare academică:</strong> succesul este susținut de echilibrul dintre resursele elevului și solicitările școlare (Radu, 1983).<br/><br/><strong>Exemplu:</strong> elevul își calibrează obiectivele în funcție de dificultatea sarcinii.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🔁 <span class='tip'><strong>succes ca experiență motivatoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reușita te face să vrei să încerci ceva puțin mai greu.<br/><br/><strong>Formulare academică:</strong> succesul funcționează ca experiență motivatoare care stimulează autodepășirea și creșterea graduală a provocărilor asumate (Ghiță, 2019).<br/><br/><strong>Exemplu:</strong> după o reușită, elevul alege o sarcină ușor mai dificilă.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "📌 <span class='tip'><strong>echilibrul aspirații–cerințe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îmi fixez așteptările în funcție de cerințe și de resursele mele.<br/><br/><strong>Formulare academică:</strong> elevul își stabilește așteptările (obiective și strategii) în funcție de cerințele școlare și de resursele proprii (Ghiță, 2019).<br/><br/><strong>Exemplu:</strong> își alege strategii potrivite nivelului actual, ca să obțină progres.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Indicatori și factori luați în calcul (Simon & Peter, 2000; Cianciolo & Sternberg, 2012)</div>
+
+    ${window.flashPillList([
+      {
+        text: "👤 <span class='tip'><strong>factori interni</strong><span class='tooltip-box'><strong>Spus simplu:</strong> țin de elev: echilibru psihosocial, capacitate cognitivă, motivație intrinsecă.<br/><br/><strong>Formulare academică:</strong> succesul este influențat de resurse psihosociale, capacitate cognitivă și motivație, ca variabile intrapersonale care susțin implicarea și performanța.<br/><br/><strong>Exemplu:</strong> elev cu reglaj emoțional bun și motivație intrinsecă persistă în sarcini.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌍 <span class='tip'><strong>factori externi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> țin de mediu: influențe socio-culturale, valori familiale, relații educaționale.<br/><br/><strong>Formulare academică:</strong> mediul socio-cultural, familia și școala modelează implicarea și oportunitățile de învățare, influențând performanța școlară.<br/><br/><strong>Exemplu:</strong> sprijinul familiei și o relație bună elev–profesor cresc participarea.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📊 <span class='tip'><strong>inteligența academică (IQ)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> rămâne un predictor important, dar nu explică tot.<br/><br/><strong>Formulare academică:</strong> IQ-ul rămâne predictor relevant al succesului școlar, mai ales pentru sarcini complexe, însă nu explică singular reușita educațională.<br/><br/><strong>Exemplu:</strong> doi elevi cu IQ similar pot avea rezultate diferite prin motivație și perseverență.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🔥 <span class='tip'><strong>factori noncognitivi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> motivație, perseverență, eficacitate personală devin tot mai importanți.<br/><br/><strong>Formulare academică:</strong> modelele actuale acordă atenție crescândă factorilor noncognitivi (motivație, perseverență, eficacitate personală) ca determinanți ai angajării și ai performanței (Cianciolo & Sternberg, 2012).<br/><br/><strong>Exemplu:</strong> elevul care persevereză și crede că poate reuși progresează mai stabil.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Succesul are impact <span class='tip'><strong>psihologic</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> crește încrederea și ajută reglarea așteptărilor.<br/><br/>
+        <strong>Formulare academică:</strong> reușitele susțin încrederea și contribuie la reglarea așteptărilor printr-o autoevaluare mai bună și disponibilitate pentru sarcini viitoare.<br/><br/>
+        <strong>Exemplu:</strong> elevul își asumă sarcini viitoare cu mai multă siguranță.
+      </span></span>
+      și poate influența <span class='tip'><strong>succesul profesional, managerial și social</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> școala poate sprijini reușita în alte domenii, fără garanții absolute.<br/><br/>
+        <strong>Formulare academică:</strong> succesul școlar poate contribui la succesul profesional, managerial și social, fără a garanta automat reușita în toate domeniile.<br/><br/>
+        <strong>Exemplu:</strong> încrederea formată în școală sprijină integrarea profesională.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Care sunt factorii interni de motivație ai elevului",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Între factorii interni ai succesului școlar, un rol major îl au
+      <span class='tip'><strong>motivația</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> „motorul” care te face să începi și să continui.<br/><br/>
+        <strong>Formulare academică:</strong> motivația inițiază și susține comportamentul de învățare, determinând angajarea elevului în sarcini și persistența în fața obstacolelor.<br/><br/>
+        <strong>Exemplu:</strong> elevul continuă să lucreze chiar când apar dificultăți.
+      </span></span>,
+      <span class='tip'><strong>capacitatea cognitivă</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> cât de bine înțelegi, organizezi și aplici.<br/><br/>
+        <strong>Formulare academică:</strong> capacitatea cognitivă susține înțelegerea și aplicarea, facilitând achizițiile și rezolvarea sarcinilor școlare.<br/><br/>
+        <strong>Exemplu:</strong> elevul poate organiza informația și aplica corect cerințele.
+      </span></span>
+      și <span class='tip'><strong>echilibrul psihosocial</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> reglaj emoțional și relațional.<br/><br/>
+        <strong>Formulare academică:</strong> echilibrul psihosocial susține implicarea prin reglarea emoțiilor și relațiilor, reducând riscul de evitare și conflict cu sarcina școlară.<br/><br/>
+        <strong>Exemplu:</strong> elevul gestionează tensiunea și cere ajutor fără să se retragă.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Motivația: definiție și funcții (Roșca, 1943 apud Sălăvăstru, 2004)</div>
+
+    ${window.flashPillList([
+      {
+        text: "📌 <span class='tip'><strong>definiție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> totalitatea motivelor din interior care îți conduc conduita.<br/><br/><strong>Formulare academică:</strong> motivația este totalitatea mobilurilor interne ale conduitei, înnăscute sau dobândite, conștiente sau inconștiente, de la trebuințe la idealuri.<br/><br/><strong>Exemplu:</strong> elevul poate fi ghidat de dorința de competență, de interes sau de un ideal personal.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🚀 <span class='tip'><strong>determină acțiunea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> te pune în mișcare spre sarcină.<br/><br/><strong>Formulare academică:</strong> sub impactul stimulărilor interne și externe, motivele declanșează orientarea spre acțiune în raport cu sarcina școlară.<br/><br/><strong>Exemplu:</strong> începe tema pentru că urmărește un obiectiv clar.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "⛽ <span class='tip'><strong>susține acțiunea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> menține efortul în timp.<br/><br/><strong>Formulare academică:</strong> motivele mențin angajarea și perseverența, crescând rezistența la obstacole și la frustrare.<br/><br/><strong>Exemplu:</strong> continuă să exerseze chiar dacă nu reușește din prima.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🏷️ <span class='tip'><strong>ierarhizează scopuri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> îți stabilește prioritățile.<br/><br/><strong>Formulare academică:</strong> motivele organizează și ierarhizează scopurile, orientând selecția sarcinilor și alocarea resurselor.<br/><br/><strong>Exemplu:</strong> alege să studieze mai întâi capitolul cu lacune mari.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În școală, relația dintre <span class='tip'><strong>motivație</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> te ține în sarcină.<br/><br/>
+        <strong>Formulare academică:</strong> motivația susține angajarea și menținerea efortului, crescând șansele de progres școlar.<br/><br/>
+        <strong>Exemplu:</strong> elevul revine și reia sarcina după un eșec.
+      </span></span>
+      și <span class='tip'><strong>performanță</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> rezultatele îți pot hrăni motivația.<br/><br/>
+        <strong>Formulare academică:</strong> performanța oferă rezultate observabile care susțin autoevaluarea și stima de sine, influențând pozitiv motivația ulterioară.<br/><br/>
+        <strong>Exemplu:</strong> o reușită crește disponibilitatea de a încerca sarcini viitoare.
+      </span></span>
+      este <strong>reciprocă</strong>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Care sunt factorii externi ai succesului școlar",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Factorii externi (Simon & Peter, 2000) țin de
+      <span class='tip'><strong>mediu</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> context socio-cultural și comunitar (resurse, oportunități, norme).<br/><br/>
+        <strong>Formulare academică:</strong> mediul socio-cultural oferă sau limitează resurse, oportunități și modele, influențând implicarea elevului în învățare.<br/><br/>
+        <strong>Exemplu:</strong> acces la materiale și sprijin comunitar.
+      </span></span>,
+      <span class='tip'><strong>familie</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> valori și sprijin pentru rutină și perseverență.<br/><br/>
+        <strong>Formulare academică:</strong> valorile promovate în familie susțin atitudinea față de școală, rutina de studiu și perseverența în sarcini.<br/><br/>
+        <strong>Exemplu:</strong> familie care susține un program de studiu.
+      </span></span>
+      și <span class='tip'><strong>școală</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> relația elev–profesor și cultura organizațională contează.<br/><br/>
+        <strong>Formulare academică:</strong> școala influențează direct implicarea prin calitatea relațiilor educaționale și prin cultura organizațională (valori și practici care modelează climatul).<br/><br/>
+        <strong>Exemplu:</strong> feedback clar și respectuos crește participarea.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Factorii externi: unde apar și cum acționează (din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🌍 <span class='tip'><strong>mediul socio-cultural</strong><span class='tooltip-box'><strong>Spus simplu:</strong> resurse, oportunități, modele.<br/><br/><strong>Formulare academică:</strong> contextul socio-cultural poate facilita sau limita accesul la resurse și oportunități educaționale, influențând rezultatele școlare.<br/><br/><strong>Exemplu:</strong> bibliotecă, materiale, sprijin comunitar.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏠 <span class='tip'><strong>valorile familiei</strong><span class='tooltip-box'><strong>Spus simplu:</strong> susțin rutina și perseverența.<br/><br/><strong>Formulare academică:</strong> valorile familiale modelează atitudinile față de învățare și susțin (sau slăbesc) comportamentele de studiu.<br/><br/><strong>Exemplu:</strong> familie care încurajează efortul constant.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🤝 <span class='tip'><strong>relațiile educaționale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> relația elev–profesor influențează implicarea și încrederea.<br/><br/><strong>Formulare academică:</strong> calitatea relației educaționale poate crește angajarea elevului și disponibilitatea de a cere sprijin, reducând evitarea.<br/><br/><strong>Exemplu:</strong> feedback clar și respectuos → participare mai mare.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "👥 <span class='tip'><strong>grupul de prieteni</strong><span class='tooltip-box'><strong>Spus simplu:</strong> normele grupului pot susține sau descuraja efortul.<br/><br/><strong>Formulare academică:</strong> grupul de prieteni influențează conduita prin norme și așteptări, putând amplifica sau reduce implicarea școlară.<br/><br/><strong>Exemplu:</strong> grup care valorizează proiectele → implicare mai mare.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🏫 <span class='tip'><strong>cultura organizațională a școlii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> set de valori și practici: cum se oferă sprijin și cum e tratată greșeala.<br/><br/><strong>Formulare academică:</strong> cultura organizațională (valori și practici instituționale) modelează climatul și poate facilita învățarea prin sprijin și feedback, reducând frica de greșeală.<br/><br/><strong>Exemplu:</strong> școală care promovează sprijinul și feedbackul.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Manifestări ale succesului și insuccesului școlar (forme și tipuri)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Succesul școlar</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> progres și echilibru între resurse/aspirații și cerințe.<br/><br/>
+        <strong>Formulare academică:</strong> succesul poate fi descris ca rezultantă a activității de învățare (progres față de obiective) și ca echilibru funcțional între resursele elevului și solicitările școlare.<br/><br/>
+        <strong>Exemplu:</strong> elevul își calibrează obiectivele și atinge progres constant.
+      </span></span>
+      se poate citi prin progres raportat la obiective și prin potrivirea elev–cerințe.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În practica educațională (Sălăvăstru, 2004), <span class='tip'><strong>insuccesul</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> dificultăți școlare observabile, de la lacune la părăsirea școlii.<br/><br/>
+        <strong>Formulare academică:</strong> insuccesul școlar este recunoscut prin indicatori concreți de neatingere a cerințelor și de inadaptare, evoluând de la decalaje la forme formale precum repetenția sau abandonul.<br/><br/>
+        <strong>Exemplu:</strong> elevul rămâne în urmă și evită sarcinile, apoi ajunge la evaluări nepromovate.
+      </span></span>
+      este recunoscut prin forme și tipuri specifice.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Forme observabile ale insuccesului (Sălăvăstru, 2004)</div>
+
+    ${window.flashPillList([
+      {
+        text: "📉 <span class='tip'><strong>rămânerea în urmă la învățătură</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu ține pasul cu ritmul clasei și se acumulează lacune.<br/><br/><strong>Formulare academică:</strong> apar decalaje față de obiective și ritmul clasei, cu acumulare de lacune care afectează progresul ulterior.<br/><br/><strong>Exemplu:</strong> finalizează greu sarcinile și apar goluri de conținut.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "📝 <span class='tip'><strong>corijența</strong><span class='tooltip-box'><strong>Spus simplu:</strong> semnalarea neatingerii cerințelor la o disciplină, prin evaluare specifică.<br/><br/><strong>Formulare academică:</strong> corijența reflectă neîndeplinirea cerințelor la o disciplină și presupune o evaluare de remediere conform practicilor școlare.<br/><br/><strong>Exemplu:</strong> elevul susține evaluare de corijență.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🔁 <span class='tip'><strong>repetenția</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu îndeplinește standardele minime într-un an școlar.<br/><br/><strong>Formulare academică:</strong> repetenția indică neîndeplinirea standardelor minime pe parcursul anului, cu necesitatea reluării pentru refacerea achizițiilor.<br/><br/><strong>Exemplu:</strong> repetă anul pentru a reface competențele.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⛔ <span class='tip'><strong>abandonul școlar</strong><span class='tooltip-box'><strong>Spus simplu:</strong> părăsirea parcursului educațional.<br/><br/><strong>Formulare academică:</strong> abandonul exprimă întreruperea frecventării școlii și ieșirea din traseul educațional.<br/><br/><strong>Exemplu:</strong> elevul nu mai frecventează școala și renunță.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Tipuri și faze ale insuccesului (Sălăvăstru, 2004)</div>
+
+    ${window.flashPillList([
+      {
+        text: "📦 <span class='tip'><strong>generalizat vs limitat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fie apar probleme la multe discipline, fie doar la unele.<br/><br/><strong>Formulare academică:</strong> insuccesul poate fi generalizat (dificultăți de adaptare la viața școlară în ansamblu) sau limitat (dificultăți la una sau câteva discipline).<br/><br/><strong>Exemplu:</strong> probleme peste tot vs doar la matematică și fizică.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📊 <span class='tip'><strong>cognitiv vs noncognitiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fie rezultate sub standard, fie adaptare slabă la școală.<br/><br/><strong>Formulare academică:</strong> insuccesul cognitiv se exprimă prin performanțe sub nivelul minim acceptat; insuccesul noncognitiv se exprimă prin adaptare deficitară la climatul școlar și la reguli.<br/><br/><strong>Exemplu:</strong> note foarte mici vs conflict persistent cu școala.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⏳ <span class='tip'><strong>episodic vs de durată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fie apare pe termen scurt, fie persistă și adâncește lacunele.<br/><br/><strong>Formulare academică:</strong> insuccesul poate fi episodic (limită temporală scurtă) sau de durată (persistă pe perioade lungi, cu acumulare de lacune).<br/><br/><strong>Exemplu:</strong> blocaj la un capitol vs dificultăți constante tot semestrul.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>faze</strong><span class='tooltip-box'><strong>Spus simplu:</strong> premergătoare → retrapaj → eșec formal.<br/><br/><strong>Formulare academică:</strong> insuccesul evoluează de la o fază premergătoare (prime dificultăți și decalaje), la retrapaj propriu-zis (lacune mari și aversiune față de școală), până la eșec formal (repetenție sau abandon).<br/><br/><strong>Exemplu:</strong> evită sarcini → absenteism și comportamente disruptive → repetenție.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Dificultăți de învățare (clasificări și origini)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Dificultățile de învățare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> probleme care îngreunează învățarea și pot duce la insucces școlar.<br/><br/>
+        <strong>Formulare academică:</strong> dificultățile de învățare sunt asociate eșecului școlar și pot avea origini multiple, incluzând dimensiuni biologice, cognitive, emoționale și educaționale.<br/><br/>
+        <strong>Exemplu:</strong> un elev poate avea dificultăți cognitive (înțelegere), emoționale (relaționare) sau pedagogice (feedback confuz).
+      </span></span>
+      devin mai ușor de înțeles dacă folosim <span class='tip'><strong>clasificări</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> scheme care arată „unde” e problema, ca să știi „unde” intervii.<br/><br/>
+        <strong>Formulare academică:</strong> clasificările grupează dificultățile după tip sau origine, facilitând identificarea nivelului relevant de intervenție educațională.<br/><br/>
+        <strong>Exemplu:</strong> alt tip de intervenție pentru o cauză fiziologică decât pentru una pedagogică.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Coașan (2000): categorii de dificultăți</div>
+
+    ${window.flashPillList([
+      {
+        text: "🩺 <span class='tip'><strong>dificultăți fiziologice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> malformații, boli, afecțiuni, infirmități pot afecta energia și ritmul.<br/><br/><strong>Formulare academică:</strong> condițiile fiziologice pot reduce disponibilitatea pentru învățare prin limitarea energiei, atenției și ritmului de lucru.<br/><br/><strong>Exemplu:</strong> o afecțiune medicală reduce capacitatea de concentrare.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>deficiențe cognitive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> întârzieri în înțelegere și în operații precum analiza și sinteza.<br/><br/><strong>Formulare academică:</strong> dificultățile cognitive includ întârzieri în înțelegere și în operații de prelucrare precum analiza și sinteza, afectând organizarea și aplicarea informației.<br/><br/><strong>Exemplu:</strong> elevul înțelege greu instrucțiunile și nu poate organiza informația.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌊 <span class='tip'><strong>deficiențe emoționale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dezechilibre în abilități intrapersonale și interpersonale.<br/><br/><strong>Formulare academică:</strong> dificultățile emoționale implică dezechilibre ale abilităților intrapersonale (autoreglare) și interpersonale (relaționare), cu impact asupra implicării școlare.<br/><br/><strong>Exemplu:</strong> dificultăți de relaționare → implicare scăzută la clasă.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🎓 <span class='tip'><strong>deficiențe pedagogice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> probleme în relațiile educaționale (explicare, feedback, climat).<br/><br/><strong>Formulare academică:</strong> dificultățile pedagogice țin de dezechilibre la nivelul relațiilor educaționale și al practicilor didactice, care pot bloca învățarea.<br/><br/><strong>Exemplu:</strong> feedback confuz + climat tensionat → blocaj în învățare.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">McKinney (1984): după origine</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧬 <span class='tip'><strong>înnăscute</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prezente de timpuriu.<br/><br/><strong>Formulare academică:</strong> dificultăți observabile încă de la începutul dezvoltării, asociate particularităților stabile.<br/><br/><strong>Exemplu:</strong> dificultăți prezente încă din primele etape ale dezvoltării.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧱 <span class='tip'><strong>dobândite</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apar prin carențe și obiceiuri (suprasolicitare, organizare deficitară, lipsa somnului).<br/><br/><strong>Formulare academică:</strong> dificultăți dezvoltate prin carențe și obiceiuri care afectează funcționarea școlară.<br/><br/><strong>Exemplu:</strong> program haotic + oboseală → rezultate slabe.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Hamada (2012): moștenire – mediu – educație</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚡ <span class='tip'><strong>disfuncții neurologice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prezente de la naștere, pot influența direct procesarea.<br/><br/><strong>Formulare academică:</strong> disfuncțiile neurologice prezente de la naștere pot afecta capacitățile cognitive și procesarea informației.<br/><br/><strong>Exemplu:</strong> dificultăți persistente legate de procesare.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "📏 <span class='tip'><strong>dificultăți inegale de dezvoltare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> diferențe între posibilități reale și standarde impuse.<br/><br/><strong>Formulare academică:</strong> apar discrepanțe între nivelul actual al elevului și standardele cerute pentru momentul respectiv.<br/><br/><strong>Exemplu:</strong> cerințe prea sus pentru nivelul curent.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📚 <span class='tip'><strong>dificultăți în sarcini academice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> diferențe între potențialul real și sarcinile curente.<br/><br/><strong>Formulare academică:</strong> nepotrivire între potențialul elevului și cerințele curente ale disciplinelor, cu impact asupra performanței.<br/><br/><strong>Exemplu:</strong> sarcini prea complexe pentru competențele actuale.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "⚖️ <span class='tip'><strong>discrepanța potențial–realizare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> efort mare și epuizant pentru rezultate abia la minim.<br/><br/><strong>Formulare academică:</strong> elevul depune un efort ridicat pentru a atinge nivelul cerut, însă rezultatele rămân la limita minimă acceptată.<br/><br/><strong>Exemplu:</strong> mult studiu, dar abia trece evaluările.</span></span>",
+        key: "cyan",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front: "Definește factorii determinanți ai eșecului școlar",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Eșecul în învățare apare printr-o combinație de
+      <span class='tip'><strong>factori biopsihici</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> țin de persoană și particularități psihice.<br/><br/>
+        <strong>Formulare academică:</strong> factorii biopsihici includ aspecte de personalitate și funcționare psihică ce pot genera dificultăți în învățare.<br/><br/>
+        <strong>Exemplu:</strong> autocontrol scăzut → concentrare redusă pe sarcină.
+      </span></span>,
+      <span class='tip'><strong>factori școlari</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> cum predă profesorul și cât de bine se potrivește cu stilul elevului.<br/><br/>
+        <strong>Formulare academică:</strong> factorii școlari includ stilul educațional al profesorului și potrivirea dintre strategiile didactice și stilul de învățare al elevului.<br/><br/>
+        <strong>Exemplu:</strong> strategie didactică nepotrivită → achiziții slabe.
+      </span></span>
+      și <span class='tip'><strong>factori sociali</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> climat și influențe din mediul social.<br/><br/>
+        <strong>Formulare academică:</strong> factorii sociali (climat și influențe sociale) pot afecta atitudinea față de școală și disponibilitatea pentru efort.<br/><br/>
+        <strong>Exemplu:</strong> anturaj care ridiculizează învățarea.
+      </span></span> (Williams et al., 2004).
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Williams et al. (2004): cele 3 categorii</div>
+
+    ${window.flashPillList([
+      {
+        text: "👤 <span class='tip'><strong>biopsihici</strong><span class='tooltip-box'><strong>Spus simplu:</strong> particularități de funcționare psihică ce pot genera dificultăți.<br/><br/><strong>Formulare academică:</strong> includ variabile intrapersonale care afectează autoreglarea și implicarea în sarcină.<br/><br/><strong>Exemplu:</strong> autocontrol scăzut → concentrare redusă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏫 <span class='tip'><strong>școlari</strong><span class='tooltip-box'><strong>Spus simplu:</strong> potrivirea stilului educațional cu stilul de învățare.<br/><br/><strong>Formulare academică:</strong> dificultățile apar când strategiile didactice nu se potrivesc nevoilor și modului de învățare al elevului.<br/><br/><strong>Exemplu:</strong> explicații și structurare nepotrivite → achiziții slabe.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🌍 <span class='tip'><strong>sociali</strong><span class='tooltip-box'><strong>Spus simplu:</strong> influențe care afectează atitudinea față de școală.<br/><br/><strong>Formulare academică:</strong> climatul și influențele sociale modelează angajarea și sensul atribuit învățării.<br/><br/><strong>Exemplu:</strong> anturaj care descurajează efortul.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Cauze frecvente ale dificultăților (Gracia & Jenkins, 2002)</div>
+
+    ${window.flashPillList([
+      {
+        text: "⚠️ <span class='tip'><strong>anxietatea față de eșec</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poate duce la organizare defectuoasă (amânare, evitare, panică).<br/><br/><strong>Formulare academică:</strong> anxietatea față de eșec perturbă organizarea activității și favorizează evitarea sarcinii, crescând riscul performanței scăzute.<br/><br/><strong>Exemplu:</strong> amână studiul și intră în panică înainte de test.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "📉 <span class='tip'><strong>autoeficacitate scăzută</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „nu pot” reduce implicarea și crește evitarea.<br/><br/><strong>Formulare academică:</strong> credința scăzută în capacitatea proprie de reușită reduce angajarea și crește evitarea sarcinilor, afectând progresul.<br/><br/><strong>Exemplu:</strong> evită sarcini fiind convins că nu reușește.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>competențe psihopedagogice deficitare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> explicații neclare și feedback slab pot bloca învățarea.<br/><br/><strong>Formulare academică:</strong> lipsa adaptării explicațiilor și a feedback-ului la nivelul clasei reduce înțelegerea și consolidează lacunele.<br/><br/><strong>Exemplu:</strong> elevul nu știe ce să corecteze și rămâne în blocaj.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Inadaptarea școlară</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> dificultate de a îndeplini sarcini sau de a te integra în mediul școlar.<br/><br/>
+        <strong>Formulare academică:</strong> inadaptarea școlară reprezintă dificultatea de a îndeplini sarcini școlare sau de a se integra în mediul școlar (reguli, climat, grup).<br/><br/>
+        <strong>Exemplu:</strong> elevul evită participarea și intră frecvent în conflict cu regulile.
+      </span></span>
+      este un indicator important al riscului de eșec.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Vorbește despre prevenirea și diminuarea eșecului școlar (strategie și rolul profesorului)",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Prevenirea eșecului școlar începe cu
+      <span class='tip'><strong>cunoașterea elevului</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> potențial, nivel actual, nevoi și factori care îl ajută sau îl blochează.<br/><br/>
+        <strong>Formulare academică:</strong> prevenirea eșecului presupune identificarea potențialului, a nivelului achizițiilor și a factorilor personali și contextuali care influențează învățarea, ca bază pentru intervenție adecvată.<br/><br/>
+        <strong>Exemplu:</strong> are lacune la o competență → primește sarcini gradate.
+      </span></span>
+      și continuă cu <span class='tip'><strong>individualizare și personalizare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> adaptezi instruirea la elev, nu elevul la „rețeta unică”.<br/><br/>
+        <strong>Formulare academică:</strong> individualizarea și personalizarea presupun adaptarea ritmului, dificultății și sprijinului la particularitățile elevului, contribuind decisiv la prevenirea insuccesului.<br/><br/>
+        <strong>Exemplu:</strong> același obiectiv, dar sarcini cu dificultăți diferite.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Strategii-cheie de prevenire (din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔎 <span class='tip'><strong>cunoaștere profundă a elevului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi nevoile, nivelul actual și factorii de context (ritm, sprijin, anxietate, obiceiuri).<br/><br/><strong>Formulare academică:</strong> analiza nevoilor, a nivelului actual și a factorilor de context permite proiectarea intervențiilor adecvate pentru reducerea riscului de eșec.<br/><br/><strong>Exemplu:</strong> identifici ce îl blochează și ce îl ajută înainte de a cere performanță.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>abordare particularizată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ritm, dificultate și sprijin diferite pentru elevi diferiți.<br/><br/><strong>Formulare academică:</strong> particularizarea instruirii ajustează cerințele și suportul pentru a susține progresul fiecărui elev.<br/><br/><strong>Exemplu:</strong> sarcini gradate, cu sprijin pe parcurs.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "✅ <span class='tip'><strong>succes inițial „personal”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reușite mici, dar autentice: „am reușit ceva dificil pentru mine”.<br/><br/><strong>Formulare academică:</strong> crearea unor contexte de reușită autentică susține încrederea și implicarea, crescând disponibilitatea pentru sarcini ulterioare.<br/><br/><strong>Exemplu:</strong> obiectiv mic atins → elevul acceptă următorul pas.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Reconsiderarea IQ în prevenire înseamnă:
+      <span class='tip'><strong>nu devine singurul criteriu</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu explicăm totul doar prin cognitiv.<br/><br/>
+        <strong>Formulare academică:</strong> prevenirea eșecului evită reducerea explicării la un singur criteriu cognitiv, deoarece succesul/eșecul depinde și de variabile noncognitive.<br/><br/>
+        <strong>Exemplu:</strong> elev cu potențial bun poate eșua dacă nu are perseverență și sprijin.
+      </span></span>
+      și se valorizează <span class='tip'><strong>factorii noncognitivi</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> eficacitate personală, perseverență, autoreglare.<br/><br/>
+        <strong>Formulare academică:</strong> practica educațională se orientează spre antrenarea eficacității personale, perseverenței și autoreglării, ca resurse care cresc șansele de succes.<br/><br/>
+        <strong>Exemplu:</strong> elevul exersează menținerea efortului în sarcini.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Rolul profesorului: 3 resurse educaționale (din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🤝 <span class='tip'><strong>relațiile educaționale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> susțin implicarea și reduc evitarea.<br/><br/><strong>Formulare academică:</strong> relațiile educaționale sunt resursă deoarece susțin implicarea, cresc disponibilitatea pentru efort și reduc evitarea sarcinii.<br/><br/><strong>Exemplu:</strong> elevul cere ajutor la timp în loc să renunțe.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>strategia didactică</strong><span class='tooltip-box'><strong>Spus simplu:</strong> potrivește instruirea cu elevul (ritm, tip de sarcină, sprijin).<br/><br/><strong>Formulare academică:</strong> strategia didactică adaptează instruirea la particularitățile elevului, constituind baza individualizării și personalizării.<br/><br/><strong>Exemplu:</strong> sarcini gradate de la ușor la dificil, cu sprijin pe parcurs.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📊 <span class='tip'><strong>practicile evaluative</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fac progresul vizibil și susțin autoevaluarea.<br/><br/><strong>Formulare academică:</strong> practicile evaluative contribuie prin autoevaluare și prin rezultate observabile care pot susține stima de sine și orienta ajustarea efortului.<br/><br/><strong>Exemplu:</strong> criterii vizibile + șanse de îmbunătățire după evaluare.</span></span>",
+        key: "violet",
+      },
+    ])}
+
+    <div style="margin-top:10px;">
+      <span class='tip'><strong>Cum lucrează împreună</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> relația deschide ușa, strategia arată drumul, evaluarea arată progresul.<br/><br/>
+        <strong>Formulare academică:</strong> relațiile educaționale cresc disponibilitatea pentru efort, strategia didactică structurează sarcini potrivite și sprijin gradual, iar evaluarea face învățarea vizibilă și ghidează ajustările ulterioare.<br/><br/>
+        <strong>Exemplu:</strong> elevul are încredere să încerce, primește sarcini adecvate și vede concret ce a îmbunătățit.
+      </span></span>
+    </div>
+  </div>
+
+</div>`,
+        },
+      ],
+    },
+  ],
+  "phed-u13": [
+    {
+      id: "phed-u13-deck1",
+      title: "U13 Flashcards",
+      cards: [
+        {
+          front: "Când poți spune că ceva este creativ (noutate și valoare)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Creativitatea nu înseamnă doar
+      <span class='tip'><strong>noutate</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> apare ceva diferit de ce exista înainte.<br/><br/>
+        <strong>Formulare academică:</strong> noutatea indică originalitatea unui produs sau a unei idei în raport cu variantele existente.<br/><br/>
+        <strong>Exemplu:</strong> o soluție formulată altfel decât „rețeta” obișnuită.
+      </span></span>,
+      ci <span class='tip'><strong>noutate + valoare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> ideea trebuie să conteze pentru cineva, într-un context.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea este recunoscută atunci când noutatea este însoțită de valoare (utilitate, relevanță sau semnificație) pentru o persoană, un grup ori o societate.<br/><br/>
+        <strong>Exemplu:</strong> o idee nouă care rezolvă o problemă concretă.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">De ce originalitatea singură nu ajunge</div>
+
+    ${window.flashPillList([
+      {
+        text: "✨ <span class='tip'><strong>noutate fără valoare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poate fi doar „ciudat”, fără să ajute.<br/><br/><strong>Formulare academică:</strong> originalitatea, în absența valorii, nu constituie criteriu suficient pentru creativitate, deoarece nu produce o contribuție relevantă în raport cu o problemă sau un context.<br/><br/><strong>Exemplu:</strong> o idee complet nouă, dar inutilă în situația dată.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧾 <span class='tip'><strong>valoare fără noutate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e util, dar e reproducere, nu creație.<br/><br/><strong>Formulare academică:</strong> utilitatea fără un grad recognoscibil de noutate tinde să indice reproducerea unor soluții deja disponibile, nu creativitate propriu-zisă.<br/><br/><strong>Exemplu:</strong> aplici o soluție standard, fără adaptare.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Evaluarea <span class='tip'><strong>valorii</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> depinde de cine judecă și după ce criterii.<br/><br/>
+        <strong>Formulare academică:</strong> valoarea unui produs creativ este determinată de evaluatorii relevanți (public, experți, instituții) și de criteriile care variază între domenii și epoci.<br/><br/>
+        <strong>Exemplu:</strong> în artă, criteriile includ inevitabil o doză de subiectivitate.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Ce diferențiază creativitatea Big C de creativitatea little c?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Există niveluri ale creativității:
+      <span class='tip'><strong>Big C</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> creativitate eminentă, cu impact social major.<br/><br/>
+        <strong>Formulare academică:</strong> Big C desemnează creativitatea care produce contribuții cu impact societal semnificativ și este validată prin recunoaștere publică sau profesională.<br/><br/>
+        <strong>Exemplu:</strong> o invenție sau o teorie care schimbă un domeniu.
+      </span></span>
+      și <span class='tip'><strong>little c</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> creativitate cotidiană, utilă în viața de zi cu zi.<br/><br/>
+        <strong>Formulare academică:</strong> little c descrie creativitatea aplicată în contexte cotidiene, cu valoare personală sau locală, exprimată prin adaptări și soluții ingenioase.<br/><br/>
+        <strong>Exemplu:</strong> adaptezi o metodă de lucru la o situație nouă.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Diferența-cheie</div>
+
+    ${window.flashPillList([
+      {
+        text: "🏆 <span class='tip'><strong>Big C</strong><span class='tooltip-box'><strong>Cheie:</strong> impact societal + recunoaștere (validare publică/profesională).<br/><br/><strong>Exemplu:</strong> contribuție majoră recunoscută de comunitate.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🌿 <span class='tip'><strong>little c</strong><span class='tooltip-box'><strong>Cheie:</strong> soluții ingenioase cu valoare personală/locală.<br/><br/><strong>Exemplu:</strong> improvizație utilă într-o activitate obișnuită.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Ideea de <span class='tip'><strong>potențial creativ</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> creativitatea poate fi dezvoltată, nu e doar „talent fix”.<br/><br/>
+        <strong>Formulare academică:</strong> perspectiva little c susține înțelegerea creativității ca potențial cultivabil prin exercițiu, experiențe variate și învățare, nu doar ca trăsătură fixă.<br/><br/>
+        <strong>Exemplu:</strong> antrenarea gândirii divergente la elevi.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum se completează definițiile moderne ale creativității (noutate și valoare)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Definițiile moderne converg spre două repere:
+      <span class='tip'><strong>noutate</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> originalitate/diferență relevantă.<br/><br/>
+        <strong>Formulare academică:</strong> noutatea exprimă caracterul original al unei idei sau al unui produs în raport cu ceea ce este deja cunoscut în domeniu.<br/><br/>
+        <strong>Exemplu:</strong> propui o soluție neobișnuită, dar coerentă.
+      </span></span>
+      și <span class='tip'><strong>valoare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> utilitate, adecvare sau semnificație într-un context.<br/><br/>
+        <strong>Formulare academică:</strong> valoarea indică adecvarea și relevanța produsului în raport cu cerințele unei sarcini, ale unui context sau ale unei comunități.<br/><br/>
+        <strong>Exemplu:</strong> soluția chiar rezolvă problema.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Perspective complementare din lecție</div>
+
+    ${window.flashPillList([
+      {
+        text: "🔗 <span class='tip'><strong>Plucker & Beghetto (2004)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creativitatea apare din interacțiune și devine vizibilă într-un context social.<br/><br/><strong>Formulare academică:</strong> creativitatea reprezintă o interacțiune între aptitudine și proces, care produce un rezultat nou și util într-un context social.<br/><br/><strong>Exemplu:</strong> un proiect de echipă evaluat pozitiv de comunitate.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>Runco (2004)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează interpretările originale și adecvate.<br/><br/><strong>Formulare academică:</strong> creativitatea implică interpretări originale și adecvate, în care persoana evaluează inițial utilitatea ideii pentru sine și pentru context.<br/><br/><strong>Exemplu:</strong> transformi o experiență personală într-o soluție practică.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⚖️ <span class='tip'><strong>Sternberg (2005)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> inovație + potrivire la cerințe.<br/><br/><strong>Formulare academică:</strong> creativitatea presupune inovație (noutate) și adecvare (potrivire la cerințele sarcinii).<br/><br/><strong>Exemplu:</strong> o soluție ingenioasă care respectă constrângerile problemei.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧪 <span class='tip'><strong>Torrance (1966)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creativitatea ca proces: problemă → ipoteze → testare → comunicare.<br/><br/><strong>Formulare academică:</strong> creativitatea este înțeleasă ca proces ce include sensibilitate la probleme, formularea de ipoteze, testare și comunicarea rezultatelor.<br/><br/><strong>Exemplu:</strong> identifici o lacună și verifici ipoteze înainte să prezinți soluția.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "De ce creativitatea are nevoie de o perspectivă sistemică (persoană–domeniu–context)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Modelele sistemice pornesc de la ideea că
+      <span class='tip'><strong>creativitatea nu ține doar de individ</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> aceeași persoană poate fi creativă într-un context și blocată în altul.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea este produsul interacțiunii dintre resursele persoanei, regulile și criteriile domeniului și condițiile socio-culturale ale contextului, care pot facilita sau inhiba exprimarea creativă.<br/><br/>
+        <strong>Exemplu:</strong> un elev generează idei într-o clasă deschisă, dar se autocenzurează într-un climat rigid.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Triada modelului sistemic</div>
+
+    ${window.flashPillList([
+      {
+        text: "👤 <span class='tip'><strong>persoana</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cine ești și ce resurse aduci.<br/><br/><strong>Formulare academică:</strong> include aptitudini, motivație, trăsături și experiență care susțin generarea și rafinarea ideilor.<br/><br/><strong>Exemplu:</strong> curiozitate + perseverență + cunoștințe acumulate.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "📚 <span class='tip'><strong>domeniul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> regulile jocului într-o arie de cunoaștere.<br/><br/><strong>Formulare academică:</strong> ansamblul de reguli, cunoștințe și criterii de valoare care definesc ce este acceptat ca relevant la un moment dat.<br/><br/><strong>Exemplu:</strong> criteriile de validare diferă între artă și știință.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🌍 <span class='tip'><strong>contextul socio-cultural</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mediul poate susține sau bloca.<br/><br/><strong>Formulare academică:</strong> norme, valori și resurse care influențează producerea și acceptarea ideilor noi.<br/><br/><strong>Exemplu:</strong> deschiderea culturală crește șansele de încercare și validare.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum te ajută cele patru perspective (4P) să înțelegi creativitatea dintr-o privire?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      O modalitate practică de a pune creativitatea „în context” este să o privești din patru unghiuri:
+      <span class='tip'><strong>produs</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> ce se obține la final.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea este recunoscută prin produse care îndeplinesc condițiile de noutate și valoare.<br/><br/>
+        <strong>Exemplu:</strong> o soluție originală și utilă.
+      </span></span>,
+      <span class='tip'><strong>proces</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> parcursul prin care ajungi la idee.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea poate fi descrisă prin etape (ex. preparare, incubație, iluminare, verificare) care se pot relua ciclic.<br/><br/>
+        <strong>Exemplu:</strong> testezi, observi o limită, revii la documentare.
+      </span></span>,
+      <span class='tip'><strong>persoană</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> profilul celui care creează.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea este susținută de resurse cognitive, trăsături de personalitate și motivație, cu roluri diferite în etapele procesului creativ.<br/><br/>
+        <strong>Exemplu:</strong> flexibilitate ideativă + deschidere + interes.
+      </span></span>
+      și <span class='tip'><strong>presiunea mediului</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> sistemul social poate valida sau bloca ideile.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea apare din interacțiunea persoanei cu domeniul și cu mecanismele sociale de validare și resurse (context favorizant vs restrictiv).<br/><br/>
+        <strong>Exemplu:</strong> accesul la resurse și libertatea de exprimare cresc șansele de validare.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Ce îți clarifică fiecare perspectivă</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎁 <span class='tip'><strong>Produs</strong><span class='tooltip-box'><strong>Cheie:</strong> verifici noutatea și valoarea.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🔁 <span class='tip'><strong>Proces</strong><span class='tooltip-box'><strong>Cheie:</strong> urmărești etapele și revenirea lor ciclică.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "👤 <span class='tip'><strong>Persoană</strong><span class='tooltip-box'><strong>Cheie:</strong> vezi rolul resurselor cognitive, al personalității și al motivației.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🏫 <span class='tip'><strong>Presiunea mediului</strong><span class='tooltip-box'><strong>Cheie:</strong> înțelegi validarea, resursele și blocajele instituționale.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum recunoști un produs creativ și cum intră în discuție productivitatea?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Un <span class='tip'><strong>produs creativ</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> este nou și are valoare în context.<br/><br/>
+        <strong>Formulare academică:</strong> produsul creativ este definit prin îndeplinirea simultană a condițiilor de noutate și valoare; absența uneia dintre ele reduce produsul la bizarerie sau la reproducere.<br/><br/>
+        <strong>Exemplu:</strong> o soluție originală care respectă cerințele și chiar funcționează.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Evaluare și impact</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧑‍⚖️ <span class='tip'><strong>evaluare contextuală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează cine evaluează și după ce criterii.<br/><br/><strong>Formulare academică:</strong> produsele creative sunt evaluate adesea de comunități de experți, iar criteriile sunt dependente de domeniu și de epocă.<br/><br/><strong>Exemplu:</strong> standardele diferă între știință și artă.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🌿 <span class='tip'><strong>impact personal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> are valoare pentru individ.<br/><br/><strong>Formulare academică:</strong> produsul poate fi creativ prin relevanța sa funcțională la nivel personal, chiar fără validare societală extinsă.<br/><br/><strong>Exemplu:</strong> o soluție ingenioasă pentru o problemă de zi cu zi.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🌍 <span class='tip'><strong>impact societal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schimbă un domeniu sau o comunitate.<br/><br/><strong>Formulare academică:</strong> produsul creativ poate produce schimbări ample, fiind recunoscut și integrat la nivelul unui domeniu sau al societății.<br/><br/><strong>Exemplu:</strong> o descoperire majoră.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Productivitate: cantitate vs valoare</div>
+
+    ${window.flashPillList([
+      {
+        text: "📦 <span class='tip'><strong>productivitate totală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câte idei/produse generezi.<br/><br/><strong>Formulare academică:</strong> productivitatea totală reflectă cantitatea producțiilor generate într-o perioadă, fără a implica automat valoarea lor.<br/><br/><strong>Exemplu:</strong> multe schițe/variante.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "✅ <span class='tip'><strong>productivitate efectivă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câte dintre ele sunt valoroase.<br/><br/><strong>Formulare academică:</strong> productivitatea efectivă exprimă numărul producțiilor care ating criteriile de valoare ale domeniului, nu doar cantitatea totală.<br/><br/><strong>Exemplu:</strong> puține rezultate, dar cu impact.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "⏳ <span class='tip'><strong>vârful productivității (30–50 ani)</strong><span class='tooltip-box'><strong>Spus simplu:</strong> o afirmație generală, cu variații mari între domenii.<br/><br/><strong>Formulare academică:</strong> este menționată ideea că vârful productivității apare frecvent între 30 și 50 de ani, cu variații semnificative în funcție de domeniu.<br/><br/><strong>Exemplu:</strong> în unele domenii, maturizarea și experiența cresc contribuțiile.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum arată procesul creativ în modelul clasic (Wallace, 1926) și de ce e ciclic?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Creativitatea poate fi înțeleasă ca <span class='tip'><strong>proces</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu doar produs final, ci un parcurs cu etape.<br/><br/>
+        <strong>Formulare academică:</strong> procesul creativ poate fi descris prin succesiuni de activități cognitive și de elaborare care conduc de la formularea problemei la rafinarea soluției, cu posibilitatea reluării etapelor.<br/><br/>
+        <strong>Exemplu:</strong> testezi soluția, observi o limită și revii la căutare.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Etapele Wallace (1926)</div>
+
+    ${window.flashPillList([
+      {
+        text: "① <span class='tip'><strong>preparare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> clarifici problema și strângi informații.<br/><br/><strong>Formulare academică:</strong> etapa de documentare și delimitare a problemei, cu acumulare de informații relevante pentru construcția soluției.<br/><br/><strong>Exemplu:</strong> identifici ce lipsește și ce constrângeri există.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "② <span class='tip'><strong>incubație</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ideile se combină și se filtrează „în fundal”.<br/><br/><strong>Formulare academică:</strong> etapa în care asocierile și recombinările se organizează, iar soluțiile se conturează gradual, fără presiune conștientă continuă.<br/><br/><strong>Exemplu:</strong> lași problema și revii cu perspective noi.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "③ <span class='tip'><strong>iluminare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare momentul „Aha”.<br/><br/><strong>Formulare academică:</strong> momentul în care soluția devine conștientă și funcțională, posibil în forme multiple și graduale.<br/><br/><strong>Exemplu:</strong> îți devine clar un pas-cheie al rezolvării.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "④ <span class='tip'><strong>verificare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> testezi și rafinezi soluția.<br/><br/><strong>Formulare academică:</strong> etapa de elaborare, testare, corectare și evaluare a soluției în raport cu cerințele sarcinii și criteriile domeniului.<br/><br/><strong>Exemplu:</strong> aplici soluția și ajustezi ce nu funcționează.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Procesul este <span class='tip'><strong>ciclic</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> verificarea poate relansa căutarea.<br/><br/>
+        <strong>Formulare academică:</strong> etapele nu sunt strict liniare; rezultatele verificării pot genera reformularea problemei și reluarea preparării sau a incubației, în funcție de feedback.<br/><br/>
+        <strong>Exemplu:</strong> testezi, găsești o limită, revii la documentare.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum arată „profilul” persoanei creative: resurse cognitive, personalitate și motivație?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Creativitatea „ca persoană” se explică printr-un mix de
+      <span class='tip'><strong>cognitiv</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> cum gândești și cum generezi alternative.<br/><br/>
+        <strong>Formulare academică:</strong> componenta cognitivă include flexibilitate ideativă, gândire divergentă și capacitatea de selecție a informației relevante pentru sarcină.<br/><br/>
+        <strong>Exemplu:</strong> schimbi cadrele de interpretare și găsești soluții diferite.
+      </span></span>,
+      <span class='tip'><strong>personalitate</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> deschidere și inițiativă, inclusiv nonconformism.<br/><br/>
+        <strong>Formulare academică:</strong> componenta de personalitate se exprimă prin deschidere spre experiență, nonconformism, inițiativă și încredere în sine, susținând explorarea ideilor.<br/><br/>
+        <strong>Exemplu:</strong> îndrăznești să propui o variantă diferită.
+      </span></span>
+      și <span class='tip'><strong>motivație</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> interes (intrinsec) și, uneori, recompense/recunoaștere (extrinsec).<br/><br/>
+        <strong>Formulare academică:</strong> motivația intrinsecă și extrinsecă pot susține etape diferite ale procesului creativ, contribuind la angajare și finalizare.<br/><br/>
+        <strong>Exemplu:</strong> interesul te ține conectat, iar un termen-limită te ajută să finalizezi.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">3 componente, pe scurt</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧩 <span class='tip'><strong>cognitiv</strong><span class='tooltip-box'><strong>Cheie:</strong> flexibilitate ideativă + gândire divergentă + selecție relevantă.<br/><br/><strong>Exemplu:</strong> conectezi idei diferite și alegi ce e util.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>personalitate</strong><span class='tooltip-box'><strong>Cheie:</strong> deschidere, nonconformism, inițiativă, încredere în sine.<br/><br/><strong>Exemplu:</strong> propui și testezi idei.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🔥 <span class='tip'><strong>motivație</strong><span class='tooltip-box'><strong>Cheie:</strong> intrinsecă + extrinsecă (în roluri diferite).<br/><br/><strong>Exemplu:</strong> interesul susține ideile, recompensele susțin finalizarea.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În lecție apare și <span class='tip'><strong>„teoria pragului”</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> IQ ajută până la un punct, apoi nu mai garantează creativitate.<br/><br/>
+        <strong>Formulare academică:</strong> se susține existența unei relații pozitive între inteligență și creativitate până la un anumit prag, peste care corelația slăbește, astfel încât un IQ foarte ridicat nu implică automat creativitate ridicată.<br/><br/>
+        <strong>Exemplu:</strong> IQ foarte mare + creativitate medie.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Ce înseamnă gândirea divergentă și cum o descrie Guilford (1967) (inclusiv logica TTCT)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Gândirea divergentă</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> cauți mai multe răspunsuri posibile, nu doar unul „corect”.<br/><br/>
+        <strong>Formulare academică:</strong> gândirea divergentă este un proces cognitiv central al creativității, caracterizat prin generarea de alternative multiple pentru aceeași problemă, explorând variante înainte de selecția finală.<br/><br/>
+        <strong>Exemplu:</strong> găsești utilizări diferite pentru un obiect obișnuit.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Criteriile lui Guilford (1967)</div>
+
+    ${window.flashPillList([
+      {
+        text: "📈 <span class='tip'><strong>fluiditate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câte idei produci.<br/><br/><strong>Formulare academică:</strong> fluiditatea reflectă numărul total de idei generate într-un interval, fără a evalua direct calitatea lor.<br/><br/><strong>Exemplu:</strong> cât de multe răspunsuri scrii într-un timp limitat.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧭 <span class='tip'><strong>flexibilitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câte categorii diferite de idei apar.<br/><br/><strong>Formulare academică:</strong> flexibilitatea indică varietatea registrelor sau categoriilor de soluții, prin schimbarea perspectivei asupra problemei.<br/><br/><strong>Exemplu:</strong> propui soluții tehnice, sociale și simbolice.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "✨ <span class='tip'><strong>originalitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> idei rare, puțin întâlnite.<br/><br/><strong>Formulare academică:</strong> originalitatea este estimată prin raritatea ideilor în raport cu un eșantion, ideile rare fiind considerate mai originale.<br/><br/><strong>Exemplu:</strong> un răspuns dat de foarte puțini participanți.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>elaborare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cât de detaliată și dezvoltată e ideea.<br/><br/><strong>Formulare academică:</strong> elaborarea reflectă complexitatea dezvoltării unei idei prin detalii, pași, justificări și consecințe.<br/><br/><strong>Exemplu:</strong> explici cum funcționează soluția, nu doar o numești.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În logica <span class='tip'><strong>TTCT</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> teste cu sarcini deschise (verbal și figural).<br/><br/>
+        <strong>Formulare academică:</strong> Torrance Tests of Creative Thinking folosesc sarcini deschise, iar răspunsurile sunt analizate pe criterii standardizate (inclusiv fluiditate, flexibilitate, originalitate, elaborare) de către evaluatori instruiți.<br/><br/>
+        <strong>Exemplu:</strong> utilizări neobișnuite sau interpretarea unor stimuli vizuali.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum se vede influența mediului asupra creativității în teoria sistemică?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      În teoria sistemică (Csikszentmihalyi), creativitatea apare din interacțiunea dintre
+      <span class='tip'><strong>persoană</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> resurse și motivație.<br/><br/>
+        <strong>Formulare academică:</strong> persoana aduce aptitudini, motivație și trăsături care susțin producerea ideilor.<br/><br/>
+        <strong>Exemplu:</strong> interes și angajare într-o problemă.
+      </span></span>,
+      <span class='tip'><strong>domeniu</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> criteriile despre „ce e valoros”.<br/><br/>
+        <strong>Formulare academică:</strong> domeniul definește regulile, limbajul și criteriile culturale ale valorii la un moment dat.<br/><br/>
+        <strong>Exemplu:</strong> ce se consideră „bun” în domeniu.
+      </span></span>
+      și <span class='tip'><strong>aria de specializare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> sistemul de validare și resursele (componenta social-organizațională).<br/><br/>
+        <strong>Formulare academică:</strong> aria de specializare oferă resurse și validare expertă (rețele, acces, ierarhii), influențând vizibilitatea și acceptarea ideilor.<br/><br/>
+        <strong>Exemplu:</strong> acces la colaborare și resurse → accelerare.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Context favorizant vs restrictiv</div>
+
+    ${window.flashPillList([
+      {
+        text: "🗳️ <span class='tip'><strong>context favorizant</strong><span class='tooltip-box'><strong>Spus simplu:</strong> libertate și resurse pentru a încerca idei noi.<br/><br/><strong>Formulare academică:</strong> libertatea de exprimare și accesul la resurse cresc probabilitatea ca ideile noi să fie testate și validate.<br/><br/><strong>Exemplu:</strong> ideile sunt încercate, nu ridiculizate.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "⛔ <span class='tip'><strong>context restrictiv</strong><span class='tooltip-box'><strong>Spus simplu:</strong> control, cenzură sau lipsă de resurse.<br/><br/><strong>Formulare academică:</strong> controlul, cenzura sau lipsa resurselor pot reduce vizibilitatea și validarea ideilor noi, inhibând creativitatea sistemică.<br/><br/><strong>Exemplu:</strong> ideile sunt blocate înainte de a fi testate.</span></span>",
+        key: "slate",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Familia</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> poate susține prin valori, atmosferă și resurse.<br/><br/>
+        <strong>Formulare academică:</strong> mediul familial poate facilita creativitatea prin valori favorabile, atmosferă de încurajare și resurse disponibile.<br/><br/>
+        <strong>Exemplu:</strong> curiozitate acceptată și încurajată.
+      </span></span>
+      și chiar un <span class='tip'><strong>mediu defavorizat</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> uneori constrângerile pot deveni stimulative, dar nu garantează creativitatea.<br/><br/>
+        <strong>Formulare academică:</strong> constrângerile pot funcționa uneori ca stimul pentru soluții neobișnuite și perseverență, fără a asigura automat creativitate ridicată.<br/><br/>
+        <strong>Exemplu:</strong> găsești soluții din lipsă de resurse, dar depinde de context și sprijin.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Creativitatea la copii: de ce există dezbatere și ce schimbă perspectiva little c?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Dezbaterea apare pentru că definiția clasică cere
+      <span class='tip'><strong>noutate + valoare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> uneori valoarea cere experiență și validare.<br/><br/>
+        <strong>Formulare academică:</strong> criteriile „tari” (valoare socială, expertiză și validare) sunt frecvent asociate cu timp de formare și discernământ, ceea ce complică aplicarea lor directă în copilărie.<br/><br/>
+        <strong>Exemplu:</strong> valoarea recunoscută social apare adesea după ani de practică.
+      </span></span>.
+      Perspectiva <span class='tip'><strong>little c</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> creativitatea copilului poate fi autentică la nivelul lui, ca potențial și proces.<br/><br/>
+        <strong>Formulare academică:</strong> little c redefinește creativitatea copilului ca propensiune spre schimbare și adaptare (explorare, combinare, ajustare), cu valoare personală și educațională, deci cultivabilă prin educație.<br/><br/>
+        <strong>Exemplu:</strong> găsește o soluție ingenioasă pentru o problemă de la clasă.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">De ce unii sunt reticenți</div>
+
+    ${window.flashPillList([
+      {
+        text: "⏳ <span class='tip'><strong>timp de formare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creativitatea majoră cere ani de acumulări.<br/><br/><strong>Formulare academică:</strong> creativitatea eminentă este asociată cu perioade îndelungate de acumulare și practică într-un domeniu.<br/><br/><strong>Exemplu:</strong> dezvoltarea unei contribuții majore poate necesita ani.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>discernământ și intenționalitate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> controlul și scopurile sunt încă în maturizare.<br/><br/><strong>Formulare academică:</strong> dezvoltarea cognitivă și emoțională în copilărie limitează uneori intenționalitatea și controlul necesare pentru formele de creativitate validate social.<br/><br/><strong>Exemplu:</strong> copilul creează spontan, fără criterii stabile de evaluare.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🔟 <span class='tip'><strong>„regula celor 10 ani”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> unele perspective leagă creativitatea eminentă de un deceniu de muncă într-un domeniu.<br/><br/><strong>Formulare academică:</strong> este invocată ideea că realizările creative majore presupun, frecvent, o perioadă lungă de angajare și practică susținută într-un domeniu.<br/><br/><strong>Exemplu:</strong> expertiza se construiește în timp.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Lecția subliniază trăsături care susțin creativitatea în copilărie:
+      <span class='tip'><strong>fantezie și spontaneitate</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> imagini alternative, fără rigiditate.<br/><br/>
+        <strong>Formulare academică:</strong> disponibilitatea pentru imaginare și acțiune spontană susține explorarea alternativelor și încercarea de variante.<br/><br/>
+        <strong>Exemplu:</strong> inventează scenarii și le modifică rapid.
+      </span></span>
+      și <span class='tip'><strong>disponibilitate pentru risc</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> încercare–eroare fără teamă excesivă de eșec.<br/><br/>
+        <strong>Formulare academică:</strong> toleranța la risc permite experimentarea și învățarea prin încercare–eroare, componentă esențială a dezvoltării creativității.<br/><br/>
+        <strong>Exemplu:</strong> încearcă idei noi chiar dacă pot „ieși prost”.
+      </span></span>.
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum apar primele manifestări ale creativității (joc, interese, profiluri)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Primele manifestări creative apar devreme și sunt, de regulă,
+      <span class='tip'><strong>informale</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> nu urmăresc validare socială complexă.<br/><br/>
+        <strong>Formulare academică:</strong> manifestările timpurii ale creativității se exprimă prin comportamente informale, orientate predominant spre valoare personală și explorare, nu spre validare publică.<br/><br/>
+        <strong>Exemplu:</strong> creează din plăcere, nu pentru „notă”.
+      </span></span>
+      și susținute de <span class='tip'><strong>plăcere</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> motivație intrinsecă.<br/><br/>
+        <strong>Formulare academică:</strong> motivația intrinsecă susține explorarea și menținerea activităților imaginative și expresive în copilărie.<br/><br/>
+        <strong>Exemplu:</strong> revine la jocul creativ fără să i se ceară.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Manifestări timpurii</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎭 <span class='tip'><strong>joc simbolic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> un obiect „devine” altceva.<br/><br/><strong>Formulare academică:</strong> jocul simbolic utilizează substituții și reprezentări, prin care copilul construiește sens și scenarii alternative.<br/><br/><strong>Exemplu:</strong> un băț devine sabie sau baghetă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🎨 <span class='tip'><strong>desen</strong><span class='tooltip-box'><strong>Spus simplu:</strong> expresie creativă cu valoare personală.<br/><br/><strong>Formulare academică:</strong> desenul funcționează ca formă de expresie creativă, în care valoarea este în primul rând personală, nu neapărat societală.<br/><br/><strong>Exemplu:</strong> își inventează propriile forme și scene.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Indicatori la vârste diferite</div>
+
+    ${window.flashPillList([
+      {
+        text: "📚 <span class='tip'><strong>vârsta școlară</strong><span class='tooltip-box'><strong>Spus simplu:</strong> interese multiple și semne de explorare.<br/><br/><strong>Formulare academică:</strong> la vârsta școlară, creativitatea se observă prin interese multiple și indicii ale explorării asociative (de exemplu, notițe și desene marginale).<br/><br/><strong>Exemplu:</strong> notează idei și schițe pe marginea caietului.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🚀 <span class='tip'><strong>adolescență</strong><span class='tooltip-box'><strong>Spus simplu:</strong> originalitatea și siguranța de sine devin mai importante.<br/><br/><strong>Formulare academică:</strong> în adolescență crește importanța originalității, a siguranței de sine și a perseverenței în menținerea intereselor pe termen mai lung.<br/><br/><strong>Exemplu:</strong> își susține o idee diferită și lucrează consecvent la ea.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Prietenul imaginar și lumile imaginare: de ce sunt considerate indicii ale creativității?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      <span class='tip'><strong>Prietenul imaginar</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> un personaj tratat ca „altcineva”, cu gânduri și dorințe.<br/><br/>
+        <strong>Formulare academică:</strong> prietenul imaginar este o entitate distinctă creată de copil, căreia i se atribuie intenții, gânduri și dorințe, utilizată în jocul imaginar și în organizarea experienței.<br/><br/>
+        <strong>Exemplu:</strong> copilul discută cu personajul și îi atribuie reacții.
+      </span></span>
+      și <span class='tip'><strong>lumile imaginare</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> construcții fictive complexe, cu reguli și continuitate.<br/><br/>
+        <strong>Formulare academică:</strong> lumile imaginare sunt sisteme fictive elaborate (personaje, locuri, reguli) menținute în timp, uneori cu reprezentări materiale (hărți, desene, obiecte).<br/><br/>
+        <strong>Exemplu:</strong> copilul face o hartă a „lumii” inventate.
+      </span></span>
+      sunt văzute ca indicatori ai creativității.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">De ce sunt indicatori (logica din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧩 <span class='tip'><strong>organizare și rezolvare de probleme</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copilul creează reguli și găsește soluții în universul inventat.<br/><br/><strong>Formulare academică:</strong> jocul imaginar solicită organizarea informației și rezolvarea de probleme în cadrul unei structuri fictive coerente.<br/><br/><strong>Exemplu:</strong> „ce se întâmplă dacă personajul pierde un obiect?”</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🔥 <span class='tip'><strong>motivație intrinsecă și perseverență</strong><span class='tooltip-box'><strong>Spus simplu:</strong> menține lumea imaginară mult timp, din interes propriu.<br/><br/><strong>Formulare academică:</strong> aceste construcții pot fi menținute luni sau ani, indicând angajare și perseverență fără nevoia constantă de validare externă.<br/><br/><strong>Exemplu:</strong> revine periodic la aceeași poveste și o dezvoltă.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "👑 <span class='tip'><strong>leadership și implicare emoțională</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copilul conduce universul inventat și îi dă sens.<br/><br/><strong>Formulare academică:</strong> copilul își asumă controlul scenariului, stabilește reguli și evoluții, investind emoțional în dezvoltarea lumii imaginare.<br/><br/><strong>Exemplu:</strong> decide cine sunt personajele și cum se schimbă relațiile dintre ele.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Lecția menționează că astfel de construcții pot avea continuitate îndelungată și pot fi asociate cu creativitatea ulterioară (exemplul C.S. Lewis și „Boxen”).
+    </div>
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cine poate stimula sau bloca creativitatea în școală (agenți implicați)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Creativitatea în școală depinde de
+      <span class='tip'><strong>interacțiunea mai multor agenți</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> elevi, profesori, management, părinți și decidenți.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea școlară este influențată sistemic de actorii implicați în viața educațională, astfel încât același elev poate fi facilitat sau inhibat în funcție de modul în care sistemul funcționează.<br/><br/>
+        <strong>Exemplu:</strong> un climat de clasă deschis poate activa inițiativa elevului, în timp ce o instituție rigidă o poate inhiba.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Agenți și roluri</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎒 <span class='tip'><strong>elevul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poate activa curiozitatea sau se poate bloca prin evitare/conformism.<br/><br/><strong>Formulare academică:</strong> elevul își poate activa potențialul creativ prin curiozitate și inițiativă, dar îl poate inhiba prin autocenzură și orientare exclusivă spre răspunsul „corect”.<br/><br/><strong>Exemplu:</strong> nu mai propune idei de teamă să nu greșească.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🧑‍🏫 <span class='tip'><strong>profesorii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> pot valoriza originalitatea și pot permite explorarea.<br/><br/><strong>Formulare academică:</strong> profesorii pot susține creativitatea prin valorizarea originalității și prin disponibilitate pentru explorare, întrebări și încercări.<br/><br/><strong>Exemplu:</strong> acceptă soluții diferite dacă sunt argumentate.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🏫 <span class='tip'><strong>managementul școlii</strong><span class='tooltip-box'><strong>Spus simplu:</strong> influențează prin politici, resurse și priorități.<br/><br/><strong>Formulare academică:</strong> managementul poate facilita sau bloca creativitatea prin politicile și prioritățile instituției (resurse, timp, standardizare vs inovare).<br/><br/><strong>Exemplu:</strong> accent exclusiv pe rezultate standardizate reduce inovația didactică.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "👪 <span class='tip'><strong>părinți și decidenți</strong><span class='tooltip-box'><strong>Spus simplu:</strong> transmit valori și stabilesc resurse/condiții.<br/><br/><strong>Formulare academică:</strong> părinții și decidenții influențează valorile, așteptările și resursele care ajung în școală, afectând climatul și oportunitățile pentru creativitate.<br/><br/><strong>Exemplu:</strong> presiune pentru conformism vs sprijin pentru explorare.</span></span>",
+        key: "amber",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum se blochează creativitatea în școală (obstacole și mecanisme)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Blocarea creativității în școală apare când sunt descurajate
+      <span class='tip'><strong>întrebările</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> curiozitatea și alternativele.<br/><br/>
+        <strong>Formulare academică:</strong> descurajarea întrebărilor reduce explorarea alternativelor și limitează căutarea de soluții multiple, afectând direct gândirea divergentă.<br/><br/>
+        <strong>Exemplu:</strong> „nu pune întrebări, fă exact ca în model”.
+      </span></span>,
+      <span class='tip'><strong>riscul</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> încercare–eroare.<br/><br/>
+        <strong>Formulare academică:</strong> penalizarea riscului și a greșelii inhibă experimentarea, ceea ce reduce probabilitatea apariției soluțiilor originale.<br/><br/>
+        <strong>Exemplu:</strong> elevul se autocenzurează de teamă să nu fie evaluat negativ.
+      </span></span>
+      și <span class='tip'><strong>explorarea</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> mai multe soluții posibile.<br/><br/>
+        <strong>Formulare academică:</strong> reducerea spațiului pentru explorare favorizează uniformitatea și conduce la strategie de conformare, în detrimentul creativității.<br/><br/>
+        <strong>Exemplu:</strong> se acceptă o singură abordare, indiferent de argumente.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Mecanisme frecvente (din lecție)</div>
+
+    ${window.flashPillList([
+      {
+        text: "🎯 <span class='tip'><strong>„doar răspunsul corect”</strong><span class='tooltip-box'><strong>Spus simplu:</strong> elevul caută exclusiv validarea imediată.<br/><br/><strong>Formulare academică:</strong> orientarea exclusivă spre răspunsul corect reduce generarea alternativelor și diminuează gândirea divergentă.<br/><br/><strong>Exemplu:</strong> nu mai propune variante, întreabă doar „care e răspunsul?”.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🧊 <span class='tip'><strong>evitarea riscurilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> teama de greșeală blochează încercarea.<br/><br/><strong>Formulare academică:</strong> teama de greșeală conduce la autocenzură și la reducerea explorării, afectând direct producerea ideilor originale.<br/><br/><strong>Exemplu:</strong> preferă să nu răspundă decât să greșească.</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧑‍🏫 <span class='tip'><strong>convingeri limitative ale profesorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „creativitatea e doar pentru genii” sau „metodele creative = haos”.<br/><br/><strong>Formulare academică:</strong> credințele că creativitatea este rezervată unui număr mic de persoane sau că abordările creative sunt incompatibile cu controlul clasei pot conduce la rigiditate didactică și inhibare a explorării.<br/><br/><strong>Exemplu:</strong> evită sarcinile deschise de teamă că „pierde controlul”.</span></span>",
+        key: "violet",
+      },
+      {
+        text: "🏫 <span class='tip'><strong>instituția: conformism și rutină</strong><span class='tooltip-box'><strong>Spus simplu:</strong> uniformitate și proceduri rigide.<br/><br/><strong>Formulare academică:</strong> conformismul instituțional și rutina reduc spațiul pentru inițiativă și experimente didactice, blocând creativitatea elevilor și a profesorilor.<br/><br/><strong>Exemplu:</strong> totul trebuie făcut „ca în șablon”.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "📋 <span class='tip'><strong>evaluare exclusiv cognitivă și standardizare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se penalizează „deviațiile” productive.<br/><br/><strong>Formulare academică:</strong> practicile evaluative centrate strict pe standardizare pot favoriza uniformitatea și pot penaliza alternativele, ignorând dimensiuni ale procesului creativ.<br/><br/><strong>Exemplu:</strong> ideea bună e respinsă pentru că nu seamănă cu modelul.</span></span>",
+        key: "pink",
+      },
+    ])}
+  </div>
+
+</div>`,
+        },
+
+        {
+          front:
+            "Cum poți susține creativitatea în școală (condiții și metode)?",
+          back: `<div class='flash-back'>
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div>
+      Creativitatea poate fi <span class='tip'><strong>susținută intenționat</strong><span class='tooltip-box'>
+        <strong>Spus simplu:</strong> prin felul în care organizezi contextul, sarcinile și relațiile.<br/><br/>
+        <strong>Formulare academică:</strong> creativitatea este cultivabilă atunci când contextul educațional este proiectat pentru autonomie, explorare și reflecție, prin sarcini și interacțiuni care permit alternative, argumentare și ajustări.<br/><br/>
+        <strong>Exemplu:</strong> sarcini deschise + discuție de final despre ce a funcționat.
+      </span></span>.
+    </div>
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Condiții (Starko, 2005) din lecție</div>
+
+    ${window.flashPillList([
+      {
+        text: "🧭 <span class='tip'><strong>participare la stabilirea obiectivelor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> crește autonomia.<br/><br/><strong>Formulare academică:</strong> implicarea elevilor în stabilirea obiectivelor crește autonomia și sensul personal al învățării.<br/><br/><strong>Exemplu:</strong> aleg împreună cu elevii direcția unui proiect.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "💬 <span class='tip'><strong>dezbatere și diferențe de opinie</strong><span class='tooltip-box'><strong>Spus simplu:</strong> normalizează perspective multiple.<br/><br/><strong>Formulare academică:</strong> dezbaterea legitimează pluralitatea de perspective și susține explorarea alternativelor, în locul unei singure căi acceptate de la început.<br/><br/><strong>Exemplu:</strong> două soluții diferite sunt discutate pe criterii.</span></span>",
+        key: "emerald",
+      },
+      {
+        text: "🔀 <span class='tip'><strong>alternanță: structurat / nestructurat</strong><span class='tooltip-box'><strong>Spus simplu:</strong> siguranță + explorare.<br/><br/><strong>Formulare academică:</strong> alternarea sarcinilor structurate cu sarcini nestructurate (deschise) permite atât stabilitate, cât și explorare creativă.<br/><br/><strong>Exemplu:</strong> exerciții ghidate + sarcini cu soluții multiple.</span></span>",
+        key: "amber",
+      },
+      {
+        text: "🤝 <span class='tip'><strong>alternanță: individual / echipă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> inițiativă personală + învățare socială.<br/><br/><strong>Formulare academică:</strong> combinarea sarcinilor individuale și de echipă susține inițiativa personală și medierea socială prin cooperare și schimb de idei.<br/><br/><strong>Exemplu:</strong> idei individuale → apoi integrare în echipă.</span></span>",
+        key: "violet",
+      },
+    ])}
+  </div>
+
+  <hr class="hr-flash">
+
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">Rolul reflecției și al profesorului</div>
+
+    ${window.flashPillList([
+      {
+        text: "⏳ <span class='tip'><strong>timp de reflecție</strong><span class='tooltip-box'><strong>Spus simplu:</strong> înțelegi ce a mers și ce îmbunătățești.<br/><br/><strong>Formulare academică:</strong> reflecția susține consolidarea prin identificarea strategiilor eficiente și a punctelor de ajustare, făcând procesul creativ explicit și transferabil.<br/><br/><strong>Exemplu:</strong> „ce soluții au apărut și de ce sunt utile?”</span></span>",
+        key: "slate",
+      },
+      {
+        text: "🧩 <span class='tip'><strong>proiecte complexe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> integrează dimensiuni cognitive, sociale și emoționale.<br/><br/><strong>Formulare academică:</strong> proiectele complexe susțin creativitatea prin integrarea dimensiunilor cognitive, sociale și emoționale ale învățării, oferind contexte autentice de aplicare.<br/><br/><strong>Exemplu:</strong> proiect cu impact comunitar.</span></span>",
+        key: "cyan",
+      },
+      {
+        text: "🧑‍🏫 <span class='tip'><strong>modelul profesorului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> profesorul transmite atitudini creative prin propriul stil.<br/><br/><strong>Formulare academică:</strong> profesorul modelează atitudini creative (curiozitate, deschidere, experimentare) prin modul de lucru și prin felul în care legitimează încercarea și ajustarea.<br/><br/><strong>Exemplu:</strong> arată cum testează o idee și cum o îmbunătățește.</span></span>",
+        key: "emerald",
+      },
+    ])}
+  </div>
+
+</div>`,
         },
       ],
     },
@@ -7014,7 +11346,7 @@ window.PHED_LESSONS = {
           <td>Copilărie mijlocie</td>
           <td>3–6</td>
           <td>Inițiativă vs vinovăție</td>
-          <td>Scopul</td>
+          <td>Scopul (finalitatea)</td>
         </tr>
         <tr>
           <td>Copilărie mare</td>
