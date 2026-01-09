@@ -1537,11 +1537,10 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: true,
         options: [
           "<span class='tip'><strong>Compară grupuri de vârstă diferite</strong> la același moment<span class='tooltip-box'><strong>Exemplu:</strong> copii de 7 ani comparați cu adolescenți de 15 ani în același test.</span></span>",
-          "<span class='tip'><strong>Nu urmăresc aceleași persoane în timp</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul de 7 ani nu mai este testat peste câțiva ani.</span></span>",
           "<span class='tip'><strong>Sunt eficiente și rapide</strong> ca durată<span class='tooltip-box'><strong>Exemplu:</strong> toate datele se colectează într-o singură etapă de cercetare.</span></span>",
           "<span class='tip'><strong>Urmăresc aceleași persoane ani la rând</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta descrie studiile longitudinale.</span></span>",
         ],
-        answer: [0, 1, 2],
+        answer: [0, 1],
       },
 
       {
@@ -1681,91 +1680,89 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       "Designuri generale de cercetare (în funcție de gradul de intervenție)",
     questions: [
       {
-        text: "De ce este important să clasificăm designurile de cercetare după <span class='tip'><strong>gradul de intervenție al cercetătorului?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> arată cât de mult „schimbă” cercetătorul situația: doar observă, colectează reacții fără să le provoace sau modifică intenționat condițiile.<br><br><strong>De ce contează:</strong> de aici rezultă cât de naturală rămâne situația, ce tip de concluzii poți susține (descriere/predicție vs. cauzalitate) și ce limite etice există.<br><br><strong>Exemplu concret:</strong> a observa jocul copiilor în pauză este diferit de a introduce un program de cooperare și a vedea dacă schimbă comportamentul.</span></span>",
+        text: "De ce este important să clasificăm designurile de cercetare după <span class='tip'><strong>gradul de intervenție al cercetătorului?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> te ajută să vezi dacă studiul doar descrie ce există, folosește o situație existentă ca factor explicativ sau creează intenționat condiții ca să testeze un efect.<br><br><strong>De ce contează:</strong> de aici rezultă cât de naturală rămâne situația, ce tip de concluzii poți susține și ce limite etice există.<br><br><strong>Exemplu concret:</strong> a observa jocul copiilor în pauză este diferit de a compara înainte și după un program introdus de școală și este diferit de a introduce tu un program și a-l testa.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Clarifică ce tip de concluzii sunt posibile</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cu intervenție mai mare poți testa mai bine cauzalitatea; cu intervenție minimă descrii mai bine comportamentul în mediul lui natural.<br><br><strong>Exemplu concret:</strong> dacă introduci o intervenție și comportamentul se schimbă, ai un argument mai puternic decât dacă doar observi că două lucruri apar împreună.</span></span>",
-          "<span class='tip'><strong>Orientează deciziile etice și de fezabilitate</strong><span class='tooltip-box'><strong>Simplu spus:</strong> unele intervenții nu sunt posibile sau nu sunt etice, mai ales la copii, deci alegi un design cu intervenție mai mică.<br><br><strong>Exemplu concret:</strong> nu „provoaci” intenționat anxietate puternică, dar poți observa anxietatea în situații reale sau poți testa o intervenție de reducere a ei.</span></span>",
-          "<span class='tip'><strong>Te ajută să alegi între observațional, cvasi-experimental și experimental</strong><span class='tooltip-box'><strong>Explicație:</strong> designurile se pot diferenția după intervenție: (1) observațional – fără intervenție, (2) cvasi-experimental – fără intervenție activă în generarea reacțiilor, (3) experimental – intervenție directă asupra condițiilor.<br><br><strong>Exemplu concret:</strong> observație/biografii (observațional) vs. sondaj (cvasi-experimental) vs. intervenție educațională (experimental).</span></span>",
+          "<span class='tip'><strong>Clarifică ce tip de concluzii sunt posibile</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cu cât ai mai mult control asupra condițiilor, cu atât poți argumenta mai bine efecte; cu intervenție minimă descrii mai bine comportamentul în mediul lui natural.<br><br><strong>Academic:</strong> clasificarea designurilor diferențiază puterea inferențială a concluziilor, de la descriere și asociere până la testarea efectelor prin controlul condițiilor.<br><br><strong>Exemplu:</strong> o schimbare observată după o intervenție planificată de cercetător are un suport mai puternic decât o simplă coapariție observată în mediul natural.</span></span>",
+          "<span class='tip'><strong>Orientează deciziile etice și de fezabilitate</strong><span class='tooltip-box'><strong>Simplu spus:</strong> unele intervenții nu sunt posibile sau nu sunt etice, mai ales la copii, deci alegi un design cu intervenție mai mică sau care folosește situații existente.<br><br><strong>Academic:</strong> gradul de intervenție este constrâns de norme etice și de posibilități practice, ceea ce impune alegerea unui design adecvat populației și contextului.<br><br><strong>Exemplu:</strong> nu provoci intenționat stres puternic, dar poți studia diferențe apărute după un eveniment real sau poți testa o intervenție de reducere a stresului.</span></span>",
+          "<span class='tip'><strong>Te ajută să alegi între observațional, cvasi-experimental și experimental</strong><span class='tooltip-box'><strong>Simplu spus:</strong> diferența esențială este dacă doar descrii, folosești o condiție existentă ca factor explicativ sau creezi tu condiția.<br><br><strong>Academic:</strong> designurile se disting prin raportul dintre colectarea datelor și utilizarea unei condiții ca factor explicativ, respectiv prin crearea și controlul condițiilor de către cercetător.<br><br><strong>Exemplu:</strong> observi interacțiuni în pauză, compari înainte și după un program introdus de școală, apoi testezi tu un program într-un cadru controlat.</span></span>",
           "<span class='tip'><strong>Elimină complet subiectivitatea cercetătorului</strong><span class='tooltip-box'><strong>Distractor:</strong> niciun design nu elimină complet subiectivitatea. Poți reduce biasul prin proceduri standardizate și criterii clare, dar interpretarea rămâne un proces controlat, nu absent.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Cum pot fi diferențiate designurile de cercetare după <span class='tip'><strong>gradul de intervenție?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> uneori cercetătorul doar observă, alteori colectează reacții fără să le provoace, iar alteori schimbă intenționat condițiile.<br><br><strong>Exemplu concret:</strong> observație/biografii (fără intervenție) vs. sondaj (fără generarea activă a reacțiilor) vs. intervenție educațională (intervenție directă).</span></span>",
+        text: "Cum pot fi diferențiate designurile de cercetare după <span class='tip'><strong>gradul de intervenție?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> uneori descrii ce se întâmplă fără să folosești vreo condiție ca factor, alteori folosești o condiție existentă ca factor explicativ, iar alteori creezi tu condițiile ca să testezi un efect.<br><br><strong>Academic:</strong> diferențierea se face prin rolul condițiilor în demers: descriere naturală, comparație pe baza unei condiții existente, respectiv manipulare deliberată a condițiilor.<br><br><strong>Exemplu:</strong> observi jocul liber, compari clase înainte și după o schimbare decisă de școală, introduci un program și îl testezi.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Cercetări observaționale</strong> – cercetătorul doar observă fără a interveni<span class='tooltip-box'><strong>Simplu spus:</strong> urmărești comportamentele așa cum apar în viața reală.<br><br><strong>Exemplu concret:</strong> observi jocul copiilor sau analizezi biografii.</span></span>",
-          "<span class='tip'><strong>Cercetări cvasi-experimentale</strong> – cercetătorul nu intervine activ în generarea reacțiilor (ex. sondaje de opinie)<span class='tooltip-box'><strong>Simplu spus:</strong> nu provoci reacții prin manipulare; colectezi răspunsuri/reacții în contexte existente.<br><br><strong>Alt exemplu (în plus față de sondaj):</strong> aplicarea unui chestionar standardizat de autoevaluare (de exemplu, despre anxietate sau satisfacție școlară), fără să modifici condițiile de viață sau de învățare ale participanților.<br><br><strong>De reținut:</strong> reacția există deja (opinia/auto-raportarea), iar cercetătorul o înregistrează și o analizează.</span></span>",
-          "<span class='tip'><strong>Cercetări experimentale</strong> – cercetătorul intervine și determină reacții specifice ale subiectului<span class='tooltip-box'><strong>Simplu spus:</strong> creezi condiții controlate ca să vezi dacă produc o schimbare măsurabilă.<br><br><strong>Exemplu concret:</strong> introduci o intervenție educațională și măsori dacă se schimbă performanța.</span></span>",
-          "<span class='tip'><strong>Cercetări observaționale</strong> – cercetătorul determină reacții specifice ale subiectului<span class='tooltip-box'><strong>Distractor:</strong> „determină reacții specifice” descrie cercetarea experimentală. Observațional înseamnă non-intervenție.</span></span>",
+          "<span class='tip'><strong>Cercetări observaționale</strong> cercetătorul descrie și înregistrează fără a folosi o condiție ca factor explicativ<span class='tooltip-box'><strong>Simplu spus:</strong> urmărești comportamentele așa cum apar și le descrii în context.<br><br><strong>Academic:</strong> datele sunt colectate în condiții naturale, fără a trata o situație drept factor explicativ introdus în design.<br><br><strong>Exemplu:</strong> observi jocul copiilor sau analizezi documente și biografii.</span></span>",
+          "<span class='tip'><strong>Cercetări cvasi-experimentale</strong> cercetătorul nu creează condiția, dar o folosește ca factor explicativ<span class='tooltip-box'><strong>Simplu spus:</strong> nu produci tu schimbarea, dar o folosești intenționat ca să vezi dacă explică diferențe între grupuri sau între înainte și după.<br><br><strong>Academic:</strong> efectele sunt analizate prin comparații sistematice pe baza unei condiții existente, tratată ca factor explicativ, fără crearea deliberată a condiției de către cercetător.<br><br><strong>Exemplu:</strong> compari două clase după implementarea unui program decis de școală sau compari aceeași clasă înainte și după program.</span></span>",
+          "<span class='tip'><strong>Cercetări experimentale</strong> cercetătorul creează și controlează condițiile ca să testeze un efect<span class='tooltip-box'><strong>Simplu spus:</strong> introduci tu condiții diferite și vezi dacă produc o schimbare măsurabilă.<br><br><strong>Academic:</strong> condițiile sunt stabilite deliberat de cercetător pentru testarea unui efect, cu proceduri de control care reduc explicațiile alternative.<br><br><strong>Exemplu:</strong> introduci o intervenție educațională și măsori dacă se schimbă performanța.</span></span>",
+          "<span class='tip'><strong>Cercetări observaționale</strong> cercetătorul determină reacții specifice ale subiectului<span class='tooltip-box'><strong>Distractor:</strong> „determină reacții specifice” descrie cercetarea experimentală. Observațional înseamnă înregistrare și descriere fără creare de condiții și fără utilizarea unei condiții ca factor explicativ introdus în design.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Alege toate afirmațiile adevărate raportate la relația dintre <span class='tip'><strong>cercetarea observațională</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul urmărește comportamente sau urme ale lor (inclusiv documente/biografii), fără să intervină și fără să solicite un răspuns standardizat.<br><br><strong>Exemplu concret:</strong> observi interacțiunile copiilor în curtea școlii sau analizezi biografii/documente.</span></span> și <span class='tip'><strong>cercetarea cvasi-experimentală</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul nu manipulează condițiile, dar colectează reacții/raportări (de exemplu, opinii, autoevaluări) prin proceduri standardizate, în contexte existente.<br><br><strong>Exemplu concret:</strong> sondaj de opinie sau chestionar despre stresul școlar.</span></span>.",
+        text: "Alege toate afirmațiile adevărate raportate la relația dintre <span class='tip'><strong>cercetarea observațională</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul descrie comportamente sau urme ale lor în contexte naturale, fără să introducă condiții și fără să folosească o condiție ca factor explicativ al diferențelor.<br><br><strong>Academic:</strong> datele sunt colectate prin observație și analiză de surse existente, urmărind fenomenele în contextul lor, fără structurarea comparațiilor pe baza unei condiții tratate ca factor explicativ.<br><br><strong>Exemplu:</strong> observi interacțiunile copiilor în curtea școlii sau analizezi documente și biografii.</span></span> și <span class='tip'><strong>cercetarea cvasi-experimentală.</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul nu creează condiția, dar o folosește ca factor explicativ, comparând grupuri sau momente în raport cu acea condiție.<br><br><strong>Academic:</strong> efectele unei condiții existente sunt analizate comparativ, prin designuri de tip înainte după sau între grupuri, fără crearea deliberată a condiției de către cercetător.<br><br><strong>Exemplu:</strong> compari comportamente înainte și după o schimbare curriculară decisă de școală.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>În observațional, cercetătorul urmărește comportamente sau date existente fără a solicita un răspuns standardizat</strong><span class='tooltip-box'><strong>Simplu spus:</strong> vezi ce se întâmplă „de la sine” sau în surse deja existente.<br><br><strong>Exemplu concret:</strong> observație în clasă; analiză de documente/biografii.</span></span>",
-          "<span class='tip'><strong>În cvasi-experimental, cercetătorul colectează reacții/raportări (de exemplu, opinii) fără a interveni activ în generarea lor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> oamenii îți dau un răspuns (opinii, autoevaluări), dar tu nu schimbi condițiile ca să le provoci reacția.<br><br><strong>Exemplu concret:</strong> sondaj de opinie sau chestionar despre anxietate.</span></span>",
-          "<span class='tip'><strong>Ambele păstrează condițiile naturale (nu există manipulare intenționată a situației)</strong><span class='tooltip-box'><strong>Explicație:</strong> diferența nu este „intervenție vs. non-intervenție” (ambele sunt fără intervenție activă), ci <em>forma de obținere a datelor</em>: observație/urme existente vs. răspunsuri colectate standardizat.<br><br><strong>Exemplu concret:</strong> nu introduci un program ca să schimbi comportamentul.</span></span>",
+          "<span class='tip'><strong>În observațional, cercetătorul urmărește comportamente sau date existente fără a folosi o condiție ca factor explicativ</strong><span class='tooltip-box'><strong>Simplu spus:</strong> vezi ce se întâmplă și descrii în context, fără să construiești comparația pe baza unei condiții tratate ca „motiv”.<br><br><strong>Academic:</strong> demersul este descriptiv și corelațional, bazat pe observație și surse existente, fără structurarea designului în jurul unei condiții existente tratate ca factor explicativ.<br><br><strong>Exemplu:</strong> observație în clasă, analiză de documente, biografii.</span></span>",
+          "<span class='tip'><strong>În cvasi-experimental, cercetătorul folosește o condiție existentă ca factor explicativ și compară grupuri sau momente</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu creezi tu schimbarea, dar o folosești ca să vezi dacă explică diferențe între oameni sau între înainte și după.<br><br><strong>Academic:</strong> condiția existentă este tratată ca factor explicativ, iar analiza se bazează pe comparații sistematice între grupuri sau în timp.<br><br><strong>Exemplu:</strong> compari înainte și după un program introdus de școală.</span></span>",
+          "<span class='tip'><strong>Ambele nu presupun manipularea deliberată a condițiilor de către cercetător</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu creezi tu condițiile, dar diferența este cum le folosești în explicație.<br><br><strong>Academic:</strong> în ambele designuri condițiile nu sunt create deliberat de cercetător, însă cvasi-experimentalul structurează comparații în jurul unei condiții tratate ca factor explicativ, iar observaționalul rămâne descriptiv în context natural.<br><br><strong>Exemplu:</strong> nu introduci tu programul, dar îl poți folosi ca factor de comparație sau poți doar descrie comportamentele în mediul natural.</span></span>",
         ],
         answer: [0, 1, 2],
       },
       {
-        text: "Ce presupune <span class='tip'><strong>cercetarea observațională?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul urmărește ce se întâmplă, fără să intervină.<br><br><strong>Explicație:</strong> intervenția este minimă: descrii comportamente, contexte și trasee de viață fără să modifici situația studiată.<br><br><strong>Exemplu concret:</strong> observi interacțiunile într-o clasă sau analizezi documente și biografii pentru a înțelege dezvoltarea unei persoane.</span></span>",
+        text: "Ce presupune <span class='tip'><strong>cercetarea observațională?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul urmărește ce se întâmplă și descrie, fără să schimbe situația și fără să folosească o condiție ca factor explicativ al diferențelor.<br><br><strong>Academic:</strong> intervenția este minimă, focalizată pe înregistrare și descriere contextuală a comportamentelor și a urmelor lor, fără structurarea demersului ca test al efectului unei condiții.<br><br><strong>Exemplu:</strong> observi interacțiunile într o clasă sau analizezi documente și biografii pentru a înțelege dezvoltarea unei persoane.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Observarea fără intervenție</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu provoci reacții, doar le urmărești.<br><br><strong>Exemplu concret:</strong> observi cum se formează grupurile de joacă în curtea școlii, fără să dai instrucțiuni copiilor.</span></span>",
-          "<span class='tip'><strong>Studiul documentelor oficiale și al biografiilor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> folosești surse deja existente, fără să schimbi situația persoanei.<br><br><strong>Exemplu concret:</strong> analizezi fișe școlare, rapoarte sau biografii pentru a reconstitui etape relevante ale dezvoltării.</span></span>",
+          "<span class='tip'><strong>Observarea fără intervenție</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu provoci reacții, doar le urmărești.<br><br><strong>Academic:</strong> comportamentele sunt înregistrate sistematic în mediul lor, fără modificarea condițiilor de apariție.<br><br><strong>Exemplu:</strong> observi cum se formează grupurile de joacă în curtea școlii, fără să dai instrucțiuni copiilor.</span></span>",
+          "<span class='tip'><strong>Studiul documentelor oficiale și al biografiilor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> folosești surse deja existente, fără să schimbi situația persoanei.<br><br><strong>Academic:</strong> se analizează urme ale comportamentului și ale parcursului de viață din materiale existente, în scop descriptiv și interpretativ contextual.<br><br><strong>Exemplu:</strong> analizezi fișe școlare, rapoarte sau biografii pentru a reconstitui etape relevante ale dezvoltării.</span></span>",
           "<span class='tip'><strong>Provocarea intenționată a reacțiilor specifice</strong><span class='tooltip-box'><strong>Distractor:</strong> „provocarea intenționată” definește cercetarea experimentală, nu observațională.</span></span>",
           "<span class='tip'><strong>Controlul strict al condițiilor pentru a elimina alternativele</strong><span class='tooltip-box'><strong>Distractor:</strong> controlul strict este tipic designurilor experimentale. În observațional, câștigi realism contextual, dar ai mai puțin control direct asupra factorilor.</span></span>",
         ],
         answer: [0, 1],
       },
       {
-        text: "Ce caracterizează <span class='tip'><strong>cercetările cvasi-experimentale?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul nu intervine activ ca să producă reacții; le colectează și le analizează în contexte existente.<br><br><strong>Exemplu concret:</strong> sondaj de opinie sau chestionar despre stresul școlar, fără să schimbi condițiile din școală.</span></span>",
+        text: "Ce caracterizează <span class='tip'><strong>cercetările cvasi-experimentale?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul nu creează condiția, dar o folosește ca factor explicativ și compară grupuri sau momente în raport cu ea.<br><br><strong>Academic:</strong> efectele unei condiții existente sunt analizate comparativ, prin designuri între grupuri sau înainte după, fără crearea deliberată a condiției de către cercetător.<br><br><strong>Exemplu:</strong> compari comportamentul copiilor înainte și după introducerea unui program decis de școală.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Cercetătorul nu intervine activ în generarea reacțiilor</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu „creezi” reacția prin manipulare, doar o înregistrezi.<br><br><strong>Exemplu concret:</strong> colectezi opinii sau auto-raportări despre anxietate.</span></span>",
-          "<span class='tip'><strong>Analizează reacții apărute în contexte existente</strong><span class='tooltip-box'><strong>Explicație:</strong> participanții vin cu opinii, atitudini, evaluări deja formate; tu le măsori și vezi cum se distribuie sau cu ce variabile se asociază.<br><br><strong>Exemplu concret:</strong> vezi dacă satisfacția școlară diferă între clase, fără să schimbi tu organizarea.</span></span>",
-          "<span class='tip'><strong>Utilizează frecvent sondaje de opinie</strong><span class='tooltip-box'><strong>Simplu spus:</strong> sondajul e un exemplu tipic pentru acest grad de intervenție: colectezi răspunsuri, fără manipulare.<br><br><strong>Exemplu concret:</strong> sondaj despre atitudini față de școală sau despre utilizarea rețelelor sociale.</span></span>",
+          "<span class='tip'><strong>Cercetătorul nu creează condiția care diferențiază participanții</strong><span class='tooltip-box'><strong>Simplu spus:</strong> schimbarea sau situația există deja, nu o produci tu.<br><br><strong>Academic:</strong> condiția investigată este generată de context, instituție sau eveniment, nu de intervenția cercetătorului.<br><br><strong>Exemplu:</strong> școala implementează un program fără ca cercetătorul să decidă implementarea.</span></span>",
+          "<span class='tip'><strong>Condiția existentă este folosită intenționat ca factor explicativ</strong><span class='tooltip-box'><strong>Simplu spus:</strong> o tratezi ca „motiv” posibil al diferențelor și construiești comparația în jurul ei.<br><br><strong>Academic:</strong> condiția este tratată ca variabilă independentă de facto, iar analiza urmărește diferențe asociate acesteia.<br><br><strong>Exemplu:</strong> program prezent vs. program absent, înainte vs. după program.</span></span>",
+          "<span class='tip'><strong>Analizează diferențe prin comparații între grupuri sau în timp</strong><span class='tooltip-box'><strong>Simplu spus:</strong> compari două grupuri sau compari înainte și după aceeași condiție.<br><br><strong>Academic:</strong> designurile tipice includ comparații între grupuri naturale și analize longitudinale înainte după.<br><br><strong>Exemplu:</strong> compari aceeași clasă înainte și după o schimbare curriculară.</span></span>",
           "<span class='tip'><strong>Manipulează strict variabilele pentru a determina reacții specifice</strong><span class='tooltip-box'><strong>Distractor:</strong> manipularea strictă a condițiilor este specifică cercetărilor experimentale, nu cvasi-experimentale.</span></span>",
         ],
         answer: [0, 1, 2],
       },
 
       {
-        text: "Ce înseamnă, în mod specific, <span class='tip'><strong>cercetarea experimentală?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul intervine în situație ca să producă condiții care pot genera reacții măsurabile.<br><br><strong>Explicație:</strong> intervenția înseamnă modificare intenționată a condițiilor pentru a testa un efect (mai ales când vrei să susții relații cauză–efect).<br><br><strong>Exemplu concret:</strong> aplici un program educațional într-un grup și compari schimbările cu un grup similar fără program.</span></span>",
+        text: "Ce înseamnă, în mod specific, <span class='tip'><strong>cercetarea experimentală?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> cercetătorul creează intenționat condiții diferite ca să testeze un efect și măsoară schimbarea produsă.<br><br><strong>Academic:</strong> intervenția înseamnă modificare deliberată a condițiilor de către cercetător pentru a testa un efect și pentru a reduce explicațiile alternative.<br><br><strong>Exemplu:</strong> aplici un program educațional într-un grup și compari schimbările cu un grup similar fără program.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Cercetătorul intervine și determină reacții specifice ale subiectului</strong><span class='tooltip-box'><strong>Simplu spus:</strong> „creezi” condiții care pot produce o reacție pe care o măsori.<br><br><strong>Exemplu concret:</strong> schimbi tipul de feedback (pozitiv vs. neutru) și vezi efectul asupra motivației.</span></span>",
-          "<span class='tip'><strong>Condițiile sunt stabilite intenționat pentru a testa un efect</strong><span class='tooltip-box'><strong>Explicație:</strong> nu te bazezi doar pe contexte existente; organizezi situația astfel încât să poți observa diferențe relevante.<br><br><strong>Exemplu concret:</strong> introduci o metodă nouă de predare și măsori dacă se schimbă performanța.</span></span>",
-          "<span class='tip'><strong>Oferă, în general, argumente mai puternice pentru relații cauză–efect</strong><span class='tooltip-box'><strong>Simplu spus:</strong> pentru că controlezi condițiile, e mai ușor să excluzi explicații alternative.<br><br><strong>Exemplu concret:</strong> dacă doar grupul cu intervenția se schimbă semnificativ, e mai plauzibil că intervenția a contribuit la schimbare.</span></span>",
+          "<span class='tip'><strong>Cercetătorul intervine și determină condiții care pot produce reacții măsurabile</strong><span class='tooltip-box'><strong>Simplu spus:</strong> creezi condiții care pot schimba comportamentul și apoi măsori schimbarea.<br><br><strong>Academic:</strong> condițiile sunt stabilite deliberat de cercetător pentru a induce variație în rezultatul măsurat.<br><br><strong>Exemplu:</strong> schimbi tipul de feedback și vezi efectul asupra motivației.</span></span>",
+          "<span class='tip'><strong>Condițiile sunt stabilite intenționat pentru a testa un efect</strong><span class='tooltip-box'><strong>Simplu spus:</strong> nu te bazezi pe ce există deja, ci construiești situația de test.<br><br><strong>Academic:</strong> designul este construit pentru testarea ipotezei prin controlul procedurii și al condițiilor.<br><br><strong>Exemplu:</strong> introduci o metodă nouă de predare și măsori dacă se schimbă performanța.</span></span>",
+          "<span class='tip'><strong>Oferă, în general, argumente mai puternice pentru relații cauză–efect</strong><span class='tooltip-box'><strong>Simplu spus:</strong> pentru că tu creezi condițiile, poți controla mai bine explicațiile alternative.<br><br><strong>Academic:</strong> controlul condițiilor crește validitatea internă și susține inferențe cauzale mai puternice.<br><br><strong>Exemplu:</strong> dacă doar grupul cu intervenția se schimbă semnificativ, este mai plauzibil că intervenția a contribuit la schimbare.</span></span>",
           "<span class='tip'><strong>Cercetătorul doar observă fără a interveni</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta este definiția cercetării observaționale, nu a celei experimentale.</span></span>",
         ],
         answer: [0, 1, 2],
       },
-
       {
-        text: "Dacă te interesează <span class='tip'><strong>relații cauză–efect</strong><span class='tooltip-box'><strong>Simplu spus:</strong> vrei să susții că un factor produce o schimbare într-alt factor, nu doar că apar împreună.<br><br><strong>Exemplu concret:</strong> „programul X crește cooperarea” (cauză) este diferit de „copiii cooperanți au și note bune” (asociere).</span></span>, ce tip de cercetare oferă, în general, cel mai puternic sprijin în această clasificare?",
+        text: "Dacă te interesează <span class='tip'><strong>relații cauză–efect</strong><span class='tooltip-box'><strong>Simplu spus:</strong> vrei să susții că un factor produce o schimbare în alt factor, nu doar că apar împreună.<br><br><strong>Academic:</strong> inferența cauzală cere control asupra condițiilor și reducerea explicațiilor alternative, prin design și procedură.<br><br><strong>Exemplu:</strong> „programul X crește cooperarea” este diferit de „copiii cooperanți au și note bune”.</span></span>, ce tip de cercetare oferă, în general, cel mai puternic sprijin în această clasificare?",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Cercetarea experimentală</strong><span class='tooltip-box'><strong>Corect:</strong> implică intervenție asupra condițiilor și permite control mai bun al alternativelor explicative.<br><br><strong>Exemplu concret:</strong> aplici intervenția și vezi dacă produce schimbarea urmărită.</span></span>",
-          "<span class='tip'><strong>Cercetarea cvasi-experimentală</strong><span class='tooltip-box'><strong>Distractor:</strong> poate sugera legături și e utilă când nu poți interveni, dar nu implică, de regulă, generarea activă a reacțiilor prin manipulare.<br><br><strong>Exemplu concret:</strong> sondajele arată asocieri între opinii și variabile, dar nu testează direct efectul unei intervenții.</span></span>",
-          "<span class='tip'><strong>Cercetarea observațională</strong><span class='tooltip-box'><strong>Distractor:</strong> e excelentă pentru descriere în context natural, dar fără intervenție susține mai greu concluzii cauzale stricte.<br><br><strong>Exemplu concret:</strong> observi interacțiuni naturale, dar nu poți izola ușor ce le-a produs.</span></span>",
+          "<span class='tip'><strong>Cercetarea experimentală</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creezi condițiile și testezi efectul, controlând mai bine alternativele.<br><br><strong>Academic:</strong> intervenția deliberată și controlul condițiilor oferă cel mai puternic cadru pentru susținerea relațiilor cauzale.<br><br><strong>Exemplu:</strong> aplici intervenția și vezi dacă produce schimbarea urmărită.</span></span>",
+          "<span class='tip'><strong>Cercetarea cvasi-experimentală</strong><span class='tooltip-box'><strong>Distractor:</strong> poate susține argumente despre efecte ale unor condiții existente, dar cercetătorul nu creează condiția, iar explicațiile alternative sunt mai greu de exclus complet.</span></span>",
+          "<span class='tip'><strong>Cercetarea observațională</strong><span class='tooltip-box'><strong>Distractor:</strong> este excelentă pentru descriere în context natural și pentru asocieri, dar fără utilizarea unei condiții ca factor explicativ testat și fără control al condițiilor susține mai greu concluzii cauzale stricte.</span></span>",
         ],
         answer: 0,
       },
-
       {
-        text: "Care este valoarea combinării acestor designuri în <span class='tip'><strong>psihologia vârstelor?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> la vârste și contexte diferite ai nevoie de grade diferite de intervenție.<br><br><strong>Exemplu concret:</strong> la copii mici e adesea mai potrivit să observi natural, iar pentru ipoteze precise poți folosi intervenții când este etic și fezabil.</span></span>",
+        text: "Care este valoarea combinării acestor designuri în <span class='tip'><strong>psihologia vârstelor?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> la vârste și contexte diferite ai nevoie de grade diferite de control și de moduri diferite de a folosi condițiile ca explicație.<br><br><strong>Academic:</strong> combinarea designurilor permite convergența dovezilor, echilibrarea realismului contextual cu testarea efectelor și adaptarea la constrângeri etice și de dezvoltare.<br><br><strong>Exemplu:</strong> descrii comportamente natural, analizezi efecte ale unor situații existente, iar unde este etic testezi intervenții.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Permit studierea dezvoltării fără a perturba comportamentele naturale</strong><span class='tooltip-box'><strong>Exemplu concret:</strong> observația surprinde cum apar spontan jocul, cooperarea sau conflictele.</span></span>",
-          "<span class='tip'><strong>Oferă flexibilitate metodologică în funcție de vârstă și context</strong><span class='tooltip-box'><strong>Exemplu concret:</strong> poți folosi observație la preșcolari, chestionare/sondaje la adolescenți și intervenții educaționale la elevi, în condiții etice.</span></span>",
-          "<span class='tip'><strong>Asigură întotdeauna relații cauzale certe</strong><span class='tooltip-box'><strong>Distractor:</strong> niciun design nu garantează „certitudine” în orice situație; experimentul oferă sprijin mai puternic, dar calitatea concluziei depinde de implementare și control.</span></span>",
-          "<span class='tip'><strong>Completează perspectivele asupra dezvoltării psihice</strong><span class='tooltip-box'><strong>Simplu spus:</strong> fiecare design aduce alt tip de înțelegere: realism (observațional), distribuții/opinii (cvasi-experimental), testarea efectelor (experimental).<br><br><strong>Exemplu concret:</strong> observi cooperarea, măsori atitudini prin chestionar, apoi testezi o intervenție care ar putea crește cooperarea.</span></span>",
+          "<span class='tip'><strong>Permit studierea dezvoltării fără a perturba comportamentele naturale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> observi dezvoltarea așa cum se exprimă în viața reală.<br><br><strong>Academic:</strong> designurile cu intervenție minimă păstrează validitatea ecologică și surprind comportamentele în context.<br><br><strong>Exemplu:</strong> observația surprinde cum apar spontan jocul, cooperarea sau conflictele.</span></span>",
+          "<span class='tip'><strong>Oferă flexibilitate metodologică în funcție de vârstă și context</strong><span class='tooltip-box'><strong>Spus simplu:</strong> alegi ce se potrivește vârstei și situației.<br><br><strong>Academic:</strong> diferite niveluri de control și diferite moduri de colectare permit adaptarea la capacitățile de răspuns și la constrângerile contextuale.<br><br><strong>Exemplu:</strong> observație la preșcolari, chestionare la adolescenți, intervenții educaționale când este etic.</span></span>",
+          "<span class='tip'><strong>Asigură întotdeauna relații cauzale certe</strong><span class='tooltip-box'><strong>Distractor:</strong> niciun design nu garantează certitudine în orice situație. Calitatea concluziei depinde de implementare, control și validitatea măsurării.</span></span>",
+          "<span class='tip'><strong>Completează perspectivele asupra dezvoltării psihice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare design vede altceva important.<br><br><strong>Academic:</strong> combinarea designurilor crește robustețea interpretării prin convergența mai multor tipuri de dovezi.<br><br><strong>Exemplu:</strong> descrii cooperarea natural, analizezi efectul unui program introdus de școală, apoi testezi o intervenție planificată.</span></span>",
         ],
         answer: [0, 1, 3],
       },
@@ -5548,9 +5545,18 @@ window.PDEZV_FLASHCARDS = {
       <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧩&nbsp;&nbsp;Dimensiuni</div>
       <div>Dezvoltarea umană include trei dimensiuni analizate simultan.</div>
       ${flashPillList([
-        "🧬&nbsp;&nbsp;<span class='tip'>biologică — schimbări somatice și funcționale<span class='tooltip-box'><strong>Spus simplu:</strong> corpul se schimbă și se maturizează.<br /><br /><strong>Formulare academică:</strong> modificări morfologice, biochimice și fiziologice ale organismului.<br /><br /><strong>Exemplu:</strong> creșterea în înălțime și maturizarea sistemului nervos.</span></span>",
-        "💭&nbsp;&nbsp;<span class='tip'>psihică — evoluția proceselor și funcțiilor<span class='tooltip-box'><strong>Spus simplu:</strong> apar și se transformă procese psihice.<br /><br /><strong>Formulare academică:</strong> apariția, evoluția și transformarea funcțiilor psihice.<br /><br /><strong>Exemplu:</strong> dezvoltarea memoriei și a gândirii.</span></span>",
-        "👥&nbsp;&nbsp;<span class='tip'>socială — adaptare la norme și roluri<span class='tooltip-box'><strong>Spus simplu:</strong> învățăm să trăim în societate.<br /><br /><strong>Formulare academică:</strong> asimilarea normelor și cerințelor mediului social.<br /><br /><strong>Exemplu:</strong> integrarea în grupul de colegi.</span></span>",
+        {
+          text: "🧬&nbsp;&nbsp;<span class='tip'>biologică — schimbări somatice și funcționale<span class='tooltip-box'><strong>Spus simplu:</strong> corpul se schimbă și se maturizează.<br /><br /><strong>Formulare academică:</strong> modificări morfologice, biochimice și fiziologice ale organismului.<br /><br /><strong>Exemplu:</strong> creșterea în înălțime și maturizarea sistemului nervos.</span></span>",
+          key: "emerald",
+        },
+        {
+          text: "💭&nbsp;&nbsp;<span class='tip'>psihică — evoluția proceselor și funcțiilor<span class='tooltip-box'><strong>Spus simplu:</strong> apar și se transformă procese psihice.<br /><br /><strong>Formulare academică:</strong> apariția, evoluția și transformarea funcțiilor psihice.<br /><br /><strong>Exemplu:</strong> dezvoltarea memoriei și a gândirii.</span></span>",
+          key: "indigo",
+        },
+        {
+          text: "👥&nbsp;&nbsp;<span class='tip'>socială — adaptare la norme și roluri<span class='tooltip-box'><strong>Spus simplu:</strong> învățăm să trăim în societate.<br /><br /><strong>Formulare academică:</strong> asimilarea normelor și cerințelor mediului social.<br /><br /><strong>Exemplu:</strong> integrarea în grupul de colegi.</span></span>",
+          key: "pink",
+        },
       ])}
     </div>
 
@@ -5559,16 +5565,37 @@ window.PDEZV_FLASHCARDS = {
       <div style="margin-top:8px;">Fiecare dimensiune se sprijină pe ceilalți factori ai dezvoltării:</div>
 
       ${flashPillList([
-        "🧬&nbsp;&nbsp;<span class='tip'><strong>ereditate (aparține dimensiunii biologice)</strong> — premisa naturală<span class='tooltip-box'><strong>Efecte:</strong> creează premise pentru dezvoltarea psihică și socială.<br /><br /><strong>Exemplu:</strong> predispoziții și ritmuri de maturizare care influențează învățarea și adaptarea.</span></span>",
-        "💭&nbsp;&nbsp;<span class='tip'><strong>educație (aparține dimensiunii psihice)</strong> — factor hotărîtor<span class='tooltip-box'><strong>Efecte asupra dezvoltării psihice:</strong> organizează și direcționează procesele cognitive și afective.<br /><br /><strong>Efecte asupra dezvoltării sociale:</strong> formează comportamente și atitudini conforme normelor și rolurilor sociale.<br /><br /><strong>Exemplu:</strong> activități didactice care dezvoltă atenția, autocontrolul și cooperarea.</span></span>",
-        "👥&nbsp;&nbsp;<span class='tip'><strong>mediu socio-cultural (aparține dimensiunii sociale)</strong> — conținutul dezvoltării<span class='tooltip-box'><strong>Efecte asupra dezvoltării psihice:</strong> furnizează limbajul, modelele cognitive și valorile care structurează funcțiile psihice.<br /><br /><strong>Efecte asupra dezvoltării sociale:</strong> oferă normele, rolurile și regulile necesare adaptării sociale.<br /><br /><strong>Exemplu:</strong> normele din familie și școală, limbajul și practicile culturale.</span></span>",
+        {
+          text: "🧬&nbsp;&nbsp;<span class='tip'><strong>ereditate (aparține dimensiunii biologice)</strong> — premisa naturală<span class='tooltip-box'><strong>Spus simplu:</strong> moștenirea biologică oferă baza inițială.<br /><br /><strong>Formulare academică:</strong> ereditatea furnizează premisele biologice care condiționează ritmurile și potențialul dezvoltării.<br /><br /><strong>Exemplu:</strong> predispoziții și ritmuri de maturizare care influențează învățarea și adaptarea.</span></span>",
+          key: "emerald",
+        },
+        {
+          text: "💭&nbsp;&nbsp;<span class='tip'><strong>educație (aparține dimensiunii psihice)</strong> — factor hotărîtor<span class='tooltip-box'><strong>Spus simplu:</strong> educația organizează ce exersezi și cum înveți.<br /><br /><strong>Formulare academică:</strong> educația structurează și direcționează dezvoltarea funcțiilor psihice și a competențelor, prin activități și feedback sistematic.<br /><br /><strong>Exemplu:</strong> activități didactice care dezvoltă atenția, autocontrolul și cooperarea.</span></span>",
+          key: "indigo",
+        },
+        {
+          text: "👥&nbsp;&nbsp;<span class='tip'><strong>mediu socio-cultural (aparține dimensiunii sociale)</strong> — conținutul dezvoltării<span class='tooltip-box'><strong>Spus simplu:</strong> cultura și mediul dau regulile, limbajul și modelele.<br /><br /><strong>Formulare academică:</strong> mediul socio-cultural furnizează norme, roluri, limbaj și practici care structurează funcțiile psihice și adaptarea socială.<br /><br /><strong>Exemplu:</strong> normele din familie și școală, limbajul și practicile culturale.</span></span>",
+          key: "pink",
+        },
       ])}
 
       <div style="margin-top:10px;">Niveluri de analiză:</div>
       <ul style="padding-left:18px;margin:8px 0 0;display:grid;gap:6px;">
-        <li><span class='tip'>filogenetic — caracteristicile speciei<span class='tooltip-box'><strong>Spus simplu:</strong> ce e specific speciei umane.<br /><br /><strong>Formulare academică:</strong> treapta filogenetică explică trăsături comune speciei.<br /><br /><strong>Exemplu:</strong> capacitatea de limbaj simbolic.</span></span></li>
-        <li><span class='tip'>ontogenetic — dezvoltarea individului<span class='tooltip-box'><strong>Spus simplu:</strong> parcursul vieții unei persoane.<br /><br /><strong>Formulare academică:</strong> treapta ontogenetică urmărește transformările individului pe parcursul vieții.<br /><br /><strong>Exemplu:</strong> trecerea de la copilărie la adolescență.</span></span></li>
-        <li><span class='tip'>psihosocial — interacțiunea individ–mediu<span class='tooltip-box'><strong>Spus simplu:</strong> relația dintre persoană și context.<br /><br /><strong>Formulare academică:</strong> treapta psihosocială surprinde influența reciprocă dintre individ și mediul social.<br /><br /><strong>Exemplu:</strong> adaptarea la cerințele școlii.</span></span></li>
+        <li>
+          <span class='tip'>filogenetic — caracteristicile speciei
+            <span class='tooltip-box'><strong>Spus simplu:</strong> ce e specific speciei umane.<br /><br /><strong>Formulare academică:</strong> nivelul filogenetic explică trăsături comune speciei, rezultate din evoluție.<br /><br /><strong>Exemplu:</strong> capacitatea de limbaj simbolic.</span>
+          </span>
+        </li>
+        <li>
+          <span class='tip'>ontogenetic — dezvoltarea individului
+            <span class='tooltip-box'><strong>Spus simplu:</strong> parcursul vieții unei persoane.<br /><br /><strong>Formulare academică:</strong> nivelul ontogenetic urmărește transformările individului pe parcursul vieții, în raport cu maturizarea și experiența.<br /><br /><strong>Exemplu:</strong> trecerea de la copilărie la adolescență.</span>
+          </span>
+        </li>
+        <li>
+          <span class='tip'>psihosocial — interacțiunea individ–mediu
+            <span class='tooltip-box'><strong>Spus simplu:</strong> relația dintre persoană și context.<br /><br /><strong>Formulare academică:</strong> nivelul psihosocial surprinde influența reciprocă dintre caracteristicile individului și cerințele mediului social.<br /><br /><strong>Exemplu:</strong> adaptarea la cerințele școlii.</span>
+          </span>
+        </li>
       </ul>
     </div>
   </div>`,
@@ -5670,6 +5697,56 @@ window.PDEZV_FLASHCARDS = {
       </ul>
     </div>
   </div>`,
+        },
+        // 1) Metode după colectarea datelor
+        {
+          front:
+            "Clasifică metodele de cercetare (după colectarea datelor) și explică ce includ fiecare",
+          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Metode (după colectarea datelor)</div><div>Metodele se diferențiază după modul de obținere a datelor psihologice.</div>${flashPillList(
+            [
+              "📝&nbsp;&nbsp;<span class='tip'>auto-raportare — date din răspunsuri declarative<span class='tooltip-box'><strong>Spus simplu:</strong> colectezi date din ce spune persoana despre sine.<br /><br /><strong>Academic:</strong> datele sunt obținute prin întrebări și răspunsuri, în format standardizat sau semistructurat.<br /><br /><strong>Exemplu:</strong> interviu și chestionar.</span></span>",
+              "👀&nbsp;&nbsp;<span class='tip'>metode observaționale — comportamente observabile<span class='tooltip-box'><strong>Spus simplu:</strong> te uiți la comportament, nu la declarații.<br /><br /><strong>Academic:</strong> observație naturalistă și observație structurată, cu înregistrare sistematică a comportamentelor și contextului.<br /><br /><strong>Exemplu:</strong> observarea jocului liber vs. observație într o situație standardizată.</span></span>",
+              "🧪&nbsp;&nbsp;<span class='tip'>metode psihofiziologice — indicatori biologici<span class='tooltip-box'><strong>Spus simplu:</strong> măsori reacții ale corpului ca indicii despre procese psihice.<br /><br /><strong>Academic:</strong> indicatori biologici precum ritm cardiac și activitate cerebrală, interpretați în raport cu contextul și comportamentul observat.<br /><br /><strong>Exemplu:</strong> ritmul cardiac la sugar în situații standardizate.</span></span>",
+            ]
+          )}</div></div></div>`,
+        },
+
+        // 2) Instrumente și limite: etnografia nu trebuie să stea ascunsă în auto-raportare
+        {
+          front:
+            "Descrie instrumentele și limitele metodologice esențiale în cercetare",
+          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧰&nbsp;&nbsp;Instrumente și limite</div><div>Înțelegerea metodologiei cere atât avantajele, cât și limitele fiecărei metode.</div>${flashPillList(
+            [
+              "📝&nbsp;&nbsp;<span class='tip'>interviu/chestionar — rapid, dar sensibil la răspunsuri inexacte<span class='tooltip-box'><strong>Spus simplu:</strong> strângi repede date, dar oamenii pot răspunde social-dezirabil sau pot înțelege diferit întrebările.<br /><br /><strong>Academic:</strong> auto-raportarea este eficientă și comparabilă prin standardizare, dar validitatea poate fi afectată de comprehensiune, memorie și auto-prezentare.<br /><br /><strong>Exemplu:</strong> elevul răspunde ce crede că așteaptă adultul.</span></span>",
+              "🧑‍⚕️&nbsp;&nbsp;<span class='tip'>clinice/studii de caz — profunzime, generalizare limitată<span class='tooltip-box'><strong>Spus simplu:</strong> analizezi în detaliu un caz, dar nu extinzi ușor concluziile la toți.<br /><br /><strong>Academic:</strong> abordări idiografice, cu date contextualizate și interpretare integrativă, dar cu generalizabilitate redusă.<br /><br /><strong>Exemplu:</strong> analiza parcursului unui copil prin observații repetate, discuții și documente.</span></span>",
+              "🌍&nbsp;&nbsp;<span class='tip'>etnografie — descriere în profunzime a unui grup, transfer limitat<span class='tooltip-box'><strong>Spus simplu:</strong> descrii cum trăiește un grup în contextul lui cultural, folosind mai multe surse, pe durată lungă.<br /><br /><strong>Academic:</strong> descriere contextualizată a credințelor, valorilor și practicilor unui grup, cu rezultate sensibile la perspectivă și dificil de extins dincolo de grupul studiat.<br /><br /><strong>Exemplu:</strong> documentarea practicilor educaționale într o comunitate pe parcursul mai multor luni.</span></span>",
+              "👀&nbsp;&nbsp;<span class='tip'>observație naturală vs. structurată — spontan vs. standardizat<span class='tooltip-box'><strong>Spus simplu:</strong> fie observi ce apare de la sine, fie organizezi o situație identică pentru toți ca să poți compara comportamentele.<br /><br /><strong>Academic:</strong> naturală păstrează contextul obișnuit, structurată crește comparabilitatea prin situații standardizate, fără a transforma demersul într un test al efectului unei condiții.<br /><br /><strong>Exemplu:</strong> joc liber vs. sarcină de așteptare a rândului.</span></span>",
+              "🧪&nbsp;&nbsp;<span class='tip'>psihofiziologice — utile, dar interpretare ambiguă<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași reacție biologică poate însemna lucruri diferite.<br /><br /><strong>Academic:</strong> indicatorii biologici sunt proxyuri care necesită interpretare contextuală și convergență cu alte date.<br /><br /><strong>Exemplu:</strong> ritm cardiac crescut poate indica frică, efort sau entuziasm.</span></span>",
+              "🧩&nbsp;&nbsp;<span class='tip'>strategie combinată — metode complementare<span class='tooltip-box'><strong>Spus simplu:</strong> combini metode pentru o imagine mai completă.<br /><br /><strong>Academic:</strong> triangularea compensează limitele unei singure surse și crește robustețea interpretării.<br /><br /><strong>Exemplu:</strong> observație + interviu pentru același caz.</span></span>",
+            ]
+          )}</div></div></div>`,
+        },
+
+        // 3) Designuri după intervenție: cvasi clar prin condiție existentă ca factor explicativ
+        {
+          front:
+            "Distinge designurile după gradul de intervenție și precizează valoarea lor",
+          back: `<div class='flash-back'>
+  <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
+    <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧪&nbsp;&nbsp;Designuri după intervenție</div>
+    <div>Gradul de intervenție determină nivelul de control asupra situației studiate.</div>
+
+    ${flashPillList([
+      "🧪&nbsp;&nbsp;<span class='tip'>experimentală — creezi și modifici intenționat condițiile<span class='tooltip-box'><strong>Spus simplu:</strong> cercetătorul introduce o condiție ca să vadă dacă produce o schimbare.<br /><br /><strong>Academic:</strong> manipularea deliberată a condițiilor pentru testarea unui efect asupra rezultatelor măsurate.<br /><br /><strong>Exemplu:</strong> aplici un program educațional unui grup și măsori schimbarea.</span></span>",
+      "📋&nbsp;&nbsp;<span class='tip'>cvasi-experimentală — folosești o condiție existentă ca factor explicativ<span class='tooltip-box'><strong>Spus simplu:</strong> nu creezi tu condiția, dar o folosești intenționat ca să compari înainte după sau între grupuri.<br /><br /><strong>Academic:</strong> analiza efectelor unei condiții existente, tratată ca factor explicativ, prin comparații sistematice în timp sau între grupuri.<br /><br /><strong>Exemplu:</strong> compari două clase înainte și după o schimbare curriculară decisă de școală.</span></span>",
+      "👀&nbsp;&nbsp;<span class='tip'>observațională — descrii ce există, fără condiție folosită ca factor explicativ<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești și descrii comportamentele în context, fără să tratezi o situație ca motiv principal al diferențelor.<br /><br /><strong>Academic:</strong> înregistrarea comportamentelor și a relațiilor dintre variabile în condiții naturale, fără utilizarea intenționată a unei condiții ca factor explicativ al comparațiilor.<br /><br /><strong>Exemplu:</strong> observarea jocului liber sau observație structurată pentru descriere și codare.</span></span>",
+    ])}
+
+    <div style="margin-top:10px;">
+      ✅&nbsp;&nbsp;<span class='tip'><strong>Valoare pentru psihologia vârstelor</strong> — adaptare la vârstă și context<span class='tooltip-box'><strong>Spus simplu:</strong> alegi designul în funcție de ce e posibil și etic la o anumită vârstă.<br /><br /><strong>Academic:</strong> diversitatea gradelor de intervenție permite studierea dezvoltării în contexte naturale și în condiții controlate, în raport cu obiectivul și constrângerile etice.<br /><br /><strong>Exemplu:</strong> observație la copii mici pentru a nu perturba comportamentul, cvasi-experimental când folosești o schimbare reală, experimental când intervenția este justificată.</span></span>
+    </div>
+  </div>
+</div>`,
         },
       ],
     },
@@ -6601,97 +6678,6 @@ ${flashPillList([
               "prieteniile devin criteriu de valoare personală<span class='tooltip-box'><strong>Spus simplu:</strong> acceptarea colegilor contează mult.<br /><br /><strong>Formulare academică:</strong> interacțiunile cu egalii influențează stima de sine și abilitățile sociale.<br /><br /><strong>Exemplu:</strong> respingerea afectează emoțional.</span></span>",
             ]
           )}</div></div>`,
-        },
-      ],
-    },
-  ],
-  "pdezv-u1 - Subcapitol extra": [
-    {
-      id: "pdezv-u1-extra-deck1",
-      title: "U.I.1 Subcapitol extra — Metodologie (Flashcards)",
-      cards: [
-        {
-          front: "Clasifică metodele de cercetare și explică ce includ fiecare",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Metode (după colectarea datelor)</div><div>Metodele se diferențiază după modul de obținere a datelor psihologice.</div>${flashPillList(
-            [
-              "🗣️&nbsp;&nbsp;<span class='tip'>metode indirecte — relatare și interpretare<span class='tooltip-box'><strong>Spus simplu:</strong> datele vin din ce spune persoana și din interpretare.<br /><br /><strong>Formulare academică:</strong> includ auto-raportări și metode clinice; cercetătorul interpretează datele furnizate.<br /><br /><strong>Exemplu:</strong> interviu și chestionar; studiu de caz pentru o persoană.<br /><br /><strong>Etnografie:</strong> descriere detaliată a unui grup într-un context cultural (ex.: adolescenți într-o comunitate).</span></span>",
-              "👀&nbsp;&nbsp;<span class='tip'>metode observaționale — comportamente observabile<span class='tooltip-box'><strong>Spus simplu:</strong> te uiți la comportament, nu la declarații.<br /><br /><strong>Formulare academică:</strong> observație naturalistă și structurată, fără raportare subiectivă directă.<br /><br /><strong>Exemplu:</strong> observarea jocului liber vs. sarcină standardizată.</span></span>",
-              "🧪&nbsp;&nbsp;<span class='tip'>metode psihofiziologice — indicatori biologici<span class='tooltip-box'><strong>Spus simplu:</strong> măsori reacții ale corpului.<br /><br /><strong>Formulare academică:</strong> ritm cardiac, activitate cerebrală, reacții fiziologice pentru inferența proceselor psihice.<br /><br /><strong>Exemplu:</strong> ritmul cardiac la sugar în situații de separare.</span></span>",
-            ]
-          )}</div></div>`,
-        },
-        {
-          front:
-            "Descrie instrumentele și limitele metodologice esențiale în cercetare",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">🧰&nbsp;&nbsp;Instrumente și limite</div><div>Înțelegerea metodologiei cere atât avantajele, cât și limitele fiecărei metode.</div>${flashPillList(
-            [
-              "📝&nbsp;&nbsp;<span class='tip'>interviu/chestionar — rapid, dar sensibil la răspunsuri inexacte<span class='tooltip-box'><strong>Spus simplu:</strong> strângi repede date, dar oamenii pot răspunde social-dezirabil.<br /><br /><strong>Formulare academică:</strong> auto-raportarea crește eficiența, dar reduce validitatea prin conformare.<br /><br /><strong>Exemplu:</strong> elevul răspunde ce crede că așteaptă adultul.</span></span>",
-              "🧑‍⚕️&nbsp;&nbsp;<span class='tip'>clinice/studii de caz — profunzime, generalizare limitată<span class='tooltip-box'><strong>Spus simplu:</strong> analizezi în detaliu un caz, dar nu generalizezi ușor.<br /><br /><strong>Formulare academică:</strong> date contextualizate, cu generalizare redusă la populații largi.<br /><br /><strong>Exemplu:</strong> biografia completă a unui copil cu dezvoltare atipică.</span></span>",
-              "👀&nbsp;&nbsp;<span class='tip'>observație naturală vs. structurată — spontan vs. controlat<span class='tooltip-box'><strong>Spus simplu:</strong> fie observi natural, fie organizezi situația.<br /><br /><strong>Formulare academică:</strong> naturală = fără intervenție, structurată = situație standardizată pentru comportament-țintă.<br /><br /><strong>Exemplu:</strong> joc liber vs. sarcină de așteptare a rândului.</span></span>",
-              "🧪&nbsp;&nbsp;<span class='tip'>psihofiziologice — utile, dar interpretare ambiguă<span class='tooltip-box'><strong>Spus simplu:</strong> aceeași reacție biologică poate însemna lucruri diferite.<br /><br /><strong>Formulare academică:</strong> indicatorii biologici nu dau acces direct la stări psihice; interpretarea rămâne probabilistică.<br /><br /><strong>Exemplu:</strong> ritm cardiac crescut = frică sau entuziasm.</span></span>",
-              "🧩&nbsp;&nbsp;<span class='tip'>strategie combinată — metode complementare<span class='tooltip-box'><strong>Spus simplu:</strong> combini metode pentru o imagine completă.<br /><br /><strong>Formulare academică:</strong> nicio metodă nu surprinde singură complexitatea; combinarea compensează limitele.<br /><br /><strong>Exemplu:</strong> observație + interviu pentru același caz.</span></span>",
-            ]
-          )}</div></div>`,
-        },
-        {
-          front:
-            "Enumeră cele 5 designuri temporale și precizează specificul fiecăruia",
-          back: `<div class='flash-back'><div class='flash-block' style="${FLASH_BLOCK_STYLE}"><div class='flash-title' style="${FLASH_TITLE_STYLE}">⏱️&nbsp;&nbsp;Designuri temporale</div><div>Criteriul temporal arată cum urmărești dezvoltarea în timp.</div>${flashPillList(
-            [
-              "📍&nbsp;&nbsp;<span class='tip'>transversal — grupe diferite, același moment<span class='tooltip-box'><strong>Spus simplu:</strong> compari vârste diferite în același timp.<br /><br /><strong>Formulare academică:</strong> evidențiază diferențe între cohorte într-un singur moment.<br /><br /><strong>Exemplu:</strong> copii de 6 vs. 10 ani în același an.</span></span>",
-              "⏳&nbsp;&nbsp;<span class='tip'>longitudinal — aceiași participanți în timp<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești aceeași grupă ani la rând.<br /><br /><strong>Formulare academică:</strong> surprinde schimbarea individuală și stabilitatea în timp.<br /><br /><strong>Exemplu:</strong> aceiași copii evaluați la 6, 8, 10 ani.</span></span>",
-              "🔁&nbsp;&nbsp;<span class='tip'>secvențial — combină transversal + longitudinal<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești cohorte diferite în timp.<br /><br /><strong>Formulare academică:</strong> separă efectele de vârstă de cele de cohortă.<br /><br /><strong>Exemplu:</strong> cohorte de 6 și 8 ani urmărite simultan.</span></span>",
-              "🧩&nbsp;&nbsp;<span class='tip'>eșantioane succesive independente — aceeași vârstă, ani diferiți<span class='tooltip-box'><strong>Spus simplu:</strong> compari cohorte similare fără să urmărești aceiași oameni.<br /><br /><strong>Formulare academică:</strong> măsoară aceeași caracteristică la cohorte similare, în momente diferite.<br /><br /><strong>Exemplu:</strong> elevi de clasa a II-a în ani diferiți.</span></span>",
-              "🔬&nbsp;&nbsp;<span class='tip'>microgenetic — observare intensă pe termen scurt<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești schimbarea în detaliu pe perioade scurte.<br /><br /><strong>Formulare academică:</strong> surprinde mecanismele prin care apare schimbarea.<br /><br /><strong>Exemplu:</strong> observații zilnice când apare o abilitate nouă.</span></span>",
-            ]
-          )}</div></div>`,
-        },
-        {
-          front:
-            "Asociază scopul cercetării cu tipul de design și clarifică diferența corelație–cauzalitate",
-          back: `<div class='flash-back'>
-    <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-      <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧭&nbsp;&nbsp;Designuri după scop</div>
-      <div>Scopul determină tipul de cunoaștere urmărită.</div>
-      ${flashPillList([
-        "🧾&nbsp;&nbsp;<span class='tip'>descriptivă — descrierea fenomenelor<span class='tooltip-box'><strong>Spus simplu:</strong> spui cum arată realitatea.<br /><br /><strong>Formulare academică:</strong> descriere sistematică fără manipulare experimentală.<br /><br /><strong>Exemplu:</strong> tipare de cooperare într-o clasă.</span></span>",
-        "📈&nbsp;&nbsp;<span class='tip'>predictivă — anticiparea evoluției<span class='tooltip-box'><strong>Spus simplu:</strong> estimezi ce e probabil să urmeze.<br /><br /><strong>Formulare academică:</strong> predicție bazată pe relații între variabile, fără grup de control.<br /><br /><strong>Exemplu:</strong> stresul inițial prezice absențele.</span></span>",
-        "🧪&nbsp;&nbsp;<span class='tip'>explicativă — cauze și efecte<span class='tooltip-box'><strong>Spus simplu:</strong> arăți de ce apare un fenomen.<br /><br /><strong>Formulare academică:</strong> relații cauză–efect prin metodă experimentală și control al alternativelor.<br /><br /><strong>Exemplu:</strong> intervenție educațională care schimbă performanța.</span></span>",
-      ])}
-      <p style="margin-top:10px;">
-        ⚠️&nbsp;&nbsp;<span class='tip'><strong>corelație ≠ cauzalitate</strong> — evoluție simultană, nu cauză<span class='tooltip-box'><strong>Spus simplu:</strong> două lucruri pot apărea împreună fără să se cauzeze.<br /><br /><strong>Formulare academică:</strong> corelația indică asociere, nu relație cauzală; poate exista o a treia variabilă.<br /><br /><strong>Exemplu:</strong> sănătatea poate influența și stresul, și absențele.</span></span>
-      </p>
-    </div>
-
-    <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-      <div class='flash-title' style="${FLASH_TITLE_STYLE}">🔎&nbsp;&nbsp;Nomotetic vs. idiografic</div>
-      <div style="margin-top:6px;">În cercetările descriptive, abordarea poate fi:</div>
-      <ul style="padding-left:18px;margin:8px 0 0;display:grid;gap:6px;">
-        <li><span class='tip'>nomotetic — tipare generale<span class='tooltip-box'><strong>Spus simplu:</strong> cauți reguli valabile pentru mulți.<br /><br /><strong>Formulare academică:</strong> identifică regularități în grupuri mari, nu cazuri unice.<br /><br /><strong>Exemplu:</strong> tendințe de empatie la sute de elevi.</span></span></li>
-        <li><span class='tip'>idiografic — cazuri unice<span class='tooltip-box'><strong>Spus simplu:</strong> descrii în profunzime un caz.<br /><br /><strong>Formulare academică:</strong> analiza individuală, fără generalizare la populații largi.<br /><br /><strong>Exemplu:</strong> studiul de caz al unui copil cu dezvoltare atipică.</span></span></li>
-      </ul>
-    </div>
-  </div>`,
-        },
-        {
-          front:
-            "Distinge designurile după gradul de intervenție și precizează valoarea lor",
-          back: `<div class='flash-back'>
-    <div class='flash-block' style="${FLASH_BLOCK_STYLE}">
-      <div class='flash-title' style="${FLASH_TITLE_STYLE}">🧪&nbsp;&nbsp;Designuri după intervenție</div>
-      <div>Gradul de intervenție determină nivelul de control asupra situației studiate.</div>
-
-      ${flashPillList([
-        "🧪&nbsp;&nbsp;<span class='tip'>experimentală — intervenție directă<span class='tooltip-box'><strong>Spus simplu:</strong> cercetătorul modifică intenționat condițiile.<br /><br /><strong>Formulare academică:</strong> manipularea variabilei independente pentru a observa efectele asupra variabilei dependente.<br /><br /><strong>Exemplu:</strong> aplici un program educațional unui grup și măsori schimbarea.</span></span>",
-        "📋&nbsp;&nbsp;<span class='tip'>cvasi-experimentală — reacții apărute natural<span class='tooltip-box'><strong>Spus simplu:</strong> studiezi reacții în contexte existente, fără manipulare directă.<br /><br /><strong>Formulare academică:</strong> compari condiții deja formate (grupuri/situații) pentru a observa diferențe relevante.<br /><br /><strong>Exemplu:</strong> compari două clase după o schimbare curriculară deja introdusă.</span></span>",
-        "👀&nbsp;&nbsp;<span class='tip'>observațională — observare fără intervenție<span class='tooltip-box'><strong>Spus simplu:</strong> urmărești comportamentul așa cum apare natural.<br /><br /><strong>Formulare academică:</strong> descrierea comportamentelor în mediul lor, fără manipularea condițiilor.<br /><br /><strong>Exemplu:</strong> observarea jocului liber.</span></span>",
-      ])}
-
-      <div style="margin-top:10px;">
-        ✅&nbsp;&nbsp;<span class='tip'><strong>Valoare pentru psihologia vârstelor</strong> — adaptare la vârstă și context<span class='tooltip-box'><strong>Spus simplu:</strong> alegi designul în funcție de ce e posibil și etic la o anumită vârstă.<br /><br /><strong>Formulare academică:</strong> diversitatea gradelor de intervenție permite studierea dezvoltării atât în contexte naturale, cât și în condiții controlate, în funcție de obiectiv și constrângeri etice.<br /><br /><strong>Exemplu:</strong> observație la copii mici pentru a nu perturba comportamentul, iar experiment când vrei să testezi o ipoteză cauzală și intervenția este justificată.</span></span>
-      </div>
-    </div>
-  </div>`,
         },
       ],
     },
@@ -9410,7 +9396,7 @@ window.PDEZV_LESSONS = {
       <strong>Prin comparație:</strong><br>
       • <strong>Longitudinal:</strong> mers „pe verticală” – urmărești același copil cum crește (5 ani → 10 ani → 15 ani).<br>
       • <strong>Orizontal:</strong> mers „pe orizontală” – compari copii de aceeași vârstă (de exemplu 10 ani) măsurați în ani diferiți.<br><br>
-      <strong>Ideea cheie:</strong> accentul cade pe diferențele dintre ani și contexte, nu pe dezvoltarea individuală.
+      <strong>Ideea cheie:</strong> accentul cade pe diferențele dintre ani (ex. copiii de o anumită vârstă în 2015 vs. 2020) și contexte, nu pe dezvoltarea individuală.
     </span>
   </span>.
 </p>
@@ -9549,10 +9535,10 @@ window.PDEZV_LESSONS = {
 
     <hr />
 
-    <h2>🧭 Descriptiv: nomotetic vs. idiografic</h2>
+    <h2>🧾 Cercetarea descriptivă: nomotetic vs. idiografic</h2>
     <div class="lesson-grid two">
-      <div class="lesson-card">
-        <h3>Nomotetic <span class='tip'><strong>?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „nomotetic” vine din <em>nomos</em> = lege și se referă la căutarea regulilor generale.<br /><br />
+      <div class="lesson-card tint-amber">
+        <h3>Nomotetic <span class='tip'><strong>*</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „nomotetic” vine din <em>nomos</em> = lege și se referă la căutarea regulilor generale.<br /><br />
         <strong>Formulare academică:</strong> termenul derivă din grecescul <em>nomos</em> („lege”), indicând orientarea spre regularități și tipare generale.</span></span></h3>
         <p><strong>Tipare generale.</strong></p>
         <hr />
@@ -9568,8 +9554,8 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
-        <h3>Idiografic <span class='tip'><strong>?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „idiografic” vine din <em>idios</em> = propriu/particular și <em>graphein</em> = a descrie, adică descrierea cazului unic.<br /><br />
+      <div class="lesson-card tint-amber">
+        <h3>Idiografic <span class='tip'><strong>*</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „idiografic” vine din <em>idios</em> = propriu/particular și <em>graphein</em> = a descrie, adică descrierea cazului unic.<br /><br />
         <strong>Formulare academică:</strong> termenul provine din grecescul <em>idios</em> („particular”) și <em>graphein</em> („a descrie”), indicând focusul pe cazul individual.</span></span></h3>
         <p><strong>Unicitatea persoanei.</strong></p>
         <hr />
@@ -9590,8 +9576,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>📈 Cercetarea predictivă: corelații</h2>
-    <div class="lesson-grid two colorful">
-      <div class="lesson-card">
+    <div class="lesson-grid">
+      <div class="lesson-card tint-indigo">
         <h3>Intensitate + direcție</h3>
         <hr />
         <ul>
@@ -9606,7 +9592,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-indigo">
         <h3>Corelație ≠ cauzalitate</h3>
         <hr />
         <ul>
@@ -9627,7 +9613,8 @@ window.PDEZV_LESSONS = {
 
     <h2>🧪 Cercetarea explicativă: condiții</h2>
     <div class="lesson-grid three">
-      <div class="lesson-card">
+      <div class="lesson-card tint-emerald">
+        <div class="lesson-step-emoji">🔃</div>
         <h3>Legătură între variabile</h3>
         <hr />
         <ul>
@@ -9642,7 +9629,8 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-emerald">
+        <div class="lesson-step-emoji">⏳</div>
         <h3>Relație temporală</h3>
         <hr />
         <ul>
@@ -9657,7 +9645,8 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-emerald">
+        <div class="lesson-step-emoji">🎯</div>
         <h3>Controlul alternativelor</h3>
         <hr />
         <ul>
@@ -9779,42 +9768,44 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>🔍 Diferență: observațional vs. cvasi-experimental</h2>
-    <div class="lesson-grid two">
-      <div class="lesson-card">
-        <div class="lesson-step-emoji">👀</div>
-        <h3>Observațional</h3>
-        <p><strong>Doar observare.</strong></p>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Fără intervenție, fără provocare
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> vezi ce se întâmplă natural, fără să schimbi situația.<br /><br />
-                <strong>Formulare academică:</strong> cercetătorul urmărește comportamentul în mediul său, fără a modifica condițiile de apariție a reacțiilor.<br /><br />
-                <strong>Exemplu:</strong> observarea jocului liber al copiilor.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div class="lesson-card">
-        <div class="lesson-step-emoji">📋</div>
-        <h3>Cvasi-experimental</h3>
-        <p><strong>Analiză a reacțiilor apărute.</strong></p>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Fără manipulare, dar cu situații existente
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> nu provoci reacții, dar compari sau analizezi efecte apărute într-un context real.<br /><br />
-                <strong>Formulare academică:</strong> cercetarea cvasi-experimentală examinează efectele unor condiții existente, fără control direct al variabilelor, dar cu analiză comparativă.<br /><br />
-                <strong>Exemplu:</strong> compari două clase după implementarea unui program deja decis de școală.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
+<div class="lesson-grid two">
+  <div class="lesson-card tint-emerald">
+    <div class="lesson-step-emoji">👀</div>
+    <h3>Observațional</h3>
+    <p><strong>Descrii ce există.</strong></p>
+    <hr />
+    <ul>
+      <li>
+        <span class='tip'>Fără intervenție, fără condiție folosită explicativ
+          <span class='tooltip-box'>
+            <strong>Spus simplu:</strong> vezi ce se întâmplă și descrii, fără să tratezi vreo situație ca „motiv” al diferențelor observate.<br /><br />
+            <strong>Academic:</strong> cercetătorul înregistrează comportamente și relații între variabile în condiții naturale, fără a utiliza intenționat o situație sau un eveniment ca factor explicativ.<br /><br />
+            <strong>Exemplu:</strong> observarea jocului liber al copiilor și descrierea tipurilor de interacțiune.
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="lesson-card tint-indigo">
+    <div class="lesson-step-emoji">📋</div>
+    <h3>Cvasi-experimental</h3>
+    <p><strong>Analizezi efectul unei situații.</strong></p>
+    <hr />
+    <ul>
+      <li>
+        <span class='tip'>Fără a crea situația, dar folosind-o ca explicație
+          <span class='tooltip-box'>
+            <strong>Spus simplu:</strong> nu creezi tu schimbarea, dar o folosești intenționat ca să vezi dacă explică diferențe între grupuri sau între înainte și după.<br /><br />
+            <strong>Academic:</strong> cercetarea cvasi-experimentală analizează efectele unei condiții existente, tratată intenționat ca factor explicativ, prin comparații sistematice între grupuri sau momente temporale.<br /><br />
+            <strong>Exemplu:</strong> compari comportamentul copiilor înainte și după introducerea unui program educațional decis de școală.
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
     `,
   },
   "pdezv-u2-s1-q1": {
