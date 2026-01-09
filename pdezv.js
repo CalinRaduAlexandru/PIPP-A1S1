@@ -563,7 +563,7 @@ window.PDEZV_QUIZ = [
         answer: 0,
       },
       {
-        text: "De ce sunt considerate <span class='tip'><strong>reducționiste</strong></span> teoriile ereditariste și ambientaliste?",
+        text: "De ce sunt considerate <strong>reducționiste</strong>teoriile ereditariste și ambientaliste?",
         multiple: false,
         options: [
           "<span class='tip'><strong>Pentru că explică dezvoltarea printr-un singur factor</strong> – simplificare excesivă<span class='tooltip-box'>Fie ereditatea, fie mediul sunt absolutizate, ignorând interacțiunea reală dintre ele.</span></span>",
@@ -1073,7 +1073,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: true,
         options: [
           "<span class='tip'><strong>Stadiul bătrâneții timpurii (66–70 ani)</strong><span class='tooltip-box'><strong>Explicație:</strong> începutul vârstei a treia, cu ajustări progresive ale funcțiilor și ale stilului de viață.<br><br><strong>Exemplu:</strong> îți programezi activitățile în funcție de energie și îți structurezi rutina pentru a menține autonomia.</span></span>",
-          "<span class='tip'><strong>Stadiul bătrâneții propriu zise (70–90 ani)</strong><span class='tooltip-box'><strong>Explicație:</strong> interval în care modificările organice și psihice pot deveni mai vizibile, crescând importanța strategiilor de adaptare.<br><br><strong>Exemplu:</strong> persoana reduce sarcini solicitante, dar menține activități cu sens, cum ar fi implicarea în familie sau hobby-uri.</span></span>",
+          "<span class='tip'><strong>Stadiul bătrâneții propriu-zise (70–90 ani)</strong><span class='tooltip-box'><strong>Explicație:</strong> interval în care modificările organice și psihice pot deveni mai vizibile, crescând importanța strategiilor de adaptare.<br><br><strong>Exemplu:</strong> persoana reduce sarcini solicitante, dar menține activități cu sens, cum ar fi implicarea în familie sau hobby-uri.</span></span>",
           "<span class='tip'><strong>Stadiul marii bătrâneți, terminal (peste 90 ani)</strong><span class='tooltip-box'><strong>Explicație:</strong> etapă în care vulnerabilitățile pot crește semnificativ, iar sprijinul devine mai important.<br><br><strong>Exemplu:</strong> pot apărea nevoi crescute de ajutor pentru activități zilnice și pentru menținerea confortului.</span></span>",
           "<span class='tip'><strong>Stadiul adolescenței târzii (18–20/24 ani)</strong><span class='tooltip-box'><strong>Distractor:</strong> aparține ciclului de creștere și dezvoltare, nu ciclului de regresie.<br><br><strong>Exemplu:</strong> acolo tema centrală este identitatea și tranziția spre roluri adulte, nu involuția.</span></span>",
         ],
@@ -1081,13 +1081,11 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       },
 
       {
-        text: "Ce afirmație surprinde cel mai bine ideea centrală din suportul de curs despre <span class='tip'><strong>ciclul de regresie, de involuție (65 ani – moarte)?</strong><span class='tooltip-box'>Este „vârsta a treia” în concepția din curs.<br><br><strong>Explicație:</strong> accentul cade pe scăderea productivității datorită modificării funcțiilor organice și psihice și pe apariția bolilor de degenerescență.<br><br><strong>Exemplu:</strong> o persoană își reduce volumul de activități solicitante și își prioritizează sănătatea și rutina zilnică.</span></span>",
+        text: "Ce afirmație surprinde cel mai bine ideea centrală despre <span class='tip'><strong>ciclul de regresie, de involuție (65 ani – moarte)?</strong><span class='tooltip-box'>Este „vârsta a treia” în concepția din curs.<br><br><strong>Explicație:</strong> accentul cade pe scăderea productivității datorită modificării funcțiilor organice și psihice și pe apariția bolilor de degenerescență.<br><br><strong>Exemplu:</strong> o persoană își reduce volumul de activități solicitante și își prioritizează sănătatea și rutina zilnică.</span></span>",
         multiple: false,
         options: [
           "<span class='tip'><strong>Este etapa în care productivitatea scade prin modificări organice și psihice și cresc riscurile de boli de degenerescență</strong><span class='tooltip-box'><strong>Explicație:</strong> în psihologia dezvoltării, vârsta a treia este descrisă frecvent prin diminuarea treptată a resurselor funcționale, ceea ce poate reduce randamentul activităților și crește vulnerabilitatea la afecțiuni degenerative.<br><br><strong>Exemplu:</strong> persoana își ajustează ritmul zilnic, își planifică pauze mai dese și își organizează mediul de viață pentru a funcționa bine cu resurse mai reduse.</span></span>",
           "<span class='tip'><strong>Este perioada de maximă productivitate și extindere a rolurilor profesionale</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta descrie mai bine ciclul adult, nu ciclul de regresie.<br><br><strong>Exemplu:</strong> „apogeul muncii și creației” este tipic pentru maturitate, nu pentru involuție.</span></span>",
-          "<span class='tip'><strong>Este o etapă în care viața psihică rămâne complet neschimbată</strong><span class='tooltip-box'><strong>Distractor:</strong> chiar și când schimbările sunt lente, există reorganizări ale rutinei, rolurilor și strategiilor de adaptare.<br><br><strong>Exemplu:</strong> după pensionare, multe persoane își reconstruiesc identitatea de rol și programul zilnic.</span></span>",
-          "<span class='tip'><strong>Este o etapă definită exclusiv prin retragere socială inevitabilă</strong><span class='tooltip-box'><strong>Distractor:</strong> retragerea poate apărea, dar nu este „inevitabilă” și nu e singurul criteriu; contează și adaptarea, suportul și activitățile cu sens.<br><br><strong>Exemplu:</strong> unii vârstnici rămân activi social în familie, comunitate sau voluntariat.</span></span>",
         ],
         answer: 0,
       },
@@ -1096,11 +1094,10 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Dezvoltarea se oprește după adolescență</strong><span class='tooltip-box'><strong>Distractor:</strong> perspectiva stadială afirmă continuitatea dezvoltării pe parcursul vieții, cu dinamici diferite.<br><br><strong>Exemplu:</strong> adultul învață și se reorganizează, iar vârstnicul își ajustează adaptarea.</span></span>",
-          "<span class='tip'><strong>Viața psihică este statică la adult</strong><span class='tooltip-box'><strong>Distractor:</strong> chiar și în adult apar schimbări, rafinări și reorganizări în funcție de roluri și contexte.<br><br><strong>Exemplu:</strong> trecerea la roluri de coordonare schimbă modul de gândire și comunicare.</span></span>",
           "<span class='tip'><strong>Dezvoltarea este continuă, dar include un maxim funcțional urmat de un declin progresiv al productivității</strong><span class='tooltip-box'><strong>Explicație:</strong> ideea de ansamblu este dinamica pe cicluri: consolidare și performanță în adult, apoi involuție și adaptare la modificări la vârsta a treia.<br><br><strong>Exemplu:</strong> după un vârf de productivitate, accentul se mută spre menținere, compensare și sens.</span></span>",
           "<span class='tip'><strong>Personalitatea nu mai suferă modificări după 25 de ani</strong><span class='tooltip-box'><strong>Distractor:</strong> rolurile, responsabilitățile și evenimentele de viață continuă să restructureze identitatea și strategiile de adaptare.<br><br><strong>Exemplu:</strong> devenirea părinte sau schimbarea majoră de carieră reorganizează priorități și valori.</span></span>",
         ],
-        answer: 2,
+        answer: 1,
       },
     ],
   },
@@ -1314,74 +1311,104 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       "Metodologia cercetării în psihologia vârstelor: metode și strategii",
     questions: [
       {
-        text: "Ce definește <span class='tip'><strong>metodologia cercetării în psihologia vârstelor?</strong><span class='tooltip-box'><strong>Explicație:</strong> metodologia reprezintă ansamblul metodelor și principiilor prin care sunt studiate fenomenele și însușirile psihice pe parcursul dezvoltării, ținând cont de caracterul indirect observabil al psihicului.<br><br><strong>Exemplu concret:</strong> pentru copil mic se folosesc observația și reacțiile comportamentale, iar pentru adolescent interviuri și chestionare, deoarece nivelul de limbaj și reflecție diferă.</span></span>",
+        text: "Ce definește <span class='tip'><strong>metodologia cercetării în psihologia vârstelor?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> metodologia arată cum alegi și combini metodele ca să studiezi psihicul pe parcursul dezvoltării.<br><br><strong>Academic:</strong> metodologia reprezintă ansamblul metodelor și principiilor care ghidează investigarea fenomenelor și însușirilor psihice de-a lungul vârstelor, ținând cont de caracterul indirect observabil al psihicului.<br><br><strong>Exemplu:</strong> la copil mic folosești mai mult observația și indicatori comportamentali, iar la adolescent interviuri și chestionare, deoarece nivelul de limbaj și reflecție diferă.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Studierea fenomenelor și însușirilor psihice</strong><span class='tooltip-box'><strong>Exemplu:</strong> atenția, emoțiile, gândirea, comportamentul social la diferite vârste.</span></span>",
-          "<span class='tip'><strong>Adecvarea metodelor la natura subiectivă a psihicului</strong><span class='tooltip-box'><strong>Exemplu:</strong> emoțiile sunt deduse din comportamente și relatări, nu observate direct.</span></span>",
-          "<span class='tip'><strong>Aplicarea acelorași proceduri la toate vârstele</strong><span class='tooltip-box'><strong>Distractor:</strong> metodologia presupune adaptare la vârstă și context.</span></span>",
-        ],
-        answer: [0, 1],
-      },
-      {
-        text: "Cum pot fi <span class='tip'><strong>clasificate metodele de cercetare în psihologia vârstelor</strong><span class='tooltip-box'><strong>Explicație:</strong> metodele pot fi grupate în categorii mari în funcție de modul în care sunt obținute datele psihologice: prin relatare și interpretare, prin observarea comportamentului sau prin măsurarea indicatorilor biologici.</span></span> în funcție de modul de colectare a datelor?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Metode indirecte prin relatare sau interpretare</strong><span class='tooltip-box'><strong>Ce le definește:</strong> datele nu sunt observate direct, ci provin din ceea ce spune subiectul sau din interpretarea cercetătorului.<br><br><strong>Ce includ:</strong> metode de auto-raportare (interviuri, chestionare), metode clinice, studii de caz, etnografii.<br><br><strong>Exemplu:</strong> un adolescent descrie emoțiile trăite, iar cercetătorul le interpretează în contextul istoriei personale și culturale.</span></span>",
-          "<span class='tip'><strong>Metode observaționale</strong><span class='tooltip-box'><strong>Ce le definește:</strong> datele provin din comportamente direct observabile, indiferent de ce declară persoana.<br><br><strong>Ce includ:</strong> observații sistematice, observația naturalistă și observația structurată.<br><br><strong>Exemplu:</strong> observarea comportamentului unui copil în joacă liberă sau într-o sarcină identică pentru toți.</span></span>",
-          "<span class='tip'><strong>Metode psihofiziologice</strong><span class='tooltip-box'><strong>Ce le definește:</strong> datele provin din indicatori biologici ai funcționării organismului.<br><br><strong>Ce includ:</strong> ritm cardiac, activitate cerebrală, reacții fiziologice.<br><br><strong>Exemplu:</strong> înregistrarea ritmului cardiac al unui sugar în situații de separare și reunire.</span></span>",
-          "<span class='tip'><strong>Metode bazate exclusiv pe vârsta cronologică</strong><span class='tooltip-box'><strong>Distractor:</strong> vârsta cronologică este un reper descriptiv, nu o metodă de colectare a datelor psihologice.<br><br><strong>Exemplu:</strong> a ști că un copil are 8 ani nu oferă informații directe despre comportament, emoții sau funcționare psihică.</span></span>",
-        ],
-        answer: [0, 1, 2],
-      },
-      {
-        text: "Ce caracterizează <span class='tip'><strong>interviurile și chestionarele?</strong><span class='tooltip-box'><strong>Procedural:</strong> aplicate individual sau în grup, cu întrebări standardizate sau semistructurate.</span></span>",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Colectare rapidă și eficientă a informațiilor</strong><span class='tooltip-box'><strong>Exemplu:</strong> chestionar aplicat unei clase întregi.</span></span>",
-          "<span class='tip'><strong>Risc de răspunsuri inexacte sau nesincere</strong><span class='tooltip-box'><strong>Exemplu:</strong> copilul răspunde ce crede că adultul așteaptă.</span></span>",
-          "<span class='tip'><strong>Explorare profundă cu generalizare largă</strong><span class='tooltip-box'><strong>Distractor:</strong> explorarea profundă este specifică metodelor clinice.</span></span>",
+          "<span class='tip'><strong>Ansamblul metodelor și principiilor care ghidează cercetarea</strong><span class='tooltip-box'><strong>Spus simplu:</strong> include atât metode, cât și reguli după care le alegi și le combini.<br><br><strong>Academic:</strong> metodologia integrează proceduri de colectare și analiză a datelor împreună cu principiile de proiectare și interpretare a demersului științific.<br><br><strong>Exemplu:</strong> alegi instrumente, stabilești eșantionul, definești ce măsori și cum interpretezi rezultatele.</span></span>",
+          "<span class='tip'><strong>Organizarea investigării dezvoltării psihice ținând cont că psihicul nu se observă direct</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu vezi direct emoția sau gândul, le deduci din semne.<br><br><strong>Academic:</strong> procesele psihice sunt accesibile prin indicatori comportamentali, relatări și măsurători, iar metodologia stabilește cum sunt operaționalizate și interpretate aceste indicii.<br><br><strong>Exemplu:</strong> deduci anxietatea din relatare, evitare și reacții fiziologice.</span></span>",
+          "<span class='tip'><strong>Aplicarea acelorași proceduri la toate vârstele</strong><span class='tooltip-box'><strong>Distractor:</strong> metodologia presupune adaptarea procedurilor la nivelul de dezvoltare, context și capacități de răspuns ale participanților. Un chestionar abstract poate fi potrivit adolescenților, dar nu și preșcolarilor.</span></span>",
         ],
         answer: [0, 1],
       },
 
       {
-        text: "Ce este specific <span class='tip'><strong>metodelor clinice și studiilor de caz?</strong><span class='tooltip-box'><strong>Ce le definește:</strong> sunt metode prin care cercetătorul urmărește în detaliu un singur individ sau un număr foarte mic de persoane, pentru a înțelege cum funcționează psihicul lor într-un context concret de viață.<br><br><strong>Cum se lucrează:</strong> se adună informații din mai multe surse și se corelează între ele.<br><br><strong>Exemplu:</strong> un copil este analizat pe baza observațiilor repetate la școală, discuțiilor cu părinții și profesorii și documentelor școlare, pentru a înțelege parcursul său de dezvoltare.</span></span>",
+        text: "Ce aspecte influențează demersul de cercetare în psihologia vârstelor <span class='tip'><strong>dincolo de natura subiectivă a psihicului?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează cum gândește cercetătorul și pe ce teorie se sprijină.<br><br><strong>Academic:</strong> demersul este influențat de concepția cercetătorilor și de principiile teoretico-științifice de la care pornesc, care orientează selecția metodelor și interpretarea datelor.<br><br><strong>Exemplu:</strong> două perspective teoretice pot interpreta diferit aceleași observații.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Analiza individului ca unic</strong><span class='tooltip-box'><strong>Explicație:</strong> accent pe particularitățile personale și pe dinamica dezvoltării proprii cazului.<br><br><strong>Exemplu:</strong> reconstruirea parcursului de dezvoltare al unui copil folosind observații repetate, discuții cu părinții și documente școlare.</span></span>",
-          "<span class='tip'><strong>Concluzii dificil de generalizat</strong><span class='tooltip-box'><strong>Explicație:</strong> datele sunt profund contextualizate și nu pot fi extinse automat la populații largi.<br><br><strong>Exemplu:</strong> ceea ce este valabil pentru un copil cu istoric specific nu devine regulă pentru toți copiii.</span></span>",
-          "<span class='tip'><strong>Standardizare strictă și eșantioane mari</strong><span class='tooltip-box'><strong>Distractor:</strong> acestea caracterizează cercetarea cantitativă experimentală, nu metodele clinice.<br><br><strong>Exemplu:</strong> testarea a sute de participanți cu aceleași instrumente standardizate.</span></span>",
+          "<span class='tip'><strong>Concepția cercetătorilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> felul în care înțelegi dezvoltarea îți schimbă întrebările și metoda.<br><br><strong>Academic:</strong> concepțiile despre mecanismele dezvoltării determină ce variabile sunt considerate relevante și cum sunt formulate ipotezele.<br><br><strong>Exemplu:</strong> dacă accentul este pe învățare socială, urmărești modele și întăriri.</span></span>",
+          "<span class='tip'><strong>Principiile teoretico-științifice de la care pornesc</strong><span class='tooltip-box'><strong>Spus simplu:</strong> teoria îți spune ce cauți și cum explici.<br><br><strong>Academic:</strong> cadrul teoretic ghidează operaționalizarea conceptelor, alegerea instrumentelor și criteriile de interpretare a rezultatelor.<br><br><strong>Exemplu:</strong> aceeași reacție poate fi încadrată diferit în funcție de modelul explicativ.</span></span>",
+          "<span class='tip'><strong>Numai vârsta cronologică</strong><span class='tooltip-box'><strong>Distractor:</strong> vârsta cronologică este un reper descriptiv, însă nu înlocuiește măsurarea comportamentelor, relatărilor sau indicatorilor biologici. Doi copii de aceeași vârstă pot avea niveluri diferite de autocontrol.</span></span>",
         ],
         answer: [0, 1],
       },
+
       {
-        text: "Observațiile sistematice sunt o metodă de cercetare care presupune urmărirea intenționată a comportamentului. Care sunt <span class='tip'><strong>cele două forme principale de observație sistematică?</strong><span class='tooltip-box'><strong>Explicație generală:</strong> observațiile sistematice pot fi realizate fie fără a modifica situația de viață a persoanei, fie prin organizarea intenționată a unei situații pentru a provoca comportamente.</span></span>",
+        text: "Care sunt <span class='tip'><strong>categoriile mari de metode de cercetare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți obține date din ce spune persoana, din ce face sau din cum reacționează corpul, iar uneori studiezi în profunzime un caz ori un grup.<br><br><strong>Academic:</strong> metodele se pot grupa în funcție de sursa principală a datelor: auto-raportare, observații sistematice, măsurători psihofiziologice, iar ca abordări integrative apar studiul de caz și etnografia.<br><br><strong>Exemplu:</strong> chestionar, observație în joacă, ritm cardiac la stimul, studiu de caz, etnografie într-o comunitate.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Observația naturală</strong> – situația NU este modificată<span class='tooltip-box'><strong>Principiu central:</strong> nealterarea situației de viață.<br><br><strong>Ce face cercetătorul:</strong> observă comportamentul așa cum apare spontan, fără a interveni.<br><br><strong>Unde:</strong> în mediul obișnuit al persoanei (acasă, la școală, pe terenul de joacă).<br><br><strong>Exemplu:</strong> observarea jocului liber al copiilor în curtea școlii, fără sarcini sau instrucțiuni.</span></span>",
-          "<span class='tip'><strong>Observația structurată</strong> – situația ESTE organizată intenționat<span class='tooltip-box'><strong>Principiu central:</strong> organizarea controlată a situației.<br><br><strong>Ce face cercetătorul:</strong> creează o situație standardizată, identică pentru toți participanții, pentru a provoca un comportament-țintă.<br><br><strong>Unde:</strong> într-un context controlat (sală de clasă, cabinet, laborator).<br><br><strong>Exemplu:</strong> toți copiii primesc o sarcină de a aștepta rândul pentru a observa controlul impulsurilor.</span></span>",
-          "<span class='tip'><strong>Observația bazată pe auto-raportare</strong><span class='tooltip-box'><strong>Distractor:</strong> aici datele provin din ce spune persoana despre sine, nu din observarea directă a comportamentului.<br><br><strong>Exemplu:</strong> copilul descrie ce simte într-un chestionar sau interviu.</span></span>",
+          "<span class='tip'><strong>📝 Auto-raportare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> date din ce spune persoana.<br><br><strong>Academic:</strong> colectează date prin răspunsuri declarative la întrebări, în format interviu sau chestionar, incluzând și metode clinice bazate pe relatare.<br><br><strong>Exemplu:</strong> un adolescent completează o scală de anxietate.</span></span>",
+          "<span class='tip'><strong>👀 Observații sistematice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> urmărești ce face persoana și notezi după reguli.<br><br><strong>Academic:</strong> datele provin din comportamente direct observabile, înregistrate intenționat și sistematic, în contexte naturale sau controlate.<br><br><strong>Exemplu:</strong> codarea interacțiunilor în joc.</span></span>",
+          "<span class='tip'><strong>🧪 Metode psihofiziologice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> măsori reacții ale corpului.<br><br><strong>Academic:</strong> colectează date prin indicatori biologici ai funcționării organismului, folosiți ca indicii pentru procese psihice.<br><br><strong>Exemplu:</strong> ritm cardiac în timpul unei sarcini.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce intră în <span class='tip'><strong>auto-raportare?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> tot ce colectează date din răspunsuri și relatări.<br><br><strong>Academic:</strong> auto-raportarea colectează date declarative prin întrebări și răspunsuri, în formate standardizate sau semistructurate, incluzând și proceduri clinice bazate pe relatare.<br><br><strong>Exemplu:</strong> chestionar de dispoziție, interviu despre experiențe recente.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Interviuri</strong><span class='tooltip-box'><strong>Spus simplu:</strong> întrebi și persoana răspunde.<br><br><strong>Academic:</strong> tehnică de colectare a datelor prin întrebări structurate, semistructurate sau libere, care produce date narative sau categorisibile.<br><br><strong>Exemplu:</strong> interviu despre relațiile cu colegii.</span></span>",
+          "<span class='tip'><strong>Chestionare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> set fix de întrebări pentru mulți oameni.<br><br><strong>Academic:</strong> instrument standardizat ce permite compararea răspunsurilor între participanți și grupuri.<br><br><strong>Exemplu:</strong> scală Likert de la 1 la 5.</span></span>",
+          "<span class='tip'><strong>Metode clinice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> explorare flexibilă, centrată pe un individ.<br><br><strong>Academic:</strong> proceduri de evaluare care tratează subiectul ca unic și integrează relatări și interpretare clinică, adesea în contextul istoricului de dezvoltare.<br><br><strong>Exemplu:</strong> discuție clinică cu părinte și copil.</span></span>",
+          "<span class='tip'><strong>Ritm cardiac</strong><span class='tooltip-box'><strong>Distractor:</strong> ritmul cardiac este un indicator biologic specific metodelor psihofiziologice și este interpretat ca indiciu al activării. Creșterea ritmului cardiac la un stimul nu reprezintă o relatare a persoanei.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Ce caracterizează <span class='tip'><strong>interviurile și chestionarele?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt rapide și ușor de aplicat, dar pot da răspunsuri distorsionate.<br><br><strong>Academic:</strong> sunt metode de auto-raportare aplicate individual sau în grup, cu întrebări standardizate sau semistructurate, utile pentru comparații, dar vulnerabile la erori de înțelegere și la răspunsuri inexacte.<br><br><strong>Exemplu:</strong> un elev poate răspunde social-dezirabil la întrebări despre comportament.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Colectare rapidă și eficientă a informațiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> strângi multe date într-un timp scurt.<br><br><strong>Academic:</strong> permit colectarea standardizată și rapidă de informații de la mulți participanți.<br><br><strong>Exemplu:</strong> chestionar aplicat unei clase întregi.</span></span>",
+          "<span class='tip'><strong>Format standardizat care permite comparație directă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> toți primesc aceleași întrebări.<br><br><strong>Academic:</strong> standardizarea reduce variația de procedură și susține comparații între persoane și grupuri.<br><br><strong>Exemplu:</strong> compari scoruri între două grupe de vârstă.</span></span>",
+          "<span class='tip'><strong>Date posibil inexacte sau nesincere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> oamenii pot ascunde sau exagera.<br><br><strong>Academic:</strong> validitatea poate fi afectată de dezirabilitate socială, auto-prezentare și erori de memorie.<br><br><strong>Exemplu:</strong> participantul minimizează dificultățile.</span></span>",
+          "<span class='tip'><strong>Dependență de abilități verbale și de înțelegerea întrebărilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> dacă nu înțelege întrebarea, răspunde greșit.<br><br><strong>Academic:</strong> calitatea datelor depinde de comprehensiune, vocabular, atenție și competențe metacognitive.<br><br><strong>Exemplu:</strong> copilul mic interpretează literal o întrebare abstractă.</span></span>",
+        ],
+        answer: [0, 1, 2, 3],
+      },
+
+      {
+        text: "Ce este specific <span class='tip'><strong>metodelor clinice?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt flexibile și se adaptează persoanei, dar generalizezi mai greu.<br><br><strong>Academic:</strong> metodele clinice sunt centrate pe individ, permit explorarea aprofundată a personalității și a istoricului de dezvoltare, însă pot produce concluzii dificil de generalizat și interpretări susceptibile de subiectivitate.<br><br><strong>Exemplu:</strong> două evaluări clinice pot pune accent pe aspecte diferite la persoane similare.</span></span>",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Sunt flexibile și tratează fiecare subiect ca individ unic</strong><span class='tooltip-box'><strong>Spus simplu:</strong> adaptezi întrebările și direcția investigației.<br><br><strong>Academic:</strong> procedurile sunt ajustate în funcție de particularitățile cazului și de ipotezele clinice.<br><br><strong>Exemplu:</strong> aprofundezi zonele relevante apărute în discuție.</span></span>",
+          "<span class='tip'><strong>Permit explorarea aprofundată a personalității</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mergi în profunzime, nu doar în scoruri.<br><br><strong>Academic:</strong> urmăresc configurarea trăsăturilor, a dinamicii și a contextului de viață în relație cu dezvoltarea.<br><br><strong>Exemplu:</strong> înțelegi tipare relaționale și strategii de reglare emoțională.</span></span>",
+          "<span class='tip'><strong>Concluzii greu de generalizat și interpretări posibil subiective</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare caz e diferit, deci nu extinzi ușor la toți.<br><br><strong>Academic:</strong> lipsa tratării uniforme și dependența de judecata evaluatorului reduc generalizabilitatea și cresc riscul de bias interpretativ.<br><br><strong>Exemplu:</strong> concluzia despre un copil nu devine regulă pentru toți copiii.</span></span>",
+          "<span class='tip'><strong>Standardizare strictă pentru comparații pe eșantioane mari</strong><span class='tooltip-box'><strong>Distractor:</strong> standardizarea strictă este caracteristică demersurilor cantitative cu proceduri identice pentru toți participanții, nu explorării clinice flexibile. Administrarea aceluiași instrument la sute de participanți nu descrie modul tipic de lucru clinic.</span></span>",
+        ],
+        answer: [0, 1, 2],
+      },
+
+      {
+        text: "Observațiile sistematice pot fi <span class='tip'><strong>naturale sau structurate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fie privești ce se întâmplă în mod obișnuit, fie creezi o situație identică pentru toți.<br><br><strong>Academic:</strong> observația presupune urmărirea intenționată și înregistrarea exactă, sistematică a comportamentului și a contextului, în condiții naturale sau în situații organizate pentru a provoca un comportament-țintă.<br><br><strong>Exemplu:</strong> joc liber în curtea școlii versus sarcină standardizată în clasă.</span></span>. Care sunt cele două forme?",
+        multiple: true,
+        options: [
+          "<span class='tip'><strong>Observația naturalistă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu modifici situația, doar observi.<br><br><strong>Academic:</strong> urmărește comportamentul în mediul obișnuit, fără intervenția cercetătorului, menținând contextul natural.<br><br><strong>Exemplu:</strong> observarea jocului liber al copiilor.</span></span>",
+          "<span class='tip'><strong>Observația structurată</strong><span class='tooltip-box'><strong>Spus simplu:</strong> organizezi o situație ca să apară comportamentul urmărit.<br><br><strong>Academic:</strong> creează un mediu standardizat, identic pentru toți participanții, pentru a crește comparabilitatea și a provoca un comportament-țintă.<br><br><strong>Exemplu:</strong> sarcină de a aștepta rândul pentru a observa controlul impulsurilor.</span></span>",
+          "<span class='tip'><strong>Interviul clinic</strong><span class='tooltip-box'><strong>Distractor:</strong> interviul clinic este o tehnică de auto-raportare bazată pe întrebări și răspunsuri, utilizată pentru explorarea flexibilă a cazului. Nu este o formă de observație sistematică a comportamentului în context.</span></span>",
         ],
         answer: [0, 1],
       },
+
       {
-        text: "Ce caracterizează <span class='tip'><strong>metodele psihofiziologice</strong><span class='tooltip-box'><strong>Explicație:</strong> sunt metode de cercetare care colectează date prin măsurarea reacțiilor biologice ale organismului (de exemplu, ritm cardiac, activitate cerebrală), folosite pentru a infera procese psihice atunci când comportamentul sau limbajul nu sunt suficiente.</span></span> în psihologia vârstelor?",
+        text: "Ce este specific <span class='tip'><strong>metodelor psihofiziologice?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> măsori corpul ca să obții indicii despre procese psihice, mai ales când limbajul e limitat.<br><br><strong>Academic:</strong> metodele psihofiziologice utilizează indicatori biologici pentru a evalua baza biologică a dezvoltării și pentru a inferea percepții, gânduri și emoții, fără a putea identifica cu certitudine stările interioare.<br><br><strong>Exemplu:</strong> înregistrezi ritmul cardiac în situații standardizate și îl corelezi cu comportamentul observat.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Sunt utile când exprimarea verbală este limitată</strong><span class='tooltip-box'><strong>De ce:</strong> la anumite vârste sau în anumite situații, persoana nu poate descrie ce simte.<br><br><strong>Exemplu:</strong> un sugar sau un copil foarte mic nu poate explica verbal frica sau stresul.</span></span>",
-          "<span class='tip'><strong>Nu permit identificarea certă a stărilor interioare</strong><span class='tooltip-box'><strong>De ce:</strong> aceeași reacție biologică poate corespunde mai multor stări psihice diferite.<br><br><strong>Exemplu:</strong> ritmul cardiac crescut poate indica frică, entuziasm sau efort.</span></span>",
-          "<span class='tip'><strong>Oferă acces direct și complet la viața psihică</strong><span class='tooltip-box'><strong>Distractor:</strong> metodele psihofiziologice oferă indicatori biologici care trebuie interpretați; ele nu arată direct ce gândește sau simte persoana.</span></span>",
+          "<span class='tip'><strong>Sunt utile când conținutul psihic nu poate fi exprimat verbal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> când nu poate spune ce simte, cauți indicii în reacții.<br><br><strong>Academic:</strong> sunt valoroase la vârste mici sau în situații în care auto-raportarea nu este posibilă ori fiabilă.<br><br><strong>Exemplu:</strong> sugar care nu poate descrie frica sau stresul.</span></span>",
+          "<span class='tip'><strong>Nu pot identifica cu certitudine stările interioare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceeași reacție poate însemna mai multe lucruri.<br><br><strong>Academic:</strong> ambiguitatea indicatorilor biologici impune interpretare contextuală și convergență cu alte date.<br><br><strong>Exemplu:</strong> activarea fiziologică poate reflecta frică, efort sau entuziasm.</span></span>",
+          "<span class='tip'><strong>Oferă acces direct și complet la viața psihică</strong><span class='tooltip-box'><strong>Distractor:</strong> indicatorii biologici sunt proxyuri care necesită operaționalizare și interpretare și nu oferă acces direct la conținutul mental. Ritmul cardiac sau activitatea cerebrală nu indică singure tipul exact al emoției sau gândului.</span></span>",
+          "<span class='tip'><strong>Se bazează pe măsurarea reacțiilor biologice</strong><span class='tooltip-box'><strong>Spus simplu:</strong> măsori reacții ale organismului.<br><br><strong>Academic:</strong> includ măsuri precum ritm cardiac, conductanța pielii sau activitate cerebrală, în condiții controlate sau semi-controlate.<br><br><strong>Exemplu:</strong> înregistrare în timpul prezentării unor stimuli standardizați.</span></span>",
         ],
-        answer: [0, 1],
+        answer: [0, 1, 3],
       },
+
       {
-        text: "De ce este necesară <span class='tip'><strong>utilizarea unei strategii de cercetare care combină mai multe metode</strong><span class='tooltip-box'><strong>Explicație:</strong> o strategie de cercetare se referă la modul în care metodele sunt alese și combinate într-un demers coerent, deoarece o singură metodă nu este suficientă pentru a surprinde complexitatea dezvoltării psihice.</span></span> în psihologia vârstelor?",
+        text: "De ce este necesară <span class='tip'><strong>o strategie de cercetare care combină mai multe metode?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> o singură metodă nu prinde tot, iar metodele se completează.<br><br><strong>Academic:</strong> este insuficient să utilizăm o singură metodă, indiferent cât de elaborată ar fi, deoarece psihicul și dezvoltarea sunt complexe, iar convergența mai multor surse crește robustețea interpretării.<br><br><strong>Exemplu:</strong> combini observația cu auto-raportarea și, unde e cazul, cu indicatori psihofiziologici.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Nicio metodă nu surprinde singură complexitatea psihicului</strong><span class='tooltip-box'><strong>Exemplu:</strong> observația arată ce face copilul, iar interviul ajută la înțelegerea motivelor sau semnificațiilor.</span></span>",
-          "<span class='tip'><strong>Limitările unei metode pot fi compensate de alta</strong><span class='tooltip-box'><strong>Exemplu:</strong> datele psihofiziologice sunt interpretate împreună cu comportamentul observat.</span></span>",
-          "<span class='tip'><strong>O singură metodă este suficientă dacă este aplicată corect</strong><span class='tooltip-box'><strong>Distractor:</strong> această afirmație contrazice ideea de strategie de cercetare.</span></span>",
+          "<span class='tip'><strong>O singură metodă nu este suficientă, indiferent cât de complexă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fiecare metodă vede doar o parte.<br><br><strong>Academic:</strong> limitările inerente ale oricărei metode impun triangularea pentru o descriere și explicație mai valide.<br><br><strong>Exemplu:</strong> observi comportamentul, dar nu știi motivul fără relatare.</span></span>",
+          "<span class='tip'><strong>Limitările unei metode pot fi compensate de alta</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ce lipsește dintr-o parte, găsești din alta.<br><br><strong>Academic:</strong> combinarea metodelor permite convergența dovezilor și reduce riscul interpretărilor bazate pe o singură sursă.<br><br><strong>Exemplu:</strong> indicatorii psihofiziologici sunt interpretați împreună cu comportamentul observat.</span></span>",
+          "<span class='tip'><strong>Strategia înseamnă folosirea exclusivă a unei metode standardizate</strong><span class='tooltip-box'><strong>Distractor:</strong> strategia presupune alegere justificată și combinare coerentă a metodelor în raport cu întrebarea de cercetare, nu utilizarea exclusivă a unei singure metode. Alegi metode diferite pentru emoții, relații și controlul impulsurilor.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -6846,25 +6873,25 @@ window.PDEZV_LESSONS = {
         <hr />
         <ul>
   <li>
-    <span class='tip'>Treapta filogenetică
+    <span class='tip'>Treapta filogenetică 
       <span class='tooltip-box'>
         <strong>Etimologie:</strong> gr. <em>phýlon</em> = specie + <em>génesis</em> = origine, devenire.<br><br>
         <strong>Ce analizează:</strong> ceea ce este comun tuturor oamenilor, ca specie, din punct de vedere psihic.<br><br>
         <strong>Idee-cheie:</strong> ce „aduce omul cu el” ca posibilitate general umană.<br><br>
         <strong>Exemplu concret:</strong> capacitatea de a vorbi, de a gândi simbolic, de a forma atașamente există la toți oamenii, indiferent de cultură.
       </span>
-    </span>
+    </span> - comun speciei umane
   </li>
 
   <li>
-    <span class='tip'>Treapta ontogenetică
+    <span class='tip'>Treapta ontogenetică 
       <span class='tooltip-box'>
         <strong>Etimologie:</strong> gr. <em>ón, óntos</em> = ființă + <em>génesis</em> = devenire.<br><br>
         <strong>Ce analizează:</strong> dezvoltarea psihică a unui individ concret, de-a lungul vieții.<br><br>
         <strong>Idee-cheie:</strong> cum se dezvoltă această persoană, cu ritmul, particularitățile și traseul ei propriu.<br><br>
         <strong>Exemplu concret:</strong> doi copii de aceeași vârstă pot avea niveluri diferite de autocontrol, limbaj sau gândire, deși aparțin aceleiași specii.
       </span>
-    </span>
+    </span> - parcursul individual de dezvoltare
   </li>
 
   <li>
@@ -6874,7 +6901,7 @@ window.PDEZV_LESSONS = {
         <strong>Idee-cheie:</strong> psihicul nu se dezvoltă în vid, ci în interacțiune cu alți oameni și cu mediul social.<br><br>
         <strong>Exemplu concret:</strong> regulile familiale, școala, grupul de prieteni sau cultura influențează modul în care copilul își exprimă emoțiile și comportamentele.
       </span>
-    </span>
+    </span> - dezvoltarea psihică în și prin relațiile sociale și contextul cultural
   </li>
 </ul>
 
@@ -7322,23 +7349,6 @@ window.PDEZV_LESSONS = {
     </div>
 
     <hr />
-
-    <!-- SINTEZĂ -->
-    <h2>✅ Sinteză rapidă</h2>
-    <div class="lesson-grid three">
-      <div class="lesson-card">
-        <h3>Nișa</h3>
-        <p>Ce are copilul în jur și ce i se cere.</p>
-      </div>
-      <div class="lesson-card">
-        <h3>Cultura</h3>
-        <p>Organizează nișa diferit pentru aceeași vârstă.</p>
-      </div>
-      <div class="lesson-card">
-        <h3>Dinamica</h3>
-        <p>Acumulare, stagnări posibile, regres, apoi salturi calitative.</p>
-      </div>
-    </div>
   `,
   },
   "pdezv-u1-s1-q4": {
@@ -8821,7 +8831,7 @@ window.PDEZV_LESSONS = {
     <h2>🧩 Clasificarea metodelor după colectarea datelor</h2>
     <div class="lesson-grid three colorful">
       <div class="lesson-card">
-        <h3>🗣️ Metode indirecte</h3>
+        <h3>📝 Auto-raportare</h3>
         <p><strong>Relatare sau interpretare.</strong></p>
         <hr />
         <ul>
@@ -8874,7 +8884,7 @@ window.PDEZV_LESSONS = {
 
     <h2>📝 Interviuri și chestionare</h2>
     <div class="lesson-grid two">
-      <div class="lesson-card">
+      <div class="lesson-card tint-amber">
         <h3>Avantaje</h3>
         <hr />
         <ul>
@@ -8889,7 +8899,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-amber">
         <h3>Limite</h3>
         <hr />
         <ul>
@@ -8908,8 +8918,87 @@ window.PDEZV_LESSONS = {
 
     <hr />
 
-    <h2>🧑‍⚕️ Metode clinice și studii de caz</h2>
-    <div class="lesson-grid two colorful">
+    
+
+    <h2>👀 Observația sistematică</h2>
+    <div class="lesson-grid two">
+      <div class="lesson-card tint-indigo">
+        <h3>Observația naturală</h3>
+        <p><strong>Fără modificarea situației.</strong></p>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Comportament spontan
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> observi în mediul real, fără să schimbi situația.<br /><br />
+                <strong>Formulare academică:</strong> observația naturală urmărește comportamentul în mediul obișnuit, fără intervenția cercetătorului.<br /><br />
+                <strong>Exemplu:</strong> jocul liber al copiilor în curtea școlii.
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="lesson-card tint-indigo">
+        <h3>Observația structurată</h3>
+        <p><strong>Situație organizată intenționat.</strong></p>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Situație standardizată
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> creezi o situație ca să provoci un comportament.<br /><br />
+                <strong>Formulare academică:</strong> observația structurată organizează o situație controlată pentru a provoca un comportament-țintă.<br /><br />
+                <strong>Exemplu:</strong> sarcină identică pentru toți copiii, pentru a observa controlul impulsurilor.
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧪 Metode psihofiziologice</h2>
+    <div class="lesson-grid">
+      <div class="lesson-card tint-emerald">
+        <h3>Utilitate specifică</h3>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Când exprimarea verbală e limitată
+              <span class="tooltip-box">
+            <strong>Formulare academică:</strong> în absența auto-raportării fiabile, cercetătorul operationalizează stările psihice prin stimuli controlați și înregistrează răspunsuri fiziologice, care sunt apoi interpretate în raport cu contextul și comportamentul observat.<br /><br />
+            <strong>Procedeu al cercetătorului:</strong><br />
+            1) prezintă un stimul standardizat (sunet brusc, imagine, separare scurtă, sarcină de atenție)<br />
+            2) măsoară răspunsul fiziologic (ritm cardiac, conductanța pielii, activitate cerebrală)<br />
+            3) corelează răspunsul cu comportamentul (privire, plâns, evitarea, orientarea atenției)<br /><br />
+            <strong>Exemplu:</strong> la sugari, se prezintă pe ecran fețe neutre și fețe amenințătoare și se măsoară ritmul cardiac și orientarea privirii, pentru a inferea reactivitatea la stres.
+          </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="lesson-card tint-emerald">
+        <h3>Limită interpretativă</h3>
+        <hr />
+        <ul>
+          <li>
+            <span class='tip'>Reacții biologice ambigue
+              <span class='tooltip-box'>
+                <strong>Spus simplu:</strong> aceeași reacție poate însemna lucruri diferite.<br /><br />
+                <strong>Formulare academică:</strong> aceeași reacție fiziologică poate corespunde mai multor stări psihice, de aceea interpretarea nu este certă.<br /><br />
+                <strong>Exemplu:</strong> ritmul cardiac crescut poate indica frică, entuziasm sau efort.
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🧑‍⚕️ Metode clinice și studii de caz (utilizează multiple metode de colectare a datelor)</h2>
+    <div class="lesson-grid">
       <div class="lesson-card">
         <h3>Analiza individului ca unic</h3>
         <hr />
@@ -8944,79 +9033,47 @@ window.PDEZV_LESSONS = {
 
     <hr />
 
-    <h2>👀 Observația sistematică</h2>
-    <div class="lesson-grid two">
-      <div class="lesson-card">
-        <h3>Observația naturală</h3>
-        <p><strong>Fără modificarea situației.</strong></p>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Comportament spontan
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> observi în mediul real, fără să schimbi situația.<br /><br />
-                <strong>Formulare academică:</strong> observația naturală urmărește comportamentul în mediul obișnuit, fără intervenția cercetătorului.<br /><br />
-                <strong>Exemplu:</strong> jocul liber al copiilor în curtea școlii.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div class="lesson-card">
-        <h3>Observația structurată</h3>
-        <p><strong>Situație organizată intenționat.</strong></p>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Situație standardizată
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> creezi o situație ca să provoci un comportament.<br /><br />
-                <strong>Formulare academică:</strong> observația structurată organizează o situație controlată pentru a provoca un comportament-țintă.<br /><br />
-                <strong>Exemplu:</strong> sarcină identică pentru toți copiii, pentru a observa controlul impulsurilor.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
+    <h2>🌍 Etnografia (utilizează multiple metode de colectare a datelor)</h2>
+<div class="lesson-grid">
+  <div class="lesson-card">
+    <h3>Descrierea credințelor, valorilor și tradițiilor</h3>
     <hr />
+    <ul>
+      <li>
+        <span class="tip">Descriere în profunzime a unui grup
+          <span class="tooltip-box">
+            <strong>Spus simplu:</strong> stai în mediul grupului și descrii cum trăiesc, ce cred și ce valori au.<br /><br />
+            <strong>Formulare academică:</strong> metoda etnografică oferă o descriere detaliată a credințelor, valorilor și tradițiilor grupurilor studiate, prin investigare contextualizată și de durată.<br /><br />
+            <strong>Metode folosite frecvent:</strong><br />
+            1) observație în context natural<br />
+            2) discuții și interviuri cu membrii grupului<br />
+            3) analiză de materiale și documente ale comunității<br /><br />
+            <strong>Exemplu:</strong> documentarea practicilor educaționale într o comunitate pe parcursul mai multor săptămâni sau luni.
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
 
-    <h2>🧪 Metode psihofiziologice</h2>
-    <div class="lesson-grid two colorful">
-      <div class="lesson-card">
-        <h3>Utilitate specifică</h3>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Când exprimarea verbală e limitată
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> când nu pot vorbi, măsori corpul.<br /><br />
-                <strong>Formulare academică:</strong> indicatorii biologici devin utili atunci când limbajul sau comportamentul nu pot descrie direct stările psihice.<br /><br />
-                <strong>Exemplu:</strong> un sugar nu poate explica frica sau stresul.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div class="lesson-card">
-        <h3>Limită interpretativă</h3>
-        <hr />
-        <ul>
-          <li>
-            <span class='tip'>Reacții biologice ambigue
-              <span class='tooltip-box'>
-                <strong>Spus simplu:</strong> aceeași reacție poate însemna lucruri diferite.<br /><br />
-                <strong>Formulare academică:</strong> aceeași reacție fiziologică poate corespunde mai multor stări psihice, de aceea interpretarea nu este certă.<br /><br />
-                <strong>Exemplu:</strong> ritmul cardiac crescut poate indica frică, entuziasm sau efort.
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
+  <div class="lesson-card">
+    <h3>Limitări ale etnografiei</h3>
     <hr />
+    <ul>
+      <li>
+        <span class="tip">Rezultate influențate de perspectiva cercetătorului
+          <span class="tooltip-box">
+            <strong>Spus simplu:</strong> felul în care interpretezi depinde de tine, iar concluziile rămân legate de grupul studiat.<br /><br />
+            <strong>Formulare academică:</strong> rezultatele pot fi influențate de valorile și perspectivele cercetătorului și nu pot fi extinse dincolo de grupurile studiate.<br /><br />
+            <strong>Exemplu:</strong> două cercetări în comunități similare pot ajunge la descrieri diferite, în funcție de poziția și interpretarea cercetătorului.
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+
 
     <h2>🧩 Strategia combinării metodelor</h2>
     <div class="lesson-grid two">

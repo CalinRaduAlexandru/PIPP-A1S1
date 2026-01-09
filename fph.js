@@ -10280,7 +10280,7 @@ window.FPH_FLASHCARDS = {
         key: "violet",
       },
       {
-        text: "🔗&nbsp;&nbsp;<span class='tip'><strong>raționamente</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> forme logice fundamentale care constau într o înlănțuire de judecăți.<br/><br/><strong>Spus simplu:</strong> legi mai multe judecăți astfel încît să ajungi la o concluzie.</span></span>",
+        text: "🔗&nbsp;&nbsp;<span class='tip'><strong>raționamente</strong><span class='tooltip-box'><strong>Formulare din lecție:</strong> forme logice fundamentale care constau într-o înlănțuire de judecăți.<br/><br/><strong>Spus simplu:</strong> legi mai multe judecăți astfel încît să ajungi la o concluzie.</span></span>",
         key: "amber",
       },
     ])}
@@ -10376,7 +10376,7 @@ window.FPH_FLASHCARDS = {
   <span class='tip'>
     <strong>Două forme aplicative:</strong> conceptualizarea și înțelegerea
     <span class='tooltip-box'>
-      <strong>Formulare de examen:</strong> conceptualizarea și înțelegerea sunt moduri de organizare a activității gândirii în care operațiile gândirii sunt utilizate pentru construirea conceptelor și pentru integrarea informațiilor într un sens coerent.
+      <strong>Formulare de examen:</strong> conceptualizarea și înțelegerea sunt moduri de organizare a activității gândirii în care operațiile gândirii sunt utilizate pentru construirea conceptelor și pentru integrarea informațiilor într-un sens coerent.
     </span>
   </span>
 </div>
@@ -10643,7 +10643,7 @@ ${window.flashPillList([
         key: "emerald",
       },
       {
-        text: "🏔️<span class='tip'><strong>idealuri</strong><span class='tooltip-box'><strong>Formulare academică:</strong> modele valorice de perfecțiune către care individul aspiră și care exercită un rol de ghidare pe termen lung asupra conduitei.<br/><br/><strong>Structură:</strong> idealul integrează un scop sau sens al vieții, formulat la un anumit nivel de aspirații și reprezentat printr un model idealizat care ghidează conduita.</span></span>",
+        text: "🏔️<span class='tip'><strong>idealuri</strong><span class='tooltip-box'><strong>Formulare academică:</strong> modele valorice de perfecțiune către care individul aspiră și care exercită un rol de ghidare pe termen lung asupra conduitei.<br/><br/><strong>Structură:</strong> idealul integrează un scop sau sens al vieții, formulat la un anumit nivel de aspirații și reprezentat printr-un model idealizat care ghidează conduita.</span></span>",
         key: "amber",
       },
     ])}
@@ -11052,7 +11052,7 @@ ${window.flashPillList([
         key: "emerald",
       },
       {
-        text: "🌊<span class='tip'><strong>contagiune afectivă</strong><span class='tooltip-box'><strong>Formulare academică:</strong> trăirile afective pot fi transmise în grup prin mecanisme de influență socială, contribuind la formarea unei atmosfere emoționale comune și la reglarea comportamentului colectiv.<br/><br/><strong>Spus simplu:</strong> emoția unuia poate cuprinde și pe ceilalți.<br/><br/><strong>Exemplu:</strong> entuziasmul dintr o echipă se răspândește.</span></span>",
+        text: "🌊<span class='tip'><strong>contagiune afectivă</strong><span class='tooltip-box'><strong>Formulare academică:</strong> trăirile afective pot fi transmise în grup prin mecanisme de influență socială, contribuind la formarea unei atmosfere emoționale comune și la reglarea comportamentului colectiv.<br/><br/><strong>Spus simplu:</strong> emoția unuia poate cuprinde și pe ceilalți.<br/><br/><strong>Exemplu:</strong> entuziasmul dintr-o echipă se răspândește.</span></span>",
         key: "cyan",
       },
     ])}
@@ -11314,7 +11314,7 @@ ${window.flashPillList([
         key: "cyan",
       },
       {
-        text: "⚡<span class='tip'><strong>promptitudinea deciziei</strong><span class='tooltip-box'><strong>Simplu spus:</strong> decizi rapid și potrivit.<br/><br/><strong>Formulare academică:</strong> capacitatea de a formula și aplica o decizie adecvată într un timp oportun, după o deliberare suficientă.<br/><br/><strong>Exemplu:</strong> alegi repede opțiunea corectă când timpul este limitat.</span></span>",
+        text: "⚡<span class='tip'><strong>promptitudinea deciziei</strong><span class='tooltip-box'><strong>Simplu spus:</strong> decizi rapid și potrivit.<br/><br/><strong>Formulare academică:</strong> capacitatea de a formula și aplica o decizie adecvată într-un timp oportun, după o deliberare suficientă.<br/><br/><strong>Exemplu:</strong> alegi repede opțiunea corectă când timpul este limitat.</span></span>",
         key: "violet",
       },
     ])}
@@ -11778,7 +11778,7 @@ ${window.flashPillList([
         key: "violet",
       },
       {
-        text: "⚙️<span class='tip'><strong>mecanism general al conștiinței</strong> <span style='opacity:.9'>punct nodal</span><span class='tooltip-box'><strong>Simplu spus:</strong> leagă mai multe procese psihice într un mod unitar.<br/><br/><strong>Formulare academică:</strong> limbajul intern este punct nodal al relațiilor dintre diverse procese și fenomene psihice, având funcție integratoare la nivelul conștiinței (Ananiev).<br/><br/><strong>Exemplu:</strong> îți clarifici un plan și îți coordonezi atenția, memoria și acțiunea.</span></span>",
+        text: "⚙️<span class='tip'><strong>mecanism general al conștiinței</strong> <span style='opacity:.9'>punct nodal</span><span class='tooltip-box'><strong>Simplu spus:</strong> leagă mai multe procese psihice într-un mod unitar.<br/><br/><strong>Formulare academică:</strong> limbajul intern este punct nodal al relațiilor dintre diverse procese și fenomene psihice, având funcție integratoare la nivelul conștiinței (Ananiev).<br/><br/><strong>Exemplu:</strong> îți clarifici un plan și îți coordonezi atenția, memoria și acțiunea.</span></span>",
         key: "coral",
       },
     ])}
@@ -11882,7 +11882,7 @@ ${window.flashPillList([
     <div>
       <span class='tip'><strong>Teoria trăsăturilor de personalitate</strong>
         <span class='tooltip-box'>
-          <strong>Simplu spus:</strong> personalitatea se descrie prin trăsături, adică predispoziții stabile de a reacționa într un anumit fel.<br/><br/>
+          <strong>Simplu spus:</strong> personalitatea se descrie prin trăsături, adică predispoziții stabile de a reacționa într-un anumit fel.<br/><br/>
           <strong>Formulare academică:</strong> trăsăturile sunt predispoziții relativ stabile de răspuns, care organizează conduita și fac comportamentul coerent și predictibil în contexte variate.<br/><br/>
           <strong>Exemplu:</strong> sociabilitate constantă în grupuri diferite.
         </span>
@@ -12255,7 +12255,7 @@ ${window.flashPillList([
         key: "teal",
       },
       {
-        text: "🎵<span class='tip'><strong>speciale</strong> <span style='opacity:.9'>(domeniu specific)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajută puternic într un domeniu anume.<br/><br/><strong>Formulare academică:</strong> aptitudini cu aplicabilitate restrânsă, care susțin performanța într un domeniu particular prin mecanisme specifice.<br/><br/><strong>Exemplu:</strong> aptitudini muzicale, tehnice, sportive.</span></span>",
+        text: "🎵<span class='tip'><strong>speciale</strong> <span style='opacity:.9'>(domeniu specific)</span><span class='tooltip-box'><strong>Simplu spus:</strong> ajută puternic într-un domeniu anume.<br/><br/><strong>Formulare academică:</strong> aptitudini cu aplicabilitate restrânsă, care susțin performanța într-un domeniu particular prin mecanisme specifice.<br/><br/><strong>Exemplu:</strong> aptitudini muzicale, tehnice, sportive.</span></span>",
         key: "amber",
       },
     ])}
@@ -12285,7 +12285,7 @@ ${window.flashPillList([
       <span class='tip'><strong>Relația caracter atitudine</strong>
         <span class='tooltip-box'>
           <strong>Simplu spus:</strong> atitudinile sunt forme concrete prin care caracterul se vede în situații.<br/><br/>
-          <strong>Formulare academică:</strong> caracterul se exprimă printr un sistem de atitudini relativ stabile față de sine, ceilalți și activitate, atitudinile funcționând ca mecanisme de orientare și reglare a conduitei în contexte specifice.<br/><br/>
+          <strong>Formulare academică:</strong> caracterul se exprimă printr-un sistem de atitudini relativ stabile față de sine, ceilalți și activitate, atitudinile funcționând ca mecanisme de orientare și reglare a conduitei în contexte specifice.<br/><br/>
           <strong>Exemplu:</strong> caracter responsabil se vede prin atitudine constantă de seriozitate față de muncă.
         </span>
       </span> - caracterul se vede prin atitudinile tale stabile, care îți orientează și îți reglează comportamentul în situații concrete.
@@ -12324,7 +12324,7 @@ ${window.flashPillList([
         key: "amber",
       },
       {
-        text: "🏃<span class='tip'><strong>Behavior (comportamente)</strong> <span style='opacity:.9'>- ce faci</span><span class='tooltip-box'><strong>Simplu spus:</strong> tendința de a acționa într un fel.<br/><br/><strong>Formulare academică:</strong> componenta comportamentală exprimă intenții și conduite orientate către obiect, în acord cu evaluarea afectivă și cognitivă.<br/><br/><strong>Exemplu:</strong> participi, înveți, cauți materiale.</span></span>",
+        text: "🏃<span class='tip'><strong>Behavior (comportamente)</strong> <span style='opacity:.9'>- ce faci</span><span class='tooltip-box'><strong>Simplu spus:</strong> tendința de a acționa într-un fel.<br/><br/><strong>Formulare academică:</strong> componenta comportamentală exprimă intenții și conduite orientate către obiect, în acord cu evaluarea afectivă și cognitivă.<br/><br/><strong>Exemplu:</strong> participi, înveți, cauți materiale.</span></span>",
         key: "violet",
       },
     ])}
