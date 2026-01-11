@@ -2271,12 +2271,12 @@
         background: linear-gradient(
           135deg,
           rgba(251, 191, 36, 0.16),
-          rgba(251, 191, 36, 0.04)
+          rgb(251 160 36 / 4%)
         );
         border-color: rgba(251, 191, 36, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n + 2) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 2) {
         background: linear-gradient(
           135deg,
           rgba(99, 102, 241, 0.16),
@@ -2285,7 +2285,7 @@
         border-color: rgba(99, 102, 241, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n + 3) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 3) {
         background: linear-gradient(
           135deg,
           rgba(34, 197, 94, 0.16),
@@ -2294,16 +2294,16 @@
         border-color: rgba(34, 197, 94, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n + 4) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 4) {
         background: linear-gradient(
           135deg,
           rgb(46 159 225 / 16%),
-          rgba(38, 200, 197, 0.04)
+          rgba(38, 200, 197, 0.1)
         );
         border-color: rgba(56, 189, 248, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n + 5) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 5) {
         background: linear-gradient(
           135deg,
           rgba(244, 114, 182, 0.16),
@@ -2312,7 +2312,7 @@
         border-color: rgba(244, 114, 182, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n + 6) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 6) {
         background: linear-gradient(
           135deg,
           rgba(168, 85, 247, 0.16),
@@ -2321,20 +2321,47 @@
         border-color: rgba(168, 85, 247, 0.24);
       }
 
-      .lesson-grid.colorful .lesson-card:nth-child(7n) {
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 7) {
         background: linear-gradient(
           135deg,
           rgba(148, 163, 184, 0.16),
-          rgba(148, 163, 184, 0.04)
+          rgba(148, 163, 184, 0.1)
         );
         border-color: rgba(148, 163, 184, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 8) {
+        background: linear-gradient(
+          135deg,
+          rgba(248, 113, 113, 0.16),
+          rgba(248, 113, 113, 0.04)
+        );
+        border-color: rgba(248, 113, 113, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(10n + 9) {
+        background: linear-gradient(
+          135deg,
+          rgba(20, 184, 166, 0.16),
+          rgba(20, 184, 166, 0.04)
+        );
+        border-color: rgba(20, 184, 166, 0.24);
+      }
+
+      .lesson-grid.colorful .lesson-card:nth-child(10n) {
+        background: linear-gradient(
+          135deg,
+          rgba(163, 230, 53, 0.16),
+          rgba(163, 230, 53, 0.04)
+        );
+        border-color: rgba(163, 230, 53, 0.24);
       }
 
       .lesson-card.tint-amber {
         background: linear-gradient(
           135deg,
           rgba(251, 191, 36, 0.16),
-          rgba(251, 191, 36, 0.04)
+          rgb(251 160 36 / 4%)
         );
         border-color: rgba(251, 191, 36, 0.24);
       }
@@ -2361,7 +2388,7 @@
         background: linear-gradient(
           135deg,
           rgb(46 159 225 / 16%),
-          rgba(38, 200, 197, 0.04)
+          rgba(38, 200, 197, 0.1)
         );
         border-color: rgba(56, 189, 248, 0.24);
       }
@@ -2387,10 +2414,37 @@
       .lesson-card.tint-slate {
         background: linear-gradient(
           135deg,
-          rgba(148, 163, 184, 0.16),
-          rgba(148, 163, 184, 0.04)
+          rgb(200 208 214 / 16%),
+          rgb(114 135 159 / 9%)
         );
         border-color: rgba(148, 163, 184, 0.24);
+      }
+
+      .lesson-card.tint-coral {
+        background: linear-gradient(
+          135deg,
+          rgba(248, 113, 113, 0.16),
+          rgba(248, 113, 113, 0.04)
+        );
+        border-color: rgba(248, 113, 113, 0.24);
+      }
+
+      .lesson-card.tint-teal {
+        background: linear-gradient(
+          135deg,
+          rgba(20, 184, 166, 0.16),
+          rgba(20, 184, 166, 0.1)
+        );
+        border-color: rgba(20, 184, 166, 0.24);
+      }
+
+      .lesson-card.tint-lime {
+        background: linear-gradient(
+          135deg,
+          rgba(163, 230, 53, 0.16),
+          rgba(163, 230, 53, 0.04)
+        );
+        border-color: rgba(163, 230, 53, 0.24);
       }
 
       .etymology-flow {
@@ -4616,9 +4670,25 @@
         saveProgress();
         renderCardProgress();
         if (currentSubject && detailOverlay.classList.contains("show")) {
+          ensureFphData(currentSubject);
+          ensureFpedData(currentSubject);
+          ensurePhedData(currentSubject);
+          ensurePdezvData(currentSubject);
+          ensureLrData(currentSubject);
+          ensurePedcomData(currentSubject);
           applySubjectBar(currentSubject);
+          const capId = findCapitolIdForTopic(currentSubject, topicId);
           if (quizPanel && !quizPanel.classList.contains("hidden")) {
             pendingProgressAnimationTopicId = topicId;
+            if (currentQuizListEl) {
+              updateSubcapCompletion(currentQuizListEl);
+              updateCapitolPillFromDom(
+                currentQuizListEl.closest(".capitol"),
+                currentSubject?.id
+              );
+            }
+            if (capId) updateCapitolPill(capId, currentSubject.id);
+            refreshCapitolPills(currentSubject);
             return;
           }
           if (currentSubject.capitole && currentSubject.capitole.length) {
@@ -4638,6 +4708,99 @@
         if (currentSubject) {
           maybeCelebrateSubject(currentSubject, prevAvg);
         }
+      }
+
+      function refreshCapitolPills(subject) {
+        if (!subject?.capitole?.length) return;
+        subject.capitole.forEach((cap) =>
+          updateCapitolPillDirect(subject, cap)
+        );
+      }
+
+      function findCapitolIdForTopic(subject, topicId) {
+        if (!subject?.capitole?.length || !topicId) return null;
+        const cap = subject.capitole.find((c) =>
+          c.subcapitole?.some((s) => (s.quizuri || []).includes(topicId))
+        );
+        return cap?.id || null;
+      }
+
+      function updateCapitolPillDirect(subject, capitol) {
+        if (!subject || !capitol) return;
+        const locked = isCapitolLocked(subject, capitol);
+        const allTopicIds = capitol.subcapitole.flatMap((s) => s.quizuri || []);
+        const deckStats = getCapitolDeckStats(capitol.id, subject.id);
+        const quizCount = allTopicIds.length;
+        const quizSum = allTopicIds.reduce(
+          (sum, id) => sum + getTopicProgress(id),
+          0
+        );
+        const quizAvg = quizCount ? quizSum / quizCount : null;
+        const deckAvg = deckStats.count
+          ? deckStats.sum / deckStats.count
+          : null;
+        let capProgress = 0;
+        if (locked) {
+          capProgress = 0;
+        } else if (quizAvg != null && deckAvg != null) {
+          capProgress = Math.round(0.5 * quizAvg + 0.5 * deckAvg);
+        } else if (quizAvg != null) {
+          capProgress = Math.round(quizAvg);
+        } else if (deckAvg != null) {
+          capProgress = Math.round(deckAvg);
+        }
+        const pill = capitoleContainer.querySelector(
+          `[data-capitol='${capitol.id}'] .pill-percent`
+        );
+        if (!pill) return;
+        pill.classList.remove("red", "orange", "yellow", "green");
+        pill.classList.add(pillColorClass(capProgress));
+        const valEl = pill.querySelector(".pill-val");
+        if (valEl) valEl.textContent = `${capProgress}%`;
+        const ico = pill.querySelector(".pill-ico");
+        if (ico) ico.textContent = pillIcon(capProgress);
+      }
+
+      function updateCapitolPillFromDom(capitolEl, subjectId) {
+        if (!capitolEl) return;
+        const locked = capitolEl.dataset.capitolLocked === "true";
+        const quizIds = Array.from(
+          capitolEl.querySelectorAll(".subcap-quiz-list[data-quiz-ids]")
+        )
+          .flatMap((el) => (el.dataset.quizIds || "").split(","))
+          .map((id) => id.trim())
+          .filter(Boolean);
+        const uniqueQuizIds = Array.from(new Set(quizIds));
+        const quizSum = uniqueQuizIds.reduce(
+          (sum, id) => sum + getTopicProgress(id),
+          0
+        );
+        const quizAvg = uniqueQuizIds.length
+          ? quizSum / uniqueQuizIds.length
+          : null;
+        const capitolId = capitolEl.dataset.capitol;
+        const deckStats = capitolId
+          ? getCapitolDeckStats(capitolId, subjectId || "fph")
+          : { count: 0, sum: 0 };
+        const deckAvg = deckStats.count ? deckStats.sum / deckStats.count : null;
+        let capProgress = 0;
+        if (locked) {
+          capProgress = 0;
+        } else if (quizAvg != null && deckAvg != null) {
+          capProgress = Math.round(0.5 * quizAvg + 0.5 * deckAvg);
+        } else if (quizAvg != null) {
+          capProgress = Math.round(quizAvg);
+        } else if (deckAvg != null) {
+          capProgress = Math.round(deckAvg);
+        }
+        const pill = capitolEl.querySelector(".pill-percent");
+        if (!pill) return;
+        pill.classList.remove("red", "orange", "yellow", "green");
+        pill.classList.add(pillColorClass(capProgress));
+        const valEl = pill.querySelector(".pill-val");
+        if (valEl) valEl.textContent = `${capProgress}%`;
+        const ico = pill.querySelector(".pill-ico");
+        if (ico) ico.textContent = pillIcon(capProgress);
       }
 
       function subjectAverage(subject) {
@@ -6708,6 +6871,8 @@
             refreshed.innerHTML = renderInlineQuizList(currentSubject, ids);
             wireInlineQuizButtons(refreshed, currentSubject);
           }
+          const capId = workingQuizList?.closest(".capitol")?.dataset.capitol;
+          if (capId) updateCapitolPill(capId, currentSubject?.id || "fph");
         }
 
         if (
@@ -6715,7 +6880,14 @@
           currentSubject.capitole &&
           currentSubject.capitole.length
         ) {
+          ensureFphData(currentSubject);
+          ensureFpedData(currentSubject);
+          ensurePhedData(currentSubject);
+          ensurePdezvData(currentSubject);
+          ensureLrData(currentSubject);
+          ensurePedcomData(currentSubject);
           capitoleContainer.classList.remove("hidden");
+          refreshCapitolPills(currentSubject);
           if (quizCompleted && workingQuizList) {
             const topicId = lastCompletedTopicId;
             pendingProgressAnimationTopicId = topicId;
@@ -6748,6 +6920,10 @@
               );
               addEmojiPop(item);
               updateBarWidths(workingQuizList, true, topicId);
+              updateCapitolPillFromDom(
+                workingQuizList.closest(".capitol"),
+                currentSubject?.id
+              );
             }, 320);
           } else if (lastTopicId && workingQuizList) {
             const targetItem =
@@ -6755,6 +6931,10 @@
                 `[data-topic-container='${lastTopicId}']`
               ) || workingQuizList;
             targetItem.scrollIntoView({ behavior: "smooth", block: "center" });
+            updateCapitolPillFromDom(
+              workingQuizList.closest(".capitol"),
+              currentSubject?.id
+            );
           }
         } else {
           topicsContainer.classList.remove("hidden");

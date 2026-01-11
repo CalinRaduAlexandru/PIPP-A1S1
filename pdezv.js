@@ -1849,7 +1849,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       },
 
       {
-        text: "De ce sunt importanți <span class='tip'><strong>factorii explicativi</strong><span class='tooltip-box'><strong>Simplu spus:</strong> explică de ce dezvoltarea nu arată la fel pentru toți.<br><br><strong>Exemplu concret:</strong> doi copii pot avea ritmuri diferite de dezvoltare în funcție de predispoziții și de mediul în care trăiesc.</span></span> în studiul dezvoltării umane?",
+        text: "De ce sunt importanți <span class='tip'><strong>factorii explicativi</strong><span class='tooltip-box'><strong>Simplu spus:</strong> explică de ce dezvoltarea nu arată la fel pentru toți.<br><br><strong>Factori explicativi:</strong> predispoziții genetice (potențial biologic), condiții de existență (mediul de viață), modele culturale (norme și practici culturale).<br><br><strong>Exemplu concret:</strong> doi copii pot avea ritmuri diferite de dezvoltare în funcție de predispoziții și de mediul în care trăiesc.</span></span> în studiul dezvoltării umane?",
         multiple: false,
         options: [
           "<span class='tip'><strong>Permit înțelegerea logicii bio-psiho-sociale a dezvoltării</strong><span class='tooltip-box'><strong>Explicație:</strong> factorii explicativi clarifică felul în care se combină influențele biologice, psihologice și sociale în evoluția individului.<br><br><strong>Exemplu concret:</strong> interacțiunea dintre predispoziții genetice și condiții de viață (sprijin familial, calitatea școlii, stres).</span></span>",
@@ -2067,7 +2067,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         text: "Alege toate afirmațiile adevărate despre <span class='tip'><strong>asimilare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> „încadrez noul în ce știu deja”.<br><br><strong>Etimologie (scurt):</strong> din lat. <em>assimilare</em> = „a face asemănător”.<br><br><strong>Exemplu concret:</strong> copilul numește „câine” orice animal cu patru picioare.</span></span> și <span class='tip'><strong>acomodare</strong><span class='tooltip-box'><strong>Simplu spus:</strong> „îmi schimb schema ca să încapă noul”.<br><br><strong>Etimologie (scurt):</strong> din lat. <em>accommodare</em> = „a ajusta, a potrivi”.<br><br><strong>Exemplu concret:</strong> copilul învață că pisica nu este câine și își rafinează categoria.</span></span>.",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Asimilarea</strong> înseamnă integrarea informațiilor în <strong>scheme cognitive</strong><span class='tooltip-box'><strong>Simplu spus:</strong> folosești o schemă existentă ca să înțelegi ceva nou.<br><br><strong>Formulare academică:</strong> asimilarea presupune dobândirea informațiilor despre lume și operaționalizarea lor în configurații mentale (scheme).<br><br><strong>Exemplu concret:</strong> aplici aceeași strategie de rezolvare pe care o știi deja într-o problemă nouă.</span></span></span>",
+          "<span class='tip'><strong>Asimilarea</strong> înseamnă integrarea informațiilor în <strong>scheme cognitive deja existente</strong><span class='tooltip-box'><strong>Simplu spus:</strong> folosești o schemă existentă ca să înțelegi ceva nou.<br><br><strong>Formulare academică:</strong> asimilarea presupune dobândirea informațiilor despre lume și operaționalizarea lor în configurații mentale (scheme).<br><br><strong>Exemplu concret:</strong> aplici aceeași strategie de rezolvare pe care o știi deja într-o problemă nouă.</span></span></span>",
           "<span class='tip'><strong>Acomodarea</strong> înseamnă restructurarea schemelor sub presiunea informațiilor noi<span class='tooltip-box'><strong>Simplu spus:</strong> îți modifici schema atunci când cea veche nu mai funcționează.<br><br><strong>Formulare academică:</strong> acomodarea este reorganizarea schemelor cognitive ca răspuns la informații noi care nu pot fi integrate prin asimilare.<br><br><strong>Exemplu concret:</strong> schimbi metoda de rezolvare după ce observi repetat că varianta veche dă greș.</span></span></span>",
           "<span class='tip'><strong>Asimilarea</strong> și <strong>acomodarea</strong> sunt procese opuse care nu colaborează niciodată<span class='tooltip-box'><strong>Distractor:</strong> la Piaget, adaptarea rezultă tocmai din echilibrul dintre ele: uneori integrezi (asimilezi), alteori ajustezi (acomodezi).<br><br><strong>Exemplu concret:</strong> înveți o regulă nouă (asimilare), apoi o rafinezi când apare o excepție (acomodare).</span></span></span>",
         ],
@@ -2241,7 +2241,6 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Dezvoltarea are o desfășurare multistadială</strong>, cu continuități și transformări între etape<span class='tooltip-box'><strong>Simplu spus:</strong> etapele au sens și sunt legate între ele.<br><br><strong>Exemplu concret:</strong> o achiziție devine „bază” pentru următoarea (de exemplu, controlul atenției susține învățarea școlară).</span></span>",
           "<span class='tip'><strong>Dezvoltarea înseamnă doar acumulări cantitative</strong>, fără reorganizări calitative<span class='tooltip-box'><strong>Distractor:</strong> stadialitatea include transformări calitative (reorganizări funcționale), nu doar „mai mult”.<br><br><strong>Exemplu concret:</strong> a memora mai multe nu e suficient ca să explici apariția gândirii ipotetice la adolescent.</span></span>",
-          "<span class='tip'><strong>Stadiile sunt independente</strong>, fără legătură între ele<span class='tooltip-box'><strong>Distractor:</strong> ideea centrală este tocmai legătura dintre stadii: fiecare nou stadiu se construiește pe achizițiile anterioare.<br><br><strong>Exemplu concret:</strong> nu sari „din nimic” la raționament abstract; acesta se sprijină pe achiziții anterioare.</span></span>",
         ],
         answer: 0,
       },
@@ -2249,6 +2248,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       {
         text: "Alege toate asocierile corecte între <span class='tip'><strong>teorie</strong><span class='tooltip-box'><strong>Simplu spus:</strong> un model explicativ al dezvoltării (cum și de ce se schimbă omul în timp).<br><br><strong>Exemplu concret:</strong> unele teorii descriu stadii ale personalității, altele stadii ale gândirii sau ale moralității.</span></span> și domeniul dezvoltării pe care îl descrie:",
         multiple: true,
+        shuffle: false,
         options: [
           "<span class='tip'><strong>Freud</strong> — stadialitatea dezvoltării personalității (stadii psihosexuale)<span class='tooltip-box'><strong>Simplu spus:</strong> accent pe dinamici interne și modul în care se structurează personalitatea în copilărie și adolescență.<br><br><strong>Exemplu concret:</strong> fiecare stadiu are teme și riscuri specifice, cu efecte posibile ulterior.</span></span>",
           "<span class='tip'><strong>Erikson</strong> — stadialitatea dezvoltării psihosociale (crize specifice vârstelor)<span class='tooltip-box'><strong>Simplu spus:</strong> accent pe relația dintre nevoi psihologice și contextul social, în etape succesive.<br><br><strong>Exemplu concret:</strong> identitatea devine temă centrală în adolescență, iar intimitatea în adultul tânăr.</span></span>",
@@ -2280,7 +2280,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         text: "Cum explică <span class='tip'><strong>Freud stadialitatea dezvoltării personalității?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> dezvoltarea trece prin stadii, pentru că nevoile pulsionale și conflictele interne se reorganizează în timp.<br><br><strong>Explicație:</strong> există o relație conflictuală între instanțele psihice (Id, Ego, Superego), iar pe parcursul copilăriei (și până în adolescență) individul caută modalități social acceptabile și eficiente de satisfacere a nevoilor orientate spre obținerea plăcerii.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Prin conflictul dintre Id, Ego și Superego</strong><span class='tooltip-box'><strong>Simplu spus:</strong> în psihic există „trei voci”: una cere plăcere imediată, una negociază cu realitatea, una impune reguli. Dezvoltarea implică echilibrarea lor.<br><br><strong>Id:</strong> polul impulsurilor și al dorinței de satisfacție imediată (principiul plăcerii).<br><strong>Exemplu:</strong> „Vreau acum!”<br><br><strong>Ego:</strong> partea care gestionează realitatea și caută soluții posibile (principiul realității).<br><strong>Exemplu:</strong> „Nu se poate acum; pot aștepta / pot face altceva.”<br><br><strong>Superego:</strong> interiorizarea regulilor și valorilor (conștiință morală, „ce e permis/greșit”).<br><strong>Exemplu:</strong> „Nu e în regulă să fac asta.”<br><br><strong>Ideea-cheie:</strong> pe parcursul copilăriei, modul în care Ego-ul mediază între impulsuri (Id) și reguli (Superego) se reorganizează, ceea ce susține adaptarea socială.</span></span>",
+          "<span class='tip'><strong>Prin conflictul dintre Id, Ego și Superego</strong><span class='tooltip-box'><strong>Simplu spus:</strong> în psihic există „trei voci”: una cere plăcere imediată, una negociază cu realitatea, una impune reguli. Dezvoltarea implică echilibrarea lor.<br><br><strong>Id:</strong> polul impulsurilor și al dorinței de satisfacție imediată (principiul plăcerii).<br><br><strong>Ego:</strong> partea care gestionează realitatea și caută soluții posibile (principiul realității).<br><br><strong>Superego:</strong> interiorizarea regulilor și valorilor (conștiință morală, „ce e permis/greșit”).<br><br><strong>Ideea-cheie:</strong> pe parcursul copilăriei, modul în care Ego-ul mediază între impulsuri (Id) și reguli (Superego) se reorganizează, ceea ce susține adaptarea socială.</span></span>",
           "<span class='tip'><strong>Prin orientarea succesivă a pulsiunilor</strong> către zone erogene diferite în fiecare stadiu<span class='tooltip-box'><strong>Simplu spus:</strong> „accentul plăcerii” se mută de la o zonă la alta pe măsură ce copilul crește.<br><br><strong>Explicație:</strong> fiecare stadiu are o temă dominantă și un tip de satisfacere a nevoilor.</span></span>",
           "<span class='tip'><strong>Prin învățarea echilibrului</strong> dintre ceea ce își dorește copilul și ceea ce „se poate” social<span class='tooltip-box'><strong>Simplu spus:</strong> copilul învață să-și regleze dorințele în raport cu constrângerile sociale.<br><br><strong>Explicație:</strong> rezolvările succesive ale tensiunilor interne pot susține o adaptare mai eficientă.</span></span>",
           "<span class='tip'><strong>Prin eliminarea completă a conflictelor</strong><span class='tooltip-box'><strong>Distractor:</strong> în această perspectivă, conflictele nu dispar „total”; ele pot fi gestionate și reorganizate, cu efecte variabile ulterior.</span></span>",
@@ -2301,15 +2301,16 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       {
         text: "Alege toate asocierile corecte <span class='tip'><strong>stadiu psihosexual – perioadă de vârstă</strong><span class='tooltip-box'><strong>Simplu spus:</strong> la Freud, dezvoltarea personalității este descrisă prin stadii în care sursa principală a plăcerii și a tensiunilor se mută succesiv.<br><br><strong>Important:</strong> fiecare stadiu are o temă dominantă; dacă tensiunile sunt gestionate inadecvat, pot apărea fixări care se pot reflecta ulterior în comportamente adulte.</span></span>",
         multiple: true,
+        shuffle: false,
         options: [
           "<span class='tip'><strong>Oral (0–1 an)</strong> — plăcerea și explorarea sunt centrate pe gură<span class='tooltip-box'><strong>Simplu spus:</strong> copilul se liniștește și explorează prin supt și senzații orale.<br><br><strong>Explicație:</strong> gura devine „canalul” principal de satisfacere și contact cu lumea (supt, gustativ, oral).<br><br><strong>Exemplu concret:</strong> bebelușul duce frecvent obiecte la gură și se calmează prin supt.</span></span>",
           "<span class='tip'><strong>Anal (1–3 ani)</strong> — controlul sfincterian și autonomia asupra propriului corp<span class='tooltip-box'><strong>Simplu spus:</strong> miza e controlul: „pot/nu pot”, „vreau/nu vreau”.<br><br><strong>Explicație:</strong> sursa tensiunii se mută spre eliminare și control; interacțiunea cu cerințele adultului (toaletare) contează mult.<br><br><strong>Exemplu concret:</strong> copilul insistă să facă singur anumite lucruri (îmbrăcat, toaletă) și reacționează puternic la constrângere.</span></span>",
-          "<span class='tip'><strong>Falic (3–6 ani)</strong> — interes pentru zona genitală și identificări cu părinții<span class='tooltip-box'><strong>Simplu spus:</strong> crește curiozitatea față de diferențele de sex și apar identificări cu părinții.<br><br><strong>Explicație:</strong> plăcerea devine centrată pe zonele erogene genitale; copilul poate manifesta atracție față de părintele de sex opus și își formează identificări cu părintele de același sex (în textul tău apare și ideea de formare a Superego-ului).<br><br><strong>Exemplu concret:</strong> copilul pune întrebări despre corp și „de ce”, imitând comportamentele adultului de același sex.</span></span>",
+          "<span class='tip'><strong>Falic (3–6 ani)</strong> — interes pentru zona genitală și identificări cu părinții<span class='tooltip-box'><strong>Simplu spus:</strong> crește curiozitatea față de diferențele de sex și apar identificări cu părinții.<br><br><strong>Explicație:</strong> plăcerea devine centrată pe zonele erogene genitale; copilul poate manifesta atracție față de părintele de sex opus și își formează identificări cu părintele de același sex.<br><br><strong>Exemplu concret:</strong> copilul pune întrebări despre corp și „de ce”, imitând comportamentele adultului de același sex.</span></span>",
+          "<span class='tip'><strong>Oral (6–11 ani)</strong> — consolidarea valorilor și a relațiilor cu egalii<span class='tooltip-box'><strong>Distractor:</strong> descrierea aceasta corespunde stadiului <strong>latent</strong> (6–11 ani), nu stadiului oral (0–1 an).<br><br><strong>Exemplu concret:</strong> orientarea spre școală și grupul de prieteni este tipică perioadei latente.</span></span>",
           "<span class='tip'><strong>Latent (6–11 ani)</strong> — energie orientată spre valori, abilități și relații sociale<span class='tooltip-box'><strong>Simplu spus:</strong> accentul se mută pe școală, reguli și prietenii.<br><br><strong>Explicație:</strong> interesul sexual este relativ „în fundal”, iar dezvoltarea se concentrează pe achiziții sociale și competențe (valori, abilități, relații cu egalii și adulți din afara familiei).<br><br><strong>Exemplu concret:</strong> copilul investește energie în performanță școlară, jocuri cu reguli și apartenența la grup.</span></span>",
           "<span class='tip'><strong>Genital (11–18 ani)</strong> — reactivarea libidoului pe fondul pubertății și interes pentru relații<span class='tooltip-box'><strong>Simplu spus:</strong> odată cu pubertatea, crește interesul pentru sexualitate și relații.<br><br><strong>Explicație:</strong> libidoul devine mai activ; stadiul este asociat cu orientarea spre relații mature și integrarea impulsurilor într-un mod adaptat social.<br><br><strong>Exemplu concret:</strong> adolescentul dezvoltă interes pentru relații romantice și încearcă să-și gestioneze impulsurile în raport cu normele și consecințele.</span></span>",
-          "<span class='tip'><strong>Oral (6–11 ani)</strong> — consolidarea valorilor și a relațiilor cu egalii<span class='tooltip-box'><strong>Distractor:</strong> descrierea aceasta corespunde stadiului <strong>latent</strong> (6–11 ani), nu stadiului oral (0–1 an).<br><br><strong>Exemplu concret:</strong> orientarea spre școală și grupul de prieteni este tipică perioadei latente.</span></span>",
         ],
-        answer: [0, 1, 2, 3, 4],
+        answer: [0, 1, 2, 4, 5],
       },
       {
         text: "Ce caracterizează <span class='tip'><strong>stadiul oral (0–1 an)?</strong><span class='tooltip-box'><strong>Simplu spus:</strong> gura este principala „poartă” de explorare și sursă de plăcere.<br><br><strong>Notă:</strong> nevoi nesatisfăcute pot fi legate de fixări orale cu manifestări ulterioare (de exemplu, fumat, ros unghii, mâncat excesiv).</span></span>",
@@ -2327,7 +2328,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         text: "Alege toate afirmațiile adevărate despre <span class='tip'><strong>stadiul anal (1–3 ani):</strong><span class='tooltip-box'><strong>Simplu spus:</strong> accentul se mută pe controlul eliminării, ca expresie a autonomiei asupra propriului corp.<br><br><strong>Idee-cheie:</strong> învățarea toaletei poate aduce presiune din partea părinților, iar felul acestei presiuni este asociat cu tipuri diferite de consecințe ulterioare.</span></span>",
         multiple: true,
         options: [
-          "<span class='tip'><strong>Accentul se mută pe controlul sfincterian</strong>, ca expresie a autonomiei<span class='tooltip-box'><strong>Simplu spus:</strong> copilul învață să controleze când „ține” și când „dă drumul” (mersul la toaletă), iar asta devine un semn de autonomie: „eu decid ce face corpul meu”.<br><br><strong>Ce înseamnă „sfincterian”:</strong> se referă la <strong>sfinctere</strong> — mușchi circulari care deschid/închid un orificiu al corpului (în acest context, cei implicați în eliminare).<br><br><strong>Etimologie (scurt):</strong> „sfincter” vine din grecescul <em>sphinkter</em> („ceea ce strânge”), de la verbul <em>sphingein</em> („a strânge”).<br><br><strong>Exemplu concret:</strong> copilul spune „nu acum” când este pus pe oliță, amână intenționat, sau insistă să meargă singur la baie și se supără dacă este grăbit ori controlat de adult — pentru că trăiește situația ca pe o luptă pentru control și autonomie.</span></span></span>",
+          "<span class='tip'><strong>Accentul se mută pe controlul sfincterian</strong>, ca expresie a autonomiei<span class='tooltip-box'><strong>Simplu spus:</strong> copilul învață să controleze când „ține” și când „dă drumul” (mersul la toaletă), iar asta devine un semn de autonomie: „eu decid ce face corpul meu”.<br><br><strong>Ce înseamnă „sfincterian”:</strong> se referă la <strong>sfinctere</strong> — mușchi circulari care deschid/închid un orificiu al corpului (în acest context, cei implicați în eliminare).<br><br><strong>Exemplu concret:</strong> copilul spune „nu acum” când este pus pe oliță, amână intenționat, sau insistă să meargă singur la baie și se supără dacă este grăbit ori controlat de adult — pentru că trăiește situația ca pe o luptă pentru control și autonomie.</span></span></span>",
           "<span class='tip'><strong>Plăcerea se leagă de eliminarea controlată</strong><span class='tooltip-box'><strong>Simplu spus:</strong> copilul poate simți satisfacție din faptul că „ține” sau „dă drumul” când decide el.<br><br><strong>Explicație:</strong> în stadiul anal, satisfacția este asociată cu controlul/gestionarea eliminării și cu sentimentul de autonomie asupra propriului corp.<br><br><strong>Exemplu concret:</strong> copilul insistă să stea pe oliță doar când vrea el și poate refuza, amâna sau accepta tocmai pentru că simte că are control; uneori reacționează puternic când este grăbit sau forțat.</span></span></span>",
           "<span class='tip'><strong>Presiunea parentală excesivă</strong> poate fi asociată ulterior cu nevoi compulsive de curățenie și ordine<span class='tooltip-box'><strong>Exemplu:</strong> rigiditate, preocupare exagerată pentru ordine.</span></span>",
           "<span class='tip'><strong>Lipsa presiunii parentale</strong> poate fi asociată ulterior cu comportamente dezordonate, chiar distructive<span class='tooltip-box'><strong>Exemplu:</strong> dificultăți de autoreglare în zona „ordine/disciplină”.</span></span>",
@@ -2420,10 +2421,10 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>Autonomie vs. Rușine (1,5–3 ani)</strong><span class='tooltip-box'><div><strong>Autonomie:</strong> „pot singur” (control corporal, autoservire, igienă), care deschide drumul spre independență și autocontrol.</div><div style='margin-top:8px;'><strong>Rușine:</strong> sentimentul că „nu sunt în stare”/„e greșit să încerc”, apărut când copilul e ridiculizat sau umilit.</div><div style='margin-top:8px;'><strong>Virtute (rezolvare favorabilă):</strong> voința.</div><div style='margin-top:8px;'><strong>Dacă rezolvarea e nefavorabilă:</strong> rușine excesivă și îndoială, cu evitare și dependență.</div><div style='margin-top:8px;'><strong>Exemplu concret:</strong> copilul vrea să mănânce singur/„să facă la oliță” singur; cu susținere prinde curaj, cu critică („iar ai făcut prost”) se inhibă.</div></span></span>",
           "<span class='tip'><strong>Inițiativă vs. Vină (3–6 ani)</strong><span class='tooltip-box'><div><strong>Inițiativă:</strong> copilul inițiază acțiuni, își asumă roluri, planifică jocuri și urmărește scopuri.</div><div style='margin-top:8px;'><strong>Vină:</strong> sentimentul că e „rău” să vrei/să încerci, mai ales când inițiativa este sancționată dur.</div><div style='margin-top:8px;'><strong>Virtute (rezolvare favorabilă):</strong> scopul.</div><div style='margin-top:8px;'><strong>Dacă rezolvarea e nefavorabilă:</strong> inițiativa se inhibă, vina devine copleșitoare (teamă de acțiune/eșec).</div><div style='margin-top:8px;'><strong>Exemplu concret:</strong> copilul inventează un joc și îi invită pe ceilalți; cu susținere încearcă din nou după un eșec, cu critică dură evită să mai inițieze.</div></span></span>",
           "<span class='tip'><strong>Hărnicie vs. Inferioritate (6–12 ani)</strong><span class='tooltip-box'><div><strong>Hărnicie:</strong> orientare spre performanță și sentimentul competenței („pot să fac bine”).</div><div style='margin-top:8px;'><strong>Inferioritate:</strong> sentimentul că ești incapabil, mai ales când lipsește susținerea și feedbackul formativ.</div><div style='margin-top:8px;'><strong>Virtute (rezolvare favorabilă):</strong> competența.</div><div style='margin-top:8px;'><strong>Dacă rezolvarea e nefavorabilă:</strong> inhibiție și evitare (lipsă de încredere în capacitatea de creștere și autodepășire).</div><div style='margin-top:8px;'><strong>Exemplu concret:</strong> copilul lucrează la un proiect; cu îndrumare și feedback util progresează, cu etichete („ești slab”) renunță înainte să încerce.</div></span></span>",
-          "<span class='tip'><strong>Identitate vs. Confuzie de rol (12–18 ani)</strong><span class='tooltip-box'><div><strong>Identitate:</strong> răspuns coerent la „cine sunt?” și „ce rol am în lume?”.</div><div style='margin-top:8px;'><strong>Confuzie de rol:</strong> lipsa direcției și dificultatea de a integra roluri și așteptări diferite.</div><div style='margin-top:8px;'><strong>Virtute (rezolvare favorabilă):</strong> fidelitatea.</div><div style='margin-top:8px;'><strong>Dacă rezolvarea e nefavorabilă:</strong> confuzie și lipsă de auto-acceptare, cu instabilitate în alegeri.</div><div style='margin-top:8px;'><strong>Exemplu concret:</strong> adolescentul explorează opțiuni (profil, grup, valori); cu susținere ajunge la o identitate mai stabilă, fără sprijin poate oscila între roluri fără să se regăsească.</div></span></span>",
           "<span class='tip'><strong>Hărnicie vs. Inferioritate (12–18 ani)</strong><span class='tooltip-box'><strong>Distractor:</strong> 12–18 ani corespunde stadiului <strong>Identitate vs. Confuzie de rol</strong>, nu <strong>Hărnicie vs. Inferioritate</strong> (care este 6–12 ani).</span></span>",
+          "<span class='tip'><strong>Identitate vs. Confuzie de rol (12–18 ani)</strong><span class='tooltip-box'><div><strong>Identitate:</strong> răspuns coerent la „cine sunt?” și „ce rol am în lume?”.</div><div style='margin-top:8px;'><strong>Confuzie de rol:</strong> lipsa direcției și dificultatea de a integra roluri și așteptări diferite.</div><div style='margin-top:8px;'><strong>Virtute (rezolvare favorabilă):</strong> fidelitatea.</div><div style='margin-top:8px;'><strong>Dacă rezolvarea e nefavorabilă:</strong> confuzie și lipsă de auto-acceptare, cu instabilitate în alegeri.</div><div style='margin-top:8px;'><strong>Exemplu concret:</strong> adolescentul explorează opțiuni (profil, grup, valori); cu susținere ajunge la o identitate mai stabilă, fără sprijin poate oscila între roluri fără să se regăsească.</div></span></span>",
         ],
-        answer: [0, 1, 2, 3, 4],
+        answer: [0, 1, 2, 3, 5],
       },
 
       // 2) Stadiile adulte și vârsta târzie (19+)
@@ -2511,7 +2512,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         answer: 0,
       },
       {
-        text: "Alege toate afirmațiile adevărate despre <span class='tip'><strong>stadiul preoperațional (2–6 ani):</strong><span class='tooltip-box'><strong>Simplu spus:</strong> egocentrismul e „filtrul” principal: copilul raportează înțelegerea lumii la sine.<div style='margin-top:8px;'></div><strong>În text, egocentrismul cognitiv se manifestă prin:</strong> animism, centrare, solilocviu, imitația/jocul imitativ, transpunerea în joc a experiențelor, jocul simbolic, ireversibilitatea operațiilor și inconservarea invariantului.</span></span>",
+        text: "Alege toate conceptele care aprțin <span class='tip'><strong>stadiului preoperațional (2–6 ani):</strong><span class='tooltip-box'><strong>Simplu spus:</strong> egocentrismul e „filtrul” principal: copilul raportează înțelegerea lumii la sine.<div style='margin-top:8px;'></div><strong>În text, egocentrismul cognitiv se manifestă prin:</strong> animism, centrare, solilocviu, imitația/jocul imitativ, transpunerea în joc a experiențelor, jocul simbolic, ireversibilitatea operațiilor și inconservarea invariantului.</span></span>",
         multiple: true,
         options: [
           "<span class='tip'><strong>Animism</strong> — atribuirea de proprietăți antropomorfice obiectelor/fenomenelor<span class='tooltip-box'><strong>Exemplu:</strong> jucăriile sunt „însuflețite”, copilul le vorbește ca și cum ar răspunde.</span></span>",
@@ -2525,7 +2526,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
       },
 
       {
-        text: "Alege toate afirmațiile adevărate despre <span class='tip'><strong>stadiul operațiilor concrete (6–10/11 ani):</strong><span class='tooltip-box'><strong>Simplu spus:</strong> copilul poate face operații mentale logice, dar mai ales când lucrează cu situații și obiecte concrete (vizibile sau ușor de imaginat).<br><br><strong>Idee-cheie:</strong> în acest stadiu apar achiziții precum <strong>conservarea</strong>, <strong>reversibilitatea</strong> și <strong>decentrarea</strong> (gândire mai flexibilă).</span></span>",
+        text: "Alege toate conceptele care aprțin <span class='tip'><strong>stadiului operațiilor concrete (6–10/11 ani):</strong><span class='tooltip-box'><strong>Simplu spus:</strong> copilul poate face operații mentale logice, dar mai ales când lucrează cu situații și obiecte concrete (vizibile sau ușor de imaginat).<br><br><strong>Idee-cheie:</strong> în acest stadiu apar achiziții precum <strong>conservarea</strong>, <strong>reversibilitatea</strong> și <strong>decentrarea</strong> (gândire mai flexibilă).</span></span>",
         multiple: true,
         options: [
           "<span class='tip'><strong>Conservarea invariantului</strong> — înțelege că unele proprietăți rămân aceleași, chiar dacă aspectul se schimbă<span class='tooltip-box'><strong>Simplu spus:</strong> se schimbă forma/aranjarea, dar nu neapărat „cât este”.<br><br><strong>Explicație:</strong> copilul distinge între schimbări de <strong>aspect</strong> (formă, înălțime, distribuție) și proprietăți care pot rămâne <strong>invariante</strong> (cantitate/substanță/număr), dacă nu adaugi și nu scoți nimic.<br><br><strong>Exemplu concret:</strong> două bile egale de plastilină: turtești una într-o „clătită”. Copilul spune că e <strong>aceeași cantitate</strong>, fiindcă nu ai luat și nu ai adăugat nimic — doar ai schimbat forma.</span></span>",
@@ -2820,7 +2821,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         text: "Ce înseamnă <span class='tip'><strong>epigenetica?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mediul poate influența dacă unele gene sunt „pornite” sau „oprite”.<br /><br /><strong>Important:</strong> nu înseamnă că mediul schimbă „identitatea” genei, ci modul în care se exprimă.</span></span>",
         multiple: false,
         options: [
-          "<span class='tip'><strong>Studiul modului în care condițiile de mediu pot modifica activarea/dezactivarea genelor</strong><span class='tooltip-box'><strong>Corect:</strong> accent pe reglarea expresiei genetice.</span></span>",
+          "<span class='tip'><strong>Studiul modului în care condițiile de mediu pot modifica activarea/ dezactivarea genelor</strong><span class='tooltip-box'><strong>Corect:</strong> accent pe reglarea expresiei genetice.</span></span>",
           "<span class='tip'><strong>Ideea că genele nu au nicio legătură cu comportamentul</strong><span class='tooltip-box'><strong>Distractor:</strong> epigenetica nu neagă genele; explică modul în care mediul le poate influența expresia.</span></span>",
         ],
         answer: 0,
@@ -3302,16 +3303,6 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         answer: [0, 1],
       },
       {
-        text: "Ce rol are <span class='tip'><strong>HCG</strong><span class='tooltip-box'><strong>Spus simplu:</strong> HCG menține sarcina și stă la baza testelor de sarcină.</span></span> în sarcină?",
-        multiple: true,
-        options: [
-          "<span class='tip'><strong>Inhibă menstruația prin menținerea corpului galben</strong><span class='tooltip-box'><strong>Formulare academică:</strong> HCG susține corpul galben în primele etape ale sarcinii.<br /><br /><strong>Exemplu:</strong> ciclul menstrual este suspendat după implantare.</span></span>",
-          "<span class='tip'><strong>Este baza testelor de sarcină</strong><span class='tooltip-box'><strong>Formulare academică:</strong> HCG este detectat în sânge și urină pentru confirmarea sarcinii.<br /><br /><strong>Exemplu:</strong> testele de laborator sunt mai fiabile decât cele de acasă.</span></span>",
-          "<span class='tip'><strong>Este produs doar după naștere</strong><span class='tooltip-box'><strong>Distractor:</strong> HCG apare la scurt timp după concepție.</span></span>",
-        ],
-        answer: [0, 1],
-      },
-      {
         text: "Ce descrie corect <span class='tip'><strong>amniosul, corionul și lichidul amniotic?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> fătul plutește într-un sac cu lichid protector.</span></span>",
         multiple: true,
         options: [
@@ -3576,7 +3567,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Este un defect al coloanei vertebrale, aproximativ 1 la 2.000 de nașteri</strong><span class='tooltip-box'><strong>Exemplu:</strong> apare relativ rar, dar cu impact important.</span></span>",
           "<span class='tip'><strong>Poate apărea în familii, dar fără un tipar strict</strong><span class='tooltip-box'><strong>Exemplu:</strong> se observă agregare familială, dar nu o regulă fixă.</span></span>",
-          "<span class='tip'><strong>Consumul de acid folic reduce incidența</strong><span class='tooltip-box'><strong>Exemplu:</strong> suplimentarea înainte și în sarcină scade riscul.</span></span>",
+          "<span class='tip'><strong>Consumul de acid folic (vitamina B9) reduce incidența</strong><span class='tooltip-box'><strong>Exemplu:</strong> suplimentarea înainte și în sarcină scade riscul.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -3603,7 +3594,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Multe substanțe trec ușor de la mamă la făt</strong><span class='tooltip-box'><strong>Exemplu:</strong> medicamente aparent inofensive pot provoca anomalii fetale.</span></span>",
           "<span class='tip'><strong>O doză normală pentru mamă poate fi o supradoză pentru făt</strong><span class='tooltip-box'><strong>Exemplu:</strong> sensibilitate fetală crescută la medicamente.</span></span>",
-          "<span class='tip'><strong>Nu există risc la nicio substanță dacă este prescrisă</strong><span class='tooltip-box'><strong>Distractor:</strong> textul precizează că inclusiv medicamente prescrise pot fi riscante.</span></span>",
+          "<span class='tip'><strong>Nu există risc la nicio substanță dacă este prescrisă</strong><span class='tooltip-box'><strong>Distractor:</strong> inclusiv medicamente prescrise pot fi riscante.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4030,7 +4021,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Greutate medie 3–3,5 kg și lungime ~50 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este intervalul tipic.<br /><br /><strong>Formulare academică:</strong> media greutății și lungimii la termen se situează în jurul acestor valori.<br /><br /><strong>Exemplu:</strong> 3,2 kg și 50 cm.</span></span>",
           "<span class='tip'><strong>Fete: 3.000–3.250 g, băieți: 3.000–3.500 g</strong><span class='tooltip-box'><strong>Spus simplu:</strong> băieții tind să fie ușor mai grei.<br /><br /><strong>Formulare academică:</strong> există o variație mică în funcție de sexul biologic.<br /><br /><strong>Exemplu:</strong> băieți cu greutate ușor mai mare.</span></span>",
-          "<span class='tip'><strong>Greutate medie 4,5–5 kg și lungime 60 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunt valori prea mari pentru media la naștere.<br /><br /><strong>Formulare academică:</strong> intervalul depășește mediile raportate pentru nou-născuții la termen.<br /><br /><strong>Exemplu:</strong> 4,8 kg este peste media tipică.</span></span>",
+          "<span class='tip'><strong>Greutate medie 4,5–5 kg și lungime 60 cm</strong><span class='tooltip-box'><strong>Distractor:</strong> sunt valori prea mari pentru media la naștere.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4039,7 +4030,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Greutatea scade cu aproximativ 5% în primele 3–4 zile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> e un proces normal.<br /><br /><strong>Formulare academică:</strong> scăderea inițială este fiziologică și se recuperează ulterior.<br /><br /><strong>Exemplu:</strong> scădere ușoară, apoi revenire.</span></span>",
-          "<span class='tip'><strong>Greutatea crește constant din prima zi</strong><span class='tooltip-box'><strong>Spus simplu:</strong> în realitate apare o scădere inițială.<br /><br /><strong>Formulare academică:</strong> primele zile includ o pierdere fiziologică de greutate, nu o creștere continuă.<br /><br /><strong>Exemplu:</strong> -5% în primele 3–4 zile.</span></span>",
+          "<span class='tip'><strong>Greutatea crește constant din prima zi</strong><span class='tooltip-box'><strong>Distractor:</strong> în realitate apare o scădere inițială.<br /><br /><strong>Formulare academică:</strong> primele zile includ o pierdere fiziologică de greutate, nu o creștere continuă.<br /><br /><strong>Exemplu:</strong> -5% în primele 3–4 zile.</span></span>",
         ],
         answer: 0,
       },
@@ -4059,7 +4050,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>La 1 an: 70–80 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> acesta este intervalul tipic.<br /><br /><strong>Formulare academică:</strong> media se situează în jurul acestui interval.<br /><br /><strong>Exemplu:</strong> ~75 cm.</span></span>",
           "<span class='tip'><strong>La 2 ani: 85–90 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creșterea continuă, dar mai lent.<br /><br /><strong>Formulare academică:</strong> al doilea an adaugă aproximativ 10–15 cm.<br /><br /><strong>Exemplu:</strong> ~88 cm.</span></span>",
-          "<span class='tip'><strong>La 1 an: 90–95 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> intervalul este prea mare pentru 1 an.<br /><br /><strong>Formulare academică:</strong> înălțimea medie la 1 an este mai aproape de 70–80 cm.<br /><br /><strong>Exemplu:</strong> ~75 cm, nu ~95 cm.</span></span>",
+          "<span class='tip'><strong>La 1 an: 90–95 cm</strong><span class='tooltip-box'><strong>Distractor:</strong> intervalul este prea mare pentru 1 an.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4069,7 +4060,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>La naștere, capul reprezintă aproximativ 25% din lungimea corpului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> capul este proporțional mai mare.<br /><br /><strong>Formulare academică:</strong> proporția este ~25% la naștere.<br /><br /><strong>Exemplu:</strong> cap mare raportat la corp.</span></span>",
           "<span class='tip'><strong>La ~25 de ani, capul reprezintă aproximativ 20%</strong><span class='tooltip-box'><strong>Spus simplu:</strong> ponderea scade odată cu creșterea corpului.<br /><br /><strong>Formulare academică:</strong> proporția capului scade treptat până la adult.<br /><br /><strong>Exemplu:</strong> corpul devine mai „alungit”.</span></span>",
-          "<span class='tip'><strong>La naștere, capul este doar 10% din lungimea corpului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> capul este proporțional mult mai mare la naștere.<br /><br /><strong>Formulare academică:</strong> proporția capului este ~25% la naștere, nu 10%.<br /><br /><strong>Exemplu:</strong> cap vizibil mai mare raportat la corp.</span></span>",
+          "<span class='tip'><strong>La naștere, capul este doar 10% din lungimea corpului</strong><span class='tooltip-box'><strong>Distractor:</strong> proporția capului este ~25% la naștere, nu 10%.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4078,7 +4069,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Primele 4 săptămâni după naștere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> 28 de zile.<br /><br /><strong>Formulare academică:</strong> perioada neonatală este intervalul de 0–28 de zile de viață extrauterină.<br /><br /><strong>Exemplu:</strong> primele săptămâni de adaptare.</span></span>",
-          "<span class='tip'><strong>Primele 6 luni după naștere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> perioada neonatală este mult mai scurtă.<br /><br /><strong>Formulare academică:</strong> neonatologia se referă strict la primele 4 săptămâni, nu la 6 luni.<br /><br /><strong>Exemplu:</strong> 28 de zile, nu 180.</span></span>",
+          "<span class='tip'><strong>Primele 6 luni după naștere</strong><span class='tooltip-box'><strong>Distractor:</strong> perioada neonatală este mult mai scurtă.</span></span>",
         ],
         answer: 0,
       },
@@ -4087,7 +4078,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Sub 2.500 g</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta este limita standard.<br /><br /><strong>Formulare academică:</strong> sub 2.500 g definește greutatea mică la naștere.<br /><br /><strong>Exemplu:</strong> 2,3 kg.</span></span>",
-          "<span class='tip'><strong>Peste 3.500 g</strong><span class='tooltip-box'><strong>Spus simplu:</strong> aceasta nu înseamnă greutate mică.<br /><br /><strong>Formulare academică:</strong> greutatea mică este sub 2.500 g, deci 3.500 g este normală sau mare.<br /><br /><strong>Exemplu:</strong> 3,6 kg nu indică subponderalitate.</span></span>",
+          "<span class='tip'><strong>Peste 3.500 g</strong><span class='tooltip-box'><strong>Distractor:</strong> aceasta nu înseamnă greutate mică.<br /><br /><strong>Formulare academică:</strong> greutatea mică este sub 2.500 g, deci 3.500 g este normală sau mare.<br /><br /><strong>Exemplu:</strong> 3,6 kg nu indică subponderalitate.</span></span>",
         ],
         answer: 0,
       },
@@ -4235,7 +4226,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Focalizare optimă la ~20–25 cm</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vede cel mai bine de aproape.<br /><br /><strong>Formulare academică:</strong> focalizarea optimă în primele săptămâni este la distanță mică.<br /><br /><strong>Exemplu:</strong> distanța dintre fața mamei și copil la alăptare.</span></span>",
           "<span class='tip'><strong>Acuitate scăzută la naștere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> vede neclar la început.<br /><br /><strong>Formulare academică:</strong> acuitatea vizuală este redusă la debut și se îmbunătățește progresiv.<br /><br /><strong>Exemplu:</strong> distinge contururi, nu detalii fine.</span></span>",
-          "<span class='tip'><strong>Vedere perfectă la naștere</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu are vedere de adult din prima zi.<br /><br /><strong>Formulare academică:</strong> acuitatea vizuală este limitată la naștere și se dezvoltă treptat.<br /><br /><strong>Exemplu:</strong> vede mai clar la distanță mică.<br /><br /><strong>Distractor:</strong> acuitatea se dezvoltă treptat.</span></span>",
+          "<span class='tip'><strong>Vedere perfectă la naștere</strong><span class='tooltip-box'><strong>Distractor:</strong> acuitatea se dezvoltă treptat.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4310,7 +4301,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>Foneme și morfeme</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sunete și unități mici de sens.<br /><br /><strong>Formulare academică:</strong> fonemele sunt unități sonore, morfemele sunt unități minime de sens.<br /><br /><strong>Exemplu:</strong> sunetul „m” și morfemul de plural „-i”.</span></span>",
           "<span class='tip'><strong>Semantică și sintaxă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> sensul și regulile propozițiilor.<br /><br /><strong>Formulare academică:</strong> semantica se referă la sens, iar sintaxa la regulile de combinare a cuvintelor.<br /><br /><strong>Exemplu:</strong> „pisica bea lapte” are sens și ordine corectă.</span></span>",
           "<span class='tip'><strong>Pragmatică și context</strong><span class='tooltip-box'><strong>Spus simplu:</strong> cum folosești limbajul în situații reale.<br /><br /><strong>Formulare academică:</strong> pragmatica descrie adecvarea limbajului la contextul social.<br /><br /><strong>Exemplu:</strong> spui „te rog” când ceri ceva.</span></span>",
-          "<span class='tip'><strong>Doar vocabular</strong><span class='tooltip-box'><strong>Spus simplu:</strong> limbajul nu e doar o listă de cuvinte.<br /><br /><strong>Formulare academică:</strong> limbajul include și reguli, sens și utilizare contextuală, nu doar vocabular.<br /><br /><strong>Exemplu:</strong> fără reguli și context, cuvintele nu formează comunicare.<br /><br /><strong>Distractor:</strong> limbajul nu înseamnă doar cuvinte izolate.</span></span>",
+          "<span class='tip'><strong>Doar vocabular</strong><span class='tooltip-box'><strong>Distractor:</strong> limbajul nu înseamnă doar cuvinte izolate.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -4373,7 +4364,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Tiparul înnăscut de reactivitate și autoreglare</strong><span class='tooltip-box'><strong>Spus simplu:</strong> „stilul de bază” al copilului.<br /><br /><strong>Formulare academică:</strong> temperamentul reflectă diferențe biologice timpurii în reactivitate și reglare.<br /><br /><strong>Exemplu:</strong> un copil se liniștește repede, altul mai greu.</span></span>",
-          "<span class='tip'><strong>Lista completă a trăsăturilor de personalitate mature</strong><span class='tooltip-box'><strong>Spus simplu:</strong> temperamentul nu e personalitatea completă.<br /><br /><strong>Formulare academică:</strong> temperamentul este o bază timpurie, nu un profil matur de personalitate.<br /><br /><strong>Exemplu:</strong> reactivitatea timpurie nu descrie valori, scopuri sau caracter.<br /><br /><strong>Distractor:</strong> temperamentul este baza timpurie, nu personalitatea completă.</span></span>",
+          "<span class='tip'><strong>Lista completă a trăsăturilor de personalitate mature</strong><span class='tooltip-box'><strong>Distractor:</strong> temperamentul este baza timpurie, nu personalitatea completă.</span></span>",
         ],
         answer: 0,
       },
@@ -4450,7 +4441,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>Înălțime: ~7,5–8 cm pe an</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câțiva centimetri anual.<br /><br /><strong>Formulare academică:</strong> creșterea în înălțime este moderată în intervalul 1–3 ani.<br /><br /><strong>Exemplu:</strong> copilul crește aproximativ o palmă pe an.</span></span>",
           "<span class='tip'><strong>Greutate: ~1,6–2,5 kg pe an</strong><span class='tooltip-box'><strong>Spus simplu:</strong> câteva kilograme anual.<br /><br /><strong>Formulare academică:</strong> câștigul ponderal anual este relativ stabil în acest interval.<br /><br /><strong>Exemplu:</strong> 2 kg în plus într-un an.</span></span>",
           "<span class='tip'><strong>Creșterea are loc în rafale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu crește uniform lună de lună.<br /><br /><strong>Formulare academică:</strong> patternul este discontinuu, cu perioade de accelerare și pauze.<br /><br /><strong>Exemplu:</strong> hainele devin brusc mici, apoi rămân potrivite o vreme.</span></span>",
-          "<span class='tip'><strong>Creștere de ~15 cm pe an</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prea mult pentru această vârstă.<br /><br /><strong>Formulare academică:</strong> ritmul acesta este specific etapelor mai timpurii, nu 1–3 ani.<br /><br /><strong>Exemplu:</strong> 15 cm este mai aproape de primul an de viață.<br /><br /><strong>Distractor:</strong> depășește valorile tipice.</span></span>",
+          "<span class='tip'><strong>Creștere de ~15 cm pe an</strong><span class='tooltip-box'><strong>Distractor:</strong> depășește valorile tipice.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -4469,7 +4460,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Apetitul este mai redus</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mănâncă mai puțin decât în primul an.<br /><br /><strong>Formulare academică:</strong> ritmul de creștere mai lent reduce nevoia energetică.<br /><br /><strong>Exemplu:</strong> mese mai mici, mai dese.</span></span>",
           "<span class='tip'><strong>Necesarul este ~1.000–1.400 kcal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu au nevoie de foarte multe calorii.<br /><br /><strong>Formulare academică:</strong> interval recomandat pentru 2–3 ani.<br /><br /><strong>Exemplu:</strong> 1.200 kcal într-o zi activă.</span></span>",
-          "<span class='tip'><strong>Necesarul este ~2.500–3.000 kcal</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prea mare pentru această vârstă.<br /><br /><strong>Formulare academică:</strong> valori specifice adolescenților sau adulților.<br /><br /><strong>Exemplu:</strong> 2.800 kcal la sportiv adult.<br /><br /><strong>Distractor:</strong> depășește intervalul tipic.</span></span>",
+          "<span class='tip'><strong>Necesarul este ~2.500–3.000 kcal</strong><span class='tooltip-box'><strong>Distractor:</strong> depășește intervalul tipic.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4480,7 +4471,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>Ajunge la ~75% din greutatea adultului</strong><span class='tooltip-box'><strong>Spus simplu:</strong> creierul este deja foarte dezvoltat ca mărime.<br /><br /><strong>Formulare academică:</strong> la 3 ani, masa cerebrală este aproximativ trei sferturi din cea adultă.<br /><br /><strong>Exemplu:</strong> schimbări rapide în funcții cognitive.</span></span>",
           "<span class='tip'><strong>Mielinizarea și dezvoltarea dendritelor continuă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> conexiunile devin mai eficiente.<br /><br /><strong>Formulare academică:</strong> mielinizarea optimizează transmiterea impulsurilor, iar dendritele cresc rețelele neuronale.<br /><br /><strong>Exemplu:</strong> răspunsuri mai rapide și coordonate.</span></span>",
           "<span class='tip'><strong>Cortexul prefrontal sprijină controlul atenției și emoțiilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> copilul își poate controla mai bine reacțiile.<br /><br /><strong>Formulare academică:</strong> maturizarea prefrontală crește inhibiția comportamentală și reglarea emoțională.<br /><br /><strong>Exemplu:</strong> mai puține izbucniri emoționale.</span></span>",
-          "<span class='tip'><strong>Creierul ajunge la 100% din greutatea adultului până la 3 ani</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este prea devreme pentru maturizare completă.<br /><br /><strong>Formulare academică:</strong> la 3 ani este ~75%, nu 100%.<br /><br /><strong>Exemplu:</strong> maturizarea completă continuă după această vârstă.<br /><br /><strong>Distractor:</strong> supraestimează dezvoltarea.</span></span>",
+          "<span class='tip'><strong>Creierul ajunge la 100% din greutatea adultului până la 3 ani</strong><span class='tooltip-box'><strong>Distractor:</strong> este prea devreme pentru maturizare completă.<br /><br /><strong>Formulare academică:</strong> la 3 ani este ~75%, nu 100%.<br /><br /><strong>Exemplu:</strong> maturizarea completă continuă după această vârstă.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -4505,7 +4496,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Alergare, țopăit, sărit</strong><span class='tooltip-box'><strong>Spus simplu:</strong> mișcări de locomoție.<br /><br /><strong>Formulare academică:</strong> abilități de deplasare se consolidează în această perioadă.<br /><br /><strong>Exemplu:</strong> aleargă prin curte.</span></span>",
           "<span class='tip'><strong>Aruncare, prindere, lovire cu piciorul</strong><span class='tooltip-box'><strong>Spus simplu:</strong> control al obiectelor.<br /><br /><strong>Formulare academică:</strong> dezvoltarea controlului asupra obiectelor prin coordonare vizual-motorie.<br /><br /><strong>Exemplu:</strong> aruncă mingea.</span></span>",
-          "<span class='tip'><strong>Scriere cursivă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare mult mai târziu.<br /><br /><strong>Formulare academică:</strong> scrierea cursivă este specifică etapelor școlare.<br /><br /><strong>Exemplu:</strong> litere legate.<br /><br /><strong>Distractor:</strong> nu este specifică 1–3 ani.</span></span>",
+          "<span class='tip'><strong>Scriere cursivă</strong><span class='tooltip-box'><strong>Distractor:</strong> nu este specifică 1–3 ani.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -4516,7 +4507,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>Turnarea apei într-un recipient</strong><span class='tooltip-box'><strong>Spus simplu:</strong> coordonare mână-ochi.<br /><br /><strong>Formulare academică:</strong> activitate fină care cere precizie.<br /><br /><strong>Exemplu:</strong> toarnă din cană.</span></span>",
           "<span class='tip'><strong>Desenare, colorare, decupare cu foarfeca</strong><span class='tooltip-box'><strong>Spus simplu:</strong> își controlează mai bine mâna.<br /><br /><strong>Formulare academică:</strong> activități grafice susțin rafinarea motrică fină.<br /><br /><strong>Exemplu:</strong> colorează în contur.</span></span>",
           "<span class='tip'><strong>Încheierea nasturilor</strong><span class='tooltip-box'><strong>Spus simplu:</strong> necesită mișcări precise.<br /><br /><strong>Formulare academică:</strong> sarcină de coordonare bilaterală a mâinilor.<br /><br /><strong>Exemplu:</strong> își închide haina.</span></span>",
-          "<span class='tip'><strong>Scriere cursivă și dictare corectă</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare mult mai târziu.<br /><br /><strong>Formulare academică:</strong> scrierea cursivă este specifică vârstelor școlare, nu 1–3 ani.<br /><br /><strong>Exemplu:</strong> propoziții scrise fluent.<br /><br /><strong>Distractor:</strong> vârstă nepotrivită.</span></span>",
+          "<span class='tip'><strong>Scriere cursivă</strong><span class='tooltip-box'><strong>Distractor:</strong> vârstă nepotrivită.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -4536,7 +4527,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
           "<span class='tip'><strong>~2 ani: multe tipuri de mâzgălire</strong><span class='tooltip-box'><strong>Spus simplu:</strong> experimentează cu urme grafice.<br /><br /><strong>Formulare academică:</strong> există o varietate de tipuri de mâzgălire timpurie.<br /><br /><strong>Exemplu:</strong> linii scurte, puncte, cercuri.</span></span>",
           "<span class='tip'><strong>~3 ani: folosește structura mâzgălirilor pentru forme</strong><span class='tooltip-box'><strong>Spus simplu:</strong> începe să facă forme.<br /><br /><strong>Formulare academică:</strong> combină forme simple pentru imagini mai complexe.<br /><br /><strong>Exemplu:</strong> cercuri și linii pentru „om”.</span></span>",
           "<span class='tip'><strong>~4–5 ani: imagini recognoscibile</strong><span class='tooltip-box'><strong>Spus simplu:</strong> desenele seamănă cu realitatea.<br /><br /><strong>Formulare academică:</strong> apar reprezentări mai coerente ale lumii.<br /><br /><strong>Exemplu:</strong> casă, persoană, animale.</span></span>",
-          "<span class='tip'><strong>~3 ani: desene realiste cu proporții adulte</strong><span class='tooltip-box'><strong>Spus simplu:</strong> este prea devreme pentru realism complex.<br /><br /><strong>Formulare academică:</strong> realismul apare mult mai târziu, după consolidarea coordonării și percepției.<br /><br /><strong>Exemplu:</strong> perspectivă corectă și detalii fine.<br /><br /><strong>Distractor:</strong> supraestimează dezvoltarea grafică.</span></span>",
+          "<span class='tip'><strong>~3 ani: desene realiste cu proporții adulte</strong><span class='tooltip-box'><strong>Distractor:</strong> supraestimează dezvoltarea grafică.</span></span>",
         ],
         answer: [0, 1, 2],
       },
@@ -4545,7 +4536,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Este o funcție a dezvoltării motorii, perceptive și cognitive</strong><span class='tooltip-box'><strong>Spus simplu:</strong> totul evoluează împreună.<br /><br /><strong>Formulare academică:</strong> progresul în coordonare și reprezentare mentală modifică desenul.<br /><br /><strong>Exemplu:</strong> detalii faciale mai multe.</span></span>",
-          "<span class='tip'><strong>Se schimbă doar pentru că adulții impun reguli</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu e doar imitație, e dezvoltare.<br /><br /><strong>Formulare academică:</strong> schimbările sunt legate de maturizare și experiență, nu exclusiv de instruire.<br /><br /><strong>Exemplu:</strong> copilul produce spontan forme noi.<br /><br /><strong>Distractor:</strong> nu explică mecanismul principal.</span></span>",
+          "<span class='tip'><strong>Se schimbă doar pentru că adulții impun reguli</strong><span class='tooltip-box'><strong>Distractor:</strong> nu explică mecanismul principal.<br /><br /><strong>Formulare academică:</strong> schimbările sunt legate de maturizare și experiență, nu exclusiv de instruire.<br /><br /><strong>Exemplu:</strong> copilul produce spontan forme noi.</span></span>",
         ],
         answer: 0,
       },
@@ -4560,7 +4551,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Experimentare activă cu acțiuni variate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> schimbă acțiunea ca să vadă efecte noi.<br /><br /><strong>Formulare academică:</strong> explorează relația acțiune–rezultat prin variații controlate.<br /><br /><strong>Exemplu:</strong> lovește aceeași jucărie în moduri diferite.</span></span>",
-          "<span class='tip'><strong>Rezolvarea problemelor doar prin reguli verbale</strong><span class='tooltip-box'><strong>Spus simplu:</strong> nu este vorba de reguli verbale încă.<br /><br /><strong>Formulare academică:</strong> stadiul este senzorio-motor, bazat pe acțiune, nu pe verbalizare.<br /><br /><strong>Exemplu:</strong> nu poate explica verbal pașii.<br /><br /><strong>Distractor:</strong> nu corespunde vârstei.</span></span>",
+          "<span class='tip'><strong>Rezolvarea problemelor doar prin reguli verbale</strong><span class='tooltip-box'><strong>Distractor:</strong> nu corespunde vârstei.</span></span>",
         ],
         answer: 0,
       },
@@ -4569,7 +4560,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         multiple: false,
         options: [
           "<span class='tip'><strong>Soluția este identificată mental, fără încercări repetate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> se gândește înainte să acționeze.<br /><br /><strong>Formulare academică:</strong> se dezvoltă reprezentarea mentală a mijloacelor și scopurilor.<br /><br /><strong>Exemplu:</strong> mută un scaun ca să ajungă la raft.</span></span>",
-          "<span class='tip'><strong>Acțiunea este întotdeauna aleatorie, fără plan</strong><span class='tooltip-box'><strong>Spus simplu:</strong> apare planificarea, nu haosul.<br /><br /><strong>Formulare academică:</strong> stadiul marchează trecerea spre gândire reprezentativă.<br /><br /><strong>Exemplu:</strong> alege un instrument potrivit.<br /><br /><strong>Distractor:</strong> neagă noutatea stadiului.</span></span>",
+          "<span class='tip'><strong>Acțiunea este întotdeauna aleatorie, fără plan</strong><span class='tooltip-box'><strong>Distractor:</strong> neagă noutatea stadiului.</span></span>",
         ],
         answer: 0,
       },
@@ -4633,7 +4624,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         options: [
           "<span class='tip'><strong>Declarativă: fapte și evenimente conștiente</strong><span class='tooltip-box'><strong>Spus simplu:</strong> poți povesti ce știi.<br /><br /><strong>Formulare academică:</strong> include memoria semantică și episodică.<br /><br /><strong>Exemplu:</strong> „mâine am examen”.</span></span>",
           "<span class='tip'><strong>Nedeclarativă: abilități automate</strong><span class='tooltip-box'><strong>Spus simplu:</strong> faci fără să explici.<br /><br /><strong>Formulare academică:</strong> memorie implicită, procedurală.<br /><br /><strong>Exemplu:</strong> să ții creionul.</span></span>",
-          "<span class='tip'><strong>Declarativă: doar reflexe</strong><span class='tooltip-box'><strong>Spus simplu:</strong> reflexele sunt implicite.<br /><br /><strong>Formulare academică:</strong> reflexele nu sunt amintiri declarative.<br /><br /><strong>Exemplu:</strong> prinderea reflexă.<br /><br /><strong>Distractor:</strong> confundă tipurile.</span></span>",
+          "<span class='tip'><strong>Declarativă: doar reflexe</strong><span class='tooltip-box'><strong>Distractor:</strong> reflexele nu țin de memoria declarativă.</span></span>",
         ],
         answer: [0, 1],
       },
@@ -5473,7 +5464,7 @@ Tensiunile interioare apar din conflictul dintre cerințele externe și capacit�
         answer: 0,
       },
       {
-        text: "Cum devin <span class='tip'><strong>prietenii și semeni?</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prietenia devine mai importantă și mai stabilă.<br /><br /><strong>Formulare academică:</strong> interacțiunile cu egalii influențează stima de sine și învățarea abilităților sociale.<br /><br /><strong>Exemplu:</strong> acceptarea colegilor contează mult.</span></span> în copilăria mijlocie?",
+        text: "Cum devin <span class='tip'><strong>prietenii și semeni</strong><span class='tooltip-box'><strong>Spus simplu:</strong> prietenia devine mai importantă și mai stabilă.<br /><br /><strong>Formulare academică:</strong> interacțiunile cu egalii influențează stima de sine și învățarea abilităților sociale.<br /><br /><strong>Exemplu:</strong> acceptarea colegilor contează mult.</span></span> în copilăria mijlocie?",
         multiple: true,
         options: [
           "<span class='tip'><strong>Capătă o importanță crescută pentru stima de sine</strong><span class='tooltip-box'><strong>Spus simplu:</strong> contează mult să fii acceptat.<br /><br /><strong>Formulare academică:</strong> colegii devin judecători ai valorii personale.<br /><br /><strong>Exemplu:</strong> respingerea afectează emoțional.</span></span>",
@@ -9855,10 +9846,10 @@ window.PDEZV_LESSONS = {
 
     <hr />
 
-    <h2>🧬 Tipuri de schimbări urmărite</h2>
+    <h2>🔎 Tipuri de schimbări urmărite</h2>
     <div class="lesson-grid three">
       <div class="lesson-card">
-        <h3>🧱 Schimbări somatice</h3>
+        <h3>🧍🏻 Schimbări somatice</h3>
         <p><strong>Planul fizic al dezvoltării.</strong></p>
         <hr />
         <ul>
@@ -10563,7 +10554,7 @@ window.PDEZV_LESSONS = {
             <span class='tip'>Schimbare ontogenetică
               <span class='tooltip-box'>
                 <strong>Spus simplu:</strong> descrie transformările persoanei de la începutul vieții până la vârste târzii.<br /><br />
-                <strong>Formulare academică:</strong> dezvoltarea include acumulări cantitative și reorganizări calitative cu rol adaptativ.<br /><br />
+                <strong>Formulare academică:</strong> Dezvoltarea este un proces ontogenetic complex care include creștere biologică, maturizare funcțională și transformări psihice și sociale determinate de interacțiunea dintre ereditate, mediu și educație.<br /><br />
                 <strong>Exemplu:</strong> limbajul și autocontrolul apar și se rafinează etapizat.
               </span>
             </span>
@@ -10701,7 +10692,7 @@ window.PDEZV_LESSONS = {
         </ul>
       </div>
       <div class="lesson-card">
-        <div class="lesson-step-emoji">🔄</div>
+        <div class="lesson-step-emoji">🧩</div>
         <h3>🧩 Procese și acțiuni complexe</h3>
         <p><strong>Enumeră funcțiile psihice.</strong></p>
         <hr />
@@ -10763,7 +10754,13 @@ window.PDEZV_LESSONS = {
       </div>
       <div class="lesson-card">
         <h3>🧾 Genotip</h3>
-        <p><strong>Etimologie: genos + typos.</strong></p>
+        <p><strong>Etimologie:</strong> <span class="tip">genos + typos
+      <span class="tooltip-box">
+        <strong>genos:</strong> origine, naștere, neam<br /><br />
+        <strong>typos:</strong> tipar, structură stabilă<br /><br />
+        <strong>De ce contează:</strong> genotipul trimite la „tiparul de origine” al individului, adică informația ereditară transmisă la naștere, relativ stabilă și independentă de experiență.
+      </span>
+    </span></p>
         <hr />
         <ul>
           <li>
@@ -10779,7 +10776,13 @@ window.PDEZV_LESSONS = {
       </div>
       <div class="lesson-card">
         <h3>🪞 Fenotip</h3>
-        <p><strong>Etimologie: phainein + typos.</strong></p>
+        <p><strong>Etimologie:</strong> <span class="tip">phainein + typos
+      <span class="tooltip-box">
+        <strong>phainein:</strong> a face vizibil, a arăta, a se manifesta<br /><br />
+        <strong>typos:</strong> tipar, formă<br /><br />
+        <strong>De ce contează:</strong> fenotipul înseamnă „tiparul care se face vizibil”, adică modul concret în care potențialul genetic se exprimă în condiții reale de viață.
+      </span>
+    </span></p>
         <hr />
         <ul>
           <li>
@@ -10887,8 +10890,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>⏳ Ritmuri ale dezvoltării</h2>
-    <div class="lesson-grid three colorful">
-      <div class="lesson-card">
+    <div class="lesson-grid">
+      <div class="lesson-card tint-amber">
         <h3>🧸 Copilărie timpurie (0–6 ani)</h3>
         <p><strong>Enumeră intensitatea maximă.</strong></p>
         <hr />
@@ -10904,7 +10907,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-indigo">
         <h3>🧑 Tinerețe și adult</h3>
         <p><strong>Precizează reducerea ritmului biologic.</strong></p>
         <hr />
@@ -10920,8 +10923,8 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
-        <h3>🎯 Accent psihic și social</h3>
+      <div class="lesson-card tint-indigo">
+        <h3>🧑 Tinerețe și adult</h3>
         <p><strong>Arată schimbarea de preponderență.</strong></p>
         <hr />
         <ul>
@@ -11048,8 +11051,6 @@ window.PDEZV_LESSONS = {
       <div class="lesson-card">
         <div class="lesson-step-emoji">📏</div>
         <h3>📏 Distanța dintre actual și potențial</h3>
-        <p><strong>Definește ZPD.</strong></p>
-        <hr />
         <ul>
           <li>
             <span class='tip'>Ce poate singur vs. cu sprijin
@@ -11065,8 +11066,6 @@ window.PDEZV_LESSONS = {
       <div class="lesson-card">
         <div class="lesson-step-emoji">🎯</div>
         <h3>🎯 Indicație pedagogică</h3>
-        <p><strong>Arată unde intervenția e eficientă.</strong></p>
-        <hr />
         <ul>
           <li>
             <span class='tip'>Sprijinul de azi devine competență mâine
@@ -11324,8 +11323,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>📌 Teorii</h2>
-<div class="lesson-grid one">
-  <div class="lesson-card">
+<div class="lesson-grid">
+  <div class="lesson-card tint-sky">
     <h3>🧿 Freud — dezvoltarea personalității</h3>
     <hr />
     <ul>
@@ -11342,7 +11341,7 @@ window.PDEZV_LESSONS = {
     </ul>
   </div>
 
-  <div class="lesson-card">
+  <div class="lesson-card tint-violet">
     <h3>🧭 Erikson — dezvoltarea psihosocială</h3>
     <hr />
     <ul>
@@ -11359,7 +11358,7 @@ window.PDEZV_LESSONS = {
     </ul>
   </div>
 
-  <div class="lesson-card">
+  <div class="lesson-card tint-teal">
     <h3>🧩 Piaget — dezvoltarea cognitivă</h3>
     <hr />
     <ul>
@@ -11369,14 +11368,14 @@ window.PDEZV_LESSONS = {
             <strong>Spus simplu:</strong> gândirea se reorganizează în trepte.<br /><br />
             <strong>Formulare academică:</strong> Piaget explică dezvoltarea cognitivă prin stadii succesive ale structurilor de gândire.<br /><br />
             <strong>Etape:</strong> senzoriomotor, preoperațional, operații concrete, operații formale.<br /><br />
-            <strong>Exemplu:</strong> trecerea de la operații concrete la raționamente ipotetico deductive.
+            <strong>Exemplu:</strong> trecerea de la operații concrete la raționamente ipotetico-deductive.
           </span>
         </span>
       </li>
     </ul>
   </div>
 
-  <div class="lesson-card">
+  <div class="lesson-card tint-coral">
     <h3>⚖️ Kohlberg — dezvoltarea morală</h3>
     <hr />
     <ul>
@@ -11393,7 +11392,7 @@ window.PDEZV_LESSONS = {
     </ul>
   </div>
 
-  <div class="lesson-card">
+  <div class="lesson-card tint-lime">
     <h3>🤲 Gilligan — etica grijii</h3>
     <hr />
     <ul>
@@ -11780,8 +11779,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>🧑 Stadiile adulte și vârsta târzie</h2>
-    <div class="lesson-grid two colorful">
-      <div class="lesson-card">
+    <div class="lesson-grid">
+      <div class="lesson-card tint-lime">
         <h3>🤝 Intimitate vs. Izolare (19–40 ani)</h3>
 <p><strong>Virtute: maturitatea sexuală și relațională.</strong></p>
         <hr />
@@ -11797,7 +11796,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-teal">
         <h3>🌱 Generativitate vs. Stagnare (41–65 ani)</h3>
         <p><strong>Virtute: grija.</strong></p>
         <hr />
@@ -11813,7 +11812,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-coral">
         <h3>🧘 Integritate vs. Disperare (65+)</h3>
         <p><strong>Virtute: înțelepciunea.</strong></p>
         <hr />
@@ -13785,8 +13784,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>🧬 Tulburări bazate pe gene</h2>
-    <div class="lesson-grid three colorful">
-      <div class="lesson-card">
+    <div class="lesson-grid">
+      <div class="lesson-card tint-sky">
         <h3>🩸 Siclemia</h3>
         <p><strong>Boală a sângelui moștenită.</strong></p>
         <hr />
@@ -13802,7 +13801,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-pink">
         <h3>🧪 Tay‑Sachs</h3>
         <p><strong>Boală fatală în copilărie.</strong></p>
         <hr />
@@ -13818,7 +13817,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-slate">
         <h3>🧫 PKU și spina bifida</h3>
         <p><strong>Screening și prevenție.</strong></p>
         <hr />
@@ -13836,7 +13835,7 @@ window.PDEZV_LESSONS = {
             <span class='tip'>Spina bifida - defect al coloanei
               <span class='tooltip-box'>
                 <strong>Spus simplu:</strong> riscul scade cu acid folic.<br /><br />
-                <strong>Formulare academică:</strong> suplimentarea cu acid folic reduce incidența spinei bifida (Papalia și colab., 2003).<br /><br />
+                <strong>Formulare academică:</strong> suplimentarea cu acid folic (vitamina B9) reduce incidența spinei bifida (Papalia și colab., 2003).<br /><br />
                 <strong>Exemplu:</strong> prevenție înainte de sarcină.
               </span>
             </span>
@@ -14103,7 +14102,7 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>📍 Fazele travaliului</h2>
-    <div class="lesson-grid three">
+    <div class="lesson-grid three colorful">
       <div class="lesson-card">
         <h3>Faza incipientă</h3>
         <p><strong>Contracții ușoare.</strong></p>
@@ -15711,8 +15710,8 @@ window.PDEZV_LESSONS = {
     <hr />
 
     <h2>🔗 Atașament (Ainsworth)</h2>
-    <div class="lesson-grid two colorful">
-      <div class="lesson-card">
+    <div class="lesson-grid">
+      <div class="lesson-card tint-emerald">
         <div class="lesson-step-emoji">✅</div>
         <h3>Securizant</h3>
         <p><strong>~65%.</strong></p>
@@ -15729,7 +15728,7 @@ window.PDEZV_LESSONS = {
           </li>
         </ul>
       </div>
-      <div class="lesson-card">
+      <div class="lesson-card tint-amber">
         <div class="lesson-step-emoji">⚠️</div>
         <h3>Nesecurizant</h3>
         <p><strong>Evitant / ambivalent / dezorganizat.</strong></p>
